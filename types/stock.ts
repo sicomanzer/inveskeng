@@ -17,7 +17,7 @@ export interface StockItem {
   evEbitda: number | null; // EV/EBITDA
   marketCap: number | null; // Market Cap
   marketCapFormatted: string; // e.g. "3.56B" or "$11.06B"
-  epsGrowth5y: number | null; // 5-Year EPS Growth Rate %
+  epsGrowth5y: number | null; // 5-Year EPS Growth Rate
   changeOneDayPercent: number; // 1-Day Price Change %
   financialHealth: string; // Overall Financial Health
   financialCashFlowHealth?: string; // Cash Flow Rating
@@ -31,9 +31,51 @@ export interface StockItem {
   locked?: boolean;
 }
 
-export function formatRatingText(val?: string | null): string {
-  if (!val) return '-';
-  const upper = val.toUpperCase();
+export function formatRatingText(val?: string | null, isThai: boolean = false): string {
+  if (!val || val === '-' || val === '') return '-';
+  const upper = val.toUpperCase().trim();
+
+  if (isThai) {
+    switch (upper) {
+      case 'EXCELLENT':
+        return 'ดีเยี่ยม';
+      case 'GREAT':
+        return 'ดีมาก';
+      case 'GOOD':
+        return 'ดี';
+      case 'FAIR':
+        return 'มูลค่าตามจริง';
+      case 'POOR':
+      case 'WEAK':
+        return 'แย่';
+      case 'STRONG_BUY':
+        return 'ซื้อทันที';
+      case 'BUY':
+        return 'ซื้อ';
+      case 'NEUTRAL':
+      case 'HOLD':
+        return 'ถือหุ้นไว้';
+      case 'SELL':
+        return 'ขาย';
+      case 'STRONG_SELL':
+        return 'ขายทันที';
+      case 'ดีเยี่ยม':
+      case 'ดีมาก':
+      case 'ดี':
+      case 'มูลค่าตามจริง':
+      case 'แย่':
+      case 'ซื้อทันที':
+      case 'ซื้อ':
+      case 'ถือหุ้นไว้':
+      case 'ขาย':
+      case 'ขายทันที':
+        return val;
+      default:
+        return val;
+    }
+  }
+
+  // English
   switch (upper) {
     case 'EXCELLENT':
       return 'Excellent';
@@ -64,7 +106,7 @@ export function formatRatingText(val?: string | null): string {
 }
 
 export function getRatingColor(val?: string | null): string {
-  if (!val) return 'text-[#5B616E] dark:text-[#9CA3AF]';
+  if (!val || val === '-') return 'text-[#5B616E] dark:text-[#9CA3AF]';
   const text = val.trim();
   switch (text) {
     case 'EXCELLENT':
@@ -73,8 +115,8 @@ export function getRatingColor(val?: string | null): string {
     case 'Great':
     case 'Strong Buy':
     case 'Buy':
-    case 'ยอดเยี่ยมมาก':
-    case 'ยอดเยี่ยม':
+    case 'ดีเยี่ยม':
+    case 'ดีมาก':
     case 'ซื้อทันที':
     case 'ซื้อ':
       return 'text-[#007C32] dark:text-[#00C076] font-semibold';
@@ -86,8 +128,8 @@ export function getRatingColor(val?: string | null): string {
     case 'Fair':
     case 'Neutral':
     case 'Hold':
-    case 'ปานกลาง':
-    case 'ถือ':
+    case 'มูลค่าตามจริง':
+    case 'ถือหุ้นไว้':
       return 'text-[#232526] dark:text-[#E5E7EB] font-medium';
     case 'WEAK':
     case 'POOR':
@@ -95,8 +137,8 @@ export function getRatingColor(val?: string | null): string {
     case 'Poor':
     case 'Sell':
     case 'Strong Sell':
-    case 'อ่อนแอ':
     case 'แย่':
+    case 'อ่อนแอ':
     case 'ขาย':
     case 'ขายทันที':
       return 'text-[#D92D20] dark:text-[#F87171] font-semibold';

@@ -28,7 +28,7 @@ interface StockTableProps {
 }
 
 export default function StockTable({ initialData, market }: StockTableProps) {
-  const { lang } = useApp();
+  const { t, lang, formatRating } = useApp();
   const [data, setData] = useState<StockItem[]>(initialData);
   const [sorting, setSorting] = useState<SortingState>([]);
   const [globalFilter, setGlobalFilter] = useState('');
@@ -59,7 +59,7 @@ export default function StockTable({ initialData, market }: StockTableProps) {
             onClick={() => column.toggleSorting(column.getIsSorted() === 'asc')}
             className="flex items-center gap-1 font-semibold text-[#5B616E] dark:text-[#9CA3AF] hover:text-[#232526] dark:hover:text-[#F3F4F6] transition text-xs"
           >
-            Name
+            {t('colName')}
             {column.getIsSorted() === 'asc' ? (
               <ArrowUp className="w-3 h-3 text-[#1256A0] dark:text-[#60A5FA]" />
             ) : column.getIsSorted() === 'desc' ? (
@@ -96,7 +96,7 @@ export default function StockTable({ initialData, market }: StockTableProps) {
             onClick={() => column.toggleSorting(column.getIsSorted() === 'asc')}
             className="flex items-center gap-1 font-semibold text-[#5B616E] dark:text-[#9CA3AF] hover:text-[#232526] dark:hover:text-[#F3F4F6] justify-end w-full text-xs"
           >
-            Price
+            {t('colPrice')}
             {column.getIsSorted() === 'asc' ? (
               <ArrowUp className="w-3 h-3 text-[#1256A0] dark:text-[#60A5FA]" />
             ) : column.getIsSorted() === 'desc' ? (
@@ -119,7 +119,7 @@ export default function StockTable({ initialData, market }: StockTableProps) {
             onClick={() => column.toggleSorting(column.getIsSorted() === 'asc')}
             className="flex items-center gap-1 font-semibold text-[#5B616E] dark:text-[#9CA3AF] hover:text-[#232526] dark:hover:text-[#F3F4F6] justify-end w-full text-xs whitespace-nowrap"
           >
-            Upside
+            {t('colUpside')}
             {column.getIsSorted() === 'asc' ? (
               <ArrowUp className="w-3 h-3 text-[#1256A0] dark:text-[#60A5FA]" />
             ) : column.getIsSorted() === 'desc' ? (
@@ -145,7 +145,7 @@ export default function StockTable({ initialData, market }: StockTableProps) {
             onClick={() => column.toggleSorting(column.getIsSorted() === 'asc')}
             className="flex items-center gap-1 font-semibold text-[#5B616E] dark:text-[#9CA3AF] hover:text-[#232526] dark:hover:text-[#F3F4F6] justify-end w-full text-xs whitespace-nowrap"
           >
-            Fair Value
+            {t('colFairValue')}
             {column.getIsSorted() === 'asc' ? (
               <ArrowUp className="w-3 h-3 text-[#1256A0] dark:text-[#60A5FA]" />
             ) : column.getIsSorted() === 'desc' ? (
@@ -164,15 +164,18 @@ export default function StockTable({ initialData, market }: StockTableProps) {
       {
         accessorKey: 'financialHealth',
         header: () => (
-          <div className="text-left whitespace-nowrap text-xs font-semibold text-[#5B616E] dark:text-[#9CA3AF]">
-            Financial Health
+          <div className="flex items-center gap-1 text-left whitespace-nowrap text-xs font-semibold text-[#5B616E] dark:text-[#9CA3AF]">
+            <span>{t('colHealth')}</span>
+            <span className="inline-flex items-center justify-center w-3.5 h-3.5 rounded-full bg-[#F07504] text-[8px] font-black text-white shrink-0 shadow-xs" title="InvestingPro Metric">
+              P
+            </span>
           </div>
         ),
         cell: ({ row }) => {
-          const text = row.original.financialHealth || '-';
+          const formatted = formatRating(row.original.financialHealth);
           return (
-            <div className={`text-left whitespace-nowrap ${getRatingColor(text)}`}>
-              {text}
+            <div className={`text-left whitespace-nowrap ${getRatingColor(formatted)}`}>
+              {formatted}
             </div>
           );
         },
@@ -180,15 +183,18 @@ export default function StockTable({ initialData, market }: StockTableProps) {
       {
         accessorKey: 'financialCashFlowHealth',
         header: () => (
-          <div className="text-left whitespace-nowrap text-xs font-semibold text-[#5B616E] dark:text-[#9CA3AF]">
-            Cash Flow Rating
+          <div className="flex items-center gap-1 text-left whitespace-nowrap text-xs font-semibold text-[#5B616E] dark:text-[#9CA3AF]">
+            <span>{t('colCashFlow')}</span>
+            <span className="inline-flex items-center justify-center w-3.5 h-3.5 rounded-full bg-[#F07504] text-[8px] font-black text-white shrink-0 shadow-xs" title="InvestingPro Metric">
+              P
+            </span>
           </div>
         ),
         cell: ({ row }) => {
-          const text = row.original.financialCashFlowHealth || '-';
+          const formatted = formatRating(row.original.financialCashFlowHealth);
           return (
-            <div className={`text-left whitespace-nowrap ${getRatingColor(text)}`}>
-              {text}
+            <div className={`text-left whitespace-nowrap ${getRatingColor(formatted)}`}>
+              {formatted}
             </div>
           );
         },
@@ -196,15 +202,18 @@ export default function StockTable({ initialData, market }: StockTableProps) {
       {
         accessorKey: 'financialGrowthHealth',
         header: () => (
-          <div className="text-left whitespace-nowrap text-xs font-semibold text-[#5B616E] dark:text-[#9CA3AF]">
-            Growth Rating
+          <div className="flex items-center gap-1 text-left whitespace-nowrap text-xs font-semibold text-[#5B616E] dark:text-[#9CA3AF]">
+            <span>{t('colGrowth')}</span>
+            <span className="inline-flex items-center justify-center w-3.5 h-3.5 rounded-full bg-[#F07504] text-[8px] font-black text-white shrink-0 shadow-xs" title="InvestingPro Metric">
+              P
+            </span>
           </div>
         ),
         cell: ({ row }) => {
-          const text = row.original.financialGrowthHealth || '-';
+          const formatted = formatRating(row.original.financialGrowthHealth);
           return (
-            <div className={`text-left whitespace-nowrap ${getRatingColor(text)}`}>
-              {text}
+            <div className={`text-left whitespace-nowrap ${getRatingColor(formatted)}`}>
+              {formatted}
             </div>
           );
         },
@@ -212,15 +221,18 @@ export default function StockTable({ initialData, market }: StockTableProps) {
       {
         accessorKey: 'financialProfitabilityHealth',
         header: () => (
-          <div className="text-left whitespace-nowrap text-xs font-semibold text-[#5B616E] dark:text-[#9CA3AF]">
-            Profitability Rating
+          <div className="flex items-center gap-1 text-left whitespace-nowrap text-xs font-semibold text-[#5B616E] dark:text-[#9CA3AF]">
+            <span>{t('colProfitability')}</span>
+            <span className="inline-flex items-center justify-center w-3.5 h-3.5 rounded-full bg-[#F07504] text-[8px] font-black text-white shrink-0 shadow-xs" title="InvestingPro Metric">
+              P
+            </span>
           </div>
         ),
         cell: ({ row }) => {
-          const text = row.original.financialProfitabilityHealth || '-';
+          const formatted = formatRating(row.original.financialProfitabilityHealth);
           return (
-            <div className={`text-left whitespace-nowrap ${getRatingColor(text)}`}>
-              {text}
+            <div className={`text-left whitespace-nowrap ${getRatingColor(formatted)}`}>
+              {formatted}
             </div>
           );
         },
@@ -229,14 +241,14 @@ export default function StockTable({ initialData, market }: StockTableProps) {
         accessorKey: 'analystRatings',
         header: () => (
           <div className="text-left whitespace-nowrap text-xs font-semibold text-[#5B616E] dark:text-[#9CA3AF]">
-            Analyst Ratings
+            {t('colAnalyst')}
           </div>
         ),
         cell: ({ row }) => {
-          const text = row.original.analystRatings || '-';
+          const formatted = formatRating(row.original.analystRatings);
           return (
-            <div className={`text-left whitespace-nowrap ${getRatingColor(text)}`}>
-              {text}
+            <div className={`text-left whitespace-nowrap ${getRatingColor(formatted)}`}>
+              {formatted}
             </div>
           );
         },
@@ -248,7 +260,7 @@ export default function StockTable({ initialData, market }: StockTableProps) {
             onClick={() => column.toggleSorting(column.getIsSorted() === 'asc')}
             className="flex items-center gap-1 font-semibold text-[#5B616E] dark:text-[#9CA3AF] hover:text-[#232526] dark:hover:text-[#F3F4F6] justify-end w-full text-xs whitespace-nowrap"
           >
-            P/E Ratio
+            {t('colPe')}
             {column.getIsSorted() === 'asc' ? (
               <ArrowUp className="w-3 h-3 text-[#1256A0] dark:text-[#60A5FA]" />
             ) : column.getIsSorted() === 'desc' ? (
@@ -271,7 +283,7 @@ export default function StockTable({ initialData, market }: StockTableProps) {
         accessorKey: 'evEbitda',
         header: () => (
           <div className="text-right whitespace-nowrap text-xs font-semibold text-[#5B616E] dark:text-[#9CA3AF]">
-            EV/EBIDTA
+            {t('colEvEbitda')}
           </div>
         ),
         cell: ({ row }) => {
@@ -290,7 +302,7 @@ export default function StockTable({ initialData, market }: StockTableProps) {
             onClick={() => column.toggleSorting(column.getIsSorted() === 'asc')}
             className="flex items-center gap-1 font-semibold text-[#5B616E] dark:text-[#9CA3AF] hover:text-[#232526] dark:hover:text-[#F3F4F6] justify-end w-full text-xs whitespace-nowrap"
           >
-            Market Cap
+            {t('colMarketCap')}
             {column.getIsSorted() === 'asc' ? (
               <ArrowUp className="w-3 h-3 text-[#1256A0] dark:text-[#60A5FA]" />
             ) : column.getIsSorted() === 'desc' ? (
@@ -310,7 +322,7 @@ export default function StockTable({ initialData, market }: StockTableProps) {
         accessorKey: 'epsGrowth5y',
         header: () => (
           <div className="text-right whitespace-nowrap text-xs font-semibold text-[#5B616E] dark:text-[#9CA3AF]">
-            EPS Growth (5y)
+            {t('colEpsGrowth')}
           </div>
         ),
         cell: ({ row }) => {
@@ -323,7 +335,7 @@ export default function StockTable({ initialData, market }: StockTableProps) {
         },
       },
     ],
-    []
+    [t, lang, formatRating]
   );
 
   const table = useReactTable({
@@ -356,7 +368,7 @@ export default function StockTable({ initialData, market }: StockTableProps) {
               type="text"
               value={globalFilter}
               onChange={(e) => setGlobalFilter(e.target.value)}
-              placeholder="Search by symbol or company name..."
+              placeholder={t('searchPlaceholder')}
               className="w-full bg-[#F8F9FA] dark:bg-[#1F2636] border border-[#D5DCE5] dark:border-[#2E3646] rounded-md pl-9 pr-3.5 py-1.5 text-xs text-[#232526] dark:text-[#E5E7EB] placeholder-[#8A909D] dark:placeholder-[#6B7280] focus:outline-none focus:bg-white dark:focus:bg-[#181E2B] focus:border-[#1256A0] dark:focus:border-[#3B82F6] transition"
             />
           </div>
@@ -364,10 +376,10 @@ export default function StockTable({ initialData, market }: StockTableProps) {
           {/* Health Filter Chips */}
           <div className="flex items-center gap-1 bg-[#F1F4F8] dark:bg-[#121620] p-1 rounded-md border border-[#E4EAF1] dark:border-[#262C3A] text-xs">
             {[
-              { id: 'ALL', label: 'All' },
-              { id: 'GREAT', label: 'Great' },
-              { id: 'GOOD', label: 'Good' },
-              { id: 'FAIR', label: 'Fair' },
+              { id: 'ALL', label: t('all') },
+              { id: 'GREAT', label: lang === 'th' ? 'ดีมาก' : 'Great' },
+              { id: 'GOOD', label: lang === 'th' ? 'ดี' : 'Good' },
+              { id: 'FAIR', label: lang === 'th' ? 'มูลค่าตามจริง' : 'Fair' },
             ].map((chip) => (
               <button
                 key={chip.id}
@@ -386,7 +398,11 @@ export default function StockTable({ initialData, market }: StockTableProps) {
 
         <div className="flex items-center justify-between md:justify-end gap-3 text-xs text-[#5B616E] dark:text-[#9CA3AF]">
           <span className="font-normal">
-            Showing <strong className="text-[#181C21] dark:text-[#F3F4F6] font-semibold">{filteredData.length}</strong> stocks
+            {t('showing')}{' '}
+            <strong className="text-[#181C21] dark:text-[#F3F4F6] font-semibold">
+              {filteredData.length}
+            </strong>{' '}
+            {t('stocks')}
           </span>
         </div>
       </div>
@@ -456,7 +472,7 @@ export default function StockTable({ initialData, market }: StockTableProps) {
                   colSpan={columns.length}
                   className="text-center py-10 text-[#8A909D] dark:text-[#6B7280]"
                 >
-                  No stocks match the filter criteria.
+                  {t('noStocksFound')}
                 </td>
               </tr>
             )}
@@ -467,7 +483,7 @@ export default function StockTable({ initialData, market }: StockTableProps) {
       {/* Pagination Bar */}
       <div className="px-5 py-3 border-t border-[#E4EAF1] dark:border-[#262C3A] flex flex-col sm:flex-row items-center justify-between gap-3 bg-white dark:bg-[#161B26] text-xs text-[#5B616E] dark:text-[#9CA3AF] transition-colors duration-200">
         <div className="flex items-center gap-2">
-          <span>Rows per page:</span>
+          <span>{t('rowsPerPage')}</span>
           <select
             value={table.getState().pagination.pageSize}
             onChange={(e) => {
@@ -482,7 +498,8 @@ export default function StockTable({ initialData, market }: StockTableProps) {
             ))}
           </select>
           <span className="ml-2">
-            Page {table.getState().pagination.pageIndex + 1} of {table.getPageCount()}
+            {t('page')} {table.getState().pagination.pageIndex + 1} {t('of')}{' '}
+            {table.getPageCount()}
           </span>
         </div>
 

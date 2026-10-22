@@ -17,7 +17,7 @@ import {
 } from 'lucide-react';
 
 export default function HomePage() {
-  const { lang } = useApp();
+  const { t, lang } = useApp();
   const [selectedMarket, setSelectedMarket] = useState<MarketType>('SET');
   const [activeTab, setActiveTab] = useState<'undervalued' | 'overvalued'>('undervalued');
   const [stocks, setStocks] = useState<StockItem[]>(
@@ -47,7 +47,7 @@ export default function HomePage() {
         if (json.syncStatus?.lastSync) {
           const d = new Date(json.syncStatus.lastSync);
           setLastSyncTime(
-            d.toLocaleTimeString('en-US', {
+            d.toLocaleTimeString(lang === 'th' ? 'th-TH' : 'en-US', {
               hour: '2-digit',
               minute: '2-digit',
               second: '2-digit',
@@ -58,7 +58,7 @@ export default function HomePage() {
     } catch (err) {
       console.error('Failed to load stocks:', err);
     }
-  }, []);
+  }, [lang]);
 
   // Initial load and on market change
   useEffect(() => {
@@ -78,7 +78,7 @@ export default function HomePage() {
   const handleTriggerSync = async () => {
     if (isSyncing) return;
     setIsSyncing(true);
-    setSyncMessage('Syncing live data from Investing.com...');
+    setSyncMessage(lang === 'th' ? 'กำลังดึงข้อมูลสดจาก Investing.com...' : 'Syncing live data from Investing.com...');
 
     try {
       const res = await fetch(`/api/stocks/sync?market=${selectedMarket}&_t=${Date.now()}`, {
@@ -87,15 +87,19 @@ export default function HomePage() {
       const data = await res.json();
       if (data.success) {
         await loadStocks(selectedMarket);
-        setSyncMessage(`Sync successful! ${data.market} updated`);
+        setSyncMessage(
+          lang === 'th' 
+            ? `ซิงค์สำเร็จ! อัปเดต ${data.market} เรียบร้อย` 
+            : `Sync successful! ${data.market} updated`
+        );
         setTimeout(() => setSyncMessage(''), 4000);
       } else {
-        setSyncMessage('Sync error, please retry');
+        setSyncMessage(lang === 'th' ? 'การซิงค์ขัดข้อง กรุณาลองใหม่' : 'Sync error, please retry');
         setTimeout(() => setSyncMessage(''), 4000);
       }
     } catch (err) {
       console.error('Manual sync failed:', err);
-      setSyncMessage('Connection error');
+      setSyncMessage(lang === 'th' ? 'ไม่สามารถเชื่อมต่อได้' : 'Connection error');
       setTimeout(() => setSyncMessage(''), 4000);
     } finally {
       setIsSyncing(false);
@@ -115,23 +119,21 @@ export default function HomePage() {
     ? `${(stocks.reduce((acc, s) => acc + (s.marketCap || 0), 0) / 1e9).toFixed(2)}B`
     : `${(stocks.reduce((acc, s) => acc + (s.marketCap || 0), 0) / 1e12).toFixed(2)}T`;
 
-  const pageTitle = isThai ? 'Undervalued Stocks Thailand' : 'Undervalued Stocks United States';
-  const pageSubtitle = isThai
-    ? "Discover the top undervalued stocks in Thailand based on InvestingPro's fair value metrics. Our curated list highlights stocks trading below their intrinsic value, presenting potential investment opportunities."
-    : "Discover the top undervalued stocks in United States based on InvestingPro's fair value metrics. Our curated list highlights stocks trading below their intrinsic value, presenting potential investment opportunities.";
+  const pageTitle = isThai ? t('pageTitleThai') : t('pageTitleUS');
+  const pageSubtitle = isThai ? t('pageDescThai') : t('pageDescUS');
 
   return (
     <main className="max-w-[1360px] mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-8 font-sans">
       {/* Top Status & Breadcrumbs Bar */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
-        {/* Breadcrumbs matching Investing.com */}
+        {/* Breadcrumbs */}
         <nav className="flex items-center gap-1.5 text-xs text-[#5B616E] dark:text-[#9CA3AF]">
           <span className="hover:text-[#1256A0] dark:hover:text-[#60A5FA] cursor-pointer">
-            Markets
+            {t('markets')}
           </span>
           <ChevronRight className="w-3 h-3 text-[#A0A5AF] dark:text-[#6B7280]" />
           <span className="hover:text-[#1256A0] dark:hover:text-[#60A5FA] cursor-pointer">
-            Equities
+            {t('equities')}
           </span>
           <ChevronRight className="w-3 h-3 text-[#A0A5AF] dark:text-[#6B7280]" />
           <span className="text-[#181C21] dark:text-[#F3F4F6] font-medium">
@@ -150,12 +152,12 @@ export default function HomePage() {
               <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-[#007C32] dark:text-[#00C076] bg-[#EBF6EE] dark:bg-[#132A1E] px-2 py-0.5 rounded-full border border-[#C6E7CE] dark:border-[#1E4D33]">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#007C32] dark:bg-[#00C076] animate-ping" />
                 <span className="w-1.5 h-1.5 rounded-full bg-[#007C32] dark:bg-[#00C076]" />
-                Live Auto-Sync
+                {t('liveSync')}
               </span>
               {lastSyncTime && (
                 <span className="hidden md:flex items-center gap-1 text-[11px]">
                   <Clock className="w-3 h-3 text-[#A0A5AF] dark:text-[#6B7280]" />
-                  <span>Last updated: {lastSyncTime}</span>
+                  <span>{t('lastSynced')} {lastSyncTime}</span>
                 </span>
               )}
             </div>
@@ -166,10 +168,10 @@ export default function HomePage() {
             onClick={handleTriggerSync}
             disabled={isSyncing}
             className="flex items-center gap-1.5 px-3 py-1 text-xs font-semibold rounded-md border border-[#D5DCE5] dark:border-[#2E3646] bg-white dark:bg-[#1B212F] text-[#1256A0] dark:text-[#60A5FA] hover:bg-[#F1F4F8] dark:hover:bg-[#252E3E] disabled:opacity-50 transition shadow-xs"
-            title="Auto-syncs every 15m with Investing.com"
+            title={t('autoSyncNotice')}
           >
             <RefreshCw className={`w-3.5 h-3.5 ${isSyncing ? 'animate-spin text-[#1256A0]' : ''}`} />
-            <span>{isSyncing ? 'Syncing...' : 'Sync Live Data'}</span>
+            <span>{isSyncing ? t('syncing') : t('syncNow')}</span>
           </button>
         </div>
       </div>
@@ -195,7 +197,7 @@ export default function HomePage() {
                 : 'text-[#5B616E] dark:text-[#9CA3AF] hover:text-[#181C21] dark:hover:text-white'
             }`}
           >
-            <span>🇹🇭 Thailand</span>
+            <span>{t('thailandSET')}</span>
           </button>
           <button
             onClick={() => setSelectedMarket('US')}
@@ -205,7 +207,7 @@ export default function HomePage() {
                 : 'text-[#5B616E] dark:text-[#9CA3AF] hover:text-[#181C21] dark:hover:text-white'
             }`}
           >
-            <span>🇺🇸 United States</span>
+            <span>{t('unitedStatesUS')}</span>
           </button>
         </div>
       </div>
@@ -220,7 +222,7 @@ export default function HomePage() {
               : 'text-[#5B616E] dark:text-[#9CA3AF] hover:text-[#181C21] dark:hover:text-white'
           }`}
         >
-          <span>Most Undervalued</span>
+          <span>{t('undervalued')}</span>
           <span className="text-[11px] px-1.5 py-0.2 rounded-full bg-[#EBF3FC] dark:bg-[#1E2D4A] text-[#1256A0] dark:text-[#60A5FA] font-bold">
             {stocks.length}
           </span>
@@ -233,7 +235,7 @@ export default function HomePage() {
               : 'text-[#5B616E] dark:text-[#9CA3AF] hover:text-[#181C21] dark:hover:text-white'
           }`}
         >
-          <span>Most Overvalued</span>
+          <span>{t('overvalued')}</span>
         </button>
       </div>
 
@@ -241,7 +243,7 @@ export default function HomePage() {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 mb-6">
         <div className="bg-white dark:bg-[#161B26] border border-[#E4EAF1] dark:border-[#262C3A] rounded-lg p-3.5 shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition-colors duration-200">
           <div className="text-[11px] font-semibold text-[#5B616E] dark:text-[#9CA3AF] mb-1 flex items-center justify-between">
-            <span>TOP UNDERVALUED</span>
+            <span>{t('topUndervalued')}</span>
             <Flame className="w-3.5 h-3.5 text-[#F07504]" />
           </div>
           <div className="flex items-baseline gap-2">
@@ -257,36 +259,36 @@ export default function HomePage() {
 
         <div className="bg-white dark:bg-[#161B26] border border-[#E4EAF1] dark:border-[#262C3A] rounded-lg p-3.5 shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition-colors duration-200">
           <div className="text-[11px] font-semibold text-[#5B616E] dark:text-[#9CA3AF] mb-1 flex items-center justify-between">
-            <span>AVG FAIR VALUE UPSIDE</span>
+            <span>{t('avgUpside')}</span>
             <BadgePercent className="w-3.5 h-3.5 text-[#007C32] dark:text-[#00C076]" />
           </div>
           <div className="text-xl font-bold text-[#007C32] dark:text-[#00C076]">+{avgUpside}%</div>
           <div className="text-[11px] text-[#5B616E] dark:text-[#9CA3AF] mt-0.5">
-            Across {stocks.length} analyzed securities
+            {t('across30')}
           </div>
         </div>
 
         <div className="bg-white dark:bg-[#161B26] border border-[#E4EAF1] dark:border-[#262C3A] rounded-lg p-3.5 shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition-colors duration-200">
           <div className="text-[11px] font-semibold text-[#5B616E] dark:text-[#9CA3AF] mb-1 flex items-center justify-between">
-            <span>TOTAL MARKET CAP</span>
+            <span>{t('totalMarketCap')}</span>
             <Database className="w-3.5 h-3.5 text-[#1256A0] dark:text-[#60A5FA]" />
           </div>
           <div className="text-xl font-bold text-[#181C21] dark:text-white">{totalMarketCap}</div>
           <div className="text-[11px] text-[#5B616E] dark:text-[#9CA3AF] mt-0.5">
-            Total analyzed market size
+            {t('totalAnalyzedSize')}
           </div>
         </div>
 
         <div className="bg-white dark:bg-[#161B26] border border-[#E4EAF1] dark:border-[#262C3A] rounded-lg p-3.5 shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition-colors duration-200">
           <div className="text-[11px] font-semibold text-[#5B616E] dark:text-[#9CA3AF] mb-1 flex items-center justify-between">
-            <span>VALUATION ENGINE</span>
+            <span>{t('valuationEngine')}</span>
             <Cpu className="w-3.5 h-3.5 text-[#6B46C1] dark:text-[#A78BFA]" />
           </div>
           <div className="text-sm font-bold text-[#181C21] dark:text-white truncate">
-            Finbox 14 Models
+            {t('finboxModels')}
           </div>
           <div className="text-[11px] text-[#5B616E] dark:text-[#9CA3AF] mt-0.5">
-            DCF, Multiples, P/E &amp; EV
+            {t('dcfMultiples')}
           </div>
         </div>
       </div>
@@ -294,7 +296,7 @@ export default function HomePage() {
       {/* Main Stock Table */}
       <div className="mb-10">
         <StockTable 
-          key={`${selectedMarket}-${stocks[0]?.symbol}-${stocks[0]?.price}-${stocks[1]?.symbol}-${stocks[2]?.symbol}-${stocks.length}`}
+          key={`${selectedMarket}-${stocks[0]?.symbol}-${stocks[0]?.price}-${stocks[1]?.symbol}-${stocks[2]?.symbol}-${stocks.length}-${lang}`}
           initialData={stocks} 
           market={selectedMarket} 
         />
@@ -307,16 +309,33 @@ export default function HomePage() {
           <span>REA Reverse Engineering Grounding:</span>
         </div>
         <p className="leading-relaxed mb-2.5">
-          This table styling, cell spacing, typography (<code className="text-[#1256A0] font-mono">Inter</code>), and column contracts directly mirror{' '}
-          <a
-            href="https://www.investing.com/equities/thailand/most-undervalued"
-            target="_blank"
-            rel="noreferrer"
-            className="text-[#1256A0] underline"
-          >
-            investing.com/equities/thailand/most-undervalued
-          </a>
-          . All labels, table columns, ratings, and number formats are 100% matched to the original source.
+          {lang === 'th' ? (
+            <>
+              โครงสร้างตารางนี้ได้รับการออกแบบและจำลองข้อมูลโดยตรงจาก{' '}
+              <a
+                href="https://th.investing.com/equities/thailand/most-undervalued"
+                target="_blank"
+                rel="noreferrer"
+                className="text-[#1256A0] underline"
+              >
+                th.investing.com/equities/thailand/most-undervalued
+              </a>{' '}
+              โดยคอลัมน์และคำศัพท์เรตติ้ง (ดีเยี่ยม, ดีมาก, ดี, มูลค่าตามจริง, แย่, ซื้อทันที, ซื้อ, ถือหุ้นไว้) ถูกถอดแบบตรงตามภาพต้นฉบับ 100%
+            </>
+          ) : (
+            <>
+              This table styling, cell spacing, typography (<code className="text-[#1256A0] font-mono">Inter</code>), and column contracts directly mirror{' '}
+              <a
+                href="https://www.investing.com/equities/thailand/most-undervalued"
+                target="_blank"
+                rel="noreferrer"
+                className="text-[#1256A0] underline"
+              >
+                investing.com/equities/thailand/most-undervalued
+              </a>
+              . All labels, table columns, ratings, and number formats are 100% matched to the original source.
+            </>
+          )}
         </p>
       </div>
     </main>

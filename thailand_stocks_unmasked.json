@@ -5,7 +5,7 @@
     "name": "Bluebik Group PCL",
     "shortName": "Bluebic Group",
     "link": "https://www.investing.com/equities/bluebik-pcl",
-    "price": 17.7,
+    "price": 17.6,
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 28.53,
@@ -15,7 +15,7 @@
     "marketCap": 3560000000,
     "marketCapFormatted": "3.56B",
     "epsGrowth5y": 0.31,
-    "changeOneDayPercent": -0.56,
+    "changeOneDayPercent": -1.12,
     "financialHealth": "Great",
     "financialCashFlowHealth": "Excellent",
     "financialGrowthHealth": "Excellent",
@@ -24,7 +24,7 @@
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
-    "lastUpdateTime": "2026-10-22T10:46:16.119089+07:00"
+    "lastUpdateTime": "2026-10-22T10:55:56.626873+07:00"
   },
   {
     "id": "102518",
@@ -32,7 +32,7 @@
     "name": "GFPT PCL",
     "shortName": "GFPT",
     "link": "https://www.investing.com/equities/gfpt",
-    "price": 10.1,
+    "price": 10.2,
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 15.68,
@@ -42,7 +42,7 @@
     "marketCap": 12540000000,
     "marketCapFormatted": "12.54B",
     "epsGrowth5y": 0.65,
-    "changeOneDayPercent": 1.0,
+    "changeOneDayPercent": 2.0,
     "financialHealth": "Great",
     "financialCashFlowHealth": "Great",
     "financialGrowthHealth": "Great",
@@ -51,7 +51,7 @@
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
-    "lastUpdateTime": "2026-10-22T10:46:16.119089+07:00"
+    "lastUpdateTime": "2026-10-22T10:55:56.626873+07:00"
   },
   {
     "id": "102863",
@@ -78,7 +78,7 @@
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
-    "lastUpdateTime": "2026-10-22T10:46:16.119089+07:00"
+    "lastUpdateTime": "2026-10-22T10:55:56.626873+07:00"
   },
   {
     "id": "1052357",
@@ -105,7 +105,7 @@
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
-    "lastUpdateTime": "2026-10-22T10:46:16.119089+07:00"
+    "lastUpdateTime": "2026-10-22T10:55:56.626873+07:00"
   },
   {
     "id": "1056157",
@@ -113,7 +113,7 @@
     "name": "Humanica PCL",
     "shortName": "Humanica",
     "link": "https://www.investing.com/equities/humanica",
-    "price": 4.36,
+    "price": 4.38,
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 6.62,
@@ -123,7 +123,7 @@
     "marketCap": 3680000000,
     "marketCapFormatted": "3.68B",
     "epsGrowth5y": 0.24,
-    "changeOneDayPercent": -0.46,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "Great",
     "financialCashFlowHealth": "Excellent",
     "financialGrowthHealth": "Great",
@@ -132,7 +132,7 @@
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
-    "lastUpdateTime": "2026-10-22T10:46:16.119089+07:00"
+    "lastUpdateTime": "2026-10-22T10:55:56.626873+07:00"
   },
   {
     "id": "1216964",
@@ -140,7 +140,7 @@
     "name": "Maguro Group PCL",
     "shortName": "Maguro",
     "link": "https://www.investing.com/equities/maguro-pcl",
-    "price": 17.4,
+    "price": 17.5,
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 26.19,
@@ -150,7 +150,7 @@
     "marketCap": 2230000000,
     "marketCapFormatted": "2.23B",
     "epsGrowth5y": 0.41,
-    "changeOneDayPercent": -1.69,
+    "changeOneDayPercent": -1.13,
     "financialHealth": "Great",
     "financialCashFlowHealth": "Good",
     "financialGrowthHealth": "Great",
@@ -159,7 +159,7 @@
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
-    "lastUpdateTime": "2026-10-22T10:46:16.119089+07:00"
+    "lastUpdateTime": "2026-10-22T10:55:56.626873+07:00"
   },
   {
     "id": "102513",
@@ -186,7 +186,34 @@
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
-    "lastUpdateTime": "2026-10-22T10:46:16.119089+07:00"
+    "lastUpdateTime": "2026-10-22T10:55:56.626873+07:00"
+  },
+  {
+    "id": "1115209",
+    "symbol": "SISB",
+    "name": "SISB PCL",
+    "shortName": "SISB",
+    "link": "https://www.investing.com/equities/sisb",
+    "price": 8.9,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 13.22,
+    "fairValueUpside": 48.55,
+    "peRatio": 9.15,
+    "evEbitda": 6.51,
+    "marketCap": 8370000000,
+    "marketCapFormatted": "8.37B",
+    "epsGrowth5y": 0.46,
+    "changeOneDayPercent": 0.56,
+    "financialHealth": "Great",
+    "financialCashFlowHealth": "Great",
+    "financialGrowthHealth": "Great",
+    "financialProfitabilityHealth": "Excellent",
+    "analystRatings": "Buy",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "lastUpdateTime": "2026-10-22T10:55:56.626873+07:00"
   },
   {
     "id": "102617",
@@ -194,7 +221,7 @@
     "name": "MK Restaurant Group PCL",
     "shortName": "MK Restaurant",
     "link": "https://www.investing.com/equities/mk-restaurant",
-    "price": 20.0,
+    "price": 20.1,
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 29.7,
@@ -204,7 +231,7 @@
     "marketCap": 18070000000,
     "marketCapFormatted": "18.07B",
     "epsGrowth5y": 1.39,
-    "changeOneDayPercent": 0.0,
+    "changeOneDayPercent": 0.5,
     "financialHealth": "Good",
     "financialCashFlowHealth": "Excellent",
     "financialGrowthHealth": "Fair",
@@ -213,7 +240,7 @@
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
-    "lastUpdateTime": "2026-10-22T10:46:16.119089+07:00"
+    "lastUpdateTime": "2026-10-22T10:55:56.626873+07:00"
   },
   {
     "id": "102551",
@@ -240,7 +267,7 @@
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
-    "lastUpdateTime": "2026-10-22T10:46:16.119089+07:00"
+    "lastUpdateTime": "2026-10-22T10:55:56.626873+07:00"
   },
   {
     "id": "102547",
@@ -248,7 +275,7 @@
     "name": "IRPC PCL",
     "shortName": "IRPC PCL",
     "link": "https://www.investing.com/equities/irpc",
-    "price": 2.78,
+    "price": 2.76,
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 4.12,
@@ -258,7 +285,7 @@
     "marketCap": 56330000000,
     "marketCapFormatted": "56.33B",
     "epsGrowth5y": -2.77,
-    "changeOneDayPercent": 0.0,
+    "changeOneDayPercent": -0.72,
     "financialHealth": "Great",
     "financialCashFlowHealth": "Good",
     "financialGrowthHealth": "Great",
@@ -267,7 +294,7 @@
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
-    "lastUpdateTime": "2026-10-22T10:46:16.119089+07:00"
+    "lastUpdateTime": "2026-10-22T10:55:56.626873+07:00"
   },
   {
     "id": "102706",
@@ -294,7 +321,7 @@
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
-    "lastUpdateTime": "2026-10-22T10:46:16.119089+07:00"
+    "lastUpdateTime": "2026-10-22T10:55:56.626873+07:00"
   },
   {
     "id": "102554",
@@ -321,7 +348,7 @@
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
-    "lastUpdateTime": "2026-10-22T10:46:16.119089+07:00"
+    "lastUpdateTime": "2026-10-22T10:55:56.626873+07:00"
   },
   {
     "id": "1153457",
@@ -348,34 +375,34 @@
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
-    "lastUpdateTime": "2026-10-22T10:46:16.119089+07:00"
+    "lastUpdateTime": "2026-10-22T10:55:56.626873+07:00"
   },
   {
-    "id": "102443",
-    "symbol": "BWG",
-    "name": "Better World Green PCL",
-    "shortName": "Better World",
-    "link": "https://www.investing.com/equities/better-world",
-    "price": 0.22,
+    "id": "102457",
+    "symbol": "CK",
+    "name": "CH Karnchang PCL",
+    "shortName": "CH Karnchang",
+    "link": "https://www.investing.com/equities/ch-karnchang",
+    "price": 17.1,
     "currency": "THB",
     "currencySymbol": "฿",
-    "fairValue": 0.32,
-    "fairValueUpside": 44.95,
-    "peRatio": 2.85,
-    "evEbitda": 3.39,
-    "marketCap": 1400000000,
-    "marketCapFormatted": "1.4B",
-    "epsGrowth5y": 5.27,
-    "changeOneDayPercent": 4.76,
+    "fairValue": 24.7,
+    "fairValueUpside": 44.45,
+    "peRatio": 8.67,
+    "evEbitda": 3.35,
+    "marketCap": 28730000000,
+    "marketCapFormatted": "28.73B",
+    "epsGrowth5y": 0.35,
+    "changeOneDayPercent": -0.58,
     "financialHealth": "Great",
-    "financialCashFlowHealth": "Great",
+    "financialCashFlowHealth": "Fair",
     "financialGrowthHealth": "Excellent",
-    "financialProfitabilityHealth": "Great",
-    "analystRatings": "-",
+    "financialProfitabilityHealth": "Good",
+    "analystRatings": "Strong Buy",
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
-    "lastUpdateTime": "2026-10-22T10:46:16.119089+07:00"
+    "lastUpdateTime": "2026-10-22T10:55:56.626873+07:00"
   },
   {
     "id": "102829",
@@ -383,7 +410,7 @@
     "name": "Thoresen Thai Agencies PCL",
     "shortName": "Thoresen Thai Agencies",
     "link": "https://www.investing.com/equities/thoresen-thai",
-    "price": 5.15,
+    "price": 5.1,
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 7.44,
@@ -393,7 +420,7 @@
     "marketCap": 9300000000,
     "marketCapFormatted": "9.3B",
     "epsGrowth5y": 1.11,
-    "changeOneDayPercent": 0.0,
+    "changeOneDayPercent": -0.97,
     "financialHealth": "Great",
     "financialCashFlowHealth": "Great",
     "financialGrowthHealth": "Good",
@@ -402,7 +429,7 @@
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
-    "lastUpdateTime": "2026-10-22T10:46:16.119089+07:00"
+    "lastUpdateTime": "2026-10-22T10:55:56.626873+07:00"
   },
   {
     "id": "1198524",
@@ -429,7 +456,7 @@
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
-    "lastUpdateTime": "2026-10-22T10:46:16.119089+07:00"
+    "lastUpdateTime": "2026-10-22T10:55:56.626873+07:00"
   },
   {
     "id": "102425",
@@ -456,7 +483,7 @@
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
-    "lastUpdateTime": "2026-10-22T10:46:16.119089+07:00"
+    "lastUpdateTime": "2026-10-22T10:55:56.626873+07:00"
   },
   {
     "id": "1173246",
@@ -464,7 +491,7 @@
     "name": "Ditto (Thailand) PCL",
     "shortName": "Ditto",
     "link": "https://www.investing.com/equities/ditto",
-    "price": 13.0,
+    "price": 12.9,
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 18.08,
@@ -474,7 +501,7 @@
     "marketCap": 8740000000,
     "marketCapFormatted": "8.74B",
     "epsGrowth5y": 0.3,
-    "changeOneDayPercent": 3.17,
+    "changeOneDayPercent": 2.38,
     "financialHealth": "Great",
     "financialCashFlowHealth": "Great",
     "financialGrowthHealth": "Excellent",
@@ -483,7 +510,7 @@
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
-    "lastUpdateTime": "2026-10-22T10:46:16.119089+07:00"
+    "lastUpdateTime": "2026-10-22T10:55:56.626873+07:00"
   },
   {
     "id": "1088690",
@@ -491,7 +518,7 @@
     "name": "TEAM Consulting Engineering and Management PLC",
     "shortName": "TEAM Consulting",
     "link": "https://www.investing.com/equities/team-consulting-engineering-manage",
-    "price": 2.9,
+    "price": 2.88,
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 4.015,
@@ -501,7 +528,7 @@
     "marketCap": 2320000000,
     "marketCapFormatted": "2.32B",
     "epsGrowth5y": 0.15,
-    "changeOneDayPercent": 2.11,
+    "changeOneDayPercent": 1.41,
     "financialHealth": "Good",
     "financialCashFlowHealth": "Fair",
     "financialGrowthHealth": "Great",
@@ -510,7 +537,34 @@
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
-    "lastUpdateTime": "2026-10-22T10:46:16.119089+07:00"
+    "lastUpdateTime": "2026-10-22T10:55:56.626873+07:00"
+  },
+  {
+    "id": "102731",
+    "symbol": "GLOBAL",
+    "name": "Siam Global House PCL",
+    "shortName": "Siam Global",
+    "link": "https://www.investing.com/equities/siam-global-ho",
+    "price": 6.75,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 9.53,
+    "fairValueUpside": 41.18,
+    "peRatio": 14.55,
+    "evEbitda": 9.9,
+    "marketCap": 37810000000,
+    "marketCapFormatted": "37.81B",
+    "epsGrowth5y": 0.02,
+    "changeOneDayPercent": 0.75,
+    "financialHealth": "Good",
+    "financialCashFlowHealth": "Great",
+    "financialGrowthHealth": "Fair",
+    "financialProfitabilityHealth": "Great",
+    "analystRatings": "Buy",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "lastUpdateTime": "2026-10-22T10:55:56.626873+07:00"
   },
   {
     "id": "102726",
@@ -537,7 +591,7 @@
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
-    "lastUpdateTime": "2026-10-22T10:46:16.119089+07:00"
+    "lastUpdateTime": "2026-10-22T10:55:56.626873+07:00"
   },
   {
     "id": "102467",
@@ -545,7 +599,7 @@
     "name": "Chularat Hospital PCL",
     "shortName": "Chularat Hospital",
     "link": "https://www.investing.com/equities/chularat-hospi",
-    "price": 1.54,
+    "price": 1.55,
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 2.133,
@@ -555,7 +609,7 @@
     "marketCap": 16830000000,
     "marketCapFormatted": "16.83B",
     "epsGrowth5y": 0.53,
-    "changeOneDayPercent": -1.28,
+    "changeOneDayPercent": -0.64,
     "financialHealth": "Great",
     "financialCashFlowHealth": "Great",
     "financialGrowthHealth": "Fair",
@@ -564,7 +618,7 @@
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
-    "lastUpdateTime": "2026-10-22T10:46:16.119089+07:00"
+    "lastUpdateTime": "2026-10-22T10:55:56.626873+07:00"
   },
   {
     "id": "102398",
@@ -572,7 +626,7 @@
     "name": "Aeon Thana Sinsap Thailand PCL",
     "shortName": "Aeon Thana Sinsap",
     "link": "https://www.investing.com/equities/aeon-thana-sin",
-    "price": 89.25,
+    "price": 89.0,
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 124.3,
@@ -582,7 +636,7 @@
     "marketCap": 21980000000,
     "marketCapFormatted": "21.98B",
     "epsGrowth5y": -0.04,
-    "changeOneDayPercent": -0.28,
+    "changeOneDayPercent": -0.56,
     "financialHealth": "Good",
     "financialCashFlowHealth": "Good",
     "financialGrowthHealth": "Fair",
@@ -591,7 +645,34 @@
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
-    "lastUpdateTime": "2026-10-22T10:46:16.119089+07:00"
+    "lastUpdateTime": "2026-10-22T10:55:56.626873+07:00"
+  },
+  {
+    "id": "102743",
+    "symbol": "SIS",
+    "name": "SIS Distribution Thailand PCL",
+    "shortName": "SIS Distribution",
+    "link": "https://www.investing.com/equities/sis-distributi",
+    "price": 24.8,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 34.61,
+    "fairValueUpside": 38.45,
+    "peRatio": 8.68,
+    "evEbitda": 9.09,
+    "marketCap": 8750000000,
+    "marketCapFormatted": "8.75B",
+    "epsGrowth5y": 0.09,
+    "changeOneDayPercent": -0.8,
+    "financialHealth": "Great",
+    "financialCashFlowHealth": "Weak",
+    "financialGrowthHealth": "Great",
+    "financialProfitabilityHealth": "Great",
+    "analystRatings": "Buy",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "lastUpdateTime": "2026-10-22T10:55:56.626873+07:00"
   },
   {
     "id": "1196441",
@@ -618,7 +699,7 @@
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
-    "lastUpdateTime": "2026-10-22T10:46:16.119089+07:00"
+    "lastUpdateTime": "2026-10-22T10:55:56.626873+07:00"
   },
   {
     "id": "102498",
@@ -626,7 +707,7 @@
     "name": "Ekarat Engineering PCL",
     "shortName": "Ekarat Engineering",
     "link": "https://www.investing.com/equities/ekarat-engine",
-    "price": 1.06,
+    "price": 1.07,
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 1.46,
@@ -636,7 +717,7 @@
     "marketCap": 1560000000,
     "marketCapFormatted": "1.56B",
     "epsGrowth5y": 0.19,
-    "changeOneDayPercent": 0.0,
+    "changeOneDayPercent": 0.94,
     "financialHealth": "Good",
     "financialCashFlowHealth": "Fair",
     "financialGrowthHealth": "Fair",
@@ -645,7 +726,7 @@
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
-    "lastUpdateTime": "2026-10-22T10:46:16.119089+07:00"
+    "lastUpdateTime": "2026-10-22T10:55:56.626873+07:00"
   },
   {
     "id": "102689",
@@ -672,34 +753,34 @@
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
-    "lastUpdateTime": "2026-10-22T10:46:16.119089+07:00"
+    "lastUpdateTime": "2026-10-22T10:55:56.626873+07:00"
   },
   {
-    "id": "102472",
-    "symbol": "CKP",
-    "name": "CK Power PCL",
-    "shortName": "CK Power",
-    "link": "https://www.investing.com/equities/ck-power",
-    "price": 2.34,
+    "id": "102616",
+    "symbol": "MINT",
+    "name": "Minor International PCL",
+    "shortName": "Minor",
+    "link": "https://www.investing.com/equities/minor-internat",
+    "price": 20.7,
     "currency": "THB",
     "currencySymbol": "฿",
-    "fairValue": 3.24,
-    "fairValueUpside": 37.08,
-    "peRatio": 7.99,
-    "evEbitda": 4.81,
-    "marketCap": 19020000000,
-    "marketCapFormatted": "19.02B",
-    "epsGrowth5y": 0.51,
-    "changeOneDayPercent": 0.86,
+    "fairValue": 28.39,
+    "fairValueUpside": 37.14,
+    "peRatio": 14.93,
+    "evEbitda": 10.84,
+    "marketCap": 115870000000,
+    "marketCapFormatted": "115.87B",
+    "epsGrowth5y": 0.95,
+    "changeOneDayPercent": 0.98,
     "financialHealth": "Good",
-    "financialCashFlowHealth": "Great",
+    "financialCashFlowHealth": "Fair",
     "financialGrowthHealth": "Good",
     "financialProfitabilityHealth": "Good",
-    "analystRatings": "Buy",
+    "analystRatings": "Strong Buy",
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
-    "lastUpdateTime": "2026-10-22T10:46:16.119089+07:00"
+    "lastUpdateTime": "2026-10-22T10:55:56.626873+07:00"
   },
   {
     "id": "986206",
@@ -726,87 +807,6 @@
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
-    "lastUpdateTime": "2026-10-22T10:46:16.119089+07:00"
-  },
-  {
-    "id": "1202516",
-    "symbol": "MGC",
-    "name": "Millennium Group Corporation Asia PCL",
-    "shortName": "Millennium Group",
-    "link": "https://www.investing.com/equities/millennium-corporation-asia",
-    "price": 6.55,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 8.91,
-    "fairValueUpside": 35.97,
-    "peRatio": 4.34,
-    "evEbitda": 7.25,
-    "marketCap": 7300000000,
-    "marketCapFormatted": "7.3B",
-    "epsGrowth5y": 1.83,
-    "changeOneDayPercent": 0.0,
-    "financialHealth": "Great",
-    "financialCashFlowHealth": "Great",
-    "financialGrowthHealth": "Great",
-    "financialProfitabilityHealth": "Great",
-    "analystRatings": "Strong Buy",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "lastUpdateTime": "2026-10-22T10:46:16.119089+07:00"
-  },
-  {
-    "id": "102584",
-    "symbol": "LOXLEY",
-    "name": "Loxley PCL",
-    "shortName": "Loxley PCL",
-    "link": "https://www.investing.com/equities/loxley-publ",
-    "price": 1.78,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 2.427,
-    "fairValueUpside": 35.61,
-    "peRatio": 5.67,
-    "evEbitda": 0.88,
-    "marketCap": 4080000000,
-    "marketCapFormatted": "4.08B",
-    "epsGrowth5y": 13.17,
-    "changeOneDayPercent": 0.56,
-    "financialHealth": "Great",
-    "financialCashFlowHealth": "Good",
-    "financialGrowthHealth": "Great",
-    "financialProfitabilityHealth": "Good",
-    "analystRatings": "-",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "lastUpdateTime": "2026-10-22T10:46:16.119089+07:00"
-  },
-  {
-    "id": "102605",
-    "symbol": "MEGA",
-    "name": "Mega Lifesciences PCL",
-    "shortName": "Mega Lifesciences",
-    "link": "https://www.investing.com/equities/mega-life",
-    "price": 33.75,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 45.41,
-    "fairValueUpside": 34.56,
-    "peRatio": 13.43,
-    "evEbitda": 7.87,
-    "marketCap": 29430000000,
-    "marketCapFormatted": "29.43B",
-    "epsGrowth5y": 0.09,
-    "changeOneDayPercent": 0.75,
-    "financialHealth": "Great",
-    "financialCashFlowHealth": "Great",
-    "financialGrowthHealth": "Fair",
-    "financialProfitabilityHealth": "Excellent",
-    "analystRatings": "Strong Buy",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "lastUpdateTime": "2026-10-22T10:46:16.119089+07:00"
+    "lastUpdateTime": "2026-10-22T10:55:56.626873+07:00"
   }
 ]
