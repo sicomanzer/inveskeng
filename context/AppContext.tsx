@@ -19,7 +19,7 @@ export interface AppContextType {
 
 export const translations: Record<Language, Record<string, string>> = {
   th: {
-    // Nav
+    // Nav & Titles
     markets: 'ตลาด',
     equities: 'ตราสารทุน',
     pageTitleThai: 'หุ้น Undervalued ในประเทศ ไทย',
@@ -28,21 +28,17 @@ export const translations: Record<Language, Record<string, string>> = {
       "ค้นพบหุ้น Undervalued ชั้นนำในประเทศไทยตามการประมาณการมูลค่ายุติธรรมของ InvestingPro รายการนี้มีการปรับปรุงข้อมูลแบบไดนามิกและอัปเดตตลอดเวลา โดยแสดงราคาปัจจุบัน ขาขึ้น (Upside) และสุขภาพทางการเงิน",
     pageDescUS:
       "ค้นพบหุ้น Undervalued ชั้นนำในสหรัฐอเมริกาตามการประมาณการมูลค่ายุติธรรมของ InvestingPro รายการนี้มีการปรับปรุงข้อมูลแบบไดนามิกและอัปเดตตลอดเวลา",
-    // Market Selector
-    thailandSET: '🇹🇭 ประเทศไทย',
-    unitedStatesUS: '🇺🇸 สหรัฐอเมริกา',
-    // Tabs
-    undervalued: 'Most Undervalued',
-    overvalued: 'Most Overvalued',
-    // KPI Cards
-    topUndervalued: 'หุ้น UNDERVALUED สูงสุด',
-    avgUpside: 'UPSIDE เฉลี่ยจาก FAIR VALUE',
-    totalMarketCap: 'มูลค่าตลาดรวมที่วิเคราะห์',
-    valuationEngine: 'โมเดลประเมินมูลค่า',
-    across30: 'จากหุ้นที่วิเคราะห์ทั้งหมด 30 บริษัท',
-    totalAnalyzedSize: 'ขนาดมาร์เก็ตแคปรวมในกลุ่ม',
-    finboxModels: 'Finbox 14 Models',
-    dcfMultiples: 'DCF, Multiples, P/E & EV',
+    // Country Selector
+    thailandSET: 'ไทย',
+    unitedStatesUS: 'สหรัฐอเมริกา',
+    // Screener Tabs (matching user screenshot)
+    tabUndervalued: 'หุ้นราคาถูกที่สุด',
+    tabOvervalued: 'หุ้นราคาแพงที่สุด',
+    tab52wHigh: 'สูงสุดใน 52 สัปดาห์',
+    tab52wLow: 'ต่ำสุดใน 52 สัปดาห์',
+    tabMostActive: 'เคลื่อนไหวมากสุด',
+    tabTopGainers: 'Top Gainers',
+    tabTopLosers: 'Top Losers',
     // Table Toolbar
     searchPlaceholder: 'ค้นหาด้วยชื่อย่อหุ้น หรือชื่อบริษัท...',
     all: 'ทั้งหมด',
@@ -51,7 +47,7 @@ export const translations: Record<Language, Record<string, string>> = {
     fair: 'มูลค่าตามจริง',
     showing: 'แสดงทั้งหมด',
     stocks: 'รายการ',
-    // Columns - EXACT MATCH TO th.investing.com AND USER'S IMAGE
+    // Columns - EXACT MATCH TO USER SCREENSHOT
     colName: 'ชื่อ',
     colPrice: 'ราคา',
     colUpside: 'ขาขึ้น (upside)',
@@ -81,7 +77,7 @@ export const translations: Record<Language, Record<string, string>> = {
     langToggle: 'English',
   },
   en: {
-    // Nav
+    // Nav & Titles
     markets: 'Markets',
     equities: 'Equities',
     pageTitleThai: 'Undervalued Stocks Thailand',
@@ -90,21 +86,17 @@ export const translations: Record<Language, Record<string, string>> = {
       "Discover the top undervalued stocks in Thailand based on InvestingPro's fair value metrics. Our curated list highlights stocks trading below their intrinsic value, presenting potential investment opportunities.",
     pageDescUS:
       "Discover the top undervalued stocks in United States based on InvestingPro's fair value metrics. Our curated list highlights stocks trading below their intrinsic value, presenting potential investment opportunities.",
-    // Market Selector
-    thailandSET: '🇹🇭 Thailand',
-    unitedStatesUS: '🇺🇸 United States',
-    // Tabs
-    undervalued: 'Most Undervalued',
-    overvalued: 'Most Overvalued',
-    // KPI Cards
-    topUndervalued: 'TOP UNDERVALUED',
-    avgUpside: 'AVG FAIR VALUE UPSIDE',
-    totalMarketCap: 'TOTAL MARKET CAP',
-    valuationEngine: 'VALUATION ENGINE',
-    across30: 'Across 30 analyzed securities',
-    totalAnalyzedSize: 'Total analyzed market size',
-    finboxModels: 'Finbox 14 Models',
-    dcfMultiples: 'DCF, Multiples, P/E & EV',
+    // Country Selector
+    thailandSET: 'Thailand',
+    unitedStatesUS: 'United States',
+    // Screener Tabs
+    tabUndervalued: 'Most Undervalued',
+    tabOvervalued: 'Most Overvalued',
+    tab52wHigh: '52 Week High',
+    tab52wLow: '52 Week Low',
+    tabMostActive: 'Most Active',
+    tabTopGainers: 'Top Gainers',
+    tabTopLosers: 'Top Losers',
     // Table Toolbar
     searchPlaceholder: 'Search by symbol or company name...',
     all: 'All',
@@ -152,7 +144,6 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    // Load persisted preferences
     const savedTheme = localStorage.getItem('rea_theme') as Theme | null;
     const savedLang = localStorage.getItem('rea_lang') as Language | null;
 
