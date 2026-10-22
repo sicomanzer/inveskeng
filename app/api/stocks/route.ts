@@ -3,6 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import { MarketType, StockItem } from '@/types/stock';
 import { THAI_STOCKS, US_STOCKS } from '@/data/undervalued-stocks';
+import { THAI_OVERVALUED_STOCKS, US_OVERVALUED_STOCKS } from '@/data/overvalued-stocks';
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
@@ -13,7 +14,30 @@ export async function GET(request: Request) {
   const rawMarket = searchParams.get('market')?.toUpperCase() || 'SET';
   const market = (rawMarket === 'US' ? 'US' : 'SET') as MarketType;
 
-  const fileName = market === 'SET' ? 'thailand_stocks_unmasked.json' : 'undervalued_stocks_unmasked.json';
+  const rawTab = (searchParams.get('tab') || searchParams.get('type') || 'undervalued').toLowerCase();
+  const tab = rawTab === 'overvalued' ? 'overvalued' : 'undervalued';
+
+  let fileName = '';
+  let fallback: StockItem[] = [];
+
+  if (market === 'SET') {
+    if (tab === 'overvalued') {
+      fileName = 'thailand_stocks_overvalued.json';
+      fallback = THAI_OVERVALUED_STOCKS;
+    } else {
+      fileName = 'thailand_stocks_unmasked.json';
+      fallback = THAI_STOCKS;
+    }
+  } else {
+    if (tab === 'overvalued') {
+      fileName = 'us_stocks_overvalued.json';
+      fallback = US_OVERVALUED_STOCKS;
+    } else {
+      fileName = 'undervalued_stocks_unmasked.json';
+      fallback = US_STOCKS;
+    }
+  }
+
   const baseDir = process.cwd();
   const filePath = path.join(baseDir, fileName);
 
@@ -57,7 +81,7 @@ export async function GET(request: Request) {
 
   // 3. Fall back to bundled dataset if filesystem read returned empty
   if (!items || items.length === 0) {
-    items = market === 'SET' ? THAI_STOCKS : US_STOCKS;
+    items = fallback;
   }
 
   // Read sync metadata (try GitHub raw first, then local)
@@ -89,6 +113,7 @@ export async function GET(request: Request) {
       items,
       total: items.length,
       market,
+      tab,
       syncStatus,
       timestamp: new Date().toISOString()
     },

@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import StockTable from '@/components/StockTable';
 import { US_STOCKS, THAI_STOCKS } from '@/data/undervalued-stocks';
+import { THAI_OVERVALUED_STOCKS, US_OVERVALUED_STOCKS } from '@/data/overvalued-stocks';
 import { MarketType, StockItem } from '@/types/stock';
 import { useApp } from '@/context/AppContext';
 import { 
@@ -13,26 +14,32 @@ import {
   BadgePercent,
   ChevronRight,
   RefreshCw,
-  Clock
+  Clock,
+  TrendingDown
 } from 'lucide-react';
 
 export default function HomePage() {
   const { t, lang } = useApp();
   const [selectedMarket, setSelectedMarket] = useState<MarketType>('SET');
   const [activeTab, setActiveTab] = useState<'undervalued' | 'overvalued'>('undervalued');
+  
   const [stocks, setStocks] = useState<StockItem[]>(
     selectedMarket === 'SET' ? THAI_STOCKS : US_STOCKS
   );
   const [isSyncing, setIsSyncing] = useState(false);
   const [lastSyncTime, setLastSyncTime] = useState<string>('');
   const [syncMessage, setSyncMessage] = useState<string>('');
+  const [tabCounts, setTabCounts] = useState<{ undervalued: number; overvalued: number }>({
+    undervalued: 30,
+    overvalued: selectedMarket === 'SET' ? 23 : 30
+  });
 
   const isThai = selectedMarket === 'SET';
 
   // Load latest data from API
-  const loadStocks = useCallback(async (market: MarketType) => {
+  const loadStocks = useCallback(async (market: MarketType, tab: 'undervalued' | 'overvalued') => {
     try {
-      const res = await fetch(`/api/stocks?market=${market}&_t=${Date.now()}`, {
+      const res = await fetch(`/api/stocks?market=${market}&tab=${tab}&_t=${Date.now()}`, {
         cache: 'no-store',
         headers: {
           'Cache-Control': 'no-cache, no-store, must-revalidate',
@@ -43,6 +50,10 @@ export default function HomePage() {
         const json = await res.json();
         if (json.items && json.items.length > 0) {
           setStocks(json.items);
+          setTabCounts(prev => ({
+            ...prev,
+            [tab]: json.items.length
+          }));
         }
         if (json.syncStatus?.lastSync) {
           const d = new Date(json.syncStatus.lastSync);
@@ -60,19 +71,44 @@ export default function HomePage() {
     }
   }, [lang]);
 
-  // Initial load and on market change
+  // Initial load and on market/tab change
   useEffect(() => {
-    loadStocks(selectedMarket);
-  }, [selectedMarket, loadStocks]);
+    loadStocks(selectedMarket, activeTab);
+  }, [selectedMarket, activeTab, loadStocks]);
 
   // Auto-sync polling every 15 minutes (900,000 ms)
   useEffect(() => {
     const interval = setInterval(() => {
-      loadStocks(selectedMarket);
+      loadStocks(selectedMarket, activeTab);
     }, 15 * 60 * 1000);
 
     return () => clearInterval(interval);
-  }, [selectedMarket, loadStocks]);
+  }, [selectedMarket, activeTab, loadStocks]);
+
+  // Tab switch handler
+  const handleTabChange = (newTab: 'undervalued' | 'overvalued') => {
+    setActiveTab(newTab);
+    if (newTab === 'overvalued') {
+      const fallback = selectedMarket === 'SET' ? THAI_OVERVALUED_STOCKS : US_OVERVALUED_STOCKS;
+      setStocks(fallback);
+    } else {
+      const fallback = selectedMarket === 'SET' ? THAI_STOCKS : US_STOCKS;
+      setStocks(fallback);
+    }
+  };
+
+  // Market switch handler
+  const handleMarketChange = (newMarket: MarketType) => {
+    setSelectedMarket(newMarket);
+    if (activeTab === 'overvalued') {
+      const fallback = newMarket === 'SET' ? THAI_OVERVALUED_STOCKS : US_OVERVALUED_STOCKS;
+      setStocks(fallback);
+      setTabCounts(prev => ({ ...prev, overvalued: newMarket === 'SET' ? 23 : 30 }));
+    } else {
+      const fallback = newMarket === 'SET' ? THAI_STOCKS : US_STOCKS;
+      setStocks(fallback);
+    }
+  };
 
   // Manual Trigger Sync
   const handleTriggerSync = async () => {
@@ -86,7 +122,7 @@ export default function HomePage() {
       });
       const data = await res.json();
       if (data.success) {
-        await loadStocks(selectedMarket);
+        await loadStocks(selectedMarket, activeTab);
         setSyncMessage(data.message || (lang === 'th' ? 'ซิงค์สำเร็จ!' : 'Sync successful!'));
         setTimeout(() => setSyncMessage(''), 5000);
       } else {
@@ -115,8 +151,15 @@ export default function HomePage() {
     ? `${(stocks.reduce((acc, s) => acc + (s.marketCap || 0), 0) / 1e9).toFixed(2)}B`
     : `${(stocks.reduce((acc, s) => acc + (s.marketCap || 0), 0) / 1e12).toFixed(2)}T`;
 
-  const pageTitle = isThai ? t('pageTitleThai') : t('pageTitleUS');
-  const pageSubtitle = isThai ? t('pageDescThai') : t('pageDescUS');
+  const pageTitle = activeTab === 'overvalued'
+    ? (isThai ? t('pageTitleThaiOvervalued') : t('pageTitleUSOvervalued'))
+    : (isThai ? t('pageTitleThai') : t('pageTitleUS'));
+
+  const pageSubtitle = activeTab === 'overvalued'
+    ? (isThai ? t('pageDescThaiOvervalued') : t('pageDescUSOvervalued'))
+    : (isThai ? t('pageDescThai') : t('pageDescUS'));
+
+  const isOvervalued = activeTab === 'overvalued';
 
   return (
     <main className="max-w-[1360px] mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-8 font-sans">
@@ -163,7 +206,7 @@ export default function HomePage() {
           <button
             onClick={handleTriggerSync}
             disabled={isSyncing}
-            className="flex items-center gap-1.5 px-3 py-1 text-xs font-semibold rounded-md border border-[#D5DCE5] dark:border-[#2E3646] bg-white dark:bg-[#1B212F] text-[#1256A0] dark:text-[#60A5FA] hover:bg-[#F1F4F8] dark:hover:bg-[#252E3E] disabled:opacity-50 transition shadow-xs"
+            className="flex items-center gap-1.5 px-3 py-1 text-xs font-semibold rounded-md border border-[#D5DCE5] dark:border-[#2E3646] bg-white dark:bg-[#1B212F] text-[#1256A0] dark:text-[#60A5FA] hover:bg-[#F1F4F8] dark:hover:bg-[#252E3E] disabled:opacity-50 transition shadow-xs cursor-pointer"
             title={t('autoSyncNotice')}
           >
             <RefreshCw className={`w-3.5 h-3.5 ${isSyncing ? 'animate-spin text-[#1256A0]' : ''}`} />
@@ -186,8 +229,8 @@ export default function HomePage() {
         {/* Market Switcher */}
         <div className="flex items-center gap-1.5 self-start md:self-auto bg-white dark:bg-[#161B26] p-1 rounded-lg border border-[#D5DCE5] dark:border-[#262C3A] shadow-xs">
           <button
-            onClick={() => setSelectedMarket('SET')}
-            className={`flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded transition ${
+            onClick={() => handleMarketChange('SET')}
+            className={`flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded transition cursor-pointer ${
               isThai 
                 ? 'bg-[#1256A0] text-white shadow-xs font-bold' 
                 : 'text-[#5B616E] dark:text-[#9CA3AF] hover:text-[#181C21] dark:hover:text-white'
@@ -196,8 +239,8 @@ export default function HomePage() {
             <span>{t('thailandSET')}</span>
           </button>
           <button
-            onClick={() => setSelectedMarket('US')}
-            className={`flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded transition ${
+            onClick={() => handleMarketChange('US')}
+            className={`flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded transition cursor-pointer ${
               !isThai 
                 ? 'bg-[#1256A0] text-white shadow-xs font-bold' 
                 : 'text-[#5B616E] dark:text-[#9CA3AF] hover:text-[#181C21] dark:hover:text-white'
@@ -211,8 +254,8 @@ export default function HomePage() {
       {/* Screener Tabs matching Investing.com */}
       <div className="flex items-center gap-8 border-b border-[#E4EAF1] dark:border-[#262C3A] mt-2 mb-5 text-sm transition-colors duration-200">
         <button
-          onClick={() => setActiveTab('undervalued')}
-          className={`pb-2.5 relative transition font-semibold flex items-center gap-2 ${
+          onClick={() => handleTabChange('undervalued')}
+          className={`pb-2.5 relative transition font-semibold flex items-center gap-2 cursor-pointer ${
             activeTab === 'undervalued'
               ? 'text-[#181C21] dark:text-white after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[2px] after:bg-[#1256A0] dark:after:bg-[#3B82F6]'
               : 'text-[#5B616E] dark:text-[#9CA3AF] hover:text-[#181C21] dark:hover:text-white'
@@ -220,32 +263,46 @@ export default function HomePage() {
         >
           <span>{t('undervalued')}</span>
           <span className="text-[11px] px-1.5 py-0.2 rounded-full bg-[#EBF3FC] dark:bg-[#1E2D4A] text-[#1256A0] dark:text-[#60A5FA] font-bold">
-            {stocks.length}
+            {tabCounts.undervalued}
           </span>
         </button>
         <button
-          onClick={() => setActiveTab('overvalued')}
-          className={`pb-2.5 relative transition font-semibold flex items-center gap-2 ${
+          onClick={() => handleTabChange('overvalued')}
+          className={`pb-2.5 relative transition font-semibold flex items-center gap-2 cursor-pointer ${
             activeTab === 'overvalued'
               ? 'text-[#181C21] dark:text-white after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[2px] after:bg-[#1256A0] dark:after:bg-[#3B82F6]'
               : 'text-[#5B616E] dark:text-[#9CA3AF] hover:text-[#181C21] dark:hover:text-white'
           }`}
         >
           <span>{t('overvalued')}</span>
+          <span className={`text-[11px] px-1.5 py-0.2 rounded-full font-bold ${
+            activeTab === 'overvalued'
+              ? 'bg-[#FEE4E2] dark:bg-[#3E1F24] text-[#D92D20] dark:text-[#F87171]'
+              : 'bg-[#F3F4F6] dark:bg-[#202636] text-[#6B7280] dark:text-[#9CA3AF]'
+          }`}>
+            {tabCounts.overvalued}
+          </span>
         </button>
       </div>
 
       {/* KPI Cards */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 mb-6">
+        {/* Card 1: Top Pick */}
         <div className="bg-white dark:bg-[#161B26] border border-[#E4EAF1] dark:border-[#262C3A] rounded-lg p-3.5 shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition-colors duration-200">
           <div className="text-[11px] font-semibold text-[#5B616E] dark:text-[#9CA3AF] mb-1 flex items-center justify-between">
-            <span>{t('topUndervalued')}</span>
-            <Flame className="w-3.5 h-3.5 text-[#F07504]" />
+            <span>{isOvervalued ? t('topOvervalued') : t('topUndervalued')}</span>
+            {isOvervalued ? (
+              <TrendingDown className="w-3.5 h-3.5 text-[#D92D20] dark:text-[#F87171]" />
+            ) : (
+              <Flame className="w-3.5 h-3.5 text-[#F07504]" />
+            )}
           </div>
           <div className="flex items-baseline gap-2">
             <span className="text-xl font-bold text-[#181C21] dark:text-white">{topPick.symbol}</span>
-            <span className="text-[#007C32] dark:text-[#00C076] font-bold text-sm">
-              +{topPick.fairValueUpside}%
+            <span className={`font-bold text-sm ${
+              isOvervalued ? 'text-[#D92D20] dark:text-[#F87171]' : 'text-[#007C32] dark:text-[#00C076]'
+            }`}>
+              {isOvervalued ? `${topPick.fairValueUpside}%` : `+${topPick.fairValueUpside}%`}
             </span>
           </div>
           <div className="text-[11px] text-[#5B616E] dark:text-[#9CA3AF] truncate mt-0.5">
@@ -253,17 +310,21 @@ export default function HomePage() {
           </div>
         </div>
 
+        {/* Card 2: Avg Upside / Downside */}
         <div className="bg-white dark:bg-[#161B26] border border-[#E4EAF1] dark:border-[#262C3A] rounded-lg p-3.5 shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition-colors duration-200">
           <div className="text-[11px] font-semibold text-[#5B616E] dark:text-[#9CA3AF] mb-1 flex items-center justify-between">
-            <span>{t('avgUpside')}</span>
-            <BadgePercent className="w-3.5 h-3.5 text-[#007C32] dark:text-[#00C076]" />
+            <span>{isOvervalued ? t('avgDownside') : t('avgUpside')}</span>
+            <BadgePercent className={`w-3.5 h-3.5 ${isOvervalued ? 'text-[#D92D20] dark:text-[#F87171]' : 'text-[#007C32] dark:text-[#00C076]'}`} />
           </div>
-          <div className="text-xl font-bold text-[#007C32] dark:text-[#00C076]">+{avgUpside}%</div>
+          <div className={`text-xl font-bold ${isOvervalued ? 'text-[#D92D20] dark:text-[#F87171]' : 'text-[#007C32] dark:text-[#00C076]'}`}>
+            {isOvervalued ? `${avgUpside}%` : `+${avgUpside}%`}
+          </div>
           <div className="text-[11px] text-[#5B616E] dark:text-[#9CA3AF] mt-0.5">
-            {t('across30')}
+            {isOvervalued ? t('acrossRanked') : t('across30')}
           </div>
         </div>
 
+        {/* Card 3: Total Market Cap */}
         <div className="bg-white dark:bg-[#161B26] border border-[#E4EAF1] dark:border-[#262C3A] rounded-lg p-3.5 shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition-colors duration-200">
           <div className="text-[11px] font-semibold text-[#5B616E] dark:text-[#9CA3AF] mb-1 flex items-center justify-between">
             <span>{t('totalMarketCap')}</span>
@@ -275,6 +336,7 @@ export default function HomePage() {
           </div>
         </div>
 
+        {/* Card 4: Valuation Engine */}
         <div className="bg-white dark:bg-[#161B26] border border-[#E4EAF1] dark:border-[#262C3A] rounded-lg p-3.5 shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition-colors duration-200">
           <div className="text-[11px] font-semibold text-[#5B616E] dark:text-[#9CA3AF] mb-1 flex items-center justify-between">
             <span>{t('valuationEngine')}</span>
@@ -292,9 +354,10 @@ export default function HomePage() {
       {/* Main Stock Table */}
       <div className="mb-10">
         <StockTable 
-          key={`${selectedMarket}-${stocks[0]?.symbol}-${stocks[0]?.price}-${stocks[1]?.symbol}-${stocks[2]?.symbol}-${stocks.length}-${lang}`}
+          key={`${selectedMarket}-${activeTab}-${stocks[0]?.symbol}-${stocks[0]?.price}-${stocks.length}-${lang}`}
           initialData={stocks} 
           market={selectedMarket} 
+          valuationType={activeTab}
         />
       </div>
 
@@ -309,25 +372,25 @@ export default function HomePage() {
             <>
               โครงสร้างตารางนี้ได้รับการออกแบบและจำลองข้อมูลโดยตรงจาก{' '}
               <a
-                href="https://th.investing.com/equities/thailand/most-undervalued"
+                href={isOvervalued ? "https://th.investing.com/equities/thailand/most-overvalued" : "https://th.investing.com/equities/thailand/most-undervalued"}
                 target="_blank"
                 rel="noreferrer"
                 className="text-[#1256A0] underline"
               >
-                th.investing.com/equities/thailand/most-undervalued
+                {isOvervalued ? "th.investing.com/equities/thailand/most-overvalued" : "th.investing.com/equities/thailand/most-undervalued"}
               </a>{' '}
-              โดยคอลัมน์และคำศัพท์เรตติ้ง (ดีเยี่ยม, ดีมาก, ดี, มูลค่าตามจริง, แย่, ซื้อทันที, ซื้อ, ถือหุ้นไว้) ถูกถอดแบบตรงตามภาพต้นฉบับ 100%
+              โดยคอลัมน์ ({isOvervalued ? 'ขาลง' : 'ขาขึ้น'} / Fair Value) และคำศัพท์เรตติ้ง (ดีเยี่ยม, ดีมาก, ดี, มูลค่าตามจริง, แย่, ซื้อทันที, ซื้อ, ถือหุ้นไว้) ถูกถอดแบบตรงตามภาพต้นฉบับ 100%
             </>
           ) : (
             <>
               This table styling, cell spacing, typography (<code className="text-[#1256A0] font-mono">Inter</code>), and column contracts directly mirror{' '}
               <a
-                href="https://www.investing.com/equities/thailand/most-undervalued"
+                href={isOvervalued ? "https://www.investing.com/equities/thailand/most-overvalued" : "https://www.investing.com/equities/thailand/most-undervalued"}
                 target="_blank"
                 rel="noreferrer"
                 className="text-[#1256A0] underline"
               >
-                investing.com/equities/thailand/most-undervalued
+                {isOvervalued ? "investing.com/equities/thailand/most-overvalued" : "investing.com/equities/thailand/most-undervalued"}
               </a>
               . All labels, table columns, ratings, and number formats are 100% matched to the original source.
             </>

@@ -35,5 +35,5 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Sync"
-          git add thailand_stocks_unmasked.json undervalued_stocks_unmasked.json sync_status.json
+          git add thailand_stocks_unmasked.json thailand_stocks_overvalued.json undervalued_stocks_unmasked.json us_stocks_overvalued.json sync_status.json
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore(sync): automated live stock data update from Investing.com" && git push)

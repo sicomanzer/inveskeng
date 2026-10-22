@@ -27,9 +27,10 @@ import {
 interface StockTableProps {
   initialData: StockItem[];
   market: MarketType;
+  valuationType?: 'undervalued' | 'overvalued';
 }
 
-export default function StockTable({ initialData, market }: StockTableProps) {
+export default function StockTable({ initialData, market, valuationType = 'undervalued' }: StockTableProps) {
   const { t, lang, formatRating } = useApp();
   const [data, setData] = useState<StockItem[]>(initialData);
   const [sorting, setSorting] = useState<SortingState>([]);
@@ -60,11 +61,15 @@ export default function StockTable({ initialData, market }: StockTableProps) {
         (item.analystRatings && item.analystRatings.toUpperCase().includes(analystFilter.toUpperCase()));
 
       const matchesUpside =
-        minUpsideFilter === 0 || item.fairValueUpside >= minUpsideFilter;
+        minUpsideFilter === 0
+          ? true
+          : valuationType === 'overvalued'
+          ? item.fairValueUpside <= minUpsideFilter
+          : item.fairValueUpside >= minUpsideFilter;
 
       return matchesSearch && matchesHealth && matchesAnalyst && matchesUpside;
     });
-  }, [data, globalFilter, healthFilter, analystFilter, minUpsideFilter]);
+  }, [data, globalFilter, healthFilter, analystFilter, minUpsideFilter, valuationType]);
 
   // Small orange Pro badge
   const proBadge = (
@@ -130,7 +135,13 @@ export default function StockTable({ initialData, market }: StockTableProps) {
             onClick={() => column.toggleSorting(column.getIsSorted() === 'asc')}
             className="flex flex-col items-end justify-end font-semibold text-[#5B616E] dark:text-[#9CA3AF] hover:text-[#232526] dark:hover:text-[#F3F4F6] w-full text-xs leading-tight"
           >
-            {lang === 'th' ? (
+            {valuationType === 'overvalued' ? (
+              <span className="flex items-center gap-0.5">
+                <span>{t('colDownside')}</span>
+                {proBadge}
+                <span className="text-[10px] text-[#A0A5AF]">▾</span>
+              </span>
+            ) : lang === 'th' ? (
               <>
                 <span>ขาขึ้น</span>
                 <span className="flex items-center gap-0.5">
@@ -152,9 +163,14 @@ export default function StockTable({ initialData, market }: StockTableProps) {
         ),
         cell: ({ row }) => {
           const val = row.original.fairValueUpside;
+          const isNegative = val < 0;
           return (
-            <div className="text-right font-bold text-[#007C32] dark:text-[#00C076] whitespace-nowrap tabular-nums text-xs md:text-[13px]">
-              +{val.toFixed(2)}%
+            <div
+              className={`text-right font-bold whitespace-nowrap tabular-nums text-xs md:text-[13px] ${
+                isNegative ? 'text-[#D92D20] dark:text-[#F87171]' : 'text-[#007C32] dark:text-[#00C076]'
+              }`}
+            >
+              {isNegative ? `${val.toFixed(2)}%` : `+${val.toFixed(2)}%`}
             </div>
           );
         },
@@ -466,7 +482,7 @@ export default function StockTable({ initialData, market }: StockTableProps) {
         },
       },
     ],
-    [t, lang, formatRating]
+    [t, lang, formatRating, valuationType]
   );
 
   const table = useReactTable({
@@ -544,20 +560,31 @@ export default function StockTable({ initialData, market }: StockTableProps) {
             <option value="Neutral">{lang === 'th' ? 'ถือหุ้นไว้ (Neutral)' : 'Hold / Neutral'}</option>
           </select>
 
-          {/* Upside Dropdown */}
+          {/* Upside / Downside Dropdown */}
           <select
             value={minUpsideFilter}
             onChange={(e) => setMinUpsideFilter(Number(e.target.value))}
             className="bg-[#F8F9FA] dark:bg-[#1F2636] border border-[#D5DCE5] dark:border-[#2E3646] text-[#232526] dark:text-[#E5E7EB] rounded px-2 py-1 text-xs focus:outline-none focus:border-[#1256A0] cursor-pointer"
           >
-            <option value={0}>{lang === 'th' ? 'Upside: ทั้งหมด' : 'Upside: All'}</option>
-            <option value={40}>Upside &gt; +40%</option>
-            <option value={50}>Upside &gt; +50%</option>
-            <option value={60}>Upside &gt; +60%</option>
+            {valuationType === 'overvalued' ? (
+              <>
+                <option value={0}>{lang === 'th' ? 'ขาลง: ทั้งหมด' : 'Downside: All'}</option>
+                <option value={-15}>Downside &le; -15%</option>
+                <option value={-20}>Downside &le; -20%</option>
+                <option value={-25}>Downside &le; -25%</option>
+              </>
+            ) : (
+              <>
+                <option value={0}>{lang === 'th' ? 'Upside: ทั้งหมด' : 'Upside: All'}</option>
+                <option value={40}>Upside &ge; +40%</option>
+                <option value={50}>Upside &ge; +50%</option>
+                <option value={60}>Upside &ge; +60%</option>
+              </>
+            )}
           </select>
 
           {/* Clear Filter Button */}
-          {(healthFilter !== 'ALL' || analystFilter !== 'ALL' || minUpsideFilter > 0 || globalFilter) && (
+          {(healthFilter !== 'ALL' || analystFilter !== 'ALL' || minUpsideFilter !== 0 || globalFilter) && (
             <button
               onClick={() => {
                 setHealthFilter('ALL');

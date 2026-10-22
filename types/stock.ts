@@ -27,6 +27,7 @@ export interface StockItem {
   flagCode: string; // 'TH' or 'US'
   flagName: string;
   market: MarketType;
+  valuationType?: 'undervalued' | 'overvalued';
   lastUpdateTime?: string;
   locked?: boolean;
 }

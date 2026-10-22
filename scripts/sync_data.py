@@ -8,34 +8,34 @@ from bs4 import BeautifulSoup
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-def fetch_market_stocks(country_slug: str, market_code: str, currency: str, curr_sym: str, out_filename: str):
-    print(f"[{datetime.now().strftime('%H:%M:%S')}] Fetching {market_code} from Investing.com ({country_slug})...")
-    url = f"https://www.investing.com/equities/{country_slug}/most-undervalued" if country_slug != "us" else "https://www.investing.com/equities/most-undervalued"
+def fetch_market_stocks(country_slug: str, market_code: str, tab_slug: str, currency: str, curr_sym: str, out_filename: str):
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] Fetching {market_code} ({tab_slug}) from Investing.com ({country_slug})...")
+    url = f"https://www.investing.com/equities/{country_slug}/most-{tab_slug}" if country_slug != "us" else f"https://www.investing.com/equities/most-{tab_slug}"
     
     try:
         r = requests.get(url, impersonate="chrome124", timeout=20)
         if r.status_code != 200:
-            print(f"Error fetching page ({market_code}): HTTP {r.status_code}")
+            print(f"Error fetching page ({market_code} {tab_slug}): HTTP {r.status_code}")
             return None
     except Exception as e:
-        print(f"Exception fetching page ({market_code}): {e}")
+        print(f"Exception fetching page ({market_code} {tab_slug}): {e}")
         return None
 
     soup = BeautifulSoup(r.text, 'html.parser')
     script = soup.find('script', id='__NEXT_DATA__')
     if not script:
-        print(f"No __NEXT_DATA__ found for {market_code}")
+        print(f"No __NEXT_DATA__ found for {market_code} {tab_slug}")
         return None
 
     try:
         page_data = json.loads(script.string)
-        undervalued = page_data['props']['pageProps']['state']['investingProRatingsStore']['assetsCollections']['undervalued']['_collection']
+        collection = page_data['props']['pageProps']['state']['investingProRatingsStore']['assetsCollections'][tab_slug]['_collection']
     except Exception as e:
-        print(f"Failed to parse __NEXT_DATA__ for {market_code}: {e}")
+        print(f"Failed to parse __NEXT_DATA__ for {market_code} {tab_slug}: {e}")
         return None
 
     # Resolve real symbols and company names using pd-instruments
-    pair_ids = [item['id'] for item in undervalued]
+    pair_ids = [item['id'] for item in collection]
     query = "&".join(f"instrument_ids={pid}" for pid in pair_ids)
     pd_url = f"https://endpoints.investing.com/pd-instruments/v1/instruments?{query}&domain_id=1"
     
@@ -52,7 +52,7 @@ def fetch_market_stocks(country_slug: str, market_code: str, currency: str, curr
     merged_stocks = []
     now_iso = datetime.now(timezone(timedelta(hours=7))).isoformat()
 
-    for i, item in enumerate(undervalued):
+    for i, item in enumerate(collection):
         pid = str(item['id'])
         inst = instruments.get(pid, {})
         real_symbol = inst.get('symbol', item.get('symbol', f"ID-{pid}"))
@@ -70,9 +70,9 @@ def fetch_market_stocks(country_slug: str, market_code: str, currency: str, curr
         except:
             price_val = float(item.get('last') or 0.0)
 
-        upside_str = rendered_row[2] if len(rendered_row) > 2 else f"+{item.get('fairValueUpside', 0):.2f}%"
+        upside_str = rendered_row[2] if len(rendered_row) > 2 else f"{item.get('fairValueUpside', 0):.2f}%"
         try:
-            upside_val = float(upside_str.replace('+', '').replace('%', '').strip()) if upside_str else 0.0
+            upside_val = float(upside_str.replace('+', '').replace('%', '').strip()) if upside_str else float(item.get('fairValueUpside') or 0.0)
         except:
             upside_val = float(item.get('fairValueUpside') or 0.0)
 
@@ -132,6 +132,7 @@ def fetch_market_stocks(country_slug: str, market_code: str, currency: str, curr
             "flagCode": "TH" if market_code == "SET" else "US",
             "flagName": "Thailand" if market_code == "SET" else "United States",
             "market": market_code,
+            "valuationType": tab_slug,
             "lastUpdateTime": now_iso
         }
         merged_stocks.append(stock_entry)
@@ -140,22 +141,36 @@ def fetch_market_stocks(country_slug: str, market_code: str, currency: str, curr
     with open(out_path, "w", encoding="utf-8") as out_f:
         json.dump(merged_stocks, out_f, indent=2, ensure_ascii=False)
 
-    print(f"[{datetime.now().strftime('%H:%M:%S')}] Saved {len(merged_stocks)} exact stocks to {out_filename}")
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] Saved {len(merged_stocks)} {tab_slug} stocks to {out_filename}")
     return len(merged_stocks)
 
 def main():
-    parser = argparse.ArgumentParser(description="Sync Investing.com Undervalued stocks with exact matching rows")
+    parser = argparse.ArgumentParser(description="Sync Investing.com Undervalued & Overvalued stocks")
     parser.add_argument("--market", default="ALL", choices=["SET", "US", "ALL"], help="Market to sync")
+    parser.add_argument("--type", default="ALL", choices=["undervalued", "overvalued", "ALL"], help="Valuation type")
     args = parser.parse_args()
 
     results = {}
-    if args.market in ["SET", "ALL"]:
-        count_set = fetch_market_stocks("thailand", "SET", "THB", "฿", "thailand_stocks_unmasked.json")
-        results["SET"] = count_set
+    
+    # 1. SET Undervalued
+    if args.market in ["SET", "ALL"] and args.type in ["undervalued", "ALL"]:
+        count_set_uv = fetch_market_stocks("thailand", "SET", "undervalued", "THB", "฿", "thailand_stocks_unmasked.json")
+        results["SET_undervalued"] = count_set_uv
 
-    if args.market in ["US", "ALL"]:
-        count_us = fetch_market_stocks("us", "US", "USD", "$", "undervalued_stocks_unmasked.json")
-        results["US"] = count_us
+    # 2. SET Overvalued
+    if args.market in ["SET", "ALL"] and args.type in ["overvalued", "ALL"]:
+        count_set_ov = fetch_market_stocks("thailand", "SET", "overvalued", "THB", "฿", "thailand_stocks_overvalued.json")
+        results["SET_overvalued"] = count_set_ov
+
+    # 3. US Undervalued
+    if args.market in ["US", "ALL"] and args.type in ["undervalued", "ALL"]:
+        count_us_uv = fetch_market_stocks("us", "US", "undervalued", "USD", "$", "undervalued_stocks_unmasked.json")
+        results["US_undervalued"] = count_us_uv
+
+    # 4. US Overvalued
+    if args.market in ["US", "ALL"] and args.type in ["overvalued", "ALL"]:
+        count_us_ov = fetch_market_stocks("us", "US", "overvalued", "USD", "$", "us_stocks_overvalued.json")
+        results["US_overvalued"] = count_us_ov
 
     # Update metadata
     now_iso = datetime.now(timezone(timedelta(hours=7))).isoformat()

@@ -24,10 +24,16 @@ export const translations: Record<Language, Record<string, string>> = {
     equities: 'ตราสารทุน',
     pageTitleThai: 'หุ้น Undervalued ในประเทศ ไทย',
     pageTitleUS: 'หุ้น Undervalued ในประเทศ สหรัฐอเมริกา',
+    pageTitleThaiOvervalued: 'หุ้น Overvalued ในประเทศ ไทย',
+    pageTitleUSOvervalued: 'หุ้น Overvalued ในประเทศ สหรัฐอเมริกา',
     pageDescThai:
       "ค้นพบหุ้น Undervalued ชั้นนำในประเทศไทยตามการประมาณการมูลค่ายุติธรรมของ InvestingPro รายการนี้มีการปรับปรุงข้อมูลแบบไดนามิกและอัปเดตตลอดเวลา โดยแสดงราคาปัจจุบัน ขาขึ้น (Upside) และสุขภาพทางการเงิน",
     pageDescUS:
       "ค้นพบหุ้น Undervalued ชั้นนำในสหรัฐอเมริกาตามการประมาณการมูลค่ายุติธรรมของ InvestingPro รายการนี้มีการปรับปรุงข้อมูลแบบไดนามิกและอัปเดตตลอดเวลา",
+    pageDescThaiOvervalued:
+      "ค้นพบหุ้น Overvalued ชั้นนำในประเทศไทยตามการประมาณการมูลค่ายุติธรรมของ InvestingPro รายการนี้แสดงหุ้นที่มีราคาสูงกว่ามูลค่ายุติธรรม (Fair Value) ซึ่งอาจมีความเสี่ยงหรือมีโอกาสปรับตัวลง",
+    pageDescUSOvervalued:
+      "ค้นพบหุ้น Overvalued ชั้นนำในสหรัฐอเมริกาตามการประมาณการมูลค่ายุติธรรมของ InvestingPro รายการนี้แสดงหุ้นที่มีราคาสูงกว่ามูลค่ายุติธรรม (Fair Value)",
     // Country Selector
     thailandSET: 'ไทย',
     unitedStatesUS: 'สหรัฐอเมริกา',
@@ -35,8 +41,11 @@ export const translations: Record<Language, Record<string, string>> = {
     undervalued: 'Most Undervalued',
     overvalued: 'Most Overvalued',
     topUndervalued: 'หุ้น UNDERVALUED สูงสุด',
+    topOvervalued: 'หุ้น OVERVALUED สูงสุด',
     avgUpside: 'UPSIDE เฉลี่ยจาก FAIR VALUE',
+    avgDownside: 'DOWNSIDE เฉลี่ยจาก FAIR VALUE',
     across30: 'เฉลี่ยจาก 30 อันดับแรก',
+    acrossRanked: 'เฉลี่ยจากหุ้นที่วิเคราะห์',
     totalMarketCap: 'มูลค่าตลาดรวมที่วิเคราะห์',
     totalAnalyzedSize: 'ขนาดมาร์เก็ตแคปรวมในพอร์ต',
     valuationEngine: 'โมเดลประเมินมูลค่า',
@@ -62,6 +71,7 @@ export const translations: Record<Language, Record<string, string>> = {
     colName: 'ชื่อ',
     colPrice: 'ราคา',
     colUpside: 'ขาขึ้น (upside)',
+    colDownside: 'ขาลง',
     colFairValue: 'มูลค่ายุติธรรม',
     colHealth: 'สุขภาพทางการเงิน',
     colCashFlow: 'เรตติ้งกระแสเงินสด',
@@ -93,10 +103,16 @@ export const translations: Record<Language, Record<string, string>> = {
     equities: 'Equities',
     pageTitleThai: 'Undervalued Stocks Thailand',
     pageTitleUS: 'Undervalued Stocks United States',
+    pageTitleThaiOvervalued: 'Overvalued Stocks Thailand',
+    pageTitleUSOvervalued: 'Overvalued Stocks United States',
     pageDescThai:
       "Discover the top undervalued stocks in Thailand based on InvestingPro's fair value metrics. Our curated list highlights stocks trading below their intrinsic value, presenting potential investment opportunities.",
     pageDescUS:
       "Discover the top undervalued stocks in United States based on InvestingPro's fair value metrics. Our curated list highlights stocks trading below their intrinsic value, presenting potential investment opportunities.",
+    pageDescThaiOvervalued:
+      "Discover the top overvalued stocks in Thailand based on InvestingPro's fair value metrics. This curated list highlights stocks trading above their intrinsic value, presenting potential risks or shorting opportunities.",
+    pageDescUSOvervalued:
+      "Discover the top overvalued stocks in United States based on InvestingPro's fair value metrics. This curated list highlights stocks trading above their intrinsic value.",
     // Country Selector
     thailandSET: 'Thailand',
     unitedStatesUS: 'United States',
@@ -104,8 +120,11 @@ export const translations: Record<Language, Record<string, string>> = {
     undervalued: 'Most Undervalued',
     overvalued: 'Most Overvalued',
     topUndervalued: 'TOP UNDERVALUED STOCK',
+    topOvervalued: 'TOP OVERVALUED STOCK',
     avgUpside: 'AVG FAIR VALUE UPSIDE',
+    avgDownside: 'AVG FAIR VALUE DOWNSIDE',
     across30: 'Across top 30 ranked',
+    acrossRanked: 'Across analyzed stocks',
     totalMarketCap: 'TOTAL MARKET CAP ANALYZED',
     totalAnalyzedSize: 'Aggregate portfolio size',
     valuationEngine: 'VALUATION ENGINE',
@@ -131,6 +150,7 @@ export const translations: Record<Language, Record<string, string>> = {
     colName: 'Name',
     colPrice: 'Price',
     colUpside: 'Upside',
+    colDownside: 'Downside',
     colFairValue: 'Fair Value',
     colHealth: 'Financial Health',
     colCashFlow: 'Cash Flow Rating',
