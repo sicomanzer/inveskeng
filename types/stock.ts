@@ -32,21 +32,24 @@ export interface StockItem {
 }
 
 export function formatRatingText(val?: string | null, isThai: boolean = false): string {
-  if (!val || val === '-' || val === '') return '-';
-  const upper = val.toUpperCase().trim();
+  if (!val || val === '-' || val === '' || val === 'null' || val === 'undefined') return '-';
+  const clean = val.trim();
+  const normalized = clean.toUpperCase().replace(/[\s_-]+/g, '_');
 
   if (isThai) {
-    switch (upper) {
+    switch (normalized) {
       case 'EXCELLENT':
         return 'ดีเยี่ยม';
       case 'GREAT':
         return 'ดีมาก';
       case 'GOOD':
+      case 'OUTPERFORM':
         return 'ดี';
       case 'FAIR':
         return 'มูลค่าตามจริง';
       case 'POOR':
       case 'WEAK':
+      case 'UNDERPERFORM':
         return 'แย่';
       case 'STRONG_BUY':
         return 'ซื้อทันที';
@@ -69,24 +72,26 @@ export function formatRatingText(val?: string | null, isThai: boolean = false): 
       case 'ถือหุ้นไว้':
       case 'ขาย':
       case 'ขายทันที':
-        return val;
+        return clean;
       default:
         return val;
     }
   }
 
   // English
-  switch (upper) {
+  switch (normalized) {
     case 'EXCELLENT':
       return 'Excellent';
     case 'GREAT':
       return 'Great';
     case 'GOOD':
+    case 'OUTPERFORM':
       return 'Good';
     case 'FAIR':
       return 'Fair';
     case 'POOR':
     case 'WEAK':
+    case 'UNDERPERFORM':
       return 'Weak';
     case 'STRONG_BUY':
       return 'Strong Buy';
