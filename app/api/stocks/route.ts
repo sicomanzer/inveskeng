@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 import { MarketType, StockItem } from '@/types/stock';
+import { THAI_STOCKS, US_STOCKS } from '@/data/undervalued-stocks';
 
 export const dynamic = 'force-dynamic';
 
@@ -24,6 +25,11 @@ export async function GET(request: Request) {
     }
   } catch (err: any) {
     console.error('Failed to read stock file:', err);
+  }
+
+  // Fallback to bundled dataset if filesystem is empty or on serverless Vercel
+  if (!items || items.length === 0) {
+    items = market === 'SET' ? THAI_STOCKS : US_STOCKS;
   }
 
   // Read sync metadata
