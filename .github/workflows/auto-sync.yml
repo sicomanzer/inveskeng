@@ -1,0 +1,37 @@
+name: Auto Sync Investing.com Data
+
+on:
+  schedule:
+    # Run every 30 minutes (UTC)
+    - cron: '*/30 * * * *'
+  workflow_dispatch: # Allow manual trigger anytime
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install curl_cffi
+
+      - name: Run Live Sync
+        run: |
+          python scripts/sync_data.py --market=ALL
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Sync"
+          git add thailand_stocks_unmasked.json undervalued_stocks_unmasked.json sync_status.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(sync): automated live stock data update from Investing.com" && git push)

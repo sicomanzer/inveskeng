@@ -33,7 +33,13 @@ export default function HomePage() {
   // Load latest data from API
   const loadStocks = useCallback(async (market: MarketType) => {
     try {
-      const res = await fetch(`/api/stocks?market=${market}`);
+      const res = await fetch(`/api/stocks?market=${market}&_t=${Date.now()}`, {
+        cache: 'no-store',
+        headers: {
+          'Cache-Control': 'no-cache, no-store, must-revalidate',
+          'Pragma': 'no-cache'
+        }
+      });
       if (res.ok) {
         const json = await res.json();
         if (json.items && json.items.length > 0) {
@@ -290,7 +296,11 @@ export default function HomePage() {
 
       {/* Main Stock Table */}
       <div className="mb-10">
-        <StockTable initialData={stocks} market={selectedMarket} />
+        <StockTable 
+          key={`${selectedMarket}-${stocks[0]?.symbol}-${stocks[0]?.price}-${stocks[1]?.symbol}-${stocks[2]?.symbol}-${stocks.length}`}
+          initialData={stocks} 
+          market={selectedMarket} 
+        />
       </div>
 
       {/* REA Technical Architecture Box */}

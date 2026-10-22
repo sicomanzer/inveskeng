@@ -5,6 +5,8 @@ import { MarketType, StockItem } from '@/types/stock';
 import { THAI_STOCKS, US_STOCKS } from '@/data/undervalued-stocks';
 
 export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+export const fetchCache = 'force-no-store';
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
@@ -27,7 +29,7 @@ export async function GET(request: Request) {
     console.error('Failed to read stock file:', err);
   }
 
-  // Fallback to bundled dataset if filesystem is empty or on serverless Vercel
+  // Fallback to bundled dataset if filesystem read returned empty
   if (!items || items.length === 0) {
     items = market === 'SET' ? THAI_STOCKS : US_STOCKS;
   }
@@ -43,11 +45,23 @@ export async function GET(request: Request) {
     // Ignore error
   }
 
-  return NextResponse.json({
-    items,
-    total: items.length,
-    market,
-    syncStatus,
-    timestamp: new Date().toISOString()
-  });
+  return NextResponse.json(
+    {
+      items,
+      total: items.length,
+      market,
+      syncStatus,
+      timestamp: new Date().toISOString()
+    },
+    {
+      status: 200,
+      headers: {
+        'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0',
+        'CDN-Cache-Control': 'no-store',
+        'Vercel-CDN-Cache-Control': 'no-store',
+        'Pragma': 'no-cache',
+        'Expires': '0',
+      }
+    }
+  );
 }

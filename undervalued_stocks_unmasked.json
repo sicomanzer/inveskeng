@@ -5,7 +5,7 @@
     "name": "Sai Silks (Kalamandir) Ltd",
     "shortName": "Sai Silks (Kalamandir)",
     "link": "https://www.investing.com/equities/sai-silks",
-    "price": 70.96,
+    "price": 70.9,
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 129.57,
@@ -15,7 +15,7 @@
     "marketCap": 10880000000,
     "marketCapFormatted": "$10.88B",
     "epsGrowth5y": 99.35,
-    "changeOneDayPercent": -2.18,
+    "changeOneDayPercent": -0.08,
     "financialHealth": "GREAT",
     "financialCashFlowHealth": "GREAT",
     "financialGrowthHealth": "GREAT",
@@ -24,7 +24,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T10:10:52.177453+07:00"
+    "lastUpdateTime": "2026-10-22T10:40:54.691872+07:00"
   },
   {
     "id": "1046334",
@@ -32,7 +32,7 @@
     "name": "Capacite Infraprojects Ltd",
     "shortName": "Capacite Infraprojects",
     "link": "https://www.investing.com/equities/capacite-infraprojects",
-    "price": 161.42,
+    "price": 161.8,
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 293.66,
@@ -42,7 +42,7 @@
     "marketCap": 13660000000,
     "marketCapFormatted": "$13.66B",
     "epsGrowth5y": 231.12,
-    "changeOneDayPercent": -4.35,
+    "changeOneDayPercent": 0.24,
     "financialHealth": "GOOD",
     "financialCashFlowHealth": "FAIR",
     "financialGrowthHealth": "GREAT",
@@ -51,7 +51,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T10:10:52.177453+07:00"
+    "lastUpdateTime": "2026-10-22T10:40:54.691872+07:00"
   },
   {
     "id": "18178",
@@ -59,7 +59,7 @@
     "name": "HEG Ltd.",
     "shortName": "HEG",
     "link": "https://www.investing.com/equities/heg",
-    "price": 210.15,
+    "price": 210.95,
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 371.25,
@@ -69,7 +69,7 @@
     "marketCap": 40550000000,
     "marketCapFormatted": "$40.55B",
     "epsGrowth5y": 265.5,
-    "changeOneDayPercent": -4.08,
+    "changeOneDayPercent": 0.38,
     "financialHealth": "GOOD",
     "financialCashFlowHealth": "GOOD",
     "financialGrowthHealth": "GREAT",
@@ -78,7 +78,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T10:10:52.177453+07:00"
+    "lastUpdateTime": "2026-10-22T10:40:54.691872+07:00"
   },
   {
     "id": "1206462",
@@ -86,7 +86,7 @@
     "name": "Zaggle Prepaid Ocean Services Ltd",
     "shortName": "Zaggle Prepaid Ocean Services",
     "link": "https://www.investing.com/equities/zaggle-prepaid-ocean-services-pvt",
-    "price": 159.56,
+    "price": 158.77,
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 276.32,
@@ -96,7 +96,7 @@
     "marketCap": 21450000000,
     "marketCapFormatted": "$21.45B",
     "epsGrowth5y": 48.42,
-    "changeOneDayPercent": -1.98,
+    "changeOneDayPercent": -0.5,
     "financialHealth": "GREAT",
     "financialCashFlowHealth": "GOOD",
     "financialGrowthHealth": "EXCELLENT",
@@ -105,7 +105,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T10:10:52.177453+07:00"
+    "lastUpdateTime": "2026-10-22T10:40:54.691872+07:00"
   },
   {
     "id": "1232159",
@@ -113,7 +113,7 @@
     "name": "Oswal Pumps Ltd",
     "shortName": "Oswal Pumps",
     "link": "https://www.investing.com/equities/oswal-pumps",
-    "price": 234.3,
+    "price": 234.1,
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 404.72,
@@ -123,7 +123,7 @@
     "marketCap": 26710000000,
     "marketCapFormatted": "$26.71B",
     "epsGrowth5y": 99.88,
-    "changeOneDayPercent": -5.05,
+    "changeOneDayPercent": -0.09,
     "financialHealth": "GOOD",
     "financialCashFlowHealth": "FAIR",
     "financialGrowthHealth": "GREAT",
@@ -132,34 +132,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T10:10:52.177453+07:00"
-  },
-  {
-    "id": "1205734",
-    "symbol": "NIIL",
-    "name": "Niit Learning Systems Ltd",
-    "shortName": "Niit Learning Systems",
-    "link": "https://www.investing.com/equities/niit-learning-systems",
-    "price": 192.88,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 329.61,
-    "fairValueUpside": 70.89,
-    "peRatio": 12.31,
-    "evEbitda": 5.75,
-    "marketCap": 26620000000,
-    "marketCapFormatted": "$26.62B",
-    "epsGrowth5y": 95.81,
-    "changeOneDayPercent": -1.86,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "GREAT",
-    "financialGrowthHealth": "GREAT",
-    "financialProfitabilityHealth": "EXCELLENT",
-    "analystRatings": "STRONG_BUY",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "lastUpdateTime": "2026-10-22T10:10:52.177453+07:00"
+    "lastUpdateTime": "2026-10-22T10:40:54.691872+07:00"
   },
   {
     "id": "1209336",
@@ -167,7 +140,7 @@
     "name": "Suraj Estate Developers Ltd",
     "shortName": "Suraj Estate Developers",
     "link": "https://www.investing.com/equities/suraj-estate-developers-pvt",
-    "price": 186.68,
+    "price": 185.01,
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 317.39,
@@ -177,7 +150,7 @@
     "marketCap": 8640000000,
     "marketCapFormatted": "$8.64B",
     "epsGrowth5y": 43.78,
-    "changeOneDayPercent": -3.94,
+    "changeOneDayPercent": -0.89,
     "financialHealth": "FAIR",
     "financialCashFlowHealth": "FAIR",
     "financialGrowthHealth": "FAIR",
@@ -186,7 +159,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T10:10:52.177453+07:00"
+    "lastUpdateTime": "2026-10-22T10:40:54.691872+07:00"
   },
   {
     "id": "947158",
@@ -194,7 +167,7 @@
     "name": "Ashoka Buildcon Ltd",
     "shortName": "Ashoka Buildcon Ltd",
     "link": "https://www.investing.com/equities/ashoka-buildcon-ltd",
-    "price": 102.18,
+    "price": 101.1,
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 173.42,
@@ -204,7 +177,7 @@
     "marketCap": 28680000000,
     "marketCapFormatted": "$28.68B",
     "epsGrowth5y": 88.42,
-    "changeOneDayPercent": -0.71,
+    "changeOneDayPercent": -1.06,
     "financialHealth": "GREAT",
     "financialCashFlowHealth": "GOOD",
     "financialGrowthHealth": "GOOD",
@@ -213,7 +186,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T10:10:52.177453+07:00"
+    "lastUpdateTime": "2026-10-22T10:40:54.691872+07:00"
   },
   {
     "id": "1161611",
@@ -221,7 +194,7 @@
     "name": "Solex Energy Ltd",
     "shortName": "Solex Energy",
     "link": "https://www.investing.com/equities/solex-energy-ltd",
-    "price": 569.4,
+    "price": 567.0,
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 966.24,
@@ -231,7 +204,7 @@
     "marketCap": 6150000000,
     "marketCapFormatted": "$6.15B",
     "epsGrowth5y": 472.94,
-    "changeOneDayPercent": -6.36,
+    "changeOneDayPercent": -0.42,
     "financialHealth": "GREAT",
     "financialCashFlowHealth": "FAIR",
     "financialGrowthHealth": "EXCELLENT",
@@ -240,7 +213,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T10:10:52.177453+07:00"
+    "lastUpdateTime": "2026-10-22T10:40:54.691872+07:00"
   },
   {
     "id": "953115",
@@ -258,7 +231,7 @@
     "marketCap": 17990000000,
     "marketCapFormatted": "$17.99B",
     "epsGrowth5y": 11.67,
-    "changeOneDayPercent": -1.22,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "GREAT",
     "financialCashFlowHealth": "GREAT",
     "financialGrowthHealth": "GREAT",
@@ -267,7 +240,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T10:10:52.177453+07:00"
+    "lastUpdateTime": "2026-10-22T10:40:54.691872+07:00"
   },
   {
     "id": "953899",
@@ -275,7 +248,7 @@
     "name": "PNC Infratech Ltd",
     "shortName": "PNC Infratech",
     "link": "https://www.investing.com/equities/pnc-infratech-ltd",
-    "price": 139.1,
+    "price": 138.95,
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 234.43,
@@ -285,7 +258,7 @@
     "marketCap": 35680000000,
     "marketCapFormatted": "$35.68B",
     "epsGrowth5y": 20.33,
-    "changeOneDayPercent": -2.84,
+    "changeOneDayPercent": -0.11,
     "financialHealth": "GREAT",
     "financialCashFlowHealth": "GREAT",
     "financialGrowthHealth": "FAIR",
@@ -294,7 +267,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T10:10:52.177453+07:00"
+    "lastUpdateTime": "2026-10-22T10:40:54.691872+07:00"
   },
   {
     "id": "1212815",
@@ -321,7 +294,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T10:10:52.177453+07:00"
+    "lastUpdateTime": "2026-10-22T10:40:54.691872+07:00"
   },
   {
     "id": "1163280",
@@ -329,7 +302,7 @@
     "name": "Rossari Biotech Ltd",
     "shortName": "Rossari Biotech",
     "link": "https://www.investing.com/equities/rossari-biotech-ltd",
-    "price": 416.9,
+    "price": 417.0,
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 699.89,
@@ -339,7 +312,7 @@
     "marketCap": 23090000000,
     "marketCapFormatted": "$23.09B",
     "epsGrowth5y": 11.06,
-    "changeOneDayPercent": -4.71,
+    "changeOneDayPercent": 0.02,
     "financialHealth": "GOOD",
     "financialCashFlowHealth": "FAIR",
     "financialGrowthHealth": "GREAT",
@@ -348,7 +321,34 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T10:10:52.177453+07:00"
+    "lastUpdateTime": "2026-10-22T10:40:54.691872+07:00"
+  },
+  {
+    "id": "1205734",
+    "symbol": "NIIL",
+    "name": "Niit Learning Systems Ltd",
+    "shortName": "Niit Learning Systems",
+    "link": "https://www.investing.com/equities/niit-learning-systems",
+    "price": 188.67,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 323.5,
+    "fairValueUpside": 67.72,
+    "peRatio": 12.31,
+    "evEbitda": 5.75,
+    "marketCap": 26620000000,
+    "marketCapFormatted": "$26.62B",
+    "epsGrowth5y": 95.81,
+    "changeOneDayPercent": -2.18,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "GREAT",
+    "financialGrowthHealth": "GREAT",
+    "financialProfitabilityHealth": "EXCELLENT",
+    "analystRatings": "STRONG_BUY",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "lastUpdateTime": "2026-10-22T10:40:54.691872+07:00"
   },
   {
     "id": "1196043",
@@ -356,7 +356,7 @@
     "name": "Viviana Power Tech Ltd",
     "shortName": "Viviana Power Tech",
     "link": "https://www.investing.com/equities/viviana-power-tech",
-    "price": 720.35,
+    "price": 743.0,
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 1206.04,
@@ -366,7 +366,7 @@
     "marketCap": 7290000000,
     "marketCapFormatted": "$7.29B",
     "epsGrowth5y": 123.55,
-    "changeOneDayPercent": -6.78,
+    "changeOneDayPercent": 3.14,
     "financialHealth": "GREAT",
     "financialCashFlowHealth": "WEAK",
     "financialGrowthHealth": "EXCELLENT",
@@ -375,7 +375,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T10:10:52.177453+07:00"
+    "lastUpdateTime": "2026-10-22T10:40:54.691872+07:00"
   },
   {
     "id": "18257",
@@ -383,7 +383,7 @@
     "name": "KEC International Ltd.",
     "shortName": "KEC International",
     "link": "https://www.investing.com/equities/kec-international",
-    "price": 334.0,
+    "price": 332.0,
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 558.79,
@@ -393,7 +393,7 @@
     "marketCap": 88910000000,
     "marketCapFormatted": "$88.91B",
     "epsGrowth5y": 15.31,
-    "changeOneDayPercent": -2.78,
+    "changeOneDayPercent": -0.6,
     "financialHealth": "FAIR",
     "financialCashFlowHealth": "WEAK",
     "financialGrowthHealth": "GREAT",
@@ -402,7 +402,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T10:10:52.177453+07:00"
+    "lastUpdateTime": "2026-10-22T10:40:54.691872+07:00"
   },
   {
     "id": "18173",
@@ -410,7 +410,7 @@
     "name": "Hathway Cable & Datacom Ltd",
     "shortName": "Hathway Cable",
     "link": "https://www.investing.com/equities/hathway-cable---datacom",
-    "price": 9.36,
+    "price": 9.3,
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 15.65,
@@ -420,7 +420,7 @@
     "marketCap": 16570000000,
     "marketCapFormatted": "$16.57B",
     "epsGrowth5y": -10.15,
-    "changeOneDayPercent": -4.0,
+    "changeOneDayPercent": -0.64,
     "financialHealth": "GOOD",
     "financialCashFlowHealth": "GREAT",
     "financialGrowthHealth": "GOOD",
@@ -429,7 +429,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T10:10:52.177453+07:00"
+    "lastUpdateTime": "2026-10-22T10:40:54.691872+07:00"
   },
   {
     "id": "1205806",
@@ -437,7 +437,7 @@
     "name": "Oriana Power Ltd",
     "shortName": "Oriana Power",
     "link": "https://www.investing.com/equities/oriana-power",
-    "price": 248.6,
+    "price": 245.05,
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 413.37,
@@ -447,7 +447,7 @@
     "marketCap": 25260000000,
     "marketCapFormatted": "$25.26B",
     "epsGrowth5y": 98.2,
-    "changeOneDayPercent": -4.02,
+    "changeOneDayPercent": -1.43,
     "financialHealth": "GREAT",
     "financialCashFlowHealth": "GOOD",
     "financialGrowthHealth": "EXCELLENT",
@@ -456,7 +456,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T10:10:52.177453+07:00"
+    "lastUpdateTime": "2026-10-22T10:40:54.691872+07:00"
   },
   {
     "id": "100245",
@@ -464,7 +464,7 @@
     "name": "The Bombay Burmah Trading Corporation Limited",
     "shortName": "Bombay Burmah Trading",
     "link": "https://www.investing.com/equities/bomburmah",
-    "price": 1198.5,
+    "price": 1202.5,
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 1988.06,
@@ -474,7 +474,7 @@
     "marketCap": 83660000000,
     "marketCapFormatted": "$83.66B",
     "epsGrowth5y": -336.11,
-    "changeOneDayPercent": -2.76,
+    "changeOneDayPercent": 0.33,
     "financialHealth": "GREAT",
     "financialCashFlowHealth": "GREAT",
     "financialGrowthHealth": "GREAT",
@@ -483,7 +483,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T10:10:52.177453+07:00"
+    "lastUpdateTime": "2026-10-22T10:40:54.691872+07:00"
   },
   {
     "id": "1165978",
@@ -501,7 +501,7 @@
     "marketCap": 27050000000,
     "marketCapFormatted": "$27.05B",
     "epsGrowth5y": 15.47,
-    "changeOneDayPercent": -2.28,
+    "changeOneDayPercent": -0.75,
     "financialHealth": "GREAT",
     "financialCashFlowHealth": "EXCELLENT",
     "financialGrowthHealth": "GOOD",
@@ -510,7 +510,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T10:10:52.177453+07:00"
+    "lastUpdateTime": "2026-10-22T10:40:54.691872+07:00"
   },
   {
     "id": "1206154",
@@ -537,7 +537,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T10:10:52.177453+07:00"
+    "lastUpdateTime": "2026-10-22T10:40:54.691872+07:00"
   },
   {
     "id": "976203",
@@ -545,7 +545,7 @@
     "name": "Avenuesai Ltd",
     "shortName": "Avenuesai",
     "link": "https://www.investing.com/equities/infibeam-incorporation",
-    "price": 123.66,
+    "price": 121.11,
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 202.54,
@@ -555,7 +555,7 @@
     "marketCap": 42840000000,
     "marketCapFormatted": "$42.84B",
     "epsGrowth5y": 27.64,
-    "changeOneDayPercent": -4.91,
+    "changeOneDayPercent": -2.06,
     "financialHealth": "GOOD",
     "financialCashFlowHealth": "GREAT",
     "financialGrowthHealth": "GREAT",
@@ -564,7 +564,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T10:10:52.177453+07:00"
+    "lastUpdateTime": "2026-10-22T10:40:54.691872+07:00"
   },
   {
     "id": "947197",
@@ -572,7 +572,7 @@
     "name": "Sharda Cropchem Ltd",
     "shortName": "Sharda Cropchem Ltd",
     "link": "https://www.investing.com/equities/sharda-cropchem-ltd",
-    "price": 676.85,
+    "price": 669.35,
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 1096.66,
@@ -582,7 +582,7 @@
     "marketCap": 61070000000,
     "marketCapFormatted": "$61.07B",
     "epsGrowth5y": 77.65,
-    "changeOneDayPercent": -3.28,
+    "changeOneDayPercent": -1.11,
     "financialHealth": "GREAT",
     "financialCashFlowHealth": "GREAT",
     "financialGrowthHealth": "EXCELLENT",
@@ -591,7 +591,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T10:10:52.177453+07:00"
+    "lastUpdateTime": "2026-10-22T10:40:54.691872+07:00"
   },
   {
     "id": "18394",
@@ -609,7 +609,7 @@
     "marketCap": 66570000000,
     "marketCapFormatted": "$66.57B",
     "epsGrowth5y": 17.64,
-    "changeOneDayPercent": 0.33,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "GOOD",
     "financialCashFlowHealth": "GOOD",
     "financialGrowthHealth": "GOOD",
@@ -618,7 +618,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T10:10:52.177453+07:00"
+    "lastUpdateTime": "2026-10-22T10:40:54.691872+07:00"
   },
   {
     "id": "1008992",
@@ -626,7 +626,7 @@
     "name": "Dollar Industries Ltd",
     "shortName": "Dollar Industries",
     "link": "https://www.investing.com/equities/dollar-industries-ltd",
-    "price": 255.8,
+    "price": 257.0,
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 412.19,
@@ -636,7 +636,7 @@
     "marketCap": 14510000000,
     "marketCapFormatted": "$14.51B",
     "epsGrowth5y": 21.7,
-    "changeOneDayPercent": -3.4,
+    "changeOneDayPercent": 0.47,
     "financialHealth": "GREAT",
     "financialCashFlowHealth": "GOOD",
     "financialGrowthHealth": "GREAT",
@@ -645,7 +645,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T10:10:52.177453+07:00"
+    "lastUpdateTime": "2026-10-22T10:40:54.691872+07:00"
   },
   {
     "id": "946754",
@@ -653,7 +653,7 @@
     "name": "R Systems International Ltd",
     "shortName": "R Systems International Ltd",
     "link": "https://www.investing.com/equities/r-systems-international-ltd",
-    "price": 260.4,
+    "price": 258.35,
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 417.18,
@@ -663,7 +663,7 @@
     "marketCap": 30860000000,
     "marketCapFormatted": "$30.86B",
     "epsGrowth5y": 17.5,
-    "changeOneDayPercent": 1.3,
+    "changeOneDayPercent": -0.79,
     "financialHealth": "GREAT",
     "financialCashFlowHealth": "GREAT",
     "financialGrowthHealth": "GREAT",
@@ -672,7 +672,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T10:10:52.177453+07:00"
+    "lastUpdateTime": "2026-10-22T10:40:54.691872+07:00"
   },
   {
     "id": "1251464",
@@ -690,7 +690,7 @@
     "marketCap": 34270000000,
     "marketCapFormatted": "$34.27B",
     "epsGrowth5y": 398.49,
-    "changeOneDayPercent": -6.74,
+    "changeOneDayPercent": -2.46,
     "financialHealth": "GOOD",
     "financialCashFlowHealth": null,
     "financialGrowthHealth": "EXCELLENT",
@@ -699,7 +699,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T10:10:52.177453+07:00"
+    "lastUpdateTime": "2026-10-22T10:40:54.691872+07:00"
   },
   {
     "id": "947130",
@@ -707,7 +707,7 @@
     "name": "Relaxo Footwears Ltd",
     "shortName": "Relaxo Footwears Ltd",
     "link": "https://www.investing.com/equities/relaxo-footwears-ltd",
-    "price": 288.5,
+    "price": 287.0,
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 457.45,
@@ -717,7 +717,7 @@
     "marketCap": 71770000000,
     "marketCapFormatted": "$71.77B",
     "epsGrowth5y": -4.62,
-    "changeOneDayPercent": -0.12,
+    "changeOneDayPercent": -0.52,
     "financialHealth": "FAIR",
     "financialCashFlowHealth": "GREAT",
     "financialGrowthHealth": "WEAK",
@@ -726,7 +726,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T10:10:52.177453+07:00"
+    "lastUpdateTime": "2026-10-22T10:40:54.691872+07:00"
   },
   {
     "id": "1232602",
@@ -744,7 +744,7 @@
     "marketCap": 33710000000,
     "marketCapFormatted": "$33.71B",
     "epsGrowth5y": 154.2,
-    "changeOneDayPercent": -2.52,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "FAIR",
     "financialCashFlowHealth": "GOOD",
     "financialGrowthHealth": "GOOD",
@@ -753,7 +753,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T10:10:52.177453+07:00"
+    "lastUpdateTime": "2026-10-22T10:40:54.691872+07:00"
   },
   {
     "id": "947021",
@@ -761,7 +761,7 @@
     "name": "Siyaram Silk Mills Ltd",
     "shortName": "Siyaram Silk Mills",
     "link": "https://www.investing.com/equities/siyaram-silk-mills-ltd",
-    "price": 504.55,
+    "price": 506.0,
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 795.81,
@@ -771,7 +771,7 @@
     "marketCap": 22990000000,
     "marketCapFormatted": "$22.99B",
     "epsGrowth5y": 366.0,
-    "changeOneDayPercent": -2.82,
+    "changeOneDayPercent": 0.29,
     "financialHealth": "GOOD",
     "financialCashFlowHealth": "GOOD",
     "financialGrowthHealth": "GOOD",
@@ -780,7 +780,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T10:10:52.177453+07:00"
+    "lastUpdateTime": "2026-10-22T10:40:54.691872+07:00"
   },
   {
     "id": "18181",
@@ -788,7 +788,7 @@
     "name": "Himatsingka Seide Ltd",
     "shortName": "Himatsingka Seide",
     "link": "https://www.investing.com/equities/himatsingka-seide",
-    "price": 55.37,
+    "price": 55.01,
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 87.32,
@@ -798,7 +798,7 @@
     "marketCap": 6960000000,
     "marketCapFormatted": "$6.96B",
     "epsGrowth5y": 60.89,
-    "changeOneDayPercent": -5.93,
+    "changeOneDayPercent": -0.65,
     "financialHealth": "FAIR",
     "financialCashFlowHealth": "FAIR",
     "financialGrowthHealth": "WEAK",
@@ -807,6 +807,6 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T10:10:52.177453+07:00"
+    "lastUpdateTime": "2026-10-22T10:40:54.691872+07:00"
   }
 ]
