@@ -78,7 +78,7 @@ export default function HomePage() {
   const handleTriggerSync = async () => {
     if (isSyncing) return;
     setIsSyncing(true);
-    setSyncMessage(lang === 'th' ? 'กำลังดึงข้อมูลสดจาก Investing.com...' : 'Syncing live data from Investing.com...');
+    setSyncMessage(lang === 'th' ? 'กำลังส่งคำสั่งซิงค์ข้อมูลสด...' : 'Triggering live sync...');
 
     try {
       const res = await fetch(`/api/stocks/sync?market=${selectedMarket}&_t=${Date.now()}`, {
@@ -87,15 +87,11 @@ export default function HomePage() {
       const data = await res.json();
       if (data.success) {
         await loadStocks(selectedMarket);
-        setSyncMessage(
-          lang === 'th' 
-            ? `ซิงค์สำเร็จ! อัปเดต ${data.market} เรียบร้อย` 
-            : `Sync successful! ${data.market} updated`
-        );
-        setTimeout(() => setSyncMessage(''), 4000);
+        setSyncMessage(data.message || (lang === 'th' ? 'ซิงค์สำเร็จ!' : 'Sync successful!'));
+        setTimeout(() => setSyncMessage(''), 5000);
       } else {
-        setSyncMessage(lang === 'th' ? 'การซิงค์ขัดข้อง กรุณาลองใหม่' : 'Sync error, please retry');
-        setTimeout(() => setSyncMessage(''), 4000);
+        setSyncMessage(data.message || (lang === 'th' ? 'การซิงค์ขัดข้อง' : 'Sync error, please retry'));
+        setTimeout(() => setSyncMessage(''), 6000);
       }
     } catch (err) {
       console.error('Manual sync failed:', err);

@@ -13,36 +13,75 @@ export async function GET(request: Request) {
   const rawMarket = searchParams.get('market')?.toUpperCase() || 'SET';
   const market = (rawMarket === 'US' ? 'US' : 'SET') as MarketType;
 
+  const fileName = market === 'SET' ? 'thailand_stocks_unmasked.json' : 'undervalued_stocks_unmasked.json';
   const baseDir = process.cwd();
-  const filePath = path.join(
-    baseDir,
-    market === 'SET' ? 'thailand_stocks_unmasked.json' : 'undervalued_stocks_unmasked.json'
-  );
+  const filePath = path.join(baseDir, fileName);
 
   let items: StockItem[] = [];
+  let syncStatus: any = { lastSync: new Date().toISOString(), status: 'idle' };
+
+  // 1. Try fetching freshest committed data directly from GitHub raw content
   try {
-    if (fs.existsSync(filePath)) {
-      const content = fs.readFileSync(filePath, 'utf-8');
-      items = JSON.parse(content);
+    const rawUrl = `https://raw.githubusercontent.com/sicomanzer/inveskeng/main/${fileName}?_t=${Date.now()}`;
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 2500);
+
+    const ghRes = await fetch(rawUrl, {
+      signal: controller.signal,
+      cache: 'no-store',
+      headers: { 'Cache-Control': 'no-cache' }
+    });
+    clearTimeout(timeoutId);
+
+    if (ghRes.ok) {
+      const ghItems = await ghRes.json();
+      if (Array.isArray(ghItems) && ghItems.length > 0) {
+        items = ghItems;
+      }
     }
-  } catch (err: any) {
-    console.error('Failed to read stock file:', err);
+  } catch (ghErr) {
+    // Network timeout or error fetching from GitHub raw, fall back to local file
   }
 
-  // Fallback to bundled dataset if filesystem read returned empty
+  // 2. Fall back to local file system if GitHub raw was empty or unreachable
+  if (!items || items.length === 0) {
+    try {
+      if (fs.existsSync(filePath)) {
+        const content = fs.readFileSync(filePath, 'utf-8');
+        items = JSON.parse(content);
+      }
+    } catch (err: any) {
+      console.error('Failed to read local stock file:', err);
+    }
+  }
+
+  // 3. Fall back to bundled dataset if filesystem read returned empty
   if (!items || items.length === 0) {
     items = market === 'SET' ? THAI_STOCKS : US_STOCKS;
   }
 
-  // Read sync metadata
-  let syncStatus = { lastSync: new Date().toISOString(), status: 'idle' };
-  const statusPath = path.join(baseDir, 'sync_status.json');
+  // Read sync metadata (try GitHub raw first, then local)
   try {
-    if (fs.existsSync(statusPath)) {
-      syncStatus = JSON.parse(fs.readFileSync(statusPath, 'utf-8'));
+    const statusUrl = `https://raw.githubusercontent.com/sicomanzer/inveskeng/main/sync_status.json?_t=${Date.now()}`;
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 2000);
+    const statusRes = await fetch(statusUrl, {
+      signal: controller.signal,
+      cache: 'no-store',
+      headers: { 'Cache-Control': 'no-cache' }
+    });
+    clearTimeout(timeoutId);
+    if (statusRes.ok) {
+      syncStatus = await statusRes.json();
     }
-  } catch (err) {
-    // Ignore error
+  } catch (e) {
+    // Fall back to local sync_status.json
+    const statusPath = path.join(baseDir, 'sync_status.json');
+    if (fs.existsSync(statusPath)) {
+      try {
+        syncStatus = JSON.parse(fs.readFileSync(statusPath, 'utf-8'));
+      } catch (err) {}
+    }
   }
 
   return NextResponse.json(
