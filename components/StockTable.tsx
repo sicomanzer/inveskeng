@@ -19,8 +19,7 @@ import {
   ArrowDown, 
   Search, 
   ChevronLeft, 
-  ChevronRight,
-  Lock
+  ChevronRight
 } from 'lucide-react';
 
 interface StockTableProps {
@@ -74,8 +73,7 @@ export default function StockTable({ initialData, market }: StockTableProps) {
         cell: ({ row }) => {
           const item = row.original;
           return (
-            <div className="flex items-center gap-2 py-0.5 min-w-[160px] max-w-[210px]">
-              <Lock className="w-3.5 h-3.5 text-[#F07504] shrink-0 opacity-85" />
+            <div className="flex items-center gap-2 py-0.5 min-w-[150px] max-w-[210px]">
               <span className="font-bold text-[#181C21] dark:text-[#F3F4F6] text-xs md:text-sm tracking-tight hover:text-[#1256A0] dark:hover:text-[#60A5FA] cursor-pointer">
                 {item.symbol}
               </span>
@@ -84,7 +82,7 @@ export default function StockTable({ initialData, market }: StockTableProps) {
                 target="_blank"
                 rel="noreferrer"
                 title={item.name}
-                className="text-xs text-[#5B616E] dark:text-[#9CA3AF] hover:text-[#1256A0] dark:hover:text-[#60A5FA] truncate max-w-[110px] inline-block font-normal transition"
+                className="text-xs text-[#5B616E] dark:text-[#9CA3AF] hover:text-[#1256A0] dark:hover:text-[#60A5FA] truncate max-w-[120px] inline-block font-normal transition"
               >
                 {item.name}
               </a>

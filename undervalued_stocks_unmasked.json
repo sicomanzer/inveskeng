@@ -24,7 +24,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T11:11:00.461418+07:00"
+    "lastUpdateTime": "2026-10-22T11:26:04.183522+07:00"
   },
   {
     "id": "15722",
@@ -51,7 +51,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T11:11:00.461418+07:00"
+    "lastUpdateTime": "2026-10-22T11:26:04.183522+07:00"
   },
   {
     "id": "8042",
@@ -78,7 +78,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T11:11:00.461418+07:00"
+    "lastUpdateTime": "2026-10-22T11:26:04.183522+07:00"
   },
   {
     "id": "6370",
@@ -105,7 +105,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T11:11:00.461418+07:00"
+    "lastUpdateTime": "2026-10-22T11:26:04.183522+07:00"
   },
   {
     "id": "6373",
@@ -132,7 +132,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T11:11:00.461418+07:00"
+    "lastUpdateTime": "2026-10-22T11:26:04.183522+07:00"
   },
   {
     "id": "956170",
@@ -159,7 +159,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T11:11:00.461418+07:00"
+    "lastUpdateTime": "2026-10-22T11:26:04.183522+07:00"
   },
   {
     "id": "1089236",
@@ -186,7 +186,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T11:11:00.461418+07:00"
+    "lastUpdateTime": "2026-10-22T11:26:04.183522+07:00"
   },
   {
     "id": "1220843",
@@ -213,7 +213,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T11:11:00.461418+07:00"
+    "lastUpdateTime": "2026-10-22T11:26:04.183522+07:00"
   },
   {
     "id": "32341",
@@ -240,7 +240,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T11:11:00.461418+07:00"
+    "lastUpdateTime": "2026-10-22T11:26:04.183522+07:00"
   },
   {
     "id": "6516",
@@ -267,34 +267,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T11:11:00.461418+07:00"
-  },
-  {
-    "id": "6448",
-    "symbol": "INTU",
-    "name": "Intuit Inc",
-    "shortName": "Intuit",
-    "link": "https://www.investing.com/equities/intuit",
-    "price": 335.61,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 515.53,
-    "fairValueUpside": 53.61,
-    "peRatio": 20.26,
-    "evEbitda": 12.87,
-    "marketCap": 89690000000,
-    "marketCapFormatted": "89.69B",
-    "epsGrowth5y": 0.18,
-    "changeOneDayPercent": 0.1,
-    "financialHealth": "Great",
-    "financialCashFlowHealth": "Great",
-    "financialGrowthHealth": "Great",
-    "financialProfitabilityHealth": "Excellent",
-    "analystRatings": "Buy",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "lastUpdateTime": "2026-10-22T11:11:00.461418+07:00"
+    "lastUpdateTime": "2026-10-22T11:26:04.183522+07:00"
   },
   {
     "id": "32331",
@@ -321,7 +294,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T11:11:00.461418+07:00"
+    "lastUpdateTime": "2026-10-22T11:26:04.183522+07:00"
   },
   {
     "id": "7889",
@@ -348,7 +321,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T11:11:00.461418+07:00"
+    "lastUpdateTime": "2026-10-22T11:26:04.183522+07:00"
   },
   {
     "id": "39152",
@@ -375,7 +348,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T11:11:00.461418+07:00"
+    "lastUpdateTime": "2026-10-22T11:26:04.183522+07:00"
   },
   {
     "id": "16943",
@@ -402,34 +375,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T11:11:00.461418+07:00"
-  },
-  {
-    "id": "32391",
-    "symbol": "REGN",
-    "name": "Regeneron Pharmaceuticals Inc",
-    "shortName": "Regeneron Pharmaceuticals",
-    "link": "https://www.investing.com/equities/regeneron-phar.",
-    "price": 805.67,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 1187.2635498046875,
-    "fairValueUpside": 47.36,
-    "peRatio": 19.94,
-    "evEbitda": 11.32,
-    "marketCap": 80450000000,
-    "marketCapFormatted": "80.45B",
-    "epsGrowth5y": 0.12,
-    "changeOneDayPercent": -0.22,
-    "financialHealth": "Great",
-    "financialCashFlowHealth": "Great",
-    "financialGrowthHealth": "Fair",
-    "financialProfitabilityHealth": "Excellent",
-    "analystRatings": "Buy",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "lastUpdateTime": "2026-10-22T11:11:00.461418+07:00"
+    "lastUpdateTime": "2026-10-22T11:26:04.183522+07:00"
   },
   {
     "id": "41176",
@@ -456,7 +402,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T11:11:00.461418+07:00"
+    "lastUpdateTime": "2026-10-22T11:26:04.183522+07:00"
   },
   {
     "id": "39277",
@@ -483,7 +429,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T11:11:00.461418+07:00"
+    "lastUpdateTime": "2026-10-22T11:26:04.183522+07:00"
   },
   {
     "id": "39147",
@@ -510,7 +456,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T11:11:00.461418+07:00"
+    "lastUpdateTime": "2026-10-22T11:26:04.183522+07:00"
   },
   {
     "id": "39135",
@@ -537,7 +483,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T11:11:00.461418+07:00"
+    "lastUpdateTime": "2026-10-22T11:26:04.183522+07:00"
   },
   {
     "id": "19694",
@@ -564,7 +510,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T11:11:00.461418+07:00"
+    "lastUpdateTime": "2026-10-22T11:26:04.183522+07:00"
   },
   {
     "id": "32381",
@@ -591,7 +537,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T11:11:00.461418+07:00"
+    "lastUpdateTime": "2026-10-22T11:26:04.183522+07:00"
   },
   {
     "id": "8063",
@@ -618,34 +564,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T11:11:00.461418+07:00"
-  },
-  {
-    "id": "8294",
-    "symbol": "CRM",
-    "name": "Salesforce Inc",
-    "shortName": "Salesforce Inc",
-    "link": "https://www.investing.com/equities/salesforce-com",
-    "price": 241.78,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 340.16,
-    "fairValueUpside": 40.69,
-    "peRatio": 22.39,
-    "evEbitda": 16.88,
-    "marketCap": 198980000000,
-    "marketCapFormatted": "198.98B",
-    "epsGrowth5y": 2.21,
-    "changeOneDayPercent": -0.27,
-    "financialHealth": "Good",
-    "financialCashFlowHealth": "Fair",
-    "financialGrowthHealth": "Great",
-    "financialProfitabilityHealth": "Great",
-    "analystRatings": "Buy",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "lastUpdateTime": "2026-10-22T11:11:00.461418+07:00"
+    "lastUpdateTime": "2026-10-22T11:26:04.183522+07:00"
   },
   {
     "id": "32370",
@@ -672,7 +591,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T11:11:00.461418+07:00"
+    "lastUpdateTime": "2026-10-22T11:26:04.183522+07:00"
   },
   {
     "id": "15828",
@@ -699,7 +618,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T11:11:00.461418+07:00"
+    "lastUpdateTime": "2026-10-22T11:26:04.183522+07:00"
   },
   {
     "id": "8280",
@@ -726,34 +645,34 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T11:11:00.461418+07:00"
+    "lastUpdateTime": "2026-10-22T11:26:04.183522+07:00"
   },
   {
-    "id": "17195",
-    "symbol": "SMCI",
-    "name": "Super Micro Computer Inc",
-    "shortName": "Super Micro Computer",
-    "link": "https://www.investing.com/equities/super-micro-compu",
-    "price": 35.57,
+    "id": "31028",
+    "symbol": "ENPH",
+    "name": "Enphase Energy Inc",
+    "shortName": "Enphase",
+    "link": "https://www.investing.com/equities/enphase-energy-inc",
+    "price": 31.99,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 49.34,
-    "fairValueUpside": 38.72,
-    "peRatio": 10.88,
-    "evEbitda": 9.46,
-    "marketCap": 23370000000,
-    "marketCapFormatted": "23.37B",
-    "epsGrowth5y": 0.84,
-    "changeOneDayPercent": 9.55,
-    "financialHealth": "Good",
-    "financialCashFlowHealth": "Fair",
-    "financialGrowthHealth": "Great",
-    "financialProfitabilityHealth": "Great",
-    "analystRatings": "Neutral",
+    "fairValue": 44.52,
+    "fairValueUpside": 39.16,
+    "peRatio": 31.39,
+    "evEbitda": 18.95,
+    "marketCap": 4230000000,
+    "marketCapFormatted": "4.23B",
+    "epsGrowth5y": 0.4,
+    "changeOneDayPercent": -0.74,
+    "financialHealth": "Fair",
+    "financialCashFlowHealth": "Good",
+    "financialGrowthHealth": "Weak",
+    "financialProfitabilityHealth": "Good",
+    "analystRatings": "Buy",
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T11:11:00.461418+07:00"
+    "lastUpdateTime": "2026-10-22T11:26:04.183522+07:00"
   },
   {
     "id": "39159",
@@ -780,7 +699,7 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T11:11:00.461418+07:00"
+    "lastUpdateTime": "2026-10-22T11:26:04.183522+07:00"
   },
   {
     "id": "948325",
@@ -807,6 +726,87 @@
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
-    "lastUpdateTime": "2026-10-22T11:11:00.461418+07:00"
+    "lastUpdateTime": "2026-10-22T11:26:04.183522+07:00"
+  },
+  {
+    "id": "13863",
+    "symbol": "ROP",
+    "name": "Roper Technologies Inc",
+    "shortName": "Roper Technologies",
+    "link": "https://www.investing.com/equities/roper-industries",
+    "price": 397.56,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 550.19,
+    "fairValueUpside": 38.39,
+    "peRatio": 16.66,
+    "evEbitda": 14.52,
+    "marketCap": 39320000000,
+    "marketCapFormatted": "39.32B",
+    "epsGrowth5y": 0.17,
+    "changeOneDayPercent": -0.16,
+    "financialHealth": "Good",
+    "financialCashFlowHealth": "Good",
+    "financialGrowthHealth": "Great",
+    "financialProfitabilityHealth": "Great",
+    "analystRatings": "Buy",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "lastUpdateTime": "2026-10-22T11:26:04.183522+07:00"
+  },
+  {
+    "id": "8248",
+    "symbol": "BSX",
+    "name": "Boston Scientific Corp",
+    "shortName": "Boston Scientific",
+    "link": "https://www.investing.com/equities/boston-scien-cp",
+    "price": 44.51,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 61.54,
+    "fairValueUpside": 38.26,
+    "peRatio": 17.91,
+    "evEbitda": 13.03,
+    "marketCap": 64510000000,
+    "marketCapFormatted": "64.51B",
+    "epsGrowth5y": 0.97,
+    "changeOneDayPercent": -2.35,
+    "financialHealth": "Great",
+    "financialCashFlowHealth": "Good",
+    "financialGrowthHealth": "Great",
+    "financialProfitabilityHealth": "Excellent",
+    "analystRatings": "Buy",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "lastUpdateTime": "2026-10-22T11:26:04.183522+07:00"
+  },
+  {
+    "id": "8201",
+    "symbol": "CVS",
+    "name": "CVS Health Corp",
+    "shortName": "CVS Health Corp",
+    "link": "https://www.investing.com/equities/cvs-corp",
+    "price": 93.45,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 129.15,
+    "fairValueUpside": 38.21,
+    "peRatio": 24.63,
+    "evEbitda": 8.84,
+    "marketCap": 119520000000,
+    "marketCapFormatted": "119.52B",
+    "epsGrowth5y": -0.01,
+    "changeOneDayPercent": -1.37,
+    "financialHealth": "Great",
+    "financialCashFlowHealth": "Good",
+    "financialGrowthHealth": "Fair",
+    "financialProfitabilityHealth": "Great",
+    "analystRatings": "Strong Buy",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "lastUpdateTime": "2026-10-22T11:26:04.183522+07:00"
   }
 ]
