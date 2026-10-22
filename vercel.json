@@ -1,0 +1,10 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "includeFiles": [
+    "thailand_stocks_unmasked.json",
+    "undervalued_stocks_unmasked.json",
+    "sync_status.json"
+  ]
+}
