@@ -53,7 +53,7 @@ export default function StockTable({ initialData, market }: StockTableProps) {
 
   // Small orange Pro badge
   const proBadge = (
-    <span className="inline-flex items-center justify-center w-3.5 h-3.5 rounded-full bg-[#F07504] text-[8px] font-black text-white shrink-0 ml-1 shadow-2xs">
+    <span className="inline-flex items-center justify-center w-3 h-3 rounded-[3px] bg-[#F07504] text-[8px] font-black text-white shrink-0 ml-0.5">
       P
     </span>
   );
@@ -114,11 +114,26 @@ export default function StockTable({ initialData, market }: StockTableProps) {
         header: ({ column }) => (
           <button
             onClick={() => column.toggleSorting(column.getIsSorted() === 'asc')}
-            className="flex items-center gap-0.5 font-semibold text-[#5B616E] dark:text-[#9CA3AF] hover:text-[#232526] dark:hover:text-[#F3F4F6] justify-end w-full text-xs whitespace-nowrap"
+            className="flex flex-col items-end justify-end font-semibold text-[#5B616E] dark:text-[#9CA3AF] hover:text-[#232526] dark:hover:text-[#F3F4F6] w-full text-xs leading-tight"
           >
-            <span>{t('colUpside')}</span>
-            {proBadge}
-            <span className="text-[10px] text-[#A0A5AF] ml-0.5">▾</span>
+            {lang === 'th' ? (
+              <>
+                <span>ขาขึ้น</span>
+                <span className="flex items-center gap-0.5">
+                  <span>(upside)</span>
+                  {proBadge}
+                  <span className="text-[10px] text-[#A0A5AF]">▾</span>
+                </span>
+              </>
+            ) : (
+              <>
+                <span>Upside</span>
+                <span className="flex items-center gap-0.5">
+                  {proBadge}
+                  <span className="text-[10px] text-[#A0A5AF]">▾</span>
+                </span>
+              </>
+            )}
           </button>
         ),
         cell: ({ row }) => {
@@ -135,11 +150,26 @@ export default function StockTable({ initialData, market }: StockTableProps) {
         header: ({ column }) => (
           <button
             onClick={() => column.toggleSorting(column.getIsSorted() === 'asc')}
-            className="flex items-center gap-0.5 font-semibold text-[#5B616E] dark:text-[#9CA3AF] hover:text-[#232526] dark:hover:text-[#F3F4F6] justify-end w-full text-xs whitespace-nowrap"
+            className="flex flex-col items-end justify-end font-semibold text-[#5B616E] dark:text-[#9CA3AF] hover:text-[#232526] dark:hover:text-[#F3F4F6] w-full text-xs leading-tight"
           >
-            <span>{t('colFairValue')}</span>
-            {proBadge}
-            <span className="text-[10px] text-[#A0A5AF] ml-0.5">▾</span>
+            {lang === 'th' ? (
+              <>
+                <span>มูลค่า</span>
+                <span className="flex items-center gap-0.5">
+                  <span>ยุติธรรม</span>
+                  {proBadge}
+                  <span className="text-[10px] text-[#A0A5AF]">▾</span>
+                </span>
+              </>
+            ) : (
+              <>
+                <span>Fair Value</span>
+                <span className="flex items-center gap-0.5">
+                  {proBadge}
+                  <span className="text-[10px] text-[#A0A5AF]">▾</span>
+                </span>
+              </>
+            )}
           </button>
         ),
         cell: ({ row }) => (
@@ -151,10 +181,27 @@ export default function StockTable({ initialData, market }: StockTableProps) {
       {
         accessorKey: 'financialHealth',
         header: () => (
-          <div className="flex items-center gap-0.5 text-left whitespace-nowrap text-xs font-semibold text-[#5B616E] dark:text-[#9CA3AF]">
-            <span>{t('colHealth')}</span>
-            {proBadge}
-            <span className="text-[10px] text-[#A0A5AF] ml-0.5">▾</span>
+          <div className="flex flex-col items-start justify-end text-xs font-semibold text-[#5B616E] dark:text-[#9CA3AF] leading-tight">
+            {lang === 'th' ? (
+              <>
+                <span>สุขภาพ</span>
+                <span>ทางการ</span>
+                <span className="flex items-center gap-0.5">
+                  <span>เงิน</span>
+                  {proBadge}
+                  <span className="text-[10px] text-[#A0A5AF]">▾</span>
+                </span>
+              </>
+            ) : (
+              <>
+                <span>Financial</span>
+                <span className="flex items-center gap-0.5">
+                  <span>Health</span>
+                  {proBadge}
+                  <span className="text-[10px] text-[#A0A5AF]">▾</span>
+                </span>
+              </>
+            )}
           </div>
         ),
         cell: ({ row }) => {
@@ -169,10 +216,26 @@ export default function StockTable({ initialData, market }: StockTableProps) {
       {
         accessorKey: 'financialCashFlowHealth',
         header: () => (
-          <div className="flex items-center gap-0.5 text-left whitespace-nowrap text-xs font-semibold text-[#5B616E] dark:text-[#9CA3AF]">
-            <span>{t('colCashFlow')}</span>
-            {proBadge}
-            <span className="text-[10px] text-[#A0A5AF] ml-0.5">▾</span>
+          <div className="flex flex-col items-start justify-end text-xs font-semibold text-[#5B616E] dark:text-[#9CA3AF] leading-tight">
+            {lang === 'th' ? (
+              <>
+                <span>เรตติ้งกระแส</span>
+                <span className="flex items-center gap-0.5">
+                  <span>เงินสด</span>
+                  {proBadge}
+                  <span className="text-[10px] text-[#A0A5AF]">▾</span>
+                </span>
+              </>
+            ) : (
+              <>
+                <span>Cash Flow</span>
+                <span className="flex items-center gap-0.5">
+                  <span>Rating</span>
+                  {proBadge}
+                  <span className="text-[10px] text-[#A0A5AF]">▾</span>
+                </span>
+              </>
+            )}
           </div>
         ),
         cell: ({ row }) => {
@@ -187,10 +250,26 @@ export default function StockTable({ initialData, market }: StockTableProps) {
       {
         accessorKey: 'financialGrowthHealth',
         header: () => (
-          <div className="flex items-center gap-0.5 text-left whitespace-nowrap text-xs font-semibold text-[#5B616E] dark:text-[#9CA3AF]">
-            <span>{t('colGrowth')}</span>
-            {proBadge}
-            <span className="text-[10px] text-[#A0A5AF] ml-0.5">▾</span>
+          <div className="flex flex-col items-start justify-end text-xs font-semibold text-[#5B616E] dark:text-[#9CA3AF] leading-tight">
+            {lang === 'th' ? (
+              <>
+                <span>เรตติ้งการ</span>
+                <span className="flex items-center gap-0.5">
+                  <span>เติบโต</span>
+                  {proBadge}
+                  <span className="text-[10px] text-[#A0A5AF]">▾</span>
+                </span>
+              </>
+            ) : (
+              <>
+                <span>Growth</span>
+                <span className="flex items-center gap-0.5">
+                  <span>Rating</span>
+                  {proBadge}
+                  <span className="text-[10px] text-[#A0A5AF]">▾</span>
+                </span>
+              </>
+            )}
           </div>
         ),
         cell: ({ row }) => {
@@ -205,10 +284,27 @@ export default function StockTable({ initialData, market }: StockTableProps) {
       {
         accessorKey: 'financialProfitabilityHealth',
         header: () => (
-          <div className="flex items-center gap-0.5 text-left whitespace-nowrap text-xs font-semibold text-[#5B616E] dark:text-[#9CA3AF]">
-            <span>{t('colProfitability')}</span>
-            {proBadge}
-            <span className="text-[10px] text-[#A0A5AF] ml-0.5">▾</span>
+          <div className="flex flex-col items-start justify-end text-xs font-semibold text-[#5B616E] dark:text-[#9CA3AF] leading-tight">
+            {lang === 'th' ? (
+              <>
+                <span>เรตติ้งความ</span>
+                <span>สามารถใน</span>
+                <span className="flex items-center gap-0.5">
+                  <span>การทำกำไร</span>
+                  {proBadge}
+                  <span className="text-[10px] text-[#A0A5AF]">▾</span>
+                </span>
+              </>
+            ) : (
+              <>
+                <span>Profitability</span>
+                <span className="flex items-center gap-0.5">
+                  <span>Rating</span>
+                  {proBadge}
+                  <span className="text-[10px] text-[#A0A5AF]">▾</span>
+                </span>
+              </>
+            )}
           </div>
         ),
         cell: ({ row }) => {
@@ -223,9 +319,24 @@ export default function StockTable({ initialData, market }: StockTableProps) {
       {
         accessorKey: 'analystRatings',
         header: () => (
-          <div className="flex items-center gap-0.5 text-left whitespace-nowrap text-xs font-semibold text-[#5B616E] dark:text-[#9CA3AF]">
-            <span>{t('colAnalyst')}</span>
-            <span className="text-[10px] text-[#A0A5AF] ml-0.5">▾</span>
+          <div className="flex flex-col items-start justify-end text-xs font-semibold text-[#5B616E] dark:text-[#9CA3AF] leading-tight">
+            {lang === 'th' ? (
+              <>
+                <span>เรตติ้งของ</span>
+                <span className="flex items-center gap-0.5">
+                  <span>นักวิเคราะห์</span>
+                  <span className="text-[10px] text-[#A0A5AF]">▾</span>
+                </span>
+              </>
+            ) : (
+              <>
+                <span>Analyst</span>
+                <span className="flex items-center gap-0.5">
+                  <span>Ratings</span>
+                  <span className="text-[10px] text-[#A0A5AF]">▾</span>
+                </span>
+              </>
+            )}
           </div>
         ),
         cell: ({ row }) => {
@@ -242,10 +353,25 @@ export default function StockTable({ initialData, market }: StockTableProps) {
         header: ({ column }) => (
           <button
             onClick={() => column.toggleSorting(column.getIsSorted() === 'asc')}
-            className="flex items-center gap-1 font-semibold text-[#5B616E] dark:text-[#9CA3AF] hover:text-[#232526] dark:hover:text-[#F3F4F6] justify-end w-full text-xs whitespace-nowrap"
+            className="flex flex-col items-end justify-end font-semibold text-[#5B616E] dark:text-[#9CA3AF] hover:text-[#232526] dark:hover:text-[#F3F4F6] w-full text-xs leading-tight"
           >
-            <span>{t('colPe')}</span>
-            <span className="text-[10px] text-[#A0A5AF]">▾</span>
+            {lang === 'th' ? (
+              <>
+                <span>อัตราส่วน</span>
+                <span className="flex items-center gap-0.5">
+                  <span>P/E</span>
+                  <span className="text-[10px] text-[#A0A5AF]">▾</span>
+                </span>
+              </>
+            ) : (
+              <>
+                <span>P/E</span>
+                <span className="flex items-center gap-0.5">
+                  <span>Ratio</span>
+                  <span className="text-[10px] text-[#A0A5AF]">▾</span>
+                </span>
+              </>
+            )}
           </button>
         ),
         cell: ({ row }) => {
@@ -260,8 +386,8 @@ export default function StockTable({ initialData, market }: StockTableProps) {
       {
         accessorKey: 'evEbitda',
         header: () => (
-          <div className="text-right whitespace-nowrap text-xs font-semibold text-[#5B616E] dark:text-[#9CA3AF]">
-            {t('colEvEbitda')}
+          <div className="flex flex-col items-end justify-end text-xs font-semibold text-[#5B616E] dark:text-[#9CA3AF] leading-tight w-full">
+            <span>EV/EBITDA</span>
           </div>
         ),
         cell: ({ row }) => {
@@ -278,10 +404,19 @@ export default function StockTable({ initialData, market }: StockTableProps) {
         header: ({ column }) => (
           <button
             onClick={() => column.toggleSorting(column.getIsSorted() === 'asc')}
-            className="flex items-center gap-1 font-semibold text-[#5B616E] dark:text-[#9CA3AF] hover:text-[#232526] dark:hover:text-[#F3F4F6] justify-end w-full text-xs whitespace-nowrap"
+            className="flex flex-col items-end justify-end font-semibold text-[#5B616E] dark:text-[#9CA3AF] hover:text-[#232526] dark:hover:text-[#F3F4F6] w-full text-xs leading-tight"
           >
-            <span>{t('colMarketCap')}</span>
-            <span className="text-[10px] text-[#A0A5AF]">▾</span>
+            {lang === 'th' ? (
+              <span className="flex items-center gap-0.5">
+                <span>มูลค่าตลาด</span>
+                <span className="text-[10px] text-[#A0A5AF]">▾</span>
+              </span>
+            ) : (
+              <span className="flex items-center gap-0.5">
+                <span>Market Cap</span>
+                <span className="text-[10px] text-[#A0A5AF]">▾</span>
+              </span>
+            )}
           </button>
         ),
         cell: ({ row }) => (
@@ -293,8 +428,18 @@ export default function StockTable({ initialData, market }: StockTableProps) {
       {
         accessorKey: 'epsGrowth5y',
         header: () => (
-          <div className="text-right whitespace-nowrap text-xs font-semibold text-[#5B616E] dark:text-[#9CA3AF]">
-            {t('colEpsGrowth')}
+          <div className="flex flex-col items-end justify-end text-xs font-semibold text-[#5B616E] dark:text-[#9CA3AF] leading-tight w-full">
+            {lang === 'th' ? (
+              <>
+                <span>EPS Growth</span>
+                <span>(5 ปี)</span>
+              </>
+            ) : (
+              <>
+                <span>EPS Growth</span>
+                <span>(5y)</span>
+              </>
+            )}
           </div>
         ),
         cell: ({ row }) => {
@@ -361,7 +506,7 @@ export default function StockTable({ initialData, market }: StockTableProps) {
                   return (
                     <th
                       key={header.id}
-                      className={`py-2 px-3 whitespace-nowrap font-semibold ${
+                      className={`py-2 px-2.5 align-bottom font-semibold ${
                         isFirst
                           ? 'sticky left-0 bg-[#F8F9FA] dark:bg-[#1B212F] z-20 border-r border-[#E4EAF1] dark:border-[#262C3A] shadow-[2px_0_4px_rgba(0,0,0,0.02)]'
                           : ''
