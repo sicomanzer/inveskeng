@@ -31,6 +31,17 @@ export const translations: Record<Language, Record<string, string>> = {
     // Country Selector
     thailandSET: 'ไทย',
     unitedStatesUS: 'สหรัฐอเมริกา',
+    // Tabs & KPI Cards
+    undervalued: 'Most Undervalued',
+    overvalued: 'Most Overvalued',
+    topUndervalued: 'หุ้น UNDERVALUED สูงสุด',
+    avgUpside: 'UPSIDE เฉลี่ยจาก FAIR VALUE',
+    across30: 'เฉลี่ยจาก 30 อันดับแรก',
+    totalMarketCap: 'มูลค่าตลาดรวมที่วิเคราะห์',
+    totalAnalyzedSize: 'ขนาดมาร์เก็ตแคปรวมในพอร์ต',
+    valuationEngine: 'โมเดลประเมินมูลค่า',
+    finboxModels: 'InvestingPro / Finbox',
+    dcfMultiples: 'DCF & ค่าวัดความคุ้มค่าเทียบอุตสาหกรรม',
     // Screener Tabs (matching user screenshot)
     tabUndervalued: 'หุ้นราคาถูกที่สุด',
     tabOvervalued: 'หุ้นราคาแพงที่สุด',
@@ -89,6 +100,17 @@ export const translations: Record<Language, Record<string, string>> = {
     // Country Selector
     thailandSET: 'Thailand',
     unitedStatesUS: 'United States',
+    // Tabs & KPI Cards
+    undervalued: 'Most Undervalued',
+    overvalued: 'Most Overvalued',
+    topUndervalued: 'TOP UNDERVALUED STOCK',
+    avgUpside: 'AVG FAIR VALUE UPSIDE',
+    across30: 'Across top 30 ranked',
+    totalMarketCap: 'TOTAL MARKET CAP ANALYZED',
+    totalAnalyzedSize: 'Aggregate portfolio size',
+    valuationEngine: 'VALUATION ENGINE',
+    finboxModels: 'InvestingPro / Finbox Models',
+    dcfMultiples: 'DCF & Fair Multiples',
     // Screener Tabs
     tabUndervalued: 'Most Undervalued',
     tabOvervalued: 'Most Overvalued',
