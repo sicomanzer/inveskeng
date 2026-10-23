@@ -25,7 +25,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T23:03:16.752307+07:00"
+    "lastUpdateTime": "2026-10-23T23:18:23.798514+07:00"
   },
   {
     "id": "102567",
@@ -53,7 +53,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T23:03:16.752307+07:00"
+    "lastUpdateTime": "2026-10-23T23:18:23.798514+07:00"
   },
   {
     "id": "989494",
@@ -81,7 +81,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T23:03:16.752307+07:00"
+    "lastUpdateTime": "2026-10-23T23:18:23.798514+07:00"
   },
   {
     "id": "1130942",
@@ -109,7 +109,35 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T23:03:16.752307+07:00"
+    "lastUpdateTime": "2026-10-23T23:18:23.798514+07:00"
+  },
+  {
+    "id": "1242508",
+    "symbol": "UNIX",
+    "name": "Unique Plastic Industry PCL",
+    "shortName": "Unique Plastic Industry PCL",
+    "link": "https://www.investing.com/equities/unique-plastic-industry-pcl",
+    "price": 2.08,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 1.67,
+    "fairValueUpside": -19.89,
+    "peRatio": null,
+    "evEbitda": 6.0,
+    "marketCap": 1370000000,
+    "marketCapFormatted": "1.37 พันล้าน",
+    "epsGrowth5y": -0.06,
+    "changeOneDayPercent": 0.97,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "แย่",
+    "financialGrowthHealth": "-",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "-",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-23T23:18:23.798514+07:00"
   },
   {
     "id": "102569",
@@ -137,7 +165,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T23:03:16.752307+07:00"
+    "lastUpdateTime": "2026-10-23T23:18:23.798514+07:00"
   },
   {
     "id": "986137",
@@ -165,7 +193,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T23:03:16.752307+07:00"
+    "lastUpdateTime": "2026-10-23T23:18:23.798514+07:00"
   },
   {
     "id": "102869",
@@ -193,7 +221,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T23:03:16.752307+07:00"
+    "lastUpdateTime": "2026-10-23T23:18:23.798514+07:00"
   },
   {
     "id": "986147",
@@ -221,7 +249,35 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T23:03:16.752307+07:00"
+    "lastUpdateTime": "2026-10-23T23:18:23.798514+07:00"
+  },
+  {
+    "id": "102751",
+    "symbol": "STA",
+    "name": "Sri Trang Agro Industry PCL",
+    "shortName": "Sri Trang Agro",
+    "link": "https://www.investing.com/equities/sri-trang-agro",
+    "price": 23.5,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 19.3,
+    "fairValueUpside": -17.86,
+    "peRatio": 89.15,
+    "evEbitda": 11.65,
+    "marketCap": 36100000000,
+    "marketCapFormatted": "36.1 พันล้าน",
+    "epsGrowth5y": 0.13,
+    "changeOneDayPercent": -0.42,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "แย่",
+    "financialProfitabilityHealth": "มูลค่าตามจริง",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-23T23:18:23.798514+07:00"
   },
   {
     "id": "102757",
@@ -249,7 +305,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T23:03:16.752307+07:00"
+    "lastUpdateTime": "2026-10-23T23:18:23.798514+07:00"
   },
   {
     "id": "102714",
@@ -277,7 +333,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T23:03:16.752307+07:00"
+    "lastUpdateTime": "2026-10-23T23:18:23.798514+07:00"
   },
   {
     "id": "102683",
@@ -305,7 +361,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T23:03:16.752307+07:00"
+    "lastUpdateTime": "2026-10-23T23:18:23.798514+07:00"
   },
   {
     "id": "102561",
@@ -333,7 +389,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T23:03:16.752307+07:00"
+    "lastUpdateTime": "2026-10-23T23:18:23.798514+07:00"
   },
   {
     "id": "102540",
@@ -361,7 +417,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T23:03:16.752307+07:00"
+    "lastUpdateTime": "2026-10-23T23:18:23.798514+07:00"
   },
   {
     "id": "102672",
@@ -389,7 +445,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T23:03:16.752307+07:00"
+    "lastUpdateTime": "2026-10-23T23:18:23.798514+07:00"
   },
   {
     "id": "102756",
@@ -417,7 +473,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T23:03:16.752307+07:00"
+    "lastUpdateTime": "2026-10-23T23:18:23.798514+07:00"
   },
   {
     "id": "102442",
@@ -445,7 +501,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T23:03:16.752307+07:00"
+    "lastUpdateTime": "2026-10-23T23:18:23.798514+07:00"
   },
   {
     "id": "1162301",
@@ -473,7 +529,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T23:03:16.752307+07:00"
+    "lastUpdateTime": "2026-10-23T23:18:23.798514+07:00"
   },
   {
     "id": "102560",
@@ -501,7 +557,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T23:03:16.752307+07:00"
+    "lastUpdateTime": "2026-10-23T23:18:23.798514+07:00"
   },
   {
     "id": "1008691",
@@ -529,7 +585,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T23:03:16.752307+07:00"
+    "lastUpdateTime": "2026-10-23T23:18:23.798514+07:00"
   },
   {
     "id": "102532",
@@ -557,7 +613,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T23:03:16.752307+07:00"
+    "lastUpdateTime": "2026-10-23T23:18:23.798514+07:00"
   },
   {
     "id": "102748",
@@ -585,6 +641,6 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T23:03:16.752307+07:00"
+    "lastUpdateTime": "2026-10-23T23:18:23.798514+07:00"
   }
 ]
