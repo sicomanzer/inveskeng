@@ -25,7 +25,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T04:51:09.565411+07:00"
+    "lastUpdateTime": "2026-10-24T05:06:17.528845+07:00"
   },
   {
     "id": "1169889",
@@ -53,7 +53,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T04:51:09.565411+07:00"
+    "lastUpdateTime": "2026-10-24T05:06:17.528845+07:00"
   },
   {
     "id": "1114321",
@@ -81,7 +81,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T04:51:09.565411+07:00"
+    "lastUpdateTime": "2026-10-24T05:06:17.528845+07:00"
   },
   {
     "id": "41268",
@@ -109,35 +109,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T04:51:09.565411+07:00"
-  },
-  {
-    "id": "261",
-    "symbol": "DE",
-    "name": "Deere & Company",
-    "shortName": "Deere&Company",
-    "link": "https://www.investing.com/equities/deere---co",
-    "price": 646.15,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 410.35,
-    "fairValueUpside": -36.49,
-    "peRatio": 35.85,
-    "evEbitda": 26.83,
-    "marketCap": 173840000000,
-    "marketCapFormatted": "173.84 พันล้าน",
-    "epsGrowth5y": 0.15,
-    "changeOneDayPercent": 0.39,
-    "financialHealth": "มูลค่าตามจริง",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "แย่",
-    "financialProfitabilityHealth": "ดี",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T04:51:09.565411+07:00"
+    "lastUpdateTime": "2026-10-24T05:06:17.528845+07:00"
   },
   {
     "id": "13852",
@@ -165,7 +137,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T04:51:09.565411+07:00"
+    "lastUpdateTime": "2026-10-24T05:06:17.528845+07:00"
   },
   {
     "id": "13848",
@@ -193,7 +165,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T04:51:09.565411+07:00"
+    "lastUpdateTime": "2026-10-24T05:06:17.528845+07:00"
   },
   {
     "id": "251",
@@ -221,7 +193,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T04:51:09.565411+07:00"
+    "lastUpdateTime": "2026-10-24T05:06:17.528845+07:00"
   },
   {
     "id": "13994",
@@ -249,7 +221,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T04:51:09.565411+07:00"
+    "lastUpdateTime": "2026-10-24T05:06:17.528845+07:00"
   },
   {
     "id": "1152784",
@@ -277,7 +249,35 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T04:51:09.565411+07:00"
+    "lastUpdateTime": "2026-10-24T05:06:17.528845+07:00"
+  },
+  {
+    "id": "8260",
+    "symbol": "VMRK",
+    "name": "Vivmark Residential",
+    "shortName": "Vivmark",
+    "link": "https://www.investing.com/equities/eq-resident",
+    "price": 63.03,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 47.03,
+    "fairValueUpside": -25.38,
+    "peRatio": 25.69,
+    "evEbitda": 30.94,
+    "marketCap": 48900000000,
+    "marketCapFormatted": "48.9 พันล้าน",
+    "epsGrowth5y": 0.0,
+    "changeOneDayPercent": -0.85,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-24T05:06:17.528845+07:00"
   },
   {
     "id": "20164",
@@ -305,7 +305,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T04:51:09.565411+07:00"
+    "lastUpdateTime": "2026-10-24T05:06:17.528845+07:00"
   },
   {
     "id": "7997",
@@ -333,7 +333,35 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T04:51:09.565411+07:00"
+    "lastUpdateTime": "2026-10-24T05:06:17.528845+07:00"
+  },
+  {
+    "id": "13067",
+    "symbol": "EQIX",
+    "name": "Equinix Inc",
+    "shortName": "Equinix",
+    "link": "https://www.investing.com/equities/equinix,-inc.",
+    "price": 955.03,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 734.83,
+    "fairValueUpside": -23.06,
+    "peRatio": 60.96,
+    "evEbitda": 26.36,
+    "marketCap": 94180000000,
+    "marketCapFormatted": "94.18 พันล้าน",
+    "epsGrowth5y": 0.28,
+    "changeOneDayPercent": 0.25,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-24T05:06:17.528845+07:00"
   },
   {
     "id": "7881",
@@ -361,7 +389,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T04:51:09.565411+07:00"
+    "lastUpdateTime": "2026-10-24T05:06:17.528845+07:00"
   },
   {
     "id": "6440",
@@ -389,7 +417,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T04:51:09.565411+07:00"
+    "lastUpdateTime": "2026-10-24T05:06:17.528845+07:00"
   },
   {
     "id": "20486",
@@ -417,7 +445,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T04:51:09.565411+07:00"
+    "lastUpdateTime": "2026-10-24T05:06:17.528845+07:00"
   },
   {
     "id": "13866",
@@ -445,7 +473,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T04:51:09.565411+07:00"
+    "lastUpdateTime": "2026-10-24T05:06:17.528845+07:00"
   },
   {
     "id": "8279",
@@ -473,7 +501,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T04:51:09.565411+07:00"
+    "lastUpdateTime": "2026-10-24T05:06:17.528845+07:00"
   },
   {
     "id": "24321",
@@ -501,7 +529,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T04:51:09.565411+07:00"
+    "lastUpdateTime": "2026-10-24T05:06:17.528845+07:00"
   },
   {
     "id": "13867",
@@ -529,7 +557,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T04:51:09.565411+07:00"
+    "lastUpdateTime": "2026-10-24T05:06:17.528845+07:00"
   },
   {
     "id": "1206256",
@@ -557,7 +585,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T04:51:09.565411+07:00"
+    "lastUpdateTime": "2026-10-24T05:06:17.528845+07:00"
   },
   {
     "id": "7943",
@@ -585,7 +613,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T04:51:09.565411+07:00"
+    "lastUpdateTime": "2026-10-24T05:06:17.528845+07:00"
   },
   {
     "id": "7956",
@@ -613,7 +641,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T04:51:09.565411+07:00"
+    "lastUpdateTime": "2026-10-24T05:06:17.528845+07:00"
   },
   {
     "id": "7906",
@@ -641,7 +669,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T04:51:09.565411+07:00"
+    "lastUpdateTime": "2026-10-24T05:06:17.528845+07:00"
   },
   {
     "id": "247",
@@ -669,7 +697,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T04:51:09.565411+07:00"
+    "lastUpdateTime": "2026-10-24T05:06:17.528845+07:00"
   },
   {
     "id": "8136",
@@ -697,7 +725,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T04:51:09.565411+07:00"
+    "lastUpdateTime": "2026-10-24T05:06:17.528845+07:00"
   },
   {
     "id": "8016",
@@ -725,35 +753,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T04:51:09.565411+07:00"
-  },
-  {
-    "id": "255",
-    "symbol": "F",
-    "name": "Ford Motor Company",
-    "shortName": "Ford Motor",
-    "link": "https://www.investing.com/equities/ford-motor-co",
-    "price": 11.59,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 9.66,
-    "fairValueUpside": -16.62,
-    "peRatio": -6.21,
-    "evEbitda": 24.62,
-    "marketCap": 46100000000,
-    "marketCapFormatted": "46.1 พันล้าน",
-    "epsGrowth5y": 1.62,
-    "changeOneDayPercent": -2.97,
-    "financialHealth": "มูลค่าตามจริง",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "แย่",
-    "financialProfitabilityHealth": "แย่",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T04:51:09.565411+07:00"
+    "lastUpdateTime": "2026-10-24T05:06:17.528845+07:00"
   },
   {
     "id": "238",
@@ -781,7 +781,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T04:51:09.565411+07:00"
+    "lastUpdateTime": "2026-10-24T05:06:17.528845+07:00"
   },
   {
     "id": "13862",
@@ -809,7 +809,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T04:51:09.565411+07:00"
+    "lastUpdateTime": "2026-10-24T05:06:17.528845+07:00"
   },
   {
     "id": "8252",
@@ -837,6 +837,6 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T04:51:09.565411+07:00"
+    "lastUpdateTime": "2026-10-24T05:06:17.528845+07:00"
   }
 ]
