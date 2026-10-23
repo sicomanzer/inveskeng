@@ -25,7 +25,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T03:50:40.313399+07:00"
+    "lastUpdateTime": "2026-10-24T04:05:48.430439+07:00"
   },
   {
     "id": "1169889",
@@ -36,7 +36,7 @@
     "price": 52.6,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 29.669,
+    "fairValue": 29.665,
     "fairValueUpside": -43.6,
     "peRatio": -186.3,
     "evEbitda": -187.16,
@@ -53,7 +53,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T03:50:40.313399+07:00"
+    "lastUpdateTime": "2026-10-24T04:05:48.430439+07:00"
   },
   {
     "id": "1114321",
@@ -81,7 +81,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T03:50:40.313399+07:00"
+    "lastUpdateTime": "2026-10-24T04:05:48.430439+07:00"
   },
   {
     "id": "41268",
@@ -109,7 +109,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T03:50:40.313399+07:00"
+    "lastUpdateTime": "2026-10-24T04:05:48.430439+07:00"
   },
   {
     "id": "261",
@@ -137,7 +137,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T03:50:40.313399+07:00"
+    "lastUpdateTime": "2026-10-24T04:05:48.430439+07:00"
   },
   {
     "id": "13852",
@@ -165,7 +165,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T03:50:40.313399+07:00"
+    "lastUpdateTime": "2026-10-24T04:05:48.430439+07:00"
   },
   {
     "id": "13848",
@@ -193,7 +193,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T03:50:40.313399+07:00"
+    "lastUpdateTime": "2026-10-24T04:05:48.430439+07:00"
   },
   {
     "id": "251",
@@ -204,8 +204,8 @@
     "price": 86.96,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 61.78,
-    "fairValueUpside": -28.96,
+    "fairValue": 61.77,
+    "fairValueUpside": -28.97,
     "peRatio": -37.72,
     "evEbitda": 29.68,
     "marketCap": 455090000000,
@@ -221,7 +221,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T03:50:40.313399+07:00"
+    "lastUpdateTime": "2026-10-24T04:05:48.430439+07:00"
   },
   {
     "id": "13994",
@@ -249,7 +249,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T03:50:40.313399+07:00"
+    "lastUpdateTime": "2026-10-24T04:05:48.430439+07:00"
   },
   {
     "id": "1152784",
@@ -277,7 +277,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T03:50:40.313399+07:00"
+    "lastUpdateTime": "2026-10-24T04:05:48.430439+07:00"
   },
   {
     "id": "8260",
@@ -305,7 +305,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T03:50:40.313399+07:00"
+    "lastUpdateTime": "2026-10-24T04:05:48.430439+07:00"
   },
   {
     "id": "20164",
@@ -333,7 +333,35 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T03:50:40.313399+07:00"
+    "lastUpdateTime": "2026-10-24T04:05:48.430439+07:00"
+  },
+  {
+    "id": "7997",
+    "symbol": "WMT",
+    "name": "Walmart Inc",
+    "shortName": "Walmart",
+    "link": "https://www.investing.com/equities/wal-mart-stores",
+    "price": 119.89,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 91.45,
+    "fairValueUpside": -23.72,
+    "peRatio": 43.23,
+    "evEbitda": 22.98,
+    "marketCap": 951570000000,
+    "marketCapFormatted": "951.57 พันล้าน",
+    "epsGrowth5y": 0.16,
+    "changeOneDayPercent": -1.02,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "ดี",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-24T04:05:48.430439+07:00"
   },
   {
     "id": "13067",
@@ -361,7 +389,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T03:50:40.313399+07:00"
+    "lastUpdateTime": "2026-10-24T04:05:48.430439+07:00"
   },
   {
     "id": "7881",
@@ -389,7 +417,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T03:50:40.313399+07:00"
+    "lastUpdateTime": "2026-10-24T04:05:48.430439+07:00"
   },
   {
     "id": "6440",
@@ -417,7 +445,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T03:50:40.313399+07:00"
+    "lastUpdateTime": "2026-10-24T04:05:48.430439+07:00"
   },
   {
     "id": "20486",
@@ -445,7 +473,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T03:50:40.313399+07:00"
+    "lastUpdateTime": "2026-10-24T04:05:48.430439+07:00"
   },
   {
     "id": "13866",
@@ -473,7 +501,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T03:50:40.313399+07:00"
+    "lastUpdateTime": "2026-10-24T04:05:48.430439+07:00"
   },
   {
     "id": "8279",
@@ -501,7 +529,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T03:50:40.313399+07:00"
+    "lastUpdateTime": "2026-10-24T04:05:48.430439+07:00"
   },
   {
     "id": "24321",
@@ -529,7 +557,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T03:50:40.313399+07:00"
+    "lastUpdateTime": "2026-10-24T04:05:48.430439+07:00"
   },
   {
     "id": "13867",
@@ -557,7 +585,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T03:50:40.313399+07:00"
+    "lastUpdateTime": "2026-10-24T04:05:48.430439+07:00"
   },
   {
     "id": "1206256",
@@ -585,7 +613,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T03:50:40.313399+07:00"
+    "lastUpdateTime": "2026-10-24T04:05:48.430439+07:00"
   },
   {
     "id": "7943",
@@ -613,7 +641,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T03:50:40.313399+07:00"
+    "lastUpdateTime": "2026-10-24T04:05:48.430439+07:00"
   },
   {
     "id": "7956",
@@ -641,7 +669,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T03:50:40.313399+07:00"
+    "lastUpdateTime": "2026-10-24T04:05:48.430439+07:00"
   },
   {
     "id": "7906",
@@ -669,7 +697,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T03:50:40.313399+07:00"
+    "lastUpdateTime": "2026-10-24T04:05:48.430439+07:00"
   },
   {
     "id": "247",
@@ -697,7 +725,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T03:50:40.313399+07:00"
+    "lastUpdateTime": "2026-10-24T04:05:48.430439+07:00"
   },
   {
     "id": "8136",
@@ -725,7 +753,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T03:50:40.313399+07:00"
+    "lastUpdateTime": "2026-10-24T04:05:48.430439+07:00"
   },
   {
     "id": "8016",
@@ -753,7 +781,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T03:50:40.313399+07:00"
+    "lastUpdateTime": "2026-10-24T04:05:48.430439+07:00"
   },
   {
     "id": "255",
@@ -781,7 +809,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T03:50:40.313399+07:00"
+    "lastUpdateTime": "2026-10-24T04:05:48.430439+07:00"
   },
   {
     "id": "238",
@@ -809,34 +837,6 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T03:50:40.313399+07:00"
-  },
-  {
-    "id": "13862",
-    "symbol": "RSG",
-    "name": "Republic Services Inc",
-    "shortName": "Republic Services",
-    "link": "https://www.investing.com/equities/republic-services-inc",
-    "price": 240.45,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 200.77,
-    "fairValueUpside": -16.5,
-    "peRatio": 33.93,
-    "evEbitda": 16.19,
-    "marketCap": 73460000000,
-    "marketCapFormatted": "73.46 พันล้าน",
-    "epsGrowth5y": 0.17,
-    "changeOneDayPercent": -0.6,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "ดี",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T03:50:40.313399+07:00"
+    "lastUpdateTime": "2026-10-24T04:05:48.430439+07:00"
   }
 ]
