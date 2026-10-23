@@ -25,7 +25,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T11:57:46.110637+07:00"
+    "lastUpdateTime": "2026-10-23T12:12:54.249496+07:00"
   },
   {
     "id": "8042",
@@ -53,7 +53,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T11:57:46.110637+07:00"
+    "lastUpdateTime": "2026-10-23T12:12:54.249496+07:00"
   },
   {
     "id": "15722",
@@ -81,35 +81,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T11:57:46.110637+07:00"
-  },
-  {
-    "id": "956170",
-    "symbol": "PYPL",
-    "name": "PayPal Holdings Inc",
-    "shortName": "PayPal",
-    "link": "https://www.investing.com/equities/paypal-holdings-inc",
-    "price": 57.54,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 91.59,
-    "fairValueUpside": 59.17,
-    "peRatio": 10.8,
-    "evEbitda": 7.35,
-    "marketCap": 48930000000,
-    "marketCapFormatted": "48.93 พันล้าน",
-    "epsGrowth5y": 0.17,
-    "changeOneDayPercent": 0.58,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "ดี",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ถือหุ้นไว้",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T11:57:46.110637+07:00"
+    "lastUpdateTime": "2026-10-23T12:12:54.249496+07:00"
   },
   {
     "id": "6370",
@@ -137,7 +109,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T11:57:46.110637+07:00"
+    "lastUpdateTime": "2026-10-23T12:12:54.249496+07:00"
   },
   {
     "id": "6373",
@@ -165,7 +137,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T11:57:46.110637+07:00"
+    "lastUpdateTime": "2026-10-23T12:12:54.249496+07:00"
   },
   {
     "id": "6448",
@@ -193,7 +165,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T11:57:46.110637+07:00"
+    "lastUpdateTime": "2026-10-23T12:12:54.249496+07:00"
   },
   {
     "id": "1220843",
@@ -221,7 +193,35 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T11:57:46.110637+07:00"
+    "lastUpdateTime": "2026-10-23T12:12:54.249496+07:00"
+  },
+  {
+    "id": "32331",
+    "symbol": "APTV",
+    "name": "Aptiv PLC",
+    "shortName": "Aptiv",
+    "link": "https://www.investing.com/equities/delphi-automotive",
+    "price": 43.81,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 65.68,
+    "fairValueUpside": 49.91,
+    "peRatio": 20.0,
+    "evEbitda": 3.99,
+    "marketCap": 9100000000,
+    "marketCapFormatted": "9.1 พันล้าน",
+    "epsGrowth5y": 0.88,
+    "changeOneDayPercent": -1.2,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-23T12:12:54.249496+07:00"
   },
   {
     "id": "6516",
@@ -249,7 +249,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T11:57:46.110637+07:00"
+    "lastUpdateTime": "2026-10-23T12:12:54.249496+07:00"
   },
   {
     "id": "32341",
@@ -277,7 +277,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T11:57:46.110637+07:00"
+    "lastUpdateTime": "2026-10-23T12:12:54.249496+07:00"
   },
   {
     "id": "8175",
@@ -305,7 +305,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T11:57:46.110637+07:00"
+    "lastUpdateTime": "2026-10-23T12:12:54.249496+07:00"
   },
   {
     "id": "7889",
@@ -333,7 +333,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T11:57:46.110637+07:00"
+    "lastUpdateTime": "2026-10-23T12:12:54.249496+07:00"
   },
   {
     "id": "1089236",
@@ -361,7 +361,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T11:57:46.110637+07:00"
+    "lastUpdateTime": "2026-10-23T12:12:54.249496+07:00"
   },
   {
     "id": "41176",
@@ -389,7 +389,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T11:57:46.110637+07:00"
+    "lastUpdateTime": "2026-10-23T12:12:54.249496+07:00"
   },
   {
     "id": "17195",
@@ -417,7 +417,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T11:57:46.110637+07:00"
+    "lastUpdateTime": "2026-10-23T12:12:54.249496+07:00"
   },
   {
     "id": "32391",
@@ -445,7 +445,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T11:57:46.110637+07:00"
+    "lastUpdateTime": "2026-10-23T12:12:54.249496+07:00"
   },
   {
     "id": "8280",
@@ -473,7 +473,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T11:57:46.110637+07:00"
+    "lastUpdateTime": "2026-10-23T12:12:54.249496+07:00"
   },
   {
     "id": "13969",
@@ -501,7 +501,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T11:57:46.110637+07:00"
+    "lastUpdateTime": "2026-10-23T12:12:54.249496+07:00"
   },
   {
     "id": "6497",
@@ -529,7 +529,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T11:57:46.110637+07:00"
+    "lastUpdateTime": "2026-10-23T12:12:54.249496+07:00"
   },
   {
     "id": "39152",
@@ -557,7 +557,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T11:57:46.110637+07:00"
+    "lastUpdateTime": "2026-10-23T12:12:54.249496+07:00"
   },
   {
     "id": "32381",
@@ -585,7 +585,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T11:57:46.110637+07:00"
+    "lastUpdateTime": "2026-10-23T12:12:54.249496+07:00"
   },
   {
     "id": "39277",
@@ -613,7 +613,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T11:57:46.110637+07:00"
+    "lastUpdateTime": "2026-10-23T12:12:54.249496+07:00"
   },
   {
     "id": "39147",
@@ -641,7 +641,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T11:57:46.110637+07:00"
+    "lastUpdateTime": "2026-10-23T12:12:54.249496+07:00"
   },
   {
     "id": "31028",
@@ -669,7 +669,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T11:57:46.110637+07:00"
+    "lastUpdateTime": "2026-10-23T12:12:54.249496+07:00"
   },
   {
     "id": "19694",
@@ -697,35 +697,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T11:57:46.110637+07:00"
-  },
-  {
-    "id": "8201",
-    "symbol": "CVS",
-    "name": "CVS Health Corp",
-    "shortName": "CVS Health Corp",
-    "link": "https://www.investing.com/equities/cvs-corp",
-    "price": 94.48,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 129.17,
-    "fairValueUpside": 36.72,
-    "peRatio": 24.79,
-    "evEbitda": 8.84,
-    "marketCap": 120840000000,
-    "marketCapFormatted": "120.84 พันล้าน",
-    "epsGrowth5y": -0.01,
-    "changeOneDayPercent": 1.1,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T11:57:46.110637+07:00"
+    "lastUpdateTime": "2026-10-23T12:12:54.249496+07:00"
   },
   {
     "id": "32524",
@@ -753,7 +725,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T11:57:46.110637+07:00"
+    "lastUpdateTime": "2026-10-23T12:12:54.249496+07:00"
   },
   {
     "id": "8294",
@@ -781,7 +753,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T11:57:46.110637+07:00"
+    "lastUpdateTime": "2026-10-23T12:12:54.249496+07:00"
   },
   {
     "id": "39184",
@@ -809,7 +781,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T11:57:46.110637+07:00"
+    "lastUpdateTime": "2026-10-23T12:12:54.249496+07:00"
   },
   {
     "id": "32370",
@@ -837,6 +809,34 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T11:57:46.110637+07:00"
+    "lastUpdateTime": "2026-10-23T12:12:54.249496+07:00"
+  },
+  {
+    "id": "15951",
+    "symbol": "DXCM",
+    "name": "DexCom Inc",
+    "shortName": "DexCom",
+    "link": "https://www.investing.com/equities/dexcom",
+    "price": 78.32,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 104.97,
+    "fairValueUpside": 34.03,
+    "peRatio": 30.59,
+    "evEbitda": 22.75,
+    "marketCap": 30290000000,
+    "marketCapFormatted": "30.29 พันล้าน",
+    "epsGrowth5y": 0.31,
+    "changeOneDayPercent": -2.42,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "ดีเยี่ยม",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-23T12:12:54.249496+07:00"
   }
 ]
