@@ -1,10 +1,10 @@
 {
-  "lastSync": "2026-10-23T07:44:52.384627+07:00",
+  "lastSync": "2026-10-23T08:09:19.935306+07:00",
   "results": {
-    "SET_undervalued": null,
-    "SET_overvalued": null,
-    "US_undervalued": null,
-    "US_overvalued": null
+    "SET_undervalued": 30,
+    "SET_overvalued": 23,
+    "US_undervalued": 30,
+    "US_overvalued": 30
   },
   "status": "success"
 }
