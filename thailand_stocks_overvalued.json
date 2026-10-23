@@ -25,7 +25,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T12:58:13.857456+07:00"
+    "lastUpdateTime": "2026-10-23T13:13:20.536758+07:00"
   },
   {
     "id": "102567",
@@ -40,8 +40,8 @@
     "fairValueUpside": -23.05,
     "peRatio": 11.79,
     "evEbitda": 0.0,
-    "marketCap": 100680000000,
-    "marketCapFormatted": "100.68 พันล้าน",
+    "marketCap": 100190000000,
+    "marketCapFormatted": "100.19 พันล้าน",
     "epsGrowth5y": 0.11,
     "changeOneDayPercent": 2.18,
     "financialHealth": "ดี",
@@ -53,7 +53,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T12:58:13.857456+07:00"
+    "lastUpdateTime": "2026-10-23T13:13:20.536758+07:00"
   },
   {
     "id": "989494",
@@ -81,7 +81,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T12:58:13.857456+07:00"
+    "lastUpdateTime": "2026-10-23T13:13:20.536758+07:00"
   },
   {
     "id": "1130942",
@@ -109,7 +109,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T12:58:13.857456+07:00"
+    "lastUpdateTime": "2026-10-23T13:13:20.536758+07:00"
   },
   {
     "id": "1242508",
@@ -137,63 +137,35 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T12:58:13.857456+07:00"
+    "lastUpdateTime": "2026-10-23T13:13:20.536758+07:00"
   },
   {
-    "id": "102497",
-    "symbol": "EASTW",
-    "name": "Eastern Water Resources Development and Management PCL",
-    "shortName": "Eastern Water",
-    "link": "https://www.investing.com/equities/eastern-water",
-    "price": 4.86,
+    "id": "986137",
+    "symbol": "ALT",
+    "name": "ALT Telecom PCL",
+    "shortName": "ALT Telecom",
+    "link": "https://www.investing.com/equities/alt-telecom-pcl",
+    "price": 1.67,
     "currency": "THB",
     "currencySymbol": "฿",
-    "fairValue": 3.92,
-    "fairValueUpside": -19.36,
-    "peRatio": 1.03,
-    "evEbitda": 13.36,
-    "marketCap": 8090000000,
-    "marketCapFormatted": "8.09 พันล้าน",
-    "epsGrowth5y": 0.46,
-    "changeOneDayPercent": -1.62,
-    "financialHealth": "มูลค่าตามจริง",
+    "fairValue": 1.359,
+    "fairValueUpside": -18.61,
+    "peRatio": 96.53,
+    "evEbitda": 13.47,
+    "marketCap": 1860000000,
+    "marketCapFormatted": "1.86 พันล้าน",
+    "epsGrowth5y": -1.79,
+    "changeOneDayPercent": -1.18,
+    "financialHealth": "ดี",
     "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "แย่",
+    "financialGrowthHealth": "ดี",
+    "financialProfitabilityHealth": "มูลค่าตามจริง",
     "analystRatings": "-",
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T12:58:13.857456+07:00"
-  },
-  {
-    "id": "102569",
-    "symbol": "KTB",
-    "name": "Krung Thai Bank PCL",
-    "shortName": "Krung Thai Bank",
-    "link": "https://www.investing.com/equities/krung-thai-ban",
-    "price": 43.0,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 34.71,
-    "fairValueUpside": -19.28,
-    "peRatio": 12.03,
-    "evEbitda": 0.0,
-    "marketCap": 600970000000,
-    "marketCapFormatted": "600.97 พันล้าน",
-    "epsGrowth5y": 0.24,
-    "changeOneDayPercent": -0.58,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อ",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T12:58:13.857456+07:00"
+    "lastUpdateTime": "2026-10-23T13:13:20.536758+07:00"
   },
   {
     "id": "102869",
@@ -221,7 +193,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T12:58:13.857456+07:00"
+    "lastUpdateTime": "2026-10-23T13:13:20.536758+07:00"
   },
   {
     "id": "986147",
@@ -249,7 +221,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T12:58:13.857456+07:00"
+    "lastUpdateTime": "2026-10-23T13:13:20.536758+07:00"
   },
   {
     "id": "102751",
@@ -277,7 +249,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T12:58:13.857456+07:00"
+    "lastUpdateTime": "2026-10-23T13:13:20.536758+07:00"
   },
   {
     "id": "102757",
@@ -305,7 +277,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T12:58:13.857456+07:00"
+    "lastUpdateTime": "2026-10-23T13:13:20.536758+07:00"
   },
   {
     "id": "102714",
@@ -333,7 +305,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T12:58:13.857456+07:00"
+    "lastUpdateTime": "2026-10-23T13:13:20.536758+07:00"
   },
   {
     "id": "102683",
@@ -361,7 +333,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T12:58:13.857456+07:00"
+    "lastUpdateTime": "2026-10-23T13:13:20.536758+07:00"
   },
   {
     "id": "102561",
@@ -389,7 +361,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T12:58:13.857456+07:00"
+    "lastUpdateTime": "2026-10-23T13:13:20.536758+07:00"
   },
   {
     "id": "102672",
@@ -417,7 +389,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T12:58:13.857456+07:00"
+    "lastUpdateTime": "2026-10-23T13:13:20.536758+07:00"
   },
   {
     "id": "102540",
@@ -445,7 +417,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T12:58:13.857456+07:00"
+    "lastUpdateTime": "2026-10-23T13:13:20.536758+07:00"
   },
   {
     "id": "102756",
@@ -473,7 +445,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T12:58:13.857456+07:00"
+    "lastUpdateTime": "2026-10-23T13:13:20.536758+07:00"
   },
   {
     "id": "102442",
@@ -501,7 +473,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T12:58:13.857456+07:00"
+    "lastUpdateTime": "2026-10-23T13:13:20.536758+07:00"
   },
   {
     "id": "1162301",
@@ -529,7 +501,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T12:58:13.857456+07:00"
+    "lastUpdateTime": "2026-10-23T13:13:20.536758+07:00"
   },
   {
     "id": "102560",
@@ -557,7 +529,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T12:58:13.857456+07:00"
+    "lastUpdateTime": "2026-10-23T13:13:20.536758+07:00"
   },
   {
     "id": "1008691",
@@ -585,7 +557,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T12:58:13.857456+07:00"
+    "lastUpdateTime": "2026-10-23T13:13:20.536758+07:00"
   },
   {
     "id": "102532",
@@ -600,8 +572,8 @@
     "fairValueUpside": -11.4,
     "peRatio": 73.11,
     "evEbitda": 19.28,
-    "marketCap": 42940000000,
-    "marketCapFormatted": "42.94 พันล้าน",
+    "marketCap": 44180000000,
+    "marketCapFormatted": "44.18 พันล้าน",
     "epsGrowth5y": 0.02,
     "changeOneDayPercent": -2.02,
     "financialHealth": "ดี",
@@ -613,7 +585,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T12:58:13.857456+07:00"
+    "lastUpdateTime": "2026-10-23T13:13:20.536758+07:00"
   },
   {
     "id": "102748",
@@ -641,6 +613,6 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T12:58:13.857456+07:00"
+    "lastUpdateTime": "2026-10-23T13:13:20.536758+07:00"
   }
 ]
