@@ -25,7 +25,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T10:11:49.970533+07:00"
+    "lastUpdateTime": "2026-10-23T10:26:56.519791+07:00"
   },
   {
     "id": "102518",
@@ -53,7 +53,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T10:11:49.970533+07:00"
+    "lastUpdateTime": "2026-10-23T10:26:56.519791+07:00"
   },
   {
     "id": "1056157",
@@ -81,7 +81,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T10:11:49.970533+07:00"
+    "lastUpdateTime": "2026-10-23T10:26:56.519791+07:00"
   },
   {
     "id": "102443",
@@ -109,7 +109,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T10:11:49.970533+07:00"
+    "lastUpdateTime": "2026-10-23T10:26:56.519791+07:00"
   },
   {
     "id": "102513",
@@ -137,7 +137,35 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T10:11:49.970533+07:00"
+    "lastUpdateTime": "2026-10-23T10:26:56.519791+07:00"
+  },
+  {
+    "id": "102551",
+    "symbol": "JAS",
+    "name": "Jasmine International PCL",
+    "shortName": "Jasmine Intl",
+    "link": "https://www.investing.com/equities/jasmine-inter",
+    "price": 0.74,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 1.11,
+    "fairValueUpside": 50.34,
+    "peRatio": -2.99,
+    "evEbitda": -3.7,
+    "marketCap": 6140000000,
+    "marketCapFormatted": "6.14 พันล้าน",
+    "epsGrowth5y": -0.9,
+    "changeOneDayPercent": 0.0,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "ดี",
+    "financialProfitabilityHealth": "แย่",
+    "analystRatings": "-",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-23T10:26:56.519791+07:00"
   },
   {
     "id": "1052357",
@@ -165,63 +193,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T10:11:49.970533+07:00"
-  },
-  {
-    "id": "1115209",
-    "symbol": "SISB",
-    "name": "SISB PCL",
-    "shortName": "SISB",
-    "link": "https://www.investing.com/equities/sisb",
-    "price": 8.9,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 13.22,
-    "fairValueUpside": 48.57,
-    "peRatio": 9.15,
-    "evEbitda": 6.51,
-    "marketCap": 8370000000,
-    "marketCapFormatted": "8.37 พันล้าน",
-    "epsGrowth5y": 0.46,
-    "changeOneDayPercent": 0.56,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อ",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T10:11:49.970533+07:00"
-  },
-  {
-    "id": "102617",
-    "symbol": "M",
-    "name": "MK Restaurant Group PCL",
-    "shortName": "MK Restaurant",
-    "link": "https://www.investing.com/equities/mk-restaurant",
-    "price": 20.0,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 29.71,
-    "fairValueUpside": 48.53,
-    "peRatio": 16.62,
-    "evEbitda": 14.52,
-    "marketCap": 18070000000,
-    "marketCapFormatted": "18.07 พันล้าน",
-    "epsGrowth5y": 1.39,
-    "changeOneDayPercent": 0.0,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดีเยี่ยม",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ถือหุ้นไว้",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T10:11:49.970533+07:00"
+    "lastUpdateTime": "2026-10-23T10:26:56.519791+07:00"
   },
   {
     "id": "102863",
@@ -249,7 +221,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T10:11:49.970533+07:00"
+    "lastUpdateTime": "2026-10-23T10:26:56.519791+07:00"
   },
   {
     "id": "1216964",
@@ -260,8 +232,8 @@
     "price": 17.7,
     "currency": "THB",
     "currencySymbol": "฿",
-    "fairValue": 26.2,
-    "fairValueUpside": 48.01,
+    "fairValue": 26.19,
+    "fairValueUpside": 47.99,
     "peRatio": null,
     "evEbitda": 9.96,
     "marketCap": 2230000000,
@@ -277,7 +249,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T10:11:49.970533+07:00"
+    "lastUpdateTime": "2026-10-23T10:26:56.519791+07:00"
   },
   {
     "id": "102425",
@@ -305,7 +277,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T10:11:49.970533+07:00"
+    "lastUpdateTime": "2026-10-23T10:26:56.519791+07:00"
   },
   {
     "id": "1153457",
@@ -333,7 +305,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T10:11:49.970533+07:00"
+    "lastUpdateTime": "2026-10-23T10:26:56.519791+07:00"
   },
   {
     "id": "1198524",
@@ -361,7 +333,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T10:11:49.970533+07:00"
+    "lastUpdateTime": "2026-10-23T10:26:56.519791+07:00"
   },
   {
     "id": "102457",
@@ -389,7 +361,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T10:11:49.970533+07:00"
+    "lastUpdateTime": "2026-10-23T10:26:56.519791+07:00"
   },
   {
     "id": "102829",
@@ -417,7 +389,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T10:11:49.970533+07:00"
+    "lastUpdateTime": "2026-10-23T10:26:56.519791+07:00"
   },
   {
     "id": "102554",
@@ -445,35 +417,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T10:11:49.970533+07:00"
-  },
-  {
-    "id": "1173246",
-    "symbol": "DITTO",
-    "name": "Ditto (Thailand) PCL",
-    "shortName": "Ditto",
-    "link": "https://www.investing.com/equities/ditto",
-    "price": 12.7,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 18.08,
-    "fairValueUpside": 42.35,
-    "peRatio": 13.47,
-    "evEbitda": 9.06,
-    "marketCap": 8810000000,
-    "marketCapFormatted": "8.81 พันล้าน",
-    "epsGrowth5y": 0.3,
-    "changeOneDayPercent": 0.79,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดีเยี่ยม",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "-",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T10:11:49.970533+07:00"
+    "lastUpdateTime": "2026-10-23T10:26:56.519791+07:00"
   },
   {
     "id": "102547",
@@ -501,7 +445,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T10:11:49.970533+07:00"
+    "lastUpdateTime": "2026-10-23T10:26:56.519791+07:00"
   },
   {
     "id": "102726",
@@ -529,7 +473,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T10:11:49.970533+07:00"
+    "lastUpdateTime": "2026-10-23T10:26:56.519791+07:00"
   },
   {
     "id": "102689",
@@ -557,7 +501,63 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T10:11:49.970533+07:00"
+    "lastUpdateTime": "2026-10-23T10:26:56.519791+07:00"
+  },
+  {
+    "id": "102731",
+    "symbol": "GLOBAL",
+    "name": "Siam Global House PCL",
+    "shortName": "Siam Global",
+    "link": "https://www.investing.com/equities/siam-global-ho",
+    "price": 6.8,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 9.53,
+    "fairValueUpside": 40.16,
+    "peRatio": 14.77,
+    "evEbitda": 9.9,
+    "marketCap": 38090000000,
+    "marketCapFormatted": "38.09 พันล้าน",
+    "epsGrowth5y": 0.02,
+    "changeOneDayPercent": 1.49,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-23T10:26:56.519791+07:00"
+  },
+  {
+    "id": "986206",
+    "symbol": "TACCm",
+    "name": "TAC Consumer PCL",
+    "shortName": "TAC Consumer",
+    "link": "https://www.investing.com/equities/tac-consumer-pcl",
+    "price": 6.4,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 8.96,
+    "fairValueUpside": 39.97,
+    "peRatio": 10.94,
+    "evEbitda": 7.07,
+    "marketCap": 3840000000,
+    "marketCapFormatted": "3.84 พันล้าน",
+    "epsGrowth5y": 0.12,
+    "changeOneDayPercent": 0.79,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดีเยี่ยม",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-23T10:26:56.519791+07:00"
   },
   {
     "id": "102743",
@@ -585,7 +585,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T10:11:49.970533+07:00"
+    "lastUpdateTime": "2026-10-23T10:26:56.519791+07:00"
   },
   {
     "id": "102467",
@@ -613,7 +613,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T10:11:49.970533+07:00"
+    "lastUpdateTime": "2026-10-23T10:26:56.519791+07:00"
   },
   {
     "id": "103821",
@@ -641,7 +641,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T10:11:49.970533+07:00"
+    "lastUpdateTime": "2026-10-23T10:26:56.519791+07:00"
   },
   {
     "id": "102498",
@@ -669,7 +669,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T10:11:49.970533+07:00"
+    "lastUpdateTime": "2026-10-23T10:26:56.519791+07:00"
   },
   {
     "id": "102398",
@@ -697,7 +697,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T10:11:49.970533+07:00"
+    "lastUpdateTime": "2026-10-23T10:26:56.519791+07:00"
   },
   {
     "id": "102753",
@@ -725,7 +725,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T10:11:49.970533+07:00"
+    "lastUpdateTime": "2026-10-23T10:26:56.519791+07:00"
   },
   {
     "id": "102616",
@@ -753,7 +753,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T10:11:49.970533+07:00"
+    "lastUpdateTime": "2026-10-23T10:26:56.519791+07:00"
   },
   {
     "id": "102584",
@@ -781,7 +781,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T10:11:49.970533+07:00"
+    "lastUpdateTime": "2026-10-23T10:26:56.519791+07:00"
   },
   {
     "id": "102472",
@@ -809,34 +809,34 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T10:11:49.970533+07:00"
+    "lastUpdateTime": "2026-10-23T10:26:56.519791+07:00"
   },
   {
-    "id": "1196441",
-    "symbol": "KLINIQ",
-    "name": "Klinique Medical Clinic PCL",
-    "shortName": "Klinique Medical Clinic PCL",
-    "link": "https://www.investing.com/equities/klinique-medical-clinic-pcl",
-    "price": 33.5,
+    "id": "1202516",
+    "symbol": "MGC",
+    "name": "Millennium Group Corporation Asia PCL",
+    "shortName": "Millennium Group",
+    "link": "https://www.investing.com/equities/millennium-corporation-asia",
+    "price": 6.55,
     "currency": "THB",
     "currencySymbol": "฿",
-    "fairValue": 45.41,
-    "fairValueUpside": 35.57,
-    "peRatio": null,
-    "evEbitda": 10.22,
-    "marketCap": 7370000000,
-    "marketCapFormatted": "7.37 พันล้าน",
-    "epsGrowth5y": 0.15,
-    "changeOneDayPercent": 1.52,
+    "fairValue": 8.91,
+    "fairValueUpside": 35.97,
+    "peRatio": 4.34,
+    "evEbitda": 7.25,
+    "marketCap": 7300000000,
+    "marketCapFormatted": "7.3 พันล้าน",
+    "epsGrowth5y": 1.83,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดี",
+    "financialCashFlowHealth": "ดีมาก",
     "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "financialProfitabilityHealth": "ดีมาก",
     "analystRatings": "ซื้อทันที",
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T10:11:49.970533+07:00"
+    "lastUpdateTime": "2026-10-23T10:26:56.519791+07:00"
   }
 ]
