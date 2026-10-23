@@ -25,7 +25,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T18:46:20.465774+07:00"
+    "lastUpdateTime": "2026-10-23T19:01:26.645363+07:00"
   },
   {
     "id": "8042",
@@ -53,7 +53,35 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T18:46:20.465774+07:00"
+    "lastUpdateTime": "2026-10-23T19:01:26.645363+07:00"
+  },
+  {
+    "id": "15722",
+    "symbol": "CHTR",
+    "name": "Charter Communications Inc",
+    "shortName": "Charter Communications",
+    "link": "https://www.investing.com/equities/charter-communications",
+    "price": 111.77,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 181.21,
+    "fairValueUpside": 62.13,
+    "peRatio": 2.89,
+    "evEbitda": 5.21,
+    "marketCap": 18280000000,
+    "marketCapFormatted": "18.28 พันล้าน",
+    "epsGrowth5y": 0.2,
+    "changeOneDayPercent": 4.2,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ถือหุ้นไว้",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-23T19:01:26.645363+07:00"
   },
   {
     "id": "956170",
@@ -81,7 +109,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T18:46:20.465774+07:00"
+    "lastUpdateTime": "2026-10-23T19:01:26.645363+07:00"
   },
   {
     "id": "6373",
@@ -109,7 +137,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T18:46:20.465774+07:00"
+    "lastUpdateTime": "2026-10-23T19:01:26.645363+07:00"
   },
   {
     "id": "6370",
@@ -137,7 +165,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T18:46:20.465774+07:00"
+    "lastUpdateTime": "2026-10-23T19:01:26.645363+07:00"
   },
   {
     "id": "39277",
@@ -165,7 +193,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T18:46:20.465774+07:00"
+    "lastUpdateTime": "2026-10-23T19:01:26.645363+07:00"
   },
   {
     "id": "6448",
@@ -193,7 +221,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T18:46:20.465774+07:00"
+    "lastUpdateTime": "2026-10-23T19:01:26.645363+07:00"
   },
   {
     "id": "1220843",
@@ -221,7 +249,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T18:46:20.465774+07:00"
+    "lastUpdateTime": "2026-10-23T19:01:26.645363+07:00"
   },
   {
     "id": "32331",
@@ -249,7 +277,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T18:46:20.465774+07:00"
+    "lastUpdateTime": "2026-10-23T19:01:26.645363+07:00"
   },
   {
     "id": "6516",
@@ -277,7 +305,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T18:46:20.465774+07:00"
+    "lastUpdateTime": "2026-10-23T19:01:26.645363+07:00"
   },
   {
     "id": "32341",
@@ -305,7 +333,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T18:46:20.465774+07:00"
+    "lastUpdateTime": "2026-10-23T19:01:26.645363+07:00"
   },
   {
     "id": "8175",
@@ -333,7 +361,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T18:46:20.465774+07:00"
+    "lastUpdateTime": "2026-10-23T19:01:26.645363+07:00"
   },
   {
     "id": "7889",
@@ -361,35 +389,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T18:46:20.465774+07:00"
-  },
-  {
-    "id": "1089236",
-    "symbol": "PDD",
-    "name": "PDD Holdings Inc DRC",
-    "shortName": "PDD Holdings DRC",
-    "link": "https://www.investing.com/equities/pinduoduo",
-    "price": 79.17,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 115.97,
-    "fairValueUpside": 46.49,
-    "peRatio": 9.4,
-    "evEbitda": 3.29,
-    "marketCap": 112690000000,
-    "marketCapFormatted": "112.69 พันล้าน",
-    "epsGrowth5y": 5.82,
-    "changeOneDayPercent": 0.57,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดีเยี่ยม",
-    "financialGrowthHealth": "ดีเยี่ยม",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T18:46:20.465774+07:00"
+    "lastUpdateTime": "2026-10-23T19:01:26.645363+07:00"
   },
   {
     "id": "41176",
@@ -417,7 +417,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T18:46:20.465774+07:00"
+    "lastUpdateTime": "2026-10-23T19:01:26.645363+07:00"
   },
   {
     "id": "17195",
@@ -445,7 +445,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T18:46:20.465774+07:00"
+    "lastUpdateTime": "2026-10-23T19:01:26.645363+07:00"
   },
   {
     "id": "32391",
@@ -473,7 +473,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T18:46:20.465774+07:00"
+    "lastUpdateTime": "2026-10-23T19:01:26.645363+07:00"
   },
   {
     "id": "6497",
@@ -501,7 +501,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T18:46:20.465774+07:00"
+    "lastUpdateTime": "2026-10-23T19:01:26.645363+07:00"
   },
   {
     "id": "39152",
@@ -529,7 +529,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T18:46:20.465774+07:00"
+    "lastUpdateTime": "2026-10-23T19:01:26.645363+07:00"
   },
   {
     "id": "32381",
@@ -557,7 +557,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T18:46:20.465774+07:00"
+    "lastUpdateTime": "2026-10-23T19:01:26.645363+07:00"
   },
   {
     "id": "39147",
@@ -585,7 +585,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T18:46:20.465774+07:00"
+    "lastUpdateTime": "2026-10-23T19:01:26.645363+07:00"
   },
   {
     "id": "31028",
@@ -613,7 +613,63 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T18:46:20.465774+07:00"
+    "lastUpdateTime": "2026-10-23T19:01:26.645363+07:00"
+  },
+  {
+    "id": "13969",
+    "symbol": "AVGO",
+    "name": "Broadcom Inc",
+    "shortName": "Broadcom",
+    "link": "https://www.investing.com/equities/avago-technologies",
+    "price": 323.24,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 448.83,
+    "fairValueUpside": 38.85,
+    "peRatio": 41.34,
+    "evEbitda": 30.71,
+    "marketCap": 1610000000000,
+    "marketCapFormatted": "1.61 ล้านล้าน",
+    "epsGrowth5y": 0.68,
+    "changeOneDayPercent": -4.31,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "ดีเยี่ยม",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-23T19:01:26.645363+07:00"
+  },
+  {
+    "id": "8201",
+    "symbol": "CVS",
+    "name": "CVS Health Corp",
+    "shortName": "CVS Health Corp",
+    "link": "https://www.investing.com/equities/cvs-corp",
+    "price": 94.48,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 128.89,
+    "fairValueUpside": 36.42,
+    "peRatio": 24.79,
+    "evEbitda": 8.84,
+    "marketCap": 120840000000,
+    "marketCapFormatted": "120.84 พันล้าน",
+    "epsGrowth5y": -0.01,
+    "changeOneDayPercent": 1.1,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-23T19:01:26.645363+07:00"
   },
   {
     "id": "8294",
@@ -641,63 +697,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T18:46:20.465774+07:00"
-  },
-  {
-    "id": "39184",
-    "symbol": "CE",
-    "name": "Celanese Corporation",
-    "shortName": "Celanese",
-    "link": "https://www.investing.com/equities/celanese",
-    "price": 47.22,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 63.53,
-    "fairValueUpside": 34.53,
-    "peRatio": -4.44,
-    "evEbitda": 9.2,
-    "marketCap": 5180000000,
-    "marketCapFormatted": "5.18 พันล้าน",
-    "epsGrowth5y": -0.24,
-    "changeOneDayPercent": -0.11,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดี",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T18:46:20.465774+07:00"
-  },
-  {
-    "id": "32370",
-    "symbol": "PNR",
-    "name": "Pentair PLC",
-    "shortName": "Pentair",
-    "link": "https://www.investing.com/equities/pentair",
-    "price": 55.44,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 74.32,
-    "fairValueUpside": 34.06,
-    "peRatio": 14.22,
-    "evEbitda": 9.86,
-    "marketCap": 8850000000,
-    "marketCapFormatted": "8.85 พันล้าน",
-    "epsGrowth5y": 0.12,
-    "changeOneDayPercent": 4.88,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T18:46:20.465774+07:00"
+    "lastUpdateTime": "2026-10-23T19:01:26.645363+07:00"
   },
   {
     "id": "15951",
@@ -725,7 +725,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T18:46:20.465774+07:00"
+    "lastUpdateTime": "2026-10-23T19:01:26.645363+07:00"
   },
   {
     "id": "8063",
@@ -753,7 +753,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T18:46:20.465774+07:00"
+    "lastUpdateTime": "2026-10-23T19:01:26.645363+07:00"
   },
   {
     "id": "16943",
@@ -781,7 +781,35 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T18:46:20.465774+07:00"
+    "lastUpdateTime": "2026-10-23T19:01:26.645363+07:00"
+  },
+  {
+    "id": "39135",
+    "symbol": "IT",
+    "name": "Gartner Inc",
+    "shortName": "Gartner",
+    "link": "https://www.investing.com/equities/gartner",
+    "price": 234.44,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 313.13,
+    "fairValueUpside": 33.56,
+    "peRatio": 21.29,
+    "evEbitda": 10.7,
+    "marketCap": 14800000000,
+    "marketCapFormatted": "14.8 พันล้าน",
+    "epsGrowth5y": 0.38,
+    "changeOneDayPercent": 6.77,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ถือหุ้นไว้",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-23T19:01:26.645363+07:00"
   },
   {
     "id": "19694",
@@ -809,34 +837,6 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T18:46:20.465774+07:00"
-  },
-  {
-    "id": "8248",
-    "symbol": "BSX",
-    "name": "Boston Scientific Corp",
-    "shortName": "Boston Scientific",
-    "link": "https://www.investing.com/equities/boston-scien-cp",
-    "price": 46.01,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 61.28,
-    "fairValueUpside": 33.19,
-    "peRatio": 18.55,
-    "evEbitda": 13.03,
-    "marketCap": 66680000000,
-    "marketCapFormatted": "66.68 พันล้าน",
-    "epsGrowth5y": 0.97,
-    "changeOneDayPercent": 3.37,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T18:46:20.465774+07:00"
+    "lastUpdateTime": "2026-10-23T19:01:26.645363+07:00"
   }
 ]
