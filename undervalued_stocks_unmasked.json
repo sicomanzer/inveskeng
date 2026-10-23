@@ -25,7 +25,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.013453+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.017261+07:00"
   },
   {
     "id": "15722",
@@ -53,7 +53,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.013453+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.017261+07:00"
   },
   {
     "id": "956170",
@@ -81,7 +81,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.013453+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.017261+07:00"
   },
   {
     "id": "8042",
@@ -109,7 +109,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.013453+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.017261+07:00"
   },
   {
     "id": "32331",
@@ -137,7 +137,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.013453+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.017261+07:00"
   },
   {
     "id": "6370",
@@ -165,7 +165,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.013453+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.017261+07:00"
   },
   {
     "id": "6373",
@@ -193,7 +193,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.013453+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.017261+07:00"
   },
   {
     "id": "6448",
@@ -221,7 +221,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.013453+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.017261+07:00"
   },
   {
     "id": "1220843",
@@ -249,7 +249,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.013453+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.017261+07:00"
   },
   {
     "id": "32341",
@@ -277,7 +277,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.013453+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.017261+07:00"
   },
   {
     "id": "6516",
@@ -305,7 +305,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.013453+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.017261+07:00"
   },
   {
     "id": "8175",
@@ -333,7 +333,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.013453+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.017261+07:00"
   },
   {
     "id": "7889",
@@ -361,35 +361,35 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.013453+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.017261+07:00"
   },
   {
-    "id": "1089236",
-    "symbol": "PDD",
-    "name": "PDD Holdings Inc DRC",
-    "shortName": "PDD Holdings DRC",
-    "link": "https://www.investing.com/equities/pinduoduo",
-    "price": 79.17,
+    "id": "17195",
+    "symbol": "SMCI",
+    "name": "Super Micro Computer Inc",
+    "shortName": "Super Micro Computer",
+    "link": "https://www.investing.com/equities/super-micro-compu",
+    "price": 33.72,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 115.97,
-    "fairValueUpside": 46.48,
-    "peRatio": 9.4,
-    "evEbitda": 3.29,
-    "marketCap": 112050000000,
-    "marketCapFormatted": "112.05B",
-    "epsGrowth5y": 5.82,
-    "changeOneDayPercent": 0.57,
-    "financialHealth": "Great",
-    "financialCashFlowHealth": "Excellent",
-    "financialGrowthHealth": "Excellent",
-    "financialProfitabilityHealth": "Excellent",
-    "analystRatings": "Buy",
+    "fairValue": 49.34,
+    "fairValueUpside": 46.34,
+    "peRatio": 10.32,
+    "evEbitda": 9.46,
+    "marketCap": 23370000000,
+    "marketCapFormatted": "23.37B",
+    "epsGrowth5y": 0.84,
+    "changeOneDayPercent": -5.2,
+    "financialHealth": "Good",
+    "financialCashFlowHealth": "Fair",
+    "financialGrowthHealth": "Great",
+    "financialProfitabilityHealth": "Great",
+    "analystRatings": "Neutral",
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.013453+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.017261+07:00"
   },
   {
     "id": "32391",
@@ -417,35 +417,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.013453+07:00"
-  },
-  {
-    "id": "8280",
-    "symbol": "LVS",
-    "name": "Las Vegas Sands Corp",
-    "shortName": "Las Vegas Sands",
-    "link": "https://www.investing.com/equities/las-vegas-sands",
-    "price": 36.52,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 52.34,
-    "fairValueUpside": 43.33,
-    "peRatio": 14.14,
-    "evEbitda": 7.94,
-    "marketCap": 24290000000,
-    "marketCapFormatted": "24.29B",
-    "epsGrowth5y": 1.97,
-    "changeOneDayPercent": -2.64,
-    "financialHealth": "Great",
-    "financialCashFlowHealth": "Good",
-    "financialGrowthHealth": "Excellent",
-    "financialProfitabilityHealth": "Excellent",
-    "analystRatings": "Buy",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.013453+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.017261+07:00"
   },
   {
     "id": "13969",
@@ -473,7 +445,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.013453+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.017261+07:00"
   },
   {
     "id": "39152",
@@ -501,7 +473,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.013453+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.017261+07:00"
   },
   {
     "id": "41176",
@@ -529,35 +501,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.013453+07:00"
-  },
-  {
-    "id": "32381",
-    "symbol": "DECK",
-    "name": "Deckers Outdoor Corporation",
-    "shortName": "Deckers Outdoor",
-    "link": "https://www.investing.com/equities/deckers-outdoor-corp",
-    "price": 85.28,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 121.3,
-    "fairValueUpside": 42.24,
-    "peRatio": 11.99,
-    "evEbitda": 7.94,
-    "marketCap": 11640000000,
-    "marketCapFormatted": "11.64B",
-    "epsGrowth5y": 0.27,
-    "changeOneDayPercent": -0.25,
-    "financialHealth": "Great",
-    "financialCashFlowHealth": "Excellent",
-    "financialGrowthHealth": "Great",
-    "financialProfitabilityHealth": "Excellent",
-    "analystRatings": "Neutral",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.013453+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.017261+07:00"
   },
   {
     "id": "39277",
@@ -585,35 +529,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.013453+07:00"
-  },
-  {
-    "id": "6497",
-    "symbol": "NVDA",
-    "name": "NVIDIA Corporation",
-    "shortName": "NVIDIA",
-    "link": "https://www.investing.com/equities/nvidia-corp",
-    "price": 212.21,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 297.75,
-    "fairValueUpside": 40.31,
-    "peRatio": 26.83,
-    "evEbitda": 25.57,
-    "marketCap": 5360000000000,
-    "marketCapFormatted": "5.36T",
-    "epsGrowth5y": 1.57,
-    "changeOneDayPercent": -4.4,
-    "financialHealth": "Great",
-    "financialCashFlowHealth": "Excellent",
-    "financialGrowthHealth": "Excellent",
-    "financialProfitabilityHealth": "Excellent",
-    "analystRatings": "Strong Buy",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.013453+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.017261+07:00"
   },
   {
     "id": "39147",
@@ -641,35 +557,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.013453+07:00"
-  },
-  {
-    "id": "31028",
-    "symbol": "ENPH",
-    "name": "Enphase Energy Inc",
-    "shortName": "Enphase",
-    "link": "https://www.investing.com/equities/enphase-energy-inc",
-    "price": 31.35,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 43.67,
-    "fairValueUpside": 39.29,
-    "peRatio": 30.69,
-    "evEbitda": 18.95,
-    "marketCap": 4230000000,
-    "marketCapFormatted": "4.23B",
-    "epsGrowth5y": 0.4,
-    "changeOneDayPercent": -2.0,
-    "financialHealth": "Fair",
-    "financialCashFlowHealth": "Good",
-    "financialGrowthHealth": "Weak",
-    "financialProfitabilityHealth": "Good",
-    "analystRatings": "Buy",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.013453+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.017261+07:00"
   },
   {
     "id": "19694",
@@ -697,7 +585,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.013453+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.017261+07:00"
   },
   {
     "id": "8201",
@@ -725,7 +613,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.013453+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.017261+07:00"
   },
   {
     "id": "32524",
@@ -753,7 +641,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.013453+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.017261+07:00"
   },
   {
     "id": "8294",
@@ -781,7 +669,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.013453+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.017261+07:00"
   },
   {
     "id": "39184",
@@ -809,7 +697,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.013453+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.017261+07:00"
   },
   {
     "id": "32370",
@@ -837,6 +725,118 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.013453+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.017261+07:00"
+  },
+  {
+    "id": "15951",
+    "symbol": "DXCM",
+    "name": "DexCom Inc",
+    "shortName": "DexCom",
+    "link": "https://www.investing.com/equities/dexcom",
+    "price": 78.32,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 104.97,
+    "fairValueUpside": 34.03,
+    "peRatio": 30.59,
+    "evEbitda": 22.75,
+    "marketCap": 30290000000,
+    "marketCapFormatted": "30.29B",
+    "epsGrowth5y": 0.31,
+    "changeOneDayPercent": -2.42,
+    "financialHealth": "Great",
+    "financialCashFlowHealth": "Great",
+    "financialGrowthHealth": "Excellent",
+    "financialProfitabilityHealth": "Excellent",
+    "analystRatings": "Strong Buy",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-23T08:41:07.017261+07:00"
+  },
+  {
+    "id": "15368",
+    "symbol": "ALGN",
+    "name": "Align Technology Inc",
+    "shortName": "Align",
+    "link": "https://www.investing.com/equities/align-technology",
+    "price": 155.51,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 207.13,
+    "fairValueUpside": 33.19,
+    "peRatio": 26.89,
+    "evEbitda": 10.24,
+    "marketCap": 10750000000,
+    "marketCapFormatted": "10.75B",
+    "epsGrowth5y": -0.08,
+    "changeOneDayPercent": 2.74,
+    "financialHealth": "Great",
+    "financialCashFlowHealth": "Great",
+    "financialGrowthHealth": "Fair",
+    "financialProfitabilityHealth": "Excellent",
+    "analystRatings": "Buy",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-23T08:41:07.017261+07:00"
+  },
+  {
+    "id": "8248",
+    "symbol": "BSX",
+    "name": "Boston Scientific Corp",
+    "shortName": "Boston Scientific",
+    "link": "https://www.investing.com/equities/boston-scien-cp",
+    "price": 46.01,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 61.28,
+    "fairValueUpside": 33.19,
+    "peRatio": 18.55,
+    "evEbitda": 13.03,
+    "marketCap": 64510000000,
+    "marketCapFormatted": "64.51B",
+    "epsGrowth5y": 0.97,
+    "changeOneDayPercent": 3.37,
+    "financialHealth": "Great",
+    "financialCashFlowHealth": "Good",
+    "financialGrowthHealth": "Great",
+    "financialProfitabilityHealth": "Excellent",
+    "analystRatings": "Buy",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-23T08:41:07.017261+07:00"
+  },
+  {
+    "id": "39159",
+    "symbol": "BR",
+    "name": "Broadridge Financial Solutions Inc",
+    "shortName": "Broadridge",
+    "link": "https://www.investing.com/equities/broadridge-financial-solutions",
+    "price": 186.19,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 247.27,
+    "fairValueUpside": 32.81,
+    "peRatio": 19.37,
+    "evEbitda": 12.47,
+    "marketCap": 20130000000,
+    "marketCapFormatted": "20.13B",
+    "epsGrowth5y": 0.16,
+    "changeOneDayPercent": 4.43,
+    "financialHealth": "Great",
+    "financialCashFlowHealth": "Good",
+    "financialGrowthHealth": "Great",
+    "financialProfitabilityHealth": "Excellent",
+    "analystRatings": "Buy",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-23T08:41:07.017261+07:00"
   }
 ]

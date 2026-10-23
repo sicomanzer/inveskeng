@@ -25,35 +25,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.983830+07:00"
-  },
-  {
-    "id": "1114321",
-    "symbol": "MRNA",
-    "name": "Moderna Inc",
-    "shortName": "Moderna",
-    "link": "https://www.investing.com/equities/moderna",
-    "price": 202.63,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 118.11,
-    "fairValueUpside": -41.71,
-    "peRatio": -24.18,
-    "evEbitda": -37.09,
-    "marketCap": 98140000000,
-    "marketCapFormatted": "98.14B",
-    "epsGrowth5y": 2.01,
-    "changeOneDayPercent": -17.57,
-    "financialHealth": "Good",
-    "financialCashFlowHealth": "Fair",
-    "financialGrowthHealth": "Weak",
-    "financialProfitabilityHealth": "Fair",
-    "analystRatings": "Neutral",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.983830+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.720422+07:00"
   },
   {
     "id": "1131557",
@@ -81,7 +53,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.983830+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.720422+07:00"
   },
   {
     "id": "261",
@@ -109,7 +81,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.983830+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.720422+07:00"
   },
   {
     "id": "41268",
@@ -137,7 +109,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.983830+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.720422+07:00"
   },
   {
     "id": "13994",
@@ -165,7 +137,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.983830+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.720422+07:00"
   },
   {
     "id": "13852",
@@ -193,7 +165,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.983830+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.720422+07:00"
   },
   {
     "id": "13848",
@@ -221,7 +193,35 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.983830+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.720422+07:00"
+  },
+  {
+    "id": "1114321",
+    "symbol": "MRNA",
+    "name": "Moderna Inc",
+    "shortName": "Moderna",
+    "link": "https://www.investing.com/equities/moderna",
+    "price": 202.63,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 142.71,
+    "fairValueUpside": -29.57,
+    "peRatio": -24.18,
+    "evEbitda": -37.09,
+    "marketCap": 98140000000,
+    "marketCapFormatted": "98.14B",
+    "epsGrowth5y": 2.01,
+    "changeOneDayPercent": -17.57,
+    "financialHealth": "Good",
+    "financialCashFlowHealth": "Fair",
+    "financialGrowthHealth": "Weak",
+    "financialProfitabilityHealth": "Fair",
+    "analystRatings": "Neutral",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-23T08:41:07.720422+07:00"
   },
   {
     "id": "251",
@@ -249,7 +249,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.983830+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.720422+07:00"
   },
   {
     "id": "20164",
@@ -277,7 +277,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.983830+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.720422+07:00"
   },
   {
     "id": "7997",
@@ -305,7 +305,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.983830+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.720422+07:00"
   },
   {
     "id": "8260",
@@ -333,35 +333,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.983830+07:00"
-  },
-  {
-    "id": "1152784",
-    "symbol": "DDOG",
-    "name": "Datadog Inc",
-    "shortName": "Datadog",
-    "link": "https://www.investing.com/equities/datadog-inc",
-    "price": 257.75,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 192.96,
-    "fairValueUpside": -25.14,
-    "peRatio": 531.11,
-    "evEbitda": null,
-    "marketCap": 98060000000,
-    "marketCapFormatted": "98.06B",
-    "epsGrowth5y": -5.28,
-    "changeOneDayPercent": -5.62,
-    "financialHealth": "Good",
-    "financialCashFlowHealth": "Great",
-    "financialGrowthHealth": "Great",
-    "financialProfitabilityHealth": "Good",
-    "analystRatings": "Strong Buy",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.983830+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.720422+07:00"
   },
   {
     "id": "7881",
@@ -372,8 +344,8 @@
     "price": 455.59,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 350.06,
-    "fairValueUpside": -23.16,
+    "fairValue": 350.02,
+    "fairValueUpside": -23.17,
     "peRatio": 204.8,
     "evEbitda": 32.97,
     "marketCap": 44950000000,
@@ -389,63 +361,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.983830+07:00"
-  },
-  {
-    "id": "13067",
-    "symbol": "EQIX",
-    "name": "Equinix Inc",
-    "shortName": "Equinix",
-    "link": "https://www.investing.com/equities/equinix,-inc.",
-    "price": 952.62,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 734.83,
-    "fairValueUpside": -22.86,
-    "peRatio": 61.73,
-    "evEbitda": 26.36,
-    "marketCap": 98180000000,
-    "marketCapFormatted": "98.18B",
-    "epsGrowth5y": 0.28,
-    "changeOneDayPercent": -4.26,
-    "financialHealth": "Good",
-    "financialCashFlowHealth": "Great",
-    "financialGrowthHealth": "Great",
-    "financialProfitabilityHealth": "Great",
-    "analystRatings": "Strong Buy",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.983830+07:00"
-  },
-  {
-    "id": "6440",
-    "symbol": "NTAP",
-    "name": "NetApp Inc",
-    "shortName": "NetApp",
-    "link": "https://www.investing.com/equities/network-appliance-inc",
-    "price": 212.51,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 166.52,
-    "fairValueUpside": -21.64,
-    "peRatio": 29.8,
-    "evEbitda": 18.61,
-    "marketCap": 42660000000,
-    "marketCapFormatted": "42.66B",
-    "epsGrowth5y": 0.19,
-    "changeOneDayPercent": -2.16,
-    "financialHealth": "Good",
-    "financialCashFlowHealth": "Fair",
-    "financialGrowthHealth": "Good",
-    "financialProfitabilityHealth": "Excellent",
-    "analystRatings": "Buy",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.983830+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.720422+07:00"
   },
   {
     "id": "13866",
@@ -473,7 +389,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.983830+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.720422+07:00"
   },
   {
     "id": "8158",
@@ -501,7 +417,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.983830+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.720422+07:00"
   },
   {
     "id": "8279",
@@ -529,7 +445,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.983830+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.720422+07:00"
   },
   {
     "id": "8144",
@@ -557,7 +473,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.983830+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.720422+07:00"
   },
   {
     "id": "247",
@@ -568,8 +484,8 @@
     "price": 704.05,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 569.02,
-    "fairValueUpside": -19.18,
+    "fairValue": 568.92,
+    "fairValueUpside": -19.19,
     "peRatio": 30.22,
     "evEbitda": 23.08,
     "marketCap": 340260000000,
@@ -585,7 +501,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.983830+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.720422+07:00"
   },
   {
     "id": "255",
@@ -613,35 +529,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.983830+07:00"
-  },
-  {
-    "id": "13867",
-    "symbol": "WEC",
-    "name": "WEC Energy Group Inc",
-    "shortName": "WEC Energy",
-    "link": "https://www.investing.com/equities/wisconsin-energy-corp",
-    "price": 112.15,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 90.8,
-    "fairValueUpside": -19.03,
-    "peRatio": 21.64,
-    "evEbitda": 14.23,
-    "marketCap": 35350000000,
-    "marketCapFormatted": "35.35B",
-    "epsGrowth5y": 0.06,
-    "changeOneDayPercent": 3.36,
-    "financialHealth": "Fair",
-    "financialCashFlowHealth": "Fair",
-    "financialGrowthHealth": "Fair",
-    "financialProfitabilityHealth": "Great",
-    "analystRatings": "Buy",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.983830+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.720422+07:00"
   },
   {
     "id": "7906",
@@ -669,7 +557,35 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.983830+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.720422+07:00"
+  },
+  {
+    "id": "8136",
+    "symbol": "MAR",
+    "name": "Marriott International Inc",
+    "shortName": "Marriott International",
+    "link": "https://www.investing.com/equities/marriott-intl",
+    "price": 397.0,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 323.74,
+    "fairValueUpside": -18.45,
+    "peRatio": 41.06,
+    "evEbitda": 24.62,
+    "marketCap": 105350000000,
+    "marketCapFormatted": "105.35B",
+    "epsGrowth5y": 1.19,
+    "changeOneDayPercent": -1.73,
+    "financialHealth": "Good",
+    "financialCashFlowHealth": "Good",
+    "financialGrowthHealth": "Great",
+    "financialProfitabilityHealth": "Excellent",
+    "analystRatings": "Buy",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-23T08:41:07.720422+07:00"
   },
   {
     "id": "7956",
@@ -697,7 +613,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.983830+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.720422+07:00"
   },
   {
     "id": "8252",
@@ -725,7 +641,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.983830+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.720422+07:00"
   },
   {
     "id": "7943",
@@ -737,7 +653,7 @@
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 87.22,
-    "fairValueUpside": -18.18,
+    "fairValueUpside": -18.19,
     "peRatio": 20.49,
     "evEbitda": 13.53,
     "marketCap": 12590000000,
@@ -753,7 +669,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.983830+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.720422+07:00"
   },
   {
     "id": "1206256",
@@ -781,7 +697,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.983830+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.720422+07:00"
   },
   {
     "id": "8016",
@@ -809,7 +725,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.983830+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.720422+07:00"
   },
   {
     "id": "32516",
@@ -837,6 +753,90 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:26:00.983830+07:00"
+    "lastUpdateTime": "2026-10-23T08:41:07.720422+07:00"
+  },
+  {
+    "id": "8104",
+    "symbol": "DUK",
+    "name": "Duke Energy Corporation",
+    "shortName": "Duke Energy",
+    "link": "https://www.investing.com/equities/duke-energy",
+    "price": 125.4,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 104.94,
+    "fairValueUpside": -16.32,
+    "peRatio": 18.82,
+    "evEbitda": 11.39,
+    "marketCap": 94090000000,
+    "marketCapFormatted": "94.09B",
+    "epsGrowth5y": 0.29,
+    "changeOneDayPercent": 3.92,
+    "financialHealth": "Good",
+    "financialCashFlowHealth": "Fair",
+    "financialGrowthHealth": "Good",
+    "financialProfitabilityHealth": "Great",
+    "analystRatings": "Buy",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-23T08:41:07.720422+07:00"
+  },
+  {
+    "id": "238",
+    "symbol": "BA",
+    "name": "Boeing Co",
+    "shortName": "Boeing",
+    "link": "https://www.investing.com/equities/boeing-co",
+    "price": 187.55,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 157.22,
+    "fairValueUpside": -16.17,
+    "peRatio": 69.95,
+    "evEbitda": -61.87,
+    "marketCap": 151970000000,
+    "marketCapFormatted": "151.97B",
+    "epsGrowth5y": -0.25,
+    "changeOneDayPercent": -2.46,
+    "financialHealth": "Fair",
+    "financialCashFlowHealth": "Weak",
+    "financialGrowthHealth": "Good",
+    "financialProfitabilityHealth": "Fair",
+    "analystRatings": "Buy",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-23T08:41:07.720422+07:00"
+  },
+  {
+    "id": "8297",
+    "symbol": "ED",
+    "name": "Consolidated Edison Inc",
+    "shortName": "Consolidated Edison",
+    "link": "https://www.investing.com/equities/cocnsol-edison",
+    "price": 116.26,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 97.59,
+    "fairValueUpside": -16.06,
+    "peRatio": 19.05,
+    "evEbitda": 10.92,
+    "marketCap": 41350000000,
+    "marketCapFormatted": "41.35B",
+    "epsGrowth5y": 0.14,
+    "changeOneDayPercent": 3.97,
+    "financialHealth": "Good",
+    "financialCashFlowHealth": "Good",
+    "financialGrowthHealth": "Good",
+    "financialProfitabilityHealth": "Great",
+    "analystRatings": "Neutral",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-23T08:41:07.720422+07:00"
   }
 ]
