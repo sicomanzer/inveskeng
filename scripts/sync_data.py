@@ -24,6 +24,19 @@ BROWSER_HEADERS = {
     "Upgrade-Insecure-Requests": "1"
 }
 
+def clean_float(val, fallback=None):
+    if val is None:
+        return fallback
+    if isinstance(val, (int, float)):
+        return float(val)
+    s = str(val).replace(',', '').replace('+', '').replace('%', '').strip()
+    if not s or s == '-' or s == 'N/A' or s == 'null':
+        return fallback
+    try:
+        return float(s)
+    except:
+        return fallback
+
 def fetch_market_stocks(country_slug: str, market_code: str, tab_slug: str, currency: str, curr_sym: str, out_filename: str):
     print(f"[{datetime.now().strftime('%H:%M:%S')}] Fetching {market_code} ({tab_slug}) from Investing.com...")
 
@@ -33,19 +46,27 @@ def fetch_market_stocks(country_slug: str, market_code: str, tab_slug: str, curr
             f"https://th.investing.com/equities/thailand/most-{tab_slug}",
             f"https://www.investing.com/equities/thailand/most-{tab_slug}",
         ]
+    elif country_slug in ["us", "united-states"]:
+        candidate_urls = [
+            f"https://th.investing.com/equities/united-states/most-{tab_slug}",
+            f"https://www.investing.com/equities/united-states/most-{tab_slug}",
+            f"https://www.investing.com/equities/most-{tab_slug}",
+        ]
     else:
         candidate_urls = [
-            f"https://www.investing.com/equities/most-{tab_slug}",
-            f"https://th.investing.com/equities/most-{tab_slug}",
+            f"https://th.investing.com/equities/{country_slug}/most-{tab_slug}",
+            f"https://www.investing.com/equities/{country_slug}/most-{tab_slug}",
         ]
 
     r = None
     last_err = None
+    chosen_url = None
     for url in candidate_urls:
         try:
             res = requests.get(url, impersonate="chrome124", headers=BROWSER_HEADERS, timeout=25)
             if res.status_code == 200 and len(res.text) > 10000:
                 r = res
+                chosen_url = url
                 break
             else:
                 last_err = f"HTTP {res.status_code} ({url})"
@@ -55,6 +76,8 @@ def fetch_market_stocks(country_slug: str, market_code: str, tab_slug: str, curr
     if not r:
         print(f"Error fetching page ({market_code} {tab_slug}): {last_err}")
         return None
+
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] Successfully downloaded {market_code} from {chosen_url}")
 
     soup = BeautifulSoup(r.text, 'html.parser')
     script = soup.find('script', id='__NEXT_DATA__')
@@ -110,21 +133,14 @@ def fetch_market_stocks(country_slug: str, market_code: str, tab_slug: str, curr
         # Get exact rendered values from the source website table cells
         rendered_row = [td.get_text(strip=True) for td in table_rows[i].find_all('td')] if i < len(table_rows) else []
 
-        try:
-            price_val = float(rendered_row[1]) if len(rendered_row) > 1 and rendered_row[1] else float(item.get('last') or 0.0)
-        except:
-            price_val = float(item.get('last') or 0.0)
+        rendered_price = clean_float(rendered_row[1]) if len(rendered_row) > 1 else None
+        price_val = rendered_price if rendered_price is not None else clean_float(item.get('last'), 0.0)
 
-        upside_str = rendered_row[2] if len(rendered_row) > 2 else f"{item.get('fairValueUpside', 0):.2f}%"
-        try:
-            upside_val = float(upside_str.replace('+', '').replace('%', '').strip()) if upside_str else float(item.get('fairValueUpside') or 0.0)
-        except:
-            upside_val = float(item.get('fairValueUpside') or 0.0)
+        rendered_upside = clean_float(rendered_row[2]) if len(rendered_row) > 2 else None
+        upside_val = rendered_upside if rendered_upside is not None else clean_float(item.get('fairValueUpside'), 0.0)
 
-        try:
-            fair_val = float(rendered_row[3]) if len(rendered_row) > 3 and rendered_row[3] else float(item.get('fairValue') or 0.0)
-        except:
-            fair_val = float(item.get('fairValue') or 0.0)
+        rendered_fv = clean_float(rendered_row[3]) if len(rendered_row) > 3 else None
+        fair_val = rendered_fv if rendered_fv is not None else clean_float(item.get('fairValue'), 0.0)
 
         health = rendered_row[4] if len(rendered_row) > 4 and rendered_row[4] else (item.get('financialHealth') or 'Good')
         cf_health = rendered_row[5] if len(rendered_row) > 5 and rendered_row[5] else (item.get('financialCashFlowHealth') or '-')
@@ -132,25 +148,11 @@ def fetch_market_stocks(country_slug: str, market_code: str, tab_slug: str, curr
         profit_health = rendered_row[7] if len(rendered_row) > 7 and rendered_row[7] else (item.get('financialProfitabilityHealth') or '-')
         analyst = rendered_row[8] if len(rendered_row) > 8 and rendered_row[8] else (item.get('analystRatings') or '-')
 
-        pe_str = rendered_row[9] if len(rendered_row) > 9 else ''
-        try:
-            pe_val = float(pe_str) if pe_str else None
-        except:
-            pe_val = None
+        pe_val = clean_float(rendered_row[9]) if len(rendered_row) > 9 else clean_float(item.get('peRatio'))
+        ev_val = clean_float(rendered_row[10]) if len(rendered_row) > 10 else clean_float(item.get('evEbitda'))
 
-        ev_str = rendered_row[10] if len(rendered_row) > 10 else ''
-        try:
-            ev_val = float(ev_str) if ev_str else None
-        except:
-            ev_val = None
-
-        mcap_fmt = rendered_row[11] if len(rendered_row) > 11 and rendered_row[11] else (f"{item.get('marketCap', 0)/1e9:.2f}B")
-
-        eps_str = rendered_row[12] if len(rendered_row) > 12 else ''
-        try:
-            eps_val = float(eps_str) if eps_str else None
-        except:
-            eps_val = None
+        mcap_fmt = rendered_row[11] if len(rendered_row) > 11 and rendered_row[11] else (f"{float(item.get('marketCap') or 0)/1e9:.2f}B")
+        eps_val = clean_float(rendered_row[12]) if len(rendered_row) > 12 else clean_float(item.get('epsGrowth5y'))
 
         stock_entry = {
             "id": pid,
@@ -226,12 +228,12 @@ def main():
 
     # 3. US Undervalued
     if args.market in ["US", "ALL"] and args.type in ["undervalued", "ALL"]:
-        count_us_uv = fetch_market_stocks("us", "US", "undervalued", "USD", "$", "undervalued_stocks_unmasked.json")
+        count_us_uv = fetch_market_stocks("united-states", "US", "undervalued", "USD", "$", "undervalued_stocks_unmasked.json")
         results["US_undervalued"] = count_us_uv
 
     # 4. US Overvalued
     if args.market in ["US", "ALL"] and args.type in ["overvalued", "ALL"]:
-        count_us_ov = fetch_market_stocks("us", "US", "overvalued", "USD", "$", "us_stocks_overvalued.json")
+        count_us_ov = fetch_market_stocks("united-states", "US", "overvalued", "USD", "$", "us_stocks_overvalued.json")
         results["US_overvalued"] = count_us_ov
 
     valid_counts = [v for v in results.values() if v is not None and v > 0]
