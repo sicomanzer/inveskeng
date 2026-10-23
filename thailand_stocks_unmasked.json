@@ -25,7 +25,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T13:13:19.638354+07:00"
+    "lastUpdateTime": "2026-10-23T13:28:26.581247+07:00"
   },
   {
     "id": "102518",
@@ -53,7 +53,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T13:13:19.638354+07:00"
+    "lastUpdateTime": "2026-10-23T13:28:26.581247+07:00"
   },
   {
     "id": "1056157",
@@ -81,7 +81,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T13:13:19.638354+07:00"
+    "lastUpdateTime": "2026-10-23T13:28:26.581247+07:00"
   },
   {
     "id": "102443",
@@ -109,7 +109,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T13:13:19.638354+07:00"
+    "lastUpdateTime": "2026-10-23T13:28:26.581247+07:00"
   },
   {
     "id": "102513",
@@ -137,7 +137,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T13:13:19.638354+07:00"
+    "lastUpdateTime": "2026-10-23T13:28:26.581247+07:00"
   },
   {
     "id": "102551",
@@ -152,8 +152,8 @@
     "fairValueUpside": 50.34,
     "peRatio": -2.99,
     "evEbitda": -3.7,
-    "marketCap": 6140000000,
-    "marketCapFormatted": "6.14 พันล้าน",
+    "marketCap": 5800000000,
+    "marketCapFormatted": "5.8 พันล้าน",
     "epsGrowth5y": -0.9,
     "changeOneDayPercent": 0.0,
     "financialHealth": "มูลค่าตามจริง",
@@ -165,7 +165,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T13:13:19.638354+07:00"
+    "lastUpdateTime": "2026-10-23T13:28:26.581247+07:00"
   },
   {
     "id": "1052357",
@@ -193,7 +193,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T13:13:19.638354+07:00"
+    "lastUpdateTime": "2026-10-23T13:28:26.581247+07:00"
   },
   {
     "id": "1115209",
@@ -221,7 +221,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T13:13:19.638354+07:00"
+    "lastUpdateTime": "2026-10-23T13:28:26.581247+07:00"
   },
   {
     "id": "102617",
@@ -249,7 +249,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T13:13:19.638354+07:00"
+    "lastUpdateTime": "2026-10-23T13:28:26.581247+07:00"
   },
   {
     "id": "102863",
@@ -277,7 +277,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T13:13:19.638354+07:00"
+    "lastUpdateTime": "2026-10-23T13:28:26.581247+07:00"
   },
   {
     "id": "1216964",
@@ -305,7 +305,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T13:13:19.638354+07:00"
+    "lastUpdateTime": "2026-10-23T13:28:26.581247+07:00"
   },
   {
     "id": "102425",
@@ -320,8 +320,8 @@
     "fairValueUpside": 46.79,
     "peRatio": 3.38,
     "evEbitda": 3.31,
-    "marketCap": 76440000000,
-    "marketCapFormatted": "76.44 พันล้าน",
+    "marketCap": 74660000000,
+    "marketCapFormatted": "74.66 พันล้าน",
     "epsGrowth5y": 1.87,
     "changeOneDayPercent": 3.47,
     "financialHealth": "ดีมาก",
@@ -333,7 +333,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T13:13:19.638354+07:00"
+    "lastUpdateTime": "2026-10-23T13:28:26.581247+07:00"
   },
   {
     "id": "1153457",
@@ -361,7 +361,35 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T13:13:19.638354+07:00"
+    "lastUpdateTime": "2026-10-23T13:28:26.581247+07:00"
+  },
+  {
+    "id": "1198524",
+    "symbol": "MOSHI",
+    "name": "Moshi Moshi Retail Corporation PCL",
+    "shortName": "Moshi Moshi Retail",
+    "link": "https://www.investing.com/equities/moshi-moshi-retail",
+    "price": 34.75,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 50.5,
+    "fairValueUpside": 45.33,
+    "peRatio": null,
+    "evEbitda": 13.74,
+    "marketCap": 11470000000,
+    "marketCapFormatted": "11.47 พันล้าน",
+    "epsGrowth5y": 0.39,
+    "changeOneDayPercent": 0.0,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-23T13:28:26.581247+07:00"
   },
   {
     "id": "102457",
@@ -389,7 +417,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T13:13:19.638354+07:00"
+    "lastUpdateTime": "2026-10-23T13:28:26.581247+07:00"
   },
   {
     "id": "102829",
@@ -404,8 +432,8 @@
     "fairValueUpside": 44.44,
     "peRatio": 16.27,
     "evEbitda": 2.87,
-    "marketCap": 9300000000,
-    "marketCapFormatted": "9.3 พันล้าน",
+    "marketCap": 9420000000,
+    "marketCapFormatted": "9.42 พันล้าน",
     "epsGrowth5y": 1.11,
     "changeOneDayPercent": 0.0,
     "financialHealth": "ดีมาก",
@@ -417,7 +445,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T13:13:19.638354+07:00"
+    "lastUpdateTime": "2026-10-23T13:28:26.581247+07:00"
   },
   {
     "id": "102554",
@@ -445,7 +473,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T13:13:19.638354+07:00"
+    "lastUpdateTime": "2026-10-23T13:28:26.581247+07:00"
   },
   {
     "id": "1173246",
@@ -473,7 +501,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T13:13:19.638354+07:00"
+    "lastUpdateTime": "2026-10-23T13:28:26.581247+07:00"
   },
   {
     "id": "102547",
@@ -488,8 +516,8 @@
     "fairValueUpside": 41.99,
     "peRatio": 5.44,
     "evEbitda": 3.61,
-    "marketCap": 57560000000,
-    "marketCapFormatted": "57.56 พันล้าน",
+    "marketCap": 56720000000,
+    "marketCapFormatted": "56.72 พันล้าน",
     "epsGrowth5y": -2.77,
     "changeOneDayPercent": 1.44,
     "financialHealth": "ดีมาก",
@@ -501,7 +529,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T13:13:19.638354+07:00"
+    "lastUpdateTime": "2026-10-23T13:28:26.581247+07:00"
   },
   {
     "id": "102726",
@@ -512,8 +540,8 @@
     "price": 150.5,
     "currency": "THB",
     "currencySymbol": "฿",
-    "fairValue": 213.19,
-    "fairValueUpside": 41.65,
+    "fairValue": 213.14,
+    "fairValueUpside": 41.62,
     "peRatio": 10.83,
     "evEbitda": 6.04,
     "marketCap": 44850000000,
@@ -529,7 +557,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T13:13:19.638354+07:00"
+    "lastUpdateTime": "2026-10-23T13:28:26.581247+07:00"
   },
   {
     "id": "102689",
@@ -557,7 +585,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T13:13:19.638354+07:00"
+    "lastUpdateTime": "2026-10-23T13:28:26.581247+07:00"
   },
   {
     "id": "102731",
@@ -585,7 +613,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T13:13:19.638354+07:00"
+    "lastUpdateTime": "2026-10-23T13:28:26.581247+07:00"
   },
   {
     "id": "986206",
@@ -613,7 +641,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T13:13:19.638354+07:00"
+    "lastUpdateTime": "2026-10-23T13:28:26.581247+07:00"
   },
   {
     "id": "102743",
@@ -641,7 +669,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T13:13:19.638354+07:00"
+    "lastUpdateTime": "2026-10-23T13:28:26.581247+07:00"
   },
   {
     "id": "102467",
@@ -669,7 +697,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T13:13:19.638354+07:00"
+    "lastUpdateTime": "2026-10-23T13:28:26.581247+07:00"
   },
   {
     "id": "103821",
@@ -697,7 +725,35 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T13:13:19.638354+07:00"
+    "lastUpdateTime": "2026-10-23T13:28:26.581247+07:00"
+  },
+  {
+    "id": "102498",
+    "symbol": "AKR",
+    "name": "Ekarat Engineering PCL",
+    "shortName": "Ekarat Engineering",
+    "link": "https://www.investing.com/equities/ekarat-engine",
+    "price": 1.06,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 1.46,
+    "fairValueUpside": 37.6,
+    "peRatio": 11.23,
+    "evEbitda": 5.17,
+    "marketCap": 1560000000,
+    "marketCapFormatted": "1.56 พันล้าน",
+    "epsGrowth5y": 0.19,
+    "changeOneDayPercent": 0.0,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "-",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-23T13:28:26.581247+07:00"
   },
   {
     "id": "102398",
@@ -725,7 +781,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T13:13:19.638354+07:00"
+    "lastUpdateTime": "2026-10-23T13:28:26.581247+07:00"
   },
   {
     "id": "102753",
@@ -753,7 +809,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T13:13:19.638354+07:00"
+    "lastUpdateTime": "2026-10-23T13:28:26.581247+07:00"
   },
   {
     "id": "102616",
@@ -768,8 +824,8 @@
     "fairValueUpside": 37.17,
     "peRatio": 0.27,
     "evEbitda": 10.84,
-    "marketCap": 116430000000,
-    "marketCapFormatted": "116.43 พันล้าน",
+    "marketCap": 2130000000,
+    "marketCapFormatted": "2.13 พันล้าน",
     "epsGrowth5y": 0.95,
     "changeOneDayPercent": 0.98,
     "financialHealth": "ดี",
@@ -781,62 +837,6 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T13:13:19.638354+07:00"
-  },
-  {
-    "id": "102584",
-    "symbol": "LOXLEY",
-    "name": "Loxley PCL",
-    "shortName": "Loxley PCL",
-    "link": "https://www.investing.com/equities/loxley-publ",
-    "price": 1.77,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 2.428,
-    "fairValueUpside": 37.15,
-    "peRatio": 5.61,
-    "evEbitda": 0.88,
-    "marketCap": 4010000000,
-    "marketCapFormatted": "4.01 พันล้าน",
-    "epsGrowth5y": 13.17,
-    "changeOneDayPercent": 0.0,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดี",
-    "analystRatings": "-",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T13:13:19.638354+07:00"
-  },
-  {
-    "id": "102472",
-    "symbol": "CKP",
-    "name": "CK Power PCL",
-    "shortName": "CK Power",
-    "link": "https://www.investing.com/equities/ck-power",
-    "price": 2.36,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 3.24,
-    "fairValueUpside": 37.11,
-    "peRatio": 8.06,
-    "evEbitda": 4.81,
-    "marketCap": 19190000000,
-    "marketCapFormatted": "19.19 พันล้าน",
-    "epsGrowth5y": 0.51,
-    "changeOneDayPercent": 1.72,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดี",
-    "financialProfitabilityHealth": "ดี",
-    "analystRatings": "ซื้อ",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-23T13:13:19.638354+07:00"
+    "lastUpdateTime": "2026-10-23T13:28:26.581247+07:00"
   }
 ]
