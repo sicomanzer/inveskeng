@@ -25,7 +25,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T10:57:14.798215+07:00"
+    "lastUpdateTime": "2026-10-23T11:12:23.049073+07:00"
   },
   {
     "id": "1114321",
@@ -53,7 +53,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T10:57:14.798215+07:00"
+    "lastUpdateTime": "2026-10-23T11:12:23.049073+07:00"
   },
   {
     "id": "1131557",
@@ -81,7 +81,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T10:57:14.798215+07:00"
+    "lastUpdateTime": "2026-10-23T11:12:23.049073+07:00"
   },
   {
     "id": "261",
@@ -109,7 +109,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T10:57:14.798215+07:00"
+    "lastUpdateTime": "2026-10-23T11:12:23.049073+07:00"
   },
   {
     "id": "41268",
@@ -137,7 +137,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T10:57:14.798215+07:00"
+    "lastUpdateTime": "2026-10-23T11:12:23.049073+07:00"
   },
   {
     "id": "13994",
@@ -165,7 +165,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T10:57:14.798215+07:00"
+    "lastUpdateTime": "2026-10-23T11:12:23.049073+07:00"
   },
   {
     "id": "13852",
@@ -193,7 +193,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T10:57:14.798215+07:00"
+    "lastUpdateTime": "2026-10-23T11:12:23.049073+07:00"
   },
   {
     "id": "13848",
@@ -221,7 +221,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T10:57:14.798215+07:00"
+    "lastUpdateTime": "2026-10-23T11:12:23.049073+07:00"
   },
   {
     "id": "251",
@@ -249,7 +249,35 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T10:57:14.798215+07:00"
+    "lastUpdateTime": "2026-10-23T11:12:23.049073+07:00"
+  },
+  {
+    "id": "20164",
+    "symbol": "CRL",
+    "name": "Charles River Laboratories International, Inc",
+    "shortName": "Charles River Laboratories",
+    "link": "https://www.investing.com/equities/charles-river-laboratories-intl",
+    "price": 339.66,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 249.5,
+    "fairValueUpside": -26.54,
+    "peRatio": -70.06,
+    "evEbitda": 20.04,
+    "marketCap": 16210000000,
+    "marketCapFormatted": "16.21 พันล้าน",
+    "epsGrowth5y": -1.34,
+    "changeOneDayPercent": -1.51,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "แย่",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-23T11:12:23.049073+07:00"
   },
   {
     "id": "7997",
@@ -277,7 +305,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T10:57:14.798215+07:00"
+    "lastUpdateTime": "2026-10-23T11:12:23.049073+07:00"
   },
   {
     "id": "8260",
@@ -305,7 +333,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T10:57:14.798215+07:00"
+    "lastUpdateTime": "2026-10-23T11:12:23.049073+07:00"
   },
   {
     "id": "1152784",
@@ -333,7 +361,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T10:57:14.798215+07:00"
+    "lastUpdateTime": "2026-10-23T11:12:23.049073+07:00"
   },
   {
     "id": "7881",
@@ -361,7 +389,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T10:57:14.798215+07:00"
+    "lastUpdateTime": "2026-10-23T11:12:23.049073+07:00"
   },
   {
     "id": "13067",
@@ -389,7 +417,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T10:57:14.798215+07:00"
+    "lastUpdateTime": "2026-10-23T11:12:23.049073+07:00"
   },
   {
     "id": "6440",
@@ -417,7 +445,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T10:57:14.798215+07:00"
+    "lastUpdateTime": "2026-10-23T11:12:23.049073+07:00"
   },
   {
     "id": "13866",
@@ -445,7 +473,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T10:57:14.798215+07:00"
+    "lastUpdateTime": "2026-10-23T11:12:23.049073+07:00"
   },
   {
     "id": "8158",
@@ -473,7 +501,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T10:57:14.798215+07:00"
+    "lastUpdateTime": "2026-10-23T11:12:23.049073+07:00"
   },
   {
     "id": "8279",
@@ -501,7 +529,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T10:57:14.798215+07:00"
+    "lastUpdateTime": "2026-10-23T11:12:23.049073+07:00"
   },
   {
     "id": "247",
@@ -529,7 +557,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T10:57:14.798215+07:00"
+    "lastUpdateTime": "2026-10-23T11:12:23.049073+07:00"
   },
   {
     "id": "255",
@@ -557,7 +585,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T10:57:14.798215+07:00"
+    "lastUpdateTime": "2026-10-23T11:12:23.049073+07:00"
   },
   {
     "id": "13867",
@@ -585,7 +613,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T10:57:14.798215+07:00"
+    "lastUpdateTime": "2026-10-23T11:12:23.049073+07:00"
   },
   {
     "id": "7906",
@@ -613,7 +641,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T10:57:14.798215+07:00"
+    "lastUpdateTime": "2026-10-23T11:12:23.049073+07:00"
   },
   {
     "id": "8136",
@@ -641,7 +669,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T10:57:14.798215+07:00"
+    "lastUpdateTime": "2026-10-23T11:12:23.049073+07:00"
   },
   {
     "id": "7956",
@@ -669,7 +697,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T10:57:14.798215+07:00"
+    "lastUpdateTime": "2026-10-23T11:12:23.049073+07:00"
   },
   {
     "id": "8252",
@@ -697,7 +725,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T10:57:14.798215+07:00"
+    "lastUpdateTime": "2026-10-23T11:12:23.049073+07:00"
   },
   {
     "id": "7943",
@@ -725,7 +753,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T10:57:14.798215+07:00"
+    "lastUpdateTime": "2026-10-23T11:12:23.049073+07:00"
   },
   {
     "id": "1206256",
@@ -753,7 +781,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T10:57:14.798215+07:00"
+    "lastUpdateTime": "2026-10-23T11:12:23.049073+07:00"
   },
   {
     "id": "8016",
@@ -781,62 +809,34 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T10:57:14.798215+07:00"
+    "lastUpdateTime": "2026-10-23T11:12:23.049073+07:00"
   },
   {
-    "id": "8104",
-    "symbol": "DUK",
-    "name": "Duke Energy Corporation",
-    "shortName": "Duke Energy",
-    "link": "https://www.investing.com/equities/duke-energy",
-    "price": 125.4,
+    "id": "32516",
+    "symbol": "URI",
+    "name": "United Rentals Inc",
+    "shortName": "United Rentals",
+    "link": "https://www.investing.com/equities/united-rentals",
+    "price": 1111.02,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 104.96,
-    "fairValueUpside": -16.3,
-    "peRatio": 18.82,
-    "evEbitda": 11.39,
-    "marketCap": 97770000000,
-    "marketCapFormatted": "97.77 พันล้าน",
-    "epsGrowth5y": 0.29,
-    "changeOneDayPercent": 3.92,
+    "fairValue": 925.9,
+    "fairValueUpside": -16.66,
+    "peRatio": 26.38,
+    "evEbitda": 16.92,
+    "marketCap": 69150000000,
+    "marketCapFormatted": "69.15 พันล้าน",
+    "epsGrowth5y": 0.27,
+    "changeOneDayPercent": 3.93,
     "financialHealth": "ดี",
     "financialCashFlowHealth": "มูลค่าตามจริง",
     "financialGrowthHealth": "ดี",
-    "financialProfitabilityHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
     "analystRatings": "ซื้อ",
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T10:57:14.798215+07:00"
-  },
-  {
-    "id": "8297",
-    "symbol": "ED",
-    "name": "Consolidated Edison Inc",
-    "shortName": "Consolidated Edison",
-    "link": "https://www.investing.com/equities/cocnsol-edison",
-    "price": 116.26,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 97.6,
-    "fairValueUpside": -16.05,
-    "peRatio": 19.05,
-    "evEbitda": 10.92,
-    "marketCap": 43000000000,
-    "marketCapFormatted": "43 พันล้าน",
-    "epsGrowth5y": 0.14,
-    "changeOneDayPercent": 3.97,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "ดี",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ถือหุ้นไว้",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T10:57:14.798215+07:00"
+    "lastUpdateTime": "2026-10-23T11:12:23.049073+07:00"
   }
 ]
