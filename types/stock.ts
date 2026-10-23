@@ -106,8 +106,75 @@ export function formatRatingText(val?: string | null, isThai: boolean = false): 
       return 'Sell';
     case 'STRONG_SELL':
       return 'Strong Sell';
+    case 'ดีเยี่ยม':
+      return 'Excellent';
+    case 'ดีมาก':
+      return 'Great';
+    case 'ดี':
+      return 'Good';
+    case 'มูลค่าตามจริง':
+      return 'Fair';
+    case 'แย่':
+      return 'Weak';
+    case 'ซื้อทันที':
+      return 'Strong Buy';
+    case 'ซื้อ':
+      return 'Buy';
+    case 'ถือหุ้นไว้':
+      return 'Neutral';
+    case 'ขาย':
+      return 'Sell';
+    case 'ขายทันที':
+      return 'Strong Sell';
     default:
       return val.charAt(0).toUpperCase() + val.slice(1).toLowerCase();
+  }
+}
+
+export function getCanonicalRating(val?: string | null): string {
+  if (!val || val === '-' || val === '' || val === 'null' || val === 'undefined') return '';
+  const clean = val.trim();
+  const normalized = clean.toUpperCase().replace(/[\s_-]+/g, '_');
+
+  switch (normalized) {
+    case 'EXCELLENT':
+    case 'ดีเยี่ยม':
+      return 'EXCELLENT';
+    case 'GREAT':
+    case 'ดีมาก':
+      return 'GREAT';
+    case 'GOOD':
+    case 'OUTPERFORM':
+    case 'ดี':
+      return 'GOOD';
+    case 'FAIR':
+    case 'มูลค่าตามจริง':
+    case 'ปานกลาง':
+      return 'FAIR';
+    case 'POOR':
+    case 'WEAK':
+    case 'UNDERPERFORM':
+    case 'แย่':
+    case 'อ่อนแอ':
+      return 'WEAK';
+    case 'STRONG_BUY':
+    case 'ซื้อทันที':
+      return 'STRONG_BUY';
+    case 'BUY':
+    case 'ซื้อ':
+      return 'BUY';
+    case 'NEUTRAL':
+    case 'HOLD':
+    case 'ถือหุ้นไว้':
+      return 'NEUTRAL';
+    case 'SELL':
+    case 'ขาย':
+      return 'SELL';
+    case 'STRONG_SELL':
+    case 'ขายทันที':
+      return 'STRONG_SELL';
+    default:
+      return normalized;
   }
 }
 

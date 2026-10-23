@@ -11,7 +11,7 @@ import {
   flexRender,
   SortingState,
 } from '@tanstack/react-table';
-import { StockItem, MarketType, getRatingColor } from '@/types/stock';
+import { StockItem, MarketType, getRatingColor, getCanonicalRating } from '@/types/stock';
 import { useApp } from '@/context/AppContext';
 import { 
   ArrowUpDown, 
@@ -52,13 +52,15 @@ export default function StockTable({ initialData, market, valuationType = 'under
         item.symbol.toLowerCase().includes(q) ||
         item.name.toLowerCase().includes(q);
 
+      const canonicalHealth = getCanonicalRating(item.financialHealth);
       const matchesHealth =
         healthFilter === 'ALL' ||
-        (item.financialHealth && item.financialHealth.toUpperCase() === healthFilter.toUpperCase());
+        canonicalHealth === healthFilter;
 
+      const canonicalAnalyst = getCanonicalRating(item.analystRatings);
       const matchesAnalyst =
         analystFilter === 'ALL' ||
-        (item.analystRatings && item.analystRatings.toUpperCase().includes(analystFilter.toUpperCase()));
+        canonicalAnalyst === analystFilter;
 
       const matchesUpside =
         minUpsideFilter === 0
@@ -555,9 +557,9 @@ export default function StockTable({ initialData, market, valuationType = 'under
             className="bg-[#F8F9FA] dark:bg-[#1F2636] border border-[#D5DCE5] dark:border-[#2E3646] text-[#232526] dark:text-[#E5E7EB] rounded px-2 py-1 text-xs focus:outline-none focus:border-[#1256A0] cursor-pointer"
           >
             <option value="ALL">{lang === 'th' ? 'เรตติ้งนักวิเคราะห์: ทั้งหมด' : 'Analyst: All'}</option>
-            <option value="Strong Buy">{lang === 'th' ? 'ซื้อทันที (Strong Buy)' : 'Strong Buy'}</option>
-            <option value="Buy">{lang === 'th' ? 'ซื้อ (Buy)' : 'Buy'}</option>
-            <option value="Neutral">{lang === 'th' ? 'ถือหุ้นไว้ (Neutral)' : 'Hold / Neutral'}</option>
+            <option value="STRONG_BUY">{lang === 'th' ? 'ซื้อทันที' : 'Strong Buy'}</option>
+            <option value="BUY">{lang === 'th' ? 'ซื้อ' : 'Buy'}</option>
+            <option value="NEUTRAL">{lang === 'th' ? 'ถือหุ้นไว้' : 'Hold / Neutral'}</option>
           </select>
 
           {/* Upside / Downside Dropdown */}
