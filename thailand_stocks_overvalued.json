@@ -25,7 +25,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T17:15:34.444209+07:00"
+    "lastUpdateTime": "2026-10-23T17:30:44.535366+07:00"
   },
   {
     "id": "102567",
@@ -53,7 +53,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T17:15:34.444209+07:00"
+    "lastUpdateTime": "2026-10-23T17:30:44.535366+07:00"
   },
   {
     "id": "989494",
@@ -81,7 +81,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T17:15:34.444209+07:00"
+    "lastUpdateTime": "2026-10-23T17:30:44.535366+07:00"
   },
   {
     "id": "1130942",
@@ -109,7 +109,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T17:15:34.444209+07:00"
+    "lastUpdateTime": "2026-10-23T17:30:44.535366+07:00"
   },
   {
     "id": "1242508",
@@ -137,7 +137,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T17:15:34.444209+07:00"
+    "lastUpdateTime": "2026-10-23T17:30:44.535366+07:00"
   },
   {
     "id": "102569",
@@ -165,7 +165,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T17:15:34.444209+07:00"
+    "lastUpdateTime": "2026-10-23T17:30:44.535366+07:00"
   },
   {
     "id": "986137",
@@ -193,7 +193,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T17:15:34.444209+07:00"
+    "lastUpdateTime": "2026-10-23T17:30:44.535366+07:00"
   },
   {
     "id": "102869",
@@ -221,7 +221,35 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T17:15:34.444209+07:00"
+    "lastUpdateTime": "2026-10-23T17:30:44.535366+07:00"
+  },
+  {
+    "id": "986147",
+    "symbol": "BEM",
+    "name": "Bangkok Expressway and Metro PCL",
+    "shortName": "BEM",
+    "link": "https://www.investing.com/equities/bangkok-expressway-and-metro",
+    "price": 6.35,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 5.2,
+    "fairValueUpside": -18.14,
+    "peRatio": 24.15,
+    "evEbitda": 23.2,
+    "marketCap": 95110000000,
+    "marketCapFormatted": "95.11 พันล้าน",
+    "epsGrowth5y": 0.26,
+    "changeOneDayPercent": 0.0,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "แย่",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-23T17:30:44.535366+07:00"
   },
   {
     "id": "102751",
@@ -249,7 +277,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T17:15:34.444209+07:00"
+    "lastUpdateTime": "2026-10-23T17:30:44.535366+07:00"
   },
   {
     "id": "102757",
@@ -277,7 +305,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T17:15:34.444209+07:00"
+    "lastUpdateTime": "2026-10-23T17:30:44.535366+07:00"
   },
   {
     "id": "102714",
@@ -305,7 +333,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T17:15:34.444209+07:00"
+    "lastUpdateTime": "2026-10-23T17:30:44.535366+07:00"
   },
   {
     "id": "102683",
@@ -333,7 +361,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T17:15:34.444209+07:00"
+    "lastUpdateTime": "2026-10-23T17:30:44.535366+07:00"
   },
   {
     "id": "102561",
@@ -361,7 +389,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T17:15:34.444209+07:00"
+    "lastUpdateTime": "2026-10-23T17:30:44.535366+07:00"
   },
   {
     "id": "102540",
@@ -389,7 +417,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T17:15:34.444209+07:00"
+    "lastUpdateTime": "2026-10-23T17:30:44.535366+07:00"
   },
   {
     "id": "102672",
@@ -417,7 +445,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T17:15:34.444209+07:00"
+    "lastUpdateTime": "2026-10-23T17:30:44.535366+07:00"
   },
   {
     "id": "102756",
@@ -445,7 +473,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T17:15:34.444209+07:00"
+    "lastUpdateTime": "2026-10-23T17:30:44.535366+07:00"
   },
   {
     "id": "102442",
@@ -473,7 +501,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T17:15:34.444209+07:00"
+    "lastUpdateTime": "2026-10-23T17:30:44.535366+07:00"
   },
   {
     "id": "1162301",
@@ -501,7 +529,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T17:15:34.444209+07:00"
+    "lastUpdateTime": "2026-10-23T17:30:44.535366+07:00"
   },
   {
     "id": "102560",
@@ -529,7 +557,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T17:15:34.444209+07:00"
+    "lastUpdateTime": "2026-10-23T17:30:44.535366+07:00"
   },
   {
     "id": "1008691",
@@ -557,7 +585,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T17:15:34.444209+07:00"
+    "lastUpdateTime": "2026-10-23T17:30:44.535366+07:00"
   },
   {
     "id": "102532",
@@ -585,7 +613,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T17:15:34.444209+07:00"
+    "lastUpdateTime": "2026-10-23T17:30:44.535366+07:00"
   },
   {
     "id": "102748",
@@ -613,6 +641,6 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T17:15:34.444209+07:00"
+    "lastUpdateTime": "2026-10-23T17:30:44.535366+07:00"
   }
 ]
