@@ -5,9 +5,6 @@ on:
     # Run every 30 minutes (UTC)
     - cron: '*/30 * * * *'
   workflow_dispatch: # Allow manual trigger anytime
-  push:
-    paths:
-      - '.github/workflows/auto-sync.yml'
 
 jobs:
   sync:
