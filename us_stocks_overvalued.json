@@ -25,7 +25,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:10:54.110460+07:00"
+    "lastUpdateTime": "2026-10-23T08:22:08.460302+07:00"
   },
   {
     "id": "1131557",
@@ -53,7 +53,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:10:54.110460+07:00"
+    "lastUpdateTime": "2026-10-23T08:22:08.460302+07:00"
   },
   {
     "id": "261",
@@ -81,7 +81,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:10:54.110460+07:00"
+    "lastUpdateTime": "2026-10-23T08:22:08.460302+07:00"
   },
   {
     "id": "41268",
@@ -109,7 +109,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:10:54.110460+07:00"
+    "lastUpdateTime": "2026-10-23T08:22:08.460302+07:00"
   },
   {
     "id": "13994",
@@ -137,7 +137,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:10:54.110460+07:00"
+    "lastUpdateTime": "2026-10-23T08:22:08.460302+07:00"
   },
   {
     "id": "13852",
@@ -165,7 +165,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:10:54.110460+07:00"
+    "lastUpdateTime": "2026-10-23T08:22:08.460302+07:00"
   },
   {
     "id": "13848",
@@ -176,8 +176,8 @@
     "price": 237.4,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 166.89,
-    "fairValueUpside": -29.7,
+    "fairValue": 165.87,
+    "fairValueUpside": -30.13,
     "peRatio": 107.62,
     "evEbitda": 55.76,
     "marketCap": 168790000000,
@@ -193,7 +193,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:10:54.110460+07:00"
+    "lastUpdateTime": "2026-10-23T08:22:08.460302+07:00"
   },
   {
     "id": "1114321",
@@ -221,7 +221,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:10:54.110460+07:00"
+    "lastUpdateTime": "2026-10-23T08:22:08.460302+07:00"
   },
   {
     "id": "251",
@@ -249,7 +249,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:10:54.110460+07:00"
+    "lastUpdateTime": "2026-10-23T08:22:08.460302+07:00"
   },
   {
     "id": "20164",
@@ -277,7 +277,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:10:54.110460+07:00"
+    "lastUpdateTime": "2026-10-23T08:22:08.460302+07:00"
   },
   {
     "id": "7997",
@@ -305,91 +305,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:10:54.110460+07:00"
-  },
-  {
-    "id": "8260",
-    "symbol": "VMRK",
-    "name": "Vivmark Residential",
-    "shortName": "Vivmark",
-    "link": "https://www.investing.com/equities/eq-resident",
-    "price": 63.57,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 47.03,
-    "fairValueUpside": -26.02,
-    "peRatio": 25.69,
-    "evEbitda": 30.94,
-    "marketCap": 47970000000,
-    "marketCapFormatted": "47.97B",
-    "epsGrowth5y": 0.0,
-    "changeOneDayPercent": 2.55,
-    "financialHealth": "Good",
-    "financialCashFlowHealth": "Great",
-    "financialGrowthHealth": "Fair",
-    "financialProfitabilityHealth": "Great",
-    "analystRatings": "Buy",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:10:54.110460+07:00"
-  },
-  {
-    "id": "1152784",
-    "symbol": "DDOG",
-    "name": "Datadog Inc",
-    "shortName": "Datadog",
-    "link": "https://www.investing.com/equities/datadog-inc",
-    "price": 257.75,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 192.96,
-    "fairValueUpside": -25.14,
-    "peRatio": 531.11,
-    "evEbitda": null,
-    "marketCap": 98060000000,
-    "marketCapFormatted": "98.06B",
-    "epsGrowth5y": -5.28,
-    "changeOneDayPercent": -5.62,
-    "financialHealth": "Good",
-    "financialCashFlowHealth": "Great",
-    "financialGrowthHealth": "Great",
-    "financialProfitabilityHealth": "Good",
-    "analystRatings": "Strong Buy",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:10:54.110460+07:00"
-  },
-  {
-    "id": "7881",
-    "symbol": "WAT",
-    "name": "Waters Corporation",
-    "shortName": "Waters",
-    "link": "https://www.investing.com/equities/waters-corp",
-    "price": 455.59,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 350.02,
-    "fairValueUpside": -23.17,
-    "peRatio": 204.8,
-    "evEbitda": 32.97,
-    "marketCap": 44950000000,
-    "marketCapFormatted": "44.95B",
-    "epsGrowth5y": -0.02,
-    "changeOneDayPercent": -0.41,
-    "financialHealth": "Good",
-    "financialCashFlowHealth": "Good",
-    "financialGrowthHealth": "Fair",
-    "financialProfitabilityHealth": "Great",
-    "analystRatings": "Buy",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:10:54.110460+07:00"
+    "lastUpdateTime": "2026-10-23T08:22:08.460302+07:00"
   },
   {
     "id": "13067",
@@ -417,7 +333,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:10:54.110460+07:00"
+    "lastUpdateTime": "2026-10-23T08:22:08.460302+07:00"
   },
   {
     "id": "6440",
@@ -445,7 +361,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:10:54.110460+07:00"
+    "lastUpdateTime": "2026-10-23T08:22:08.460302+07:00"
   },
   {
     "id": "13866",
@@ -473,7 +389,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:10:54.110460+07:00"
+    "lastUpdateTime": "2026-10-23T08:22:08.460302+07:00"
   },
   {
     "id": "8158",
@@ -501,7 +417,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:10:54.110460+07:00"
+    "lastUpdateTime": "2026-10-23T08:22:08.460302+07:00"
   },
   {
     "id": "8279",
@@ -529,7 +445,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:10:54.110460+07:00"
+    "lastUpdateTime": "2026-10-23T08:22:08.460302+07:00"
   },
   {
     "id": "8144",
@@ -557,7 +473,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:10:54.110460+07:00"
+    "lastUpdateTime": "2026-10-23T08:22:08.460302+07:00"
   },
   {
     "id": "247",
@@ -585,63 +501,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:10:54.110460+07:00"
-  },
-  {
-    "id": "255",
-    "symbol": "F",
-    "name": "Ford Motor Company",
-    "shortName": "Ford Motor",
-    "link": "https://www.investing.com/equities/ford-motor-co",
-    "price": 11.94,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 9.66,
-    "fairValueUpside": -19.07,
-    "peRatio": -6.43,
-    "evEbitda": 24.62,
-    "marketCap": 47450000000,
-    "marketCapFormatted": "47.45B",
-    "epsGrowth5y": 1.62,
-    "changeOneDayPercent": 0.34,
-    "financialHealth": "Fair",
-    "financialCashFlowHealth": "Fair",
-    "financialGrowthHealth": "Weak",
-    "financialProfitabilityHealth": "Weak",
-    "analystRatings": "Buy",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:10:54.110460+07:00"
-  },
-  {
-    "id": "13867",
-    "symbol": "WEC",
-    "name": "WEC Energy Group Inc",
-    "shortName": "WEC Energy",
-    "link": "https://www.investing.com/equities/wisconsin-energy-corp",
-    "price": 112.15,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 90.8,
-    "fairValueUpside": -19.03,
-    "peRatio": 21.64,
-    "evEbitda": 14.23,
-    "marketCap": 35350000000,
-    "marketCapFormatted": "35.35B",
-    "epsGrowth5y": 0.06,
-    "changeOneDayPercent": 3.36,
-    "financialHealth": "Fair",
-    "financialCashFlowHealth": "Fair",
-    "financialGrowthHealth": "Fair",
-    "financialProfitabilityHealth": "Great",
-    "analystRatings": "Buy",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:10:54.110460+07:00"
+    "lastUpdateTime": "2026-10-23T08:22:08.460302+07:00"
   },
   {
     "id": "7906",
@@ -669,7 +529,63 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:10:54.110460+07:00"
+    "lastUpdateTime": "2026-10-23T08:22:08.460302+07:00"
+  },
+  {
+    "id": "8136",
+    "symbol": "MAR",
+    "name": "Marriott International Inc",
+    "shortName": "Marriott International",
+    "link": "https://www.investing.com/equities/marriott-intl",
+    "price": 397.0,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 323.74,
+    "fairValueUpside": -18.45,
+    "peRatio": 41.06,
+    "evEbitda": 24.62,
+    "marketCap": 105350000000,
+    "marketCapFormatted": "105.35B",
+    "epsGrowth5y": 1.19,
+    "changeOneDayPercent": -1.73,
+    "financialHealth": "Good",
+    "financialCashFlowHealth": "Good",
+    "financialGrowthHealth": "Great",
+    "financialProfitabilityHealth": "Excellent",
+    "analystRatings": "Buy",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-23T08:22:08.460302+07:00"
+  },
+  {
+    "id": "13867",
+    "symbol": "WEC",
+    "name": "WEC Energy Group Inc",
+    "shortName": "WEC Energy",
+    "link": "https://www.investing.com/equities/wisconsin-energy-corp",
+    "price": 112.15,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 91.6,
+    "fairValueUpside": -18.32,
+    "peRatio": 21.64,
+    "evEbitda": 14.23,
+    "marketCap": 35350000000,
+    "marketCapFormatted": "35.35B",
+    "epsGrowth5y": 0.06,
+    "changeOneDayPercent": 3.36,
+    "financialHealth": "Fair",
+    "financialCashFlowHealth": "Fair",
+    "financialGrowthHealth": "Fair",
+    "financialProfitabilityHealth": "Great",
+    "analystRatings": "Buy",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-23T08:22:08.460302+07:00"
   },
   {
     "id": "8252",
@@ -697,7 +613,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:10:54.110460+07:00"
+    "lastUpdateTime": "2026-10-23T08:22:08.460302+07:00"
   },
   {
     "id": "7943",
@@ -725,35 +641,35 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:10:54.110460+07:00"
+    "lastUpdateTime": "2026-10-23T08:22:08.460302+07:00"
   },
   {
-    "id": "1206256",
-    "symbol": "ARM",
-    "name": "Arm Holdings ADR",
-    "shortName": "Arm ADR",
-    "link": "https://www.investing.com/equities/arm",
-    "price": 210.1,
+    "id": "255",
+    "symbol": "F",
+    "name": "Ford Motor Company",
+    "shortName": "Ford Motor",
+    "link": "https://www.investing.com/equities/ford-motor-co",
+    "price": 11.94,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 172.46,
-    "fairValueUpside": -17.92,
-    "peRatio": 214.44,
-    "evEbitda": 225.54,
-    "marketCap": 242020000000,
-    "marketCapFormatted": "242.02B",
-    "epsGrowth5y": 1.13,
-    "changeOneDayPercent": -7.28,
-    "financialHealth": "Good",
-    "financialCashFlowHealth": "Great",
-    "financialGrowthHealth": "Great",
-    "financialProfitabilityHealth": "Great",
+    "fairValue": 9.77,
+    "fairValueUpside": -18.18,
+    "peRatio": -6.43,
+    "evEbitda": 24.62,
+    "marketCap": 47450000000,
+    "marketCapFormatted": "47.45B",
+    "epsGrowth5y": 1.62,
+    "changeOneDayPercent": 0.34,
+    "financialHealth": "Fair",
+    "financialCashFlowHealth": "Fair",
+    "financialGrowthHealth": "Weak",
+    "financialProfitabilityHealth": "Weak",
     "analystRatings": "Buy",
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:10:54.110460+07:00"
+    "lastUpdateTime": "2026-10-23T08:22:08.460302+07:00"
   },
   {
     "id": "8016",
@@ -781,7 +697,91 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:10:54.110460+07:00"
+    "lastUpdateTime": "2026-10-23T08:22:08.460302+07:00"
+  },
+  {
+    "id": "29723",
+    "symbol": "WAB",
+    "name": "Westinghouse Air Brake Technologies Corp",
+    "shortName": "Westinghouse Air Brake",
+    "link": "https://www.investing.com/equities/westinghouse-air-brake-tech",
+    "price": 276.47,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 229.59,
+    "fairValueUpside": -16.96,
+    "peRatio": 34.0,
+    "evEbitda": 20.65,
+    "marketCap": 48490000000,
+    "marketCapFormatted": "48.49B",
+    "epsGrowth5y": 0.27,
+    "changeOneDayPercent": -4.32,
+    "financialHealth": "Good",
+    "financialCashFlowHealth": "Good",
+    "financialGrowthHealth": "Great",
+    "financialProfitabilityHealth": "Great",
+    "analystRatings": "Strong Buy",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-23T08:22:08.460302+07:00"
+  },
+  {
+    "id": "32516",
+    "symbol": "URI",
+    "name": "United Rentals Inc",
+    "shortName": "United Rentals",
+    "link": "https://www.investing.com/equities/united-rentals",
+    "price": 1111.02,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 925.9,
+    "fairValueUpside": -16.66,
+    "peRatio": 26.38,
+    "evEbitda": 16.92,
+    "marketCap": 66540000000,
+    "marketCapFormatted": "66.54B",
+    "epsGrowth5y": 0.27,
+    "changeOneDayPercent": 3.93,
+    "financialHealth": "Good",
+    "financialCashFlowHealth": "Fair",
+    "financialGrowthHealth": "Good",
+    "financialProfitabilityHealth": "Excellent",
+    "analystRatings": "Buy",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-23T08:22:08.460302+07:00"
+  },
+  {
+    "id": "8104",
+    "symbol": "DUK",
+    "name": "Duke Energy Corporation",
+    "shortName": "Duke Energy",
+    "link": "https://www.investing.com/equities/duke-energy",
+    "price": 125.4,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 104.94,
+    "fairValueUpside": -16.32,
+    "peRatio": 18.82,
+    "evEbitda": 11.39,
+    "marketCap": 94090000000,
+    "marketCapFormatted": "94.09B",
+    "epsGrowth5y": 0.29,
+    "changeOneDayPercent": 3.92,
+    "financialHealth": "Good",
+    "financialCashFlowHealth": "Fair",
+    "financialGrowthHealth": "Good",
+    "financialProfitabilityHealth": "Great",
+    "analystRatings": "Buy",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-23T08:22:08.460302+07:00"
   },
   {
     "id": "238",
@@ -809,7 +809,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:10:54.110460+07:00"
+    "lastUpdateTime": "2026-10-23T08:22:08.460302+07:00"
   },
   {
     "id": "8297",
@@ -837,6 +837,6 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-23T08:10:54.110460+07:00"
+    "lastUpdateTime": "2026-10-23T08:22:08.460302+07:00"
   }
 ]
