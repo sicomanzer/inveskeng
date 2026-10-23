@@ -43,68 +43,91 @@ export async function GET(request: Request) {
 
   let items: StockItem[] = [];
   let syncStatus: any = { lastSync: new Date().toISOString(), status: 'idle' };
+  const isVercel = process.env.VERCEL === '1';
 
-  // 1. Try fetching freshest committed data directly from GitHub raw content
-  try {
-    const rawUrl = `https://raw.githubusercontent.com/sicomanzer/inveskeng/main/${fileName}?_t=${Date.now()}`;
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 2500);
-
-    const ghRes = await fetch(rawUrl, {
-      signal: controller.signal,
-      cache: 'no-store',
-      headers: { 'Cache-Control': 'no-cache' }
-    });
-    clearTimeout(timeoutId);
-
-    if (ghRes.ok) {
-      const ghItems = await ghRes.json();
-      if (Array.isArray(ghItems) && ghItems.length > 0) {
-        items = ghItems;
-      }
-    }
-  } catch (ghErr) {
-    // Network timeout or error fetching from GitHub raw, fall back to local file
-  }
-
-  // 2. Fall back to local file system if GitHub raw was empty or unreachable
-  if (!items || items.length === 0) {
+  // 1. If running locally, ALWAYS read the local filesystem first (where Python scrapers save live data)
+  if (!isVercel) {
     try {
       if (fs.existsSync(filePath)) {
         const content = fs.readFileSync(filePath, 'utf-8');
-        items = JSON.parse(content);
+        const parsed = JSON.parse(content);
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          items = parsed;
+        }
       }
     } catch (err: any) {
       console.error('Failed to read local stock file:', err);
     }
   }
 
-  // 3. Fall back to bundled dataset if filesystem read returned empty
+  // 2. On Vercel (or locally if local file not found), fetch freshly committed data from GitHub raw
+  if (!items || items.length === 0) {
+    try {
+      const rawUrl = `https://raw.githubusercontent.com/sicomanzer/inveskeng/main/${fileName}?_t=${Date.now()}`;
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 3000);
+
+      const ghRes = await fetch(rawUrl, {
+        signal: controller.signal,
+        cache: 'no-store',
+        headers: { 'Cache-Control': 'no-cache' }
+      });
+      clearTimeout(timeoutId);
+
+      if (ghRes.ok) {
+        const ghItems = await ghRes.json();
+        if (Array.isArray(ghItems) && ghItems.length > 0) {
+          items = ghItems;
+        }
+      }
+    } catch (ghErr) {
+      // Network timeout or error fetching from GitHub raw
+    }
+  }
+
+  // 3. Fall back to local file system if not yet read
+  if (!items || items.length === 0) {
+    try {
+      if (fs.existsSync(filePath)) {
+        const content = fs.readFileSync(filePath, 'utf-8');
+        items = JSON.parse(content);
+      }
+    } catch (err: any) {}
+  }
+
+  // 4. Fall back to bundled dataset if filesystem read returned empty
   if (!items || items.length === 0) {
     items = fallback;
   }
 
-  // Read sync metadata (try GitHub raw first, then local)
-  try {
-    const statusUrl = `https://raw.githubusercontent.com/sicomanzer/inveskeng/main/sync_status.json?_t=${Date.now()}`;
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 2000);
-    const statusRes = await fetch(statusUrl, {
-      signal: controller.signal,
-      cache: 'no-store',
-      headers: { 'Cache-Control': 'no-cache' }
-    });
-    clearTimeout(timeoutId);
-    if (statusRes.ok) {
-      syncStatus = await statusRes.json();
-    }
-  } catch (e) {
-    // Fall back to local sync_status.json
-    const statusPath = path.join(baseDir, 'sync_status.json');
-    if (fs.existsSync(statusPath)) {
-      try {
-        syncStatus = JSON.parse(fs.readFileSync(statusPath, 'utf-8'));
-      } catch (err) {}
+  // Read sync metadata
+  const statusPath = path.join(baseDir, 'sync_status.json');
+  if (!isVercel && fs.existsSync(statusPath)) {
+    try {
+      syncStatus = JSON.parse(fs.readFileSync(statusPath, 'utf-8'));
+    } catch (err) {}
+  }
+
+  if (!syncStatus || !syncStatus.lastSync || isVercel) {
+    try {
+      const statusUrl = `https://raw.githubusercontent.com/sicomanzer/inveskeng/main/sync_status.json?_t=${Date.now()}`;
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 2000);
+      const statusRes = await fetch(statusUrl, {
+        signal: controller.signal,
+        cache: 'no-store',
+        headers: { 'Cache-Control': 'no-cache' }
+      });
+      clearTimeout(timeoutId);
+      if (statusRes.ok) {
+        syncStatus = await statusRes.json();
+      }
+    } catch (e) {
+      if (fs.existsSync(statusPath)) {
+        try {
+          syncStatus = JSON.parse(fs.readFileSync(statusPath, 'utf-8'));
+        } catch (err) {}
+      }
     }
   }
 

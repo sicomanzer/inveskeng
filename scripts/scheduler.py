@@ -9,13 +9,13 @@ SYNC_SCRIPT = os.path.join(BASE_DIR, "scripts", "sync_data.py")
 INTERVAL_SECONDS = 15 * 60  # Sync every 15 minutes
 
 def run_sync():
-    print(f"\n[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Starting scheduled sync from Investing.com...")
+    print(f"\n[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Starting scheduled sync from Investing.com with auto-push...")
     try:
         proc = subprocess.run(
-            [sys.executable, SYNC_SCRIPT, "--market=ALL"],
+            [sys.executable, SYNC_SCRIPT, "--market=ALL", "--push"],
             capture_output=True,
             text=True,
-            timeout=60
+            timeout=120
         )
         print(proc.stdout)
         if proc.stderr:
@@ -27,6 +27,7 @@ def main():
     print(f"=== REA Investing.com Auto-Sync Scheduler Started ===")
     print(f"Sync Interval: {INTERVAL_SECONDS // 60} minutes")
     print(f"Target: Thailand (SET) & United States (US)")
+    print(f"Auto-push to GitHub: Enabled (keeps inveskeng.vercel.app continuously updated)")
     
     # Run once immediately on startup
     run_sync()

@@ -65,8 +65,8 @@ async function handleSync(request: Request) {
   const scriptPath = path.join(baseDir, 'scripts', 'sync_data.py');
 
   try {
-    const cmd = `python "${scriptPath}" --market=${market}`;
-    const { stdout } = await execAsync(cmd, { timeout: 35000 });
+    const cmd = `python "${scriptPath}" --market=${market} --push`;
+    const { stdout } = await execAsync(cmd, { timeout: 60000 });
 
     const statusPath = path.join(baseDir, 'sync_status.json');
     let syncStatus: any = {};
@@ -80,7 +80,7 @@ async function handleSync(request: Request) {
       market,
       syncStatus,
       stdout: stdout.trim(),
-      message: 'ซิงค์ข้อมูลสดจาก Investing.com สำเร็จ',
+      message: 'ซิงค์ข้อมูลสดจาก Investing.com และอัปเดตขึ้น GitHub สำหรับ Vercel เรียบร้อยแล้ว',
     });
   } catch (error: any) {
     // 3. Vercel serverless without PAT

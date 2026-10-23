@@ -2,28 +2,63 @@ import argparse
 import json
 import sys
 import os
+import subprocess
 from datetime import datetime, timezone, timedelta
 from curl_cffi import requests
 from bs4 import BeautifulSoup
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+BROWSER_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "th-TH,th;q=0.9,en-US;q=0.8,en;q=0.7",
+    "Referer": "https://www.google.com/",
+    "Sec-Ch-Ua": '"Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"',
+    "Sec-Ch-Ua-Mobile": "?0",
+    "Sec-Ch-Ua-Platform": '"Windows"',
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "cross-site",
+    "Sec-Fetch-User": "?1",
+    "Upgrade-Insecure-Requests": "1"
+}
+
 def fetch_market_stocks(country_slug: str, market_code: str, tab_slug: str, currency: str, curr_sym: str, out_filename: str):
-    print(f"[{datetime.now().strftime('%H:%M:%S')}] Fetching {market_code} ({tab_slug}) from Investing.com ({country_slug})...")
-    url = f"https://www.investing.com/equities/{country_slug}/most-{tab_slug}" if country_slug != "us" else f"https://www.investing.com/equities/most-{tab_slug}"
-    
-    try:
-        r = requests.get(url, impersonate="chrome124", timeout=20)
-        if r.status_code != 200:
-            print(f"Error fetching page ({market_code} {tab_slug}): HTTP {r.status_code}")
-            return None
-    except Exception as e:
-        print(f"Exception fetching page ({market_code} {tab_slug}): {e}")
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] Fetching {market_code} ({tab_slug}) from Investing.com...")
+
+    candidate_urls = []
+    if country_slug == "thailand":
+        candidate_urls = [
+            f"https://th.investing.com/equities/thailand/most-{tab_slug}",
+            f"https://www.investing.com/equities/thailand/most-{tab_slug}",
+        ]
+    else:
+        candidate_urls = [
+            f"https://www.investing.com/equities/most-{tab_slug}",
+            f"https://th.investing.com/equities/most-{tab_slug}",
+        ]
+
+    r = None
+    last_err = None
+    for url in candidate_urls:
+        try:
+            res = requests.get(url, impersonate="chrome124", headers=BROWSER_HEADERS, timeout=25)
+            if res.status_code == 200 and len(res.text) > 10000:
+                r = res
+                break
+            else:
+                last_err = f"HTTP {res.status_code} ({url})"
+        except Exception as e:
+            last_err = f"{e} ({url})"
+
+    if not r:
+        print(f"Error fetching page ({market_code} {tab_slug}): {last_err}")
         return None
 
     soup = BeautifulSoup(r.text, 'html.parser')
     script = soup.find('script', id='__NEXT_DATA__')
-    if not script:
+    if not script or not script.string:
         print(f"No __NEXT_DATA__ found for {market_code} {tab_slug}")
         return None
 
@@ -39,12 +74,22 @@ def fetch_market_stocks(country_slug: str, market_code: str, tab_slug: str, curr
     query = "&".join(f"instrument_ids={pid}" for pid in pair_ids)
     pd_url = f"https://endpoints.investing.com/pd-instruments/v1/instruments?{query}&domain_id=1"
     
+    instruments = {}
     try:
-        r2 = requests.get(pd_url, impersonate="chrome124", timeout=15)
-        instruments = {str(item['id']): item for item in r2.json()} if r2.status_code == 200 else {}
+        r2 = requests.get(
+            pd_url,
+            impersonate="chrome124",
+            headers={
+                "User-Agent": BROWSER_HEADERS["User-Agent"],
+                "Accept": "application/json, text/plain, */*",
+                "Referer": "https://www.investing.com/",
+            },
+            timeout=15
+        )
+        if r2.status_code == 200:
+            instruments = {str(item['id']): item for item in r2.json()}
     except Exception as e:
         print(f"Exception resolving pd-instruments for {market_code}: {e}")
-        instruments = {}
 
     table_tbody = soup.find('tbody')
     table_rows = table_tbody.find_all('tr') if table_tbody else []
@@ -141,13 +186,30 @@ def fetch_market_stocks(country_slug: str, market_code: str, tab_slug: str, curr
     with open(out_path, "w", encoding="utf-8") as out_f:
         json.dump(merged_stocks, out_f, indent=2, ensure_ascii=False)
 
-    print(f"[{datetime.now().strftime('%H:%M:%S')}] Saved {len(merged_stocks)} {tab_slug} stocks to {out_filename}")
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] Successfully saved {len(merged_stocks)} {tab_slug} stocks to {out_filename}")
     return len(merged_stocks)
+
+def git_commit_and_push():
+    print("[Git] Staging live stock data and pushing to origin main...")
+    try:
+        subprocess.run(["git", "add", "thailand_stocks_unmasked.json", "thailand_stocks_overvalued.json", "undervalued_stocks_unmasked.json", "us_stocks_overvalued.json", "sync_status.json"], cwd=BASE_DIR, check=True)
+        # Check if there are changes to commit
+        diff = subprocess.run(["git", "diff", "--staged", "--quiet"], cwd=BASE_DIR)
+        if diff.returncode != 0:
+            commit_msg = f"chore(sync): automated live stock data update {datetime.now(timezone(timedelta(hours=7))).strftime('%Y-%m-%d %H:%M')}"
+            subprocess.run(["git", "commit", "-m", commit_msg], cwd=BASE_DIR, check=True)
+            subprocess.run(["git", "push", "origin", "main"], cwd=BASE_DIR, check=True)
+            print("[Git] Successfully pushed updated data to GitHub origin main.")
+        else:
+            print("[Git] No file changes to commit.")
+    except Exception as e:
+        print(f"[Git Error] Failed to push to GitHub: {e}")
 
 def main():
     parser = argparse.ArgumentParser(description="Sync Investing.com Undervalued & Overvalued stocks")
     parser.add_argument("--market", default="ALL", choices=["SET", "US", "ALL"], help="Market to sync")
     parser.add_argument("--type", default="ALL", choices=["undervalued", "overvalued", "ALL"], help="Valuation type")
+    parser.add_argument("--push", action="store_true", help="Auto commit and push updated JSON to GitHub")
     args = parser.parse_args()
 
     results = {}
@@ -172,18 +234,28 @@ def main():
         count_us_ov = fetch_market_stocks("us", "US", "overvalued", "USD", "$", "us_stocks_overvalued.json")
         results["US_overvalued"] = count_us_ov
 
-    # Update metadata
+    valid_counts = [v for v in results.values() if v is not None and v > 0]
     now_iso = datetime.now(timezone(timedelta(hours=7))).isoformat()
+
+    if not valid_counts:
+        print(f"[Sync Failed] No stock data could be scraped from Investing.com at {now_iso}.")
+        # Do not overwrite sync_status.json with success when 0 stocks were scraped
+        sys.exit(1)
+
+    # Update metadata
     status_data = {
         "lastSync": now_iso,
         "results": results,
-        "status": "success"
+        "status": "success" if len(valid_counts) == len(results) else "partial"
     }
     status_path = os.path.join(BASE_DIR, "sync_status.json")
     with open(status_path, "w", encoding="utf-8") as f:
         json.dump(status_data, f, indent=2)
 
     print(f"Sync complete at {now_iso}: {results}")
+
+    if args.push:
+        git_commit_and_push()
 
 if __name__ == "__main__":
     main()
