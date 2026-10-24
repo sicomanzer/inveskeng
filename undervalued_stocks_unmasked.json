@@ -25,7 +25,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T08:37:52.266182+07:00"
+    "lastUpdateTime": "2026-10-24T08:53:00.507099+07:00"
   },
   {
     "id": "32383",
@@ -53,7 +53,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T08:37:52.266182+07:00"
+    "lastUpdateTime": "2026-10-24T08:53:00.507099+07:00"
   },
   {
     "id": "6370",
@@ -81,7 +81,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T08:37:52.266182+07:00"
+    "lastUpdateTime": "2026-10-24T08:53:00.507099+07:00"
   },
   {
     "id": "8042",
@@ -109,7 +109,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T08:37:52.266182+07:00"
+    "lastUpdateTime": "2026-10-24T08:53:00.507099+07:00"
   },
   {
     "id": "8175",
@@ -137,7 +137,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T08:37:52.266182+07:00"
+    "lastUpdateTime": "2026-10-24T08:53:00.507099+07:00"
   },
   {
     "id": "956170",
@@ -165,7 +165,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T08:37:52.266182+07:00"
+    "lastUpdateTime": "2026-10-24T08:53:00.507099+07:00"
   },
   {
     "id": "6373",
@@ -193,7 +193,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T08:37:52.266182+07:00"
+    "lastUpdateTime": "2026-10-24T08:53:00.507099+07:00"
   },
   {
     "id": "39277",
@@ -221,7 +221,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T08:37:52.266182+07:00"
+    "lastUpdateTime": "2026-10-24T08:53:00.507099+07:00"
   },
   {
     "id": "7889",
@@ -249,7 +249,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T08:37:52.266182+07:00"
+    "lastUpdateTime": "2026-10-24T08:53:00.507099+07:00"
   },
   {
     "id": "6448",
@@ -277,7 +277,35 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T08:37:52.266182+07:00"
+    "lastUpdateTime": "2026-10-24T08:53:00.507099+07:00"
+  },
+  {
+    "id": "32331",
+    "symbol": "APTV",
+    "name": "Aptiv PLC",
+    "shortName": "Aptiv",
+    "link": "https://www.investing.com/equities/delphi-automotive",
+    "price": 42.69,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 65.68,
+    "fairValueUpside": 53.84,
+    "peRatio": 19.45,
+    "evEbitda": 3.99,
+    "marketCap": 9100000000,
+    "marketCapFormatted": "9.1 พันล้าน",
+    "epsGrowth5y": 0.88,
+    "changeOneDayPercent": -2.56,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-24T08:53:00.507099+07:00"
   },
   {
     "id": "32341",
@@ -305,7 +333,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T08:37:52.266182+07:00"
+    "lastUpdateTime": "2026-10-24T08:53:00.507099+07:00"
   },
   {
     "id": "1220843",
@@ -333,7 +361,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T08:37:52.266182+07:00"
+    "lastUpdateTime": "2026-10-24T08:53:00.507099+07:00"
   },
   {
     "id": "17195",
@@ -361,7 +389,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T08:37:52.266182+07:00"
+    "lastUpdateTime": "2026-10-24T08:53:00.507099+07:00"
   },
   {
     "id": "32381",
@@ -389,35 +417,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T08:37:52.266182+07:00"
-  },
-  {
-    "id": "6516",
-    "symbol": "CMCSA",
-    "name": "Comcast Corp",
-    "shortName": "Comcast",
-    "link": "https://www.investing.com/equities/comcast-corp-new",
-    "price": 22.7,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 33.91,
-    "fairValueUpside": 49.37,
-    "peRatio": 7.25,
-    "evEbitda": 4.48,
-    "marketCap": 81050000000,
-    "marketCapFormatted": "81.05 พันล้าน",
-    "epsGrowth5y": 0.35,
-    "changeOneDayPercent": -0.63,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ถือหุ้นไว้",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T08:37:52.266182+07:00"
+    "lastUpdateTime": "2026-10-24T08:53:00.507099+07:00"
   },
   {
     "id": "41176",
@@ -445,7 +445,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T08:37:52.266182+07:00"
+    "lastUpdateTime": "2026-10-24T08:53:00.507099+07:00"
   },
   {
     "id": "32391",
@@ -473,7 +473,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T08:37:52.266182+07:00"
+    "lastUpdateTime": "2026-10-24T08:53:00.507099+07:00"
   },
   {
     "id": "1089236",
@@ -501,7 +501,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T08:37:52.266182+07:00"
+    "lastUpdateTime": "2026-10-24T08:53:00.507099+07:00"
   },
   {
     "id": "19694",
@@ -529,7 +529,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T08:37:52.266182+07:00"
+    "lastUpdateTime": "2026-10-24T08:53:00.507099+07:00"
   },
   {
     "id": "6497",
@@ -557,7 +557,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T08:37:52.266182+07:00"
+    "lastUpdateTime": "2026-10-24T08:53:00.507099+07:00"
   },
   {
     "id": "39147",
@@ -585,7 +585,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T08:37:52.266182+07:00"
+    "lastUpdateTime": "2026-10-24T08:53:00.507099+07:00"
   },
   {
     "id": "13969",
@@ -613,7 +613,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T08:37:52.266182+07:00"
+    "lastUpdateTime": "2026-10-24T08:53:00.507099+07:00"
   },
   {
     "id": "15722",
@@ -641,7 +641,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T08:37:52.266182+07:00"
+    "lastUpdateTime": "2026-10-24T08:53:00.507099+07:00"
   },
   {
     "id": "31028",
@@ -669,7 +669,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T08:37:52.266182+07:00"
+    "lastUpdateTime": "2026-10-24T08:53:00.507099+07:00"
   },
   {
     "id": "8201",
@@ -697,7 +697,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T08:37:52.266182+07:00"
+    "lastUpdateTime": "2026-10-24T08:53:00.507099+07:00"
   },
   {
     "id": "948325",
@@ -725,7 +725,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T08:37:52.266182+07:00"
+    "lastUpdateTime": "2026-10-24T08:53:00.507099+07:00"
   },
   {
     "id": "13072",
@@ -753,7 +753,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T08:37:52.266182+07:00"
+    "lastUpdateTime": "2026-10-24T08:53:00.507099+07:00"
   },
   {
     "id": "8294",
@@ -781,7 +781,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T08:37:52.266182+07:00"
+    "lastUpdateTime": "2026-10-24T08:53:00.507099+07:00"
   },
   {
     "id": "6392",
@@ -809,7 +809,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T08:37:52.266182+07:00"
+    "lastUpdateTime": "2026-10-24T08:53:00.507099+07:00"
   },
   {
     "id": "13850",
@@ -837,6 +837,6 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T08:37:52.266182+07:00"
+    "lastUpdateTime": "2026-10-24T08:53:00.507099+07:00"
   }
 ]
