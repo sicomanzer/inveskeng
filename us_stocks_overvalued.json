@@ -25,7 +25,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T07:52:33.200082+07:00"
+    "lastUpdateTime": "2026-10-24T08:07:39.596185+07:00"
   },
   {
     "id": "1169889",
@@ -53,7 +53,35 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T07:52:33.200082+07:00"
+    "lastUpdateTime": "2026-10-24T08:07:39.596185+07:00"
+  },
+  {
+    "id": "1114321",
+    "symbol": "MRNA",
+    "name": "Moderna Inc",
+    "shortName": "Moderna",
+    "link": "https://www.investing.com/equities/moderna",
+    "price": 200.1,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 118.11,
+    "fairValueUpside": -40.97,
+    "peRatio": -24.92,
+    "evEbitda": -37.09,
+    "marketCap": 80900000000,
+    "marketCapFormatted": "80.9 พันล้าน",
+    "epsGrowth5y": 2.01,
+    "changeOneDayPercent": -1.25,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "แย่",
+    "financialProfitabilityHealth": "มูลค่าตามจริง",
+    "analystRatings": "ถือหุ้นไว้",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-24T08:07:39.596185+07:00"
   },
   {
     "id": "41268",
@@ -81,7 +109,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T07:52:33.200082+07:00"
+    "lastUpdateTime": "2026-10-24T08:07:39.596185+07:00"
   },
   {
     "id": "261",
@@ -109,7 +137,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T07:52:33.200082+07:00"
+    "lastUpdateTime": "2026-10-24T08:07:39.596185+07:00"
   },
   {
     "id": "13852",
@@ -137,7 +165,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T07:52:33.200082+07:00"
+    "lastUpdateTime": "2026-10-24T08:07:39.596185+07:00"
   },
   {
     "id": "13848",
@@ -165,7 +193,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T07:52:33.200082+07:00"
+    "lastUpdateTime": "2026-10-24T08:07:39.596185+07:00"
   },
   {
     "id": "251",
@@ -193,7 +221,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T07:52:33.200082+07:00"
+    "lastUpdateTime": "2026-10-24T08:07:39.596185+07:00"
   },
   {
     "id": "13994",
@@ -221,7 +249,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T07:52:33.200082+07:00"
+    "lastUpdateTime": "2026-10-24T08:07:39.596185+07:00"
   },
   {
     "id": "1152784",
@@ -249,7 +277,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T07:52:33.200082+07:00"
+    "lastUpdateTime": "2026-10-24T08:07:39.596185+07:00"
   },
   {
     "id": "8260",
@@ -277,7 +305,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T07:52:33.200082+07:00"
+    "lastUpdateTime": "2026-10-24T08:07:39.596185+07:00"
   },
   {
     "id": "20164",
@@ -305,7 +333,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T07:52:33.200082+07:00"
+    "lastUpdateTime": "2026-10-24T08:07:39.596185+07:00"
   },
   {
     "id": "7997",
@@ -333,35 +361,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T07:52:33.200082+07:00"
-  },
-  {
-    "id": "13067",
-    "symbol": "EQIX",
-    "name": "Equinix Inc",
-    "shortName": "Equinix",
-    "link": "https://www.investing.com/equities/equinix,-inc.",
-    "price": 955.03,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 734.83,
-    "fairValueUpside": -23.06,
-    "peRatio": 60.96,
-    "evEbitda": 26.36,
-    "marketCap": 94000000000,
-    "marketCapFormatted": "94 พันล้าน",
-    "epsGrowth5y": 0.28,
-    "changeOneDayPercent": 0.25,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T07:52:33.200082+07:00"
+    "lastUpdateTime": "2026-10-24T08:07:39.596185+07:00"
   },
   {
     "id": "7881",
@@ -389,7 +389,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T07:52:33.200082+07:00"
+    "lastUpdateTime": "2026-10-24T08:07:39.596185+07:00"
   },
   {
     "id": "6440",
@@ -417,7 +417,35 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T07:52:33.200082+07:00"
+    "lastUpdateTime": "2026-10-24T08:07:39.596185+07:00"
+  },
+  {
+    "id": "20486",
+    "symbol": "DLR",
+    "name": "Digital Realty Trust Inc",
+    "shortName": "Digital Realty",
+    "link": "https://www.investing.com/equities/digital-realty-trust-inc",
+    "price": 172.37,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 134.77,
+    "fairValueUpside": -21.81,
+    "peRatio": 82.56,
+    "evEbitda": 25.78,
+    "marketCap": 64560000000,
+    "marketCapFormatted": "64.56 พันล้าน",
+    "epsGrowth5y": 0.83,
+    "changeOneDayPercent": 0.84,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "มูลค่าตามจริง",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-24T08:07:39.596185+07:00"
   },
   {
     "id": "1206256",
@@ -445,7 +473,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T07:52:33.200082+07:00"
+    "lastUpdateTime": "2026-10-24T08:07:39.596185+07:00"
   },
   {
     "id": "13866",
@@ -473,7 +501,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T07:52:33.200082+07:00"
+    "lastUpdateTime": "2026-10-24T08:07:39.596185+07:00"
   },
   {
     "id": "8279",
@@ -501,7 +529,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T07:52:33.200082+07:00"
+    "lastUpdateTime": "2026-10-24T08:07:39.596185+07:00"
   },
   {
     "id": "24321",
@@ -529,7 +557,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T07:52:33.200082+07:00"
+    "lastUpdateTime": "2026-10-24T08:07:39.596185+07:00"
   },
   {
     "id": "13867",
@@ -557,7 +585,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T07:52:33.200082+07:00"
+    "lastUpdateTime": "2026-10-24T08:07:39.596185+07:00"
   },
   {
     "id": "7943",
@@ -585,7 +613,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T07:52:33.200082+07:00"
+    "lastUpdateTime": "2026-10-24T08:07:39.596185+07:00"
   },
   {
     "id": "7956",
@@ -613,7 +641,35 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T07:52:33.200082+07:00"
+    "lastUpdateTime": "2026-10-24T08:07:39.596185+07:00"
+  },
+  {
+    "id": "247",
+    "symbol": "CAT",
+    "name": "Caterpillar Inc",
+    "shortName": "Caterpillar",
+    "link": "https://www.investing.com/equities/caterpillar",
+    "price": 687.0,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 569.02,
+    "fairValueUpside": -17.17,
+    "peRatio": 29.69,
+    "evEbitda": 23.08,
+    "marketCap": 323630000000,
+    "marketCapFormatted": "323.63 พันล้าน",
+    "epsGrowth5y": 0.3,
+    "changeOneDayPercent": -2.42,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-24T08:07:39.596185+07:00"
   },
   {
     "id": "8136",
@@ -641,7 +697,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T07:52:33.200082+07:00"
+    "lastUpdateTime": "2026-10-24T08:07:39.596185+07:00"
   },
   {
     "id": "8016",
@@ -669,7 +725,35 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T07:52:33.200082+07:00"
+    "lastUpdateTime": "2026-10-24T08:07:39.596185+07:00"
+  },
+  {
+    "id": "255",
+    "symbol": "F",
+    "name": "Ford Motor Company",
+    "shortName": "Ford Motor",
+    "link": "https://www.investing.com/equities/ford-motor-co",
+    "price": 11.59,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 9.66,
+    "fairValueUpside": -16.62,
+    "peRatio": -6.21,
+    "evEbitda": 24.62,
+    "marketCap": 47610000000,
+    "marketCapFormatted": "47.61 พันล้าน",
+    "epsGrowth5y": 1.62,
+    "changeOneDayPercent": -2.97,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "แย่",
+    "financialProfitabilityHealth": "แย่",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-24T08:07:39.596185+07:00"
   },
   {
     "id": "238",
@@ -697,7 +781,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T07:52:33.200082+07:00"
+    "lastUpdateTime": "2026-10-24T08:07:39.596185+07:00"
   },
   {
     "id": "13862",
@@ -725,7 +809,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T07:52:33.200082+07:00"
+    "lastUpdateTime": "2026-10-24T08:07:39.596185+07:00"
   },
   {
     "id": "8252",
@@ -753,90 +837,6 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T07:52:33.200082+07:00"
-  },
-  {
-    "id": "8104",
-    "symbol": "DUK",
-    "name": "Duke Energy Corporation",
-    "shortName": "Duke Energy",
-    "link": "https://www.investing.com/equities/duke-energy",
-    "price": 93.53,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 78.55,
-    "fairValueUpside": -16.02,
-    "peRatio": 33.87,
-    "evEbitda": 16.06,
-    "marketCap": 97770000000,
-    "marketCapFormatted": "13.1 พันล้าน",
-    "epsGrowth5y": -0.01,
-    "changeOneDayPercent": -0.33,
-    "financialHealth": "มูลค่าตามจริง",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดี",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T07:52:33.200082+07:00"
-  },
-  {
-    "id": "6460",
-    "symbol": "AKAM",
-    "name": "Akamai Technologies Inc",
-    "shortName": "Akamai",
-    "link": "https://www.investing.com/equities/akamai-technologies-inc",
-    "price": 124.98,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 104.96,
-    "fairValueUpside": -16.02,
-    "peRatio": 18.8,
-    "evEbitda": 11.39,
-    "marketCap": 13100000000,
-    "marketCapFormatted": "97.77 พันล้าน",
-    "epsGrowth5y": 0.29,
-    "changeOneDayPercent": 2.63,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "ดี",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T07:52:33.200082+07:00"
-  },
-  {
-    "id": "8297",
-    "symbol": "ED",
-    "name": "Consolidated Edison Inc",
-    "shortName": "Consolidated Edison",
-    "link": "https://www.investing.com/equities/cocnsol-edison",
-    "price": 115.74,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 97.61,
-    "fairValueUpside": -15.67,
-    "peRatio": 18.97,
-    "evEbitda": 10.92,
-    "marketCap": 43000000000,
-    "marketCapFormatted": "43 พันล้าน",
-    "epsGrowth5y": 0.14,
-    "changeOneDayPercent": -0.45,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "ดี",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ถือหุ้นไว้",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T07:52:33.200082+07:00"
+    "lastUpdateTime": "2026-10-24T08:07:39.596185+07:00"
   }
 ]
