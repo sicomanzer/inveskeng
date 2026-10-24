@@ -25,7 +25,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T11:39:20.043380+07:00"
+    "lastUpdateTime": "2026-10-24T11:54:26.203176+07:00"
   },
   {
     "id": "1169889",
@@ -53,7 +53,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T11:39:20.043380+07:00"
+    "lastUpdateTime": "2026-10-24T11:54:26.203176+07:00"
   },
   {
     "id": "1114321",
@@ -81,7 +81,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T11:39:20.043380+07:00"
+    "lastUpdateTime": "2026-10-24T11:54:26.203176+07:00"
   },
   {
     "id": "41268",
@@ -109,7 +109,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T11:39:20.043380+07:00"
+    "lastUpdateTime": "2026-10-24T11:54:26.203176+07:00"
   },
   {
     "id": "261",
@@ -137,7 +137,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T11:39:20.043380+07:00"
+    "lastUpdateTime": "2026-10-24T11:54:26.203176+07:00"
   },
   {
     "id": "13852",
@@ -165,7 +165,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T11:39:20.043380+07:00"
+    "lastUpdateTime": "2026-10-24T11:54:26.203176+07:00"
   },
   {
     "id": "13848",
@@ -193,7 +193,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T11:39:20.043380+07:00"
+    "lastUpdateTime": "2026-10-24T11:54:26.203176+07:00"
   },
   {
     "id": "251",
@@ -221,7 +221,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T11:39:20.043380+07:00"
+    "lastUpdateTime": "2026-10-24T11:54:26.203176+07:00"
   },
   {
     "id": "13994",
@@ -249,7 +249,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T11:39:20.043380+07:00"
+    "lastUpdateTime": "2026-10-24T11:54:26.203176+07:00"
   },
   {
     "id": "1152784",
@@ -277,7 +277,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T11:39:20.043380+07:00"
+    "lastUpdateTime": "2026-10-24T11:54:26.203176+07:00"
   },
   {
     "id": "8260",
@@ -305,7 +305,35 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T11:39:20.043380+07:00"
+    "lastUpdateTime": "2026-10-24T11:54:26.203176+07:00"
+  },
+  {
+    "id": "20164",
+    "symbol": "CRL",
+    "name": "Charles River Laboratories International, Inc",
+    "shortName": "Charles River Laboratories",
+    "link": "https://www.investing.com/equities/charles-river-laboratories-intl",
+    "price": 345.37,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 259.05,
+    "fairValueUpside": -24.99,
+    "peRatio": -70.99,
+    "evEbitda": 20.04,
+    "marketCap": 16210000000,
+    "marketCapFormatted": "16.21 พันล้าน",
+    "epsGrowth5y": -1.34,
+    "changeOneDayPercent": 1.68,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "แย่",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-24T11:54:26.203176+07:00"
   },
   {
     "id": "7881",
@@ -333,7 +361,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T11:39:20.043380+07:00"
+    "lastUpdateTime": "2026-10-24T11:54:26.203176+07:00"
   },
   {
     "id": "13067",
@@ -361,7 +389,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T11:39:20.043380+07:00"
+    "lastUpdateTime": "2026-10-24T11:54:26.203176+07:00"
   },
   {
     "id": "7997",
@@ -389,7 +417,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T11:39:20.043380+07:00"
+    "lastUpdateTime": "2026-10-24T11:54:26.203176+07:00"
   },
   {
     "id": "6440",
@@ -417,7 +445,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T11:39:20.043380+07:00"
+    "lastUpdateTime": "2026-10-24T11:54:26.203176+07:00"
   },
   {
     "id": "8279",
@@ -445,7 +473,35 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T11:39:20.043380+07:00"
+    "lastUpdateTime": "2026-10-24T11:54:26.203176+07:00"
+  },
+  {
+    "id": "20486",
+    "symbol": "DLR",
+    "name": "Digital Realty Trust Inc",
+    "shortName": "Digital Realty",
+    "link": "https://www.investing.com/equities/digital-realty-trust-inc",
+    "price": 172.37,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 134.77,
+    "fairValueUpside": -21.81,
+    "peRatio": 82.56,
+    "evEbitda": 25.78,
+    "marketCap": 64560000000,
+    "marketCapFormatted": "64.56 พันล้าน",
+    "epsGrowth5y": 0.83,
+    "changeOneDayPercent": 0.84,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "มูลค่าตามจริง",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-24T11:54:26.203176+07:00"
   },
   {
     "id": "1206256",
@@ -473,63 +529,35 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T11:39:20.043380+07:00"
+    "lastUpdateTime": "2026-10-24T11:54:26.203176+07:00"
   },
   {
-    "id": "13866",
-    "symbol": "VTR",
-    "name": "Ventas Inc",
-    "shortName": "Ventas",
-    "link": "https://www.investing.com/equities/ventas-inc",
-    "price": 86.8,
+    "id": "24321",
+    "symbol": "TRGP",
+    "name": "Targa Resources Inc",
+    "shortName": "Targa Resources",
+    "link": "https://www.investing.com/equities/targa-resources-inc",
+    "price": 302.37,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 69.31,
-    "fairValueUpside": -20.14,
-    "peRatio": 157.78,
-    "evEbitda": 23.76,
-    "marketCap": 44920000000,
-    "marketCapFormatted": "44.92 พันล้าน",
-    "epsGrowth5y": -0.21,
-    "changeOneDayPercent": -0.22,
+    "fairValue": 247.31,
+    "fairValueUpside": -18.21,
+    "peRatio": 28.92,
+    "evEbitda": 15.06,
+    "marketCap": 62090000000,
+    "marketCapFormatted": "62.09 พันล้าน",
+    "epsGrowth5y": 3.66,
+    "changeOneDayPercent": 4.43,
     "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดี",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T11:39:20.043380+07:00"
-  },
-  {
-    "id": "247",
-    "symbol": "CAT",
-    "name": "Caterpillar Inc",
-    "shortName": "Caterpillar",
-    "link": "https://www.investing.com/equities/caterpillar",
-    "price": 687.0,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 555.78,
-    "fairValueUpside": -19.1,
-    "peRatio": 29.69,
-    "evEbitda": 23.08,
-    "marketCap": 323630000000,
-    "marketCapFormatted": "323.63 พันล้าน",
-    "epsGrowth5y": 0.3,
-    "changeOneDayPercent": -2.42,
-    "financialHealth": "มูลค่าตามจริง",
     "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดีมาก",
     "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อ",
+    "analystRatings": "ซื้อทันที",
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T11:39:20.043380+07:00"
+    "lastUpdateTime": "2026-10-24T11:54:26.203176+07:00"
   },
   {
     "id": "8281",
@@ -557,7 +585,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T11:39:20.043380+07:00"
+    "lastUpdateTime": "2026-10-24T11:54:26.203176+07:00"
   },
   {
     "id": "8144",
@@ -585,7 +613,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T11:39:20.043380+07:00"
+    "lastUpdateTime": "2026-10-24T11:54:26.203176+07:00"
   },
   {
     "id": "7943",
@@ -613,7 +641,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T11:39:20.043380+07:00"
+    "lastUpdateTime": "2026-10-24T11:54:26.203176+07:00"
   },
   {
     "id": "7956",
@@ -641,7 +669,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T11:39:20.043380+07:00"
+    "lastUpdateTime": "2026-10-24T11:54:26.203176+07:00"
   },
   {
     "id": "8136",
@@ -669,7 +697,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T11:39:20.043380+07:00"
+    "lastUpdateTime": "2026-10-24T11:54:26.203176+07:00"
   },
   {
     "id": "255",
@@ -697,7 +725,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T11:39:20.043380+07:00"
+    "lastUpdateTime": "2026-10-24T11:54:26.203176+07:00"
   },
   {
     "id": "8016",
@@ -725,7 +753,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T11:39:20.043380+07:00"
+    "lastUpdateTime": "2026-10-24T11:54:26.203176+07:00"
   },
   {
     "id": "238",
@@ -753,7 +781,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T11:39:20.043380+07:00"
+    "lastUpdateTime": "2026-10-24T11:54:26.203176+07:00"
   },
   {
     "id": "13862",
@@ -781,7 +809,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T11:39:20.043380+07:00"
+    "lastUpdateTime": "2026-10-24T11:54:26.203176+07:00"
   },
   {
     "id": "8252",
@@ -809,34 +837,6 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T11:39:20.043380+07:00"
-  },
-  {
-    "id": "6460",
-    "symbol": "AKAM",
-    "name": "Akamai Technologies Inc",
-    "shortName": "Akamai",
-    "link": "https://www.investing.com/equities/akamai-technologies-inc",
-    "price": 93.53,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 78.57,
-    "fairValueUpside": -16.0,
-    "peRatio": 33.87,
-    "evEbitda": 16.06,
-    "marketCap": 13100000000,
-    "marketCapFormatted": "13.1 พันล้าน",
-    "epsGrowth5y": -0.01,
-    "changeOneDayPercent": 2.63,
-    "financialHealth": "มูลค่าตามจริง",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดี",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T11:39:20.043380+07:00"
+    "lastUpdateTime": "2026-10-24T11:54:26.203176+07:00"
   }
 ]
