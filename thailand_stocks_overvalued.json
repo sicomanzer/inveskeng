@@ -25,7 +25,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T10:23:41.616238+07:00"
+    "lastUpdateTime": "2026-10-24T10:38:47.791034+07:00"
   },
   {
     "id": "102567",
@@ -53,7 +53,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T10:23:41.616238+07:00"
+    "lastUpdateTime": "2026-10-24T10:38:47.791034+07:00"
   },
   {
     "id": "989494",
@@ -81,7 +81,35 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T10:23:41.616238+07:00"
+    "lastUpdateTime": "2026-10-24T10:38:47.791034+07:00"
+  },
+  {
+    "id": "1130942",
+    "symbol": "CPNREITu",
+    "name": "Cpn Retail Growth Leasehold REIT Unit",
+    "shortName": "Cpn Retail Growth Leasehold REIT Unt",
+    "link": "https://www.investing.com/equities/cpn-retail-growth-leasehold-reit",
+    "price": 12.9,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 10.32,
+    "fairValueUpside": -20.03,
+    "peRatio": 14.22,
+    "evEbitda": 0.0,
+    "marketCap": 46710000000,
+    "marketCapFormatted": "46.71 พันล้าน",
+    "epsGrowth5y": 5.59,
+    "changeOneDayPercent": 0.78,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดี",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-24T10:38:47.791034+07:00"
   },
   {
     "id": "1242508",
@@ -109,7 +137,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T10:23:41.616238+07:00"
+    "lastUpdateTime": "2026-10-24T10:38:47.791034+07:00"
   },
   {
     "id": "102569",
@@ -137,7 +165,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T10:23:41.616238+07:00"
+    "lastUpdateTime": "2026-10-24T10:38:47.791034+07:00"
   },
   {
     "id": "102497",
@@ -165,7 +193,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T10:23:41.616238+07:00"
+    "lastUpdateTime": "2026-10-24T10:38:47.791034+07:00"
   },
   {
     "id": "986137",
@@ -193,7 +221,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T10:23:41.616238+07:00"
+    "lastUpdateTime": "2026-10-24T10:38:47.791034+07:00"
   },
   {
     "id": "102869",
@@ -221,7 +249,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T10:23:41.616238+07:00"
+    "lastUpdateTime": "2026-10-24T10:38:47.791034+07:00"
   },
   {
     "id": "986147",
@@ -249,35 +277,35 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T10:23:41.616238+07:00"
+    "lastUpdateTime": "2026-10-24T10:38:47.791034+07:00"
   },
   {
-    "id": "102757",
-    "symbol": "STPI",
-    "name": "STP&I PCL",
-    "shortName": "STP&I",
-    "link": "https://www.investing.com/equities/stp---i",
-    "price": 5.7,
+    "id": "102751",
+    "symbol": "STA",
+    "name": "Sri Trang Agro Industry PCL",
+    "shortName": "Sri Trang Agro",
+    "link": "https://www.investing.com/equities/sri-trang-agro",
+    "price": 23.5,
     "currency": "THB",
     "currencySymbol": "฿",
-    "fairValue": 4.74,
-    "fairValueUpside": -16.92,
-    "peRatio": -982.76,
-    "evEbitda": 31.15,
-    "marketCap": 10330000000,
-    "marketCapFormatted": "10.33 พันล้าน",
-    "epsGrowth5y": 2.99,
-    "changeOneDayPercent": -2.56,
+    "fairValue": 19.31,
+    "fairValueUpside": -17.85,
+    "peRatio": 89.15,
+    "evEbitda": 11.65,
+    "marketCap": 36100000000,
+    "marketCapFormatted": "36.1 พันล้าน",
+    "epsGrowth5y": 0.13,
+    "changeOneDayPercent": -0.42,
     "financialHealth": "มูลค่าตามจริง",
     "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "ดี",
-    "financialProfitabilityHealth": "แย่",
-    "analystRatings": "-",
+    "financialGrowthHealth": "แย่",
+    "financialProfitabilityHealth": "มูลค่าตามจริง",
+    "analystRatings": "ซื้อทันที",
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T10:23:41.616238+07:00"
+    "lastUpdateTime": "2026-10-24T10:38:47.791034+07:00"
   },
   {
     "id": "102714",
@@ -305,7 +333,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T10:23:41.616238+07:00"
+    "lastUpdateTime": "2026-10-24T10:38:47.791034+07:00"
   },
   {
     "id": "102683",
@@ -333,7 +361,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T10:23:41.616238+07:00"
+    "lastUpdateTime": "2026-10-24T10:38:47.791034+07:00"
   },
   {
     "id": "102561",
@@ -361,7 +389,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T10:23:41.616238+07:00"
+    "lastUpdateTime": "2026-10-24T10:38:47.791034+07:00"
   },
   {
     "id": "102540",
@@ -389,7 +417,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T10:23:41.616238+07:00"
+    "lastUpdateTime": "2026-10-24T10:38:47.791034+07:00"
   },
   {
     "id": "102672",
@@ -417,7 +445,35 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T10:23:41.616238+07:00"
+    "lastUpdateTime": "2026-10-24T10:38:47.791034+07:00"
+  },
+  {
+    "id": "102756",
+    "symbol": "SMT",
+    "name": "Stars Microelectronics Thailand PCL",
+    "shortName": "Stars Microelectronics",
+    "link": "https://www.investing.com/equities/stars-microele",
+    "price": 7.2,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 6.23,
+    "fairValueUpside": -13.47,
+    "peRatio": -986.3,
+    "evEbitda": 38.33,
+    "marketCap": 5860000000,
+    "marketCapFormatted": "5.86 พันล้าน",
+    "epsGrowth5y": 0.01,
+    "changeOneDayPercent": -0.69,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "แย่",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-24T10:38:47.791034+07:00"
   },
   {
     "id": "102442",
@@ -445,35 +501,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T10:23:41.616238+07:00"
-  },
-  {
-    "id": "1162301",
-    "symbol": "INSET",
-    "name": "Infraset PCL",
-    "shortName": "Infraset PCL",
-    "link": "https://www.investing.com/equities/infraset-pcl",
-    "price": 4.14,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 3.62,
-    "fairValueUpside": -12.47,
-    "peRatio": 33.91,
-    "evEbitda": 22.18,
-    "marketCap": 3320000000,
-    "marketCapFormatted": "3.32 พันล้าน",
-    "epsGrowth5y": -0.14,
-    "changeOneDayPercent": -1.9,
-    "financialHealth": "มูลค่าตามจริง",
-    "financialCashFlowHealth": "แย่",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดี",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T10:23:41.616238+07:00"
+    "lastUpdateTime": "2026-10-24T10:38:47.791034+07:00"
   },
   {
     "id": "1008691",
@@ -501,7 +529,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T10:23:41.616238+07:00"
+    "lastUpdateTime": "2026-10-24T10:38:47.791034+07:00"
   },
   {
     "id": "102532",
@@ -529,7 +557,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T10:23:41.616238+07:00"
+    "lastUpdateTime": "2026-10-24T10:38:47.791034+07:00"
   },
   {
     "id": "102560",
@@ -557,35 +585,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T10:23:41.616238+07:00"
-  },
-  {
-    "id": "102817",
-    "symbol": "GST",
-    "name": "Gulf Space Technology Public Company limited",
-    "shortName": "Gulf Space Tech Public",
-    "link": "https://www.investing.com/equities/thaicom",
-    "price": 9.65,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 8.59,
-    "fairValueUpside": -10.98,
-    "peRatio": 16.84,
-    "evEbitda": 12.33,
-    "marketCap": 10580000000,
-    "marketCapFormatted": "10.58 พันล้าน",
-    "epsGrowth5y": 1.31,
-    "changeOneDayPercent": 0.0,
-    "financialHealth": "มูลค่าตามจริง",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดี",
-    "analystRatings": "ซื้อ",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T10:23:41.616238+07:00"
+    "lastUpdateTime": "2026-10-24T10:38:47.791034+07:00"
   },
   {
     "id": "102748",
@@ -613,6 +613,6 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T10:23:41.616238+07:00"
+    "lastUpdateTime": "2026-10-24T10:38:47.791034+07:00"
   }
 ]
