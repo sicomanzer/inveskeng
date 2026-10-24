@@ -25,7 +25,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:37:24.184727+07:00"
+    "lastUpdateTime": "2026-10-24T07:52:32.536106+07:00"
   },
   {
     "id": "32383",
@@ -53,7 +53,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:37:24.184727+07:00"
+    "lastUpdateTime": "2026-10-24T07:52:32.536106+07:00"
   },
   {
     "id": "6370",
@@ -81,7 +81,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:37:24.184727+07:00"
+    "lastUpdateTime": "2026-10-24T07:52:32.536106+07:00"
   },
   {
     "id": "8042",
@@ -109,35 +109,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:37:24.184727+07:00"
-  },
-  {
-    "id": "8175",
-    "symbol": "CB",
-    "name": "Chubb Ltd",
-    "shortName": "Chubb",
-    "link": "https://www.investing.com/equities/chubb-corp",
-    "price": 355.11,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 583.26,
-    "fairValueUpside": 64.25,
-    "peRatio": 12.45,
-    "evEbitda": 11.21,
-    "marketCap": 139220000000,
-    "marketCapFormatted": "139.22 พันล้าน",
-    "epsGrowth5y": 0.23,
-    "changeOneDayPercent": -2.43,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:37:24.184727+07:00"
+    "lastUpdateTime": "2026-10-24T07:52:32.536106+07:00"
   },
   {
     "id": "956170",
@@ -165,7 +137,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:37:24.184727+07:00"
+    "lastUpdateTime": "2026-10-24T07:52:32.536106+07:00"
   },
   {
     "id": "6373",
@@ -193,7 +165,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:37:24.184727+07:00"
+    "lastUpdateTime": "2026-10-24T07:52:32.536106+07:00"
   },
   {
     "id": "39277",
@@ -221,7 +193,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:37:24.184727+07:00"
+    "lastUpdateTime": "2026-10-24T07:52:32.536106+07:00"
   },
   {
     "id": "7889",
@@ -249,7 +221,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:37:24.184727+07:00"
+    "lastUpdateTime": "2026-10-24T07:52:32.536106+07:00"
   },
   {
     "id": "6448",
@@ -277,7 +249,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:37:24.184727+07:00"
+    "lastUpdateTime": "2026-10-24T07:52:32.536106+07:00"
   },
   {
     "id": "32331",
@@ -305,7 +277,35 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:37:24.184727+07:00"
+    "lastUpdateTime": "2026-10-24T07:52:32.536106+07:00"
+  },
+  {
+    "id": "8175",
+    "symbol": "CB",
+    "name": "Chubb Ltd",
+    "shortName": "Chubb",
+    "link": "https://www.investing.com/equities/chubb-corp",
+    "price": 355.11,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 539.87,
+    "fairValueUpside": 52.03,
+    "peRatio": 12.45,
+    "evEbitda": 11.21,
+    "marketCap": 139220000000,
+    "marketCapFormatted": "139.22 พันล้าน",
+    "epsGrowth5y": 0.23,
+    "changeOneDayPercent": -2.43,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-24T07:52:32.536106+07:00"
   },
   {
     "id": "32341",
@@ -333,7 +333,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:37:24.184727+07:00"
+    "lastUpdateTime": "2026-10-24T07:52:32.536106+07:00"
   },
   {
     "id": "1220843",
@@ -361,7 +361,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:37:24.184727+07:00"
+    "lastUpdateTime": "2026-10-24T07:52:32.536106+07:00"
   },
   {
     "id": "17195",
@@ -389,7 +389,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:37:24.184727+07:00"
+    "lastUpdateTime": "2026-10-24T07:52:32.536106+07:00"
   },
   {
     "id": "32381",
@@ -417,7 +417,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:37:24.184727+07:00"
+    "lastUpdateTime": "2026-10-24T07:52:32.536106+07:00"
   },
   {
     "id": "41176",
@@ -445,7 +445,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:37:24.184727+07:00"
+    "lastUpdateTime": "2026-10-24T07:52:32.536106+07:00"
   },
   {
     "id": "32391",
@@ -473,35 +473,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:37:24.184727+07:00"
-  },
-  {
-    "id": "1089236",
-    "symbol": "PDD",
-    "name": "PDD Holdings Inc DRC",
-    "shortName": "PDD Holdings DRC",
-    "link": "https://www.investing.com/equities/pinduoduo",
-    "price": 79.04,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 115.97,
-    "fairValueUpside": 46.73,
-    "peRatio": 9.4,
-    "evEbitda": 3.29,
-    "marketCap": 112690000000,
-    "marketCapFormatted": "112.69 พันล้าน",
-    "epsGrowth5y": 5.82,
-    "changeOneDayPercent": -0.16,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดีเยี่ยม",
-    "financialGrowthHealth": "ดีเยี่ยม",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:37:24.184727+07:00"
+    "lastUpdateTime": "2026-10-24T07:52:32.536106+07:00"
   },
   {
     "id": "19694",
@@ -529,7 +501,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:37:24.184727+07:00"
+    "lastUpdateTime": "2026-10-24T07:52:32.536106+07:00"
   },
   {
     "id": "6497",
@@ -557,7 +529,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:37:24.184727+07:00"
+    "lastUpdateTime": "2026-10-24T07:52:32.536106+07:00"
   },
   {
     "id": "39147",
@@ -585,7 +557,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:37:24.184727+07:00"
+    "lastUpdateTime": "2026-10-24T07:52:32.536106+07:00"
   },
   {
     "id": "13969",
@@ -613,7 +585,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:37:24.184727+07:00"
+    "lastUpdateTime": "2026-10-24T07:52:32.536106+07:00"
   },
   {
     "id": "15722",
@@ -641,7 +613,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:37:24.184727+07:00"
+    "lastUpdateTime": "2026-10-24T07:52:32.536106+07:00"
   },
   {
     "id": "31028",
@@ -653,7 +625,7 @@
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 43.67,
-    "fairValueUpside": 38.16,
+    "fairValueUpside": 38.14,
     "peRatio": 31.38,
     "evEbitda": 18.95,
     "marketCap": 4140000000,
@@ -669,7 +641,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:37:24.184727+07:00"
+    "lastUpdateTime": "2026-10-24T07:52:32.536106+07:00"
   },
   {
     "id": "8201",
@@ -697,7 +669,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:37:24.184727+07:00"
+    "lastUpdateTime": "2026-10-24T07:52:32.536106+07:00"
   },
   {
     "id": "948325",
@@ -725,7 +697,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:37:24.184727+07:00"
+    "lastUpdateTime": "2026-10-24T07:52:32.536106+07:00"
   },
   {
     "id": "13072",
@@ -753,35 +725,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:37:24.184727+07:00"
-  },
-  {
-    "id": "8294",
-    "symbol": "CRM",
-    "name": "Salesforce Inc",
-    "shortName": "Salesforce Inc",
-    "link": "https://www.investing.com/equities/salesforce-com",
-    "price": 248.57,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 338.66,
-    "fairValueUpside": 36.24,
-    "peRatio": 23.0,
-    "evEbitda": 16.88,
-    "marketCap": 205990000000,
-    "marketCapFormatted": "205.99 พันล้าน",
-    "epsGrowth5y": 2.21,
-    "changeOneDayPercent": -0.69,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:37:24.184727+07:00"
+    "lastUpdateTime": "2026-10-24T07:52:32.536106+07:00"
   },
   {
     "id": "6392",
@@ -809,7 +753,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:37:24.184727+07:00"
+    "lastUpdateTime": "2026-10-24T07:52:32.536106+07:00"
   },
   {
     "id": "13850",
@@ -837,6 +781,62 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:37:24.184727+07:00"
+    "lastUpdateTime": "2026-10-24T07:52:32.536106+07:00"
+  },
+  {
+    "id": "39135",
+    "symbol": "IT",
+    "name": "Gartner Inc",
+    "shortName": "Gartner",
+    "link": "https://www.investing.com/equities/gartner",
+    "price": 230.28,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 313.13,
+    "fairValueUpside": 35.98,
+    "peRatio": 21.23,
+    "evEbitda": 10.7,
+    "marketCap": 14800000000,
+    "marketCapFormatted": "14.8 พันล้าน",
+    "epsGrowth5y": 0.38,
+    "changeOneDayPercent": -1.77,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ถือหุ้นไว้",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-24T07:52:32.536106+07:00"
+  },
+  {
+    "id": "15828",
+    "symbol": "CSGP",
+    "name": "CoStar Group Inc",
+    "shortName": "CoStar",
+    "link": "https://www.investing.com/equities/costar-group",
+    "price": 33.92,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 46.12,
+    "fairValueUpside": 35.98,
+    "peRatio": 193.56,
+    "evEbitda": 32.98,
+    "marketCap": 14360000000,
+    "marketCapFormatted": "14.36 พันล้าน",
+    "epsGrowth5y": -0.2,
+    "changeOneDayPercent": -4.32,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "ดี",
+    "financialProfitabilityHealth": "แย่",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-24T07:52:32.536106+07:00"
   }
 ]
