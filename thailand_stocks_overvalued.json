@@ -25,7 +25,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T08:22:45.491821+07:00"
+    "lastUpdateTime": "2026-10-24T08:37:51.526015+07:00"
   },
   {
     "id": "102567",
@@ -53,7 +53,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T08:22:45.491821+07:00"
+    "lastUpdateTime": "2026-10-24T08:37:51.526015+07:00"
   },
   {
     "id": "989494",
@@ -81,7 +81,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T08:22:45.491821+07:00"
+    "lastUpdateTime": "2026-10-24T08:37:51.526015+07:00"
   },
   {
     "id": "1130942",
@@ -92,8 +92,8 @@
     "price": 12.9,
     "currency": "THB",
     "currencySymbol": "฿",
-    "fairValue": 10.32,
-    "fairValueUpside": -20.03,
+    "fairValue": 10.23,
+    "fairValueUpside": -20.69,
     "peRatio": 14.22,
     "evEbitda": 0.0,
     "marketCap": 46710000000,
@@ -109,7 +109,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T08:22:45.491821+07:00"
+    "lastUpdateTime": "2026-10-24T08:37:51.526015+07:00"
   },
   {
     "id": "1242508",
@@ -137,7 +137,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T08:22:45.491821+07:00"
+    "lastUpdateTime": "2026-10-24T08:37:51.526015+07:00"
   },
   {
     "id": "102569",
@@ -165,7 +165,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T08:22:45.491821+07:00"
+    "lastUpdateTime": "2026-10-24T08:37:51.526015+07:00"
   },
   {
     "id": "102497",
@@ -193,7 +193,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T08:22:45.491821+07:00"
+    "lastUpdateTime": "2026-10-24T08:37:51.526015+07:00"
   },
   {
     "id": "986137",
@@ -205,7 +205,7 @@
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 1.359,
-    "fairValueUpside": -18.6,
+    "fairValueUpside": -18.61,
     "peRatio": 96.53,
     "evEbitda": 13.47,
     "marketCap": 1860000000,
@@ -221,7 +221,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T08:22:45.491821+07:00"
+    "lastUpdateTime": "2026-10-24T08:37:51.526015+07:00"
   },
   {
     "id": "102869",
@@ -249,7 +249,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T08:22:45.491821+07:00"
+    "lastUpdateTime": "2026-10-24T08:37:51.526015+07:00"
   },
   {
     "id": "986147",
@@ -277,7 +277,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T08:22:45.491821+07:00"
+    "lastUpdateTime": "2026-10-24T08:37:51.526015+07:00"
   },
   {
     "id": "102751",
@@ -305,7 +305,35 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T08:22:45.491821+07:00"
+    "lastUpdateTime": "2026-10-24T08:37:51.526015+07:00"
+  },
+  {
+    "id": "102757",
+    "symbol": "STPI",
+    "name": "STP&I PCL",
+    "shortName": "STP&I",
+    "link": "https://www.investing.com/equities/stp---i",
+    "price": 5.7,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 4.74,
+    "fairValueUpside": -16.92,
+    "peRatio": -982.76,
+    "evEbitda": 31.15,
+    "marketCap": 10330000000,
+    "marketCapFormatted": "10.33 พันล้าน",
+    "epsGrowth5y": 2.99,
+    "changeOneDayPercent": -2.56,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "ดี",
+    "financialProfitabilityHealth": "แย่",
+    "analystRatings": "-",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-24T08:37:51.526015+07:00"
   },
   {
     "id": "102714",
@@ -333,7 +361,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T08:22:45.491821+07:00"
+    "lastUpdateTime": "2026-10-24T08:37:51.526015+07:00"
   },
   {
     "id": "102683",
@@ -361,7 +389,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T08:22:45.491821+07:00"
+    "lastUpdateTime": "2026-10-24T08:37:51.526015+07:00"
   },
   {
     "id": "102561",
@@ -372,8 +400,8 @@
     "price": 70.75,
     "currency": "THB",
     "currencySymbol": "฿",
-    "fairValue": 59.75,
-    "fairValueUpside": -15.55,
+    "fairValue": 59.74,
+    "fairValueUpside": -15.56,
     "peRatio": 89.84,
     "evEbitda": 47.77,
     "marketCap": 83630000000,
@@ -389,7 +417,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T08:22:45.491821+07:00"
+    "lastUpdateTime": "2026-10-24T08:37:51.526015+07:00"
   },
   {
     "id": "102540",
@@ -417,7 +445,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T08:22:45.491821+07:00"
+    "lastUpdateTime": "2026-10-24T08:37:51.526015+07:00"
   },
   {
     "id": "102672",
@@ -445,7 +473,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T08:22:45.491821+07:00"
+    "lastUpdateTime": "2026-10-24T08:37:51.526015+07:00"
   },
   {
     "id": "102756",
@@ -473,7 +501,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T08:22:45.491821+07:00"
+    "lastUpdateTime": "2026-10-24T08:37:51.526015+07:00"
   },
   {
     "id": "102442",
@@ -485,7 +513,7 @@
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 16.23,
-    "fairValueUpside": -13.2,
+    "fairValueUpside": -13.23,
     "peRatio": 12.8,
     "evEbitda": 12.34,
     "marketCap": 74950000000,
@@ -501,7 +529,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T08:22:45.491821+07:00"
+    "lastUpdateTime": "2026-10-24T08:37:51.526015+07:00"
   },
   {
     "id": "1162301",
@@ -529,7 +557,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T08:22:45.491821+07:00"
+    "lastUpdateTime": "2026-10-24T08:37:51.526015+07:00"
   },
   {
     "id": "1008691",
@@ -541,7 +569,7 @@
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 5.86,
-    "fairValueUpside": -11.82,
+    "fairValueUpside": -11.83,
     "peRatio": 17.12,
     "evEbitda": 14.64,
     "marketCap": 25440000000,
@@ -557,7 +585,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T08:22:45.491821+07:00"
+    "lastUpdateTime": "2026-10-24T08:37:51.526015+07:00"
   },
   {
     "id": "102532",
@@ -585,7 +613,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T08:22:45.491821+07:00"
+    "lastUpdateTime": "2026-10-24T08:37:51.526015+07:00"
   },
   {
     "id": "102560",
@@ -613,7 +641,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T08:22:45.491821+07:00"
+    "lastUpdateTime": "2026-10-24T08:37:51.526015+07:00"
   },
   {
     "id": "102817",
@@ -641,7 +669,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T08:22:45.491821+07:00"
+    "lastUpdateTime": "2026-10-24T08:37:51.526015+07:00"
   },
   {
     "id": "102748",
@@ -669,6 +697,6 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-24T08:22:45.491821+07:00"
+    "lastUpdateTime": "2026-10-24T08:37:51.526015+07:00"
   }
 ]
