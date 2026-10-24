@@ -25,7 +25,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:07:08.612959+07:00"
+    "lastUpdateTime": "2026-10-24T07:22:15.715006+07:00"
   },
   {
     "id": "102518",
@@ -53,7 +53,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:07:08.612959+07:00"
+    "lastUpdateTime": "2026-10-24T07:22:15.715006+07:00"
   },
   {
     "id": "1056157",
@@ -81,7 +81,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:07:08.612959+07:00"
+    "lastUpdateTime": "2026-10-24T07:22:15.715006+07:00"
   },
   {
     "id": "102443",
@@ -109,7 +109,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:07:08.612959+07:00"
+    "lastUpdateTime": "2026-10-24T07:22:15.715006+07:00"
   },
   {
     "id": "102513",
@@ -120,8 +120,8 @@
     "price": 13.5,
     "currency": "THB",
     "currencySymbol": "฿",
-    "fairValue": 20.35,
-    "fairValueUpside": 50.78,
+    "fairValue": 20.36,
+    "fairValueUpside": 50.8,
     "peRatio": 12.09,
     "evEbitda": 7.92,
     "marketCap": 12630000000,
@@ -137,7 +137,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:07:08.612959+07:00"
+    "lastUpdateTime": "2026-10-24T07:22:15.715006+07:00"
   },
   {
     "id": "102551",
@@ -165,7 +165,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:07:08.612959+07:00"
+    "lastUpdateTime": "2026-10-24T07:22:15.715006+07:00"
   },
   {
     "id": "1052357",
@@ -193,7 +193,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:07:08.612959+07:00"
+    "lastUpdateTime": "2026-10-24T07:22:15.715006+07:00"
   },
   {
     "id": "1115209",
@@ -221,7 +221,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:07:08.612959+07:00"
+    "lastUpdateTime": "2026-10-24T07:22:15.715006+07:00"
   },
   {
     "id": "102617",
@@ -249,7 +249,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:07:08.612959+07:00"
+    "lastUpdateTime": "2026-10-24T07:22:15.715006+07:00"
   },
   {
     "id": "102863",
@@ -277,7 +277,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:07:08.612959+07:00"
+    "lastUpdateTime": "2026-10-24T07:22:15.715006+07:00"
   },
   {
     "id": "1216964",
@@ -305,7 +305,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:07:08.612959+07:00"
+    "lastUpdateTime": "2026-10-24T07:22:15.715006+07:00"
   },
   {
     "id": "102425",
@@ -333,7 +333,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:07:08.612959+07:00"
+    "lastUpdateTime": "2026-10-24T07:22:15.715006+07:00"
   },
   {
     "id": "1153457",
@@ -361,7 +361,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:07:08.612959+07:00"
+    "lastUpdateTime": "2026-10-24T07:22:15.715006+07:00"
   },
   {
     "id": "1198524",
@@ -389,7 +389,35 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:07:08.612959+07:00"
+    "lastUpdateTime": "2026-10-24T07:22:15.715006+07:00"
+  },
+  {
+    "id": "102457",
+    "symbol": "CK",
+    "name": "CH Karnchang PCL",
+    "shortName": "CH Karnchang",
+    "link": "https://www.investing.com/equities/ch-karnchang",
+    "price": 17.0,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 24.7,
+    "fairValueUpside": 45.3,
+    "peRatio": 8.62,
+    "evEbitda": 3.35,
+    "marketCap": 28570000000,
+    "marketCapFormatted": "28.57 พันล้าน",
+    "epsGrowth5y": 0.35,
+    "changeOneDayPercent": -1.16,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดีเยี่ยม",
+    "financialProfitabilityHealth": "ดี",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-24T07:22:15.715006+07:00"
   },
   {
     "id": "102829",
@@ -401,7 +429,7 @@
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 7.44,
-    "fairValueUpside": 44.44,
+    "fairValueUpside": 44.46,
     "peRatio": 16.34,
     "evEbitda": 2.87,
     "marketCap": 9300000000,
@@ -417,7 +445,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:07:08.612959+07:00"
+    "lastUpdateTime": "2026-10-24T07:22:15.715006+07:00"
   },
   {
     "id": "1173246",
@@ -445,7 +473,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:07:08.612959+07:00"
+    "lastUpdateTime": "2026-10-24T07:22:15.715006+07:00"
   },
   {
     "id": "102547",
@@ -457,7 +485,7 @@
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 4.0,
-    "fairValueUpside": 41.99,
+    "fairValueUpside": 42.01,
     "peRatio": 5.44,
     "evEbitda": 3.61,
     "marketCap": 57560000000,
@@ -473,7 +501,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:07:08.612959+07:00"
+    "lastUpdateTime": "2026-10-24T07:22:15.715006+07:00"
   },
   {
     "id": "102726",
@@ -501,7 +529,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:07:08.612959+07:00"
+    "lastUpdateTime": "2026-10-24T07:22:15.715006+07:00"
   },
   {
     "id": "102689",
@@ -529,7 +557,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:07:08.612959+07:00"
+    "lastUpdateTime": "2026-10-24T07:22:15.715006+07:00"
   },
   {
     "id": "102731",
@@ -557,7 +585,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:07:08.612959+07:00"
+    "lastUpdateTime": "2026-10-24T07:22:15.715006+07:00"
   },
   {
     "id": "986206",
@@ -585,7 +613,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:07:08.612959+07:00"
+    "lastUpdateTime": "2026-10-24T07:22:15.715006+07:00"
   },
   {
     "id": "102743",
@@ -597,7 +625,7 @@
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 34.62,
-    "fairValueUpside": 39.59,
+    "fairValueUpside": 39.6,
     "peRatio": 8.61,
     "evEbitda": 9.09,
     "marketCap": 8680000000,
@@ -613,7 +641,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:07:08.612959+07:00"
+    "lastUpdateTime": "2026-10-24T07:22:15.715006+07:00"
   },
   {
     "id": "102467",
@@ -625,7 +653,7 @@
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 2.133,
-    "fairValueUpside": 39.41,
+    "fairValueUpside": 39.42,
     "peRatio": 17.31,
     "evEbitda": 9.72,
     "marketCap": 16830000000,
@@ -641,7 +669,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:07:08.612959+07:00"
+    "lastUpdateTime": "2026-10-24T07:22:15.715006+07:00"
   },
   {
     "id": "1196441",
@@ -669,7 +697,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:07:08.612959+07:00"
+    "lastUpdateTime": "2026-10-24T07:22:15.715006+07:00"
   },
   {
     "id": "103821",
@@ -697,7 +725,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:07:08.612959+07:00"
+    "lastUpdateTime": "2026-10-24T07:22:15.715006+07:00"
   },
   {
     "id": "102498",
@@ -725,7 +753,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:07:08.612959+07:00"
+    "lastUpdateTime": "2026-10-24T07:22:15.715006+07:00"
   },
   {
     "id": "102753",
@@ -753,7 +781,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:07:08.612959+07:00"
+    "lastUpdateTime": "2026-10-24T07:22:15.715006+07:00"
   },
   {
     "id": "102616",
@@ -781,7 +809,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:07:08.612959+07:00"
+    "lastUpdateTime": "2026-10-24T07:22:15.715006+07:00"
   },
   {
     "id": "102584",
@@ -809,34 +837,6 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:07:08.612959+07:00"
-  },
-  {
-    "id": "1202516",
-    "symbol": "MGC",
-    "name": "Millennium Group Corporation Asia PCL",
-    "shortName": "Millennium Group",
-    "link": "https://www.investing.com/equities/millennium-corporation-asia",
-    "price": 6.55,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 8.91,
-    "fairValueUpside": 35.97,
-    "peRatio": 4.34,
-    "evEbitda": 7.25,
-    "marketCap": 7300000000,
-    "marketCapFormatted": "7.3 พันล้าน",
-    "epsGrowth5y": 1.83,
-    "changeOneDayPercent": 0.0,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-24T07:07:08.612959+07:00"
+    "lastUpdateTime": "2026-10-24T07:22:15.715006+07:00"
   }
 ]
