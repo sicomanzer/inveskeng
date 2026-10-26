@@ -472,6 +472,88 @@ export default function StockDetailDialog({ stock, peers, open, onClose }: Stock
 
   const [dR, dG1, dG2, dAaa] = [defaults.r, defaults.g1, defaults.g2, defaults.aaa];
 
+  /* ===== ป้ายตีความสรุป (ภาษาพูด) — ราคา vs มูลค่าโมเดล + ตำแหน่งแถบ σ ===== */
+  /* หลัก: ใช้ fairValue ของรายการ (ตรงกับตารางหน้าหลัก) — ถ้าไม่มีค่อยใช้โมเดล DDM/DCF ของหน้านี้ */
+  const srcUp = stock.fairValue != null && stock.fairValue > 0
+    ? (Number.isFinite(stock.fairValueUpside) ? stock.fairValueUpside : null)
+    : null;
+  const useDdmForVerdict = base.dividendLatest > 0;
+  const vFv = useDdmForVerdict ? val.ddmValue : val.dcfPerShare;
+  const vMargin: number | null = useDdmForVerdict ? val.ddmMargin : val.dcfMargin;
+  const peBand = detail.bands.find((b) => b.name === 'P/E') || detail.bands[0];
+  const vSigma: number | null = peBand && peBand.realHistory ? peBand.vsMeanSigma : null;
+  const verdictGauge = srcUp != null
+    ? 'listFairValue'
+    : (vFv != null && Number.isFinite(vFv) && vFv > 0 ? 'model' : 'none');
+  const verdictPct = srcUp != null ? srcUp : vMargin ?? 0;
+  const verdictTone: 'good' | 'warn' | 'neutral' =
+    verdictGauge === 'none'
+      ? 'neutral'
+      : verdictPct >= 5 ? 'good' : verdictPct <= -5 ? 'warn' : 'neutral';
+  const verdictMain = (() => {
+    const pv = `${sym}${detail.price.toFixed(2)}`;
+    if (verdictGauge === 'listFairValue' && stock.fairValue != null) {
+      const fv = `${sym}${stock.fairValue.toFixed(2)}`;
+      if (srcUp! >= 5) {
+        return th
+          ? `ราคา ${pv} ต่ำกว่ามูลค่าที่เหมาะสม ${fv} อยู่ ${srcUp!.toFixed(1)}% — ราคายังอยู่ใต้มูลค่าที่ประเมินไว้`
+          : `Price ${pv} is ${srcUp!.toFixed(1)}% below fair value ${fv} — still under its estimate.`;
+      }
+      if (srcUp! <= -5) {
+        return th
+          ? `ราคา ${pv} สูงกว่ามูลค่าที่เหมาะสม ${fv} อยู่ ${Math.abs(srcUp!).toFixed(1)}% — กำลังจ่ายแพงกว่ามูลค่าที่ประเมิน`
+          : `Price ${pv} is ${Math.abs(srcUp!).toFixed(1)}% above fair value ${fv} — paying above the estimate.`;
+      }
+      return th
+        ? `ราคา ${pv} ใกล้เคียงมูลค่าที่เหมาะสม ${fv} — ราคาตลาดสะท้อนค่าประเมินอยู่แล้ว`
+        : `Price ${pv} is close to fair value ${fv} — the market already reflects the estimate.`;
+    }
+    if (verdictGauge === 'model') {
+      const fv = `${sym}${vFv!.toFixed(2)}`;
+      const lbl = useDdmForVerdict
+        ? (th ? 'มูลค่าที่เหมาะสม (DDM)' : 'intrinsic value (DDM)')
+        : (th ? 'มูลค่าจากกระแสเงินสด (DCF)' : 'FCFE value (DCF)');
+      if (verdictPct >= 5) {
+        return th
+          ? `ราคา ${pv} ต่ำกว่า${lbl} ${fv} อยู่ ${verdictPct.toFixed(1)}% — ผู้ซื้อได้ "ส่วนลด" ${verdictPct.toFixed(1)}% เทียบกับตัวเลขโมเดล`
+          : `Price ${pv} is ${verdictPct.toFixed(1)}% below ${lbl} ${fv} — a "discount" versus the model number.`;
+      }
+      if (verdictPct <= -5) {
+        return th
+          ? `ราคา ${pv} สูงกว่า${lbl} ${fv} อยู่ ${Math.abs(verdictPct).toFixed(1)}% — กำลังจ่ายแพงกว่าที่โมเดลเห็น`
+          : `Price ${pv} is ${Math.abs(verdictPct).toFixed(1)}% above ${lbl} ${fv} — paying above the model view.`;
+      }
+      return th
+        ? `ราคา ${pv} ใกล้เคียง${lbl} ${fv} — ราคาตลาดสะท้อนค่าประเมินของโมเดลอยู่แล้ว`
+        : `Price ${pv} is close to ${lbl} ${fv} — the market already reflects the estimate.`;
+    }
+    return th
+      ? `${t('colPrice')} ${pv} — ไม่มีฐานปันผล/กระแสเงินสดพอให้ตีมูลค่าด้วยโมเดล ใช้แถบ σ ด้านล่างเป็นตัวชี้วัดหลัก`
+      : `Price ${pv} — no dividend/FCF base to run the models; the σ bands below are the main gauge.`;
+  })();
+  const verdictBand = vSigma == null ? null : {
+    th: vSigma <= -1 ? 'ต่ำกว่า −1σ (โซนถูกที่สุดตามประวัติ)'
+      : vSigma <= -0.3 ? 'ต่ำกว่าค่าเฉลี่ยเล็กน้อย'
+      : vSigma <= 0.3 ? 'ราว ๆ ค่าเฉลี่ยหลายปีล่าสุด'
+      : vSigma <= 1 ? 'สูงกว่าค่าเฉลี่ยเล็กน้อย'
+      : 'สูงกว่า +1σ (โซนแพงที่สุดตามประวัติ)',
+    en: vSigma <= -1 ? 'below −1σ (cheapest zone by history)'
+      : vSigma <= -0.3 ? 'slightly below the multi-year mean'
+      : vSigma <= 0.3 ? 'around the multi-year mean'
+      : vSigma <= 1 ? 'slightly above the mean'
+      : 'above +1σ (most expensive zone by history)',
+  };
+  const verdictToneCls = {
+    good: 'bg-[#EBF6EE] border-[#C6E7CE] dark:bg-[#132A1E] dark:border-[#1E4D33]',
+    warn: 'bg-[#FCEBEC] border-[#F3C4C7] dark:bg-[#2A1417] dark:border-[#4D2025]',
+    neutral: 'bg-[#F1F4F8] border-[#D5DCE5] dark:bg-[#1B212F] dark:border-[#2E3646]',
+  }[verdictTone];
+  const verdictToneTx = {
+    good: 'text-[#007C32] dark:text-[#00C076]',
+    warn: 'text-[#D33F49] dark:text-[#F87C85]',
+    neutral: 'text-[#232526] dark:text-[#E5E7EB]',
+  }[verdictTone];
+
   /* desc ของแต่ละ slider ตามแหล่ง (Thai / US) */
   const sliderDescs = [
     { th: detail.sliders[0].descTh, en: detail.sliders[0].descEn },
@@ -549,9 +631,27 @@ export default function StockDetailDialog({ stock, peers, open, onClose }: Stock
               {detail.score}
             </span>
           </div>
-          <p className="text-xs text-[#5B616E] dark:text-[#9CA3AF] mb-5">
+          <p className="text-xs text-[#5B616E] dark:text-[#9CA3AF] mb-3">
             {detail.name} · {sym} · {t('colPrice')} {fmtBaht(detail.price)} · {th ? 'ราคาข้อมูลล่าสุด' : 'price as of'} {detail.priceAsOf}
           </p>
+
+          {/* ===== ป้ายตีความสรุป (ภาษาพูด) ===== */}
+          <div className={`mb-5 rounded-md border px-3.5 py-2.5 ${verdictToneCls}`}>
+            <p className={`text-xs font-bold leading-relaxed ${verdictToneTx}`}>
+              {verdictMain}
+            </p>
+            {verdictBand && (
+              <p className="text-[11px] mt-0.5 text-[#5B616E] dark:text-[#9CA3AF]">
+                {th ? `ตามแถบมูลค่า: ${verdictBand.th}` : `By valuation band: ${verdictBand.en}`}
+                {vSigma != null ? ` (${vSigma >= 0 ? '+' : ''}${vSigma}σ)` : ''}
+              </p>
+            )}
+            <p className="text-[10px] mt-1 text-[#5B616E] dark:text-[#9CA3AF]">
+              {th
+                ? 'ตัวเลขคำนวณจากงบย้อนหลัง — ไม่ใช่คำทำนายราคาในอนาคต ใช้เป็นจุดตั้งต้น ก่อนซื้อจริงดูข่าว แผนกลยุทธ์ และงบประมาณการประกอบเสมอ'
+                : 'Backward-looking numbers, not a price forecast. Use as a starting point; always check news and forward guidance before buying.'}
+            </p>
+          </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,320px)_minmax(0,1fr)] gap-x-6">
             {/* ===== LEFT COLUMN: scorecard ===== */}
