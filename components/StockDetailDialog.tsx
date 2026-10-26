@@ -138,15 +138,18 @@ function MiniBars({ series, color = '#22C1A4', dashedLinePct }: { series: { x: n
 
 /* DPS "by year, quarters stacked" — แท่งรายปี ซ้อนเป็นไตรมาส (วางเหมือนงานอ้างอิง:
    Q1 ส้ม / Q2 น้ำเงิน / Q3 เขียว / Q4 ม่วง, label รวมต่อปี, ปีล่าสุดยกเลิกจองบางส่วน) */
-function DivPaymentsBars({ payments, currencySymbol }: { payments: DivPayment[]; currencySymbol: string }) {
+/* fiscal SET: จัดกลุ่มตาม "ปีชำระ" ของ SET (จ่าย ก.ค.–ธ.ค. = interim ปี y-1 ครึ่งหลัง,
+   จ่าย ม.ค.–มิ.ย. = final ของปี y-1) — รวมรายปีเลยตรงกับคอลัมน์ "ปันผลทั้งปี" ของ SET */
+function DivPaymentsBars({ payments, currencySymbol, fiscal }: { payments: DivPayment[]; currencySymbol: string; fiscal?: boolean }) {
   const list = payments.filter((p) => p.amount > 0 && Number(p.date.slice(0, 4)) >= new Date().getFullYear() - 10);
   if (!list.length) return null;
 
   // group: year -> { q1..q4 sums }
   const byYear: Record<string, [number, number, number, number]> = {};
   for (const p of list) {
-    const y = p.date.slice(0, 4);
+    let y = p.date.slice(0, 4);
     const m = Number(p.date.slice(5, 7));
+    if (fiscal && m <= 6) y = String(Number(y) - 1); // จ่ายรอบ final (ม.ค.–มิ.ย.) นับเป็นปีชำระก่อนหน้า
     const q = m <= 3 ? 0 : m <= 6 ? 1 : m <= 9 ? 2 : 3;
     if (!byYear[y]) byYear[y] = [0, 0, 0, 0];
     byYear[y][q] += p.amount;
@@ -170,7 +173,7 @@ function DivPaymentsBars({ payments, currencySymbol }: { payments: DivPayment[];
                 {[3, 2, 1, 0].map((qi) => qs[qi] > 0 ? (
                   <div
                     key={qi}
-                    title={`${y} Q${qi + 1}: ${currencySymbol}${qs[qi].toFixed(4)}`}
+                    title={`${y}${fiscal ? ' (รอบชำระ)' : ''} Q${qi + 1}: ${currencySymbol}${qs[qi].toFixed(4)}`}
                     style={{ height: `${Math.max(2, (qs[qi] / maxYear) * 88)}px`, background: Q_COLORS[qi], opacity: 0.88 }}
                   />
                 ) : null)}
@@ -894,7 +897,7 @@ export default function StockDetailDialog({ stock, peers, open, onClose }: Stock
                 <p className="text-[10px] text-[#5B616E] dark:text-[#9CA3AF] mb-3.5 leading-relaxed">
                   {area.charts
                     ? (th
-                      ? `หนึ่งแท่งต่อปีงบ ย้อนหลัง ${detail.fiscalYearsUsed} ปี จากงบจริง — เส้นประบนกราฟ ROE = 15% · กราฟปันผลแยกแท่งเป็นไตรมาสจากรอบจ่ายจริง (สี = ไตรมาสจ่าย)`
+                      ? `หนึ่งแท่งต่อปีงบ ย้อนหลัง ${detail.fiscalYearsUsed} ปี จากงบจริง — เส้นประบนกราฟ ROE = 15% · กราฟปันผลแยกแท่งเป็นไตรมาสจากรอบจ่ายจริง (สี = ไตรมาสจ่าย${stock.market === 'US' ? '' : ' · รวมตามปีชำระของ SET: ก.ค.–มิ.ย.'})`
                       : `One bar per fiscal year, ${detail.fiscalYearsUsed} real fiscal years. The ROE chart shows a dashed 15% guide line · DPS chart is stacked by payment quarter (colours = quarter paid).`)
                     : (th ? 'หนึ่งแท่งต่อปีงบ 10 ปี (โมเดลประมาณการ)' : 'One bar per fiscal year, ten years (derived model).')}
                 </p>
@@ -936,7 +939,7 @@ export default function StockDetailDialog({ stock, peers, open, onClose }: Stock
                           </span>
                         </div>
                         {isDpsUs
-                          ? <DivPaymentsBars payments={detail.divPayments} currencySymbol={sym} />
+                          ? <DivPaymentsBars payments={detail.divPayments} currencySymbol={sym} fiscal={stock.market !== 'US'} />
                           : <MiniBars
                               series={shown ?? []}
                               color={color}
