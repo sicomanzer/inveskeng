@@ -63,21 +63,26 @@ def _try_download_page(candidate_urls: list, market_code: str, tab_slug: str):
 
     # Proxied fallback (datacenter IPs e.g. GitHub Actions)
     for idx, url in enumerate(candidate_urls):
-        # free relay is per-IP rate limited -> space out the calls
-        time.sleep(2.5 + idx * 2.0)
-        try:
-            cache_bust = ("&" if "?" in url else "?") + f"_t={int(time.time() * 1000)}"
-            res = requests.get(
-                f"https://r.jina.ai/{url}{cache_bust}",
-                impersonate="chrome124",
-                headers={**BROWSER_HEADERS, "X-Return-Format": "html"},
-                timeout=90,
-            )
-            if res.status_code == 200 and "__NEXT_DATA__" in res.text and "fairValueUpside" in res.text:
-                return res.text, f"jina-relay({url})"
-            last_err = f"relay HTTP {res.status_code} len={len(res.text)} ({url})"
-        except Exception as e:
-            last_err = f"relay {str(e)[:80]} ({url})"
+        for relay_try in range(3):
+            # free relay is per-IP rate limited -> space out the calls;
+            # grow the wait on 403s instead of burning attempts back-to-back
+            delay = 2.5 + idx * 2.0 + relay_try * 12.0
+            time.sleep(delay)
+            try:
+                cache_bust = ("&" if "?" in url else "?") + f"_t={int(time.time() * 1000)}"
+                res = requests.get(
+                    f"https://r.jina.ai/{url}{cache_bust}",
+                    impersonate="chrome124",
+                    headers={**BROWSER_HEADERS, "X-Return-Format": "html"},
+                    timeout=90,
+                )
+                if res.status_code == 200 and "__NEXT_DATA__" in res.text and "fairValueUpside" in res.text:
+                    return res.text, f"jina-relay({url})"
+                last_err = f"relay HTTP {res.status_code} len={len(res.text)} ({url})"
+                if res.status_code != 403:
+                    break  # not a rate-limit problem, try the next candidate
+            except Exception as e:
+                last_err = f"relay {str(e)[:80]} ({url})"
 
     print(f"Error fetching page ({market_code} {tab_slug}): {last_err}")
     return None, last_err
@@ -296,7 +301,7 @@ def fetch_market_stocks(country_slug: str, market_code: str, tab_slug: str, curr
         json.dump(merged_stocks, out_f, indent=2, ensure_ascii=False)
 
     print(f"[{datetime.now().strftime('%H:%M:%S')}] Successfully saved {len(merged_stocks)} {tab_slug} stocks to {out_filename}")
-    return len(merged_stocks)
+    return len(merged_stocks), now_iso
 
 def git_commit_and_push():
     print("[Git] Staging live stock data and pushing to origin main...")
@@ -321,27 +326,53 @@ def main():
     parser.add_argument("--push", action="store_true", help="Auto commit and push updated JSON to GitHub")
     args = parser.parse_args()
 
+    # Also: on dataset failure (e.g. relay 403) the previous file stays on disk,
+    # so its old freshness stamp must be carried over — never advertise data
+    # newer than what was actually stored.
+    prev_status = {}
+    try:
+        with open(os.path.join(BASE_DIR, "sync_status.json"), encoding="utf-8") as pf:
+            prev_status = json.load(pf)
+    except Exception:
+        pass
+
     results = {}
-    
+    data_freshness = dict(prev_status.get("dataFreshness") or {})
+    dataset_sleep = 5.0  # be gentle with the shared relay between datasets
+
     # 1. SET Undervalued
     if args.market in ["SET", "ALL"] and args.type in ["undervalued", "ALL"]:
-        count_set_uv = fetch_market_stocks("thailand", "SET", "undervalued", "THB", "฿", "thailand_stocks_unmasked.json")
+        count_set_uv, ts_uv = fetch_market_stocks("thailand", "SET", "undervalued", "THB", "฿", "thailand_stocks_unmasked.json")
         results["SET_undervalued"] = count_set_uv
+        if count_set_uv:
+            data_freshness["SET_undervalued"] = ts_uv
+        if dataset_sleep:
+            time.sleep(dataset_sleep)
 
     # 2. SET Overvalued
     if args.market in ["SET", "ALL"] and args.type in ["overvalued", "ALL"]:
-        count_set_ov = fetch_market_stocks("thailand", "SET", "overvalued", "THB", "฿", "thailand_stocks_overvalued.json")
+        count_set_ov, ts_ov = fetch_market_stocks("thailand", "SET", "overvalued", "THB", "฿", "thailand_stocks_overvalued.json")
         results["SET_overvalued"] = count_set_ov
+        if count_set_ov:
+            data_freshness["SET_overvalued"] = ts_ov
+        if dataset_sleep:
+            time.sleep(dataset_sleep)
 
     # 3. US Undervalued
     if args.market in ["US", "ALL"] and args.type in ["undervalued", "ALL"]:
-        count_us_uv = fetch_market_stocks("united-states", "US", "undervalued", "USD", "$", "undervalued_stocks_unmasked.json")
+        count_us_uv, ts_us_uv = fetch_market_stocks("united-states", "US", "undervalued", "USD", "$", "undervalued_stocks_unmasked.json")
         results["US_undervalued"] = count_us_uv
+        if count_us_uv:
+            data_freshness["US_undervalued"] = ts_us_uv
+        if dataset_sleep:
+            time.sleep(dataset_sleep)
 
     # 4. US Overvalued
     if args.market in ["US", "ALL"] and args.type in ["overvalued", "ALL"]:
-        count_us_ov = fetch_market_stocks("united-states", "US", "overvalued", "USD", "$", "us_stocks_overvalued.json")
+        count_us_ov, ts_us_ov = fetch_market_stocks("united-states", "US", "overvalued", "USD", "$", "us_stocks_overvalued.json")
         results["US_overvalued"] = count_us_ov
+        if count_us_ov:
+            data_freshness["US_overvalued"] = ts_us_ov
 
     valid_counts = [v for v in results.values() if v is not None and v > 0]
     now_iso = datetime.now(timezone(timedelta(hours=7))).isoformat()
@@ -354,6 +385,7 @@ def main():
     # Update metadata
     status_data = {
         "lastSync": now_iso,
+        "dataFreshness": data_freshness,
         "results": results,
         "status": "success" if len(valid_counts) == len(results) else "partial"
     }

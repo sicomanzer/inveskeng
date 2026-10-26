@@ -55,8 +55,13 @@ export default function HomePage() {
             [tab]: json.items.length
           }));
         }
-        if (json.syncStatus?.lastSync) {
-          const d = new Date(json.syncStatus.lastSync);
+        // Show the freshness of THIS dataset (kept from its last successful
+        // sync) rather than the latest sync attempt — partial failures must
+        // not advertise data older than what is on screen.
+        const dsKey = `${market}_${tab}`;
+        const rawTs = json.syncStatus?.dataFreshness?.[dsKey] ?? json.syncStatus?.lastSync;
+        if (rawTs) {
+          const d = new Date(rawTs);
           setLastSyncTime(
             d.toLocaleTimeString(lang === 'th' ? 'th-TH' : 'en-US', {
               hour: '2-digit',
