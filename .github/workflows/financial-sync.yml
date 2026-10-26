@@ -44,4 +44,4 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Sync"
           git add stock_details_SET.json stock_details_US.json sync_status.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(financials): refresh popup financial details (thaifin+yfinance)" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(financials): refresh popup financial details (thaifin+yfinance)" && git pull --rebase origin main && git push)

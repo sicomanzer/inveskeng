@@ -22,6 +22,73 @@ from datetime import datetime, timezone, timedelta
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+
+def enable_finnomena_relay():
+    """Make `thaifin` work from datacenter IPs (GitHub Actions runners).
+
+    finnomena.com 403-blocks datacenter IPs, so we monkeypatch httpx.Client.get:
+    try the direct request first; if it fails or the host is finnomena (403),
+    retry through the r.jina.ai HTML relay and unwrap the JSON payload that
+    jina embeds inside an HTML <pre> block.
+    """
+    import httpx
+
+    orig_get = httpx.Client.get
+
+    def _is_finnomena(url) -> bool:
+        return "finnomena.com" in str(url)
+
+    def patched_get(self, url, **kw):
+        # 1) direct first (works from residential IPs / local machines)
+        try:
+            resp = orig_get(self, url, **kw)
+            if resp.status_code == 200 or not _is_finnomena(url):
+                return resp
+        except Exception:
+            pass  # fall through to relay
+
+        # 2) jina relay (free tier is per-IP rate limited -> space the calls)
+        time.sleep(3.0)
+        relay_url = f"https://r.jina.ai/{url}"
+        if kw.get("params"):
+            q = "&".join(f"{_k}={_v}" for _k, _v in kw["params"].items())
+            relay_url = f"{relay_url}?{q}"
+        relayed = orig_get(
+            self, relay_url,
+            headers={"User-Agent": "Mozilla/5.0", "X-Return-Format": "html"},
+            timeout=90,
+        )
+        text = relayed.text or ""
+
+        import re as _re
+        m = _re.search(r"<pre[^>]*>([\s\S]*?)</pre>", text)
+        payload = m.group(1).strip() if m else text.strip()
+        if not (payload.startswith("{") or payload.startswith("[")):
+            m = _re.search(r"\{[\s\S]*\}", text) or _re.search(r"\[[\s\S]*\]", text)
+            payload = m.group(0).strip() if m else ""
+
+        if not payload:
+            raise ValueError(f"jina relay: no JSON payload for {url}")
+
+        class _SyntheticResponse:  # subset of httpx.Response used by thaifin
+            status_code = 200
+
+            def __init__(self, raw: str):
+                self.text = raw
+
+            def raise_for_status(self):
+                pass
+
+            def json(self):
+                return json.loads(self.text)
+
+        return _SyntheticResponse(payload)
+
+    httpx.Client.get = patched_get
+
+
+enable_finnomena_relay()
+
 SET_SOURCES = [
     "thailand_stocks_unmasked.json",
     "thailand_stocks_overvalued.json",
