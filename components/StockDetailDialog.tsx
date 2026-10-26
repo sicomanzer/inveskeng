@@ -56,6 +56,52 @@ function SparkLine({ data, color = '#4F79D6' }: { data: { x?: number; i?: number
   );
 }
 
+function SigmaBandChart({ data, sigmas, color = '#4F79D6' }: { data: { x?: number; i?: number; v: number }[]; sigmas: { label: string; value: number }[]; color?: string }) {
+  const w = 220, h = 72;
+  if (!data.length) return null;
+  // Only levels that actually exist (multiples can't be negative)
+  const levels = sigmas.filter((s) => s.value > 0 && Number.isFinite(s.value));
+  const vals = [...data.map((d) => d.v), ...levels.map((s) => s.value)];
+  const min = Math.min(...vals);
+  const max = Math.max(...vals);
+  const range = max - min || 1;
+  const yOf = (v: number) => h - 6 - ((v - min) / range) * (h - 18);
+  const pts = data.map((d, idx) => {
+    const x = (idx / Math.max(1, data.length - 1)) * (w - 8) + 4;
+    return [x, yOf(d.v)];
+  });
+  const path = pts.map((p, i) => `${i === 0 ? 'M' : 'L'}${p[0].toFixed(1)},${p[1].toFixed(1)}`).join(' ');
+  const levelColor = (label: string) =>
+    label === 'mean' ? '#9AA4B2' : label.startsWith('+') ? '#F0447A' : '#12B76A';
+  return (
+    <svg viewBox={`0 0 ${w} ${h}`} className="w-full h-[72px]" preserveAspectRatio="none">
+      {levels.map((s) => {
+        const y = yOf(s.value);
+        const c = levelColor(s.label);
+        const isMean = s.label === 'mean';
+        return (
+          <g key={s.label}>
+            <line
+              x1={2} x2={w - 2} y1={y} y2={y}
+              stroke={c}
+              strokeWidth="1"
+              strokeDasharray={isMean ? undefined : '5 4'}
+              opacity={0.75}
+            />
+            <text
+              x={w - 3} y={Math.max(6.5, y - 1.8)}
+              textAnchor="end" fontSize="6.5" fontWeight="600" fill={c}
+            >
+              {s.label}
+            </text>
+          </g>
+        );
+      })}
+      <path d={path} fill="none" stroke={color} strokeWidth="1.6" strokeLinejoin="round" strokeLinecap="round" />
+    </svg>
+  );
+}
+
 function MiniBars({ series, color = '#22C1A4', dashedLinePct }: { series: { x: number; y: number }[]; color?: string; dashedLinePct?: number | null }) {
   if (!series.length) return null;
   const max = Math.max(...series.map((s) => s.y), 0.00001);
@@ -565,7 +611,7 @@ export default function StockDetailDialog({ stock, peers, open, onClose }: Stock
                         </div>
                         {hasBand ? (
                           <>
-                            <SparkLine data={band.history} color={bandColor} />
+                            <SigmaBandChart data={band.history} sigmas={band.sigmas} color={bandColor} />
                             <div className="mt-1.5 space-y-0.5">
                               {band.sigmas.map((s) => (
                                 <div key={s.label} className="flex items-center justify-between gap-2">
