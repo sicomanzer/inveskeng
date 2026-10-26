@@ -14,6 +14,7 @@ import {
   StockDetail,
   RealFinancialData,
   DivPayment,
+  lookupReal,
   round,
 } from '@/lib/stock-detail';
 import {
@@ -383,7 +384,7 @@ export default function StockDetailDialog({ stock, peers, open, onClose }: Stock
         if (cancelled) return;
         const items = data?.items && typeof data.items === 'object' ? data.items as Record<string, RealFinancialData> : null;
         setPeersReal(items);
-        const mine: RealFinancialData | null = items ? items[stock.symbol] ?? null : null;
+        const mine: RealFinancialData | null = lookupReal(items, stock.symbol);
         setRealData(mine && mine.metrics && Object.keys(mine.metrics).length > 0 ? mine : null);
       })
       .catch(() => {

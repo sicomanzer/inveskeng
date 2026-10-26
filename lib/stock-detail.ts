@@ -69,6 +69,24 @@ export interface AnnualChartSpec {
 
 export interface DivPayment { date: string; amount: number }
 
+/** investing.com instrument suffix (TACCm, MAGUROm, …) → plain SET ticker.
+ *  stock_details_*.json keys use plain tickers (thaifin/yfinance), while the
+ *  table symbol keeps the raw investing.com value — lookups must try both. */
+export function instrumentSymbolKey(symbol: string): string {
+  const last = symbol.slice(-1);
+  if (symbol.length >= 4 && /[a-z]/.test(last) && symbol.slice(0, -1) === symbol.slice(0, -1).toUpperCase()) {
+    return symbol.slice(0, -1);
+  }
+  return symbol;
+}
+
+export function lookupReal<T>(items: Record<string, T> | null | undefined, symbol: string): T | null {
+  if (!items) return null;
+  const direct = items[symbol];
+  if (direct) return direct;
+  return items[instrumentSymbolKey(symbol)] ?? null;
+}
+
 export interface RealFinancialData {
   source: string;
   currency: string;
@@ -642,7 +660,7 @@ export function buildPeers(stock: StockItem, m: BaseMetrics, bundle: PeersBundle
   const { peers, realBySymbol } = bundle;
 
   const metricOf = (s: StockItem, field: 'roe' | 'peRatio' | 'dividendYield' | 'dE'): number | null => {
-    const real = realBySymbol?.[s.symbol];
+    const real = lookupReal(realBySymbol, s.symbol);
     if (real?.metrics) {
       const map = { roe: 'roe', peRatio: 'peRatio', dividendYield: 'dividendYield', dE: 'liabDeQ' } as const;
       const v = real.metrics[map[field]];
