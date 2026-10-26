@@ -122,9 +122,41 @@ export default function HomePage() {
       });
       const data = await res.json();
       if (data.success) {
-        await loadStocks(selectedMarket, activeTab);
-        setSyncMessage(data.message || (lang === 'th' ? 'ซิงค์สำเร็จ!' : 'Sync successful!'));
-        setTimeout(() => setSyncMessage(''), 5000);
+        if (data.mode === 'github-action-dispatched') {
+          // Cloud sync: a GitHub Action runner does the scraping (~1-2 min).
+          // Poll the data endpoint until syncStatus.lastSync changes, then reload.
+          setSyncMessage(lang === 'th'
+            ? 'สั่งซิงค์บน Cloud แล้ว — กำลังรอข้อมูลสด (ประมาณ 1-2 นาที)...'
+            : 'Cloud sync dispatched — waiting for fresh data (about 1-2 min)...');
+
+          const baseline = await fetch(
+            `/api/stocks?market=${selectedMarket}&tab=${activeTab}&_t=${Date.now()}`,
+            { cache: 'no-store' }
+          )
+            .then(r => r.json())
+            .then(j => j?.syncStatus?.lastSync)
+            .catch(() => null);
+
+          try {
+            for (let i = 0; i < 16; i++) {
+              await new Promise(r => setTimeout(r, 15000));
+              const statusRes = await fetch(
+                `/api/stocks?market=${selectedMarket}&tab=${activeTab}&_t=${Date.now()}`,
+                { cache: 'no-store' }
+              );
+              const statusData = await statusRes.json();
+              if (statusData?.syncStatus?.lastSync && statusData.syncStatus.lastSync !== baseline) break;
+            }
+          } catch {}
+
+          await loadStocks(selectedMarket, activeTab);
+          setSyncMessage(lang === 'th' ? 'ซิงค์ข้อมูลสดสำเร็จ!' : 'Live sync successful!');
+          setTimeout(() => setSyncMessage(''), 5000);
+        } else {
+          await loadStocks(selectedMarket, activeTab);
+          setSyncMessage(data.message || (lang === 'th' ? 'ซิงค์สำเร็จ!' : 'Sync successful!'));
+          setTimeout(() => setSyncMessage(''), 5000);
+        }
       } else {
         setSyncMessage(data.message || (lang === 'th' ? 'การซิงค์ขัดข้อง' : 'Sync error, please retry'));
         setTimeout(() => setSyncMessage(''), 6000);

@@ -1,0 +1,47 @@
+name: Financial Details Sync (Popup Data)
+
+on:
+  schedule:
+    # Every 6 hours (UTC) — financial statements change rarely (quarterly),
+    # so a gentle cadence is plenty for the popup "ตัวคัดหุ้น - มูลค่าที่เหมาะสม".
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Allow manual trigger anytime
+
+jobs:
+  financials:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install thaifin yfinance pandas
+
+      - name: Fetch SET financial details (thaifin)
+        continue-on-error: true
+        run: |
+          python scripts/fetch_financials.py --market=SET
+
+      - name: Fetch US financial details (yfinance)
+        continue-on-error: true
+        run: |
+          python scripts/fetch_financials.py --market=US
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Sync"
+          git add stock_details_SET.json stock_details_US.json sync_status.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(financials): refresh popup financial details (thaifin+yfinance)" && git push)
