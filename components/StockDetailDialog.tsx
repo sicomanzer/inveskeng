@@ -473,41 +473,20 @@ export default function StockDetailDialog({ stock, peers, open, onClose }: Stock
   const [dR, dG1, dG2, dAaa] = [defaults.r, defaults.g1, defaults.g2, defaults.aaa];
 
   /* ===== ป้ายตีความสรุป (ภาษาพูด) — ราคา vs มูลค่าโมเดล + ตำแหน่งแถบ σ ===== */
-  /* หลัก: ใช้ fairValue ของรายการ (ตรงกับตารางหน้าหลัก) — ถ้าไม่มีค่อยใช้โมเดล DDM/DCF ของหน้านี้ */
-  const srcUp = stock.fairValue != null && stock.fairValue > 0
-    ? (Number.isFinite(stock.fairValueUpside) ? stock.fairValueUpside : null)
-    : null;
+  /* หลัก: มูลค่าที่เหมาะสม (DDM) ของหน้านี้ — ถ้าไม่มีฐานปันผลค่อยใช้ DCF */
   const useDdmForVerdict = base.dividendLatest > 0;
   const vFv = useDdmForVerdict ? val.ddmValue : val.dcfPerShare;
   const vMargin: number | null = useDdmForVerdict ? val.ddmMargin : val.dcfMargin;
   const peBand = detail.bands.find((b) => b.name === 'P/E') || detail.bands[0];
   const vSigma: number | null = peBand && peBand.realHistory ? peBand.vsMeanSigma : null;
-  const verdictGauge = srcUp != null
-    ? 'listFairValue'
-    : (vFv != null && Number.isFinite(vFv) && vFv > 0 ? 'model' : 'none');
-  const verdictPct = srcUp != null ? srcUp : vMargin ?? 0;
+  const verdictGauge = (vFv != null && Number.isFinite(vFv) && vFv > 0) ? 'model' : 'none';
+  const verdictPct = vMargin ?? 0;
   const verdictTone: 'good' | 'warn' | 'neutral' =
     verdictGauge === 'none'
       ? 'neutral'
       : verdictPct >= 5 ? 'good' : verdictPct <= -5 ? 'warn' : 'neutral';
   const verdictMain = (() => {
     const pv = `${sym}${detail.price.toFixed(2)}`;
-    if (verdictGauge === 'listFairValue' && stock.fairValue != null) {
-      const fv = `${sym}${stock.fairValue.toFixed(2)}`;
-      if (srcUp! >= 5) {
-        return th
-          ? `ราคา ${pv} ต่ำกว่ามูลค่าที่เหมาะสม ${fv} อยู่ ${srcUp!.toFixed(1)}% — ราคายังอยู่ใต้มูลค่าที่ประเมินไว้`
-          : `Price ${pv} is ${srcUp!.toFixed(1)}% below fair value ${fv} — still under its estimate.`;
-      }
-      if (srcUp! <= -5) {
-        return th
-          ? `ราคา ${pv} สูงกว่ามูลค่าที่เหมาะสม ${fv} อยู่ ${Math.abs(srcUp!).toFixed(1)}% — กำลังจ่ายแพงกว่ามูลค่าที่ประเมิน`
-          : `Price ${pv} is ${Math.abs(srcUp!).toFixed(1)}% above fair value ${fv} — paying above the estimate.`;
-      }
-      return th
-        ? `ราคา ${pv} ใกล้เคียงมูลค่าที่เหมาะสม ${fv} — ราคาตลาดสะท้อนค่าประเมินอยู่แล้ว`
-        : `Price ${pv} is close to fair value ${fv} — the market already reflects the estimate.`;
-    }
     if (verdictGauge === 'model') {
       const fv = `${sym}${vFv!.toFixed(2)}`;
       const lbl = useDdmForVerdict
