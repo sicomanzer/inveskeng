@@ -190,6 +190,8 @@ export interface StockDetail {
     latestFY?: number | null;
     /** key สำหรับ component แปล: 'thaifinDyQ' | 'yfTtm' | 'derived' */
     dpsSource: string;
+    /** true ถ้า D0 ใช้ปันผลรวมทั้งปีของปีก่อนหน้า (จ่ายจริง) แทน TTM */
+    dpsFullYear: boolean;
     realArea: {
       scorecard: boolean;
       valuation: boolean;
@@ -245,6 +247,8 @@ interface BaseMetrics {
   ttmEps: number;
   bvps: number;
   dps: number;
+  /** ปันผลรวมทั้งปีของปีก่อนหน้า (ปีปันผลปิด 30 มิ.ย.) — null ถ้าไม่มีประวัติจ่ายจริง */
+  dpsPrevFY: number | null;
   sharesOutstanding: number;
   mktCap: number;
   netDebt: number;
@@ -292,7 +296,7 @@ function buildDerivedMetrics(stock: StockItem): BaseMetrics {
   const weightEquity = (equityTotal + debtTotal) > 0 ? equityTotal / (equityTotal + debtTotal) : 0.85;
   return {
     health, roe, roa, npm, gpm: npm * 1.8, dE, dividendYield, payout,
-    peRatio, pbv, eps, ttmEps: eps, bvps, dps,
+    peRatio, pbv, eps, ttmEps: eps, bvps, dps, dpsPrevFY: null,
     sharesOutstanding, mktCap, netDebt,
     fcfeMedian: sharesOutstanding * eps, fcfePerShare: eps,
     weightEquity, costDebtAfterTax, borrowingRatePreTax, coverage: null,
@@ -323,6 +327,15 @@ function buildRealMetrics(stock: StockItem, real: RealFinancialData): BaseMetric
 
   // D0: TTM ปันผลล่าสุด (dy ไตรมาสล่าสุด × ราคา) หรือ dps ที่มี
   const dps = real.dpsTTM ?? M.dps ?? ((dividendYield > 0 && stock.price) ? dividendYield * stock.price / 100 : 0);
+  // D0 (ปีก่อนหน้า): ปันผลรวมทั้งปี จ่ายจริงตาม ex-date — ปีปันผลปิด 30 มิ.ย.
+  // (final ของปีงบที่ปิดล่าสุด จ่าย ~ม.ค.–มิ.ย. + interim จ่าย ~ก.ค.–ธ.ค. ปีก่อน, ตรง D0 ต้นฉบับ)
+  const now = new Date();
+  const divWinStart = `${now.getFullYear() - 1}-07-01`;
+  const divWinEnd = `${now.getFullYear()}-06-30`;
+  const dpsPrevFY: number | null = (() => {
+    const win = (real.divPayments ?? []).filter((p) => p.amount > 0 && p.date >= divWinStart && p.date <= divWinEnd);
+    return win.length ? round(win.reduce((a, b) => a + b.amount, 0), 4) : null;
+  })();
   // yield และ payout แบบ TTM (ตรงแนวอ้างอิง: dy ล่าสุด, D0/TTM-EPS)
   const yieldTTM = (dps > 0 && stock.price > 0) ? dps / stock.price * 100 : dividendYield;
 
@@ -372,7 +385,7 @@ function buildRealMetrics(stock: StockItem, real: RealFinancialData): BaseMetric
   return {
     health, roe, roa, npm, gpm, dE, dividendYield: yieldTTM,
     payout: (dps && ttmEps != null && ttmEps > 0 ? (dps / ttmEps) * 100 : M.payout) as unknown as number,
-    peRatio, pbv, eps, ttmEps: ttmEps ?? 0, bvps, dps,
+    peRatio, pbv, eps, ttmEps: ttmEps ?? 0, bvps, dps, dpsPrevFY,
     sharesOutstanding, mktCap, netDebt,
     fcfeMedian, fcfePerShare: fcfeMedian / sharesOutstanding,
     weightEquity, costDebtAfterTax, borrowingRatePreTax, coverage, totalDebt,
@@ -857,7 +870,9 @@ export function deriveStockDetail(
     quality: { passCount, totalCount: 18, naCount, rules },
     sliders: sliderDefaults(stock),
     valuationBase: {
-      dividendLatest: round(m.dps, 4),
+      /** D0 = ปันผลรวมทั้งปีของปีก่อนหน้า (ช่วงจ่ายจริง 1 ก.ค.ปีก่อน–30 มิ.ย.ปีนี้);
+       *  ถ้าไม่มีประวัติจ่ายจริง ใช้ TTM (dy ไตรมาสล่าสุด × ราคา) แทน */
+      dividendLatest: round(m.dpsPrevFY ?? m.dps, 4),
       cashReceived12m: round(m.dps, 4),
       costDebtAfterTax: round(m.costDebtAfterTax, 2),
       borrowingRatePreTax: round(m.borrowingRatePreTax * 100, 2),
@@ -881,6 +896,7 @@ export function deriveStockDetail(
       realSource: useReal && real ? real.source : undefined,
       latestFY: useReal && real ? real.latestFY : null,
       dpsSource: dpsSourceKey,
+      dpsFullYear: m.dpsPrevFY != null,
       realArea: {
         scorecard: useReal,
         valuation: useReal,

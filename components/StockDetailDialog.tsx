@@ -832,7 +832,11 @@ export default function StockDetailDialog({ stock, peers, open, onClose }: Stock
                       </div>
                       <div className="flex items-center justify-between gap-2 col-span-2">
                         <span className="text-[10px] text-[#5B616E] dark:text-[#9CA3AF]">
-                          {detail.meta.dpsSource === 'thaifinDyQ'
+                          {detail.meta.dpsFullYear
+                            ? (th
+                              ? 'D0 = ปันผลรวมทั้งปีของปีก่อนหน้า (จ่ายจริง 1 ก.ค.–30 มิ.ย., yfinance)'
+                              : 'D0 = full previous-year dividend (paid Jul–Jun, yfinance)')
+                            : detail.meta.dpsSource === 'thaifinDyQ'
                             ? (th ? 'เจาะจาก dy ไตรมาสล่าสุด × ราคาปัจจุบัน (thaifin)' : 'Derived from latest-quarter yield × price (thaifin)')
                             : detail.meta.dpsSource === 'yfTtm'
                             ? (th ? 'ปันผล TTM จาก yfinance' : 'TTM div payments (yfinance)')
