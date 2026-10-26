@@ -81,6 +81,67 @@ def _try_download_page(candidate_urls: list, market_code: str, tab_slug: str):
     return None, last_err
 
 
+def _resolve_instruments(pair_ids: list, market_code: str) -> dict:
+    """Resolve masked symbols/names -> real ones via investing.com's pd-instruments API.
+
+    Tries a direct call first; from datacenter IPs (GitHub Actions) or when
+    rate-limited (403) it falls back to the Jina relay. The relay answers with
+    the JSON body wrapped inside an HTML <pre> block, which we strip out.
+    """
+    query = "&".join(f"instrument_ids={pid}" for pid in pair_ids)
+    pd_url = f"https://endpoints.investing.com/pd-instruments/v1/instruments?{query}&domain_id=1"
+    api_headers = {
+        "User-Agent": BROWSER_HEADERS["User-Agent"],
+        "Accept": "application/json, text/plain, */*",
+        "Referer": "https://www.investing.com/",
+    }
+
+    # 1) direct
+    try:
+        r2 = requests.get(pd_url, impersonate="chrome124", headers=api_headers, timeout=15)
+        if r2.status_code == 200:
+            data = r2.json() if isinstance(r2.json(), list) else r2.json().get("data", [])
+            instruments = {str(item['id']): item for item in data if isinstance(item, dict) and 'id' in item}
+            print(f"[{market_code}] pd-instruments direct: 200, {len(instruments)} instruments")
+            return instruments
+        print(f"[{market_code}] pd-instruments direct: HTTP {r2.status_code} -> trying relay")
+    except Exception as e:
+        print(f"[{market_code}] pd-instruments direct failed: {str(e)[:80]} -> trying relay")
+
+    # 2) Jina relay (returns the JSON embedded in an HTML <pre> wrapper)
+    try:
+        r3 = requests.get(
+            f"https://r.jina.ai/{pd_url}",
+            impersonate="chrome124",
+            headers={**BROWSER_HEADERS, "X-Return-Format": "html"},
+            timeout=90
+        )
+        if r3.status_code == 200:
+            import re as _re
+            raw = r3.text.strip()
+            m = _re.search(r"\[[\s\S]*\]", raw)
+            if not m:
+                m = _re.search(r"\{[\s\S]*\}", raw)
+            if m:
+                try:
+                    data = json.loads(m.group(0))
+                    if isinstance(data, dict) and "data" in data:
+                        data = data["data"]
+                    instruments = {str(item['id']): item for item in data if isinstance(item, dict) and 'id' in item}
+                    print(f"[{market_code}] pd-instruments relay: 200, {len(instruments)} instruments")
+                    return instruments
+                except Exception as pe:
+                    print(f"[{market_code}] pd-instruments relay JSON parse failed: {str(pe)[:60]}")
+            else:
+                print(f"[{market_code}] pd-instruments relay: no JSON payload found")
+        else:
+            print(f"[{market_code}] pd-instruments relay: HTTP {r3.status_code}")
+    except Exception as e:
+        print(f"[{market_code}] pd-instruments relay failed: {str(e)[:80]}")
+
+    return {}
+
+
 def _page_freshness(html: str, tab_slug: str):
     """Parse __NEXT_DATA__ and return (collection, max_lastUpdateTime_str) or (None, None)."""
     try:
@@ -155,25 +216,7 @@ def fetch_market_stocks(country_slug: str, market_code: str, tab_slug: str, curr
 
     # Resolve real symbols and company names using pd-instruments
     pair_ids = [item['id'] for item in collection]
-    query = "&".join(f"instrument_ids={pid}" for pid in pair_ids)
-    pd_url = f"https://endpoints.investing.com/pd-instruments/v1/instruments?{query}&domain_id=1"
-
-    instruments = {}
-    try:
-        r2 = requests.get(
-            pd_url,
-            impersonate="chrome124",
-            headers={
-                "User-Agent": BROWSER_HEADERS["User-Agent"],
-                "Accept": "application/json, text/plain, */*",
-                "Referer": "https://www.investing.com/",
-            },
-            timeout=15
-        )
-        if r2.status_code == 200:
-            instruments = {str(item['id']): item for item in r2.json()}
-    except Exception as e:
-        print(f"Exception resolving pd-instruments for {market_code}: {e}")
+    instruments = _resolve_instruments(pair_ids, market_code)
 
     table_tbody = soup.find('tbody')
     table_rows = table_tbody.find_all('tr') if table_tbody else []
