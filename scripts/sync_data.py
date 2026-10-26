@@ -62,7 +62,9 @@ def _try_download_page(candidate_urls: list, market_code: str, tab_slug: str):
             last_err = f"{e} ({url})"
 
     # Proxied fallback (datacenter IPs e.g. GitHub Actions)
-    for url in candidate_urls:
+    for idx, url in enumerate(candidate_urls):
+        # free relay is per-IP rate limited -> space out the calls
+        time.sleep(2.5 + idx * 2.0)
         try:
             cache_bust = ("&" if "?" in url else "?") + f"_t={int(time.time() * 1000)}"
             res = requests.get(
@@ -110,6 +112,7 @@ def _resolve_instruments(pair_ids: list, market_code: str) -> dict:
 
     # 2) Jina relay (returns the JSON embedded in an HTML <pre> wrapper)
     try:
+        time.sleep(2.0)  # free relay rate limit: space the calls
         r3 = requests.get(
             f"https://r.jina.ai/{pd_url}",
             impersonate="chrome124",
