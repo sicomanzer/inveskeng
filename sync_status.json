@@ -6,5 +6,11 @@
     "US_undervalued": 30,
     "US_overvalued": 30
   },
-  "status": "success"
+  "status": "success",
+  "financialDetails": {
+    "lastSync": "2026-10-26T12:20:14.721513+07:00",
+    "results": {
+      "US": 60
+    }
+  }
 }
