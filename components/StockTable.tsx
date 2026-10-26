@@ -13,12 +13,13 @@ import {
 } from '@tanstack/react-table';
 import { StockItem, MarketType, getRatingColor, getCanonicalRating } from '@/types/stock';
 import { useApp } from '@/context/AppContext';
-import { 
-  ArrowUpDown, 
-  ArrowUp, 
-  ArrowDown, 
-  Search, 
-  ChevronLeft, 
+import StockDetailDialog from '@/components/StockDetailDialog';
+import {
+  ArrowUpDown,
+  ArrowUp,
+  ArrowDown,
+  Search,
+  ChevronLeft,
   ChevronRight,
   Filter,
   RotateCcw
@@ -38,6 +39,8 @@ export default function StockTable({ initialData, market, valuationType = 'under
   const [healthFilter, setHealthFilter] = useState<string>('ALL');
   const [analystFilter, setAnalystFilter] = useState<string>('ALL');
   const [minUpsideFilter, setMinUpsideFilter] = useState<number>(0);
+  const [detailOpen, setDetailOpen] = useState(false);
+  const [detailSymbol, setDetailSymbol] = useState<string>('');
 
   useEffect(() => {
     setData(initialData);
@@ -97,7 +100,14 @@ export default function StockTable({ initialData, market, valuationType = 'under
           const item = row.original;
           return (
             <div className="flex items-center gap-2 py-0.5 min-w-[150px] max-w-[210px]">
-              <span className="font-bold text-[#181C21] dark:text-[#F3F4F6] text-xs md:text-sm tracking-tight hover:text-[#1256A0] dark:hover:text-[#60A5FA] cursor-pointer">
+              <span
+                onClick={() => { setDetailSymbol(item.symbol); setDetailOpen(true); }}
+                onKeyPress={(e) => { if (e.key === 'Enter') { setDetailSymbol(item.symbol); setDetailOpen(true); } }}
+                tabIndex={0}
+                role="button"
+                title={lang === 'th' ? 'เปิดตัวคัดสรุปมูลค่าหุ้น' : 'Open value screener'}
+                className="font-bold text-[#181C21] dark:text-[#F3F4F6] text-xs md:text-sm tracking-tight hover:text-[#1256A0] dark:hover:text-[#60A5FA] hover:underline decoration-dotted underline-offset-2 cursor-pointer transition"
+              >
                 {item.symbol}
               </span>
               <a
@@ -715,7 +725,15 @@ export default function StockTable({ initialData, market, valuationType = 'under
             <ChevronRight className="w-3.5 h-3.5" />
           </button>
         </div>
-      </div>
+       </div>
+
+      {/* Stock Detail Dialog (popup) - เปิดเมื่อกดที่ชื่อย่อหุ้น */}
+      <StockDetailDialog
+        open={detailOpen}
+        onClose={() => setDetailOpen(false)}
+        stock={data.find((s) => s.symbol === detailSymbol) || null}
+        peers={data}
+      />
     </div>
   );
 }
