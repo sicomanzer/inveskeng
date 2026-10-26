@@ -12,8 +12,8 @@
     "fairValueUpside": -29.46,
     "peRatio": 42.9,
     "evEbitda": 21.48,
-    "marketCap": 54620000000,
-    "marketCapFormatted": "54.62 พันล้าน",
+    "marketCap": 54580000000,
+    "marketCapFormatted": "54.58 พันล้าน",
     "epsGrowth5y": 0.8,
     "changeOneDayPercent": 1.09,
     "financialHealth": "ดี",
@@ -25,7 +25,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-26T18:19:36.749279+07:00"
+    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
   },
   {
     "id": "102567",
@@ -38,10 +38,10 @@
     "currencySymbol": "฿",
     "fairValue": 90.03,
     "fairValueUpside": -25.6,
-    "peRatio": 12.28,
+    "peRatio": 12.14,
     "evEbitda": 0.0,
-    "marketCap": 102990000000,
-    "marketCapFormatted": "102.99 พันล้าน",
+    "marketCap": 102920000000,
+    "marketCapFormatted": "102.92 พันล้าน",
     "epsGrowth5y": 0.11,
     "changeOneDayPercent": 3.42,
     "financialHealth": "ดี",
@@ -53,7 +53,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-26T18:19:36.749279+07:00"
+    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
   },
   {
     "id": "102569",
@@ -68,8 +68,8 @@
     "fairValueUpside": -21.25,
     "peRatio": 12.83,
     "evEbitda": 0.0,
-    "marketCap": 587540000000,
-    "marketCapFormatted": "587.54 พันล้าน",
+    "marketCap": 587140000000,
+    "marketCapFormatted": "587.14 พันล้าน",
     "epsGrowth5y": 0.24,
     "changeOneDayPercent": 2.33,
     "financialHealth": "ดี",
@@ -81,7 +81,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-26T18:19:36.749279+07:00"
+    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
   },
   {
     "id": "102751",
@@ -109,7 +109,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-26T18:19:36.749279+07:00"
+    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
   },
   {
     "id": "989494",
@@ -137,7 +137,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-26T18:19:36.749279+07:00"
+    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
   },
   {
     "id": "1130942",
@@ -165,7 +165,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-26T18:19:36.749279+07:00"
+    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
   },
   {
     "id": "102869",
@@ -193,7 +193,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-26T18:19:36.749279+07:00"
+    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
   },
   {
     "id": "1242508",
@@ -221,7 +221,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-26T18:19:36.749279+07:00"
+    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
   },
   {
     "id": "986147",
@@ -249,7 +249,35 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-26T18:19:36.749279+07:00"
+    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
+  },
+  {
+    "id": "986137",
+    "symbol": "ALT",
+    "name": "ALT Telecom PCL",
+    "shortName": "ALT Telecom",
+    "link": "https://www.investing.com/equities/alt-telecom-pcl",
+    "price": 1.66,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 1.357,
+    "fairValueUpside": -18.25,
+    "peRatio": 95.95,
+    "evEbitda": 13.47,
+    "marketCap": 1850000000,
+    "marketCapFormatted": "1.85 พันล้าน",
+    "epsGrowth5y": -1.79,
+    "changeOneDayPercent": -0.6,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดี",
+    "financialProfitabilityHealth": "มูลค่าตามจริง",
+    "analystRatings": "-",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
   },
   {
     "id": "102714",
@@ -277,35 +305,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-26T18:19:36.749279+07:00"
-  },
-  {
-    "id": "102683",
-    "symbol": "RATCH",
-    "name": "RATCH Group Public Company Limited",
-    "shortName": "Ratch Group",
-    "link": "https://www.investing.com/equities/ratchaburi",
-    "price": 39.25,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 32.79,
-    "fairValueUpside": -16.47,
-    "peRatio": 15.32,
-    "evEbitda": 33.47,
-    "marketCap": 85370000000,
-    "marketCapFormatted": "85.37 พันล้าน",
-    "epsGrowth5y": -0.05,
-    "changeOneDayPercent": 1.29,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "มูลค่าตามจริง",
-    "analystRatings": "ซื้อ",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-26T18:19:36.749279+07:00"
+    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
   },
   {
     "id": "102540",
@@ -320,8 +320,8 @@
     "fairValueUpside": -16.1,
     "peRatio": -46.57,
     "evEbitda": 11.07,
-    "marketCap": 154160000000,
-    "marketCapFormatted": "154.16 พันล้าน",
+    "marketCap": 154060000000,
+    "marketCapFormatted": "154.06 พันล้าน",
     "epsGrowth5y": 0.73,
     "changeOneDayPercent": 1.87,
     "financialHealth": "ดี",
@@ -333,7 +333,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-26T18:19:36.749279+07:00"
+    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
   },
   {
     "id": "102757",
@@ -361,7 +361,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-26T18:19:36.749279+07:00"
+    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
   },
   {
     "id": "102672",
@@ -389,35 +389,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-26T18:19:36.749279+07:00"
-  },
-  {
-    "id": "102756",
-    "symbol": "SMT",
-    "name": "Stars Microelectronics Thailand PCL",
-    "shortName": "Stars Microelectronics",
-    "link": "https://www.investing.com/equities/stars-microele",
-    "price": 7.35,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 6.249,
-    "fairValueUpside": -14.98,
-    "peRatio": -1006.85,
-    "evEbitda": 38.6,
-    "marketCap": 5980000000,
-    "marketCapFormatted": "5.98 พันล้าน",
-    "epsGrowth5y": 0.01,
-    "changeOneDayPercent": 2.08,
-    "financialHealth": "มูลค่าตามจริง",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "แย่",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-26T18:19:36.749279+07:00"
+    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
   },
   {
     "id": "102561",
@@ -445,7 +417,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-26T18:19:36.749279+07:00"
+    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
   },
   {
     "id": "102442",
@@ -473,7 +445,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-26T18:19:36.749279+07:00"
+    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
   },
   {
     "id": "1008691",
@@ -501,7 +473,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-26T18:19:36.749279+07:00"
+    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
   },
   {
     "id": "102560",
@@ -529,7 +501,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-26T18:19:36.749279+07:00"
+    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
   },
   {
     "id": "1162301",
@@ -557,34 +529,34 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-26T18:19:36.749279+07:00"
+    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
   },
   {
-    "id": "102748",
-    "symbol": "SPCG",
-    "name": "SPCG PCL",
-    "shortName": "SPCG",
-    "link": "https://www.investing.com/equities/spcg",
-    "price": 11.7,
+    "id": "102817",
+    "symbol": "GST",
+    "name": "Gulf Space Technology Public Company limited",
+    "shortName": "Gulf Space Tech Public",
+    "link": "https://www.investing.com/equities/thaicom",
+    "price": 9.55,
     "currency": "THB",
     "currencySymbol": "฿",
-    "fairValue": 10.45,
-    "fairValueUpside": -10.7,
-    "peRatio": 33.53,
-    "evEbitda": 11.47,
-    "marketCap": 12350000000,
-    "marketCapFormatted": "12.35 พันล้าน",
-    "epsGrowth5y": -0.29,
-    "changeOneDayPercent": 0.0,
+    "fairValue": 8.59,
+    "fairValueUpside": -10.02,
+    "peRatio": 16.66,
+    "evEbitda": 12.33,
+    "marketCap": 9960000000,
+    "marketCapFormatted": "9.96 พันล้าน",
+    "epsGrowth5y": 1.31,
+    "changeOneDayPercent": -1.04,
     "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดีเยี่ยม",
-    "financialGrowthHealth": "แย่",
-    "financialProfitabilityHealth": "มูลค่าตามจริง",
-    "analystRatings": "-",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดี",
+    "analystRatings": "ซื้อ",
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-26T18:19:36.749279+07:00"
+    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
   }
 ]
