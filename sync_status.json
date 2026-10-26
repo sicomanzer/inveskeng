@@ -12,5 +12,11 @@
     "US_undervalued": 30,
     "US_overvalued": 30
   },
-  "status": "partial"
+  "status": "partial",
+  "financialDetails": {
+    "lastSync": "2026-10-27T05:18:52.345193+07:00",
+    "results": {
+      "US": 60
+    }
+  }
 }
