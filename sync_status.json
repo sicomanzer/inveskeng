@@ -1,16 +1,10 @@
 {
-  "lastSync": "2026-10-26T12:10:01.739102+07:00",
+  "lastSync": "2026-10-26T13:10:57.758453+07:00",
   "results": {
-    "SET_undervalued": 29,
+    "SET_undervalued": null,
     "SET_overvalued": 21,
     "US_undervalued": 30,
     "US_overvalued": 30
   },
-  "status": "success",
-  "financialDetails": {
-    "lastSync": "2026-10-26T12:20:14.721513+07:00",
-    "results": {
-      "US": 60
-    }
-  }
+  "status": "partial"
 }

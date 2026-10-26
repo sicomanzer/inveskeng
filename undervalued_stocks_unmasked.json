@@ -25,7 +25,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-26T12:09:41.125123+07:00"
+    "lastUpdateTime": "2026-10-26T13:10:23.028676+07:00"
   },
   {
     "id": "15722",
@@ -53,7 +53,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-26T12:09:41.125123+07:00"
+    "lastUpdateTime": "2026-10-26T13:10:23.028676+07:00"
   },
   {
     "id": "8042",
@@ -81,7 +81,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-26T12:09:41.125123+07:00"
+    "lastUpdateTime": "2026-10-26T13:10:23.028676+07:00"
   },
   {
     "id": "32341",
@@ -109,7 +109,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-26T12:09:41.125123+07:00"
+    "lastUpdateTime": "2026-10-26T13:10:23.028676+07:00"
   },
   {
     "id": "8175",
@@ -137,7 +137,63 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-26T12:09:41.125123+07:00"
+    "lastUpdateTime": "2026-10-26T13:10:23.028676+07:00"
+  },
+  {
+    "id": "956170",
+    "symbol": "PYPL",
+    "name": "PayPal Holdings Inc",
+    "shortName": "PayPal",
+    "link": "https://www.investing.com/equities/paypal-holdings-inc",
+    "price": 57.02,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 92.59,
+    "fairValueUpside": 62.38,
+    "peRatio": 10.76,
+    "evEbitda": 7.39,
+    "marketCap": 48780000000,
+    "marketCapFormatted": "48.78 พันล้าน",
+    "epsGrowth5y": 0.17,
+    "changeOneDayPercent": -0.89,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "ดี",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ถือหุ้นไว้",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-26T13:10:23.028676+07:00"
+  },
+  {
+    "id": "6370",
+    "symbol": "FISV",
+    "name": "Fiserv Inc",
+    "shortName": "Fiserv",
+    "link": "https://www.investing.com/equities/fiserv-inc",
+    "price": 49.86,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 80.59,
+    "fairValueUpside": 61.64,
+    "peRatio": 9.55,
+    "evEbitda": 6.83,
+    "marketCap": 26510000000,
+    "marketCapFormatted": "26.51 พันล้าน",
+    "epsGrowth5y": 0.37,
+    "changeOneDayPercent": -1.89,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดี",
+    "analystRatings": "ถือหุ้นไว้",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-26T13:10:23.028676+07:00"
   },
   {
     "id": "6373",
@@ -165,7 +221,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-26T12:09:41.125123+07:00"
+    "lastUpdateTime": "2026-10-26T13:10:23.028676+07:00"
   },
   {
     "id": "39152",
@@ -193,7 +249,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-26T12:09:41.125123+07:00"
+    "lastUpdateTime": "2026-10-26T13:10:23.028676+07:00"
   },
   {
     "id": "6448",
@@ -221,7 +277,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-26T12:09:41.125123+07:00"
+    "lastUpdateTime": "2026-10-26T13:10:23.028676+07:00"
   },
   {
     "id": "32331",
@@ -249,7 +305,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-26T12:09:41.125123+07:00"
+    "lastUpdateTime": "2026-10-26T13:10:23.028676+07:00"
   },
   {
     "id": "7889",
@@ -277,7 +333,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-26T12:09:41.125123+07:00"
+    "lastUpdateTime": "2026-10-26T13:10:23.028676+07:00"
   },
   {
     "id": "1220843",
@@ -305,7 +361,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-26T12:09:41.125123+07:00"
+    "lastUpdateTime": "2026-10-26T13:10:23.028676+07:00"
   },
   {
     "id": "17195",
@@ -333,7 +389,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-26T12:09:41.125123+07:00"
+    "lastUpdateTime": "2026-10-26T13:10:23.028676+07:00"
   },
   {
     "id": "6516",
@@ -361,7 +417,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-26T12:09:41.125123+07:00"
+    "lastUpdateTime": "2026-10-26T13:10:23.028676+07:00"
   },
   {
     "id": "32391",
@@ -389,7 +445,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-26T12:09:41.125123+07:00"
+    "lastUpdateTime": "2026-10-26T13:10:23.028676+07:00"
   },
   {
     "id": "39277",
@@ -417,7 +473,35 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-26T12:09:41.125123+07:00"
+    "lastUpdateTime": "2026-10-26T13:10:23.028676+07:00"
+  },
+  {
+    "id": "19694",
+    "symbol": "TMUS",
+    "name": "T-Mobile US Inc",
+    "shortName": "T-Mobile US",
+    "link": "https://www.investing.com/equities/metropcs-communications",
+    "price": 146.54,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 213.05,
+    "fairValueUpside": 45.39,
+    "peRatio": 15.43,
+    "evEbitda": 7.99,
+    "marketCap": 157190000000,
+    "marketCapFormatted": "157.19 พันล้าน",
+    "epsGrowth5y": 0.6,
+    "changeOneDayPercent": -7.71,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-26T13:10:23.028676+07:00"
   },
   {
     "id": "6497",
@@ -445,7 +529,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-26T12:09:41.125123+07:00"
+    "lastUpdateTime": "2026-10-26T13:10:23.028676+07:00"
   },
   {
     "id": "41176",
@@ -473,7 +557,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-26T12:09:41.125123+07:00"
+    "lastUpdateTime": "2026-10-26T13:10:23.028676+07:00"
   },
   {
     "id": "39147",
@@ -501,7 +585,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-26T12:09:41.125123+07:00"
+    "lastUpdateTime": "2026-10-26T13:10:23.028676+07:00"
   },
   {
     "id": "15828",
@@ -529,7 +613,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-26T12:09:41.125123+07:00"
+    "lastUpdateTime": "2026-10-26T13:10:23.028676+07:00"
   },
   {
     "id": "32381",
@@ -557,7 +641,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-26T12:09:41.125123+07:00"
+    "lastUpdateTime": "2026-10-26T13:10:23.028676+07:00"
   },
   {
     "id": "6392",
@@ -585,7 +669,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-26T12:09:41.125123+07:00"
+    "lastUpdateTime": "2026-10-26T13:10:23.028676+07:00"
   },
   {
     "id": "31028",
@@ -613,7 +697,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-26T12:09:41.125123+07:00"
+    "lastUpdateTime": "2026-10-26T13:10:23.028676+07:00"
   },
   {
     "id": "13969",
@@ -641,7 +725,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-26T12:09:41.125123+07:00"
+    "lastUpdateTime": "2026-10-26T13:10:23.028676+07:00"
   },
   {
     "id": "8280",
@@ -669,7 +753,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-26T12:09:41.125123+07:00"
+    "lastUpdateTime": "2026-10-26T13:10:23.028676+07:00"
   },
   {
     "id": "8294",
@@ -697,7 +781,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-26T12:09:41.125123+07:00"
+    "lastUpdateTime": "2026-10-26T13:10:23.028676+07:00"
   },
   {
     "id": "13850",
@@ -725,7 +809,7 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-26T12:09:41.125123+07:00"
+    "lastUpdateTime": "2026-10-26T13:10:23.028676+07:00"
   },
   {
     "id": "39135",
@@ -753,90 +837,6 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-26T12:09:41.125123+07:00"
-  },
-  {
-    "id": "8063",
-    "symbol": "TAP",
-    "name": "Molson Coors Beverage Company Class B",
-    "shortName": "Molson Coors B",
-    "link": "https://www.investing.com/equities/molson-coors",
-    "price": 41.21,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 56.01,
-    "fairValueUpside": 35.9,
-    "peRatio": -3.42,
-    "evEbitda": 5.97,
-    "marketCap": 7690000000,
-    "marketCapFormatted": "7.69 พันล้าน",
-    "epsGrowth5y": 1.64,
-    "changeOneDayPercent": -1.1,
-    "financialHealth": "มูลค่าตามจริง",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "แย่",
-    "financialProfitabilityHealth": "มูลค่าตามจริง",
-    "analystRatings": "ถือหุ้นไว้",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-26T12:09:41.125123+07:00"
-  },
-  {
-    "id": "1115848",
-    "symbol": "UBER",
-    "name": "Uber Technologies Inc",
-    "shortName": "Uber",
-    "link": "https://www.investing.com/equities/uber-technologies-inc",
-    "price": 66.7,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 90.35,
-    "fairValueUpside": 35.45,
-    "peRatio": 14.61,
-    "evEbitda": 17.33,
-    "marketCap": 136240000000,
-    "marketCapFormatted": "136.24 พันล้าน",
-    "epsGrowth5y": 0.44,
-    "changeOneDayPercent": -3.43,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดีเยี่ยม",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-26T12:09:41.125123+07:00"
-  },
-  {
-    "id": "8310",
-    "symbol": "USB",
-    "name": "U.S. Bancorp",
-    "shortName": "U.S. Bancorp",
-    "link": "https://www.investing.com/equities/us-bancorp",
-    "price": 59.58,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 80.63,
-    "fairValueUpside": 35.33,
-    "peRatio": 11.6,
-    "evEbitda": 0.0,
-    "marketCap": 92840000000,
-    "marketCapFormatted": "92.84 พันล้าน",
-    "epsGrowth5y": 0.07,
-    "changeOneDayPercent": -0.73,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "ดี",
-    "financialProfitabilityHealth": "ดี",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-26T12:09:41.125123+07:00"
+    "lastUpdateTime": "2026-10-26T13:10:23.028676+07:00"
   }
 ]
