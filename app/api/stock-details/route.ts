@@ -6,6 +6,47 @@ export const dynamic = 'force-dynamic';
 export const revalidate = 0;
 export const fetchCache = 'force-no-store';
 
+const GH_REPO = 'sicomanzer/inveskeng';
+
+/**
+ * Fresh file fetch from the repo. raw.githubusercontent serves CDN-cached
+ * content (same URL, stale for minutes even with a cache-buster query), so
+ * prefer the Contents API when a PAT is configured — it is always fresh.
+ */
+async function ghFileJson(fileName: string): Promise<unknown | null> {
+  const pat = process.env.GITHUB_PAT;
+  if (pat) {
+    try {
+      const apiRes = await fetch(
+        `https://api.github.com/repos/${GH_REPO}/contents/${fileName}?ref=main&_t=${Date.now()}`,
+        {
+          cache: 'no-store',
+          headers: {
+            Authorization: `Bearer ${pat}`,
+            Accept: 'application/vnd.github.raw',
+            'Cache-Control': 'no-cache',
+          },
+        },
+      );
+      if (apiRes.ok) {
+        const parsed = await apiRes.json();
+        if (parsed && typeof parsed === 'object') return parsed;
+      }
+    } catch {
+      // fall through to raw
+    }
+  }
+  try {
+    const rawUrl = `https://raw.githubusercontent.com/${GH_REPO}/main/${fileName}?_t=${Date.now()}`;
+    const res = await fetch(rawUrl, { cache: 'no-store', headers: { 'Cache-Control': 'no-cache' } });
+    if (res.ok) {
+      const parsed = await res.json();
+      if (parsed && typeof parsed === 'object') return parsed;
+    }
+  } catch {}
+  return null;
+}
+
 /**
  * GET /api/stock-details?market=SET|US&symbol=BBIK
  *
@@ -14,8 +55,7 @@ export const fetchCache = 'force-no-store';
  * - ส่ง symbol เดียว: return { symbol, real: <data> } (หรือ real: null ถ้าไม่มี)
  * - ไม่ส่ง symbol:    return { items: <ทั้งตลาด>, total }
  *
- * Local file ก่อนเสมอ; ถ้าไม่มี (เช่น Vercel) ลอง GitHub raw fallback
- * เหมือน /api/stocks
+ * API-first (always fresh) -> GitHub raw fallback (CDN may cache a few minutes)
  */
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
@@ -42,25 +82,10 @@ export async function GET(request: Request) {
     }
   }
 
-  // 2. GitHub raw fallback (Vercel, or missing local file)
+  // 2. GitHub (Contents API with PAT, raw fallback) — for Vercel or missing local file
   if (!record) {
-    try {
-      const rawUrl = `https://raw.githubusercontent.com/sicomanzer/inveskeng/main/${fileName}?_t=${Date.now()}`;
-      const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 8000);
-      const ghRes = await fetch(rawUrl, {
-        signal: controller.signal,
-        cache: 'no-store',
-        headers: { 'Cache-Control': 'no-cache' },
-      });
-      clearTimeout(timeoutId);
-      if (ghRes.ok) {
-        const parsed = await ghRes.json();
-        if (parsed && typeof parsed === 'object') record = parsed;
-      }
-    } catch {
-      // network error / timeout — fall through
-    }
+    const parsed = await ghFileJson(fileName);
+    if (parsed) record = parsed as Record<string, unknown>;
   }
 
   // 3. Last resort: local file again (in case of odd env detection)

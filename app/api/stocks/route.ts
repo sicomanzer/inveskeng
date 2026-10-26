@@ -9,6 +9,37 @@ export const dynamic = 'force-dynamic';
 export const revalidate = 0;
 export const fetchCache = 'force-no-store';
 
+const GH_REPO = 'sicomanzer/inveskeng';
+
+/** Fresh file fetch: Contents API (with PAT) first — raw.githubusercontent
+ *  CDN can serve a stale copy of the same URL for minutes even with a
+ *  cache-buster. raw fallback keeps the route working without a PAT. */
+async function ghFileJson(fileName: string): Promise<unknown | null> {
+  const pat = process.env.GITHUB_PAT;
+  if (pat) {
+    try {
+      const apiRes = await fetch(
+        `https://api.github.com/repos/${GH_REPO}/contents/${fileName}?ref=main&_t=${Date.now()}`,
+        {
+          cache: 'no-store',
+          headers: {
+            Authorization: `Bearer ${pat}`,
+            Accept: 'application/vnd.github.raw',
+            'Cache-Control': 'no-cache',
+          },
+        },
+      );
+      if (apiRes.ok) return await apiRes.json();
+    } catch {}
+  }
+  try {
+    const rawUrl = `https://raw.githubusercontent.com/${GH_REPO}/main/${fileName}?_t=${Date.now()}`;
+    const res = await fetch(rawUrl, { cache: 'no-store', headers: { 'Cache-Control': 'no-cache' } });
+    if (res.ok) return await res.json();
+  } catch {}
+  return null;
+}
+
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   const rawMarket = searchParams.get('market')?.toUpperCase() || 'SET';
@@ -60,32 +91,14 @@ export async function GET(request: Request) {
     }
   }
 
-  // 2. On Vercel (or locally if local file not found), fetch freshly committed data from GitHub raw
+  // 2. On Vercel (or locally if local file not found), fetch freshly committed data from GitHub
   if (!items || items.length === 0) {
-    // raw.githubusercontent is slow on cold Lambda boots: one 3s attempt can
-    // fail every time and fall back to build-time data (looks stale forever).
-    // Retry with a longer deadline before serving the bundled snapshot.
-    for (let attempt = 0; attempt < 2 && (!items || items.length === 0); attempt++) {
-      try {
-        const rawUrl = `https://raw.githubusercontent.com/sicomanzer/inveskeng/main/${fileName}?_t=${Date.now()}`;
-        const controller = new AbortController();
-        const timeoutId = setTimeout(() => controller.abort(), attempt === 0 ? 8000 : 12000);
-
-        const ghRes = await fetch(rawUrl, {
-          signal: controller.signal,
-          cache: 'no-store',
-          headers: { 'Cache-Control': 'no-cache' }
-        });
-        clearTimeout(timeoutId);
-
-        if (ghRes.ok) {
-          const ghItems = await ghRes.json();
-          if (Array.isArray(ghItems) && ghItems.length > 0) {
-            items = ghItems;
-          }
-        }
-      } catch (ghErr) {
-        // Network timeout or error fetching from GitHub raw
+    // one retry round-trip: cold Lambda + slow raw responses used to make this
+    // fail every time and silently serve build-time data
+    for (let attempt = 0; attempt < 3 && (!items || items.length === 0); attempt++) {
+      const parsed = await ghFileJson(fileName);
+      if (Array.isArray(parsed) && parsed.length > 0) {
+        items = parsed as StockItem[];
       }
     }
   }
@@ -115,17 +128,10 @@ export async function GET(request: Request) {
 
   if (!syncStatus || !syncStatus.lastSync || isVercel) {
     try {
-      const statusUrl = `https://raw.githubusercontent.com/sicomanzer/inveskeng/main/sync_status.json?_t=${Date.now()}`;
-      const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 8000);
-      const statusRes = await fetch(statusUrl, {
-        signal: controller.signal,
-        cache: 'no-store',
-        headers: { 'Cache-Control': 'no-cache' }
-      });
-      clearTimeout(timeoutId);
-      if (statusRes.ok) {
-        syncStatus = await statusRes.json();
+      const parsed = await ghFileJson('sync_status.json');
+      if (parsed) syncStatus = parsed;
+      if (!syncStatus.lastSync) {
+        syncStatus = { lastSync: new Date().toISOString(), status: 'idle' };
       }
     } catch (e) {
       if (fs.existsSync(statusPath)) {
