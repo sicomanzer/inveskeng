@@ -66,7 +66,7 @@ async function handleSync(request: Request) {
 
   try {
     const cmd = `python "${scriptPath}" --market=${market} --push`;
-    const { stdout } = await execAsync(cmd, { timeout: 60000 });
+    const { stdout } = await execAsync(cmd, { timeout: 180000 });
 
     const statusPath = path.join(baseDir, 'sync_status.json');
     let syncStatus: any = {};

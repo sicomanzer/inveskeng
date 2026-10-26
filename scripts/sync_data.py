@@ -3,6 +3,7 @@ import json
 import sys
 import os
 import subprocess
+import time
 from datetime import datetime, timezone, timedelta
 from curl_cffi import requests
 from bs4 import BeautifulSoup
@@ -37,6 +38,65 @@ def clean_float(val, fallback=None):
     except:
         return fallback
 
+def _try_download_page(candidate_urls: list, market_code: str, tab_slug: str):
+    """One download round-trip: try every candidate URL, return (html, chosen_url) or (None, last_err).
+
+    Strategy:
+      1. Direct requests (works from residential IPs / local machines).
+      2. Jina Reader HTML relay — investing.com blocks datacenter IPs (GitHub
+         Actions runners get instant connection resets), but r.jina.ai returns
+         the full original HTML (incl. __NEXT_DATA__ and the rendered table).
+    """
+    last_err = None
+    for url in candidate_urls:
+        try:
+            cache_bust = ("&" if "?" in url else "?") + f"_t={int(time.time() * 1000)}"
+            res = requests.get(
+                url + cache_bust, impersonate="chrome124",
+                headers=BROWSER_HEADERS, timeout=25
+            )
+            if res.status_code == 200 and len(res.text) > 100000:
+                return res.text, url
+            last_err = f"HTTP {res.status_code} len={len(res.text)} ({url})"
+        except Exception as e:
+            last_err = f"{e} ({url})"
+
+    # Proxied fallback (datacenter IPs e.g. GitHub Actions)
+    for url in candidate_urls:
+        try:
+            cache_bust = ("&" if "?" in url else "?") + f"_t={int(time.time() * 1000)}"
+            res = requests.get(
+                f"https://r.jina.ai/{url}{cache_bust}",
+                impersonate="chrome124",
+                headers={**BROWSER_HEADERS, "X-Return-Format": "html"},
+                timeout=90,
+            )
+            if res.status_code == 200 and "__NEXT_DATA__" in res.text and "fairValueUpside" in res.text:
+                return res.text, f"jina-relay({url})"
+            last_err = f"relay HTTP {res.status_code} len={len(res.text)} ({url})"
+        except Exception as e:
+            last_err = f"relay {str(e)[:80]} ({url})"
+
+    print(f"Error fetching page ({market_code} {tab_slug}): {last_err}")
+    return None, last_err
+
+
+def _page_freshness(html: str, tab_slug: str):
+    """Parse __NEXT_DATA__ and return (collection, max_lastUpdateTime_str) or (None, None)."""
+    try:
+        soup = BeautifulSoup(html, "html.parser")
+        script = soup.find("script", id="__NEXT_DATA__")
+        if not script or not script.string:
+            return None, None
+        page_data = json.loads(script.string)
+        collection = page_data["props"]["pageProps"]["state"]["investingProRatingsStore"]["assetsCollections"][tab_slug]["_collection"]
+        timestamps = [item.get("lastUpdateTime") or "" for item in collection]
+        max_ts = max(timestamps) if timestamps else ""
+        return collection, max_ts
+    except Exception:
+        return None, None
+
+
 def fetch_market_stocks(country_slug: str, market_code: str, tab_slug: str, currency: str, curr_sym: str, out_filename: str):
     print(f"[{datetime.now().strftime('%H:%M:%S')}] Fetching {market_code} ({tab_slug}) from Investing.com...")
 
@@ -58,45 +118,46 @@ def fetch_market_stocks(country_slug: str, market_code: str, tab_slug: str, curr
             f"https://www.investing.com/equities/{country_slug}/most-{tab_slug}",
         ]
 
-    r = None
-    last_err = None
-    chosen_url = None
-    for url in candidate_urls:
-        try:
-            res = requests.get(url, impersonate="chrome124", headers=BROWSER_HEADERS, timeout=25)
-            if res.status_code == 200 and len(res.text) > 10000:
-                r = res
-                chosen_url = url
-                break
-            else:
-                last_err = f"HTTP {res.status_code} ({url})"
-        except Exception as e:
-            last_err = f"{e} ({url})"
+    # Investing.com's CDN randomly serves a STALE cached copy of this page
+    # (~seconds to minutes old). Download several rounds and keep the copy with
+    # the newest lastUpdateTime from __NEXT_DATA__ — a deterministic freshness
+    # check instead of trusting a single request that may hit an old edge cache.
+    max_attempts = 3
+    best_html = best_collection = None
+    best_ts = ""
+    for attempt in range(max_attempts):
+        html, err = _try_download_page(candidate_urls, market_code, tab_slug)
+        if not html:
+            continue
+        collection, max_ts = _page_freshness(html, tab_slug)
+        if collection is None:
+            continue
+        print(f"[{datetime.now().strftime('%H:%M:%S')}]   attempt {attempt + 1}/{max_attempts}: lastUpdateTime={max_ts}")
+        if best_html is None or max_ts >= best_ts:
+            best_html, best_collection, best_ts = html, collection, max_ts
+        # Stop early once two rounds agree on the same newest timestamp.
+        if best_ts and max_ts == best_ts and attempt >= 1:
+            break
+        if attempt < max_attempts - 1:
+            time.sleep(0.8)
 
-    if not r:
-        print(f"Error fetching page ({market_code} {tab_slug}): {last_err}")
+    if not best_html:
+        print(f"No usable page for {market_code} {tab_slug}")
         return None
+
+    html = best_html
+    collection = best_collection
+    chosen_url = f"(best freshness lastUpdateTime={best_ts})"
 
     print(f"[{datetime.now().strftime('%H:%M:%S')}] Successfully downloaded {market_code} from {chosen_url}")
 
-    soup = BeautifulSoup(r.text, 'html.parser')
-    script = soup.find('script', id='__NEXT_DATA__')
-    if not script or not script.string:
-        print(f"No __NEXT_DATA__ found for {market_code} {tab_slug}")
-        return None
-
-    try:
-        page_data = json.loads(script.string)
-        collection = page_data['props']['pageProps']['state']['investingProRatingsStore']['assetsCollections'][tab_slug]['_collection']
-    except Exception as e:
-        print(f"Failed to parse __NEXT_DATA__ for {market_code} {tab_slug}: {e}")
-        return None
+    soup = BeautifulSoup(html, "html.parser")
 
     # Resolve real symbols and company names using pd-instruments
     pair_ids = [item['id'] for item in collection]
     query = "&".join(f"instrument_ids={pid}" for pid in pair_ids)
     pd_url = f"https://endpoints.investing.com/pd-instruments/v1/instruments?{query}&domain_id=1"
-    
+
     instruments = {}
     try:
         r2 = requests.get(
