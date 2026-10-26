@@ -62,26 +62,31 @@ export async function GET(request: Request) {
 
   // 2. On Vercel (or locally if local file not found), fetch freshly committed data from GitHub raw
   if (!items || items.length === 0) {
-    try {
-      const rawUrl = `https://raw.githubusercontent.com/sicomanzer/inveskeng/main/${fileName}?_t=${Date.now()}`;
-      const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 3000);
+    // raw.githubusercontent is slow on cold Lambda boots: one 3s attempt can
+    // fail every time and fall back to build-time data (looks stale forever).
+    // Retry with a longer deadline before serving the bundled snapshot.
+    for (let attempt = 0; attempt < 2 && (!items || items.length === 0); attempt++) {
+      try {
+        const rawUrl = `https://raw.githubusercontent.com/sicomanzer/inveskeng/main/${fileName}?_t=${Date.now()}`;
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), attempt === 0 ? 8000 : 12000);
 
-      const ghRes = await fetch(rawUrl, {
-        signal: controller.signal,
-        cache: 'no-store',
-        headers: { 'Cache-Control': 'no-cache' }
-      });
-      clearTimeout(timeoutId);
+        const ghRes = await fetch(rawUrl, {
+          signal: controller.signal,
+          cache: 'no-store',
+          headers: { 'Cache-Control': 'no-cache' }
+        });
+        clearTimeout(timeoutId);
 
-      if (ghRes.ok) {
-        const ghItems = await ghRes.json();
-        if (Array.isArray(ghItems) && ghItems.length > 0) {
-          items = ghItems;
+        if (ghRes.ok) {
+          const ghItems = await ghRes.json();
+          if (Array.isArray(ghItems) && ghItems.length > 0) {
+            items = ghItems;
+          }
         }
+      } catch (ghErr) {
+        // Network timeout or error fetching from GitHub raw
       }
-    } catch (ghErr) {
-      // Network timeout or error fetching from GitHub raw
     }
   }
 
@@ -112,7 +117,7 @@ export async function GET(request: Request) {
     try {
       const statusUrl = `https://raw.githubusercontent.com/sicomanzer/inveskeng/main/sync_status.json?_t=${Date.now()}`;
       const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 2000);
+      const timeoutId = setTimeout(() => controller.abort(), 8000);
       const statusRes = await fetch(statusUrl, {
         signal: controller.signal,
         cache: 'no-store',

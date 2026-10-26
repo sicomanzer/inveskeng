@@ -47,7 +47,7 @@ export async function GET(request: Request) {
     try {
       const rawUrl = `https://raw.githubusercontent.com/sicomanzer/inveskeng/main/${fileName}?_t=${Date.now()}`;
       const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 3000);
+      const timeoutId = setTimeout(() => controller.abort(), 8000);
       const ghRes = await fetch(rawUrl, {
         signal: controller.signal,
         cache: 'no-store',
