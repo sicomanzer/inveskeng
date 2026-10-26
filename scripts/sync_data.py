@@ -212,7 +212,7 @@ def fetch_market_stocks(country_slug: str, market_code: str, tab_slug: str, curr
 
     if not best_html:
         print(f"No usable page for {market_code} {tab_slug}")
-        return None
+        return None, None
 
     html = best_html
     collection = best_collection
