@@ -87,6 +87,177 @@ def enable_finnomena_relay():
     httpx.Client.get = patched_get
 
 
+def _fnum(v):
+    """float(v) unless nan/None/str-garbage."""
+    try:
+        f = float(v)
+        return f if f == f and abs(f) != float("inf") else None
+    except (TypeError, ValueError):
+        return None
+
+
+def _weekly_price_history(ticker: str):
+    """Weekly close history (date, close), longest window Yahoo exposes (~max)"""
+    try:
+        import pandas as pd
+        import yfinance as _yf
+        hist = _yf.Ticker(ticker).history(period="max", interval="1wk")
+        if hist is None or hist.empty:
+            return []
+        closes = hist["Close"].dropna()
+        rows = []
+        for dt, c in closes.items():
+            try:
+                d = pd.Timestamp(dt).tz_localize(None).to_pydatetime()
+            except Exception:
+                continue
+            v = _fnum(c)
+            if v is not None and v > 0:
+                rows.append((d, v))
+        # Match the reference popup window: ~4.5 years of weekly points
+        rows.sort(key=lambda r: r[0])
+        keep = int(52 * 4.5) + 1
+        if len(rows) > keep:
+            rows = rows[-keep:]
+        return rows
+    except Exception as e:
+        print(f"   -> weekly price history unavailable ({str(e)[:60]})")
+        return []
+
+
+def _weekly_band_series(price_rows, quarter_points):
+    """Dense band series like the reference popup: weekly close / latest-known
+    TTM eps & book value per share. quarter_points = [(quarter_end, ttm_eps, bvps)]"""
+    eps_q = sorted([(d, e) for (d, e, _b) in quarter_points if e])
+    bvps_q = sorted([(d, b) for (d, _e, b) in quarter_points if b and b > 0])
+    pe_w, pbv_w = [], []
+    for dt, close in sorted(price_rows):
+        eps_ok = [e for (d, e) in eps_q if d <= dt and e > 0]
+        if eps_ok:
+            ttm = eps_ok[-1]
+            if ttm > 0:
+                pe_w.append(round(close / ttm, 2))
+        bv_ok = [b for (d, b) in bvps_q if d <= dt]
+        if bv_ok and bv_ok[-1] > 0:
+            pbv_w.append(round(close / bv_ok[-1], 2))
+    return {"pe": pe_w, "pbv": pbv_w}
+
+
+def _set_quarter_points(qdf):
+    """[(quarter_end, trailing-4Q eps, bvps)] ascending, from thaifin quarter frame"""
+    import pandas as pd
+    pts, eps_seen = [], []
+    for i in range(len(qdf.index)):
+        eps = _fnum(qdf["earning_per_share"].iloc[i])
+        if eps is not None:
+            eps_seen.append(eps)
+        ttm = round(sum(eps_seen[-4:]), 4) if len(eps_seen) >= 4 else None
+        bv = _fnum(qdf["book_value_per_share"].iloc[i])
+        try:
+            end = qdf.index[i].end_time.to_pydatetime().replace(tzinfo=None)
+        except Exception:
+            end = None
+        if end is not None:
+            pts.append((end, ttm, bv))
+    return pts
+
+
+def _us_quarter_points(t, info):
+    """[(quarter_end, trailing-4Q eps, bvps)] ascending, from yfinance.
+    Yahoo caps quarterly statements at ~5 quarters, so older history uses the
+    annual statements as the best-known trailing eps/bv level (steps at FY end)
+    and the most recent quarters override with true rolling TTM."""
+    import pandas as pd
+    pts = []
+    rows = []  # (date, eps_or_None, kind)
+    bv_by_date = {}
+    shares = num(info.get("sharesOutstanding"))
+
+    # 1) annual statements (~4y): fiscal-year-end dates carry the full-year dtoq
+    ainc = abs_ = None
+    try:
+        ainc = t.get_income_stmt(pretty=False, freq="yearly")
+        abs_ = t.get_balance_sheet(pretty=False, freq="yearly")
+    except Exception:
+        pass
+
+    def date_of(col):
+        try:
+            return pd.Timestamp(col).tz_localize(None).to_pydatetime()
+        except Exception:
+            try:
+                return pd.Timestamp(col).to_pydatetime()
+            except Exception:
+                return None
+
+    if ainc is not None and len(ainc.columns):
+        eps_row = get_row(ainc, "DilutedEPS", "BasicEPS")
+        eq_row = get_row(abs_, "StockholdersEquity", "CommonStockEquity") if abs_ is not None else None
+        for col in ainc.columns:
+            d = date_of(col)
+            if d is None:
+                continue
+            eps_v = num(cell(eps_row, col)) if eps_row is not None else None
+            rows.append((d, eps_v))
+        if eq_row is not None and shares:
+            for col in abs_.columns:
+                d = date_of(col)
+                equity = num(cell(eq_row, col))
+                if d is not None and equity and equity > 0:
+                    bv_by_date[d] = round(equity / shares, 4)
+
+    # 2) quarterly statements (~5-6 recent quarters): refine with real TTM
+    qinc = qbs = None
+    try:
+        qinc = t.get_income_stmt(pretty=False, freq="quarterly")
+        qbs = t.get_balance_sheet(pretty=False, freq="quarterly")
+    except Exception:
+        pass
+    q_rows = []
+    if qinc is not None and len(qinc.columns):
+        qeps_row = get_row(qinc, "BasicEPS", "DilutedEPS")
+        for col in qinc.columns:
+            d = date_of(col)
+            eps_v = num(cell(qeps_row, col)) if qeps_row is not None else None
+            if d is not None:
+                q_rows.append((d, eps_v))
+    if qbs is not None and len(qbs.columns) and shares:
+        qeq_row = get_row(qbs, "StockholdersEquity", "CommonStockEquity")
+        if qeq_row is not None:
+            for col in qbs.columns:
+                d = date_of(col)
+                equity = num(cell(qeq_row, col))
+                if d is not None and equity and equity > 0:
+                    bv_by_date[d] = round(equity / shares, 4)
+
+    # merge: annual rows + quarterly rows, dedup by date (quarterly wins)
+    annual_eps_by_date = {d: e for d, e in rows}
+    by_date = dict(annual_eps_by_date)
+    for d, e in q_rows:
+        by_date[d] = e
+    rows = sorted(by_date.items())
+
+    # quarterly TTM where 4 consecutive quarter readings exist
+    q_dates = sorted(d for d, _e in q_rows)
+    q_eps_by_date = dict(q_rows)
+    ttm_by_date = {}
+    for i, d in enumerate(q_dates):
+        window = [q_eps_by_date.get(q_d) for q_d in q_dates[max(0, i - 3):i + 1]]
+        if len(window) == 4 and all(v is not None for v in window):
+            ttm_by_date[d] = round(sum(window), 4)
+
+    eps_seen = []
+    for d, _eps in rows:
+        eps_level = ttm_by_date.get(d)
+        if eps_level is None:
+            # fall back: latest annual eps reported at or before this date
+            prior = sorted((dd, e) for dd, e in annual_eps_by_date.items() if dd <= d and e is not None)
+            eps_level = prior[-1][1] if prior else None
+        bv = bv_by_date.get(d)
+        pts.append((d, eps_level, bv))
+    return pts
+
+
 enable_finnomena_relay()
 
 SET_SOURCES = [
@@ -322,6 +493,15 @@ def fetch_thaifin(symbol: str):
     if metrics["totalDebt"] is not None and metrics["cash"] is not None:
         netdebt = metrics["totalDebt"] - metrics["cash"]
 
+    band_weekly = None
+    if qdf is not None and len(qdf.index) >= 8:
+        try:
+            price_rows = _weekly_price_history(f"{symbol}.BK")
+            if price_rows:
+                band_weekly = _weekly_band_series(price_rows, _set_quarter_points(qdf))
+        except Exception as be:
+            print(f"   -> bandWeekly skipped ({str(be)[:60]})")
+
     return {
         "source": "thaifin",
         "currency": "THB",
@@ -334,6 +514,7 @@ def fetch_thaifin(symbol: str):
         "dpsTTM": dps_ttm,
         "series": series,
         "sharesSeries": {str(y): shares for y, shares in shares_series.items()},
+        "bandWeekly": band_weekly,
     }
 
 
@@ -499,6 +680,15 @@ def fetch_yfinance(symbol: str):
     if netdebt is None and total_debt is not None:
         netdebt = total_debt - (total_cash or 0)
 
+    band_weekly = None
+    try:
+        price_rows = _weekly_price_history(symbol)
+        qp = _us_quarter_points(t, info)
+        if price_rows and qp:
+            band_weekly = _weekly_band_series(price_rows, qp)
+    except Exception as be:
+        print(f"   -> bandWeekly skipped ({str(be)[:60]})")
+
     return {
         "source": "yfinance",
         "currency": "USD",
@@ -510,6 +700,7 @@ def fetch_yfinance(symbol: str):
         "divPayments": div_payments,
         "series": series,
         "sharesSeries": {str(y): s for y, s in shares_series.items()},
+        "bandWeekly": band_weekly,
     }
 
 

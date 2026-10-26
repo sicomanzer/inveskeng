@@ -110,6 +110,7 @@ export interface RealFinancialData {
     opCashflow: (number | null)[];
     coverage: (number | null)[];
   }>;
+  bandWeekly?: { pe?: number[]; pbv?: number[] };
   divPayments?: DivPayment[];
 }
 
@@ -576,7 +577,17 @@ function sliderDefaults(stock: StockItem): SliderDefault[] {
   ];
 }
 
-/* ---------------- historical band (σ-style เหมือนอ้างอิง) ---------------- */
+/* ---------------- historical band (σ-style เหมืองอ้างอิง) ---------------- */
+
+/** Band source: dense weekly series when the real pipeline provides it
+ *  (~4y of weekly points like the reference), else the annual/quarterly one. */
+function realBandSeries(real: RealFinancialData | null, kind: 'pe' | 'pbv'): (number | null)[] | undefined {
+  const w = real?.bandWeekly;
+  const arr = kind === 'pe' ? w?.pe : w?.pbv;
+  if (arr && arr.length >= 100) return arr;
+  if (kind === 'pe') return real?.series?.peSeries;
+  return real?.series?.pbvSeries;
+}
 
 function bandFromRealSeries(name: 'P/E' | 'P/BV', realSeries: (number | null)[] | undefined, current: number, nowLabel: 'TTM' | 'latest quarter'): ValuationBandChart {
   const vals = (realSeries ?? []).filter((v): v is number => v != null && Number.isFinite(v) && v > 0);
@@ -797,10 +808,10 @@ export function deriveStockDetail(
 
   /* bands — P/E เป็น TTM, P/BV เป็นไตรมาสล่าสุด (ตามอ้างอิง) */
   const bandPE = useReal && real
-    ? bandFromRealSeries('P/E', real.series.peSeries, m.peRatio, 'TTM')
+    ? bandFromRealSeries('P/E', realBandSeries(real, 'pe'), m.peRatio, 'TTM')
     : bandFromRealSeries('P/E', undefined, m.peRatio, 'TTM');
   const bandPBV = useReal && real
-    ? bandFromRealSeries('P/BV', real.series.pbvSeries, m.pbv, 'latest quarter')
+    ? bandFromRealSeries('P/BV', realBandSeries(real, 'pbv'), m.pbv, 'latest quarter')
     : bandFromRealSeries('P/BV', undefined, m.pbv, 'latest quarter');
 
   /* peers */
