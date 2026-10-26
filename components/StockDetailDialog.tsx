@@ -135,28 +135,60 @@ function MiniBars({ series, color = '#22C1A4', dashedLinePct }: { series: { x: n
   );
 }
 
-/* DPS "by payment" — แท่งต่อการจ่ายจริง แยกสีตามไตรมาส (ข้อมูล yfinance t.dividends) */
+/* DPS "by year, quarters stacked" — แท่งรายปี ซ้อนเป็นไตรมาส (วางเหมือนงานอ้างอิง:
+   Q1 ส้ม / Q2 น้ำเงิน / Q3 เขียว / Q4 ม่วง, label รวมต่อปี, ปีล่าสุดยกเลิกจองบางส่วน) */
 function DivPaymentsBars({ payments, currencySymbol }: { payments: DivPayment[]; currencySymbol: string }) {
-  const list = payments.filter((p) => p.amount > 0);
+  const list = payments.filter((p) => p.amount > 0 && Number(p.date.slice(0, 4)) >= new Date().getFullYear() - 10);
   if (!list.length) return null;
-  const max = Math.max(...list.map((p) => p.amount)) || 1;
-  const qColor = (date: string): string => {
-    const m = Number(date.slice(5, 7));
-    if (m <= 3) return '#D33F49';
-    if (m <= 6) return '#2E6BE6';
-    if (m <= 9) return '#F0A704';
-    return '#22C1A4';
-  };
+
+  // group: year -> { q1..q4 sums }
+  const byYear: Record<string, [number, number, number, number]> = {};
+  for (const p of list) {
+    const y = p.date.slice(0, 4);
+    const m = Number(p.date.slice(5, 7));
+    const q = m <= 3 ? 0 : m <= 6 ? 1 : m <= 9 ? 2 : 3;
+    if (!byYear[y]) byYear[y] = [0, 0, 0, 0];
+    byYear[y][q] += p.amount;
+  }
+  const years = Object.keys(byYear).sort();
+  const Q_COLORS = ['#F0A704', '#2E6BE6', '#22C1A4', '#7A5CF0'];
+  const maxYear = Math.max(...years.map((y) => (byYear[y] as unknown as number[]).reduce((a, b) => a + b, 0))) || 1;
+
   return (
-    <div className="flex items-end gap-[2px] w-full h-[78px]">
-      {list.map((p, idx) => (
-        <div
-          key={idx}
-          className="flex-1 min-w-[3px] rounded-t-[2px]"
-          title={`${p.date}: ${currencySymbol}${p.amount}`}
-          style={{ height: `${Math.max(2, (p.amount / max) * 68)}px`, background: qColor(p.date), opacity: 0.85 }}
-        />
-      ))}
+    <div>
+      <div className="flex items-end gap-[3px] w-full h-[104px]" style={{ borderBottom: '1px solid rgba(128,136,150,0.35)' }}>
+        {years.map((y) => {
+          const qs = byYear[y];
+          const total = qs[0] + qs[1] + qs[2] + qs[3];
+          return (
+            <div key={y} className="flex-1 flex flex-col justify-end items-center min-w-[3px]">
+              <span className="text-[7px] md:text-[8px] leading-tight text-[#5B616E] dark:text-[#9CA3AF] tabular-nums mb-0.5">
+                {total ? total.toFixed(2) : ''}
+              </span>
+              <div className="w-full flex flex-col justify-end" style={{ minHeight: 0 }}>
+                {[3, 2, 1, 0].map((qi) => qs[qi] > 0 ? (
+                  <div
+                    key={qi}
+                    title={`${y} Q${qi + 1}: ${currencySymbol}${qs[qi].toFixed(4)}`}
+                    style={{ height: `${Math.max(2, (qs[qi] / maxYear) * 88)}px`, background: Q_COLORS[qi], opacity: 0.88 }}
+                  />
+                ) : null)}
+              </div>
+              <span className={`text-[7.5px] md:text-[8.5px] leading-tight mt-0.5 tabular-nums ${y === years[years.length - 1] ? 'text-[#1256A0] dark:text-[#60A5FA] font-bold' : 'text-[#5B616E] dark:text-[#9CA3AF]'}`}>
+                {y}
+              </span>
+            </div>
+          );
+        })}
+      </div>
+      <div className="flex items-center gap-2.5 mt-1.5 flex-wrap">
+        {[1, 2, 3, 4].map((qn) => (
+          <span key={qn} className="inline-flex items-center gap-1">
+            <span className="inline-block w-2 h-2 rounded-[2px]" style={{ background: Q_COLORS[qn - 1], opacity: 0.88 }} />
+            <span className="text-[8px] md:text-[9px] text-[#5B616E] dark:text-[#9CA3AF]">Q{qn}</span>
+          </span>
+        ))}
+      </div>
     </div>
   );
 }
@@ -778,8 +810,8 @@ export default function StockDetailDialog({ stock, peers, open, onClose }: Stock
                 <p className="text-[10px] text-[#5B616E] dark:text-[#9CA3AF] mb-3.5 leading-relaxed">
                   {area.charts
                     ? (th
-                      ? `หนึ่งแท่งต่อปีงบ ย้อนหลัง ${detail.fiscalYearsUsed} ปี จากงบจริง — เส้นประบนกราฟ ROE = 15% · กราฟ${stock.market === 'US' ? ' ปันผลวาดจากรอบจ่ายจริง (สี = ไตรมาส)' : ' ปันผลใช้ฐานรายปี + TTM ปัจจุบันจาก dy ล่าสุด'}`
-                      : `One bar per fiscal year, ${detail.fiscalYearsUsed} real fiscal years. The ROE chart shows a dashed 15% guide line${stock.market === 'US' ? ' · DPS chart is drawn from actual payments (colours = payment quarter)' : ' · DPS chart uses the annual basis plus the current TTM dividend'}.`)
+                      ? `หนึ่งแท่งต่อปีงบ ย้อนหลัง ${detail.fiscalYearsUsed} ปี จากงบจริง — เส้นประบนกราฟ ROE = 15% · กราฟปันผลแยกแท่งเป็นไตรมาสจากรอบจ่ายจริง (สี = ไตรมาสจ่าย)`
+                      : `One bar per fiscal year, ${detail.fiscalYearsUsed} real fiscal years. The ROE chart shows a dashed 15% guide line · DPS chart is stacked by payment quarter (colours = quarter paid).`)
                     : (th ? 'หนึ่งแท่งต่อปีงบ 10 ปี (โมเดลประมาณการ)' : 'One bar per fiscal year, ten years (derived model).')}
                 </p>
 

@@ -502,6 +502,18 @@ def fetch_thaifin(symbol: str):
         except Exception as be:
             print(f"   -> bandWeekly skipped ({str(be)[:60]})")
 
+    # actual dividend payments (per ex-date) - for the DPS "by payment" chart,
+    # so SET also gets the quarter-split bars like the reference popup
+    div_payments = []
+    try:
+        import yfinance as yf
+        dhist_th = yf.Ticker(f"{symbol}.BK").dividends
+        if dhist_th is not None and len(dhist_th):
+            for dt_th, amt_th in list(dhist_th.items()):
+                div_payments.append({"date": str(dt_th)[:10], "amount": round(float(amt_th), 6)})
+    except Exception:
+        div_payments = []
+
     return {
         "source": "thaifin",
         "currency": "THB",
@@ -515,6 +527,7 @@ def fetch_thaifin(symbol: str):
         "series": series,
         "sharesSeries": {str(y): shares for y, shares in shares_series.items()},
         "bandWeekly": band_weekly,
+        "divPayments": div_payments,
     }
 
 
