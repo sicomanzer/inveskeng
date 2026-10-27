@@ -25,7 +25,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
+    "lastUpdateTime": "2026-10-27T09:14:57.267215+07:00"
   },
   {
     "id": "102567",
@@ -53,7 +53,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
+    "lastUpdateTime": "2026-10-27T09:14:57.267215+07:00"
   },
   {
     "id": "102569",
@@ -81,7 +81,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
+    "lastUpdateTime": "2026-10-27T09:14:57.267215+07:00"
   },
   {
     "id": "102751",
@@ -109,7 +109,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
+    "lastUpdateTime": "2026-10-27T09:14:57.267215+07:00"
   },
   {
     "id": "989494",
@@ -137,7 +137,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
+    "lastUpdateTime": "2026-10-27T09:14:57.267215+07:00"
   },
   {
     "id": "1130942",
@@ -165,7 +165,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
+    "lastUpdateTime": "2026-10-27T09:14:57.267215+07:00"
   },
   {
     "id": "102869",
@@ -193,7 +193,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
+    "lastUpdateTime": "2026-10-27T09:14:57.267215+07:00"
   },
   {
     "id": "1242508",
@@ -221,7 +221,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
+    "lastUpdateTime": "2026-10-27T09:14:57.267215+07:00"
   },
   {
     "id": "986147",
@@ -249,7 +249,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
+    "lastUpdateTime": "2026-10-27T09:14:57.267215+07:00"
   },
   {
     "id": "986137",
@@ -277,7 +277,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
+    "lastUpdateTime": "2026-10-27T09:14:57.267215+07:00"
   },
   {
     "id": "102714",
@@ -305,7 +305,35 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
+    "lastUpdateTime": "2026-10-27T09:14:57.267215+07:00"
+  },
+  {
+    "id": "102683",
+    "symbol": "RATCH",
+    "name": "RATCH Group Public Company Limited",
+    "shortName": "Ratch Group",
+    "link": "https://www.investing.com/equities/ratchaburi",
+    "price": 39.25,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 32.79,
+    "fairValueUpside": -16.47,
+    "peRatio": 15.32,
+    "evEbitda": 33.47,
+    "marketCap": 85370000000,
+    "marketCapFormatted": "85.37 พันล้าน",
+    "epsGrowth5y": -0.05,
+    "changeOneDayPercent": 1.29,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "มูลค่าตามจริง",
+    "analystRatings": "ซื้อ",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-27T09:14:57.267215+07:00"
   },
   {
     "id": "102540",
@@ -333,7 +361,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
+    "lastUpdateTime": "2026-10-27T09:14:57.267215+07:00"
   },
   {
     "id": "102757",
@@ -361,7 +389,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
+    "lastUpdateTime": "2026-10-27T09:14:57.267215+07:00"
   },
   {
     "id": "102672",
@@ -389,7 +417,35 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
+    "lastUpdateTime": "2026-10-27T09:14:57.267215+07:00"
+  },
+  {
+    "id": "102756",
+    "symbol": "SMT",
+    "name": "Stars Microelectronics Thailand PCL",
+    "shortName": "Stars Microelectronics",
+    "link": "https://www.investing.com/equities/stars-microele",
+    "price": 7.35,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 6.249,
+    "fairValueUpside": -14.98,
+    "peRatio": -1006.85,
+    "evEbitda": 38.6,
+    "marketCap": 5980000000,
+    "marketCapFormatted": "5.98 พันล้าน",
+    "epsGrowth5y": 0.01,
+    "changeOneDayPercent": 2.08,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "แย่",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-27T09:14:57.267215+07:00"
   },
   {
     "id": "102561",
@@ -417,7 +473,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
+    "lastUpdateTime": "2026-10-27T09:14:57.267215+07:00"
   },
   {
     "id": "102442",
@@ -445,7 +501,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
+    "lastUpdateTime": "2026-10-27T09:14:57.267215+07:00"
   },
   {
     "id": "1008691",
@@ -473,35 +529,7 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
-  },
-  {
-    "id": "102560",
-    "symbol": "KBANK",
-    "name": "Kasikornbank PCL",
-    "shortName": "Kasikornbank",
-    "link": "https://www.investing.com/equities/kasikornbank",
-    "price": 244.0,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 214.72,
-    "fairValueUpside": -12.0,
-    "peRatio": 11.44,
-    "evEbitda": 0.0,
-    "marketCap": 573650000000,
-    "marketCapFormatted": "573.65 พันล้าน",
-    "epsGrowth5y": 0.11,
-    "changeOneDayPercent": 0.83,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดี",
-    "analystRatings": "ซื้อ",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
+    "lastUpdateTime": "2026-10-27T09:14:57.267215+07:00"
   },
   {
     "id": "1162301",
@@ -529,7 +557,35 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
+    "lastUpdateTime": "2026-10-27T09:14:57.267215+07:00"
+  },
+  {
+    "id": "102748",
+    "symbol": "SPCG",
+    "name": "SPCG PCL",
+    "shortName": "SPCG",
+    "link": "https://www.investing.com/equities/spcg",
+    "price": 11.7,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 10.45,
+    "fairValueUpside": -10.7,
+    "peRatio": 33.53,
+    "evEbitda": 11.47,
+    "marketCap": 12350000000,
+    "marketCapFormatted": "12.35 พันล้าน",
+    "epsGrowth5y": -0.29,
+    "changeOneDayPercent": 0.0,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดีเยี่ยม",
+    "financialGrowthHealth": "แย่",
+    "financialProfitabilityHealth": "มูลค่าตามจริง",
+    "analystRatings": "-",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-27T09:14:57.267215+07:00"
   },
   {
     "id": "102817",
@@ -557,6 +613,6 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-27T02:35:20.214103+07:00"
+    "lastUpdateTime": "2026-10-27T09:14:57.267215+07:00"
   }
 ]
