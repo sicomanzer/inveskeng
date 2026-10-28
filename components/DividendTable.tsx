@@ -15,6 +15,7 @@ interface DividendTableProps {
   sourceAsOf?: string;
   partial?: boolean;
   totalMatches?: number | null;
+  loading?: boolean;
 }
 
 type SortKey =
@@ -62,6 +63,7 @@ export default function DividendTable({
   sourceAsOf,
   partial,
   totalMatches,
+  loading,
 }: DividendTableProps) {
   const { t, lang } = useApp();
   const isThai = lang === 'th';
@@ -351,7 +353,9 @@ export default function DividendTable({
             ) : (
               <tr>
                 <td colSpan={9} className="text-center py-10 text-[#8A909D] dark:text-[#6B7280]">
-                  {t('noStocksFound')}
+                  {loading
+                    ? (isThai ? 'กำลังโหลดข้อมูลหุ้นปันผล...' : 'Loading dividend stocks...')
+                    : t('noStocksFound')}
                 </td>
               </tr>
             )}

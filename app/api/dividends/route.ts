@@ -6,6 +6,8 @@ import { DividendPayload } from '@/types/stock';
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
 export const fetchCache = 'force-no-store';
+// GitHub Contents API บน cold start อาจช้า — เผื่อเวลาให้พอ
+export const maxDuration = 30;
 
 const GH_REPO = 'sicomanzer/inveskeng';
 const FILE_NAME = 'dividend_stocks.json';

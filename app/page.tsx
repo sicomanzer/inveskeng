@@ -45,6 +45,7 @@ export default function HomePage() {
   const [dividendPartial, setDividendPartial] = useState<boolean>(false);
   const [dividendTotalMatches, setDividendTotalMatches] = useState<number | null>(null);
   const [dividendSourceUrl, setDividendSourceUrl] = useState<string>('');
+  const [dividendLoading, setDividendLoading] = useState<boolean>(false);
 
 
   const isThai = selectedMarket === 'SET';
@@ -102,40 +103,55 @@ export default function HomePage() {
 
   // Load "หุ้นปันผล" dataset (Investing.com screener + yfinance dividend history)
   const loadDividends = useCallback(async () => {
-    // cold Lambda / dev route compile may answer empty once — retry a couple of times
-    for (let attempt = 0; attempt < 3; attempt++) {
-      try {
-        const res = await fetch(`/api/dividends?_t=${Date.now()}`, {
-          cache: 'no-store',
-          headers: {
-            'Cache-Control': 'no-cache, no-store, must-revalidate',
-            'Pragma': 'no-cache'
+    // cold Lambda / dev route compile may answer empty once — retry with backoff
+    setDividendLoading(true);
+    try {
+      for (let attempt = 0; attempt < 4; attempt++) {
+        try {
+          const res = await fetch(`/api/dividends?_t=${Date.now()}`, {
+            cache: 'no-store',
+            headers: {
+              'Cache-Control': 'no-cache, no-store, must-revalidate',
+              'Pragma': 'no-cache'
+            }
+          });
+          if (res.ok) {
+            const json = await res.json();
+            if (Array.isArray(json.items) && json.items.length > 0) {
+              setDividendStocks(json.items);
+              setDividendSourceAsOf(json.sourceAsOf || json.asOf || '');
+              setDividendPartial(!!json.partial);
+              setDividendTotalMatches(typeof json.totalMatches === 'number' ? json.totalMatches : null);
+              setDividendSourceUrl(typeof json.sourceUrl === 'string' ? json.sourceUrl : '');
+              setTabCounts(prev => ({ ...prev, dividend: json.items.length }));
+              return;
+            }
           }
-        });
-        if (!res.ok) continue;
-        const json = await res.json();
-        if (Array.isArray(json.items) && json.items.length > 0) {
-          setDividendStocks(json.items);
-          setDividendSourceAsOf(json.sourceAsOf || json.asOf || '');
-          setDividendPartial(!!json.partial);
-          setDividendTotalMatches(typeof json.totalMatches === 'number' ? json.totalMatches : null);
-          setDividendSourceUrl(typeof json.sourceUrl === 'string' ? json.sourceUrl : '');
-          setTabCounts(prev => ({ ...prev, dividend: json.items.length }));
-          return;
+        } catch (err) {
+          console.error('Failed to load dividend stocks:', err);
         }
-      } catch (err) {
-        console.error('Failed to load dividend stocks:', err);
+        if (attempt < 3) {
+          await new Promise(r => setTimeout(r, 800 * (attempt + 1)));
+        }
       }
+    } finally {
+      setDividendLoading(false);
     }
   }, []);
+
+  // Prefetch once on mount so the first click on "หุ้นปันผล" already has data
+  useEffect(() => {
+    loadDividends();
+  }, [loadDividends]);
 
   // Initial load and on market/tab change
   useEffect(() => {
     if (activeTab === 'dividend') {
-      loadDividends();
+      if (dividendStocks.length === 0) loadDividends();
     } else {
       loadStocks(selectedMarket, activeTab);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedMarket, activeTab, loadStocks, loadDividends]);
 
   // Auto-sync polling every 15 minutes (900,000 ms)
@@ -590,6 +606,7 @@ export default function HomePage() {
             sourceAsOf={dividendSourceAsOf}
             partial={dividendPartial}
             totalMatches={dividendTotalMatches}
+            loading={dividendLoading}
           />
         ) : (
           <StockTable 
