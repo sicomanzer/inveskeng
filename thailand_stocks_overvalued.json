@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:40:21.895771+07:00"
+    "fetchedAt": "2026-10-28T23:51:37.548897+07:00"
   },
   {
     "id": "102567",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:40:21.895771+07:00"
+    "fetchedAt": "2026-10-28T23:51:37.548897+07:00"
   },
   {
     "id": "1242508",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:40:21.895771+07:00"
+    "fetchedAt": "2026-10-28T23:51:37.548897+07:00"
   },
   {
     "id": "1162301",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:40:21.895771+07:00"
+    "fetchedAt": "2026-10-28T23:51:37.548897+07:00"
   },
   {
     "id": "102569",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:40:21.895771+07:00"
+    "fetchedAt": "2026-10-28T23:51:37.548897+07:00"
   },
   {
     "id": "102756",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:40:21.895771+07:00"
+    "fetchedAt": "2026-10-28T23:51:37.548897+07:00"
   },
   {
     "id": "102561",
@@ -207,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:40:21.895771+07:00"
+    "fetchedAt": "2026-10-28T23:51:37.548897+07:00"
   },
   {
     "id": "102869",
@@ -237,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:40:21.895771+07:00"
+    "fetchedAt": "2026-10-28T23:51:37.548897+07:00"
   },
   {
     "id": "989494",
@@ -267,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:40:21.895771+07:00"
+    "fetchedAt": "2026-10-28T23:51:37.548897+07:00"
   },
   {
     "id": "986147",
@@ -297,37 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:40:21.895771+07:00"
-  },
-  {
-    "id": "102751",
-    "symbol": "STA",
-    "name": "Sri Trang Agro Industry PCL",
-    "shortName": "Sri Trang Agro",
-    "link": "https://www.investing.com/equities/sri-trang-agro",
-    "price": 22.9,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 18.795499801635742,
-    "fairValueUpside": -17.919999361038208,
-    "peRatio": 94.36000061035156,
-    "evEbitda": 11.93875503540039,
-    "marketCap": 35170000000,
-    "marketCapFormatted": "35.17B",
-    "epsGrowth5y": 0.1262972354888916,
-    "changeOneDayPercent": -3.38,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "GOOD",
-    "financialGrowthHealth": "WEAK",
-    "financialProfitabilityHealth": "FAIR",
-    "analystRatings": "STRONG_BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-28T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:40:21.895771+07:00"
+    "fetchedAt": "2026-10-28T23:51:37.548897+07:00"
   },
   {
     "id": "986137",
@@ -357,37 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:40:21.895771+07:00"
-  },
-  {
-    "id": "1130942",
-    "symbol": "CPNREITu",
-    "name": "Cpn Retail Growth Leasehold REIT Unit",
-    "shortName": "Cpn Retail Growth Leasehold REIT Unt",
-    "link": "https://www.investing.com/equities/cpn-retail-growth-leasehold-reit",
-    "price": 13.1,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 10.806699752807617,
-    "fairValueUpside": -17.509999871253967,
-    "peRatio": 14.220000267028809,
-    "evEbitda": null,
-    "marketCap": 47440000000,
-    "marketCapFormatted": "47.44B",
-    "epsGrowth5y": 5.588566780090332,
-    "changeOneDayPercent": 0.0,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "FAIR",
-    "financialGrowthHealth": "GOOD",
-    "financialProfitabilityHealth": "GREAT",
-    "analystRatings": "BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-28T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:40:21.895771+07:00"
+    "fetchedAt": "2026-10-28T23:51:37.548897+07:00"
   },
   {
     "id": "1008691",
@@ -417,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:40:21.895771+07:00"
+    "fetchedAt": "2026-10-28T23:51:37.548897+07:00"
   },
   {
     "id": "102757",
@@ -447,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:40:21.895771+07:00"
+    "fetchedAt": "2026-10-28T23:51:37.548897+07:00"
   },
   {
     "id": "102672",
@@ -477,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:40:21.895771+07:00"
+    "fetchedAt": "2026-10-28T23:51:37.548897+07:00"
   },
   {
     "id": "102714",
@@ -507,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:40:21.895771+07:00"
+    "fetchedAt": "2026-10-28T23:51:37.548897+07:00"
   },
   {
     "id": "102442",
@@ -537,29 +477,29 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:40:21.895771+07:00"
+    "fetchedAt": "2026-10-28T23:51:37.548897+07:00"
   },
   {
-    "id": "102683",
-    "symbol": "RATCH",
-    "name": "RATCH Group Public Company Limited",
-    "shortName": "Ratch Group",
-    "link": "https://www.investing.com/equities/ratchaburi",
-    "price": 38.25,
+    "id": "102560",
+    "symbol": "KBANK",
+    "name": "Kasikornbank PCL",
+    "shortName": "Kasikornbank",
+    "link": "https://www.investing.com/equities/kasikornbank",
+    "price": 250.0,
     "currency": "THB",
     "currencySymbol": "฿",
-    "fairValue": 32.785301208496094,
-    "fairValueUpside": -14.29000049829483,
-    "peRatio": 14.930000305175781,
-    "evEbitda": 33.47294616699219,
-    "marketCap": 83190000000,
-    "marketCapFormatted": "83.19B",
-    "epsGrowth5y": -0.053401317447423935,
-    "changeOneDayPercent": -1.29,
+    "fairValue": 214.66090393066406,
+    "fairValueUpside": -14.139999449253082,
+    "peRatio": 11.720000267028809,
+    "evEbitda": null,
+    "marketCap": 587760000000,
+    "marketCapFormatted": "587.76B",
+    "epsGrowth5y": 0.11405131965875626,
+    "changeOneDayPercent": 2.04,
     "financialHealth": "GOOD",
     "financialCashFlowHealth": "GOOD",
-    "financialGrowthHealth": "FAIR",
-    "financialProfitabilityHealth": "FAIR",
+    "financialGrowthHealth": "GREAT",
+    "financialProfitabilityHealth": "GOOD",
     "analystRatings": "BUY",
     "flagCode": "TH",
     "flagName": "Thailand",
@@ -567,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:40:21.895771+07:00"
+    "fetchedAt": "2026-10-28T23:51:37.548897+07:00"
   },
   {
     "id": "102532",
@@ -597,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:40:21.895771+07:00"
+    "fetchedAt": "2026-10-28T23:51:37.548897+07:00"
   },
   {
     "id": "102540",
@@ -627,6 +567,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:40:21.895771+07:00"
+    "fetchedAt": "2026-10-28T23:51:37.548897+07:00"
   }
 ]
