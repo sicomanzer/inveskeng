@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T22:33:55.826755+07:00"
+    "fetchedAt": "2026-10-28T22:45:14.188763+07:00"
   },
   {
     "id": "102567",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T22:33:55.826755+07:00"
+    "fetchedAt": "2026-10-28T22:45:14.188763+07:00"
   },
   {
     "id": "1242508",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T22:33:55.826755+07:00"
+    "fetchedAt": "2026-10-28T22:45:14.188763+07:00"
   },
   {
     "id": "1162301",
@@ -117,7 +117,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T22:33:55.826755+07:00"
+    "fetchedAt": "2026-10-28T22:45:14.188763+07:00"
+  },
+  {
+    "id": "102569",
+    "symbol": "KTB",
+    "name": "Krung Thai Bank PCL",
+    "shortName": "Krung Thai Bank",
+    "link": "https://www.investing.com/equities/krung-thai-ban",
+    "price": 44.5,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 34.65129852294922,
+    "fairValueUpside": -22.130000591278076,
+    "peRatio": 12.970000267028809,
+    "evEbitda": null,
+    "marketCap": 635550000000,
+    "marketCapFormatted": "635.55B",
+    "epsGrowth5y": 0.23846369981765747,
+    "changeOneDayPercent": 0.56,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "GOOD",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "GOOD",
+    "analystRatings": "BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-28T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
+    "fetchedAt": "2026-10-28T22:45:14.188763+07:00"
   },
   {
     "id": "102756",
@@ -147,37 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T22:33:55.826755+07:00"
-  },
-  {
-    "id": "102561",
-    "symbol": "KCE",
-    "name": "KCE Electronics PCL",
-    "shortName": "KCE Electronics",
-    "link": "https://www.investing.com/equities/kce-elec",
-    "price": 73.5,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 59.78919982910156,
-    "fairValueUpside": -18.649999797344208,
-    "peRatio": 93.33000183105469,
-    "evEbitda": 45.20249938964844,
-    "marketCap": 86880000000,
-    "marketCapFormatted": "86.88B",
-    "epsGrowth5y": 0.038457516580820084,
-    "changeOneDayPercent": 5.38,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "GREAT",
-    "financialGrowthHealth": "FAIR",
-    "financialProfitabilityHealth": "GREAT",
-    "analystRatings": "BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-28T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T22:33:55.826755+07:00"
+    "fetchedAt": "2026-10-28T22:45:14.188763+07:00"
   },
   {
     "id": "102869",
@@ -207,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T22:33:55.826755+07:00"
+    "fetchedAt": "2026-10-28T22:45:14.188763+07:00"
   },
   {
     "id": "989494",
@@ -237,7 +237,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T22:33:55.826755+07:00"
+    "fetchedAt": "2026-10-28T22:45:14.188763+07:00"
+  },
+  {
+    "id": "986147",
+    "symbol": "BEM",
+    "name": "Bangkok Expressway and Metro PCL",
+    "shortName": "BEM",
+    "link": "https://www.investing.com/equities/bangkok-expressway-and-metro",
+    "price": 6.35,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 5.207900047302246,
+    "fairValueUpside": -17.990000545978546,
+    "peRatio": 23.959999084472656,
+    "evEbitda": 23.19835090637207,
+    "marketCap": 95110000000,
+    "marketCapFormatted": "95.11B",
+    "epsGrowth5y": 0.2634294033050537,
+    "changeOneDayPercent": 0.0,
+    "financialHealth": "FAIR",
+    "financialCashFlowHealth": "WEAK",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "GREAT",
+    "analystRatings": "STRONG_BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-28T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
+    "fetchedAt": "2026-10-28T22:45:14.188763+07:00"
   },
   {
     "id": "102751",
@@ -267,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T22:33:55.826755+07:00"
+    "fetchedAt": "2026-10-28T22:45:14.188763+07:00"
   },
   {
     "id": "986137",
@@ -297,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T22:33:55.826755+07:00"
+    "fetchedAt": "2026-10-28T22:45:14.188763+07:00"
   },
   {
     "id": "1130942",
@@ -327,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T22:33:55.826755+07:00"
+    "fetchedAt": "2026-10-28T22:45:14.188763+07:00"
   },
   {
     "id": "1008691",
@@ -357,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T22:33:55.826755+07:00"
+    "fetchedAt": "2026-10-28T22:45:14.188763+07:00"
   },
   {
     "id": "102757",
@@ -387,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T22:33:55.826755+07:00"
+    "fetchedAt": "2026-10-28T22:45:14.188763+07:00"
   },
   {
     "id": "102672",
@@ -417,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T22:33:55.826755+07:00"
+    "fetchedAt": "2026-10-28T22:45:14.188763+07:00"
   },
   {
     "id": "102714",
@@ -447,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T22:33:55.826755+07:00"
+    "fetchedAt": "2026-10-28T22:45:14.188763+07:00"
   },
   {
     "id": "102442",
@@ -477,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T22:33:55.826755+07:00"
+    "fetchedAt": "2026-10-28T22:45:14.188763+07:00"
   },
   {
     "id": "102683",
@@ -507,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T22:33:55.826755+07:00"
+    "fetchedAt": "2026-10-28T22:45:14.188763+07:00"
   },
   {
     "id": "102560",
@@ -537,6 +567,66 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T22:33:55.826755+07:00"
+    "fetchedAt": "2026-10-28T22:45:14.188763+07:00"
+  },
+  {
+    "id": "102532",
+    "symbol": "HANA",
+    "name": "Hana Microelectronics PCL",
+    "shortName": "Hana Microelectronics",
+    "link": "https://www.investing.com/equities/hana-micro-ele",
+    "price": 49.25,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 42.326698303222656,
+    "fairValueUpside": -14.059999585151672,
+    "peRatio": 74.23999786376953,
+    "evEbitda": 18.379486083984375,
+    "marketCap": 42920000000,
+    "marketCapFormatted": "42.92B",
+    "epsGrowth5y": 0.02335296757519245,
+    "changeOneDayPercent": 2.07,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "EXCELLENT",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "FAIR",
+    "analystRatings": "BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-28T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
+    "fetchedAt": "2026-10-28T22:45:14.188763+07:00"
+  },
+  {
+    "id": "102540",
+    "symbol": "IVL",
+    "name": "Indorama Ventures PCL",
+    "shortName": "Indorama Ventures",
+    "link": "https://www.investing.com/equities/indorama-vent",
+    "price": 26.5,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 22.92729949951172,
+    "fairValueUpside": -13.48000019788742,
+    "peRatio": -45.279998779296875,
+    "evEbitda": 11.072328567504883,
+    "marketCap": 152980000000,
+    "marketCapFormatted": "152.98B",
+    "epsGrowth5y": 0.7342183589935303,
+    "changeOneDayPercent": -3.64,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "FAIR",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "FAIR",
+    "analystRatings": "BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-28T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
+    "fetchedAt": "2026-10-28T22:45:14.188763+07:00"
   }
 ]
