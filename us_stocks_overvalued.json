@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T12:51:04.669473+07:00"
+    "fetchedAt": "2026-10-28T12:59:49.763847+07:00"
   },
   {
     "id": "1131557",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T12:51:04.669473+07:00"
+    "fetchedAt": "2026-10-28T12:59:49.763847+07:00"
   },
   {
     "id": "41268",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T12:51:04.669473+07:00"
+    "fetchedAt": "2026-10-28T12:59:49.763847+07:00"
   },
   {
     "id": "13994",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T12:51:04.669473+07:00"
+    "fetchedAt": "2026-10-28T12:59:49.763847+07:00"
   },
   {
     "id": "251",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T12:51:04.669473+07:00"
+    "fetchedAt": "2026-10-28T12:59:49.763847+07:00"
   },
   {
     "id": "1114321",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T12:51:04.669473+07:00"
+    "fetchedAt": "2026-10-28T12:59:49.763847+07:00"
   },
   {
     "id": "261",
@@ -207,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T12:51:04.669473+07:00"
+    "fetchedAt": "2026-10-28T12:59:49.763847+07:00"
   },
   {
     "id": "13852",
@@ -237,7 +237,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T12:51:04.669473+07:00"
+    "fetchedAt": "2026-10-28T12:59:49.763847+07:00"
+  },
+  {
+    "id": "1152784",
+    "symbol": "DDOG",
+    "name": "Datadog Inc",
+    "shortName": "Datadog",
+    "link": "https://www.investing.com/equities/datadog-inc",
+    "price": 280.82,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 199.6,
+    "fairValueUpside": -28.92,
+    "peRatio": 570.11,
+    "evEbitda": 1123.28,
+    "marketCap": 100770000000,
+    "marketCapFormatted": "100.77 พันล้าน",
+    "epsGrowth5y": -5.28,
+    "changeOneDayPercent": 0.21,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดี",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T12:59:49.763847+07:00"
   },
   {
     "id": "13067",
@@ -267,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T12:51:04.669473+07:00"
+    "fetchedAt": "2026-10-28T12:59:49.763847+07:00"
   },
   {
     "id": "1206256",
@@ -297,7 +327,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T12:51:04.669473+07:00"
+    "fetchedAt": "2026-10-28T12:59:49.763847+07:00"
+  },
+  {
+    "id": "20164",
+    "symbol": "CRL",
+    "name": "Charles River Laboratories International, Inc",
+    "shortName": "Charles River Laboratories",
+    "link": "https://www.investing.com/equities/charles-river-laboratories-intl",
+    "price": 358.84,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 262.74,
+    "fairValueUpside": -26.78,
+    "peRatio": -73.01,
+    "evEbitda": 22.58,
+    "marketCap": 17060000000,
+    "marketCapFormatted": "17.06 พันล้าน",
+    "epsGrowth5y": -1.34,
+    "changeOneDayPercent": 0.44,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "แย่",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T12:59:49.763847+07:00"
   },
   {
     "id": "6440",
@@ -327,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T12:51:04.669473+07:00"
+    "fetchedAt": "2026-10-28T12:59:49.763847+07:00"
   },
   {
     "id": "7881",
@@ -357,37 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T12:51:04.669473+07:00"
-  },
-  {
-    "id": "13848",
-    "symbol": "WELL",
-    "name": "Welltower Inc",
-    "shortName": "Welltower",
-    "link": "https://www.investing.com/equities/health-care-reit",
-    "price": 226.72,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 169.95,
-    "fairValueUpside": -25.04,
-    "peRatio": 102.1,
-    "evEbitda": 56.29,
-    "marketCap": 164110000000,
-    "marketCapFormatted": "164.11 พันล้าน",
-    "epsGrowth5y": 0.4,
-    "changeOneDayPercent": -5.77,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "มูลค่าตามจริง",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T12:51:04.669473+07:00"
+    "fetchedAt": "2026-10-28T12:59:49.763847+07:00"
   },
   {
     "id": "8260",
@@ -417,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T12:51:04.669473+07:00"
+    "fetchedAt": "2026-10-28T12:59:49.763847+07:00"
   },
   {
     "id": "958233",
@@ -447,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T12:51:04.669473+07:00"
+    "fetchedAt": "2026-10-28T12:59:49.763847+07:00"
   },
   {
     "id": "7997",
@@ -477,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T12:51:04.669473+07:00"
+    "fetchedAt": "2026-10-28T12:59:49.763847+07:00"
   },
   {
     "id": "257",
@@ -507,7 +537,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T12:51:04.669473+07:00"
+    "fetchedAt": "2026-10-28T12:59:49.763847+07:00"
+  },
+  {
+    "id": "247",
+    "symbol": "CAT",
+    "name": "Caterpillar Inc",
+    "shortName": "Caterpillar",
+    "link": "https://www.investing.com/equities/caterpillar",
+    "price": 713.31,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 556.06,
+    "fairValueUpside": -22.08,
+    "peRatio": 30.77,
+    "evEbitda": 21.84,
+    "marketCap": 328170000000,
+    "marketCapFormatted": "328.17 พันล้าน",
+    "epsGrowth5y": 0.3,
+    "changeOneDayPercent": 3.06,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T12:59:49.763847+07:00"
   },
   {
     "id": "8279",
@@ -537,7 +597,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T12:51:04.669473+07:00"
+    "fetchedAt": "2026-10-28T12:59:49.763847+07:00"
   },
   {
     "id": "1161057",
@@ -567,7 +627,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T12:51:04.669473+07:00"
+    "fetchedAt": "2026-10-28T12:59:49.763847+07:00"
   },
   {
     "id": "6460",
@@ -597,7 +657,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T12:51:04.669473+07:00"
+    "fetchedAt": "2026-10-28T12:59:49.763847+07:00"
   },
   {
     "id": "8281",
@@ -627,7 +687,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T12:51:04.669473+07:00"
+    "fetchedAt": "2026-10-28T12:59:49.763847+07:00"
   },
   {
     "id": "29737",
@@ -657,7 +717,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T12:51:04.669473+07:00"
+    "fetchedAt": "2026-10-28T12:59:49.763847+07:00"
   },
   {
     "id": "8158",
@@ -687,7 +747,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T12:51:04.669473+07:00"
+    "fetchedAt": "2026-10-28T12:59:49.763847+07:00"
   },
   {
     "id": "8144",
@@ -717,7 +777,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T12:51:04.669473+07:00"
+    "fetchedAt": "2026-10-28T12:59:49.763847+07:00"
   },
   {
     "id": "24321",
@@ -747,7 +807,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T12:51:04.669473+07:00"
+    "fetchedAt": "2026-10-28T12:59:49.763847+07:00"
   },
   {
     "id": "20486",
@@ -777,7 +837,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T12:51:04.669473+07:00"
+    "fetchedAt": "2026-10-28T12:59:49.763847+07:00"
   },
   {
     "id": "19695",
@@ -807,7 +867,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T12:51:04.669473+07:00"
+    "fetchedAt": "2026-10-28T12:59:49.763847+07:00"
   },
   {
     "id": "7943",
@@ -837,66 +897,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T12:51:04.669473+07:00"
-  },
-  {
-    "id": "255",
-    "symbol": "F",
-    "name": "Ford Motor Company",
-    "shortName": "Ford Motor",
-    "link": "https://www.investing.com/equities/ford-motor-co",
-    "price": 11.71,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 9.64,
-    "fairValueUpside": -17.72,
-    "peRatio": -6.31,
-    "evEbitda": 24.19,
-    "marketCap": 46930000000,
-    "marketCapFormatted": "46.93 พันล้าน",
-    "epsGrowth5y": 1.62,
-    "changeOneDayPercent": 1.12,
-    "financialHealth": "มูลค่าตามจริง",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "แย่",
-    "financialProfitabilityHealth": "แย่",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T12:51:04.669473+07:00"
-  },
-  {
-    "id": "7906",
-    "symbol": "CSX",
-    "name": "CSX Corporation",
-    "shortName": "CSX",
-    "link": "https://www.investing.com/equities/csx-corp",
-    "price": 52.27,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 43.27,
-    "fairValueUpside": -17.21,
-    "peRatio": 27.1,
-    "evEbitda": 15.2,
-    "marketCap": 96430000000,
-    "marketCapFormatted": "96.43 พันล้าน",
-    "epsGrowth5y": 0.06,
-    "changeOneDayPercent": 1.87,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T12:51:04.669473+07:00"
+    "fetchedAt": "2026-10-28T12:59:49.763847+07:00"
   }
 ]
