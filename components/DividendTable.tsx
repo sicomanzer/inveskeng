@@ -372,8 +372,8 @@ export default function DividendTable({
         </span>
         <span>
           {lang === 'th'
-            ? 'ผลตอบแทนปันผลคำนวณจากเงินปันผลจริง 12 เดือนย้อนหลัง (ตามวัน ex-date) ÷ ราคาล่าสุด · เฉลี่ย 5 ปี = DPS ปี ÷ ราคาปิดสิ้นปี'
-            : 'Yield = trailing 12-month dividends (by ex-date) ÷ latest price · 5Y avg = annual DPS ÷ year-end close'}
+            ? 'ผลตอบแทนปันผลคำนวณจากเงินปันผลจริง 12 เดือนย้อนหลัง (ตามวัน ex-date) ÷ ราคาล่าสุด · เฉลี่ย 5 ปี = DPS ปี ÷ ราคาปิดสิ้นปี (คำนวณจาก yfinance อาจต่างจาก Investing.com เล็กน้อย)'
+            : 'Yield = trailing 12-month dividends (by ex-date) ÷ latest price · 5Y avg = annual DPS ÷ year-end close (computed from yfinance; may differ slightly from Investing.com)'}
         </span>
       </div>
 
