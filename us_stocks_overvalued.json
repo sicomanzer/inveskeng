@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T11:10:44.112407+07:00"
+    "fetchedAt": "2026-10-28T11:21:11.246864+07:00"
   },
   {
     "id": "1131557",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T11:10:44.112407+07:00"
+    "fetchedAt": "2026-10-28T11:21:11.246864+07:00"
   },
   {
     "id": "41268",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T11:10:44.112407+07:00"
+    "fetchedAt": "2026-10-28T11:21:11.246864+07:00"
   },
   {
     "id": "13994",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T11:10:44.112407+07:00"
+    "fetchedAt": "2026-10-28T11:21:11.246864+07:00"
   },
   {
     "id": "251",
@@ -147,7 +147,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T11:10:44.112407+07:00"
+    "fetchedAt": "2026-10-28T11:21:11.246864+07:00"
+  },
+  {
+    "id": "1114321",
+    "symbol": "MRNA",
+    "name": "Moderna Inc",
+    "shortName": "Moderna",
+    "link": "https://www.investing.com/equities/moderna",
+    "price": 207.97,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 134.17,
+    "fairValueUpside": -35.49,
+    "peRatio": -25.71,
+    "evEbitda": -33.83,
+    "marketCap": 82530000000,
+    "marketCapFormatted": "82.53 พันล้าน",
+    "epsGrowth5y": 2.01,
+    "changeOneDayPercent": 4.59,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "แย่",
+    "financialProfitabilityHealth": "มูลค่าตามจริง",
+    "analystRatings": "ถือหุ้นไว้",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T11:21:11.246864+07:00"
   },
   {
     "id": "261",
@@ -177,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T11:10:44.112407+07:00"
+    "fetchedAt": "2026-10-28T11:21:11.246864+07:00"
   },
   {
     "id": "13852",
@@ -207,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T11:10:44.112407+07:00"
+    "fetchedAt": "2026-10-28T11:21:11.246864+07:00"
   },
   {
     "id": "1152784",
@@ -237,37 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T11:10:44.112407+07:00"
-  },
-  {
-    "id": "13067",
-    "symbol": "EQIX",
-    "name": "Equinix Inc",
-    "shortName": "Equinix",
-    "link": "https://www.investing.com/equities/equinix,-inc.",
-    "price": 999.38,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 725.88,
-    "fairValueUpside": -27.37,
-    "peRatio": 63.66,
-    "evEbitda": 25.69,
-    "marketCap": 98460000000,
-    "marketCapFormatted": "98.46 พันล้าน",
-    "epsGrowth5y": 0.28,
-    "changeOneDayPercent": 3.28,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T11:10:44.112407+07:00"
+    "fetchedAt": "2026-10-28T11:21:11.246864+07:00"
   },
   {
     "id": "1206256",
@@ -297,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T11:10:44.112407+07:00"
+    "fetchedAt": "2026-10-28T11:21:11.246864+07:00"
   },
   {
     "id": "20164",
@@ -327,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T11:10:44.112407+07:00"
+    "fetchedAt": "2026-10-28T11:21:11.246864+07:00"
   },
   {
     "id": "6440",
@@ -357,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T11:10:44.112407+07:00"
+    "fetchedAt": "2026-10-28T11:21:11.246864+07:00"
   },
   {
     "id": "7881",
@@ -387,37 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T11:10:44.112407+07:00"
-  },
-  {
-    "id": "13848",
-    "symbol": "WELL",
-    "name": "Welltower Inc",
-    "shortName": "Welltower",
-    "link": "https://www.investing.com/equities/health-care-reit",
-    "price": 226.72,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 169.95,
-    "fairValueUpside": -25.04,
-    "peRatio": 102.1,
-    "evEbitda": 56.29,
-    "marketCap": 164110000000,
-    "marketCapFormatted": "164.11 พันล้าน",
-    "epsGrowth5y": 0.4,
-    "changeOneDayPercent": -5.77,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "มูลค่าตามจริง",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T11:10:44.112407+07:00"
+    "fetchedAt": "2026-10-28T11:21:11.246864+07:00"
   },
   {
     "id": "8260",
@@ -447,37 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T11:10:44.112407+07:00"
-  },
-  {
-    "id": "958233",
-    "symbol": "LITE",
-    "name": "Lumentum Holdings Inc",
-    "shortName": "Lumentum Holdings Inc",
-    "link": "https://www.investing.com/equities/lumentum-holdings-inc",
-    "price": 866.18,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 654.09,
-    "fairValueUpside": -24.46,
-    "peRatio": -9.34,
-    "evEbitda": 84.21,
-    "marketCap": 78240000000,
-    "marketCapFormatted": "78.24 พันล้าน",
-    "epsGrowth5y": -13.89,
-    "changeOneDayPercent": 5.88,
-    "financialHealth": "มูลค่าตามจริง",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "มูลค่าตามจริง",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T11:10:44.112407+07:00"
+    "fetchedAt": "2026-10-28T11:21:11.246864+07:00"
   },
   {
     "id": "7997",
@@ -507,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T11:10:44.112407+07:00"
+    "fetchedAt": "2026-10-28T11:21:11.246864+07:00"
   },
   {
     "id": "257",
@@ -537,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T11:10:44.112407+07:00"
+    "fetchedAt": "2026-10-28T11:21:11.246864+07:00"
   },
   {
     "id": "247",
@@ -567,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T11:10:44.112407+07:00"
+    "fetchedAt": "2026-10-28T11:21:11.246864+07:00"
   },
   {
     "id": "8279",
@@ -597,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T11:10:44.112407+07:00"
+    "fetchedAt": "2026-10-28T11:21:11.246864+07:00"
   },
   {
     "id": "1161057",
@@ -627,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T11:10:44.112407+07:00"
+    "fetchedAt": "2026-10-28T11:21:11.246864+07:00"
   },
   {
     "id": "6460",
@@ -657,7 +597,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T11:10:44.112407+07:00"
+    "fetchedAt": "2026-10-28T11:21:11.246864+07:00"
   },
   {
     "id": "8281",
@@ -687,7 +627,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T11:10:44.112407+07:00"
+    "fetchedAt": "2026-10-28T11:21:11.246864+07:00"
   },
   {
     "id": "29737",
@@ -717,7 +657,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T11:10:44.112407+07:00"
+    "fetchedAt": "2026-10-28T11:21:11.246864+07:00"
   },
   {
     "id": "8158",
@@ -747,7 +687,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T11:10:44.112407+07:00"
+    "fetchedAt": "2026-10-28T11:21:11.246864+07:00"
   },
   {
     "id": "8144",
@@ -777,7 +717,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T11:10:44.112407+07:00"
+    "fetchedAt": "2026-10-28T11:21:11.246864+07:00"
+  },
+  {
+    "id": "24321",
+    "symbol": "TRGP",
+    "name": "Targa Resources Inc",
+    "shortName": "Targa Resources",
+    "link": "https://www.investing.com/equities/targa-resources-inc",
+    "price": 302.61,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 247.43,
+    "fairValueUpside": -18.24,
+    "peRatio": 28.83,
+    "evEbitda": 15.36,
+    "marketCap": 64960000000,
+    "marketCapFormatted": "64.96 พันล้าน",
+    "epsGrowth5y": 3.66,
+    "changeOneDayPercent": -0.68,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T11:21:11.246864+07:00"
   },
   {
     "id": "20486",
@@ -807,7 +777,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T11:10:44.112407+07:00"
+    "fetchedAt": "2026-10-28T11:21:11.246864+07:00"
   },
   {
     "id": "19695",
@@ -837,7 +807,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T11:10:44.112407+07:00"
+    "fetchedAt": "2026-10-28T11:21:11.246864+07:00"
   },
   {
     "id": "7943",
@@ -867,7 +837,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T11:10:44.112407+07:00"
+    "fetchedAt": "2026-10-28T11:21:11.246864+07:00"
   },
   {
     "id": "255",
@@ -897,6 +867,36 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T11:10:44.112407+07:00"
+    "fetchedAt": "2026-10-28T11:21:11.246864+07:00"
+  },
+  {
+    "id": "8252",
+    "symbol": "NSC",
+    "name": "Norfolk Southern Corporation",
+    "shortName": "Norfolk Southern",
+    "link": "https://www.investing.com/equities/norfolk-southern",
+    "price": 339.74,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 281.26,
+    "fairValueUpside": -17.21,
+    "peRatio": 28.35,
+    "evEbitda": 14.76,
+    "marketCap": 76410000000,
+    "marketCapFormatted": "76.41 พันล้าน",
+    "epsGrowth5y": 0.12,
+    "changeOneDayPercent": 1.72,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ถือหุ้นไว้",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T11:21:11.246864+07:00"
   }
 ]
