@@ -25,7 +25,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-28T06:11:47.188243+07:00"
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T09:32:37.932471+07:00"
   },
   {
     "id": "6373",
@@ -33,7 +35,7 @@
     "name": "Adobe Inc",
     "shortName": "Adobe",
     "link": "https://www.investing.com/equities/adobe-sys-inc",
-    "price": 248.38,
+    "price": 248.36,
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 423.29,
@@ -43,7 +45,7 @@
     "marketCap": 96590000000,
     "marketCapFormatted": "96.59 พันล้าน",
     "epsGrowth5y": 0.1,
-    "changeOneDayPercent": -3.96,
+    "changeOneDayPercent": -3.97,
     "financialHealth": "ดีมาก",
     "financialCashFlowHealth": "ดีมาก",
     "financialGrowthHealth": "ดี",
@@ -53,7 +55,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-28T06:11:47.188243+07:00"
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T09:32:37.932471+07:00"
   },
   {
     "id": "8042",
@@ -81,7 +85,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-28T06:11:47.188243+07:00"
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T09:32:37.932471+07:00"
   },
   {
     "id": "6370",
@@ -109,7 +115,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-28T06:11:47.188243+07:00"
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T09:32:37.932471+07:00"
   },
   {
     "id": "32341",
@@ -137,7 +145,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-28T06:11:47.188243+07:00"
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T09:32:37.932471+07:00"
   },
   {
     "id": "6448",
@@ -165,7 +175,69 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-28T06:11:47.188243+07:00"
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T09:32:37.932471+07:00"
+  },
+  {
+    "id": "8175",
+    "symbol": "CB",
+    "name": "Chubb Ltd",
+    "shortName": "Chubb",
+    "link": "https://www.investing.com/equities/chubb-corp",
+    "price": 356.25,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 583.64,
+    "fairValueUpside": 63.83,
+    "peRatio": 12.43,
+    "evEbitda": 11.32,
+    "marketCap": 136260000000,
+    "marketCapFormatted": "136.26 พันล้าน",
+    "epsGrowth5y": 0.23,
+    "changeOneDayPercent": -0.14,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T09:32:37.932471+07:00"
+  },
+  {
+    "id": "39152",
+    "symbol": "LKQ",
+    "name": "LKQ Corporation",
+    "shortName": "LKQ",
+    "link": "https://www.investing.com/equities/lkq",
+    "price": 17.1,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 27.94,
+    "fairValueUpside": 63.4,
+    "peRatio": 9.51,
+    "evEbitda": 6.58,
+    "marketCap": 4340000000,
+    "marketCapFormatted": "4.34 พันล้าน",
+    "epsGrowth5y": 0.03,
+    "changeOneDayPercent": -0.87,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "แย่",
+    "financialProfitabilityHealth": "ดี",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T09:32:37.932471+07:00"
   },
   {
     "id": "956170",
@@ -183,7 +255,7 @@
     "marketCap": 47760000000,
     "marketCapFormatted": "47.76 พันล้าน",
     "epsGrowth5y": 0.17,
-    "changeOneDayPercent": 1.99,
+    "changeOneDayPercent": 2.0,
     "financialHealth": "ดี",
     "financialCashFlowHealth": "ดี",
     "financialGrowthHealth": "ดี",
@@ -193,7 +265,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-28T06:11:47.188243+07:00"
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T09:32:37.932471+07:00"
   },
   {
     "id": "7889",
@@ -221,7 +295,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-28T06:11:47.188243+07:00"
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T09:32:37.932471+07:00"
   },
   {
     "id": "32331",
@@ -249,7 +325,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-28T06:11:47.188243+07:00"
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T09:32:37.932471+07:00"
   },
   {
     "id": "20529",
@@ -277,7 +355,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-28T06:11:47.188243+07:00"
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T09:32:37.932471+07:00"
   },
   {
     "id": "15722",
@@ -305,7 +385,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-28T06:11:47.188243+07:00"
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T09:32:37.932471+07:00"
   },
   {
     "id": "6516",
@@ -333,7 +415,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-28T06:11:47.188243+07:00"
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T09:32:37.932471+07:00"
   },
   {
     "id": "1220843",
@@ -351,7 +435,7 @@
     "marketCap": 5400000000,
     "marketCapFormatted": "5.4 พันล้าน",
     "epsGrowth5y": 1.46,
-    "changeOneDayPercent": -1.47,
+    "changeOneDayPercent": -1.45,
     "financialHealth": "ดี",
     "financialCashFlowHealth": "มูลค่าตามจริง",
     "financialGrowthHealth": "ดีเยี่ยม",
@@ -361,7 +445,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-28T06:11:47.188243+07:00"
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T09:32:37.932471+07:00"
   },
   {
     "id": "15828",
@@ -389,7 +475,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-28T06:11:47.188243+07:00"
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T09:32:37.932471+07:00"
   },
   {
     "id": "41176",
@@ -417,7 +505,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-28T06:11:47.188243+07:00"
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T09:32:37.932471+07:00"
   },
   {
     "id": "39277",
@@ -445,35 +535,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-28T06:11:47.188243+07:00"
-  },
-  {
-    "id": "39147",
-    "symbol": "UHS",
-    "name": "Universal Health Services Inc Class B",
-    "shortName": "Universal Health Services B",
-    "link": "https://www.investing.com/equities/universal-health-services",
-    "price": 177.32,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 263.48,
-    "fairValueUpside": 48.59,
-    "peRatio": 7.11,
-    "evEbitda": 5.93,
-    "marketCap": 10420000000,
-    "marketCapFormatted": "10.42 พันล้าน",
-    "epsGrowth5y": 0.19,
-    "changeOneDayPercent": -4.52,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-28T06:11:47.188243+07:00"
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T09:32:37.932471+07:00"
   },
   {
     "id": "31028",
@@ -481,7 +545,7 @@
     "name": "Enphase Energy Inc",
     "shortName": "Enphase",
     "link": "https://www.investing.com/equities/enphase-energy-inc",
-    "price": 29.74,
+    "price": 29.76,
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 43.69,
@@ -491,7 +555,7 @@
     "marketCap": 3950000000,
     "marketCapFormatted": "3.95 พันล้าน",
     "epsGrowth5y": 0.4,
-    "changeOneDayPercent": -2.06,
+    "changeOneDayPercent": -1.98,
     "financialHealth": "มูลค่าตามจริง",
     "financialCashFlowHealth": "ดี",
     "financialGrowthHealth": "แย่",
@@ -501,7 +565,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-28T06:11:47.188243+07:00"
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T09:32:37.932471+07:00"
   },
   {
     "id": "32391",
@@ -529,7 +595,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-28T06:11:47.188243+07:00"
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T09:32:37.932471+07:00"
   },
   {
     "id": "19694",
@@ -557,7 +625,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-28T06:11:47.188243+07:00"
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T09:32:37.932471+07:00"
   },
   {
     "id": "948325",
@@ -585,7 +655,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-28T06:11:47.188243+07:00"
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T09:32:37.932471+07:00"
   },
   {
     "id": "8294",
@@ -613,7 +685,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-28T06:11:47.188243+07:00"
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T09:32:37.932471+07:00"
   },
   {
     "id": "32532",
@@ -641,7 +715,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-28T06:11:47.188243+07:00"
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T09:32:37.932471+07:00"
   },
   {
     "id": "8063",
@@ -669,7 +745,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-28T06:11:47.188243+07:00"
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T09:32:37.932471+07:00"
   },
   {
     "id": "32381",
@@ -697,7 +775,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-28T06:11:47.188243+07:00"
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T09:32:37.932471+07:00"
   },
   {
     "id": "17195",
@@ -725,7 +805,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-28T06:11:47.188243+07:00"
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T09:32:37.932471+07:00"
   },
   {
     "id": "6363",
@@ -753,7 +835,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-28T06:11:47.188243+07:00"
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T09:32:37.932471+07:00"
   },
   {
     "id": "39135",
@@ -781,7 +865,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-28T06:11:47.188243+07:00"
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T09:32:37.932471+07:00"
   },
   {
     "id": "39159",
@@ -809,34 +895,8 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-28T06:11:47.188243+07:00"
-  },
-  {
-    "id": "6392",
-    "symbol": "WYNN",
-    "name": "Wynn Resorts Limited",
-    "shortName": "Wynn Resorts",
-    "link": "https://www.investing.com/equities/wynn-resorts-ltd",
-    "price": 72.42,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 101.02,
-    "fairValueUpside": 39.5,
-    "peRatio": 17.33,
-    "evEbitda": 8.69,
-    "marketCap": 7340000000,
-    "marketCapFormatted": "7.34 พันล้าน",
-    "epsGrowth5y": 4.79,
-    "changeOneDayPercent": -2.4,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-28T06:11:47.188243+07:00"
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T09:32:37.932471+07:00"
   }
 ]
