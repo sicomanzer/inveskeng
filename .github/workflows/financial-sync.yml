@@ -49,7 +49,8 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Sync"
           # financial_status.json แยกไฟล์จาก sync_status.json เพื่อไม่ให้ rebase ชนกับ auto-sync
-          git add stock_details_SET.json stock_details_US.json financial_status.json
+          git add stock_details_SET.json stock_details_US.json
+          [ -f financial_status.json ] && git add financial_status.json || true
 
           if git diff --staged --quiet; then
             echo "[git] no financial changes"
