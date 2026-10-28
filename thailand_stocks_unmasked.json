@@ -15,7 +15,7 @@
     "marketCap": 21310000000,
     "marketCapFormatted": "21.31 พันล้าน",
     "epsGrowth5y": -5.15,
-    "changeOneDayPercent": -11.4,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "มูลค่าตามจริง",
     "financialCashFlowHealth": "มูลค่าตามจริง",
     "financialGrowthHealth": "มูลค่าตามจริง",
@@ -27,7 +27,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T09:26:05.673105+07:00"
+    "fetchedAt": "2026-10-28T10:03:21.747900+07:00"
   },
   {
     "id": "1177382",
@@ -45,7 +45,7 @@
     "marketCap": 3480000000,
     "marketCapFormatted": "3.48 พันล้าน",
     "epsGrowth5y": 0.31,
-    "changeOneDayPercent": -1.15,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "ดีมาก",
     "financialCashFlowHealth": "ดีเยี่ยม",
     "financialGrowthHealth": "ดีเยี่ยม",
@@ -57,7 +57,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T09:26:05.673105+07:00"
+    "fetchedAt": "2026-10-28T10:03:21.747900+07:00"
   },
   {
     "id": "102518",
@@ -75,7 +75,7 @@
     "marketCap": 12480000000,
     "marketCapFormatted": "12.48 พันล้าน",
     "epsGrowth5y": 0.65,
-    "changeOneDayPercent": -1.49,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "ดีมาก",
     "financialCashFlowHealth": "ดีมาก",
     "financialGrowthHealth": "ดีมาก",
@@ -87,7 +87,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T09:26:05.673105+07:00"
+    "fetchedAt": "2026-10-28T10:03:21.747900+07:00"
   },
   {
     "id": "1052357",
@@ -105,7 +105,7 @@
     "marketCap": 28690000000,
     "marketCapFormatted": "28.69 พันล้าน",
     "epsGrowth5y": 0.14,
-    "changeOneDayPercent": -0.67,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "ดีมาก",
     "financialCashFlowHealth": "ดีเยี่ยม",
     "financialGrowthHealth": "ดีมาก",
@@ -117,7 +117,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T09:26:05.673105+07:00"
+    "fetchedAt": "2026-10-28T10:03:21.747900+07:00"
   },
   {
     "id": "102443",
@@ -147,7 +147,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T09:26:05.673105+07:00"
+    "fetchedAt": "2026-10-28T10:03:21.747900+07:00"
   },
   {
     "id": "1056157",
@@ -177,7 +177,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T09:26:05.673105+07:00"
+    "fetchedAt": "2026-10-28T10:03:21.747900+07:00"
   },
   {
     "id": "102554",
@@ -195,7 +195,7 @@
     "marketCap": 15180000000,
     "marketCapFormatted": "15.18 พันล้าน",
     "epsGrowth5y": -0.06,
-    "changeOneDayPercent": -0.95,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "มูลค่าตามจริง",
     "financialCashFlowHealth": "ดี",
     "financialGrowthHealth": "มูลค่าตามจริง",
@@ -207,7 +207,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T09:26:05.673105+07:00"
+    "fetchedAt": "2026-10-28T10:03:21.747900+07:00"
   },
   {
     "id": "1153457",
@@ -225,7 +225,7 @@
     "marketCap": 9640000000,
     "marketCapFormatted": "9.64 พันล้าน",
     "epsGrowth5y": -0.01,
-    "changeOneDayPercent": -0.81,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "ดี",
     "financialCashFlowHealth": "ดีมาก",
     "financialGrowthHealth": "มูลค่าตามจริง",
@@ -237,7 +237,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T09:26:05.673105+07:00"
+    "fetchedAt": "2026-10-28T10:03:21.747900+07:00"
+  },
+  {
+    "id": "102425",
+    "symbol": "BCP",
+    "name": "Bangchak Corporation PCL",
+    "shortName": "Bangchak Corp",
+    "link": "https://www.investing.com/equities/bangchak",
+    "price": 51.5,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 74.66,
+    "fairValueUpside": 44.97,
+    "peRatio": 3.32,
+    "evEbitda": 3.32,
+    "marketCap": 73750000000,
+    "marketCapFormatted": "73.75 พันล้าน",
+    "epsGrowth5y": 1.87,
+    "changeOneDayPercent": 0.0,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดี",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-27T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
+    "fetchedAt": "2026-10-28T10:03:21.747900+07:00"
   },
   {
     "id": "102829",
@@ -255,7 +285,7 @@
     "marketCap": 9380000000,
     "marketCapFormatted": "9.38 พันล้าน",
     "epsGrowth5y": 1.11,
-    "changeOneDayPercent": -0.96,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "ดีมาก",
     "financialCashFlowHealth": "ดีมาก",
     "financialGrowthHealth": "ดี",
@@ -267,7 +297,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T09:26:05.673105+07:00"
+    "fetchedAt": "2026-10-28T10:03:21.747900+07:00"
   },
   {
     "id": "1216964",
@@ -285,7 +315,7 @@
     "marketCap": 2190000000,
     "marketCapFormatted": "2.19 พันล้าน",
     "epsGrowth5y": 0.41,
-    "changeOneDayPercent": 0.57,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "ดีมาก",
     "financialCashFlowHealth": "ดี",
     "financialGrowthHealth": "ดีมาก",
@@ -297,7 +327,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T09:26:05.673105+07:00"
+    "fetchedAt": "2026-10-28T10:03:21.747900+07:00"
   },
   {
     "id": "1115209",
@@ -315,7 +345,7 @@
     "marketCap": 8650000000,
     "marketCapFormatted": "8.65 พันล้าน",
     "epsGrowth5y": 0.46,
-    "changeOneDayPercent": 1.1,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "ดีมาก",
     "financialCashFlowHealth": "ดีมาก",
     "financialGrowthHealth": "ดีมาก",
@@ -327,7 +357,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T09:26:05.673105+07:00"
+    "fetchedAt": "2026-10-28T10:03:21.747900+07:00"
   },
   {
     "id": "102513",
@@ -345,7 +375,7 @@
     "marketCap": 13280000000,
     "marketCapFormatted": "13.28 พันล้าน",
     "epsGrowth5y": 0.55,
-    "changeOneDayPercent": 4.41,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "ดีมาก",
     "financialCashFlowHealth": "มูลค่าตามจริง",
     "financialGrowthHealth": "ดีมาก",
@@ -357,7 +387,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T09:26:05.673105+07:00"
+    "fetchedAt": "2026-10-28T10:03:21.747900+07:00"
   },
   {
     "id": "1173246",
@@ -375,7 +405,7 @@
     "marketCap": 8740000000,
     "marketCapFormatted": "8.74 พันล้าน",
     "epsGrowth5y": 0.3,
-    "changeOneDayPercent": 0.79,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "ดีมาก",
     "financialCashFlowHealth": "ดีมาก",
     "financialGrowthHealth": "ดีเยี่ยม",
@@ -387,7 +417,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T09:26:05.673105+07:00"
+    "fetchedAt": "2026-10-28T10:03:21.747900+07:00"
   },
   {
     "id": "102457",
@@ -405,7 +435,7 @@
     "marketCap": 28900000000,
     "marketCapFormatted": "28.9 พันล้าน",
     "epsGrowth5y": 0.35,
-    "changeOneDayPercent": 1.18,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "ดีมาก",
     "financialCashFlowHealth": "มูลค่าตามจริง",
     "financialGrowthHealth": "ดีเยี่ยม",
@@ -417,7 +447,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T09:26:05.673105+07:00"
+    "fetchedAt": "2026-10-28T10:03:21.747900+07:00"
+  },
+  {
+    "id": "102617",
+    "symbol": "M",
+    "name": "MK Restaurant Group PCL",
+    "shortName": "MK Restaurant",
+    "link": "https://www.investing.com/equities/mk-restaurant",
+    "price": 20.7,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 29.48,
+    "fairValueUpside": 42.42,
+    "peRatio": 17.2,
+    "evEbitda": 14.52,
+    "marketCap": 18710000000,
+    "marketCapFormatted": "18.71 พันล้าน",
+    "epsGrowth5y": 1.39,
+    "changeOneDayPercent": 0.0,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดีเยี่ยม",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ถือหุ้นไว้",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-27T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
+    "fetchedAt": "2026-10-28T10:03:21.747900+07:00"
   },
   {
     "id": "1196441",
@@ -435,7 +495,7 @@
     "marketCap": 7370000000,
     "marketCapFormatted": "7.37 พันล้าน",
     "epsGrowth5y": 0.15,
-    "changeOneDayPercent": -2.24,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "ดีมาก",
     "financialCashFlowHealth": "ดี",
     "financialGrowthHealth": "ดีมาก",
@@ -447,7 +507,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T09:26:05.673105+07:00"
+    "fetchedAt": "2026-10-28T10:03:21.747900+07:00"
   },
   {
     "id": "986206",
@@ -465,7 +525,7 @@
     "marketCap": 3810000000,
     "marketCapFormatted": "3.81 พันล้าน",
     "epsGrowth5y": 0.12,
-    "changeOneDayPercent": -0.78,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "ดีมาก",
     "financialCashFlowHealth": "ดีเยี่ยม",
     "financialGrowthHealth": "ดีมาก",
@@ -477,7 +537,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T09:26:05.673105+07:00"
+    "fetchedAt": "2026-10-28T10:03:21.747900+07:00"
   },
   {
     "id": "102743",
@@ -495,7 +555,7 @@
     "marketCap": 8610000000,
     "marketCapFormatted": "8.61 พันล้าน",
     "epsGrowth5y": 0.09,
-    "changeOneDayPercent": -0.4,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "ดี",
     "financialCashFlowHealth": "แย่",
     "financialGrowthHealth": "ดีมาก",
@@ -507,7 +567,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T09:26:05.673105+07:00"
+    "fetchedAt": "2026-10-28T10:03:21.747900+07:00"
   },
   {
     "id": "1198524",
@@ -525,7 +585,7 @@
     "marketCap": 11470000000,
     "marketCapFormatted": "11.47 พันล้าน",
     "epsGrowth5y": 0.39,
-    "changeOneDayPercent": 2.88,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "ดีมาก",
     "financialCashFlowHealth": "ดีมาก",
     "financialGrowthHealth": "ดีมาก",
@@ -537,37 +597,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T09:26:05.673105+07:00"
-  },
-  {
-    "id": "102498",
-    "symbol": "AKR",
-    "name": "Ekarat Engineering PCL",
-    "shortName": "Ekarat Engineering",
-    "link": "https://www.investing.com/equities/ekarat-engine",
-    "price": 1.04,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 1.46,
-    "fairValueUpside": 40.0,
-    "peRatio": 11.02,
-    "evEbitda": 5.12,
-    "marketCap": 1530000000,
-    "marketCapFormatted": "1.53 พันล้าน",
-    "epsGrowth5y": 0.19,
-    "changeOneDayPercent": -1.89,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "-",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-27T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T09:26:05.673105+07:00"
+    "fetchedAt": "2026-10-28T10:03:21.747900+07:00"
   },
   {
     "id": "102753",
@@ -585,7 +615,7 @@
     "marketCap": 37050000000,
     "marketCapFormatted": "37.05 พันล้าน",
     "epsGrowth5y": 0.02,
-    "changeOneDayPercent": -1.33,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "ดี",
     "financialCashFlowHealth": "ดี",
     "financialGrowthHealth": "มูลค่าตามจริง",
@@ -597,7 +627,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T09:26:05.673105+07:00"
+    "fetchedAt": "2026-10-28T10:03:21.747900+07:00"
   },
   {
     "id": "102726",
@@ -615,7 +645,7 @@
     "marketCap": 45450000000,
     "marketCapFormatted": "45.45 พันล้าน",
     "epsGrowth5y": 0.28,
-    "changeOneDayPercent": 0.66,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "ดีมาก",
     "financialCashFlowHealth": "ดี",
     "financialGrowthHealth": "ดีมาก",
@@ -627,7 +657,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T09:26:05.673105+07:00"
+    "fetchedAt": "2026-10-28T10:03:21.747900+07:00"
   },
   {
     "id": "103821",
@@ -657,7 +687,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T09:26:05.673105+07:00"
+    "fetchedAt": "2026-10-28T10:03:21.747900+07:00"
   },
   {
     "id": "102472",
@@ -675,7 +705,7 @@
     "marketCap": 19020000000,
     "marketCapFormatted": "19.02 พันล้าน",
     "epsGrowth5y": 0.51,
-    "changeOneDayPercent": -0.85,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "ดี",
     "financialCashFlowHealth": "ดีมาก",
     "financialGrowthHealth": "ดี",
@@ -687,7 +717,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T09:26:05.673105+07:00"
+    "fetchedAt": "2026-10-28T10:03:21.747900+07:00"
+  },
+  {
+    "id": "102398",
+    "symbol": "AEONTS",
+    "name": "Aeon Thana Sinsap Thailand PCL",
+    "shortName": "Aeon Thana Sinsap",
+    "link": "https://www.investing.com/equities/aeon-thana-sin",
+    "price": 89.25,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 123.1,
+    "fairValueUpside": 37.92,
+    "peRatio": 7.45,
+    "evEbitda": 0.0,
+    "marketCap": 21980000000,
+    "marketCapFormatted": "21.98 พันล้าน",
+    "epsGrowth5y": -0.04,
+    "changeOneDayPercent": 0.0,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "มูลค่าตามจริง",
+    "analystRatings": "ถือหุ้นไว้",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-27T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
+    "fetchedAt": "2026-10-28T10:03:21.747900+07:00"
   },
   {
     "id": "102689",
@@ -705,7 +765,7 @@
     "marketCap": 11520000000,
     "marketCapFormatted": "11.52 พันล้าน",
     "epsGrowth5y": 0.41,
-    "changeOneDayPercent": -4.2,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "ดี",
     "financialCashFlowHealth": "ดี",
     "financialGrowthHealth": "มูลค่าตามจริง",
@@ -717,7 +777,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T09:26:05.673105+07:00"
+    "fetchedAt": "2026-10-28T10:03:21.747900+07:00"
+  },
+  {
+    "id": "102547",
+    "symbol": "IRPC",
+    "name": "IRPC PCL",
+    "shortName": "IRPC PCL",
+    "link": "https://www.investing.com/equities/irpc",
+    "price": 2.92,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 4.01,
+    "fairValueUpside": 37.22,
+    "peRatio": 5.63,
+    "evEbitda": 3.56,
+    "marketCap": 56440000000,
+    "marketCapFormatted": "56.44 พันล้าน",
+    "epsGrowth5y": -2.77,
+    "changeOneDayPercent": 0.0,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดี",
+    "analystRatings": "ถือหุ้นไว้",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-27T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
+    "fetchedAt": "2026-10-28T10:03:21.747900+07:00"
   },
   {
     "id": "102731",
@@ -735,7 +825,7 @@
     "marketCap": 38930000000,
     "marketCapFormatted": "38.93 พันล้าน",
     "epsGrowth5y": 0.02,
-    "changeOneDayPercent": 1.46,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "ดี",
     "financialCashFlowHealth": "ดีมาก",
     "financialGrowthHealth": "มูลค่าตามจริง",
@@ -747,7 +837,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T09:26:05.673105+07:00"
+    "fetchedAt": "2026-10-28T10:03:21.747900+07:00"
   },
   {
     "id": "102467",
@@ -765,7 +855,7 @@
     "marketCap": 17270000000,
     "marketCapFormatted": "17.27 พันล้าน",
     "epsGrowth5y": 0.53,
-    "changeOneDayPercent": 2.61,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "ดีมาก",
     "financialCashFlowHealth": "ดีมาก",
     "financialGrowthHealth": "มูลค่าตามจริง",
@@ -777,118 +867,28 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T09:26:05.673105+07:00"
+    "fetchedAt": "2026-10-28T10:03:21.747900+07:00"
   },
   {
-    "id": "1202516",
-    "symbol": "MGC",
-    "name": "Millennium Group Corporation Asia PCL",
-    "shortName": "Millennium Group",
-    "link": "https://www.investing.com/equities/millennium-corporation-asia",
-    "price": 6.5,
+    "id": "1167326",
+    "symbol": "NCAP",
+    "name": "Next Capital&#160;Plc",
+    "shortName": "Next Capital",
+    "link": "https://www.investing.com/equities/next-capital-plc",
+    "price": 3.32,
     "currency": "THB",
     "currencySymbol": "฿",
-    "fairValue": 8.72,
-    "fairValueUpside": 34.21,
-    "peRatio": 4.34,
-    "evEbitda": 7.09,
-    "marketCap": 7300000000,
-    "marketCapFormatted": "7.3 พันล้าน",
-    "epsGrowth5y": 1.83,
-    "changeOneDayPercent": -0.76,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-27T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T09:26:05.673105+07:00"
-  },
-  {
-    "id": "102584",
-    "symbol": "LOXLEY",
-    "name": "Loxley PCL",
-    "shortName": "Loxley PCL",
-    "link": "https://www.investing.com/equities/loxley-publ",
-    "price": 1.8,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 2.408,
-    "fairValueUpside": 33.75,
-    "peRatio": 5.71,
-    "evEbitda": 0.62,
-    "marketCap": 4080000000,
-    "marketCapFormatted": "4.08 พันล้าน",
-    "epsGrowth5y": 13.17,
-    "changeOneDayPercent": 1.69,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดี",
-    "analystRatings": "-",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-27T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T09:26:05.673105+07:00"
-  },
-  {
-    "id": "986274",
-    "symbol": "LHHOTELu",
-    "name": "LH Hotel Leasehold Real Estate Investment Trust",
-    "shortName": "LH Hotel Leasehold RE",
-    "link": "https://www.investing.com/equities/lh-hotel-leasehold-real-estate",
-    "price": 13.3,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 17.73,
-    "fairValueUpside": 33.29,
-    "peRatio": 11.57,
+    "fairValue": 4.46,
+    "fairValueUpside": 34.26,
+    "peRatio": 7.52,
     "evEbitda": 0.0,
-    "marketCap": 13950000000,
-    "marketCapFormatted": "13.95 พันล้าน",
-    "epsGrowth5y": 1.38,
-    "changeOneDayPercent": -2.21,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดี",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อ",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-27T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T09:26:05.673105+07:00"
-  },
-  {
-    "id": "102408",
-    "symbol": "AP",
-    "name": "AP Thailand PCL",
-    "shortName": "AP",
-    "link": "https://www.investing.com/equities/ap-thailand",
-    "price": 8.0,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 10.62,
-    "fairValueUpside": 32.81,
-    "peRatio": 5.7,
-    "evEbitda": 8.76,
-    "marketCap": 25170000000,
-    "marketCapFormatted": "25.17 พันล้าน",
-    "epsGrowth5y": -0.0,
-    "changeOneDayPercent": -0.62,
+    "marketCap": 4540000000,
+    "marketCapFormatted": "4.54 พันล้าน",
+    "epsGrowth5y": 0.26,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดีมาก",
     "financialProfitabilityHealth": "ดีมาก",
     "analystRatings": "ซื้อทันที",
     "flagCode": "TH",
@@ -897,6 +897,6 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-27T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T09:26:05.673105+07:00"
+    "fetchedAt": "2026-10-28T10:03:21.747900+07:00"
   }
 ]

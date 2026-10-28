@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T09:19:10.740528+07:00"
+    "fetchedAt": "2026-10-28T10:06:26.215590+07:00"
   },
   {
     "id": "1131557",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T09:19:10.740528+07:00"
+    "fetchedAt": "2026-10-28T10:06:26.215590+07:00"
   },
   {
     "id": "41268",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T09:19:10.740528+07:00"
+    "fetchedAt": "2026-10-28T10:06:26.215590+07:00"
   },
   {
     "id": "13994",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T09:19:10.740528+07:00"
+    "fetchedAt": "2026-10-28T10:06:26.215590+07:00"
   },
   {
     "id": "251",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T09:19:10.740528+07:00"
+    "fetchedAt": "2026-10-28T10:06:26.215590+07:00"
   },
   {
     "id": "1114321",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T09:19:10.740528+07:00"
+    "fetchedAt": "2026-10-28T10:06:26.215590+07:00"
   },
   {
     "id": "261",
@@ -207,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T09:19:10.740528+07:00"
+    "fetchedAt": "2026-10-28T10:06:26.215590+07:00"
   },
   {
     "id": "13852",
@@ -237,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T09:19:10.740528+07:00"
+    "fetchedAt": "2026-10-28T10:06:26.215590+07:00"
   },
   {
     "id": "1152784",
@@ -267,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T09:19:10.740528+07:00"
+    "fetchedAt": "2026-10-28T10:06:26.215590+07:00"
   },
   {
     "id": "13067",
@@ -297,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T09:19:10.740528+07:00"
+    "fetchedAt": "2026-10-28T10:06:26.215590+07:00"
   },
   {
     "id": "1206256",
@@ -327,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T09:19:10.740528+07:00"
+    "fetchedAt": "2026-10-28T10:06:26.215590+07:00"
   },
   {
     "id": "20164",
@@ -357,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T09:19:10.740528+07:00"
+    "fetchedAt": "2026-10-28T10:06:26.215590+07:00"
   },
   {
     "id": "6440",
@@ -387,37 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T09:19:10.740528+07:00"
-  },
-  {
-    "id": "7881",
-    "symbol": "WAT",
-    "name": "Waters Corporation",
-    "shortName": "Waters",
-    "link": "https://www.investing.com/equities/waters-corp",
-    "price": 468.55,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 350.24,
-    "fairValueUpside": -25.25,
-    "peRatio": 211.43,
-    "evEbitda": 34.1,
-    "marketCap": 46060000000,
-    "marketCapFormatted": "46.06 พันล้าน",
-    "epsGrowth5y": -0.02,
-    "changeOneDayPercent": 2.76,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T09:19:10.740528+07:00"
+    "fetchedAt": "2026-10-28T10:06:26.215590+07:00"
   },
   {
     "id": "13848",
@@ -447,37 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T09:19:10.740528+07:00"
-  },
-  {
-    "id": "8260",
-    "symbol": "VMRK",
-    "name": "Vivmark Residential",
-    "shortName": "Vivmark",
-    "link": "https://www.investing.com/equities/eq-resident",
-    "price": 62.55,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 47.03,
-    "fairValueUpside": -24.81,
-    "peRatio": 25.69,
-    "evEbitda": 31.69,
-    "marketCap": 48480000000,
-    "marketCapFormatted": "48.48 พันล้าน",
-    "epsGrowth5y": 0.0,
-    "changeOneDayPercent": -0.37,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T09:19:10.740528+07:00"
+    "fetchedAt": "2026-10-28T10:06:26.215590+07:00"
   },
   {
     "id": "958233",
@@ -507,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T09:19:10.740528+07:00"
+    "fetchedAt": "2026-10-28T10:06:26.215590+07:00"
   },
   {
     "id": "7997",
@@ -537,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T09:19:10.740528+07:00"
+    "fetchedAt": "2026-10-28T10:06:26.215590+07:00"
   },
   {
     "id": "257",
@@ -567,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T09:19:10.740528+07:00"
+    "fetchedAt": "2026-10-28T10:06:26.215590+07:00"
   },
   {
     "id": "247",
@@ -597,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T09:19:10.740528+07:00"
+    "fetchedAt": "2026-10-28T10:06:26.215590+07:00"
   },
   {
     "id": "8279",
@@ -627,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T09:19:10.740528+07:00"
+    "fetchedAt": "2026-10-28T10:06:26.215590+07:00"
   },
   {
     "id": "1161057",
@@ -657,7 +597,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T09:19:10.740528+07:00"
+    "fetchedAt": "2026-10-28T10:06:26.215590+07:00"
   },
   {
     "id": "6460",
@@ -687,7 +627,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T09:19:10.740528+07:00"
+    "fetchedAt": "2026-10-28T10:06:26.215590+07:00"
   },
   {
     "id": "8281",
@@ -717,7 +657,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T09:19:10.740528+07:00"
+    "fetchedAt": "2026-10-28T10:06:26.215590+07:00"
   },
   {
     "id": "29737",
@@ -747,7 +687,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T09:19:10.740528+07:00"
+    "fetchedAt": "2026-10-28T10:06:26.215590+07:00"
   },
   {
     "id": "8158",
@@ -777,7 +717,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T09:19:10.740528+07:00"
+    "fetchedAt": "2026-10-28T10:06:26.215590+07:00"
   },
   {
     "id": "8144",
@@ -807,7 +747,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T09:19:10.740528+07:00"
+    "fetchedAt": "2026-10-28T10:06:26.215590+07:00"
   },
   {
     "id": "24321",
@@ -837,7 +777,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T09:19:10.740528+07:00"
+    "fetchedAt": "2026-10-28T10:06:26.215590+07:00"
   },
   {
     "id": "20486",
@@ -867,7 +807,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T09:19:10.740528+07:00"
+    "fetchedAt": "2026-10-28T10:06:26.215590+07:00"
   },
   {
     "id": "19695",
@@ -897,6 +837,66 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-27T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
-    "fetchedAt": "2026-10-28T09:19:10.740528+07:00"
+    "fetchedAt": "2026-10-28T10:06:26.215590+07:00"
+  },
+  {
+    "id": "7943",
+    "symbol": "PNW",
+    "name": "Pinnacle West Capital Corp",
+    "shortName": "Pinnacle West",
+    "link": "https://www.investing.com/equities/pinnacle-west",
+    "price": 106.31,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 87.24,
+    "fairValueUpside": -17.94,
+    "peRatio": 20.37,
+    "evEbitda": 13.67,
+    "marketCap": 12870000000,
+    "marketCapFormatted": "12.87 พันล้าน",
+    "epsGrowth5y": 0.02,
+    "changeOneDayPercent": 0.92,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "แย่",
+    "financialGrowthHealth": "ดี",
+    "financialProfitabilityHealth": "ดี",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T10:06:26.215590+07:00"
+  },
+  {
+    "id": "255",
+    "symbol": "F",
+    "name": "Ford Motor Company",
+    "shortName": "Ford Motor",
+    "link": "https://www.investing.com/equities/ford-motor-co",
+    "price": 11.71,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 9.64,
+    "fairValueUpside": -17.72,
+    "peRatio": -6.31,
+    "evEbitda": 24.19,
+    "marketCap": 46930000000,
+    "marketCapFormatted": "46.93 พันล้าน",
+    "epsGrowth5y": 1.62,
+    "changeOneDayPercent": 1.12,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "แย่",
+    "financialProfitabilityHealth": "แย่",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-27T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-27T19:59:59.000Z",
+    "fetchedAt": "2026-10-28T10:06:26.215590+07:00"
   }
 ]
