@@ -6,33 +6,35 @@ on:
 jobs:
   diag:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       - run: pip install curl_cffi
-      - name: Direct vs relay
+      - name: Relay with X-Timeout (Cloudflare challenge)
         run: |
           python - <<'PY'
           import time
           from curl_cffi import requests
           u = "https://th.investing.com/equities/thailand/most-undervalued"
-          ok = 0
-          for i in range(6):
+          hd = {"X-Return-Format": "html", "X-Timeout": "40"}
+          for i in range(3):
+              t = time.time()
               try:
-                  r = requests.get(u + f"?_t={int(time.time()*1000)}", impersonate="chrome124", timeout=25)
-                  good = r.status_code == 200 and "__NEXT_DATA__" in r.text
-                  ok += 1 if good else 0
-                  print(f"direct {i}: {r.status_code} len={len(r.text)} ok={good}", flush=True)
+                  r = requests.get("https://r.jina.ai/" + u, impersonate="chrome124", headers=hd, timeout=120)
+                  good = r.status_code == 200 and "__NEXT_DATA__" in r.text and "fairValueUpside" in r.text
+                  print(f"relay {i}: {r.status_code} len={len(r.text)} ok={good} in {time.time()-t:.0f}s", flush=True)
+                  if good:
+                      break
               except Exception as e:
-                  print(f"direct {i}: ERR {str(e)[:80]}", flush=True)
-          print(f"direct success {ok}/6", flush=True)
+                  print(f"relay {i}: ERR {str(e)[:90]}", flush=True)
+              time.sleep(4)
+          pd = "https://endpoints.investing.com/pd-instruments/v1/instruments?instrument_ids=1&domain_id=1"
           try:
-              r = requests.get("https://r.jina.ai/" + u, impersonate="chrome124",
-                               headers={"X-Return-Format": "html"}, timeout=90)
-              print(f"jina: {r.status_code} len={len(r.text)} has_data={'__NEXT_DATA__' in r.text}", flush=True)
-              print(r.text[:200].replace("\n", " "), flush=True)
+              r = requests.get("https://r.jina.ai/" + pd, impersonate="chrome124",
+                               headers={"X-Return-Format": "html", "X-Timeout": "40"}, timeout=120)
+              print(f"pd-instruments relay: {r.status_code} len={len(r.text)}", flush=True)
           except Exception as e:
-              print(f"jina: ERR {str(e)[:80]}", flush=True)
+              print(f"pd-instruments relay: ERR {str(e)[:90]}", flush=True)
           PY

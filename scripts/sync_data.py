@@ -71,26 +71,30 @@ def _try_download_page(candidate_urls: list, market_code: str, tab_slug: str):
             time.sleep(0.5 + attempt * 0.75)
 
     print(f"[{market_code}] {tab_slug}: direct fetch failed after {direct_retries} attempts — falling back to relay")
-    # Proxied fallback (datacenter IPs e.g. GitHub Actions)
+    # Proxied fallback (datacenter IPs e.g. GitHub Actions — they get a hard 403)
+    #
+    # สำคัญ: r.jina.ai ต้องได้ X-Timeout ให้รอ Cloudflare JS challenge ผ่านก่อน
+    # ถ้าไม่ส่ง จะได้หน้า "Just a moment..." (~6 KB) แทน HTML จริง (~1 MB)
+    relay_headers = {**BROWSER_HEADERS, "X-Return-Format": "html", "X-Timeout": "40"}
     for idx, url in enumerate(candidate_urls):
-        for relay_try in range(2):
-            # free relay is per-IP rate limited -> space out the calls;
-            # grow the wait on 403s instead of burning attempts back-to-back
-            delay = 2.0 + idx * 2.0 + relay_try * 10.0
+        for relay_try in range(3):
+            # free relay is per-IP rate limited -> space out the calls
+            delay = 1.0 + idx * 1.5 + relay_try * 4.0
             time.sleep(delay)
             try:
                 cache_bust = ("&" if "?" in url else "?") + f"_t={int(time.time() * 1000)}"
                 res = requests.get(
                     f"https://r.jina.ai/{url}{cache_bust}",
                     impersonate="chrome124",
-                    headers={**BROWSER_HEADERS, "X-Return-Format": "html"},
-                    timeout=90,
+                    headers=relay_headers,
+                    timeout=120,
                 )
                 if res.status_code == 200 and "__NEXT_DATA__" in res.text and "fairValueUpside" in res.text:
                     return res.text, f"jina-relay({url})"
                 last_err = f"relay HTTP {res.status_code} len={len(res.text)} ({url})"
-                if res.status_code != 403:
-                    break  # not a rate-limit problem, try the next candidate
+                print(f"[{market_code}] {tab_slug}: relay attempt {relay_try + 1}/3 unusable ({last_err})")
+                if res.status_code in (401, 402):
+                    break  # auth/quota problem — retrying won't help
             except Exception as e:
                 last_err = f"relay {str(e)[:80]} ({url})"
 
@@ -136,8 +140,8 @@ def _resolve_instruments(pair_ids: list, market_code: str) -> dict:
         r3 = requests.get(
             f"https://r.jina.ai/{pd_url}",
             impersonate="chrome124",
-            headers={**BROWSER_HEADERS, "X-Return-Format": "html"},
-            timeout=90
+            headers={**BROWSER_HEADERS, "X-Return-Format": "html", "X-Timeout": "40"},
+            timeout=120
         )
         if r3.status_code == 200:
             import re as _re
