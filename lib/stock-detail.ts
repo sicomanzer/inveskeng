@@ -832,6 +832,11 @@ export function deriveStockDetail(
   if (divOverride) {
     if (divOverride.ttm != null) m.dps = divOverride.ttm;
     if (divOverride.prevFY != null) m.dpsPrevFY = divOverride.prevFY;
+    /* yield / payout ใน scorecard ต้องคิดจากปันผลจริงชุดเดียวกับที่แสดง */
+    if (divOverride.ttm != null && stock.price > 0) {
+      m.dividendYield = (divOverride.ttm / stock.price) * 100;
+      if (m.ttmEps > 0) m.payout = (divOverride.ttm / m.ttmEps) * 100;
+    }
   }
 
   /* quality scorecard — score = passer × 7 */
