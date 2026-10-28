@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-29T00:46:15.318492+07:00"
+    "fetchedAt": "2026-10-29T00:57:59.853533+07:00"
   },
   {
     "id": "102567",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-29T00:46:15.318492+07:00"
+    "fetchedAt": "2026-10-29T00:57:59.853533+07:00"
   },
   {
     "id": "1242508",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-29T00:46:15.318492+07:00"
+    "fetchedAt": "2026-10-29T00:57:59.853533+07:00"
   },
   {
     "id": "1162301",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-29T00:46:15.318492+07:00"
+    "fetchedAt": "2026-10-29T00:57:59.853533+07:00"
   },
   {
     "id": "102569",
@@ -147,7 +147,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-29T00:46:15.318492+07:00"
+    "fetchedAt": "2026-10-29T00:57:59.853533+07:00"
+  },
+  {
+    "id": "102756",
+    "symbol": "SMT",
+    "name": "Stars Microelectronics Thailand PCL",
+    "shortName": "Stars Microelectronics",
+    "link": "https://www.investing.com/equities/stars-microele",
+    "price": 7.75,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 6.2505998611450195,
+    "fairValueUpside": -19.349999725818634,
+    "peRatio": -1061.6400146484375,
+    "evEbitda": 38.604129791259766,
+    "marketCap": 6300000000,
+    "marketCapFormatted": "6.30B",
+    "epsGrowth5y": 0.013308514840900898,
+    "changeOneDayPercent": 1.97,
+    "financialHealth": "FAIR",
+    "financialCashFlowHealth": "FAIR",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "WEAK",
+    "analystRatings": "STRONG_BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-28T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
+    "fetchedAt": "2026-10-29T00:57:59.853533+07:00"
   },
   {
     "id": "102561",
@@ -177,37 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-29T00:46:15.318492+07:00"
-  },
-  {
-    "id": "102869",
-    "symbol": "WHA",
-    "name": "WHA Corporation PCL",
-    "shortName": "WHA Corp",
-    "link": "https://www.investing.com/equities/wha-corporatio",
-    "price": 4.88,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 3.992000102996826,
-    "fairValueUpside": -18.199999630451202,
-    "peRatio": 17.18000030517578,
-    "evEbitda": 17.61521339416504,
-    "marketCap": 72940000000,
-    "marketCapFormatted": "72.94B",
-    "epsGrowth5y": 0.1681673377752304,
-    "changeOneDayPercent": 0.0,
-    "financialHealth": "FAIR",
-    "financialCashFlowHealth": "FAIR",
-    "financialGrowthHealth": "FAIR",
-    "financialProfitabilityHealth": "GREAT",
-    "analystRatings": "BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-28T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-29T00:46:15.318492+07:00"
+    "fetchedAt": "2026-10-29T00:57:59.853533+07:00"
   },
   {
     "id": "989494",
@@ -237,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-29T00:46:15.318492+07:00"
+    "fetchedAt": "2026-10-29T00:57:59.853533+07:00"
   },
   {
     "id": "986147",
@@ -267,37 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-29T00:46:15.318492+07:00"
-  },
-  {
-    "id": "102751",
-    "symbol": "STA",
-    "name": "Sri Trang Agro Industry PCL",
-    "shortName": "Sri Trang Agro",
-    "link": "https://www.investing.com/equities/sri-trang-agro",
-    "price": 22.9,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 18.795499801635742,
-    "fairValueUpside": -17.919999361038208,
-    "peRatio": 94.36000061035156,
-    "evEbitda": 11.93875503540039,
-    "marketCap": 35170000000,
-    "marketCapFormatted": "35.17B",
-    "epsGrowth5y": 0.1262972354888916,
-    "changeOneDayPercent": -3.38,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "GOOD",
-    "financialGrowthHealth": "WEAK",
-    "financialProfitabilityHealth": "FAIR",
-    "analystRatings": "STRONG_BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-28T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-29T00:46:15.318492+07:00"
+    "fetchedAt": "2026-10-29T00:57:59.853533+07:00"
   },
   {
     "id": "986137",
@@ -327,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-29T00:46:15.318492+07:00"
+    "fetchedAt": "2026-10-29T00:57:59.853533+07:00"
   },
   {
     "id": "1130942",
@@ -357,7 +327,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-29T00:46:15.318492+07:00"
+    "fetchedAt": "2026-10-29T00:57:59.853533+07:00"
+  },
+  {
+    "id": "1008691",
+    "symbol": "WHAUP",
+    "name": "Wha Utilities and Power PCL",
+    "shortName": "Wha Utilities",
+    "link": "https://www.investing.com/equities/wha-utilities-and-power-pcl",
+    "price": 7.05,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 5.82450008392334,
+    "fairValueUpside": -17.38000065088272,
+    "peRatio": 17.1200008392334,
+    "evEbitda": 14.138208389282227,
+    "marketCap": 26970000000,
+    "marketCapFormatted": "26.97B",
+    "epsGrowth5y": 0.2955760657787323,
+    "changeOneDayPercent": 6.02,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "FAIR",
+    "financialGrowthHealth": "GREAT",
+    "financialProfitabilityHealth": "GOOD",
+    "analystRatings": "BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-28T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
+    "fetchedAt": "2026-10-29T00:57:59.853533+07:00"
   },
   {
     "id": "102757",
@@ -387,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-29T00:46:15.318492+07:00"
+    "fetchedAt": "2026-10-29T00:57:59.853533+07:00"
   },
   {
     "id": "102672",
@@ -417,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-29T00:46:15.318492+07:00"
+    "fetchedAt": "2026-10-29T00:57:59.853533+07:00"
   },
   {
     "id": "102714",
@@ -447,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-29T00:46:15.318492+07:00"
+    "fetchedAt": "2026-10-29T00:57:59.853533+07:00"
   },
   {
     "id": "102683",
@@ -477,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-29T00:46:15.318492+07:00"
+    "fetchedAt": "2026-10-29T00:57:59.853533+07:00"
   },
   {
     "id": "102560",
@@ -507,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-29T00:46:15.318492+07:00"
+    "fetchedAt": "2026-10-29T00:57:59.853533+07:00"
   },
   {
     "id": "102532",
@@ -537,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-29T00:46:15.318492+07:00"
+    "fetchedAt": "2026-10-29T00:57:59.853533+07:00"
   },
   {
     "id": "102540",
@@ -567,6 +567,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-29T00:46:15.318492+07:00"
+    "fetchedAt": "2026-10-29T00:57:59.853533+07:00"
   }
 ]
