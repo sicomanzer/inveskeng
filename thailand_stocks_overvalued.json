@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:07:23.675636+07:00"
+    "fetchedAt": "2026-10-28T23:18:40.378687+07:00"
   },
   {
     "id": "102567",
@@ -57,37 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:07:23.675636+07:00"
-  },
-  {
-    "id": "1242508",
-    "symbol": "UNIX",
-    "name": "Unique Plastic Industry PCL",
-    "shortName": "Unique Plastic Industry PCL",
-    "link": "https://www.investing.com/equities/unique-plastic-industry-pcl",
-    "price": 2.16,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 1.6624000072479248,
-    "fairValueUpside": -23.03999960422516,
-    "peRatio": 0.0,
-    "evEbitda": 6.000390529632568,
-    "marketCap": 1400000000,
-    "marketCapFormatted": "1.40B",
-    "epsGrowth5y": -0.058489151298999786,
-    "changeOneDayPercent": 1.89,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "WEAK",
-    "financialGrowthHealth": "-",
-    "financialProfitabilityHealth": "GREAT",
-    "analystRatings": "-",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-28T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:07:23.675636+07:00"
+    "fetchedAt": "2026-10-28T23:18:40.378687+07:00"
   },
   {
     "id": "1162301",
@@ -117,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:07:23.675636+07:00"
+    "fetchedAt": "2026-10-28T23:18:40.378687+07:00"
   },
   {
     "id": "102569",
@@ -147,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:07:23.675636+07:00"
+    "fetchedAt": "2026-10-28T23:18:40.378687+07:00"
   },
   {
     "id": "102756",
@@ -177,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:07:23.675636+07:00"
+    "fetchedAt": "2026-10-28T23:18:40.378687+07:00"
   },
   {
     "id": "102561",
@@ -207,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:07:23.675636+07:00"
+    "fetchedAt": "2026-10-28T23:18:40.378687+07:00"
   },
   {
     "id": "102869",
@@ -237,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:07:23.675636+07:00"
+    "fetchedAt": "2026-10-28T23:18:40.378687+07:00"
   },
   {
     "id": "989494",
@@ -267,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:07:23.675636+07:00"
+    "fetchedAt": "2026-10-28T23:18:40.378687+07:00"
   },
   {
     "id": "986147",
@@ -297,37 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:07:23.675636+07:00"
-  },
-  {
-    "id": "102751",
-    "symbol": "STA",
-    "name": "Sri Trang Agro Industry PCL",
-    "shortName": "Sri Trang Agro",
-    "link": "https://www.investing.com/equities/sri-trang-agro",
-    "price": 22.9,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 18.795499801635742,
-    "fairValueUpside": -17.919999361038208,
-    "peRatio": 94.36000061035156,
-    "evEbitda": 11.93875503540039,
-    "marketCap": 35170000000,
-    "marketCapFormatted": "35.17B",
-    "epsGrowth5y": 0.1262972354888916,
-    "changeOneDayPercent": -3.38,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "GOOD",
-    "financialGrowthHealth": "WEAK",
-    "financialProfitabilityHealth": "FAIR",
-    "analystRatings": "STRONG_BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-28T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:07:23.675636+07:00"
+    "fetchedAt": "2026-10-28T23:18:40.378687+07:00"
   },
   {
     "id": "986137",
@@ -357,7 +297,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:07:23.675636+07:00"
+    "fetchedAt": "2026-10-28T23:18:40.378687+07:00"
+  },
+  {
+    "id": "1130942",
+    "symbol": "CPNREITu",
+    "name": "Cpn Retail Growth Leasehold REIT Unit",
+    "shortName": "Cpn Retail Growth Leasehold REIT Unt",
+    "link": "https://www.investing.com/equities/cpn-retail-growth-leasehold-reit",
+    "price": 13.1,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 10.806699752807617,
+    "fairValueUpside": -17.509999871253967,
+    "peRatio": 14.220000267028809,
+    "evEbitda": null,
+    "marketCap": 47440000000,
+    "marketCapFormatted": "47.44B",
+    "epsGrowth5y": 5.588566780090332,
+    "changeOneDayPercent": 0.0,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "FAIR",
+    "financialGrowthHealth": "GOOD",
+    "financialProfitabilityHealth": "GREAT",
+    "analystRatings": "BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-28T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
+    "fetchedAt": "2026-10-28T23:18:40.378687+07:00"
   },
   {
     "id": "1008691",
@@ -387,37 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:07:23.675636+07:00"
-  },
-  {
-    "id": "102757",
-    "symbol": "STPI",
-    "name": "STP&I PCL",
-    "shortName": "STP&I",
-    "link": "https://www.investing.com/equities/stp---i",
-    "price": 5.7,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 4.763500213623047,
-    "fairValueUpside": -16.429999470710754,
-    "peRatio": -982.760009765625,
-    "evEbitda": 31.931734085083008,
-    "marketCap": 10330000000,
-    "marketCapFormatted": "10.33B",
-    "epsGrowth5y": 2.9889392852783203,
-    "changeOneDayPercent": 2.7,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "GOOD",
-    "financialGrowthHealth": "GOOD",
-    "financialProfitabilityHealth": "WEAK",
-    "analystRatings": "-",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-28T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:07:23.675636+07:00"
+    "fetchedAt": "2026-10-28T23:18:40.378687+07:00"
   },
   {
     "id": "102672",
@@ -447,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:07:23.675636+07:00"
+    "fetchedAt": "2026-10-28T23:18:40.378687+07:00"
   },
   {
     "id": "102714",
@@ -477,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:07:23.675636+07:00"
+    "fetchedAt": "2026-10-28T23:18:40.378687+07:00"
   },
   {
     "id": "102442",
@@ -507,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:07:23.675636+07:00"
+    "fetchedAt": "2026-10-28T23:18:40.378687+07:00"
   },
   {
     "id": "102683",
@@ -537,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:07:23.675636+07:00"
+    "fetchedAt": "2026-10-28T23:18:40.378687+07:00"
   },
   {
     "id": "102560",
@@ -567,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:07:23.675636+07:00"
+    "fetchedAt": "2026-10-28T23:18:40.378687+07:00"
   },
   {
     "id": "102532",
@@ -597,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:07:23.675636+07:00"
+    "fetchedAt": "2026-10-28T23:18:40.378687+07:00"
   },
   {
     "id": "102540",
@@ -627,6 +567,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-28T10:49:59.000Z",
-    "fetchedAt": "2026-10-28T23:07:23.675636+07:00"
+    "fetchedAt": "2026-10-28T23:18:40.378687+07:00"
   }
 ]
