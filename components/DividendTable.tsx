@@ -77,17 +77,32 @@ export default function DividendTable({
   const [sortDir, setSortDir] = useState<'asc' | 'desc'>('desc');
   const [detailSymbol, setDetailSymbol] = useState<string>('');
   const [detailOpen, setDetailOpen] = useState(false);
+  /* P/E filter (อัตราส่วน P/E) */
+  const [peMode, setPeMode] = useState<'none' | 'gt' | 'lt' | 'eq' | 'between'>('none');
+  const [peMin, setPeMin] = useState<string>('');
+  const [peMax, setPeMax] = useState<string>('');
 
   const rows = useMemo(() => {
     const q = search.trim().toLowerCase();
-    const filtered = q
-      ? initialData.filter(
-          (d) =>
-            d.symbol.toLowerCase().includes(q) ||
-            (d.name || '').toLowerCase().includes(q) ||
-            (d.sector || '').toLowerCase().includes(q),
-        )
-      : initialData.slice();
+    const peLo = peMin ? parseFloat(peMin) : null;
+    const peHi = peMax ? parseFloat(peMax) : null;
+    const filtered = initialData.filter((d) => {
+      // search
+      if (q) {
+        const haystack =
+          d.symbol.toLowerCase() + ' ' + (d.name || '').toLowerCase() + ' ' + (d.sector || '').toLowerCase();
+        if (!haystack.includes(q)) return false;
+      }
+      // P/E filter
+      if (peMode !== 'none' && d.peRatio != null && Number.isFinite(d.peRatio)) {
+        const p = d.peRatio;
+        if (peMode === 'gt' && !(peLo != null && p > peLo)) return false;
+        if (peMode === 'lt' && !(peHi != null && p < peHi)) return false;
+        if (peMode === 'eq' && !(peLo != null && Math.abs(p - peLo) < 1e-6)) return false;
+        if (peMode === 'between' && !(peLo != null && peHi != null && p >= peLo && p <= peHi)) return false;
+      }
+      return true;
+    });
 
     const val = (d: DividendStock): number | string => {
       switch (sortKey) {
@@ -123,7 +138,15 @@ export default function DividendTable({
       }
       return sortDir === 'asc' ? cmp : -cmp;
     });
-  }, [initialData, search, sortKey, sortDir]);
+  }, [
+    initialData,
+    search,
+    sortKey,
+    sortDir,
+    peMode,
+    peMin,
+    peMax,
+  ]);
 
   const peers = useMemo(() => initialData.map(toStockItem), [initialData]);
   const selectedStock = useMemo(
@@ -199,6 +222,58 @@ export default function DividendTable({
               {partial ? (isThai ? ' (ข้อมูลบางส่วน)' : ' (partial)') : ''}
             </span>
           )}
+          <div className="inline-flex items-center gap-1.5 border border-[#D5DCE5] dark:border-[#2E3646] bg-[#F8F9FA] dark:bg-[#1F2636] rounded-md px-2 py-0.5 text-[11px]">
+            <span className="text-[#5B616E] dark:text-[#9CA3AF] font-medium">{t('peFilter')}</span>
+            <select
+              value={peMode}
+              onChange={(e) => {
+                setPeMode(e.target.value as 'none' | 'gt' | 'lt' | 'eq' | 'between');
+                if (e.target.value !== 'between') setPeMax('');
+              }}
+              className="bg-transparent border-none text-xs text-[#232526] dark:text-[#E5E7EB] focus:ring-0 cursor-pointer"
+            >
+              <option value="none">{isThai ? 'ทั้งหมด' : 'All'}</option>
+              <option value="gt">{t('peModeGt')}</option>
+              <option value="lt">{t('peModeLt')}</option>
+              <option value="eq">{t('peModeEq')}</option>
+              <option value="between">{t('peModeBetween')}</option>
+            </select>
+            <input
+              type="number"
+              step="0.1"
+              value={peMin}
+              onChange={(e) => setPeMin(e.target.value)}
+              placeholder={t('pePlaceholder')}
+              disabled={peMode === 'none'}
+              className="w-16 bg-transparent border-none text-xs text-[#232526] dark:text-[#E5E7EB] focus:ring-0"
+            />
+            {peMode === 'between' && (
+              <>
+                <span className="text-[#5B616E] dark:text-[#9CA3AF]">{t('peBetweenTo')}</span>
+                <input
+                  type="number"
+                  step="0.1"
+                  value={peMax}
+                  onChange={(e) => setPeMax(e.target.value)}
+                  placeholder={t('pePlaceholder')}
+                  className="w-16 bg-transparent border-none text-xs text-[#232526] dark:text-[#E5E7EB] focus:ring-0"
+                />
+              </>
+            )}
+            {peMode !== 'none' && (
+              <button
+                onClick={() => {
+                  setPeMode('none');
+                  setPeMin('');
+                  setPeMax('');
+                }}
+                className="text-[#D92D20] dark:text-[#F87171] hover:underline p-0.5"
+                title="ล้างตัวกรอง"
+              >
+                ✕
+              </button>
+            )}
+          </div>
         </div>
       </div>
 
@@ -373,7 +448,9 @@ export default function DividendTable({
         <span>
           {t('showing')}{' '}
           <strong className="text-[#181C21] dark:text-white font-semibold">{rows.length}</strong>{' '}
-          {t('stocks')}
+          {peMode !== 'none'
+            ? `${t('peCount')} / ${initialData.length}`
+            : t('stocks')}
         </span>
         <span>
           {lang === 'th'

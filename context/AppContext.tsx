@@ -75,6 +75,16 @@ export const translations: Record<Language, Record<string, string>> = {
     colDivYield: 'ผลตอบแทนปันผล',
     colAvgYield5y: 'เฉลี่ย 5 ปี',
     colSector: 'ภาคธุรกิจ',
+    // P/E filter ("อัตราส่วน P/E")
+    peFilter: 'อัตราส่วน P/E',
+    peModeGt: 'มากกว่า',
+    peModeLt: 'น้อยกว่า',
+    peModeEq: 'เท่ากับ',
+    peModeBetween: 'ระหว่าง',
+    pePlaceholder: 'ค่า P/E',
+    peBetweenFrom: 'จาก',
+    peBetweenTo: 'ถึง',
+    peCount: 'ตัว',
     dividendDataNote:
       'ผลตอบแทนปันผล = เงินปันผลจริง 12 เดือนย้อนหลัง (ตามวัน ex-date) ÷ ราคาล่าสุด · เฉลี่ย 5 ปี = DPS ของปี ÷ ราคาปิดสิ้นปี',
     // Table Toolbar
@@ -173,8 +183,18 @@ export const translations: Record<Language, Record<string, string>> = {
     colDivYield: 'Dividend Yield',
     colAvgYield5y: '5Y Avg Yield',
     colSector: 'Sector',
+    // P/E filter ("อัตราส่วน P/E")
+    peFilter: 'P/E Ratio',
+    peModeGt: 'Greater than',
+    peModeLt: 'Less than',
+    peModeEq: 'Equal to',
+    peModeBetween: 'Between',
+    pePlaceholder: 'P/E value',
+    peBetweenFrom: 'From',
+    peBetweenTo: 'to',
+    peCount: 'stocks',
     dividendDataNote:
-      'Dividend yield = trailing 12-month dividends (by ex-date) ÷ latest price · 5Y avg = annual DPS ÷ year-end close',
+      'Dividend yield = trailing 12-month dividends (by ex-date) ÷ latest price · 5Y avg = annual DPS ÷ year-end close (computed from yfinance; may differ slightly from Investing.com)',
     // Table Toolbar
     searchPlaceholder: 'Search by symbol or company name...',
     all: 'All',
