@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T13:39:51.195420+07:00"
+    "fetchedAt": "2026-10-28T14:09:39.171652+07:00"
   },
   {
     "id": "102567",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T13:39:51.195420+07:00"
+    "fetchedAt": "2026-10-28T14:09:39.171652+07:00"
   },
   {
     "id": "1242508",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T13:39:51.195420+07:00"
+    "fetchedAt": "2026-10-28T14:09:39.171652+07:00"
   },
   {
     "id": "1162301",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T13:39:51.195420+07:00"
+    "fetchedAt": "2026-10-28T14:09:39.171652+07:00"
   },
   {
     "id": "102569",
@@ -147,7 +147,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T13:39:51.195420+07:00"
+    "fetchedAt": "2026-10-28T14:09:39.171652+07:00"
+  },
+  {
+    "id": "986137",
+    "symbol": "ALT",
+    "name": "ALT Telecom PCL",
+    "shortName": "ALT Telecom",
+    "link": "https://www.investing.com/equities/alt-telecom-pcl",
+    "price": 1.68,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 1.357,
+    "fairValueUpside": -19.21,
+    "peRatio": 97.11,
+    "evEbitda": 13.47,
+    "marketCap": 1870000000,
+    "marketCapFormatted": "1.87 พันล้าน",
+    "epsGrowth5y": -1.79,
+    "changeOneDayPercent": 2.44,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดี",
+    "financialProfitabilityHealth": "มูลค่าตามจริง",
+    "analystRatings": "-",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-28T05:29:59.000Z",
+    "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
+    "fetchedAt": "2026-10-28T14:09:39.171652+07:00"
   },
   {
     "id": "989494",
@@ -177,7 +207,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T13:39:51.195420+07:00"
+    "fetchedAt": "2026-10-28T14:09:39.171652+07:00"
+  },
+  {
+    "id": "102751",
+    "symbol": "STA",
+    "name": "Sri Trang Agro Industry PCL",
+    "shortName": "Sri Trang Agro",
+    "link": "https://www.investing.com/equities/sri-trang-agro",
+    "price": 23.1,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 18.8,
+    "fairValueUpside": -18.63,
+    "peRatio": 95.18,
+    "evEbitda": 11.94,
+    "marketCap": 35480000000,
+    "marketCapFormatted": "35.48 พันล้าน",
+    "epsGrowth5y": 0.13,
+    "changeOneDayPercent": -2.53,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "แย่",
+    "financialProfitabilityHealth": "มูลค่าตามจริง",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-28T05:29:59.000Z",
+    "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
+    "fetchedAt": "2026-10-28T14:09:39.171652+07:00"
   },
   {
     "id": "1008691",
@@ -207,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T13:39:51.195420+07:00"
+    "fetchedAt": "2026-10-28T14:09:39.171652+07:00"
   },
   {
     "id": "102869",
@@ -237,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T13:39:51.195420+07:00"
+    "fetchedAt": "2026-10-28T14:09:39.171652+07:00"
   },
   {
     "id": "1130942",
@@ -267,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T13:39:51.195420+07:00"
+    "fetchedAt": "2026-10-28T14:09:39.171652+07:00"
   },
   {
     "id": "102561",
@@ -297,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T13:39:51.195420+07:00"
+    "fetchedAt": "2026-10-28T14:09:39.171652+07:00"
   },
   {
     "id": "986147",
@@ -327,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T13:39:51.195420+07:00"
+    "fetchedAt": "2026-10-28T14:09:39.171652+07:00"
   },
   {
     "id": "102756",
@@ -357,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T13:39:51.195420+07:00"
+    "fetchedAt": "2026-10-28T14:09:39.171652+07:00"
   },
   {
     "id": "102672",
@@ -387,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T13:39:51.195420+07:00"
+    "fetchedAt": "2026-10-28T14:09:39.171652+07:00"
   },
   {
     "id": "102714",
@@ -417,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T13:39:51.195420+07:00"
+    "fetchedAt": "2026-10-28T14:09:39.171652+07:00"
   },
   {
     "id": "102757",
@@ -447,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T13:39:51.195420+07:00"
+    "fetchedAt": "2026-10-28T14:09:39.171652+07:00"
   },
   {
     "id": "102497",
@@ -477,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T13:39:51.195420+07:00"
+    "fetchedAt": "2026-10-28T14:09:39.171652+07:00"
   },
   {
     "id": "102683",
@@ -507,29 +567,29 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T13:39:51.195420+07:00"
+    "fetchedAt": "2026-10-28T14:09:39.171652+07:00"
   },
   {
-    "id": "102560",
-    "symbol": "KBANK",
-    "name": "Kasikornbank PCL",
-    "shortName": "Kasikornbank",
-    "link": "https://www.investing.com/equities/kasikornbank",
-    "price": 250.0,
+    "id": "102532",
+    "symbol": "HANA",
+    "name": "Hana Microelectronics PCL",
+    "shortName": "Hana Microelectronics",
+    "link": "https://www.investing.com/equities/hana-micro-ele",
+    "price": 49.25,
     "currency": "THB",
     "currencySymbol": "฿",
-    "fairValue": 214.66,
-    "fairValueUpside": -14.14,
-    "peRatio": 11.72,
-    "evEbitda": 0.0,
-    "marketCap": 587760000000,
-    "marketCapFormatted": "587.76 พันล้าน",
-    "epsGrowth5y": 0.11,
-    "changeOneDayPercent": 2.04,
+    "fairValue": 42.33,
+    "fairValueUpside": -14.06,
+    "peRatio": 74.24,
+    "evEbitda": 18.38,
+    "marketCap": 43600000000,
+    "marketCapFormatted": "43.6 พันล้าน",
+    "epsGrowth5y": 0.02,
+    "changeOneDayPercent": 2.07,
     "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดี",
+    "financialCashFlowHealth": "ดีเยี่ยม",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "มูลค่าตามจริง",
     "analystRatings": "ซื้อ",
     "flagCode": "TH",
     "flagName": "Thailand",
@@ -537,7 +597,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T13:39:51.195420+07:00"
+    "fetchedAt": "2026-10-28T14:09:39.171652+07:00"
   },
   {
     "id": "102442",
@@ -567,7 +627,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T13:39:51.195420+07:00"
+    "fetchedAt": "2026-10-28T14:09:39.171652+07:00"
   },
   {
     "id": "102540",
@@ -597,6 +657,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T13:39:51.195420+07:00"
+    "fetchedAt": "2026-10-28T14:09:39.171652+07:00"
   }
 ]
