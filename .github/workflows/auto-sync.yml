@@ -34,7 +34,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install curl_cffi beautifulsoup4 playwright
+          pip install curl_cffi beautifulsoup4 playwright yfinance
           # Chromium สำหรับ fallback เมื่อ investing.com บล็อก IP ของ runner (403)
           python -m playwright install --with-deps chromium
 
@@ -49,6 +49,7 @@ jobs:
 
           deadline=$(( $(date +%s) + WINDOW_MINUTES * 60 ))
           cycle=0
+          div_synced_at=0
 
           while : ; do
             cycle=$((cycle + 1))
@@ -56,8 +57,16 @@ jobs:
             echo "::group::cycle ${cycle} @ $(date -u +%H:%M:%SZ)"
             python scripts/sync_data.py --market=ALL || echo "[sync] cycle failed (relay 403/HTTP error) — will retry next cycle"
 
+            # หุ้นปันผล: รายชื่อ (screener) + DPS จาก yfinance เปลี่ยนช้า — ซิงก์ทุก ~30 นาที
+            now_ts=$(date +%s)
+            if [ $(( now_ts - div_synced_at )) -ge 1800 ]; then
+              python scripts/sync_dividends.py --limit=30 || echo "[dividends] sync failed — will retry next cycle"
+              div_synced_at=$(date +%s)
+            fi
+
             git add thailand_stocks_unmasked.json thailand_stocks_overvalued.json \
-                    undervalued_stocks_unmasked.json us_stocks_overvalued.json sync_status.json
+                    undervalued_stocks_unmasked.json us_stocks_overvalued.json sync_status.json \
+                    dividend_stocks.json dividend_dps_cache.json
             git fetch origin main --quiet || true
 
             pending=$(git rev-list --count origin/main..HEAD 2>/dev/null || echo 0)

@@ -1,10 +1,11 @@
 'use client';
 
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import StockTable from '@/components/StockTable';
+import DividendTable from '@/components/DividendTable';
 import { US_STOCKS, THAI_STOCKS } from '@/data/undervalued-stocks';
 import { THAI_OVERVALUED_STOCKS, US_OVERVALUED_STOCKS } from '@/data/overvalued-stocks';
-import { MarketType, StockItem } from '@/types/stock';
+import { DividendStock, MarketType, StockItem } from '@/types/stock';
 import { useApp } from '@/context/AppContext';
 import { 
   Flame, 
@@ -15,13 +16,16 @@ import {
   ChevronRight,
   RefreshCw,
   Clock,
-  TrendingDown
+  TrendingDown,
+  Droplets
 } from 'lucide-react';
+
+type ScreenerTab = 'undervalued' | 'overvalued' | 'dividend';
 
 export default function HomePage() {
   const { t, lang } = useApp();
   const [selectedMarket, setSelectedMarket] = useState<MarketType>('SET');
-  const [activeTab, setActiveTab] = useState<'undervalued' | 'overvalued'>('undervalued');
+  const [activeTab, setActiveTab] = useState<ScreenerTab>('undervalued');
   
   const [stocks, setStocks] = useState<StockItem[]>(
     selectedMarket === 'SET' ? THAI_STOCKS : US_STOCKS
@@ -30,10 +34,18 @@ export default function HomePage() {
   const [lastSyncTime, setLastSyncTime] = useState<string>('');
   const [syncedAtTime, setSyncedAtTime] = useState<string>('');
   const [syncMessage, setSyncMessage] = useState<string>('');
-  const [tabCounts, setTabCounts] = useState<{ undervalued: number; overvalued: number }>({
+  const [tabCounts, setTabCounts] = useState<{ undervalued: number; overvalued: number; dividend: number }>({
     undervalued: 30,
-    overvalued: selectedMarket === 'SET' ? 23 : 30
+    overvalued: selectedMarket === 'SET' ? 23 : 30,
+    dividend: 30
   });
+  // หุ้นปันผล (ตลาดไทยเท่านั้น — ตาม stock screener ต้นทาง)
+  const [dividendStocks, setDividendStocks] = useState<DividendStock[]>([]);
+  const [dividendSourceAsOf, setDividendSourceAsOf] = useState<string>('');
+  const [dividendPartial, setDividendPartial] = useState<boolean>(false);
+  const [dividendTotalMatches, setDividendTotalMatches] = useState<number | null>(null);
+  const [dividendSourceUrl, setDividendSourceUrl] = useState<string>('');
+
 
   const isThai = selectedMarket === 'SET';
 
@@ -88,23 +100,61 @@ export default function HomePage() {
     }
   }, [lang]);
 
+  // Load "หุ้นปันผล" dataset (Investing.com screener + yfinance dividend history)
+  const loadDividends = useCallback(async () => {
+    // cold Lambda / dev route compile may answer empty once — retry a couple of times
+    for (let attempt = 0; attempt < 3; attempt++) {
+      try {
+        const res = await fetch(`/api/dividends?_t=${Date.now()}`, {
+          cache: 'no-store',
+          headers: {
+            'Cache-Control': 'no-cache, no-store, must-revalidate',
+            'Pragma': 'no-cache'
+          }
+        });
+        if (!res.ok) continue;
+        const json = await res.json();
+        if (Array.isArray(json.items) && json.items.length > 0) {
+          setDividendStocks(json.items);
+          setDividendSourceAsOf(json.sourceAsOf || json.asOf || '');
+          setDividendPartial(!!json.partial);
+          setDividendTotalMatches(typeof json.totalMatches === 'number' ? json.totalMatches : null);
+          setDividendSourceUrl(typeof json.sourceUrl === 'string' ? json.sourceUrl : '');
+          setTabCounts(prev => ({ ...prev, dividend: json.items.length }));
+          return;
+        }
+      } catch (err) {
+        console.error('Failed to load dividend stocks:', err);
+      }
+    }
+  }, []);
+
   // Initial load and on market/tab change
   useEffect(() => {
-    loadStocks(selectedMarket, activeTab);
-  }, [selectedMarket, activeTab, loadStocks]);
+    if (activeTab === 'dividend') {
+      loadDividends();
+    } else {
+      loadStocks(selectedMarket, activeTab);
+    }
+  }, [selectedMarket, activeTab, loadStocks, loadDividends]);
 
   // Auto-sync polling every 15 minutes (900,000 ms)
   useEffect(() => {
     const interval = setInterval(() => {
-      loadStocks(selectedMarket, activeTab);
+      if (activeTab === 'dividend') {
+        loadDividends();
+      } else {
+        loadStocks(selectedMarket, activeTab);
+      }
     }, 15 * 60 * 1000);
 
     return () => clearInterval(interval);
-  }, [selectedMarket, activeTab, loadStocks]);
+  }, [selectedMarket, activeTab, loadStocks, loadDividends]);
 
   // Tab switch handler
-  const handleTabChange = (newTab: 'undervalued' | 'overvalued') => {
+  const handleTabChange = (newTab: ScreenerTab) => {
     setActiveTab(newTab);
+    if (newTab === 'dividend') return;
     if (newTab === 'overvalued') {
       const fallback = selectedMarket === 'SET' ? THAI_OVERVALUED_STOCKS : US_OVERVALUED_STOCKS;
       setStocks(fallback);
@@ -117,11 +167,17 @@ export default function HomePage() {
   // Market switch handler
   const handleMarketChange = (newMarket: MarketType) => {
     setSelectedMarket(newMarket);
+    // ตลาดหุ้นปันผลมีเฉพาะ SET — เปลี่ยนไป US แล้วกลับไปแท็บปกติ
+    if (newMarket !== 'SET' && activeTab === 'dividend') {
+      setActiveTab('undervalued');
+      setStocks(US_STOCKS);
+      return;
+    }
     if (activeTab === 'overvalued') {
       const fallback = newMarket === 'SET' ? THAI_OVERVALUED_STOCKS : US_OVERVALUED_STOCKS;
       setStocks(fallback);
       setTabCounts(prev => ({ ...prev, overvalued: newMarket === 'SET' ? 23 : 30 }));
-    } else {
+    } else if (activeTab !== 'dividend') {
       const fallback = newMarket === 'SET' ? THAI_STOCKS : US_STOCKS;
       setStocks(fallback);
     }
@@ -129,7 +185,7 @@ export default function HomePage() {
 
   // Manual Trigger Sync
   const handleTriggerSync = async () => {
-    if (isSyncing) return;
+    if (isSyncing || activeTab === 'dividend') return;
     setIsSyncing(true);
     setSyncMessage(lang === 'th' ? 'กำลังส่งคำสั่งซิงค์ข้อมูลสด...' : 'Triggering live sync...');
 
@@ -200,13 +256,38 @@ export default function HomePage() {
     ? `${(stocks.reduce((acc, s) => acc + (s.marketCap || 0), 0) / 1e9).toFixed(2)}B`
     : `${(stocks.reduce((acc, s) => acc + (s.marketCap || 0), 0) / 1e12).toFixed(2)}T`;
 
-  const pageTitle = activeTab === 'overvalued'
-    ? (isThai ? t('pageTitleThaiOvervalued') : t('pageTitleUSOvervalued'))
-    : (isThai ? t('pageTitleThai') : t('pageTitleUS'));
+  // ---- Dividend tab stats ----
+  const topDividend = useMemo(
+    () => dividendStocks.slice().sort((a, b) => (b.divYield ?? 0) - (a.divYield ?? 0))[0],
+    [dividendStocks]
+  );
+  const avgDivYield = useMemo(() => {
+    if (!dividendStocks.length) return 0;
+    return dividendStocks.reduce((acc, s) => acc + (s.divYield ?? 0), 0) / dividendStocks.length;
+  }, [dividendStocks]);
+  const avgDivYield5y = useMemo(() => {
+    if (!dividendStocks.length) return 0;
+    return dividendStocks.reduce((acc, s) => acc + (s.avgYield5y ?? 0), 0) / dividendStocks.length;
+  }, [dividendStocks]);
+  const dividendAsOfLabel = dividendSourceAsOf
+    ? new Date(dividendSourceAsOf).toLocaleTimeString(lang === 'th' ? 'th-TH' : 'en-US', {
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
+      })
+    : '';
 
-  const pageSubtitle = activeTab === 'overvalued'
-    ? (isThai ? t('pageDescThaiOvervalued') : t('pageDescUSOvervalued'))
-    : (isThai ? t('pageDescThai') : t('pageDescUS'));
+  const pageTitle = activeTab === 'dividend'
+    ? t('dividendTitle')
+    : activeTab === 'overvalued'
+      ? (isThai ? t('pageTitleThaiOvervalued') : t('pageTitleUSOvervalued'))
+      : (isThai ? t('pageTitleThai') : t('pageTitleUS'));
+
+  const pageSubtitle = activeTab === 'dividend'
+    ? t('dividendDesc')
+    : activeTab === 'overvalued'
+      ? (isThai ? t('pageDescThaiOvervalued') : t('pageDescUSOvervalued'))
+      : (isThai ? t('pageDescThai') : t('pageDescUS'));
 
   const isOvervalued = activeTab === 'overvalued';
 
@@ -242,28 +323,40 @@ export default function HomePage() {
                 <span className="w-1.5 h-1.5 rounded-full bg-[#007C32] dark:bg-[#00C076]" />
                 {t('liveSync')}
               </span>
-              {lastSyncTime && (
-                <span className="hidden md:flex items-center gap-1 text-[11px]">
-                  <Clock className="w-3 h-3 text-[#A0A5AF] dark:text-[#6B7280]" />
-                  <span>
-                    {t('lastSynced')} {lastSyncTime}
-                    {syncedAtTime ? ` · ${t('syncedAt')} ${syncedAtTime}` : ''}
-                  </span>
-                </span>
-              )}
+              {activeTab === 'dividend'
+                ? dividendAsOfLabel && (
+                    <span className="hidden md:flex items-center gap-1 text-[11px]">
+                      <Clock className="w-3 h-3 text-[#A0A5AF] dark:text-[#6B7280]" />
+                      <span>
+                        {t('lastSynced')} {dividendAsOfLabel}
+                        {dividendPartial ? (lang === 'th' ? ' (ข้อมูลบางส่วน)' : ' (partial)') : ''}
+                      </span>
+                    </span>
+                  )
+                : lastSyncTime && (
+                    <span className="hidden md:flex items-center gap-1 text-[11px]">
+                      <Clock className="w-3 h-3 text-[#A0A5AF] dark:text-[#6B7280]" />
+                      <span>
+                        {t('lastSynced')} {lastSyncTime}
+                        {syncedAtTime ? ` · ${t('syncedAt')} ${syncedAtTime}` : ''}
+                      </span>
+                    </span>
+                  )}
             </div>
           )}
 
-          {/* Sync Now Button */}
-          <button
-            onClick={handleTriggerSync}
-            disabled={isSyncing}
-            className="flex items-center gap-1.5 px-3 py-1 text-xs font-semibold rounded-md border border-[#D5DCE5] dark:border-[#2E3646] bg-white dark:bg-[#1B212F] text-[#1256A0] dark:text-[#60A5FA] hover:bg-[#F1F4F8] dark:hover:bg-[#252E3E] disabled:opacity-50 transition shadow-xs cursor-pointer"
-            title={t('autoSyncNotice')}
-          >
-            <RefreshCw className={`w-3.5 h-3.5 ${isSyncing ? 'animate-spin text-[#1256A0]' : ''}`} />
-            <span>{isSyncing ? t('syncing') : t('syncNow')}</span>
-          </button>
+          {/* Sync Now Button (หุ้นปันผลซิงก์อัตโนมัติจาก workflow — ไม่ต้องกดเอง) */}
+          {activeTab !== 'dividend' && (
+            <button
+              onClick={handleTriggerSync}
+              disabled={isSyncing}
+              className="flex items-center gap-1.5 px-3 py-1 text-xs font-semibold rounded-md border border-[#D5DCE5] dark:border-[#2E3646] bg-white dark:bg-[#1B212F] text-[#1256A0] dark:text-[#60A5FA] hover:bg-[#F1F4F8] dark:hover:bg-[#252E3E] disabled:opacity-50 transition shadow-xs cursor-pointer"
+              title={t('autoSyncNotice')}
+            >
+              <RefreshCw className={`w-3.5 h-3.5 ${isSyncing ? 'animate-spin text-[#1256A0]' : ''}`} />
+              <span>{isSyncing ? t('syncing') : t('syncNow')}</span>
+            </button>
+          )}
         </div>
       </div>
 
@@ -335,9 +428,93 @@ export default function HomePage() {
             {tabCounts.overvalued}
           </span>
         </button>
+        {isThai && (
+          <button
+            onClick={() => handleTabChange('dividend')}
+            className={`pb-2.5 relative transition font-semibold flex items-center gap-2 cursor-pointer ${
+              activeTab === 'dividend'
+                ? 'text-[#181C21] dark:text-white after:absolute after:bottom-0 after:left-0 after:right-0 after:h-[2px] after:bg-[#1256A0] dark:after:bg-[#3B82F6]'
+                : 'text-[#5B616E] dark:text-[#9CA3AF] hover:text-[#181C21] dark:hover:text-white'
+            }`}
+          >
+            <span>{t('dividend')}</span>
+            <span className={`text-[11px] px-1.5 py-0.2 rounded-full font-bold ${
+              activeTab === 'dividend'
+                ? 'bg-[#EBF6EE] dark:bg-[#132A1E] text-[#007C32] dark:text-[#00C076]'
+                : 'bg-[#F3F4F6] dark:bg-[#202636] text-[#6B7280] dark:text-[#9CA3AF]'
+            }`}>
+              {tabCounts.dividend}
+            </span>
+          </button>
+        )}
       </div>
 
       {/* KPI Cards */}
+      {activeTab === 'dividend' ? (
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 mb-6">
+          {/* Card 1: Top dividend yield */}
+          <div className="bg-white dark:bg-[#161B26] border border-[#E4EAF1] dark:border-[#262C3A] rounded-lg p-3.5 shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition-colors duration-200">
+            <div className="text-[11px] font-semibold text-[#5B616E] dark:text-[#9CA3AF] mb-1 flex items-center justify-between">
+              <span>{t('topDividend')}</span>
+              <Droplets className="w-3.5 h-3.5 text-[#007C32] dark:text-[#00C076]" />
+            </div>
+            <div className="flex items-baseline gap-2">
+              <span className="text-xl font-bold text-[#181C21] dark:text-white">
+                {topDividend?.symbol || '-'}
+              </span>
+              <span className="font-bold text-sm text-[#007C32] dark:text-[#00C076]">
+                {topDividend?.divYield != null ? `${topDividend.divYield.toFixed(2)}%` : '-'}
+              </span>
+            </div>
+            <div className="text-[11px] text-[#5B616E] dark:text-[#9CA3AF] truncate mt-0.5">
+              {topDividend?.name || '-'}
+            </div>
+          </div>
+
+          {/* Card 2: Avg dividend yield */}
+          <div className="bg-white dark:bg-[#161B26] border border-[#E4EAF1] dark:border-[#262C3A] rounded-lg p-3.5 shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition-colors duration-200">
+            <div className="text-[11px] font-semibold text-[#5B616E] dark:text-[#9CA3AF] mb-1 flex items-center justify-between">
+              <span>{t('avgDivYield')}</span>
+              <BadgePercent className="w-3.5 h-3.5 text-[#007C32] dark:text-[#00C076]" />
+            </div>
+            <div className="text-xl font-bold text-[#007C32] dark:text-[#00C076]">
+              {avgDivYield.toFixed(2)}%
+            </div>
+            <div className="text-[11px] text-[#5B616E] dark:text-[#9CA3AF] mt-0.5">
+              {t('across30')}
+            </div>
+          </div>
+
+          {/* Card 3: Avg 5Y dividend yield */}
+          <div className="bg-white dark:bg-[#161B26] border border-[#E4EAF1] dark:border-[#262C3A] rounded-lg p-3.5 shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition-colors duration-200">
+            <div className="text-[11px] font-semibold text-[#5B616E] dark:text-[#9CA3AF] mb-1 flex items-center justify-between">
+              <span>{t('avgDivYield5y')}</span>
+              <Clock className="w-3.5 h-3.5 text-[#1256A0] dark:text-[#60A5FA]" />
+            </div>
+            <div className="text-xl font-bold text-[#181C21] dark:text-white">
+              {avgDivYield5y.toFixed(2)}%
+            </div>
+            <div className="text-[11px] text-[#5B616E] dark:text-[#9CA3AF] mt-0.5">
+              {lang === 'th' ? 'เฉลี่ยจาก 5 ปีปฏิทินล่าสุด' : 'Across the last 5 calendar years'}
+            </div>
+          </div>
+
+          {/* Card 4: Screen criteria */}
+          <div className="bg-white dark:bg-[#161B26] border border-[#E4EAF1] dark:border-[#262C3A] rounded-lg p-3.5 shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition-colors duration-200">
+            <div className="text-[11px] font-semibold text-[#5B616E] dark:text-[#9CA3AF] mb-1 flex items-center justify-between">
+              <span>{t('dividendCriteria')}</span>
+              <Database className="w-3.5 h-3.5 text-[#1256A0] dark:text-[#60A5FA]" />
+            </div>
+            <div className="text-sm font-bold text-[#181C21] dark:text-white truncate">
+              {t('dividendCriteriaValue')}
+            </div>
+            <div className="text-[11px] text-[#5B616E] dark:text-[#9CA3AF] mt-0.5">
+              {t('dividendUniverse')}
+              {dividendTotalMatches != null ? `: ${dividendTotalMatches}` : ''}
+            </div>
+          </div>
+        </div>
+      ) : (
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 mb-6">
         {/* Card 1: Top Pick */}
         <div className="bg-white dark:bg-[#161B26] border border-[#E4EAF1] dark:border-[#262C3A] rounded-lg p-3.5 shadow-[0_1px_2px_rgba(0,0,0,0.04)] transition-colors duration-200">
@@ -402,15 +579,26 @@ export default function HomePage() {
           </div>
         </div>
       </div>
+      )}
 
       {/* Main Stock Table */}
       <div className="mb-10">
-        <StockTable 
-          key={`${selectedMarket}-${activeTab}-${stocks[0]?.symbol}-${stocks[0]?.price}-${stocks.length}-${lang}`}
-          initialData={stocks} 
-          market={selectedMarket} 
-          valuationType={activeTab}
-        />
+        {activeTab === 'dividend' ? (
+          <DividendTable
+            key={`dividend-${dividendStocks[0]?.symbol}-${dividendStocks[0]?.price}-${dividendStocks.length}-${lang}`}
+            initialData={dividendStocks}
+            sourceAsOf={dividendSourceAsOf}
+            partial={dividendPartial}
+            totalMatches={dividendTotalMatches}
+          />
+        ) : (
+          <StockTable 
+            key={`${selectedMarket}-${activeTab}-${stocks[0]?.symbol}-${stocks[0]?.price}-${stocks.length}-${lang}`}
+            initialData={stocks} 
+            market={selectedMarket} 
+            valuationType={activeTab}
+          />
+        )}
       </div>
 
       {/* REA Technical Architecture Box */}
@@ -420,7 +608,39 @@ export default function HomePage() {
           <span>REA Reverse Engineering Grounding:</span>
         </div>
         <p className="leading-relaxed mb-2.5">
-          {lang === 'th' ? (
+          {activeTab === 'dividend' ? (
+            lang === 'th' ? (
+              <>
+                รายชื่อหุ้นในหน้านี้ดึงจาก{' '}
+                <a
+                  href={dividendSourceUrl || 'https://www.investing.com/stock-screener'}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-[#1256A0] underline"
+                >
+                  Investing.com Stock Screener
+                </a>{' '}
+                ด้วยเงื่อนไข <code className="text-[#1256A0] font-mono">div_yield &gt; 5%</code> และ{' '}
+                <code className="text-[#1256A0] font-mono">div_yield_avg_5y &gt; 5%</code> (ตลาดไทย, เรียงตามมูลค่าตลาดจากมากไปน้อย, 30 อันดับแรก)
+                ส่วนผลตอบแทนปันผลและประวัติการจ่ายเงินปันผลคำนวณจากข้อมูลจริงของ yfinance ตามวัน ex-date (TTM 12 เดือน ÷ ราคาล่าสุด และเฉลี่ย 5 ปีจาก DPS ปี ÷ ราคาปิดสิ้นปี)
+              </>
+            ) : (
+              <>
+                The stock list on this page comes from the{' '}
+                <a
+                  href={dividendSourceUrl || 'https://www.investing.com/stock-screener'}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-[#1256A0] underline"
+                >
+                  Investing.com Stock Screener
+                </a>{' '}
+                with <code className="text-[#1256A0] font-mono">div_yield &gt; 5%</code> and{' '}
+                <code className="text-[#1256A0] font-mono">div_yield_avg_5y &gt; 5%</code> (Thailand, sorted by market cap desc, top 30).
+                Yields and dividend history are computed from real yfinance data by ex-date (TTM 12M ÷ latest price, 5Y avg = annual DPS ÷ year-end close).
+              </>
+            )
+          ) : lang === 'th' ? (
             <>
               โครงสร้างตารางนี้ได้รับการออกแบบและจำลองข้อมูลโดยตรงจาก{' '}
               <a

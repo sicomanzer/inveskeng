@@ -18,6 +18,8 @@ const DATA_ONLY = new RegExp(
       'us_stocks_overvalued',
       'stock_details_SET',
       'stock_details_US',
+      'dividend_stocks',
+      'dividend_dps_cache',
       'sync_status',
       'financial_status',
     ].join('|') +

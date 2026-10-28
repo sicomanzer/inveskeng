@@ -219,3 +219,58 @@ export function getRatingColor(val?: string | null): string {
       return 'text-[#5B616E] dark:text-[#9CA3AF]';
   }
 }
+
+/* ---------- Dividend screener ("หุ้นปันผล") ----------
+ * ตรงกับหน้า Investing.com /stock-screener (บันทึกเงื่อนไขไว้ใน ssid)
+ * div_yield > 5% AND div_yield_avg_5y > 5%, ตลาดไทย, เรียงตาม market cap
+ */
+export interface DividendStock {
+  symbol: string;
+  name: string;
+  pairId?: number | null;
+  path?: string;
+  sector?: string;
+  industry?: string;
+  currency: 'THB';
+  price: number;
+  changePercent: number | null;
+  divYield: number | null;
+  avgYield5y: number | null;
+  dpsLastYear?: number | null;
+  dpsByYear?: Record<string, number>;
+  yieldYearsUsed?: string[];
+  marketCap?: number | null;
+  peRatio?: number | null;
+  pegRatio?: number | null;
+  sourcePrice?: number | null;
+  sourceChangePercent?: number | null;
+  dividendsAsOf?: string | null;
+}
+
+export interface DividendCriteria {
+  market: string;
+  divYieldMin: number;
+  avgYield5yMin: number;
+  limit: number;
+  sort: string;
+  primaryOnly: boolean;
+}
+
+export interface DividendPayload {
+  asOf: string;
+  sourceAsOf: string;
+  partial: boolean;
+  criteria: DividendCriteria;
+  totalMatches: number | null;
+  sourceUrl: string;
+  items: DividendStock[];
+}
+
+export function formatMarketCapTHB(n?: number | null): string {
+  if (n === null || n === undefined || !isFinite(n)) return '-';
+  const abs = Math.abs(n);
+  if (abs >= 1e12) return `${(n / 1e12).toFixed(2)}T`;
+  if (abs >= 1e9) return `${(n / 1e9).toFixed(2)}B`;
+  if (abs >= 1e6) return `${(n / 1e6).toFixed(2)}M`;
+  return n.toFixed(0);
+}

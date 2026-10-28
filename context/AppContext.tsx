@@ -59,6 +59,24 @@ export const translations: Record<Language, Record<string, string>> = {
     tabMostActive: 'เคลื่อนไหวมากสุด',
     tabTopGainers: 'Top Gainers',
     tabTopLosers: 'Top Losers',
+    // Dividend screener ("หุ้นปันผล")
+    dividend: 'หุ้นปันผล',
+    dividendTitle: 'หุ้นปันผล (Dividend Stocks)',
+    dividendDesc:
+      'หุ้นไทยที่ให้ผลตอบแทนเงินปันผลมากกว่า 5% และมีผลตอบแทนปันผลเฉลี่ย 5 ปีย้อนหลังมากกว่า 5% เรียงตามมูลค่าตลาดจากมากไปน้อย 30 อันดับแรก ตามเงื่อนไข Stock Screener ของ Investing.com',
+    avgDivYield: 'ผลตอบแทนปันผลเฉลี่ย',
+    topDividend: 'หุ้นปันผลสูงสุด',
+    avgDivYield5y: 'ผลตอบแทนปันผลเฉลี่ย 5 ปี',
+    dividendCriteria: 'เงื่อนไขการคัดกรอง',
+    dividendCriteriaValue: 'ปันผล > 5% · เฉลี่ย 5 ปี > 5%',
+    dividendUniverse: 'หุ้นที่ผ่านเงื่อนไขทั้งหมด',
+    colChange: 'เปลี่ยน %',
+    colDps: 'ปันผล/หุ้น',
+    colDivYield: 'ผลตอบแทนปันผล',
+    colAvgYield5y: 'เฉลี่ย 5 ปี',
+    colSector: 'ภาคธุรกิจ',
+    dividendDataNote:
+      'ผลตอบแทนปันผล = เงินปันผลจริง 12 เดือนย้อนหลัง (ตามวัน ex-date) ÷ ราคาล่าสุด · เฉลี่ย 5 ปี = DPS ของปี ÷ ราคาปิดสิ้นปี',
     // Table Toolbar
     searchPlaceholder: 'ค้นหาด้วยชื่อย่อหุ้น หรือชื่อบริษัท...',
     all: 'ทั้งหมด',
@@ -139,6 +157,24 @@ export const translations: Record<Language, Record<string, string>> = {
     tabMostActive: 'Most Active',
     tabTopGainers: 'Top Gainers',
     tabTopLosers: 'Top Losers',
+    // Dividend screener
+    dividend: 'Dividend Stocks',
+    dividendTitle: 'Dividend Stocks (หุ้นปันผล)',
+    dividendDesc:
+      'Thai stocks paying a dividend yield above 5% with a 5-year average yield above 5%, ranked by market cap — the top 30 from the Investing.com Stock Screener.',
+    avgDivYield: 'AVG DIVIDEND YIELD',
+    topDividend: 'TOP DIVIDEND YIELD',
+    avgDivYield5y: 'AVG 5Y DIVIDEND YIELD',
+    dividendCriteria: 'SCREEN CRITERIA',
+    dividendCriteriaValue: 'Yield > 5% · 5Y avg > 5%',
+    dividendUniverse: 'Total matches',
+    colChange: 'Change %',
+    colDps: 'DPS',
+    colDivYield: 'Dividend Yield',
+    colAvgYield5y: '5Y Avg Yield',
+    colSector: 'Sector',
+    dividendDataNote:
+      'Dividend yield = trailing 12-month dividends (by ex-date) ÷ latest price · 5Y avg = annual DPS ÷ year-end close',
     // Table Toolbar
     searchPlaceholder: 'Search by symbol or company name...',
     all: 'All',
