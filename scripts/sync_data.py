@@ -48,25 +48,35 @@ def _try_download_page(candidate_urls: list, market_code: str, tab_slug: str):
          the full original HTML (incl. __NEXT_DATA__ and the rendered table).
     """
     last_err = None
-    for url in candidate_urls:
-        try:
-            cache_bust = ("&" if "?" in url else "?") + f"_t={int(time.time() * 1000)}"
-            res = requests.get(
-                url + cache_bust, impersonate="chrome124",
-                headers=BROWSER_HEADERS, timeout=25
-            )
-            if res.status_code == 200 and len(res.text) > 100000:
-                return res.text, url
-            last_err = f"HTTP {res.status_code} len={len(res.text)} ({url})"
-        except Exception as e:
-            last_err = f"{e} ({url})"
+    # Direct fetch, with quick retries.
+    # investing.com's WAF rejects a *random* share of requests (~50% measured)
+    # with an immediate 403 (~0.1s) — it is rate shaping, not an IP ban. Retrying
+    # a few times right away is far cheaper and more reliable than the relay.
+    direct_retries = int(os.environ.get("SYNC_DIRECT_RETRIES", "4"))
+    for attempt in range(direct_retries):
+        for url in candidate_urls:
+            try:
+                cache_bust = ("&" if "?" in url else "?") + f"_t={int(time.time() * 1000)}"
+                res = requests.get(
+                    url + cache_bust, impersonate="chrome124",
+                    headers=BROWSER_HEADERS, timeout=25
+                )
+                if res.status_code == 200 and len(res.text) > 100000 and "__NEXT_DATA__" in res.text:
+                    return res.text, url
+                last_err = f"HTTP {res.status_code} len={len(res.text)} ({url})"
+            except Exception as e:
+                last_err = f"{e} ({url})"
+        if attempt < direct_retries - 1:
+            print(f"[{market_code}] {tab_slug}: direct attempt {attempt + 1}/{direct_retries} failed ({last_err}) — retrying")
+            time.sleep(0.5 + attempt * 0.75)
 
+    print(f"[{market_code}] {tab_slug}: direct fetch failed after {direct_retries} attempts — falling back to relay")
     # Proxied fallback (datacenter IPs e.g. GitHub Actions)
     for idx, url in enumerate(candidate_urls):
-        for relay_try in range(3):
+        for relay_try in range(2):
             # free relay is per-IP rate limited -> space out the calls;
             # grow the wait on 403s instead of burning attempts back-to-back
-            delay = 2.5 + idx * 2.0 + relay_try * 12.0
+            delay = 2.0 + idx * 2.0 + relay_try * 10.0
             time.sleep(delay)
             try:
                 cache_bust = ("&" if "?" in url else "?") + f"_t={int(time.time() * 1000)}"
@@ -103,17 +113,22 @@ def _resolve_instruments(pair_ids: list, market_code: str) -> dict:
         "Referer": "https://www.investing.com/",
     }
 
-    # 1) direct
-    try:
-        r2 = requests.get(pd_url, impersonate="chrome124", headers=api_headers, timeout=15)
-        if r2.status_code == 200:
-            data = r2.json() if isinstance(r2.json(), list) else r2.json().get("data", [])
-            instruments = {str(item['id']): item for item in data if isinstance(item, dict) and 'id' in item}
-            print(f"[{market_code}] pd-instruments direct: 200, {len(instruments)} instruments")
-            return instruments
-        print(f"[{market_code}] pd-instruments direct: HTTP {r2.status_code} -> trying relay")
-    except Exception as e:
-        print(f"[{market_code}] pd-instruments direct failed: {str(e)[:80]} -> trying relay")
+    # 1) direct (WAF ปฏิเสธแบบสุ่ม ~50% -> ลองซ้ำเร็ว ๆ ก่อนไปพึ่ง relay)
+    last_direct_err = None
+    for attempt in range(3):
+        try:
+            r2 = requests.get(pd_url, impersonate="chrome124", headers=api_headers, timeout=15)
+            if r2.status_code == 200:
+                data = r2.json() if isinstance(r2.json(), list) else r2.json().get("data", [])
+                instruments = {str(item['id']): item for item in data if isinstance(item, dict) and 'id' in item}
+                print(f"[{market_code}] pd-instruments direct: 200, {len(instruments)} instruments")
+                return instruments
+            last_direct_err = f"HTTP {r2.status_code}"
+        except Exception as e:
+            last_direct_err = str(e)[:80]
+        if attempt < 2:
+            time.sleep(0.5 + attempt * 0.75)
+    print(f"[{market_code}] pd-instruments direct failed ({last_direct_err}) after 3 attempts -> trying relay")
 
     # 2) Jina relay (returns the JSON embedded in an HTML <pre> wrapper)
     try:
@@ -392,12 +407,21 @@ def main():
         # Do not overwrite sync_status.json with success when 0 stocks were scraped
         sys.exit(1)
 
+    # รอบนี้อาจสั่งเฉพาะบางตลาด (workflow แยก SET/US ได้) — เก็บผลของชุดข้อมูลที่
+    # ไม่ได้ถูกสั่งในรอบนี้ไว้ ไม่ให้สถานะ/หน้าเว็บเข้าใจผิดว่าเป็น 0
+    merged_results = dict(prev_status.get("results") or {})
+    merged_results.update(results)
+    all_keys = ["SET_undervalued", "SET_overvalued", "US_undervalued", "US_overvalued"]
+    overall_ok = all((merged_results.get(k) or 0) > 0 for k in all_keys)
+    this_run_ok = len(valid_counts) == len(results)
+
     # Update metadata
     status_data = {
         "lastSync": now_iso,
         "dataFreshness": data_freshness,
-        "results": results,
-        "status": "success" if len(valid_counts) == len(results) else "partial"
+        "results": merged_results,
+        "lastRun": {"results": results, "status": "success" if this_run_ok else "partial"},
+        "status": "success" if (overall_ok and this_run_ok) else "partial"
     }
     status_path = os.path.join(BASE_DIR, "sync_status.json")
     with open(status_path, "w", encoding="utf-8") as f:
