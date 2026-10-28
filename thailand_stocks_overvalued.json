@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T12:59:13.492861+07:00"
+    "fetchedAt": "2026-10-28T13:09:07.437995+07:00"
   },
   {
     "id": "102567",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T12:59:13.492861+07:00"
+    "fetchedAt": "2026-10-28T13:09:07.437995+07:00"
   },
   {
     "id": "1242508",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T12:59:13.492861+07:00"
+    "fetchedAt": "2026-10-28T13:09:07.437995+07:00"
   },
   {
     "id": "1162301",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T12:59:13.492861+07:00"
+    "fetchedAt": "2026-10-28T13:09:07.437995+07:00"
   },
   {
     "id": "102569",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T12:59:13.492861+07:00"
+    "fetchedAt": "2026-10-28T13:09:07.437995+07:00"
   },
   {
     "id": "989494",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T12:59:13.492861+07:00"
+    "fetchedAt": "2026-10-28T13:09:07.437995+07:00"
   },
   {
     "id": "986137",
@@ -207,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T12:59:13.492861+07:00"
+    "fetchedAt": "2026-10-28T13:09:07.437995+07:00"
   },
   {
     "id": "102869",
@@ -237,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T12:59:13.492861+07:00"
+    "fetchedAt": "2026-10-28T13:09:07.437995+07:00"
   },
   {
     "id": "102751",
@@ -267,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T12:59:13.492861+07:00"
+    "fetchedAt": "2026-10-28T13:09:07.437995+07:00"
   },
   {
     "id": "986147",
@@ -297,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T12:59:13.492861+07:00"
+    "fetchedAt": "2026-10-28T13:09:07.437995+07:00"
   },
   {
     "id": "1008691",
@@ -327,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T12:59:13.492861+07:00"
+    "fetchedAt": "2026-10-28T13:09:07.437995+07:00"
   },
   {
     "id": "102561",
@@ -357,7 +357,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T12:59:13.492861+07:00"
+    "fetchedAt": "2026-10-28T13:09:07.437995+07:00"
+  },
+  {
+    "id": "1130942",
+    "symbol": "CPNREITu",
+    "name": "Cpn Retail Growth Leasehold REIT Unit",
+    "shortName": "Cpn Retail Growth Leasehold REIT Unt",
+    "link": "https://www.investing.com/equities/cpn-retail-growth-leasehold-reit",
+    "price": 13.2,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 10.81,
+    "fairValueUpside": -17.51,
+    "peRatio": 14.22,
+    "evEbitda": 0.0,
+    "marketCap": 47440000000,
+    "marketCapFormatted": "47.44 พันล้าน",
+    "epsGrowth5y": 5.59,
+    "changeOneDayPercent": 0.76,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดี",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-28T05:29:59.000Z",
+    "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
+    "fetchedAt": "2026-10-28T13:09:07.437995+07:00"
   },
   {
     "id": "102756",
@@ -387,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T12:59:13.492861+07:00"
+    "fetchedAt": "2026-10-28T13:09:07.437995+07:00"
   },
   {
     "id": "102672",
@@ -417,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T12:59:13.492861+07:00"
+    "fetchedAt": "2026-10-28T13:09:07.437995+07:00"
   },
   {
     "id": "102714",
@@ -447,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T12:59:13.492861+07:00"
+    "fetchedAt": "2026-10-28T13:09:07.437995+07:00"
   },
   {
     "id": "102757",
@@ -477,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T12:59:13.492861+07:00"
+    "fetchedAt": "2026-10-28T13:09:07.437995+07:00"
   },
   {
     "id": "102497",
@@ -507,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T12:59:13.492861+07:00"
+    "fetchedAt": "2026-10-28T13:09:07.437995+07:00"
   },
   {
     "id": "102683",
@@ -537,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T12:59:13.492861+07:00"
+    "fetchedAt": "2026-10-28T13:09:07.437995+07:00"
   },
   {
     "id": "102560",
@@ -567,7 +597,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T12:59:13.492861+07:00"
+    "fetchedAt": "2026-10-28T13:09:07.437995+07:00"
   },
   {
     "id": "102532",
@@ -597,37 +627,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T12:59:13.492861+07:00"
-  },
-  {
-    "id": "102442",
-    "symbol": "BJC",
-    "name": "Berli Jucker PCL",
-    "shortName": "Berli Jucker",
-    "link": "https://www.investing.com/equities/berli-jucker",
-    "price": 19.8,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 17.21,
-    "fairValueUpside": -13.1,
-    "peRatio": 13.48,
-    "evEbitda": 12.48,
-    "marketCap": 79350000000,
-    "marketCapFormatted": "79.35 พันล้าน",
-    "epsGrowth5y": 0.03,
-    "changeOneDayPercent": -0.5,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "มูลค่าตามจริง",
-    "analystRatings": "ซื้อ",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-28T05:29:59.000Z",
-    "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T12:59:13.492861+07:00"
+    "fetchedAt": "2026-10-28T13:09:07.437995+07:00"
   },
   {
     "id": "102540",
@@ -657,6 +657,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-28T05:29:59.000Z",
     "sourceUpdatedTime": "2026-10-28T05:29:59.000Z",
-    "fetchedAt": "2026-10-28T12:59:13.492861+07:00"
+    "fetchedAt": "2026-10-28T13:09:07.437995+07:00"
   }
 ]
