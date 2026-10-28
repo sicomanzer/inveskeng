@@ -2,15 +2,21 @@ name: Auto Sync Investing.com Data
 
 on:
   schedule:
-    # Run every 10 minutes (UTC) — a failed dataset (relay 403) self-heals
-    # within one cycle instead of leaving stale data for half an hour.
+    # พยายามทุก 10 นาที — แต่ GitHub throttles scheduled workflows บน public repo
+    # ให้ทำงานจริงเพียงไม่กี่ครั้ง/วัน ค่าที่เห็นจริงคือห่างกัน 3.5–6.5 ชั่วโมง
     - cron: '*/10 * * * *'
   workflow_dispatch: # Allow manual trigger anytime
+
+# กันรอบซ้อนกัน (สาเหตุหลักของ push ถูกปฏิเสธ: remote rejected ... commit_refs)
+concurrency:
+  group: auto-sync-loop
+  cancel-in-progress: false
 
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    # GitHub จำกัด 6 ชม./job — ตั้ง window ไว้ 5.5 ชม. เพื่อให้มีรอบถัดไปต่อคิวทันที
+    timeout-minutes: 350
     permissions:
       contents: write
 
@@ -19,6 +25,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -29,20 +36,52 @@ jobs:
         run: |
           pip install curl_cffi beautifulsoup4
 
-      - name: Run Live Sync
+      - name: Run Live Sync loop (every ~10 min for 5h30)
+        env:
+          CYCLE_SLEEP: '300'      # พักระหว่างรอบ (วินาที) — งานจริงกินเวลา 5–12 นาที
+          WINDOW_MINUTES: '330'   # ระยะเวลาที่ job นี้จะวนซิงก์ ก่อนปล่อยให้รอบถัดไปทำงาน
         run: |
-          python scripts/sync_data.py --market=ALL
-
-      - name: Commit and push changes
-        run: |
+          set -u
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Sync"
-          git add thailand_stocks_unmasked.json thailand_stocks_overvalued.json undervalued_stocks_unmasked.json us_stocks_overvalued.json sync_status.json
-          if git diff --staged --quiet; then
-            echo "No data changes to commit."
-          else
-            git commit -m "chore(sync): automated live stock data update from Investing.com"
-            # races with other workflows (10 min cadence) -> rebase before push
-            git pull --rebase origin main || git pull --rebase --autostash origin main
-            git push
-          fi
+
+          deadline=$(( $(date +%s) + WINDOW_MINUTES * 60 ))
+          cycle=0
+
+          while : ; do
+            cycle=$((cycle + 1))
+            echo "::group::cycle ${cycle} @ $(date -u +%H:%M:%SZ)"
+            python scripts/sync_data.py --market=ALL || echo "[sync] cycle failed (relay 403/HTTP error) — will retry next cycle"
+
+            git add thailand_stocks_unmasked.json thailand_stocks_overvalued.json \
+                    undervalued_stocks_unmasked.json us_stocks_overvalued.json sync_status.json
+            git fetch origin main --quiet || true
+
+            pending=$(git rev-list --count origin/main..HEAD 2>/dev/null || echo 0)
+            if git diff --staged --quiet && [ "$pending" = "0" ]; then
+              echo "[git] no data changes this cycle"
+            else
+              git commit -m "chore(sync): automated live stock data update from Investing.com" || true
+
+              pushed=0
+              for attempt in 1 2 3 4 5; do
+                if git pull --rebase --autostash origin main; then
+                  if git push origin HEAD:main; then pushed=1; break; fi
+                else
+                  git rebase --abort 2>/dev/null || true
+                fi
+                echo "[git] push attempt ${attempt} failed — retrying in $((attempt * 8))s"
+                sleep $((attempt * 8))
+              done
+
+              if [ "$pushed" = "1" ]; then
+                echo "[git] pushed OK"
+              else
+                echo "[git] push failed after retries — will retry on next cycle"
+              fi
+            fi
+            echo "::endgroup::"
+
+            [ "$(date +%s)" -ge "$deadline" ] && { echo "[loop] window finished after ${cycle} cycles"; break; }
+            sleep "$CYCLE_SLEEP"
+          done

@@ -28,6 +28,7 @@ export default function HomePage() {
   );
   const [isSyncing, setIsSyncing] = useState(false);
   const [lastSyncTime, setLastSyncTime] = useState<string>('');
+  const [syncedAtTime, setSyncedAtTime] = useState<string>('');
   const [syncMessage, setSyncMessage] = useState<string>('');
   const [tabCounts, setTabCounts] = useState<{ undervalued: number; overvalued: number }>({
     undervalued: 30,
@@ -58,6 +59,8 @@ export default function HomePage() {
         // Show the freshness of THIS dataset (kept from its last successful
         // sync) rather than the latest sync attempt — partial failures must
         // not advertise data older than what is on screen.
+        // dataFreshness = เวลาข้อมูล "ฝั่งต้นทาง" (Investing.com) ของชุดข้อมูลนี้
+        // ส่วน lastSync = เวลาที่ระบบเราไปดึงมา — แสดงแยกกันเพื่อไม่ให้ดูสดเกินจริง
         const dsKey = `${market}_${tab}`;
         const rawTs = json.syncStatus?.dataFreshness?.[dsKey] ?? json.syncStatus?.lastSync;
         if (rawTs) {
@@ -67,6 +70,15 @@ export default function HomePage() {
               hour: '2-digit',
               minute: '2-digit',
               second: '2-digit',
+            })
+          );
+        }
+        if (json.syncStatus?.lastSync) {
+          const s = new Date(json.syncStatus.lastSync);
+          setSyncedAtTime(
+            s.toLocaleTimeString(lang === 'th' ? 'th-TH' : 'en-US', {
+              hour: '2-digit',
+              minute: '2-digit',
             })
           );
         }
@@ -233,7 +245,10 @@ export default function HomePage() {
               {lastSyncTime && (
                 <span className="hidden md:flex items-center gap-1 text-[11px]">
                   <Clock className="w-3 h-3 text-[#A0A5AF] dark:text-[#6B7280]" />
-                  <span>{t('lastSynced')} {lastSyncTime}</span>
+                  <span>
+                    {t('lastSynced')} {lastSyncTime}
+                    {syncedAtTime ? ` · ${t('syncedAt')} ${syncedAtTime}` : ''}
+                  </span>
                 </span>
               )}
             </div>

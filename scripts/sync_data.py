@@ -231,6 +231,8 @@ def fetch_market_stocks(country_slug: str, market_code: str, tab_slug: str, curr
 
     merged_stocks = []
     now_iso = datetime.now(timezone(timedelta(hours=7))).isoformat()
+    # timestamp ของข้อมูล "ฝั่งต้นทาง" (Investing.com) ไม่ใช่เวลาที่เราซิงก์
+    source_ts = best_ts or now_iso
 
     for i, item in enumerate(collection):
         pid = str(item['id'])
@@ -292,7 +294,10 @@ def fetch_market_stocks(country_slug: str, market_code: str, tab_slug: str, curr
             "flagName": "Thailand" if market_code == "SET" else "United States",
             "market": market_code,
             "valuationType": tab_slug,
-            "lastUpdateTime": now_iso
+            # lastUpdateTime = เวลาข้อมูลของ Investing.com (ต้นทาง) · fetchedAt = เวลาที่เราซิงก์
+            "lastUpdateTime": source_ts,
+            "sourceUpdatedTime": source_ts,
+            "fetchedAt": now_iso
         }
         merged_stocks.append(stock_entry)
 
@@ -301,7 +306,7 @@ def fetch_market_stocks(country_slug: str, market_code: str, tab_slug: str, curr
         json.dump(merged_stocks, out_f, indent=2, ensure_ascii=False)
 
     print(f"[{datetime.now().strftime('%H:%M:%S')}] Successfully saved {len(merged_stocks)} {tab_slug} stocks to {out_filename}")
-    return len(merged_stocks), now_iso
+    return len(merged_stocks), source_ts
 
 def git_commit_and_push():
     print("[Git] Staging live stock data and pushing to origin main...")

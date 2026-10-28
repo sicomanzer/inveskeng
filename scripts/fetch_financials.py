@@ -787,7 +787,9 @@ def run(market: str, only_symbols=None):
 
 
 def update_sync_status(results):
-    status_path = os.path.join(BASE_DIR, "sync_status.json")
+    # แยกไฟล์สถานะของตัวเอง (financial_status.json) — เดิมเขียนทับ sync_status.json
+    # ทำให้ rebase ชนกับ auto-sync แล้ว push ถูกปฏิเสธ (remote rejected: commit_refs)
+    status_path = os.path.join(BASE_DIR, "financial_status.json")
     now_iso = datetime.now(timezone(timedelta(hours=7))).isoformat()
     try:
         with open(status_path, "r", encoding="utf-8") as f:
