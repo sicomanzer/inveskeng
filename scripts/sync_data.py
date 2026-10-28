@@ -191,7 +191,12 @@ def fetch_market_stocks(country_slug: str, market_code: str, tab_slug: str, curr
     # (~seconds to minutes old). Download several rounds and keep the copy with
     # the newest lastUpdateTime from __NEXT_DATA__ — a deterministic freshness
     # check instead of trusting a single request that may hit an old edge cache.
-    max_attempts = 3
+    #
+    # แต่ invest.com 403 ทุก request จาก IP ของ GitHub runner — ทางที่ใช้ได้จริงคือ relay
+    # (r.jina.ai) ซึ่งมี rate limit ถ้ายิงซ้ำหลายรอบจะโดน 403 ทั้งชุด
+    # ตอนนี้ workflow วนซิงก์ทุก ~10 นาทีอยู่แล้ว จึงใช้รอบเดียวต่อชุดข้อมูล
+    # แล้วปล่อยให้รอบถัดไปเก็บตก (ล้มแล้วไม่ต้องเผา request เพิ่ม)
+    max_attempts = int(os.environ.get("SYNC_MAX_ATTEMPTS", "1"))
     best_html = best_collection = None
     best_ts = ""
     for attempt in range(max_attempts):

@@ -38,7 +38,7 @@ jobs:
 
       - name: Run Live Sync loop (every ~10 min for 5h30)
         env:
-          CYCLE_SLEEP: '45'       # พักระหว่างรอบ (วินาที) — งานจริงกินเวลา 5–12 นาที จึงได้รอบละ ~7–13 นาที
+          TARGET_SECONDS: '600'   # เป้าหมาย 1 รอบ / 10 นาที (นับจากเริ่มรอบ ไม่ใช่หลังจบงาน)
           WINDOW_MINUTES: '330'   # ระยะเวลาที่ job นี้จะวนซิงก์ ก่อนปล่อยให้รอบถัดไปทำงาน
         run: |
           set -u
@@ -50,6 +50,7 @@ jobs:
 
           while : ; do
             cycle=$((cycle + 1))
+            cycle_start=$(date +%s)
             echo "::group::cycle ${cycle} @ $(date -u +%H:%M:%SZ)"
             python scripts/sync_data.py --market=ALL || echo "[sync] cycle failed (relay 403/HTTP error) — will retry next cycle"
 
@@ -83,5 +84,11 @@ jobs:
             echo "::endgroup::"
 
             [ "$(date +%s)" -ge "$deadline" ] && { echo "[loop] window finished after ${cycle} cycles"; break; }
-            sleep "$CYCLE_SLEEP"
+
+            now=$(date +%s)
+            spent=$(( now - cycle_start ))
+            rest=$(( TARGET_SECONDS - spent ))
+            [ "$rest" -lt 10 ] && rest=10
+            echo "[loop] cycle ${cycle} took ${spent}s — sleeping ${rest}s"
+            sleep "$rest"
           done
