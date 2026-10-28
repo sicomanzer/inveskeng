@@ -405,7 +405,12 @@ function yoyDelta(arr: (number | null)[]): number | null {
   return ((nums[1] - nums[0]) / Math.abs(nums[0])) * 100;
 }
 
-function buildScorecard(stock: StockItem, real: RealFinancialData, m: BaseMetrics): ScorecardRow[] {
+function buildScorecard(
+  stock: StockItem,
+  real: RealFinancialData,
+  m: BaseMetrics,
+  dpsByYear?: Map<number, number>,
+): ScorecardRow[] {
   const S = (real.series ?? {}) as Record<string, (number | null)[]>;
   const health = levelOf(getCanonicalRating(stock.financialHealth));
 
@@ -487,7 +492,10 @@ function buildScorecard(stock: StockItem, real: RealFinancialData, m: BaseMetric
   const rule16 = { th: 'ปันผล 40-70% ต่อกำไร', en: 'Payout between 40% and 70%' };
   const rule17 = { th: 'ปันผลไม่เกิน 80%', en: 'Payout at 80% or less' };
 
-  const dps5 = countTrue(S.dps ?? [], 5, (v) => v > 0);
+  const dpsSeriesReal = dpsByYear
+    ? [...dpsByYear.entries()].sort((a, b) => a[0] - b[0]).map(([, v]) => v)
+    : null;
+  const dps5 = countTrue(dpsSeriesReal ?? (S.dps ?? []), 5, (v) => v > 0);
   const rule18 = { th: 'ปันผลทุกปี 5 ปีล่าสุด', en: 'Dividend every year for 5 years' };
 
   const dEVal = m.dE;
@@ -826,21 +834,35 @@ export function deriveStockDetail(
     ? buildRealMetrics(stock, real)
     : buildDerivedMetrics(stock);
 
-  /* หน้า "หุ้นปันผล" ส่งข้อมูลปันผลจริง (yfinance) มาแทนค่าประมาณ
-     เมื่อหุ้นตัวนั้นไม่มีงบจริงใน stock_details_*.json */
-  const divOverride = !useReal ? stock.dividendOverride : undefined;
+  /* หน้า "หุ้นปันผล" ส่งข้อมูลปันผลจริง (yfinance, ตามวัน ex-date) มาใช้กับ
+     ตัวเลขปันผล/D0 และกราฟการจ่ายเสมอ — เพราะ thaifin บางตัวเก็บ DPS คนละหน่วย
+     ส่วนตัวเลขงบ (ROE/NPM/กระแสเงินสด ฯลฯ) ยังใช้ข้อมูลจริงจาก thaifin */
+  const divOverride = stock.dividendOverride;
   if (divOverride) {
     if (divOverride.ttm != null) m.dps = divOverride.ttm;
     if (divOverride.prevFY != null) m.dpsPrevFY = divOverride.prevFY;
-    /* yield / payout ใน scorecard ต้องคิดจากปันผลจริงชุดเดียวกับที่แสดง */
     if (divOverride.ttm != null && stock.price > 0) {
       m.dividendYield = (divOverride.ttm / stock.price) * 100;
       if (m.ttmEps > 0) m.payout = (divOverride.ttm / m.ttmEps) * 100;
     }
   }
 
+  /* DPS รายปีจากวันจ่ายจริง (yfinance) — ใช้แทนชุด DPS ของ thaifin ที่บางตัวเพี้ยน */
+  const dpsByYear = new Map<number, number>();
+  for (const p of divOverride?.payments ?? []) {
+    const y = Number(String(p.date).slice(0, 4));
+    const amt = Number(p.amount);
+    if (!Number.isFinite(y) || !Number.isFinite(amt)) continue;
+    dpsByYear.set(y, (dpsByYear.get(y) ?? 0) + amt);
+  }
+
   /* quality scorecard — score = passer × 7 */
-  const rules = buildScorecard(stock, real ?? ({ _derivedFallback: m as unknown as Record<string, number> } as unknown as RealFinancialData), m);
+  const rules = buildScorecard(
+    stock,
+    real ?? ({ _derivedFallback: m as unknown as Record<string, number> } as unknown as RealFinancialData),
+    m,
+    dpsByYear.size ? dpsByYear : undefined,
+  );
   const passCount = rules.filter((r) => r.state === 'PASS').length;
   const naCount = rules.filter((r) => r.state === 'NA').length;
   const score = Math.round(passCount * 7);
@@ -849,6 +871,18 @@ export function deriveStockDetail(
   const built = useReal && real
     ? buildRealChartsAndStatements(real, stock)
     : buildDerivedChartsAndStatements(stock, m);
+
+  /* เติมคอลัมน์ DPS ในตารางงบ + กราฟ DPS ด้วยปันผลที่จ่ายจริงรายปี */
+  if (dpsByYear.size) {
+    const dpsPts = [...dpsByYear.keys()]
+      .sort((a, b) => a - b)
+      .map((y) => ({ x: y, y: round(dpsByYear.get(y) as number, 4) }));
+    const dpsChart = built.charts.find((c) => c.key === 'dps');
+    if (dpsChart) dpsChart.series = dpsPts;
+    for (const row of built.statements) {
+      if (dpsByYear.has(row.fy)) row.dps = round(dpsByYear.get(row.fy) as number, 4);
+    }
+  }
 
   /* bands — P/E เป็น TTM, P/BV เป็นไตรมาสล่าสุด (ตามอ้างอิง) */
   const bandPE = useReal && real
@@ -869,9 +903,11 @@ export function deriveStockDetail(
   const coverageDisplay = m.coverage != null && m.coverage > 0 ? `${round(m.coverage, 1)}×` : 'N/A';
 
   // key สำหรับแปลใน component (ไม่ฝังข้อความภาษาหนึ่งเดียว)
-  const dpsSourceKey = useReal
-    ? (isSet ? 'thaifinDyQ' : 'yfTtm')
-    : (divOverride ? 'yfTtm' : 'derived');
+  const dpsSourceKey = divOverride
+    ? 'yfTtm'
+    : useReal
+      ? (isSet ? 'thaifinDyQ' : 'yfTtm')
+      : 'derived';
 
   return {
     symbol: stock.symbol,
@@ -903,8 +939,8 @@ export function deriveStockDetail(
     bands: [bandPE, bandPBV],
     peers: peersSection,
     charts: built.charts,
-    divPayments: real?.divPayments ?? divOverride?.payments ?? [],
-    divPaymentsReal: useReal ? !!real?.divPayments?.length : !!(divOverride?.payments?.length),
+    divPayments: divOverride?.payments?.length ? divOverride.payments : (real?.divPayments ?? []),
+    divPaymentsReal: divOverride?.payments?.length ? true : (useReal && !!real?.divPayments?.length),
     statements: built.statements,
     meta: {
       dataSource: useReal ? 'real' : 'derived',

@@ -263,6 +263,8 @@ enable_finnomena_relay()
 SET_SOURCES = [
     "thailand_stocks_unmasked.json",
     "thailand_stocks_overvalued.json",
+    # หุ้นปันผล (Investing.com screener) — payload เป็น object {items: [...]}
+    "dividend_stocks.json",
 ]
 US_SOURCES = [
     "undervalued_stocks_unmasked.json",
@@ -282,8 +284,10 @@ def collect_symbols(files):
         try:
             with open(path, "r", encoding="utf-8") as f:
                 data = json.load(f)
-            for row in data:
-                symbol = row.get("symbol")
+            # รองรับทั้ง list ของหุ้น และ payload แบบ {items: [...]} (dividend_stocks.json)
+            rows = data.get("items", []) if isinstance(data, dict) else data
+            for row in rows:
+                symbol = (row or {}).get("symbol")
                 if not symbol:
                     continue
                 # investing.com instrument suffixes (MAGUROm, TACCm, CPNREITu, ...) -> plain SET tickers
