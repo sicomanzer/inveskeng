@@ -34,7 +34,9 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install curl_cffi beautifulsoup4
+          pip install curl_cffi beautifulsoup4 playwright
+          # Chromium สำหรับ fallback เมื่อ investing.com บล็อก IP ของ runner (403)
+          python -m playwright install --with-deps chromium
 
       - name: Run Live Sync loop (every ~10 min for 5h30)
         env:

@@ -6,46 +6,22 @@ on:
 jobs:
   diag:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Install playwright
+      - name: Install deps + chromium
         run: |
-          pip install playwright
+          pip install curl_cffi beautifulsoup4 playwright
           python -m playwright install --with-deps chromium
-      - name: Playwright fetch investing.com
+      - name: Real sync with direct disabled (forces browser path)
+        env:
+          SYNC_DIRECT_RETRIES: '0'
         run: |
-          python - <<'PY'
-          import time
-          from playwright.sync_api import sync_playwright
-
-          urls = [
-              "https://th.investing.com/equities/thailand/most-undervalued",
-              "https://th.investing.com/equities/thailand/most-overvalued",
-              "https://th.investing.com/equities/united-states/most-undervalued",
-              "https://th.investing.com/equities/united-states/most-overvalued",
-          ]
-          with sync_playwright() as p:
-              br = p.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled"])
-              ctx = br.new_context(
-                  locale="th-TH",
-                  user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-                  viewport={"width": 1440, "height": 900},
-              )
-              pg = ctx.new_page()
-              for u in urls:
-                  t = time.time()
-                  try:
-                      pg.goto(u, wait_until="domcontentloaded", timeout=60000)
-                      pg.wait_for_timeout(2500)
-                      html = pg.content()
-                      nd = pg.evaluate("() => (document.getElementById('__NEXT_DATA__') || {}).textContent || ''")
-                      good = len(nd) > 100000 and "fairValueUpside" in nd
-                      rows = pg.evaluate("() => document.querySelectorAll('table tbody tr').length")
-                      print(f"{u.split('/')[-2]}/{u.split('/')[-1]} | html={len(html)} next={len(nd)} rows={rows} ok={good} {time.time()-t:.0f}s", flush=True)
-                  except Exception as e:
-                      print(f"{u} | ERR {str(e)[:100]}", flush=True)
-              br.close()
-          PY
+          python scripts/sync_data.py --market=ALL
+          echo "--- sync_status.json ---"
+          cat sync_status.json

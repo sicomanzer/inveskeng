@@ -10,6 +10,97 @@ from bs4 import BeautifulSoup
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+# --- Headless browser (ลำดับที่ 2 ในการดึงข้อมูล) -------------------------------
+# investing.com ตอบ 403 กับ IP ของ GitHub Actions ทุกครั้ง (Cloudflare) แต่
+# เบราว์เซอร์จริงผ่าน challenge ได้ — เปิด Chromium ครั้งเดียวแล้วใช้ซ้ำทั้ง job
+_BROWSER = {"page": None, "pw": None, "failed": False}
+
+
+def _get_browser_page():
+    if _BROWSER["page"] is not None or _BROWSER["failed"]:
+        return _BROWSER["page"]
+    try:
+        from playwright.sync_api import sync_playwright
+    except Exception as e:
+        print(f"[browser] playwright unavailable: {str(e)[:80]}")
+        _BROWSER["failed"] = True
+        return None
+    try:
+        pw = sync_playwright().start()
+        browser = pw.chromium.launch(
+            headless=True,
+            args=["--disable-blink-features=AutomationControlled", "--no-sandbox"],
+        )
+        ctx = browser.new_context(
+            locale="th-TH",
+            user_agent=BROWSER_HEADERS["User-Agent"],
+            viewport={"width": 1440, "height": 900},
+        )
+        page = ctx.new_page()
+        page.set_default_timeout(60000)
+        _BROWSER.update(page=page, pw=pw)
+        print("[browser] chromium started")
+        return page
+    except Exception as e:
+        print(f"[browser] launch failed: {str(e)[:120]}")
+        _BROWSER["failed"] = True
+        return None
+
+
+def _browser_next_data(page) -> str:
+    try:
+        return page.evaluate(
+            "() => { const el = document.getElementById('__NEXT_DATA__'); return el ? el.textContent : ''; }"
+        ) or ""
+    except Exception:
+        return ""
+
+
+def _fetch_with_browser(url: str, tries: int = 3):
+    """โหลดหน้าด้วย Chromium จริง แล้วรอให้ Cloudflare challenge ผ่าน (สูงสุด ~25 วินาที/ครั้ง)."""
+    page = _get_browser_page()
+    if page is None:
+        return None, "browser unavailable"
+    for attempt in range(tries):
+        try:
+            page.goto(url, wait_until="domcontentloaded", timeout=60000)
+            for _ in range(17):
+                nd = _browser_next_data(page)
+                if nd and "fairValueUpside" in nd:
+                    # ฝังกลับเป็น HTML รูปแบบเดียวกับต้นฉบับ เพื่อให้ parser เดิมใช้ได้
+                    safe = nd.replace("</", "<\\/")
+                    return (
+                        '<html><body><script id="__NEXT_DATA__" type="application/json">'
+                        + safe
+                        + "</script></body></html>",
+                        f"browser({url})",
+                    )
+                page.wait_for_timeout(1500)
+            print(f"[browser] attempt {attempt + 1}/{tries}: challenge not passed ({url})")
+        except Exception as e:
+            print(f"[browser] attempt {attempt + 1}/{tries} failed: {str(e)[:90]} ({url})")
+        try:
+            page.goto("about:blank")
+            page.wait_for_timeout(1000 + attempt * 2000)
+        except Exception:
+            pass
+    return None, f"browser failed ({url})"
+
+
+def _fetch_json_with_browser(url: str):
+    page = _get_browser_page()
+    if page is None:
+        return None
+    try:
+        page.goto(url, wait_until="domcontentloaded", timeout=60000)
+        page.wait_for_timeout(800)
+        txt = page.evaluate("() => document.body ? document.body.innerText : ''") or ""
+        return txt if txt.strip().startswith(("[", "{")) else None
+    except Exception as e:
+        print(f"[browser] json fetch failed: {str(e)[:80]}")
+        return None
+
+
 BROWSER_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
@@ -41,11 +132,12 @@ def clean_float(val, fallback=None):
 def _try_download_page(candidate_urls: list, market_code: str, tab_slug: str):
     """One download round-trip: try every candidate URL, return (html, chosen_url) or (None, last_err).
 
-    Strategy:
+    Strategy (ลำดับจากเร็ว/ถูกที่สุดไปหาตัวสำรอง):
       1. Direct requests (works from residential IPs / local machines).
-      2. Jina Reader HTML relay — investing.com blocks datacenter IPs (GitHub
-         Actions runners get instant connection resets), but r.jina.ai returns
-         the full original HTML (incl. __NEXT_DATA__ and the rendered table).
+      2. Headless Chromium (Playwright) — GitHub Actions runners get a hard 403
+         from investing.com; a real browser can pass the Cloudflare challenge.
+      3. Jina Reader HTML relay — ตัวสุดท้าย เพราะแคชของ relay มักค้างหน้า
+         challenge ไว้ และบางโดเมนถูกบล็อกเป็นช่วง ๆ
     """
     last_err = None
     # Direct fetch, with quick retries.
@@ -70,8 +162,17 @@ def _try_download_page(candidate_urls: list, market_code: str, tab_slug: str):
             print(f"[{market_code}] {tab_slug}: direct attempt {attempt + 1}/{direct_retries} failed ({last_err}) — retrying")
             time.sleep(0.5 + attempt * 0.75)
 
-    print(f"[{market_code}] {tab_slug}: direct fetch failed after {direct_retries} attempts — falling back to relay")
-    # Proxied fallback (datacenter IPs e.g. GitHub Actions — they get a hard 403)
+    print(f"[{market_code}] {tab_slug}: direct fetch failed after {direct_retries} attempts — trying headless browser")
+    # 2) Headless Chromium (ผ่าน Cloudflare challenge ได้จาก IP ของ runner)
+    for url in candidate_urls:
+        cache_bust = ("&" if "?" in url else "?") + f"_t={int(time.time() * 1000)}"
+        html, err = _fetch_with_browser(url + cache_bust, tries=2)
+        if html:
+            return html, err
+        last_err = err
+
+    print(f"[{market_code}] {tab_slug}: browser failed — falling back to relay")
+    # 3) Proxied fallback (datacenter IPs e.g. GitHub Actions — they get a hard 403)
     #
     # สำคัญ: r.jina.ai ต้องได้ X-Timeout ให้รอ Cloudflare JS challenge ผ่านก่อน
     # ถ้าไม่ส่ง จะได้หน้า "Just a moment..." (~6 KB) แทน HTML จริง (~1 MB)
@@ -132,9 +233,24 @@ def _resolve_instruments(pair_ids: list, market_code: str) -> dict:
             last_direct_err = str(e)[:80]
         if attempt < 2:
             time.sleep(0.5 + attempt * 0.75)
-    print(f"[{market_code}] pd-instruments direct failed ({last_direct_err}) after 3 attempts -> trying relay")
+    print(f"[{market_code}] pd-instruments direct failed ({last_direct_err}) after 3 attempts -> trying browser")
 
-    # 2) Jina relay (returns the JSON embedded in an HTML <pre> wrapper)
+    # 2) Headless browser (runner IP ถูก Cloudflare บล็อก แต่เบราว์เซอร์ผ่านได้)
+    try:
+        raw_b = _fetch_json_with_browser(pd_url)
+        if raw_b:
+            data = json.loads(raw_b)
+            if isinstance(data, dict):
+                data = data.get("data", [])
+            instruments = {str(item['id']): item for item in data if isinstance(item, dict) and 'id' in item}
+            if instruments:
+                print(f"[{market_code}] pd-instruments browser: 200, {len(instruments)} instruments")
+                return instruments
+    except Exception as e:
+        print(f"[{market_code}] pd-instruments browser failed: {str(e)[:80]}")
+
+    print(f"[{market_code}] pd-instruments browser failed -> trying relay")
+    # 3) Jina relay (returns the JSON embedded in an HTML <pre> wrapper)
     try:
         time.sleep(2.0)  # free relay rate limit: space the calls
         r3 = requests.get(
