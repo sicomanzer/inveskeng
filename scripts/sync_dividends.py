@@ -290,10 +290,23 @@ def compute_metrics(symbol, price_info, dps_entry):
 
     div_yield = round(ttm / price * 100, 2) if (ttm and price) else None
 
+    # D0 = ปันผลทั้งปีของ "ปีชำระ" ที่ปิดแล้ว (1 ก.ค. ปีก่อน – 30 มิ.ย. ปีนี้)
+    # ใช้ค่าเดียวกับป้าย D0 ใน popup (lib/stock-detail.ts)
+    fy_start = f"{current_year - 1}-07-01"
+    fy_end = f"{current_year}-06-30"
+    prev_fy = round(sum(a for d, a in payments if fy_start <= d <= fy_end), 4)
+    recent_payments = [
+        {"date": d, "amount": round(a, 4)}
+        for d, a in sorted(payments)
+        if d >= f"{current_year - 6}-01-01"
+    ]
+
     return {
         "divYield": div_yield,
         "avgYield5y": avg5y,
         "dpsLastYear": ttm or None,
+        "dpsPrevFY": prev_fy or None,
+        "divPayments": recent_payments,
         "dpsByYear": {y: by_year[y] for y in sorted(by_year, reverse=True)[:6]},
         "yieldYearsUsed": available,
     }
@@ -368,6 +381,8 @@ def main():
                 "divYield": metrics["divYield"],
                 "avgYield5y": metrics["avgYield5y"],
                 "dpsLastYear": metrics["dpsLastYear"],
+                "dpsPrevFY": metrics["dpsPrevFY"],
+                "divPayments": metrics["divPayments"],
                 "dpsByYear": metrics["dpsByYear"],
                 "yieldYearsUsed": metrics["yieldYearsUsed"],
                 "dividendsAsOf": (cache.get(sym) or {}).get("fetchedAt"),

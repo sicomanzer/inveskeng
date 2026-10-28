@@ -826,6 +826,14 @@ export function deriveStockDetail(
     ? buildRealMetrics(stock, real)
     : buildDerivedMetrics(stock);
 
+  /* หน้า "หุ้นปันผล" ส่งข้อมูลปันผลจริง (yfinance) มาแทนค่าประมาณ
+     เมื่อหุ้นตัวนั้นไม่มีงบจริงใน stock_details_*.json */
+  const divOverride = !useReal ? stock.dividendOverride : undefined;
+  if (divOverride) {
+    if (divOverride.ttm != null) m.dps = divOverride.ttm;
+    if (divOverride.prevFY != null) m.dpsPrevFY = divOverride.prevFY;
+  }
+
   /* quality scorecard — score = passer × 7 */
   const rules = buildScorecard(stock, real ?? ({ _derivedFallback: m as unknown as Record<string, number> } as unknown as RealFinancialData), m);
   const passCount = rules.filter((r) => r.state === 'PASS').length;
@@ -856,7 +864,9 @@ export function deriveStockDetail(
   const coverageDisplay = m.coverage != null && m.coverage > 0 ? `${round(m.coverage, 1)}×` : 'N/A';
 
   // key สำหรับแปลใน component (ไม่ฝังข้อความภาษาหนึ่งเดียว)
-  const dpsSourceKey = useReal ? (isSet ? 'thaifinDyQ' : 'yfTtm') : 'derived';
+  const dpsSourceKey = useReal
+    ? (isSet ? 'thaifinDyQ' : 'yfTtm')
+    : (divOverride ? 'yfTtm' : 'derived');
 
   return {
     symbol: stock.symbol,
@@ -888,8 +898,8 @@ export function deriveStockDetail(
     bands: [bandPE, bandPBV],
     peers: peersSection,
     charts: built.charts,
-    divPayments: real?.divPayments ?? [],
-    divPaymentsReal: useReal && !!real?.divPayments?.length,
+    divPayments: real?.divPayments ?? divOverride?.payments ?? [],
+    divPaymentsReal: useReal ? !!real?.divPayments?.length : !!(divOverride?.payments?.length),
     statements: built.statements,
     meta: {
       dataSource: useReal ? 'real' : 'derived',

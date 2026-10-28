@@ -30,6 +30,13 @@ export interface StockItem {
   valuationType?: 'undervalued' | 'overvalued';
   lastUpdateTime?: string;
   locked?: boolean;
+  /** ปันผลจริงจากหน้า "หุ้นปันผล" (yfinance) — ใช้แทนค่าประมาณใน popup
+   *  เมื่อหุ้นตัวนั้นไม่มีข้อมูลงบจริงใน stock_details_*.json */
+  dividendOverride?: {
+    ttm: number | null;
+    prevFY: number | null;
+    payments: { date: string; amount: number }[];
+  };
 }
 
 export function formatRatingText(val?: string | null, isThai: boolean = false): string {
@@ -237,6 +244,8 @@ export interface DividendStock {
   divYield: number | null;
   avgYield5y: number | null;
   dpsLastYear?: number | null;
+  dpsPrevFY?: number | null;
+  divPayments?: { date: string; amount: number }[];
   dpsByYear?: Record<string, number>;
   yieldYearsUsed?: string[];
   marketCap?: number | null;

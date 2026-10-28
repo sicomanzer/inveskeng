@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-28T11:12:02.154120+07:00",
- "sourceAsOf": "2026-10-28T11:11:58.491127+07:00",
+ "asOf": "2026-10-28T11:24:18.902952+07:00",
+ "sourceAsOf": "2026-10-28T11:24:14.503761+07:00",
  "partial": false,
  "criteria": {
   "market": "TH",
@@ -15,7 +15,7 @@
  "items": [
   {
    "symbol": "PTT",
-   "name": "PTT PCL",
+   "name": "ปตท.",
    "pairId": 102672,
    "path": "/equities/ptt",
    "sector": "Energy",
@@ -26,11 +26,70 @@
    "peRatio": 9.67,
    "pegRatio": 0.13,
    "currency": "THB",
-   "price": 42.0,
-   "changePercent": 0.0,
-   "divYield": 6.67,
+   "price": 42.25,
+   "changePercent": 0.6,
+   "divYield": 6.63,
    "avgYield5y": 5.8,
    "dpsLastYear": 2.8,
+   "dpsPrevFY": 2.3,
+   "divPayments": [
+    {
+     "date": "2020-03-04",
+     "amount": 1.1
+    },
+    {
+     "date": "2020-09-30",
+     "amount": 0.18
+    },
+    {
+     "date": "2021-03-04",
+     "amount": 0.82
+    },
+    {
+     "date": "2021-09-29",
+     "amount": 1.2
+    },
+    {
+     "date": "2022-03-03",
+     "amount": 0.8
+    },
+    {
+     "date": "2022-09-28",
+     "amount": 1.3
+    },
+    {
+     "date": "2023-03-02",
+     "amount": 0.7
+    },
+    {
+     "date": "2023-10-04",
+     "amount": 0.8
+    },
+    {
+     "date": "2024-02-29",
+     "amount": 1.2
+    },
+    {
+     "date": "2024-08-28",
+     "amount": 0.8
+    },
+    {
+     "date": "2025-03-06",
+     "amount": 1.3
+    },
+    {
+     "date": "2025-10-01",
+     "amount": 0.9
+    },
+    {
+     "date": "2026-03-05",
+     "amount": 1.4
+    },
+    {
+     "date": "2026-10-07",
+     "amount": 1.4
+    }
+   ],
    "dpsByYear": {
     "2026": 2.8,
     "2025": 2.2,
@@ -50,7 +109,7 @@
   },
   {
    "symbol": "PTTEP",
-   "name": "PTT Exploration",
+   "name": "ปตท. สำรวจและผลิตปิโตรเลียม",
    "pairId": 102673,
    "path": "/equities/ptt-exp---prod",
    "sector": "Energy",
@@ -66,6 +125,65 @@
    "divYield": 5.63,
    "avgYield5y": 6.14,
    "dpsLastYear": 9.15,
+   "dpsPrevFY": 8.75,
+   "divPayments": [
+    {
+     "date": "2020-02-13",
+     "amount": 3.75
+    },
+    {
+     "date": "2020-08-13",
+     "amount": 1.5
+    },
+    {
+     "date": "2021-03-01",
+     "amount": 2.75
+    },
+    {
+     "date": "2021-08-11",
+     "amount": 2.0
+    },
+    {
+     "date": "2022-02-10",
+     "amount": 3.0
+    },
+    {
+     "date": "2022-08-15",
+     "amount": 4.25
+    },
+    {
+     "date": "2023-02-14",
+     "amount": 5.0
+    },
+    {
+     "date": "2023-08-15",
+     "amount": 4.25
+    },
+    {
+     "date": "2024-02-19",
+     "amount": 5.25
+    },
+    {
+     "date": "2024-08-13",
+     "amount": 4.5
+    },
+    {
+     "date": "2025-02-25",
+     "amount": 5.125
+    },
+    {
+     "date": "2025-08-08",
+     "amount": 4.1
+    },
+    {
+     "date": "2026-02-23",
+     "amount": 4.65
+    },
+    {
+     "date": "2026-08-14",
+     "amount": 4.5
+    }
+   ],
    "dpsByYear": {
     "2026": 9.15,
     "2025": 9.225,
@@ -85,7 +203,7 @@
   },
   {
    "symbol": "KTB",
-   "name": "Krung Thai Bank",
+   "name": "ธนาคารกรุงไทย",
    "pairId": 102569,
    "path": "/equities/krung-thai-ban",
    "sector": "Financials",
@@ -101,6 +219,45 @@
    "divYield": 7.12,
    "avgYield5y": 3.86,
    "dpsLastYear": 3.15,
+   "dpsPrevFY": 2.67,
+   "divPayments": [
+    {
+     "date": "2020-04-08",
+     "amount": 0.753
+    },
+    {
+     "date": "2021-04-21",
+     "amount": 0.275
+    },
+    {
+     "date": "2022-04-20",
+     "amount": 0.418
+    },
+    {
+     "date": "2023-04-18",
+     "amount": 0.682
+    },
+    {
+     "date": "2024-04-17",
+     "amount": 0.868
+    },
+    {
+     "date": "2025-04-16",
+     "amount": 1.545
+    },
+    {
+     "date": "2025-11-11",
+     "amount": 0.43
+    },
+    {
+     "date": "2026-04-10",
+     "amount": 2.24
+    },
+    {
+     "date": "2026-09-22",
+     "amount": 0.48
+    }
+   ],
    "dpsByYear": {
     "2026": 2.72,
     "2025": 1.975,
@@ -120,7 +277,7 @@
   },
   {
    "symbol": "SCB",
-   "name": "SCB X PCL",
+   "name": "เอสซีบี เอกซ์",
    "pairId": 1192265,
    "path": "/equities/scb-x-pcl",
    "sector": "Financials",
@@ -131,11 +288,50 @@
    "peRatio": 11.37,
    "pegRatio": -0.86,
    "currency": "THB",
-   "price": 154.0,
-   "changePercent": 0.33,
-   "divYield": 7.32,
+   "price": 154.5,
+   "changePercent": 0.65,
+   "divYield": 7.3,
    "avgYield5y": 6.14,
    "dpsLastYear": 11.28,
+   "dpsPrevFY": 11.28,
+   "divPayments": [
+    {
+     "date": "2022-10-12",
+     "amount": 1.5
+    },
+    {
+     "date": "2023-04-17",
+     "amount": 5.19
+    },
+    {
+     "date": "2023-09-13",
+     "amount": 2.5
+    },
+    {
+     "date": "2024-04-17",
+     "amount": 7.84
+    },
+    {
+     "date": "2024-09-05",
+     "amount": 2.0
+    },
+    {
+     "date": "2025-04-16",
+     "amount": 8.44
+    },
+    {
+     "date": "2025-09-02",
+     "amount": 2.0
+    },
+    {
+     "date": "2026-04-20",
+     "amount": 9.28
+    },
+    {
+     "date": "2026-09-08",
+     "amount": 2.0
+    }
+   ],
    "dpsByYear": {
     "2026": 11.28,
     "2025": 10.44,
@@ -153,7 +349,7 @@
   },
   {
    "symbol": "BBL",
-   "name": "Bangkok Bank",
+   "name": "ธนาคารกรุงเทพ",
    "pairId": 102427,
    "path": "/equities/bangkok-bank",
    "sector": "Financials",
@@ -164,11 +360,66 @@
    "peRatio": 9.36,
    "pegRatio": -0.41,
    "currency": "THB",
-   "price": 186.5,
-   "changePercent": 0.81,
-   "divYield": 5.36,
+   "price": 186.0,
+   "changePercent": 0.54,
+   "divYield": 5.38,
    "avgYield5y": 3.69,
    "dpsLastYear": 10.0,
+   "dpsPrevFY": 10.0,
+   "divPayments": [
+    {
+     "date": "2020-04-21",
+     "amount": 5.0
+    },
+    {
+     "date": "2021-04-21",
+     "amount": 2.5
+    },
+    {
+     "date": "2021-09-08",
+     "amount": 1.0
+    },
+    {
+     "date": "2022-04-21",
+     "amount": 2.5
+    },
+    {
+     "date": "2022-09-07",
+     "amount": 1.5
+    },
+    {
+     "date": "2023-04-21",
+     "amount": 3.0
+    },
+    {
+     "date": "2023-09-06",
+     "amount": 2.0
+    },
+    {
+     "date": "2024-04-23",
+     "amount": 5.0
+    },
+    {
+     "date": "2024-09-04",
+     "amount": 2.0
+    },
+    {
+     "date": "2025-04-23",
+     "amount": 6.5
+    },
+    {
+     "date": "2025-09-10",
+     "amount": 2.0
+    },
+    {
+     "date": "2026-04-22",
+     "amount": 8.0
+    },
+    {
+     "date": "2026-09-09",
+     "amount": 2.0
+    }
+   ],
    "dpsByYear": {
     "2026": 10.0,
     "2025": 8.5,
@@ -188,7 +439,7 @@
   },
   {
    "symbol": "KKP",
-   "name": "Kiatnakin",
+   "name": "ธนาคารเกียรตินาคิน",
    "pairId": 102567,
    "path": "/equities/kiatnakin-bank",
    "sector": "Financials",
@@ -204,6 +455,61 @@
    "divYield": 6.21,
    "avgYield5y": 5.56,
    "dpsLastYear": 7.45,
+   "dpsPrevFY": 5.7,
+   "divPayments": [
+    {
+     "date": "2020-04-10",
+     "amount": 2.75
+    },
+    {
+     "date": "2021-04-29",
+     "amount": 2.25
+    },
+    {
+     "date": "2021-09-08",
+     "amount": 0.75
+    },
+    {
+     "date": "2022-04-28",
+     "amount": 2.2
+    },
+    {
+     "date": "2022-09-07",
+     "amount": 1.75
+    },
+    {
+     "date": "2023-04-27",
+     "amount": 1.5
+    },
+    {
+     "date": "2023-09-06",
+     "amount": 1.25
+    },
+    {
+     "date": "2024-04-26",
+     "amount": 1.75
+    },
+    {
+     "date": "2024-09-04",
+     "amount": 1.25
+    },
+    {
+     "date": "2025-05-02",
+     "amount": 2.75
+    },
+    {
+     "date": "2025-09-10",
+     "amount": 1.5
+    },
+    {
+     "date": "2026-04-29",
+     "amount": 4.2
+    },
+    {
+     "date": "2026-09-09",
+     "amount": 3.25
+    }
+   ],
    "dpsByYear": {
     "2026": 7.45,
     "2025": 4.25,
@@ -223,7 +529,7 @@
   },
   {
    "symbol": "TISCO",
-   "name": "TISCO Financial",
+   "name": "ทิสโก้ไฟแนนเชียลกรุ๊ป",
    "pairId": 102835,
    "path": "/equities/tisco-financ",
    "sector": "Financials",
@@ -239,6 +545,53 @@
    "divYield": 6.15,
    "avgYield5y": 7.68,
    "dpsLastYear": 7.75,
+   "dpsPrevFY": 7.75,
+   "divPayments": [
+    {
+     "date": "2020-04-27",
+     "amount": 7.75
+    },
+    {
+     "date": "2021-04-28",
+     "amount": 6.3
+    },
+    {
+     "date": "2022-04-29",
+     "amount": 7.15
+    },
+    {
+     "date": "2023-04-21",
+     "amount": 7.75
+    },
+    {
+     "date": "2023-09-06",
+     "amount": 2.0
+    },
+    {
+     "date": "2024-04-24",
+     "amount": 5.75
+    },
+    {
+     "date": "2024-09-10",
+     "amount": 2.0
+    },
+    {
+     "date": "2025-04-25",
+     "amount": 5.75
+    },
+    {
+     "date": "2025-09-10",
+     "amount": 2.0
+    },
+    {
+     "date": "2026-04-29",
+     "amount": 5.75
+    },
+    {
+     "date": "2026-09-07",
+     "amount": 2.0
+    }
+   ],
    "dpsByYear": {
     "2026": 7.75,
     "2025": 7.75,
@@ -258,7 +611,7 @@
   },
   {
    "symbol": "BCP",
-   "name": "Bangchak Corp",
+   "name": "บางจาก คอร์ปอเรชั่น",
    "pairId": 102425,
    "path": "/equities/bangchak",
    "sector": "Energy",
@@ -274,6 +627,57 @@
    "divYield": 8.06,
    "avgYield5y": 4.74,
    "dpsLastYear": 4.05,
+   "dpsPrevFY": 1.05,
+   "divPayments": [
+    {
+     "date": "2020-03-04",
+     "amount": 0.3
+    },
+    {
+     "date": "2021-03-03",
+     "amount": 0.4
+    },
+    {
+     "date": "2021-09-08",
+     "amount": 1.0
+    },
+    {
+     "date": "2022-03-02",
+     "amount": 1.0
+    },
+    {
+     "date": "2022-08-31",
+     "amount": 1.25
+    },
+    {
+     "date": "2023-03-03",
+     "amount": 1.0
+    },
+    {
+     "date": "2023-09-06",
+     "amount": 0.5
+    },
+    {
+     "date": "2024-03-06",
+     "amount": 1.5
+    },
+    {
+     "date": "2024-09-04",
+     "amount": 0.6
+    },
+    {
+     "date": "2025-03-13",
+     "amount": 0.45
+    },
+    {
+     "date": "2026-03-02",
+     "amount": 1.05
+    },
+    {
+     "date": "2026-09-07",
+     "amount": 3.0
+    }
+   ],
    "dpsByYear": {
     "2026": 4.05,
     "2025": 0.45,
@@ -293,7 +697,7 @@
   },
   {
    "symbol": "TU",
-   "name": "Thai Union",
+   "name": "ไทยยูเนี่ยน กรุ๊ป",
    "pairId": 986220,
    "path": "/equities/thai-union-group-pcl",
    "sector": "Consumer Non-Cyclicals",
@@ -309,6 +713,65 @@
    "divYield": 5.86,
    "avgYield5y": 4.86,
    "dpsLastYear": 0.75,
+   "dpsPrevFY": 0.7,
+   "divPayments": [
+    {
+     "date": "2020-03-02",
+     "amount": 0.22
+    },
+    {
+     "date": "2020-08-25",
+     "amount": 0.32
+    },
+    {
+     "date": "2021-03-08",
+     "amount": 0.4
+    },
+    {
+     "date": "2021-08-23",
+     "amount": 0.45
+    },
+    {
+     "date": "2022-03-09",
+     "amount": 0.5
+    },
+    {
+     "date": "2022-08-22",
+     "amount": 0.4
+    },
+    {
+     "date": "2023-03-03",
+     "amount": 0.44
+    },
+    {
+     "date": "2023-08-21",
+     "amount": 0.3
+    },
+    {
+     "date": "2024-03-01",
+     "amount": 0.24
+    },
+    {
+     "date": "2024-08-21",
+     "amount": 0.31
+    },
+    {
+     "date": "2025-02-28",
+     "amount": 0.35
+    },
+    {
+     "date": "2025-08-15",
+     "amount": 0.35
+    },
+    {
+     "date": "2026-03-02",
+     "amount": 0.35
+    },
+    {
+     "date": "2026-08-14",
+     "amount": 0.4
+    }
+   ],
    "dpsByYear": {
     "2026": 0.75,
     "2025": 0.7,
@@ -328,7 +791,7 @@
   },
   {
    "symbol": "TFG",
-   "name": "Thai Foods",
+   "name": "ไทยฟู้ดส์ กรุ๊ป",
    "pairId": 986209,
    "path": "/equities/thai-foods-group-pcl",
    "sector": "Consumer Non-Cyclicals",
@@ -344,6 +807,81 @@
    "divYield": 7.47,
    "avgYield5y": 5.96,
    "dpsLastYear": 0.71,
+   "dpsPrevFY": 0.71,
+   "divPayments": [
+    {
+     "date": "2020-03-10",
+     "amount": 0.055
+    },
+    {
+     "date": "2020-04-07",
+     "amount": 0.145
+    },
+    {
+     "date": "2020-08-25",
+     "amount": 0.03
+    },
+    {
+     "date": "2021-03-10",
+     "amount": 0.055
+    },
+    {
+     "date": "2021-08-27",
+     "amount": 0.05
+    },
+    {
+     "date": "2022-03-16",
+     "amount": 0.04
+    },
+    {
+     "date": "2022-08-26",
+     "amount": 0.1
+    },
+    {
+     "date": "2023-05-03",
+     "amount": 0.3
+    },
+    {
+     "date": "2023-08-24",
+     "amount": 0.02
+    },
+    {
+     "date": "2024-04-30",
+     "amount": 0.01
+    },
+    {
+     "date": "2024-08-26",
+     "amount": 0.075
+    },
+    {
+     "date": "2025-03-07",
+     "amount": 0.225
+    },
+    {
+     "date": "2025-05-27",
+     "amount": 0.075
+    },
+    {
+     "date": "2025-08-22",
+     "amount": 0.225
+    },
+    {
+     "date": "2025-11-26",
+     "amount": 0.1
+    },
+    {
+     "date": "2026-03-04",
+     "amount": 0.3
+    },
+    {
+     "date": "2026-05-25",
+     "amount": 0.085
+    },
+    {
+     "date": "2026-08-24",
+     "amount": 0.225
+    }
+   ],
    "dpsByYear": {
     "2026": 0.61,
     "2025": 0.625,
@@ -363,7 +901,7 @@
   },
   {
    "symbol": "CPNREIT",
-   "name": "Cpn Retail Growth Leasehold REIT Unt",
+   "name": "CPN รีเทล โกรท",
    "pairId": 1130942,
    "path": "/equities/cpn-retail-growth-leasehold-reit",
    "sector": "Real Estate",
@@ -379,6 +917,109 @@
    "divYield": 8.51,
    "avgYield5y": 6.65,
    "dpsLastYear": 1.1144,
+   "dpsPrevFY": 1.1044,
+   "divPayments": [
+    {
+     "date": "2020-03-04",
+     "amount": 0.3997
+    },
+    {
+     "date": "2020-05-25",
+     "amount": 0.2665
+    },
+    {
+     "date": "2020-11-23",
+     "amount": 0.2068
+    },
+    {
+     "date": "2021-05-24",
+     "amount": 0.1975
+    },
+    {
+     "date": "2021-08-24",
+     "amount": 0.1009
+    },
+    {
+     "date": "2021-11-17",
+     "amount": 0.0827
+    },
+    {
+     "date": "2022-03-01",
+     "amount": 0.2128
+    },
+    {
+     "date": "2022-05-18",
+     "amount": 0.2332
+    },
+    {
+     "date": "2022-08-17",
+     "amount": 0.2757
+    },
+    {
+     "date": "2022-11-16",
+     "amount": 0.2954
+    },
+    {
+     "date": "2023-02-28",
+     "amount": 0.0598
+    },
+    {
+     "date": "2023-05-23",
+     "amount": 0.317
+    },
+    {
+     "date": "2023-08-23",
+     "amount": 0.2855
+    },
+    {
+     "date": "2023-11-21",
+     "amount": 0.253
+    },
+    {
+     "date": "2024-02-28",
+     "amount": 0.253
+    },
+    {
+     "date": "2024-04-30",
+     "amount": 0.3618
+    },
+    {
+     "date": "2024-08-26",
+     "amount": 0.1682
+    },
+    {
+     "date": "2024-11-26",
+     "amount": 0.266
+    },
+    {
+     "date": "2025-02-27",
+     "amount": 0.266
+    },
+    {
+     "date": "2025-05-19",
+     "amount": 0.266
+    },
+    {
+     "date": "2025-08-26",
+     "amount": 0.27
+    },
+    {
+     "date": "2025-11-25",
+     "amount": 0.275
+    },
+    {
+     "date": "2026-03-11",
+     "amount": 0.2794
+    },
+    {
+     "date": "2026-05-26",
+     "amount": 0.28
+    },
+    {
+     "date": "2026-08-21",
+     "amount": 0.28
+    }
+   ],
    "dpsByYear": {
     "2026": 0.8394,
     "2025": 1.077,
@@ -398,7 +1039,7 @@
   },
   {
    "symbol": "SCCC",
-   "name": "Siam City Cement",
+   "name": "ปูนซีเมนต์นครหลวง",
    "pairId": 102726,
    "path": "/equities/siam-city",
    "sector": "Basic Materials",
@@ -414,6 +1055,49 @@
    "divYield": 7.24,
    "avgYield5y": 6.54,
    "dpsLastYear": 11.0,
+   "dpsPrevFY": 11.0,
+   "divPayments": [
+    {
+     "date": "2020-03-04",
+     "amount": 4.0
+    },
+    {
+     "date": "2021-02-24",
+     "amount": 9.0
+    },
+    {
+     "date": "2022-02-24",
+     "amount": 9.0
+    },
+    {
+     "date": "2023-02-23",
+     "amount": 9.0
+    },
+    {
+     "date": "2024-02-22",
+     "amount": 7.0
+    },
+    {
+     "date": "2024-08-15",
+     "amount": 4.0
+    },
+    {
+     "date": "2025-03-12",
+     "amount": 7.0
+    },
+    {
+     "date": "2025-08-21",
+     "amount": 4.0
+    },
+    {
+     "date": "2026-03-05",
+     "amount": 7.0
+    },
+    {
+     "date": "2026-08-18",
+     "amount": 4.0
+    }
+   ],
    "dpsByYear": {
     "2026": 11.0,
     "2025": 11.0,
@@ -433,7 +1117,7 @@
   },
   {
    "symbol": "LH",
-   "name": "Land and Houses",
+   "name": "บริษัทแลนด์แอนด์เฮ้าส์",
    "pairId": 102577,
    "path": "/equities/land---house",
    "sector": "Real Estate",
@@ -449,6 +1133,65 @@
    "divYield": 5.56,
    "avgYield5y": 6.98,
    "dpsLastYear": 0.2,
+   "dpsPrevFY": 0.25,
+   "divPayments": [
+    {
+     "date": "2020-05-07",
+     "amount": 0.4
+    },
+    {
+     "date": "2020-08-27",
+     "amount": 0.2
+    },
+    {
+     "date": "2021-05-06",
+     "amount": 0.3
+    },
+    {
+     "date": "2021-08-24",
+     "amount": 0.25
+    },
+    {
+     "date": "2022-05-05",
+     "amount": 0.25
+    },
+    {
+     "date": "2022-08-25",
+     "amount": 0.25
+    },
+    {
+     "date": "2023-05-08",
+     "amount": 0.35
+    },
+    {
+     "date": "2023-08-24",
+     "amount": 0.2
+    },
+    {
+     "date": "2024-05-03",
+     "amount": 0.3
+    },
+    {
+     "date": "2024-11-28",
+     "amount": 0.15
+    },
+    {
+     "date": "2025-04-30",
+     "amount": 0.17
+    },
+    {
+     "date": "2025-10-15",
+     "amount": 0.13
+    },
+    {
+     "date": "2026-04-29",
+     "amount": 0.12
+    },
+    {
+     "date": "2026-10-14",
+     "amount": 0.08
+    }
+   ],
    "dpsByYear": {
     "2026": 0.2,
     "2025": 0.3,
@@ -468,7 +1211,7 @@
   },
   {
    "symbol": "BKIH",
-   "name": "BKI Holdings PCL",
+   "name": "บีเคไอ โฮลดิ้งส์",
    "pairId": 1217374,
    "path": "/equities/bki-holdings-pcl",
    "sector": "Financials",
@@ -479,11 +1222,46 @@
    "peRatio": null,
    "pegRatio": 0.22,
    "currency": "THB",
-   "price": 400.0,
-   "changePercent": 0.25,
-   "divYield": 5.88,
+   "price": 399.0,
+   "changePercent": 0.0,
+   "divYield": 5.89,
    "avgYield5y": 4.76,
    "dpsLastYear": 23.5,
+   "dpsPrevFY": 22.75,
+   "divPayments": [
+    {
+     "date": "2024-10-17",
+     "amount": 11.25
+    },
+    {
+     "date": "2025-03-06",
+     "amount": 5.75
+    },
+    {
+     "date": "2025-05-22",
+     "amount": 3.75
+    },
+    {
+     "date": "2025-08-21",
+     "amount": 3.75
+    },
+    {
+     "date": "2025-11-20",
+     "amount": 3.75
+    },
+    {
+     "date": "2026-03-10",
+     "amount": 6.25
+    },
+    {
+     "date": "2026-05-21",
+     "amount": 9.0
+    },
+    {
+     "date": "2026-08-20",
+     "amount": 4.5
+    }
+   ],
    "dpsByYear": {
     "2026": 19.75,
     "2025": 17.0,
@@ -497,7 +1275,7 @@
   },
   {
    "symbol": "RCL",
-   "name": "Regional Container",
+   "name": "อาร์ ซี แอล",
    "pairId": 102685,
    "path": "/equities/regional-cont",
    "sector": "Industrials",
@@ -508,11 +1286,78 @@
    "peRatio": 5.26,
    "pegRatio": -0.16,
    "currency": "THB",
-   "price": 49.0,
-   "changePercent": -0.51,
-   "divYield": 5.1,
+   "price": 49.25,
+   "changePercent": 0.0,
+   "divYield": 5.08,
    "avgYield5y": 11.56,
    "dpsLastYear": 2.5,
+   "dpsPrevFY": 2.5,
+   "divPayments": [
+    {
+     "date": "2021-03-24",
+     "amount": 0.5
+    },
+    {
+     "date": "2021-08-27",
+     "amount": 1.5
+    },
+    {
+     "date": "2021-11-18",
+     "amount": 1.5
+    },
+    {
+     "date": "2022-03-23",
+     "amount": 3.0
+    },
+    {
+     "date": "2022-08-18",
+     "amount": 1.75
+    },
+    {
+     "date": "2022-11-24",
+     "amount": 2.25
+    },
+    {
+     "date": "2023-03-16",
+     "amount": 3.0
+    },
+    {
+     "date": "2023-08-24",
+     "amount": 0.25
+    },
+    {
+     "date": "2024-03-13",
+     "amount": 0.5
+    },
+    {
+     "date": "2024-08-22",
+     "amount": 0.5
+    },
+    {
+     "date": "2024-11-21",
+     "amount": 0.5
+    },
+    {
+     "date": "2025-03-12",
+     "amount": 1.5
+    },
+    {
+     "date": "2025-08-22",
+     "amount": 0.5
+    },
+    {
+     "date": "2025-11-20",
+     "amount": 0.5
+    },
+    {
+     "date": "2026-03-11",
+     "amount": 1.5
+    },
+    {
+     "date": "2026-08-21",
+     "amount": 0.5
+    }
+   ],
    "dpsByYear": {
     "2026": 2.0,
     "2025": 2.5,
@@ -532,7 +1377,7 @@
   },
   {
    "symbol": "TTW",
-   "name": "TTW PCL",
+   "name": "ทีทีดับบลิว",
    "pairId": 102848,
    "path": "/equities/ttw",
    "sector": "Utilities",
@@ -543,11 +1388,70 @@
    "peRatio": 12.74,
    "pegRatio": null,
    "currency": "THB",
-   "price": 10.0,
-   "changePercent": -0.99,
-   "divYield": 6.0,
+   "price": 10.1,
+   "changePercent": -0.0,
+   "divYield": 5.94,
    "avgYield5y": 6.34,
    "dpsLastYear": 0.6,
+   "dpsPrevFY": 0.6,
+   "divPayments": [
+    {
+     "date": "2020-03-09",
+     "amount": 0.3
+    },
+    {
+     "date": "2020-09-02",
+     "amount": 0.3
+    },
+    {
+     "date": "2021-03-08",
+     "amount": 0.3
+    },
+    {
+     "date": "2021-09-08",
+     "amount": 0.3
+    },
+    {
+     "date": "2022-03-08",
+     "amount": 0.3
+    },
+    {
+     "date": "2022-09-06",
+     "amount": 0.3
+    },
+    {
+     "date": "2023-03-08",
+     "amount": 0.3
+    },
+    {
+     "date": "2023-09-05",
+     "amount": 0.3
+    },
+    {
+     "date": "2024-03-07",
+     "amount": 0.3
+    },
+    {
+     "date": "2024-09-12",
+     "amount": 0.3
+    },
+    {
+     "date": "2025-03-11",
+     "amount": 0.3
+    },
+    {
+     "date": "2025-09-10",
+     "amount": 0.3
+    },
+    {
+     "date": "2026-03-10",
+     "amount": 0.3
+    },
+    {
+     "date": "2026-09-09",
+     "amount": 0.3
+    }
+   ],
    "dpsByYear": {
     "2026": 0.6,
     "2025": 0.6,
@@ -567,7 +1471,7 @@
   },
   {
    "symbol": "SPALI",
-   "name": "Supalai PCL",
+   "name": "ศุภาลัย",
    "pairId": 102759,
    "path": "/equities/supalai-pub",
    "sector": "Real Estate",
@@ -578,11 +1482,70 @@
    "peRatio": 6.59,
    "pegRatio": -0.46,
    "currency": "THB",
-   "price": 15.9,
-   "changePercent": 0.0,
-   "divYield": 7.86,
+   "price": 15.8,
+   "changePercent": -0.63,
+   "divYield": 7.91,
    "avgYield5y": 6.76,
    "dpsLastYear": 1.25,
+   "dpsPrevFY": 1.25,
+   "divPayments": [
+    {
+     "date": "2020-04-23",
+     "amount": 0.6
+    },
+    {
+     "date": "2020-08-25",
+     "amount": 0.5
+    },
+    {
+     "date": "2021-04-29",
+     "amount": 0.5
+    },
+    {
+     "date": "2021-08-24",
+     "amount": 0.5
+    },
+    {
+     "date": "2022-04-27",
+     "amount": 0.75
+    },
+    {
+     "date": "2022-08-23",
+     "amount": 0.7
+    },
+    {
+     "date": "2023-05-08",
+     "amount": 0.75
+    },
+    {
+     "date": "2023-08-22",
+     "amount": 0.7
+    },
+    {
+     "date": "2024-05-07",
+     "amount": 0.75
+    },
+    {
+     "date": "2024-08-27",
+     "amount": 0.6
+    },
+    {
+     "date": "2025-05-07",
+     "amount": 0.85
+    },
+    {
+     "date": "2025-08-27",
+     "amount": 0.55
+    },
+    {
+     "date": "2026-05-06",
+     "amount": 0.7
+    },
+    {
+     "date": "2026-08-25",
+     "amount": 0.55
+    }
+   ],
    "dpsByYear": {
     "2026": 1.25,
     "2025": 1.4,
@@ -602,7 +1565,7 @@
   },
   {
    "symbol": "STGT",
-   "name": "Sri Trang Gloves",
+   "name": "ศรีตรังโกลฟส์",
    "pairId": 1163265,
    "path": "/equities/sri-trang-gloves-thailand-plc",
    "sector": "Healthcare",
@@ -613,11 +1576,62 @@
    "peRatio": 91.7,
    "pegRatio": -1.28,
    "currency": "THB",
-   "price": 9.6,
-   "changePercent": -5.88,
-   "divYield": 7.81,
+   "price": 9.65,
+   "changePercent": -5.39,
+   "divYield": 7.77,
    "avgYield5y": 9.12,
    "dpsLastYear": 0.75,
+   "dpsPrevFY": 0.5,
+   "divPayments": [
+    {
+     "date": "2020-11-27",
+     "amount": 0.625
+    },
+    {
+     "date": "2021-04-12",
+     "amount": 2.0
+    },
+    {
+     "date": "2021-05-25",
+     "amount": 1.5
+    },
+    {
+     "date": "2021-08-23",
+     "amount": 1.25
+    },
+    {
+     "date": "2021-11-19",
+     "amount": 1.25
+    },
+    {
+     "date": "2022-04-19",
+     "amount": 0.65
+    },
+    {
+     "date": "2022-08-23",
+     "amount": 0.5
+    },
+    {
+     "date": "2023-04-19",
+     "amount": 0.25
+    },
+    {
+     "date": "2024-04-18",
+     "amount": 0.5
+    },
+    {
+     "date": "2025-04-18",
+     "amount": 0.5
+    },
+    {
+     "date": "2026-04-21",
+     "amount": 0.5
+    },
+    {
+     "date": "2026-08-27",
+     "amount": 0.25
+    }
+   ],
    "dpsByYear": {
     "2026": 0.75,
     "2025": 0.5,
@@ -637,7 +1651,7 @@
   },
   {
    "symbol": "TASCO",
-   "name": "TIPCO Asphalt",
+   "name": "ทิปโก้แอสฟัลท์",
    "pairId": 102833,
    "path": "/equities/tipco-asphalt",
    "sector": "Basic Materials",
@@ -653,6 +1667,61 @@
    "divYield": 5.81,
    "avgYield5y": 8.07,
    "dpsLastYear": 1.0,
+   "dpsPrevFY": 1.0,
+   "divPayments": [
+    {
+     "date": "2020-02-28",
+     "amount": 1.1
+    },
+    {
+     "date": "2020-08-31",
+     "amount": 0.3
+    },
+    {
+     "date": "2021-01-27",
+     "amount": 0.3
+    },
+    {
+     "date": "2021-03-02",
+     "amount": 1.0
+    },
+    {
+     "date": "2021-08-24",
+     "amount": 0.25
+    },
+    {
+     "date": "2022-03-02",
+     "amount": 0.8
+    },
+    {
+     "date": "2022-11-22",
+     "amount": 0.25
+    },
+    {
+     "date": "2023-03-02",
+     "amount": 1.0
+    },
+    {
+     "date": "2023-08-23",
+     "amount": 0.25
+    },
+    {
+     "date": "2024-02-29",
+     "amount": 1.0
+    },
+    {
+     "date": "2025-03-03",
+     "amount": 0.9
+    },
+    {
+     "date": "2025-11-21",
+     "amount": 0.8
+    },
+    {
+     "date": "2026-03-04",
+     "amount": 0.2
+    }
+   ],
    "dpsByYear": {
     "2026": 0.2,
     "2025": 1.7,
@@ -672,7 +1741,7 @@
   },
   {
    "symbol": "TVO",
-   "name": "Thai Vegetable Oil",
+   "name": "น้ำมันพืชไทย",
    "pairId": 102809,
    "path": "/equities/thai-vegetable",
    "sector": "Consumer Non-Cyclicals",
@@ -683,11 +1752,66 @@
    "peRatio": 9.6,
    "pegRatio": 1.44,
    "currency": "THB",
-   "price": 28.75,
-   "changePercent": 0.0,
-   "divYield": 7.2,
+   "price": 28.5,
+   "changePercent": -0.87,
+   "divYield": 7.26,
    "avgYield5y": 5.82,
    "dpsLastYear": 2.07,
+   "dpsPrevFY": 1.97,
+   "divPayments": [
+    {
+     "date": "2020-03-13",
+     "amount": 0.6818
+    },
+    {
+     "date": "2021-03-12",
+     "amount": 0.7273
+    },
+    {
+     "date": "2021-08-27",
+     "amount": 1.1818
+    },
+    {
+     "date": "2022-03-11",
+     "amount": 0.8182
+    },
+    {
+     "date": "2022-08-26",
+     "amount": 0.2
+    },
+    {
+     "date": "2023-03-24",
+     "amount": 0.85
+    },
+    {
+     "date": "2023-08-25",
+     "amount": 0.16
+    },
+    {
+     "date": "2024-03-13",
+     "amount": 0.65
+    },
+    {
+     "date": "2024-08-23",
+     "amount": 0.8
+    },
+    {
+     "date": "2025-03-14",
+     "amount": 0.93
+    },
+    {
+     "date": "2025-08-22",
+     "amount": 0.8
+    },
+    {
+     "date": "2026-03-13",
+     "amount": 1.17
+    },
+    {
+     "date": "2026-08-27",
+     "amount": 0.9
+    }
+   ],
    "dpsByYear": {
     "2026": 2.07,
     "2025": 1.73,
@@ -707,7 +1831,7 @@
   },
   {
    "symbol": "AP",
-   "name": "AP",
+   "name": "เอพี (ไทยแลนด์)",
    "pairId": 102408,
    "path": "/equities/ap-thailand",
    "sector": "Real Estate",
@@ -718,11 +1842,42 @@
    "peRatio": 5.7,
    "pegRatio": -1.32,
    "currency": "THB",
-   "price": 7.95,
-   "changePercent": -0.62,
-   "divYield": 6.54,
+   "price": 7.9,
+   "changePercent": -1.25,
+   "divYield": 6.58,
    "avgYield5y": 6.08,
    "dpsLastYear": 0.52,
+   "dpsPrevFY": 0.52,
+   "divPayments": [
+    {
+     "date": "2020-05-12",
+     "amount": 0.4
+    },
+    {
+     "date": "2021-05-11",
+     "amount": 0.45
+    },
+    {
+     "date": "2022-05-10",
+     "amount": 0.5
+    },
+    {
+     "date": "2023-05-09",
+     "amount": 0.65
+    },
+    {
+     "date": "2024-05-08",
+     "amount": 0.7
+    },
+    {
+     "date": "2025-05-07",
+     "amount": 0.6
+    },
+    {
+     "date": "2026-05-06",
+     "amount": 0.52
+    }
+   ],
    "dpsByYear": {
     "2026": 0.52,
     "2025": 0.6,
@@ -742,7 +1897,7 @@
   },
   {
    "symbol": "SIRI",
-   "name": "Sansiri",
+   "name": "แสนสิริ",
    "pairId": 102714,
    "path": "/equities/sansiri",
    "sector": "Real Estate",
@@ -753,11 +1908,62 @@
    "peRatio": 6.19,
    "pegRatio": -1.19,
    "currency": "THB",
-   "price": 1.42,
-   "changePercent": -0.7,
-   "divYield": 9.15,
+   "price": 1.43,
+   "changePercent": 0.0,
+   "divYield": 9.09,
    "avgYield5y": 7.99,
    "dpsLastYear": 0.13,
+   "dpsPrevFY": 0.13,
+   "divPayments": [
+    {
+     "date": "2020-03-13",
+     "amount": 0.06
+    },
+    {
+     "date": "2021-03-15",
+     "amount": 0.04
+    },
+    {
+     "date": "2022-03-15",
+     "amount": 0.06
+    },
+    {
+     "date": "2022-08-29",
+     "amount": 0.04
+    },
+    {
+     "date": "2023-03-16",
+     "amount": 0.11
+    },
+    {
+     "date": "2023-08-28",
+     "amount": 0.1
+    },
+    {
+     "date": "2024-03-15",
+     "amount": 0.1
+    },
+    {
+     "date": "2024-08-28",
+     "amount": 0.07
+    },
+    {
+     "date": "2025-03-17",
+     "amount": 0.08
+    },
+    {
+     "date": "2025-08-28",
+     "amount": 0.05
+    },
+    {
+     "date": "2026-03-17",
+     "amount": 0.08
+    },
+    {
+     "date": "2026-08-27",
+     "amount": 0.05
+    }
+   ],
    "dpsByYear": {
     "2026": 0.13,
     "2025": 0.13,
@@ -777,7 +1983,7 @@
   },
   {
    "symbol": "BAM",
-   "name": "Bangkok Commercial",
+   "name": "บริหารสินทรัพย์ กรุงเทพพาณิชย์",
    "pairId": 1156026,
    "path": "/equities/bangkok-commercial-asset-management",
    "sector": "Financials",
@@ -788,11 +1994,42 @@
    "peRatio": 27.75,
    "pegRatio": -0.41,
    "currency": "THB",
-   "price": 6.4,
-   "changePercent": -0.0,
-   "divYield": 7.81,
+   "price": 6.35,
+   "changePercent": -0.78,
+   "divYield": 7.87,
    "avgYield5y": 4.64,
    "dpsLastYear": 0.5,
+   "dpsPrevFY": 0.5,
+   "divPayments": [
+    {
+     "date": "2020-04-08",
+     "amount": 1.05
+    },
+    {
+     "date": "2021-05-06",
+     "amount": 0.5125
+    },
+    {
+     "date": "2022-04-29",
+     "amount": 0.55
+    },
+    {
+     "date": "2023-05-02",
+     "amount": 0.55
+    },
+    {
+     "date": "2024-04-29",
+     "amount": 0.38
+    },
+    {
+     "date": "2025-04-25",
+     "amount": 0.35
+    },
+    {
+     "date": "2026-05-05",
+     "amount": 0.5
+    }
+   ],
    "dpsByYear": {
     "2026": 0.5,
     "2025": 0.35,
@@ -812,7 +2049,7 @@
   },
   {
    "symbol": "PRM",
-   "name": "Prima Marine",
+   "name": "พริมา มารีน",
    "pairId": 1050056,
    "path": "/equities/prima-marine",
    "sector": "Energy",
@@ -823,11 +2060,70 @@
    "peRatio": 9.02,
    "pegRatio": 1.3,
    "currency": "THB",
-   "price": 8.65,
-   "changePercent": -1.14,
-   "divYield": 5.2,
+   "price": 8.75,
+   "changePercent": 0.0,
+   "divYield": 5.14,
    "avgYield5y": 5.51,
    "dpsLastYear": 0.45,
+   "dpsPrevFY": 0.5,
+   "divPayments": [
+    {
+     "date": "2020-04-30",
+     "amount": 0.14
+    },
+    {
+     "date": "2020-11-26",
+     "amount": 0.07
+    },
+    {
+     "date": "2021-04-30",
+     "amount": 0.18
+    },
+    {
+     "date": "2021-11-24",
+     "amount": 0.08
+    },
+    {
+     "date": "2022-05-06",
+     "amount": 0.18
+    },
+    {
+     "date": "2022-11-24",
+     "amount": 0.09
+    },
+    {
+     "date": "2023-05-03",
+     "amount": 0.25
+    },
+    {
+     "date": "2023-11-27",
+     "amount": 0.1
+    },
+    {
+     "date": "2024-05-07",
+     "amount": 0.26
+    },
+    {
+     "date": "2024-10-09",
+     "amount": 0.24
+    },
+    {
+     "date": "2025-05-06",
+     "amount": 0.24
+    },
+    {
+     "date": "2025-10-08",
+     "amount": 0.25
+    },
+    {
+     "date": "2026-05-06",
+     "amount": 0.25
+    },
+    {
+     "date": "2026-08-27",
+     "amount": 0.2
+    }
+   ],
    "dpsByYear": {
     "2026": 0.45,
     "2025": 0.49,
@@ -847,7 +2143,7 @@
   },
   {
    "symbol": "IMPACT",
-   "name": "IMPACT Growth RE",
+   "name": "อิมแพ็คโกรท",
    "pairId": 986272,
    "path": "/equities/impact-growth-real-estate-invest",
    "sector": "Real Estate",
@@ -858,11 +2154,106 @@
    "peRatio": 15.6,
    "pegRatio": 1.06,
    "currency": "THB",
-   "price": 13.0,
-   "changePercent": 1.56,
-   "divYield": 5.46,
+   "price": 12.8,
+   "changePercent": -1.54,
+   "divYield": 5.55,
    "avgYield5y": 4.24,
    "dpsLastYear": 0.71,
+   "dpsPrevFY": 0.69,
+   "divPayments": [
+    {
+     "date": "2020-02-26",
+     "amount": 0.3
+    },
+    {
+     "date": "2020-06-02",
+     "amount": 0.05
+    },
+    {
+     "date": "2020-11-25",
+     "amount": 0.12
+    },
+    {
+     "date": "2021-02-24",
+     "amount": 0.2
+    },
+    {
+     "date": "2022-02-23",
+     "amount": 0.05
+    },
+    {
+     "date": "2022-05-31",
+     "amount": 0.05
+    },
+    {
+     "date": "2022-08-24",
+     "amount": 0.1
+    },
+    {
+     "date": "2022-11-23",
+     "amount": 0.15
+    },
+    {
+     "date": "2023-02-22",
+     "amount": 0.21
+    },
+    {
+     "date": "2023-05-31",
+     "amount": 0.14
+    },
+    {
+     "date": "2023-08-23",
+     "amount": 0.14
+    },
+    {
+     "date": "2023-11-22",
+     "amount": 0.1
+    },
+    {
+     "date": "2024-02-21",
+     "amount": 0.2
+    },
+    {
+     "date": "2024-06-06",
+     "amount": 0.1
+    },
+    {
+     "date": "2024-08-27",
+     "amount": 0.22
+    },
+    {
+     "date": "2024-11-27",
+     "amount": 0.11
+    },
+    {
+     "date": "2025-02-26",
+     "amount": 0.17
+    },
+    {
+     "date": "2025-06-05",
+     "amount": 0.17
+    },
+    {
+     "date": "2025-08-27",
+     "amount": 0.22
+    },
+    {
+     "date": "2025-11-27",
+     "amount": 0.13
+    },
+    {
+     "date": "2026-02-26",
+     "amount": 0.24
+    },
+    {
+     "date": "2026-06-04",
+     "amount": 0.1
+    },
+    {
+     "date": "2026-08-27",
+     "amount": 0.24
+    }
+   ],
    "dpsByYear": {
     "2026": 0.58,
     "2025": 0.69,
@@ -882,7 +2273,7 @@
   },
   {
    "symbol": "ICHI",
-   "name": "Ichitan Group",
+   "name": "อิชิตัน กรุ๊ป",
    "pairId": 102538,
    "path": "/equities/ichitan-group",
    "sector": "Consumer Non-Cyclicals",
@@ -898,6 +2289,53 @@
    "divYield": 6.99,
    "avgYield5y": 6.35,
    "dpsLastYear": 1.0,
+   "dpsPrevFY": 1.1,
+   "divPayments": [
+    {
+     "date": "2020-05-05",
+     "amount": 0.35
+    },
+    {
+     "date": "2021-05-06",
+     "amount": 0.5
+    },
+    {
+     "date": "2022-05-05",
+     "amount": 0.5
+    },
+    {
+     "date": "2023-05-08",
+     "amount": 0.6
+    },
+    {
+     "date": "2023-11-21",
+     "amount": 0.5
+    },
+    {
+     "date": "2024-03-05",
+     "amount": 0.5
+    },
+    {
+     "date": "2024-11-22",
+     "amount": 0.6
+    },
+    {
+     "date": "2025-03-07",
+     "amount": 0.5
+    },
+    {
+     "date": "2025-08-27",
+     "amount": 0.55
+    },
+    {
+     "date": "2026-03-13",
+     "amount": 0.55
+    },
+    {
+     "date": "2026-08-26",
+     "amount": 0.45
+    }
+   ],
    "dpsByYear": {
     "2026": 1.0,
     "2025": 1.05,
@@ -917,7 +2355,7 @@
   },
   {
    "symbol": "STANLY",
-   "name": "Thai Stanley Electric",
+   "name": "ไทยสแตนเลย์การไฟฟ้า",
    "pairId": 102803,
    "path": "/equities/thai-stanley-e",
    "sector": "Consumer Cyclicals",
@@ -933,6 +2371,41 @@
    "divYield": 10.59,
    "avgYield5y": 7.65,
    "dpsLastYear": 25.0,
+   "dpsPrevFY": 20.0,
+   "divPayments": [
+    {
+     "date": "2020-07-13",
+     "amount": 8.25
+    },
+    {
+     "date": "2021-07-12",
+     "amount": 5.5
+    },
+    {
+     "date": "2022-07-11",
+     "amount": 8.5
+    },
+    {
+     "date": "2023-07-04",
+     "amount": 20.0
+    },
+    {
+     "date": "2024-07-11",
+     "amount": 20.0
+    },
+    {
+     "date": "2025-07-08",
+     "amount": 12.0
+    },
+    {
+     "date": "2025-11-10",
+     "amount": 8.0
+    },
+    {
+     "date": "2026-07-08",
+     "amount": 17.0
+    }
+   ],
    "dpsByYear": {
     "2026": 17.0,
     "2025": 20.0,
@@ -952,7 +2425,7 @@
   },
   {
    "symbol": "AYUD",
-   "name": "Allianz Ayudhya Capital PCL",
+   "name": "อลิอันซ์ อยุธยา แคปปิตอล",
    "pairId": 102749,
    "path": "/equities/sri-ayudhya",
    "sector": "Financials",
@@ -968,6 +2441,65 @@
    "divYield": 6.12,
    "avgYield5y": 7.28,
    "dpsLastYear": 2.57,
+   "dpsPrevFY": 2.32,
+   "divPayments": [
+    {
+     "date": "2020-03-09",
+     "amount": 0.75
+    },
+    {
+     "date": "2020-08-27",
+     "amount": 0.75
+    },
+    {
+     "date": "2021-03-11",
+     "amount": 0.77
+    },
+    {
+     "date": "2021-08-30",
+     "amount": 0.77
+    },
+    {
+     "date": "2022-04-05",
+     "amount": 0.77
+    },
+    {
+     "date": "2022-09-13",
+     "amount": 5.14
+    },
+    {
+     "date": "2023-04-28",
+     "amount": 0.26
+    },
+    {
+     "date": "2023-08-28",
+     "amount": 0.9
+    },
+    {
+     "date": "2024-05-08",
+     "amount": 1.67
+    },
+    {
+     "date": "2024-08-26",
+     "amount": 0.9
+    },
+    {
+     "date": "2025-05-07",
+     "amount": 1.67
+    },
+    {
+     "date": "2025-08-27",
+     "amount": 0.65
+    },
+    {
+     "date": "2026-05-07",
+     "amount": 1.67
+    },
+    {
+     "date": "2026-08-26",
+     "amount": 0.9
+    }
+   ],
    "dpsByYear": {
     "2026": 2.57,
     "2025": 2.32,
@@ -987,7 +2519,7 @@
   },
   {
    "symbol": "TIPH",
-   "name": "Dhipaya Group",
+   "name": "ทิพย กรุ๊ป โฮลดิ้งส์",
    "pairId": 1177421,
    "path": "/equities/dhipaya-holdings-pcl",
    "sector": "Financials",
@@ -998,11 +2530,54 @@
    "peRatio": 13.98,
    "pegRatio": -0.77,
    "currency": "THB",
-   "price": 24.5,
-   "changePercent": -0.81,
-   "divYield": 6.12,
+   "price": 24.6,
+   "changePercent": -0.4,
+   "divYield": 6.1,
    "avgYield5y": 5.79,
    "dpsLastYear": 1.5,
+   "dpsPrevFY": 1.5,
+   "divPayments": [
+    {
+     "date": "2022-06-14",
+     "amount": 1.3
+    },
+    {
+     "date": "2022-09-13",
+     "amount": 0.5
+    },
+    {
+     "date": "2023-03-13",
+     "amount": 0.75
+    },
+    {
+     "date": "2023-09-13",
+     "amount": 0.5
+    },
+    {
+     "date": "2024-06-11",
+     "amount": 1.1
+    },
+    {
+     "date": "2024-09-10",
+     "amount": 0.5
+    },
+    {
+     "date": "2025-03-10",
+     "amount": 1.0
+    },
+    {
+     "date": "2025-09-10",
+     "amount": 0.5
+    },
+    {
+     "date": "2026-03-13",
+     "amount": 1.0
+    },
+    {
+     "date": "2026-09-09",
+     "amount": 0.5
+    }
+   ],
    "dpsByYear": {
     "2026": 1.5,
     "2025": 1.5,
@@ -1020,7 +2595,7 @@
   },
   {
    "symbol": "QH",
-   "name": "Quality Houses",
+   "name": "ควอลิตี้เฮ้าส์",
    "pairId": 102679,
    "path": "/equities/quality-houses",
    "sector": "Real Estate",
@@ -1036,6 +2611,65 @@
    "divYield": 6.52,
    "avgYield5y": 6.28,
    "dpsLastYear": 0.09,
+   "dpsPrevFY": 0.09,
+   "divPayments": [
+    {
+     "date": "2020-04-28",
+     "amount": 0.13
+    },
+    {
+     "date": "2020-08-24",
+     "amount": 0.04
+    },
+    {
+     "date": "2021-04-28",
+     "amount": 0.08
+    },
+    {
+     "date": "2021-08-23",
+     "amount": 0.03
+    },
+    {
+     "date": "2022-04-28",
+     "amount": 0.07
+    },
+    {
+     "date": "2022-08-24",
+     "amount": 0.04
+    },
+    {
+     "date": "2023-04-27",
+     "amount": 0.1
+    },
+    {
+     "date": "2023-08-23",
+     "amount": 0.05
+    },
+    {
+     "date": "2024-04-25",
+     "amount": 0.1
+    },
+    {
+     "date": "2024-08-21",
+     "amount": 0.03
+    },
+    {
+     "date": "2025-04-28",
+     "amount": 0.08
+    },
+    {
+     "date": "2025-08-29",
+     "amount": 0.02
+    },
+    {
+     "date": "2026-04-27",
+     "amount": 0.07
+    },
+    {
+     "date": "2026-08-26",
+     "amount": 0.02
+    }
+   ],
    "dpsByYear": {
     "2026": 0.09,
     "2025": 0.1,

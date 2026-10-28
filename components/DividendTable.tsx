@@ -55,6 +55,11 @@ function toStockItem(d: DividendStock): StockItem {
     flagName: 'Thailand',
     market: 'SET',
     valuationType: 'undervalued',
+    dividendOverride: {
+      ttm: d.dpsLastYear ?? null,
+      prevFY: d.dpsPrevFY ?? null,
+      payments: d.divPayments ?? [],
+    },
   };
 }
 
