@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-30T23:59:21.443163+07:00",
+ "asOf": "2026-10-31T00:32:55.209312+07:00",
  "sourceAsOf": "2026-10-30T21:45:58.863807+07:00",
  "partial": true,
  "criteria": {
@@ -102,9 +102,9 @@
     "2025"
    ],
    "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 42.0,
-   "changePercent": -0.59,
-   "divYield": 6.67,
+   "price": 42.25,
+   "changePercent": 0.6,
+   "divYield": 6.63,
    "avgYield5y": 5.8
   },
   {
@@ -176,9 +176,9 @@
     "2025"
    ],
    "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 43.75,
-   "changePercent": -0.57,
-   "divYield": 7.2,
+   "price": 44.0,
+   "changePercent": -1.12,
+   "divYield": 7.16,
    "avgYield5y": 3.86
   },
   {
@@ -270,9 +270,9 @@
     "2025"
    ],
    "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 165.0,
-   "changePercent": 0.92,
-   "divYield": 5.55,
+   "price": 163.5,
+   "changePercent": 0.62,
+   "divYield": 5.6,
    "avgYield5y": 6.14
   },
   {
@@ -342,9 +342,9 @@
     "2025"
    ],
    "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 152.5,
+   "price": 153.5,
    "changePercent": -0.65,
-   "divYield": 7.4,
+   "divYield": 7.35,
    "avgYield5y": 6.14
   },
   {
@@ -432,9 +432,9 @@
     "2025"
    ],
    "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 185.0,
-   "changePercent": -1.33,
-   "divYield": 5.41,
+   "price": 187.5,
+   "changePercent": 0.0,
+   "divYield": 5.33,
    "avgYield5y": 3.69
   },
   {
@@ -522,9 +522,9 @@
     "2025"
    ],
    "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 116.5,
-   "changePercent": -2.1,
-   "divYield": 6.39,
+   "price": 119.0,
+   "changePercent": -0.42,
+   "divYield": 6.26,
    "avgYield5y": 5.56
   },
   {
@@ -604,9 +604,9 @@
     "2025"
    ],
    "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 124.5,
-   "changePercent": -0.4,
-   "divYield": 6.22,
+   "price": 125.0,
+   "changePercent": -0.79,
+   "divYield": 6.2,
    "avgYield5y": 7.68
   },
   {
@@ -691,7 +691,7 @@
    ],
    "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
    "price": 46.75,
-   "changePercent": 0.0,
+   "changePercent": -5.56,
    "divYield": 8.66,
    "avgYield5y": 4.74
   },
@@ -784,9 +784,9 @@
     "2025"
    ],
    "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 12.7,
-   "changePercent": -2.31,
-   "divYield": 5.91,
+   "price": 13.0,
+   "changePercent": 0.78,
+   "divYield": 5.77,
    "avgYield5y": 4.86
   },
   {
@@ -894,9 +894,9 @@
     "2025"
    ],
    "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 9.7,
-   "changePercent": 2.11,
-   "divYield": 7.32,
+   "price": 9.5,
+   "changePercent": 0.0,
+   "divYield": 7.47,
    "avgYield5y": 5.96
   },
   {
@@ -1032,9 +1032,9 @@
     "2025"
    ],
    "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 12.9,
-   "changePercent": -0.77,
-   "divYield": 8.64,
+   "price": 13.0,
+   "changePercent": -0.76,
+   "divYield": 8.57,
    "avgYield5y": 6.65
   },
   {
@@ -1111,7 +1111,7 @@
    ],
    "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
    "price": 151.0,
-   "changePercent": 0.0,
+   "changePercent": -0.33,
    "divYield": 7.28,
    "avgYield5y": 6.54
   },
@@ -1204,9 +1204,9 @@
     "2025"
    ],
    "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 3.52,
-   "changePercent": -1.12,
-   "divYield": 5.68,
+   "price": 3.56,
+   "changePercent": 0.0,
+   "divYield": 5.62,
    "avgYield5y": 6.98
   },
   {
@@ -1268,9 +1268,9 @@
     "2025"
    ],
    "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 394.0,
-   "changePercent": -1.25,
-   "divYield": 5.96,
+   "price": 399.0,
+   "changePercent": 0.0,
+   "divYield": 5.89,
    "avgYield5y": 4.76
   },
   {
@@ -1362,9 +1362,9 @@
     "2025"
    ],
    "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 10.0,
-   "changePercent": -0.99,
-   "divYield": 6.0,
+   "price": 10.1,
+   "changePercent": 1.0,
+   "divYield": 5.94,
    "avgYield5y": 6.34
   },
   {
@@ -1456,9 +1456,9 @@
     "2025"
    ],
    "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 15.7,
-   "changePercent": -1.26,
-   "divYield": 7.96,
+   "price": 15.9,
+   "changePercent": 0.63,
+   "divYield": 7.86,
    "avgYield5y": 6.76
   },
   {
@@ -1546,9 +1546,9 @@
     "2025"
    ],
    "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 16.8,
-   "changePercent": -0.59,
-   "divYield": 5.95,
+   "price": 16.9,
+   "changePercent": -1.74,
+   "divYield": 5.92,
    "avgYield5y": 8.07
   },
   {
@@ -1632,9 +1632,9 @@
     "2025"
    ],
    "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 9.4,
-   "changePercent": -1.05,
-   "divYield": 7.98,
+   "price": 9.5,
+   "changePercent": 0.0,
+   "divYield": 7.89,
    "avgYield5y": 9.12
   },
   {
@@ -1723,7 +1723,7 @@
    ],
    "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
    "price": 28.0,
-   "changePercent": 0.0,
+   "changePercent": -1.75,
    "divYield": 7.39,
    "avgYield5y": 5.82
   },
@@ -1808,9 +1808,9 @@
     "2025"
    ],
    "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 1.4,
-   "changePercent": -0.71,
-   "divYield": 9.29,
+   "price": 1.41,
+   "changePercent": -0.7,
+   "divYield": 9.22,
    "avgYield5y": 7.99
   },
   {
@@ -1874,9 +1874,9 @@
     "2025"
    ],
    "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 7.75,
-   "changePercent": -0.64,
-   "divYield": 6.71,
+   "price": 7.8,
+   "changePercent": -1.27,
+   "divYield": 6.67,
    "avgYield5y": 6.08
   },
   {
@@ -1940,9 +1940,9 @@
     "2025"
    ],
    "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 6.25,
+   "price": 6.3,
    "changePercent": -0.79,
-   "divYield": 8.0,
+   "divYield": 7.94,
    "avgYield5y": 4.64
   },
   {
@@ -2034,9 +2034,9 @@
     "2025"
    ],
    "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 8.75,
-   "changePercent": 1.74,
-   "divYield": 5.14,
+   "price": 8.6,
+   "changePercent": -0.58,
+   "divYield": 5.23,
    "avgYield5y": 5.51
   },
   {
@@ -2164,9 +2164,9 @@
     "2025"
    ],
    "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 12.5,
-   "changePercent": -3.1,
-   "divYield": 5.68,
+   "price": 12.9,
+   "changePercent": -0.77,
+   "divYield": 5.5,
    "avgYield5y": 4.24
   },
   {
@@ -2234,9 +2234,9 @@
     "2025"
    ],
    "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 239.0,
-   "changePercent": -0.42,
-   "divYield": 10.46,
+   "price": 240.0,
+   "changePercent": 0.84,
+   "divYield": 10.42,
    "avgYield5y": 7.65
   },
   {
@@ -2316,9 +2316,9 @@
     "2025"
    ],
    "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 14.0,
-   "changePercent": 0.72,
-   "divYield": 7.14,
+   "price": 13.9,
+   "changePercent": -2.11,
+   "divYield": 7.19,
    "avgYield5y": 6.35
   },
   {
@@ -2410,9 +2410,9 @@
     "2025"
    ],
    "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 42.0,
-   "changePercent": -0.59,
-   "divYield": 6.12,
+   "price": 42.25,
+   "changePercent": 0.0,
+   "divYield": 6.08,
    "avgYield5y": 7.28
   },
   {
@@ -2486,9 +2486,9 @@
     "2025"
    ],
    "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 24.1,
-   "changePercent": -1.63,
-   "divYield": 6.22,
+   "price": 24.5,
+   "changePercent": 0.0,
+   "divYield": 6.12,
    "avgYield5y": 5.79
   },
   {
@@ -2580,9 +2580,9 @@
     "2025"
    ],
    "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 1.35,
-   "changePercent": -2.17,
-   "divYield": 6.67,
+   "price": 1.38,
+   "changePercent": 0.73,
+   "divYield": 6.52,
    "avgYield5y": 6.28
   },
   {
@@ -2699,7 +2699,7 @@
    ],
    "dividendsAsOf": "2026-10-30T12:33:28.081762+00:00",
    "price": 12.0,
-   "changePercent": 0.0,
+   "changePercent": -0.83,
    "divYield": 7.38,
    "avgYield5y": 7.0
   }
