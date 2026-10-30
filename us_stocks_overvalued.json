@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T13:44:58.768081+07:00"
+    "fetchedAt": "2026-10-30T19:33:11.088760+07:00"
   },
   {
     "id": "1131557",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T13:44:58.768081+07:00"
+    "fetchedAt": "2026-10-30T19:33:11.088760+07:00"
   },
   {
     "id": "1114321",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T13:44:58.768081+07:00"
+    "fetchedAt": "2026-10-30T19:33:11.088760+07:00"
   },
   {
     "id": "13852",
@@ -117,7 +117,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T13:44:58.768081+07:00"
+    "fetchedAt": "2026-10-30T19:33:11.088760+07:00"
+  },
+  {
+    "id": "261",
+    "symbol": "DE",
+    "name": "Deere & Company",
+    "shortName": "Deere&Company",
+    "link": "https://www.investing.com/equities/deere---co",
+    "price": 660.0,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 418.64,
+    "fairValueUpside": -36.57,
+    "peRatio": 36.41,
+    "evEbitda": 26.97,
+    "marketCap": 177950000000,
+    "marketCapFormatted": "177.95 พันล้าน",
+    "epsGrowth5y": 0.15,
+    "changeOneDayPercent": 3.02,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "แย่",
+    "financialProfitabilityHealth": "ดี",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-29T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
+    "fetchedAt": "2026-10-30T19:33:11.088760+07:00"
   },
   {
     "id": "41268",
@@ -147,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T13:44:58.768081+07:00"
+    "fetchedAt": "2026-10-30T19:33:11.088760+07:00"
   },
   {
     "id": "251",
@@ -177,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T13:44:58.768081+07:00"
+    "fetchedAt": "2026-10-30T19:33:11.088760+07:00"
   },
   {
     "id": "13994",
@@ -207,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T13:44:58.768081+07:00"
+    "fetchedAt": "2026-10-30T19:33:11.088760+07:00"
   },
   {
     "id": "13848",
@@ -237,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T13:44:58.768081+07:00"
+    "fetchedAt": "2026-10-30T19:33:11.088760+07:00"
   },
   {
     "id": "13067",
@@ -267,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T13:44:58.768081+07:00"
+    "fetchedAt": "2026-10-30T19:33:11.088760+07:00"
   },
   {
     "id": "20164",
@@ -297,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T13:44:58.768081+07:00"
+    "fetchedAt": "2026-10-30T19:33:11.088760+07:00"
   },
   {
     "id": "958233",
@@ -327,37 +357,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T13:44:58.768081+07:00"
+    "fetchedAt": "2026-10-30T19:33:11.088760+07:00"
   },
   {
-    "id": "1206256",
-    "symbol": "ARM",
-    "name": "Arm Holdings ADR",
-    "shortName": "Arm ADR",
-    "link": "https://www.investing.com/equities/arm",
-    "price": 228.77,
+    "id": "1161057",
+    "symbol": "HWM",
+    "name": "Howmet Aerospace&#160;Inc",
+    "shortName": "Howmet",
+    "link": "https://www.investing.com/equities/howmet-aerospace-inc",
+    "price": 205.94,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 165.59,
-    "fairValueUpside": -27.62,
-    "peRatio": 230.89,
-    "evEbitda": 208.0,
-    "marketCap": 243610000000,
-    "marketCapFormatted": "243.61 พันล้าน",
-    "epsGrowth5y": 1.13,
-    "changeOneDayPercent": -3.02,
+    "fairValue": 152.71,
+    "fairValueUpside": -25.85,
+    "peRatio": 44.04,
+    "evEbitda": 28.0,
+    "marketCap": 81830000000,
+    "marketCapFormatted": "81.83 พันล้าน",
+    "epsGrowth5y": 0.55,
+    "changeOneDayPercent": 5.51,
     "financialHealth": "ดี",
     "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อ",
+    "financialGrowthHealth": "ดีเยี่ยม",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อทันที",
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T13:44:58.768081+07:00"
+    "fetchedAt": "2026-10-30T19:33:11.088760+07:00"
   },
   {
     "id": "13866",
@@ -387,7 +417,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T13:44:58.768081+07:00"
+    "fetchedAt": "2026-10-30T19:33:11.088760+07:00"
+  },
+  {
+    "id": "20486",
+    "symbol": "DLR",
+    "name": "Digital Realty Trust Inc",
+    "shortName": "Digital Realty",
+    "link": "https://www.investing.com/equities/digital-realty-trust-inc",
+    "price": 182.91,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 136.13,
+    "fairValueUpside": -25.57,
+    "peRatio": 87.9,
+    "evEbitda": 25.36,
+    "marketCap": 69320000000,
+    "marketCapFormatted": "69.32 พันล้าน",
+    "epsGrowth5y": 0.83,
+    "changeOneDayPercent": 1.75,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "มูลค่าตามจริง",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-29T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
+    "fetchedAt": "2026-10-30T19:33:11.088760+07:00"
   },
   {
     "id": "19695",
@@ -417,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T13:44:58.768081+07:00"
+    "fetchedAt": "2026-10-30T19:33:11.088760+07:00"
   },
   {
     "id": "8279",
@@ -447,7 +507,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T13:44:58.768081+07:00"
+    "fetchedAt": "2026-10-30T19:33:11.088760+07:00"
+  },
+  {
+    "id": "1152784",
+    "symbol": "DDOG",
+    "name": "Datadog Inc",
+    "shortName": "Datadog",
+    "link": "https://www.investing.com/equities/datadog-inc",
+    "price": 265.84,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 199.65,
+    "fairValueUpside": -24.9,
+    "peRatio": 533.29,
+    "evEbitda": 1123.28,
+    "marketCap": 94930000000,
+    "marketCapFormatted": "94.93 พันล้าน",
+    "epsGrowth5y": -5.28,
+    "changeOneDayPercent": -4.51,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดี",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-29T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
+    "fetchedAt": "2026-10-30T19:33:11.088760+07:00"
   },
   {
     "id": "8260",
@@ -477,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T13:44:58.768081+07:00"
+    "fetchedAt": "2026-10-30T19:33:11.088760+07:00"
   },
   {
     "id": "7881",
@@ -507,7 +597,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T13:44:58.768081+07:00"
+    "fetchedAt": "2026-10-30T19:33:11.088760+07:00"
   },
   {
     "id": "7997",
@@ -537,7 +627,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T13:44:58.768081+07:00"
+    "fetchedAt": "2026-10-30T19:33:11.088760+07:00"
   },
   {
     "id": "6440",
@@ -567,37 +657,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T13:44:58.768081+07:00"
-  },
-  {
-    "id": "6462",
-    "symbol": "KLAC",
-    "name": "KLA Corporation",
-    "shortName": "KLA Corp",
-    "link": "https://www.investing.com/equities/kla-tencor-corp",
-    "price": 167.43,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 129.97,
-    "fairValueUpside": -22.37,
-    "peRatio": 45.47,
-    "evEbitda": 31.59,
-    "marketCap": 218540000000,
-    "marketCapFormatted": "218.54 พันล้าน",
-    "epsGrowth5y": 0.32,
-    "changeOneDayPercent": 5.45,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-29T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T13:44:58.768081+07:00"
+    "fetchedAt": "2026-10-30T19:33:11.088760+07:00"
   },
   {
     "id": "255",
@@ -627,7 +687,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T13:44:58.768081+07:00"
+    "fetchedAt": "2026-10-30T19:33:11.088760+07:00"
   },
   {
     "id": "8016",
@@ -657,7 +717,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T13:44:58.768081+07:00"
+    "fetchedAt": "2026-10-30T19:33:11.088760+07:00"
   },
   {
     "id": "7946",
@@ -687,7 +747,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T13:44:58.768081+07:00"
+    "fetchedAt": "2026-10-30T19:33:11.088760+07:00"
   },
   {
     "id": "24321",
@@ -717,59 +777,29 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T13:44:58.768081+07:00"
+    "fetchedAt": "2026-10-30T19:33:11.088760+07:00"
   },
   {
-    "id": "8193",
-    "symbol": "GE",
-    "name": "GE Aerospace",
-    "shortName": "GE Aerospace",
-    "link": "https://www.investing.com/equities/general-electric",
-    "price": 313.05,
+    "id": "6460",
+    "symbol": "AKAM",
+    "name": "Akamai Technologies Inc",
+    "shortName": "Akamai",
+    "link": "https://www.investing.com/equities/akamai-technologies-inc",
+    "price": 99.38,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 252.04,
-    "fairValueUpside": -19.49,
-    "peRatio": 35.57,
-    "evEbitda": 23.08,
-    "marketCap": 323340000000,
-    "marketCapFormatted": "323.34 พันล้าน",
-    "epsGrowth5y": -1.27,
-    "changeOneDayPercent": 3.96,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-29T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T13:44:58.768081+07:00"
-  },
-  {
-    "id": "8136",
-    "symbol": "MAR",
-    "name": "Marriott International Inc",
-    "shortName": "Marriott International",
-    "link": "https://www.investing.com/equities/marriott-intl",
-    "price": 399.65,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 322.11,
-    "fairValueUpside": -19.44,
-    "peRatio": 41.46,
-    "evEbitda": 24.76,
-    "marketCap": 104160000000,
-    "marketCapFormatted": "104.16 พันล้าน",
-    "epsGrowth5y": 1.19,
-    "changeOneDayPercent": 1.33,
-    "financialHealth": "ดี",
+    "fairValue": 79.36,
+    "fairValueUpside": -20.14,
+    "peRatio": 35.64,
+    "evEbitda": 16.82,
+    "marketCap": 14240000000,
+    "marketCapFormatted": "14.24 พันล้าน",
+    "epsGrowth5y": -0.01,
+    "changeOneDayPercent": 1.3,
+    "financialHealth": "มูลค่าตามจริง",
     "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดี",
     "analystRatings": "ซื้อ",
     "flagCode": "US",
     "flagName": "United States",
@@ -777,7 +807,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T13:44:58.768081+07:00"
+    "fetchedAt": "2026-10-30T19:33:11.088760+07:00"
   },
   {
     "id": "6386",
@@ -807,7 +837,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T13:44:58.768081+07:00"
+    "fetchedAt": "2026-10-30T19:33:11.088760+07:00"
   },
   {
     "id": "29737",
@@ -837,7 +867,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T13:44:58.768081+07:00"
+    "fetchedAt": "2026-10-30T19:33:11.088760+07:00"
   },
   {
     "id": "29723",
@@ -867,36 +897,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T13:44:58.768081+07:00"
-  },
-  {
-    "id": "8147",
-    "symbol": "TMO",
-    "name": "Thermo Fisher Scientific Inc",
-    "shortName": "Thermo Fisher Scientific",
-    "link": "https://www.investing.com/equities/thermo-fisher-sc",
-    "price": 709.18,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 581.78,
-    "fairValueUpside": -17.96,
-    "peRatio": 37.27,
-    "evEbitda": 23.33,
-    "marketCap": 262000000000,
-    "marketCapFormatted": "262 พันล้าน",
-    "epsGrowth5y": -0.01,
-    "changeOneDayPercent": 0.71,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "ดี",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-29T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T13:44:58.768081+07:00"
+    "fetchedAt": "2026-10-30T19:33:11.088760+07:00"
   }
 ]
