@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:40:11.015788+07:00"
+    "fetchedAt": "2026-10-30T09:50:16.329817+07:00"
   },
   {
     "id": "102567",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:40:11.015788+07:00"
+    "fetchedAt": "2026-10-30T09:50:16.329817+07:00"
   },
   {
     "id": "102569",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:40:11.015788+07:00"
+    "fetchedAt": "2026-10-30T09:50:16.329817+07:00"
   },
   {
     "id": "102869",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:40:11.015788+07:00"
+    "fetchedAt": "2026-10-30T09:50:16.329817+07:00"
   },
   {
     "id": "989494",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:40:11.015788+07:00"
+    "fetchedAt": "2026-10-30T09:50:16.329817+07:00"
   },
   {
     "id": "1242508",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:40:11.015788+07:00"
+    "fetchedAt": "2026-10-30T09:50:16.329817+07:00"
   },
   {
     "id": "1130942",
@@ -207,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:40:11.015788+07:00"
+    "fetchedAt": "2026-10-30T09:50:16.329817+07:00"
   },
   {
     "id": "986147",
@@ -237,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:40:11.015788+07:00"
+    "fetchedAt": "2026-10-30T09:50:16.329817+07:00"
   },
   {
     "id": "102751",
@@ -267,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:40:11.015788+07:00"
+    "fetchedAt": "2026-10-30T09:50:16.329817+07:00"
   },
   {
     "id": "102756",
@@ -297,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:40:11.015788+07:00"
+    "fetchedAt": "2026-10-30T09:50:16.329817+07:00"
   },
   {
     "id": "102757",
@@ -327,7 +327,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:40:11.015788+07:00"
+    "fetchedAt": "2026-10-30T09:50:16.329817+07:00"
+  },
+  {
+    "id": "1008691",
+    "symbol": "WHAUP",
+    "name": "Wha Utilities and Power PCL",
+    "shortName": "Wha Utilities",
+    "link": "https://www.investing.com/equities/wha-utilities-and-power-pcl",
+    "price": 6.85,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 5.825300216674805,
+    "fairValueUpside": -14.959999918937683,
+    "peRatio": 17.1200008392334,
+    "evEbitda": 14.138208389282227,
+    "marketCap": 26200000000,
+    "marketCapFormatted": "26.20B",
+    "epsGrowth5y": 0.2955760657787323,
+    "changeOneDayPercent": -2.84,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "FAIR",
+    "financialGrowthHealth": "GREAT",
+    "financialProfitabilityHealth": "GOOD",
+    "analystRatings": "STRONG_BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-29T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
+    "fetchedAt": "2026-10-30T09:50:16.329817+07:00"
   },
   {
     "id": "102714",
@@ -357,37 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:40:11.015788+07:00"
-  },
-  {
-    "id": "1162301",
-    "symbol": "INSET",
-    "name": "Infraset PCL",
-    "shortName": "Infraset PCL",
-    "link": "https://www.investing.com/equities/infraset-pcl",
-    "price": 4.26,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 3.6268999576568604,
-    "fairValueUpside": -14.85999971628189,
-    "peRatio": 33.90999984741211,
-    "evEbitda": 20.277999877929688,
-    "marketCap": 3420000000,
-    "marketCapFormatted": "3.42B",
-    "epsGrowth5y": -0.14099133014678955,
-    "changeOneDayPercent": 0.0,
-    "financialHealth": "FAIR",
-    "financialCashFlowHealth": "WEAK",
-    "financialGrowthHealth": "FAIR",
-    "financialProfitabilityHealth": "GOOD",
-    "analystRatings": "STRONG_BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-29T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:40:11.015788+07:00"
+    "fetchedAt": "2026-10-30T09:50:16.329817+07:00"
   },
   {
     "id": "102683",
@@ -417,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:40:11.015788+07:00"
+    "fetchedAt": "2026-10-30T09:50:16.329817+07:00"
   },
   {
     "id": "102560",
@@ -447,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:40:11.015788+07:00"
+    "fetchedAt": "2026-10-30T09:50:16.329817+07:00"
   },
   {
     "id": "986137",
@@ -477,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:40:11.015788+07:00"
+    "fetchedAt": "2026-10-30T09:50:16.329817+07:00"
   },
   {
     "id": "102442",
@@ -507,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:40:11.015788+07:00"
+    "fetchedAt": "2026-10-30T09:50:16.329817+07:00"
   },
   {
     "id": "102561",
@@ -537,37 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:40:11.015788+07:00"
-  },
-  {
-    "id": "102672",
-    "symbol": "PTT",
-    "name": "PTT PCL",
-    "shortName": "PTT PCL",
-    "link": "https://www.investing.com/equities/ptt",
-    "price": 42.25,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 37.3484992980957,
-    "fairValueUpside": -11.59999966621399,
-    "peRatio": 9.729999542236328,
-    "evEbitda": 5.480747222900391,
-    "marketCap": 1200000000000,
-    "marketCapFormatted": "1200.00B",
-    "epsGrowth5y": 0.2143501192331314,
-    "changeOneDayPercent": 0.6,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "GOOD",
-    "financialGrowthHealth": "FAIR",
-    "financialProfitabilityHealth": "GOOD",
-    "analystRatings": "STRONG_BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-29T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:40:11.015788+07:00"
+    "fetchedAt": "2026-10-30T09:50:16.329817+07:00"
   },
   {
     "id": "102532",
@@ -597,6 +567,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:40:11.015788+07:00"
+    "fetchedAt": "2026-10-30T09:50:16.329817+07:00"
   }
 ]

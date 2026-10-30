@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T09:46:16.516528+07:00"
+    "fetchedAt": "2026-10-30T09:56:28.593915+07:00"
   },
   {
     "id": "1131557",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T09:46:16.516528+07:00"
+    "fetchedAt": "2026-10-30T09:56:28.593915+07:00"
   },
   {
     "id": "1114321",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T09:46:16.516528+07:00"
+    "fetchedAt": "2026-10-30T09:56:28.593915+07:00"
   },
   {
     "id": "13852",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T09:46:16.516528+07:00"
+    "fetchedAt": "2026-10-30T09:56:28.593915+07:00"
   },
   {
     "id": "261",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T09:46:16.516528+07:00"
+    "fetchedAt": "2026-10-30T09:56:28.593915+07:00"
   },
   {
     "id": "41268",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T09:46:16.516528+07:00"
+    "fetchedAt": "2026-10-30T09:56:28.593915+07:00"
   },
   {
     "id": "251",
@@ -207,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T09:46:16.516528+07:00"
+    "fetchedAt": "2026-10-30T09:56:28.593915+07:00"
   },
   {
     "id": "13994",
@@ -237,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T09:46:16.516528+07:00"
+    "fetchedAt": "2026-10-30T09:56:28.593915+07:00"
   },
   {
     "id": "13848",
@@ -267,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T09:46:16.516528+07:00"
+    "fetchedAt": "2026-10-30T09:56:28.593915+07:00"
   },
   {
     "id": "13067",
@@ -297,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T09:46:16.516528+07:00"
+    "fetchedAt": "2026-10-30T09:56:28.593915+07:00"
   },
   {
     "id": "20164",
@@ -327,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T09:46:16.516528+07:00"
+    "fetchedAt": "2026-10-30T09:56:28.593915+07:00"
   },
   {
     "id": "958233",
@@ -357,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T09:46:16.516528+07:00"
+    "fetchedAt": "2026-10-30T09:56:28.593915+07:00"
   },
   {
     "id": "1206256",
@@ -387,37 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T09:46:16.516528+07:00"
-  },
-  {
-    "id": "1161057",
-    "symbol": "HWM",
-    "name": "Howmet Aerospace&#160;Inc",
-    "shortName": "Howmet",
-    "link": "https://www.investing.com/equities/howmet-aerospace-inc",
-    "price": 205.94,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 152.71,
-    "fairValueUpside": -25.85,
-    "peRatio": 44.04,
-    "evEbitda": 28.0,
-    "marketCap": 81830000000,
-    "marketCapFormatted": "81.83 พันล้าน",
-    "epsGrowth5y": 0.55,
-    "changeOneDayPercent": 5.51,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดีเยี่ยม",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-29T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T09:46:16.516528+07:00"
+    "fetchedAt": "2026-10-30T09:56:28.593915+07:00"
   },
   {
     "id": "13866",
@@ -447,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T09:46:16.516528+07:00"
+    "fetchedAt": "2026-10-30T09:56:28.593915+07:00"
   },
   {
     "id": "20486",
@@ -477,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T09:46:16.516528+07:00"
+    "fetchedAt": "2026-10-30T09:56:28.593915+07:00"
   },
   {
     "id": "19695",
@@ -507,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T09:46:16.516528+07:00"
+    "fetchedAt": "2026-10-30T09:56:28.593915+07:00"
   },
   {
     "id": "8279",
@@ -537,37 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T09:46:16.516528+07:00"
-  },
-  {
-    "id": "1152784",
-    "symbol": "DDOG",
-    "name": "Datadog Inc",
-    "shortName": "Datadog",
-    "link": "https://www.investing.com/equities/datadog-inc",
-    "price": 265.84,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 199.65,
-    "fairValueUpside": -24.9,
-    "peRatio": 533.29,
-    "evEbitda": 1123.28,
-    "marketCap": 94930000000,
-    "marketCapFormatted": "94.93 พันล้าน",
-    "epsGrowth5y": -5.28,
-    "changeOneDayPercent": -4.51,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดี",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-29T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T09:46:16.516528+07:00"
+    "fetchedAt": "2026-10-30T09:56:28.593915+07:00"
   },
   {
     "id": "8260",
@@ -597,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T09:46:16.516528+07:00"
+    "fetchedAt": "2026-10-30T09:56:28.593915+07:00"
   },
   {
     "id": "7881",
@@ -627,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T09:46:16.516528+07:00"
+    "fetchedAt": "2026-10-30T09:56:28.593915+07:00"
   },
   {
     "id": "7997",
@@ -657,7 +597,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T09:46:16.516528+07:00"
+    "fetchedAt": "2026-10-30T09:56:28.593915+07:00"
   },
   {
     "id": "6440",
@@ -687,7 +627,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T09:46:16.516528+07:00"
+    "fetchedAt": "2026-10-30T09:56:28.593915+07:00"
   },
   {
     "id": "6462",
@@ -717,7 +657,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T09:46:16.516528+07:00"
+    "fetchedAt": "2026-10-30T09:56:28.593915+07:00"
   },
   {
     "id": "255",
@@ -747,7 +687,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T09:46:16.516528+07:00"
+    "fetchedAt": "2026-10-30T09:56:28.593915+07:00"
   },
   {
     "id": "8016",
@@ -777,7 +717,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T09:46:16.516528+07:00"
+    "fetchedAt": "2026-10-30T09:56:28.593915+07:00"
   },
   {
     "id": "7946",
@@ -807,7 +747,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T09:46:16.516528+07:00"
+    "fetchedAt": "2026-10-30T09:56:28.593915+07:00"
   },
   {
     "id": "24321",
@@ -837,7 +777,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T09:46:16.516528+07:00"
+    "fetchedAt": "2026-10-30T09:56:28.593915+07:00"
   },
   {
     "id": "6460",
@@ -867,7 +807,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T09:46:16.516528+07:00"
+    "fetchedAt": "2026-10-30T09:56:28.593915+07:00"
   },
   {
     "id": "8193",
@@ -897,6 +837,66 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T09:46:16.516528+07:00"
+    "fetchedAt": "2026-10-30T09:56:28.593915+07:00"
+  },
+  {
+    "id": "32516",
+    "symbol": "URI",
+    "name": "United Rentals Inc",
+    "shortName": "United Rentals",
+    "link": "https://www.investing.com/equities/united-rentals",
+    "price": 1198.68,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 974.83,
+    "fairValueUpside": -18.67,
+    "peRatio": 26.23,
+    "evEbitda": 16.61,
+    "marketCap": 74150000000,
+    "marketCapFormatted": "74.15 พันล้าน",
+    "epsGrowth5y": 0.27,
+    "changeOneDayPercent": 2.05,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดี",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-29T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
+    "fetchedAt": "2026-10-30T09:56:28.593915+07:00"
+  },
+  {
+    "id": "8158",
+    "symbol": "PSA",
+    "name": "Public Storage",
+    "shortName": "Public Storage",
+    "link": "https://www.investing.com/equities/public-stg-mld",
+    "price": 317.06,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 260.37,
+    "fairValueUpside": -17.88,
+    "peRatio": 33.28,
+    "evEbitda": 21.03,
+    "marketCap": 61660000000,
+    "marketCapFormatted": "61.66 พันล้าน",
+    "epsGrowth5y": 0.25,
+    "changeOneDayPercent": 2.26,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-29T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
+    "fetchedAt": "2026-10-30T09:56:28.593915+07:00"
   }
 ]
