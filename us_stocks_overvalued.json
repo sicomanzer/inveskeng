@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:46:17.864938+07:00"
+    "fetchedAt": "2026-10-30T11:56:16.080756+07:00"
   },
   {
     "id": "1131557",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:46:17.864938+07:00"
+    "fetchedAt": "2026-10-30T11:56:16.080756+07:00"
   },
   {
     "id": "1114321",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:46:17.864938+07:00"
+    "fetchedAt": "2026-10-30T11:56:16.080756+07:00"
   },
   {
     "id": "13852",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:46:17.864938+07:00"
+    "fetchedAt": "2026-10-30T11:56:16.080756+07:00"
   },
   {
     "id": "261",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:46:17.864938+07:00"
+    "fetchedAt": "2026-10-30T11:56:16.080756+07:00"
   },
   {
     "id": "41268",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:46:17.864938+07:00"
+    "fetchedAt": "2026-10-30T11:56:16.080756+07:00"
   },
   {
     "id": "251",
@@ -207,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:46:17.864938+07:00"
+    "fetchedAt": "2026-10-30T11:56:16.080756+07:00"
   },
   {
     "id": "13994",
@@ -237,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:46:17.864938+07:00"
+    "fetchedAt": "2026-10-30T11:56:16.080756+07:00"
   },
   {
     "id": "13848",
@@ -267,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:46:17.864938+07:00"
+    "fetchedAt": "2026-10-30T11:56:16.080756+07:00"
   },
   {
     "id": "13067",
@@ -297,7 +297,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:46:17.864938+07:00"
+    "fetchedAt": "2026-10-30T11:56:16.080756+07:00"
+  },
+  {
+    "id": "20164",
+    "symbol": "CRL",
+    "name": "Charles River Laboratories International, Inc",
+    "shortName": "Charles River Laboratories",
+    "link": "https://www.investing.com/equities/charles-river-laboratories-intl",
+    "price": 376.1,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 266.59,
+    "fairValueUpside": -29.12,
+    "peRatio": -76.95,
+    "evEbitda": 22.58,
+    "marketCap": 17940000000,
+    "marketCapFormatted": "17.94 พันล้าน",
+    "epsGrowth5y": -1.34,
+    "changeOneDayPercent": 0.57,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "แย่",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-29T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
+    "fetchedAt": "2026-10-30T11:56:16.080756+07:00"
   },
   {
     "id": "958233",
@@ -327,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:46:17.864938+07:00"
+    "fetchedAt": "2026-10-30T11:56:16.080756+07:00"
   },
   {
     "id": "1206256",
@@ -357,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:46:17.864938+07:00"
+    "fetchedAt": "2026-10-30T11:56:16.080756+07:00"
   },
   {
     "id": "1161057",
@@ -387,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:46:17.864938+07:00"
+    "fetchedAt": "2026-10-30T11:56:16.080756+07:00"
   },
   {
     "id": "13866",
@@ -417,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:46:17.864938+07:00"
+    "fetchedAt": "2026-10-30T11:56:16.080756+07:00"
   },
   {
     "id": "20486",
@@ -447,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:46:17.864938+07:00"
+    "fetchedAt": "2026-10-30T11:56:16.080756+07:00"
   },
   {
     "id": "19695",
@@ -477,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:46:17.864938+07:00"
+    "fetchedAt": "2026-10-30T11:56:16.080756+07:00"
   },
   {
     "id": "8279",
@@ -507,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:46:17.864938+07:00"
+    "fetchedAt": "2026-10-30T11:56:16.080756+07:00"
   },
   {
     "id": "1152784",
@@ -537,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:46:17.864938+07:00"
+    "fetchedAt": "2026-10-30T11:56:16.080756+07:00"
   },
   {
     "id": "8260",
@@ -567,7 +597,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:46:17.864938+07:00"
+    "fetchedAt": "2026-10-30T11:56:16.080756+07:00"
+  },
+  {
+    "id": "7881",
+    "symbol": "WAT",
+    "name": "Waters Corporation",
+    "shortName": "Waters",
+    "link": "https://www.investing.com/equities/waters-corp",
+    "price": 480.07,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 362.35,
+    "fairValueUpside": -24.52,
+    "peRatio": 215.83,
+    "evEbitda": 34.1,
+    "marketCap": 47130000000,
+    "marketCapFormatted": "47.13 พันล้าน",
+    "epsGrowth5y": -0.02,
+    "changeOneDayPercent": 0.67,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-29T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
+    "fetchedAt": "2026-10-30T11:56:16.080756+07:00"
   },
   {
     "id": "7997",
@@ -597,7 +657,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:46:17.864938+07:00"
+    "fetchedAt": "2026-10-30T11:56:16.080756+07:00"
   },
   {
     "id": "6440",
@@ -627,7 +687,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:46:17.864938+07:00"
+    "fetchedAt": "2026-10-30T11:56:16.080756+07:00"
   },
   {
     "id": "6462",
@@ -657,7 +717,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:46:17.864938+07:00"
+    "fetchedAt": "2026-10-30T11:56:16.080756+07:00"
   },
   {
     "id": "255",
@@ -687,7 +747,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:46:17.864938+07:00"
+    "fetchedAt": "2026-10-30T11:56:16.080756+07:00"
   },
   {
     "id": "8016",
@@ -717,7 +777,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:46:17.864938+07:00"
+    "fetchedAt": "2026-10-30T11:56:16.080756+07:00"
   },
   {
     "id": "7946",
@@ -747,7 +807,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:46:17.864938+07:00"
+    "fetchedAt": "2026-10-30T11:56:16.080756+07:00"
   },
   {
     "id": "24321",
@@ -777,7 +837,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:46:17.864938+07:00"
+    "fetchedAt": "2026-10-30T11:56:16.080756+07:00"
   },
   {
     "id": "6460",
@@ -807,7 +867,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:46:17.864938+07:00"
+    "fetchedAt": "2026-10-30T11:56:16.080756+07:00"
   },
   {
     "id": "8193",
@@ -837,66 +897,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:46:17.864938+07:00"
-  },
-  {
-    "id": "8136",
-    "symbol": "MAR",
-    "name": "Marriott International Inc",
-    "shortName": "Marriott International",
-    "link": "https://www.investing.com/equities/marriott-intl",
-    "price": 399.65,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 322.11,
-    "fairValueUpside": -19.44,
-    "peRatio": 41.46,
-    "evEbitda": 24.76,
-    "marketCap": 104160000000,
-    "marketCapFormatted": "104.16 พันล้าน",
-    "epsGrowth5y": 1.19,
-    "changeOneDayPercent": 1.33,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-29T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:46:17.864938+07:00"
-  },
-  {
-    "id": "6386",
-    "symbol": "AMAT",
-    "name": "Applied Materials Inc",
-    "shortName": "Applied Materials",
-    "link": "https://www.investing.com/equities/applied-matls-inc",
-    "price": 421.66,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 341.2,
-    "fairValueUpside": -19.09,
-    "peRatio": 36.27,
-    "evEbitda": 28.78,
-    "marketCap": 334520000000,
-    "marketCapFormatted": "334.52 พันล้าน",
-    "epsGrowth5y": 0.19,
-    "changeOneDayPercent": 1.36,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-29T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:46:17.864938+07:00"
+    "fetchedAt": "2026-10-30T11:56:16.080756+07:00"
   }
 ]
