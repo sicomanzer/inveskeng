@@ -27,7 +27,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:03:13.125800+07:00"
+    "fetchedAt": "2026-10-30T11:13:14.098891+07:00"
   },
   {
     "id": "32341",
@@ -57,7 +57,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:03:13.125800+07:00"
+    "fetchedAt": "2026-10-30T11:13:14.098891+07:00"
   },
   {
     "id": "6370",
@@ -87,7 +87,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:03:13.125800+07:00"
+    "fetchedAt": "2026-10-30T11:13:14.098891+07:00"
   },
   {
     "id": "32383",
@@ -117,7 +117,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:03:13.125800+07:00"
+    "fetchedAt": "2026-10-30T11:13:14.098891+07:00"
   },
   {
     "id": "6373",
@@ -147,7 +147,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:03:13.125800+07:00"
+    "fetchedAt": "2026-10-30T11:13:14.098891+07:00"
   },
   {
     "id": "41239",
@@ -177,7 +177,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:03:13.125800+07:00"
+    "fetchedAt": "2026-10-30T11:13:14.098891+07:00"
   },
   {
     "id": "8042",
@@ -207,7 +207,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:03:13.125800+07:00"
+    "fetchedAt": "2026-10-30T11:13:14.098891+07:00"
   },
   {
     "id": "6448",
@@ -237,7 +237,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:03:13.125800+07:00"
+    "fetchedAt": "2026-10-30T11:13:14.098891+07:00"
   },
   {
     "id": "1220843",
@@ -267,7 +267,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:03:13.125800+07:00"
+    "fetchedAt": "2026-10-30T11:13:14.098891+07:00"
   },
   {
     "id": "7889",
@@ -297,7 +297,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:03:13.125800+07:00"
+    "fetchedAt": "2026-10-30T11:13:14.098891+07:00"
+  },
+  {
+    "id": "17195",
+    "symbol": "SMCI",
+    "name": "Super Micro Computer Inc",
+    "shortName": "Super Micro Computer",
+    "link": "https://www.investing.com/equities/super-micro-compu",
+    "price": 34.43,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 52.48,
+    "fairValueUpside": 52.38,
+    "peRatio": 10.52,
+    "evEbitda": 9.77,
+    "marketCap": 22590000000,
+    "marketCapFormatted": "22.59 พันล้าน",
+    "epsGrowth5y": 0.84,
+    "changeOneDayPercent": -3.85,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ถือหุ้นไว้",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-29T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
+    "fetchedAt": "2026-10-30T11:13:14.098891+07:00"
   },
   {
     "id": "6516",
@@ -327,7 +357,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:03:13.125800+07:00"
+    "fetchedAt": "2026-10-30T11:13:14.098891+07:00"
   },
   {
     "id": "32331",
@@ -357,7 +387,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:03:13.125800+07:00"
+    "fetchedAt": "2026-10-30T11:13:14.098891+07:00"
   },
   {
     "id": "8294",
@@ -387,7 +417,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:03:13.125800+07:00"
+    "fetchedAt": "2026-10-30T11:13:14.098891+07:00"
   },
   {
     "id": "8175",
@@ -417,7 +447,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:03:13.125800+07:00"
+    "fetchedAt": "2026-10-30T11:13:14.098891+07:00"
   },
   {
     "id": "20529",
@@ -447,7 +477,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:03:13.125800+07:00"
+    "fetchedAt": "2026-10-30T11:13:14.098891+07:00"
   },
   {
     "id": "956170",
@@ -477,7 +507,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:03:13.125800+07:00"
+    "fetchedAt": "2026-10-30T11:13:14.098891+07:00"
   },
   {
     "id": "39152",
@@ -507,7 +537,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:03:13.125800+07:00"
+    "fetchedAt": "2026-10-30T11:13:14.098891+07:00"
   },
   {
     "id": "41176",
@@ -537,7 +567,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:03:13.125800+07:00"
+    "fetchedAt": "2026-10-30T11:13:14.098891+07:00"
   },
   {
     "id": "15375",
@@ -567,7 +597,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:03:13.125800+07:00"
+    "fetchedAt": "2026-10-30T11:13:14.098891+07:00"
   },
   {
     "id": "948325",
@@ -597,37 +627,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:03:13.125800+07:00"
-  },
-  {
-    "id": "6454",
-    "symbol": "CTSH",
-    "name": "Cognizant Technology Solutions Corp",
-    "shortName": "Cognizant Tech Solutions",
-    "link": "https://www.investing.com/equities/cognizant-technology-solutio",
-    "price": 62.52,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 90.87,
-    "fairValueUpside": 45.34,
-    "peRatio": 13.51,
-    "evEbitda": 8.13,
-    "marketCap": 28140000000,
-    "marketCapFormatted": "28.14 พันล้าน",
-    "epsGrowth5y": 0.11,
-    "changeOneDayPercent": -5.79,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-29T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:03:13.125800+07:00"
+    "fetchedAt": "2026-10-30T11:13:14.098891+07:00"
   },
   {
     "id": "32391",
@@ -657,7 +657,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:03:13.125800+07:00"
+    "fetchedAt": "2026-10-30T11:13:14.098891+07:00"
   },
   {
     "id": "8248",
@@ -687,7 +687,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:03:13.125800+07:00"
+    "fetchedAt": "2026-10-30T11:13:14.098891+07:00"
   },
   {
     "id": "8063",
@@ -717,7 +717,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:03:13.125800+07:00"
+    "fetchedAt": "2026-10-30T11:13:14.098891+07:00"
   },
   {
     "id": "6497",
@@ -747,7 +747,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:03:13.125800+07:00"
+    "fetchedAt": "2026-10-30T11:13:14.098891+07:00"
   },
   {
     "id": "39277",
@@ -777,37 +777,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:03:13.125800+07:00"
-  },
-  {
-    "id": "6363",
-    "symbol": "ADSK",
-    "name": "Autodesk Inc",
-    "shortName": "Autodesk",
-    "link": "https://www.investing.com/equities/autodesk-inc",
-    "price": 241.73,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 340.48,
-    "fairValueUpside": 40.82,
-    "peRatio": 31.09,
-    "evEbitda": 22.77,
-    "marketCap": 50460000000,
-    "marketCapFormatted": "50.46 พันล้าน",
-    "epsGrowth5y": 0.22,
-    "changeOneDayPercent": -0.27,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-29T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:03:13.125800+07:00"
+    "fetchedAt": "2026-10-30T11:13:14.098891+07:00"
   },
   {
     "id": "8201",
@@ -837,7 +807,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:03:13.125800+07:00"
+    "fetchedAt": "2026-10-30T11:13:14.098891+07:00"
   },
   {
     "id": "32361",
@@ -867,7 +837,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:03:13.125800+07:00"
+    "fetchedAt": "2026-10-30T11:13:14.098891+07:00"
   },
   {
     "id": "39135",
@@ -897,6 +867,36 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:03:13.125800+07:00"
+    "fetchedAt": "2026-10-30T11:13:14.098891+07:00"
+  },
+  {
+    "id": "39159",
+    "symbol": "BR",
+    "name": "Broadridge Financial Solutions Inc",
+    "shortName": "Broadridge",
+    "link": "https://www.investing.com/equities/broadridge-financial-solutions",
+    "price": 178.14,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 247.74,
+    "fairValueUpside": 39.07,
+    "peRatio": 18.47,
+    "evEbitda": 12.98,
+    "marketCap": 20070000000,
+    "marketCapFormatted": "20.07 พันล้าน",
+    "epsGrowth5y": 0.16,
+    "changeOneDayPercent": 0.66,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-29T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
+    "fetchedAt": "2026-10-30T11:13:14.098891+07:00"
   }
 ]
