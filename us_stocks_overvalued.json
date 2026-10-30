@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:16:16.657774+07:00"
+    "fetchedAt": "2026-10-30T11:26:18.627276+07:00"
   },
   {
     "id": "1131557",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:16:16.657774+07:00"
+    "fetchedAt": "2026-10-30T11:26:18.627276+07:00"
   },
   {
     "id": "1114321",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:16:16.657774+07:00"
+    "fetchedAt": "2026-10-30T11:26:18.627276+07:00"
   },
   {
     "id": "13852",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:16:16.657774+07:00"
+    "fetchedAt": "2026-10-30T11:26:18.627276+07:00"
   },
   {
     "id": "261",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:16:16.657774+07:00"
+    "fetchedAt": "2026-10-30T11:26:18.627276+07:00"
   },
   {
     "id": "41268",
@@ -177,7 +177,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:16:16.657774+07:00"
+    "fetchedAt": "2026-10-30T11:26:18.627276+07:00"
+  },
+  {
+    "id": "251",
+    "symbol": "INTC",
+    "name": "Intel Corporation",
+    "shortName": "Intel",
+    "link": "https://www.investing.com/equities/intel-corp",
+    "price": 92.07,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 60.15,
+    "fairValueUpside": -34.67,
+    "peRatio": -39.66,
+    "evEbitda": 28.78,
+    "marketCap": 483680000000,
+    "marketCapFormatted": "483.68 พันล้าน",
+    "epsGrowth5y": -2.24,
+    "changeOneDayPercent": -3.62,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "มูลค่าตามจริง",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-29T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
+    "fetchedAt": "2026-10-30T11:26:18.627276+07:00"
   },
   {
     "id": "13994",
@@ -207,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:16:16.657774+07:00"
+    "fetchedAt": "2026-10-30T11:26:18.627276+07:00"
   },
   {
     "id": "13848",
@@ -237,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:16:16.657774+07:00"
+    "fetchedAt": "2026-10-30T11:26:18.627276+07:00"
   },
   {
     "id": "13067",
@@ -267,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:16:16.657774+07:00"
+    "fetchedAt": "2026-10-30T11:26:18.627276+07:00"
   },
   {
     "id": "20164",
@@ -297,7 +327,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:16:16.657774+07:00"
+    "fetchedAt": "2026-10-30T11:26:18.627276+07:00"
+  },
+  {
+    "id": "958233",
+    "symbol": "LITE",
+    "name": "Lumentum Holdings Inc",
+    "shortName": "Lumentum Holdings Inc",
+    "link": "https://www.investing.com/equities/lumentum-holdings-inc",
+    "price": 919.53,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 654.29,
+    "fairValueUpside": -28.84,
+    "peRatio": -9.91,
+    "evEbitda": 84.21,
+    "marketCap": 83310000000,
+    "marketCapFormatted": "83.31 พันล้าน",
+    "epsGrowth5y": -13.89,
+    "changeOneDayPercent": 0.61,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "มูลค่าตามจริง",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-29T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
+    "fetchedAt": "2026-10-30T11:26:18.627276+07:00"
   },
   {
     "id": "1206256",
@@ -327,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:16:16.657774+07:00"
+    "fetchedAt": "2026-10-30T11:26:18.627276+07:00"
   },
   {
     "id": "1161057",
@@ -357,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:16:16.657774+07:00"
+    "fetchedAt": "2026-10-30T11:26:18.627276+07:00"
   },
   {
     "id": "13866",
@@ -387,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:16:16.657774+07:00"
+    "fetchedAt": "2026-10-30T11:26:18.627276+07:00"
   },
   {
     "id": "20486",
@@ -417,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:16:16.657774+07:00"
+    "fetchedAt": "2026-10-30T11:26:18.627276+07:00"
   },
   {
     "id": "19695",
@@ -447,7 +507,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:16:16.657774+07:00"
+    "fetchedAt": "2026-10-30T11:26:18.627276+07:00"
+  },
+  {
+    "id": "8279",
+    "symbol": "RVTY",
+    "name": "Revvity Inc",
+    "shortName": "Revvity",
+    "link": "https://www.investing.com/equities/perkinelmer",
+    "price": 165.78,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 124.01,
+    "fairValueUpside": -25.19,
+    "peRatio": 78.94,
+    "evEbitda": 22.88,
+    "marketCap": 18460000000,
+    "marketCapFormatted": "18.46 พันล้าน",
+    "epsGrowth5y": -0.07,
+    "changeOneDayPercent": 0.27,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดี",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-29T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
+    "fetchedAt": "2026-10-30T11:26:18.627276+07:00"
   },
   {
     "id": "1152784",
@@ -477,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:16:16.657774+07:00"
+    "fetchedAt": "2026-10-30T11:26:18.627276+07:00"
   },
   {
     "id": "8260",
@@ -507,7 +597,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:16:16.657774+07:00"
+    "fetchedAt": "2026-10-30T11:26:18.627276+07:00"
   },
   {
     "id": "7881",
@@ -537,7 +627,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:16:16.657774+07:00"
+    "fetchedAt": "2026-10-30T11:26:18.627276+07:00"
   },
   {
     "id": "7997",
@@ -567,7 +657,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:16:16.657774+07:00"
+    "fetchedAt": "2026-10-30T11:26:18.627276+07:00"
   },
   {
     "id": "6440",
@@ -597,37 +687,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:16:16.657774+07:00"
-  },
-  {
-    "id": "6462",
-    "symbol": "KLAC",
-    "name": "KLA Corporation",
-    "shortName": "KLA Corp",
-    "link": "https://www.investing.com/equities/kla-tencor-corp",
-    "price": 167.43,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 129.97,
-    "fairValueUpside": -22.37,
-    "peRatio": 45.47,
-    "evEbitda": 31.59,
-    "marketCap": 218540000000,
-    "marketCapFormatted": "218.54 พันล้าน",
-    "epsGrowth5y": 0.32,
-    "changeOneDayPercent": 5.45,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-29T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:16:16.657774+07:00"
+    "fetchedAt": "2026-10-30T11:26:18.627276+07:00"
   },
   {
     "id": "255",
@@ -657,7 +717,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:16:16.657774+07:00"
+    "fetchedAt": "2026-10-30T11:26:18.627276+07:00"
   },
   {
     "id": "8016",
@@ -687,7 +747,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:16:16.657774+07:00"
+    "fetchedAt": "2026-10-30T11:26:18.627276+07:00"
   },
   {
     "id": "7946",
@@ -717,7 +777,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:16:16.657774+07:00"
+    "fetchedAt": "2026-10-30T11:26:18.627276+07:00"
   },
   {
     "id": "24321",
@@ -747,7 +807,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:16:16.657774+07:00"
+    "fetchedAt": "2026-10-30T11:26:18.627276+07:00"
+  },
+  {
+    "id": "6460",
+    "symbol": "AKAM",
+    "name": "Akamai Technologies Inc",
+    "shortName": "Akamai",
+    "link": "https://www.investing.com/equities/akamai-technologies-inc",
+    "price": 99.38,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 79.36,
+    "fairValueUpside": -20.14,
+    "peRatio": 35.64,
+    "evEbitda": 16.82,
+    "marketCap": 14240000000,
+    "marketCapFormatted": "14.24 พันล้าน",
+    "epsGrowth5y": -0.01,
+    "changeOneDayPercent": 1.3,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดี",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-29T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
+    "fetchedAt": "2026-10-30T11:26:18.627276+07:00"
   },
   {
     "id": "8193",
@@ -777,7 +867,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:16:16.657774+07:00"
+    "fetchedAt": "2026-10-30T11:26:18.627276+07:00"
   },
   {
     "id": "6386",
@@ -807,96 +897,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:16:16.657774+07:00"
-  },
-  {
-    "id": "29723",
-    "symbol": "WAB",
-    "name": "Westinghouse Air Brake Technologies Corp",
-    "shortName": "Westinghouse Air Brake",
-    "link": "https://www.investing.com/equities/westinghouse-air-brake-tech",
-    "price": 285.56,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 232.01,
-    "fairValueUpside": -18.75,
-    "peRatio": 35.31,
-    "evEbitda": 18.81,
-    "marketCap": 47850000000,
-    "marketCapFormatted": "47.85 พันล้าน",
-    "epsGrowth5y": 0.27,
-    "changeOneDayPercent": 1.2,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-29T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:16:16.657774+07:00"
-  },
-  {
-    "id": "32516",
-    "symbol": "URI",
-    "name": "United Rentals Inc",
-    "shortName": "United Rentals",
-    "link": "https://www.investing.com/equities/united-rentals",
-    "price": 1198.68,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 974.83,
-    "fairValueUpside": -18.67,
-    "peRatio": 26.23,
-    "evEbitda": 16.61,
-    "marketCap": 74150000000,
-    "marketCapFormatted": "74.15 พันล้าน",
-    "epsGrowth5y": 0.27,
-    "changeOneDayPercent": 2.05,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "ดี",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-29T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:16:16.657774+07:00"
-  },
-  {
-    "id": "8147",
-    "symbol": "TMO",
-    "name": "Thermo Fisher Scientific Inc",
-    "shortName": "Thermo Fisher Scientific",
-    "link": "https://www.investing.com/equities/thermo-fisher-sc",
-    "price": 709.18,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 581.78,
-    "fairValueUpside": -17.96,
-    "peRatio": 37.27,
-    "evEbitda": 23.33,
-    "marketCap": 262000000000,
-    "marketCapFormatted": "262 พันล้าน",
-    "epsGrowth5y": -0.01,
-    "changeOneDayPercent": 0.71,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "ดี",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-29T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-29T19:59:59.000Z",
-    "fetchedAt": "2026-10-30T11:16:16.657774+07:00"
+    "fetchedAt": "2026-10-30T11:26:18.627276+07:00"
   }
 ]
