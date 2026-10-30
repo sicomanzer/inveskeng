@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:20:11.828709+07:00"
+    "fetchedAt": "2026-10-30T09:30:13.712458+07:00"
   },
   {
     "id": "102567",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:20:11.828709+07:00"
+    "fetchedAt": "2026-10-30T09:30:13.712458+07:00"
   },
   {
     "id": "102569",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:20:11.828709+07:00"
+    "fetchedAt": "2026-10-30T09:30:13.712458+07:00"
   },
   {
     "id": "102869",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:20:11.828709+07:00"
+    "fetchedAt": "2026-10-30T09:30:13.712458+07:00"
   },
   {
     "id": "989494",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:20:11.828709+07:00"
+    "fetchedAt": "2026-10-30T09:30:13.712458+07:00"
   },
   {
     "id": "1242508",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:20:11.828709+07:00"
+    "fetchedAt": "2026-10-30T09:30:13.712458+07:00"
   },
   {
     "id": "1130942",
@@ -207,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:20:11.828709+07:00"
+    "fetchedAt": "2026-10-30T09:30:13.712458+07:00"
   },
   {
     "id": "986147",
@@ -237,7 +237,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:20:11.828709+07:00"
+    "fetchedAt": "2026-10-30T09:30:13.712458+07:00"
+  },
+  {
+    "id": "102751",
+    "symbol": "STA",
+    "name": "Sri Trang Agro Industry PCL",
+    "shortName": "Sri Trang Agro",
+    "link": "https://www.investing.com/equities/sri-trang-agro",
+    "price": 22.4,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 18.74880027770996,
+    "fairValueUpside": -16.300000250339508,
+    "peRatio": 92.30000305175781,
+    "evEbitda": 11.93875503540039,
+    "marketCap": 34410000000,
+    "marketCapFormatted": "34.41B",
+    "epsGrowth5y": 0.1262972354888916,
+    "changeOneDayPercent": -2.18,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "GOOD",
+    "financialGrowthHealth": "WEAK",
+    "financialProfitabilityHealth": "FAIR",
+    "analystRatings": "STRONG_BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-29T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
+    "fetchedAt": "2026-10-30T09:30:13.712458+07:00"
   },
   {
     "id": "102756",
@@ -267,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:20:11.828709+07:00"
+    "fetchedAt": "2026-10-30T09:30:13.712458+07:00"
   },
   {
     "id": "102757",
@@ -297,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:20:11.828709+07:00"
+    "fetchedAt": "2026-10-30T09:30:13.712458+07:00"
   },
   {
     "id": "1008691",
@@ -327,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:20:11.828709+07:00"
+    "fetchedAt": "2026-10-30T09:30:13.712458+07:00"
   },
   {
     "id": "102714",
@@ -357,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:20:11.828709+07:00"
+    "fetchedAt": "2026-10-30T09:30:13.712458+07:00"
   },
   {
     "id": "1162301",
@@ -387,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:20:11.828709+07:00"
+    "fetchedAt": "2026-10-30T09:30:13.712458+07:00"
   },
   {
     "id": "102683",
@@ -417,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:20:11.828709+07:00"
+    "fetchedAt": "2026-10-30T09:30:13.712458+07:00"
   },
   {
     "id": "102560",
@@ -447,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:20:11.828709+07:00"
+    "fetchedAt": "2026-10-30T09:30:13.712458+07:00"
   },
   {
     "id": "986137",
@@ -477,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:20:11.828709+07:00"
+    "fetchedAt": "2026-10-30T09:30:13.712458+07:00"
   },
   {
     "id": "102442",
@@ -507,67 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:20:11.828709+07:00"
-  },
-  {
-    "id": "102561",
-    "symbol": "KCE",
-    "name": "KCE Electronics PCL",
-    "shortName": "KCE Electronics",
-    "link": "https://www.investing.com/equities/kce-elec",
-    "price": 69.5,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 59.84560012817383,
-    "fairValueUpside": -13.889999687671661,
-    "peRatio": 88.25,
-    "evEbitda": 45.20249938964844,
-    "marketCap": 82160000000,
-    "marketCapFormatted": "82.16B",
-    "epsGrowth5y": 0.038457516580820084,
-    "changeOneDayPercent": -5.44,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "GREAT",
-    "financialGrowthHealth": "FAIR",
-    "financialProfitabilityHealth": "GREAT",
-    "analystRatings": "BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-29T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:20:11.828709+07:00"
-  },
-  {
-    "id": "102672",
-    "symbol": "PTT",
-    "name": "PTT PCL",
-    "shortName": "PTT PCL",
-    "link": "https://www.investing.com/equities/ptt",
-    "price": 42.25,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 37.3484992980957,
-    "fairValueUpside": -11.59999966621399,
-    "peRatio": 9.729999542236328,
-    "evEbitda": 5.480747222900391,
-    "marketCap": 1200000000000,
-    "marketCapFormatted": "1200.00B",
-    "epsGrowth5y": 0.2143501192331314,
-    "changeOneDayPercent": 0.6,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "GOOD",
-    "financialGrowthHealth": "FAIR",
-    "financialProfitabilityHealth": "GOOD",
-    "analystRatings": "STRONG_BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-29T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:20:11.828709+07:00"
+    "fetchedAt": "2026-10-30T09:30:13.712458+07:00"
   },
   {
     "id": "102532",
@@ -597,6 +567,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-29T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-29T10:49:59.000Z",
-    "fetchedAt": "2026-10-30T09:20:11.828709+07:00"
+    "fetchedAt": "2026-10-30T09:30:13.712458+07:00"
   }
 ]
