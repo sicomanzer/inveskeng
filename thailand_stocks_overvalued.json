@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-10-31T20:26:24.168586+07:00"
+    "fetchedAt": "2026-10-31T20:37:14.167218+07:00"
   },
   {
     "id": "102567",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-10-31T20:26:24.168586+07:00"
+    "fetchedAt": "2026-10-31T20:37:14.167218+07:00"
   },
   {
     "id": "102569",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-10-31T20:26:24.168586+07:00"
+    "fetchedAt": "2026-10-31T20:37:14.167218+07:00"
   },
   {
     "id": "1242508",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-10-31T20:26:24.168586+07:00"
+    "fetchedAt": "2026-10-31T20:37:14.167218+07:00"
   },
   {
     "id": "102751",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-10-31T20:26:24.168586+07:00"
+    "fetchedAt": "2026-10-31T20:37:14.167218+07:00"
   },
   {
     "id": "102869",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-10-31T20:26:24.168586+07:00"
+    "fetchedAt": "2026-10-31T20:37:14.167218+07:00"
   },
   {
     "id": "1130942",
@@ -207,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-10-31T20:26:24.168586+07:00"
+    "fetchedAt": "2026-10-31T20:37:14.167218+07:00"
   },
   {
     "id": "986147",
@@ -237,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-10-31T20:26:24.168586+07:00"
+    "fetchedAt": "2026-10-31T20:37:14.167218+07:00"
   },
   {
     "id": "1162301",
@@ -267,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-10-31T20:26:24.168586+07:00"
+    "fetchedAt": "2026-10-31T20:37:14.167218+07:00"
   },
   {
     "id": "102757",
@@ -297,37 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-10-31T20:26:24.168586+07:00"
-  },
-  {
-    "id": "989494",
-    "symbol": "ITEL",
-    "name": "Interlink Telecom PCL",
-    "shortName": "Interlink Telecom",
-    "link": "https://www.investing.com/equities/interlink-telecom-pcl",
-    "price": 1.51,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 1.288100004196167,
-    "fairValueUpside": -14.699999988079071,
-    "peRatio": -14.020000457763672,
-    "evEbitda": 21.219457626342773,
-    "marketCap": 3150000000,
-    "marketCapFormatted": "3.15B",
-    "epsGrowth5y": -0.2955392897129059,
-    "changeOneDayPercent": -5.03,
-    "financialHealth": "FAIR",
-    "financialCashFlowHealth": "FAIR",
-    "financialGrowthHealth": "WEAK",
-    "financialProfitabilityHealth": "FAIR",
-    "analystRatings": "BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-30T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-10-31T20:26:24.168586+07:00"
+    "fetchedAt": "2026-10-31T20:37:14.167218+07:00"
   },
   {
     "id": "102561",
@@ -357,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-10-31T20:26:24.168586+07:00"
+    "fetchedAt": "2026-10-31T20:37:14.167218+07:00"
   },
   {
     "id": "1008691",
@@ -387,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-10-31T20:26:24.168586+07:00"
+    "fetchedAt": "2026-10-31T20:37:14.167218+07:00"
   },
   {
     "id": "102714",
@@ -417,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-10-31T20:26:24.168586+07:00"
+    "fetchedAt": "2026-10-31T20:37:14.167218+07:00"
   },
   {
     "id": "102756",
@@ -447,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-10-31T20:26:24.168586+07:00"
+    "fetchedAt": "2026-10-31T20:37:14.167218+07:00"
   },
   {
     "id": "102497",
@@ -477,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-10-31T20:26:24.168586+07:00"
+    "fetchedAt": "2026-10-31T20:37:14.167218+07:00"
   },
   {
     "id": "102560",
@@ -507,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-10-31T20:26:24.168586+07:00"
+    "fetchedAt": "2026-10-31T20:37:14.167218+07:00"
   },
   {
     "id": "102683",
@@ -537,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-10-31T20:26:24.168586+07:00"
+    "fetchedAt": "2026-10-31T20:37:14.167218+07:00"
   },
   {
     "id": "102442",
@@ -567,37 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-10-31T20:26:24.168586+07:00"
-  },
-  {
-    "id": "986137",
-    "symbol": "ALT",
-    "name": "ALT Telecom PCL",
-    "shortName": "ALT Telecom",
-    "link": "https://www.investing.com/equities/alt-telecom-pcl",
-    "price": 1.52,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 1.3573999404907227,
-    "fairValueUpside": -10.700000077486038,
-    "peRatio": 87.86000061035156,
-    "evEbitda": 13.47293758392334,
-    "marketCap": 1690000000,
-    "marketCapFormatted": "1.69B",
-    "epsGrowth5y": -1.7917653322219849,
-    "changeOneDayPercent": -3.8,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "FAIR",
-    "financialGrowthHealth": "GOOD",
-    "financialProfitabilityHealth": "FAIR",
-    "analystRatings": "-",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-30T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-10-31T20:26:24.168586+07:00"
+    "fetchedAt": "2026-10-31T20:37:14.167218+07:00"
   },
   {
     "id": "102540",
@@ -627,6 +567,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-10-31T20:26:24.168586+07:00"
+    "fetchedAt": "2026-10-31T20:37:14.167218+07:00"
   }
 ]
