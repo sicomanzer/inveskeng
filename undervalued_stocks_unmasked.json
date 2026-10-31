@@ -27,7 +27,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-10-31T08:16:17.842632+07:00"
+    "fetchedAt": "2026-10-31T09:21:46.468641+07:00"
   },
   {
     "id": "15722",
@@ -57,7 +57,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-10-31T08:16:17.842632+07:00"
+    "fetchedAt": "2026-10-31T09:21:46.468641+07:00"
   },
   {
     "id": "41239",
@@ -87,7 +87,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-10-31T08:16:17.842632+07:00"
+    "fetchedAt": "2026-10-31T09:21:46.468641+07:00"
   },
   {
     "id": "6373",
@@ -117,7 +117,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-10-31T08:16:17.842632+07:00"
+    "fetchedAt": "2026-10-31T09:21:46.468641+07:00"
   },
   {
     "id": "6370",
@@ -147,7 +147,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-10-31T08:16:17.842632+07:00"
+    "fetchedAt": "2026-10-31T09:21:46.468641+07:00"
   },
   {
     "id": "32341",
@@ -177,7 +177,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-10-31T08:16:17.842632+07:00"
+    "fetchedAt": "2026-10-31T09:21:46.468641+07:00"
   },
   {
     "id": "17195",
@@ -207,7 +207,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-10-31T08:16:17.842632+07:00"
+    "fetchedAt": "2026-10-31T09:21:46.468641+07:00"
   },
   {
     "id": "7951",
@@ -237,7 +237,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-10-31T08:16:17.842632+07:00"
+    "fetchedAt": "2026-10-31T09:21:46.468641+07:00"
   },
   {
     "id": "1220843",
@@ -255,7 +255,7 @@
     "marketCap": 5400000000,
     "marketCapFormatted": "5.4 พันล้าน",
     "epsGrowth5y": 1.46,
-    "changeOneDayPercent": -0.93,
+    "changeOneDayPercent": -0.91,
     "financialHealth": "ดี",
     "financialCashFlowHealth": "มูลค่าตามจริง",
     "financialGrowthHealth": "ดีเยี่ยม",
@@ -267,7 +267,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-10-31T08:16:17.842632+07:00"
+    "fetchedAt": "2026-10-31T09:21:46.468641+07:00"
   },
   {
     "id": "6448",
@@ -297,37 +297,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-10-31T08:16:17.842632+07:00"
-  },
-  {
-    "id": "8042",
-    "symbol": "FIS",
-    "name": "Fidelity National Information Services Inc",
-    "shortName": "Fidelity National Information Services",
-    "link": "https://www.investing.com/equities/fidelity-natl-in",
-    "price": 38.55,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 60.24,
-    "fairValueUpside": 56.27,
-    "peRatio": 5.9,
-    "evEbitda": 11.31,
-    "marketCap": 19930000000,
-    "marketCapFormatted": "19.93 พันล้าน",
-    "epsGrowth5y": 2.13,
-    "changeOneDayPercent": 3.39,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "ดี",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-10-31T08:16:17.842632+07:00"
+    "fetchedAt": "2026-10-31T09:21:46.468641+07:00"
   },
   {
     "id": "7889",
@@ -357,7 +327,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-10-31T08:16:17.842632+07:00"
+    "fetchedAt": "2026-10-31T09:21:46.468641+07:00"
   },
   {
     "id": "32331",
@@ -387,7 +357,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-10-31T08:16:17.842632+07:00"
+    "fetchedAt": "2026-10-31T09:21:46.468641+07:00"
   },
   {
     "id": "8294",
@@ -417,7 +387,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-10-31T08:16:17.842632+07:00"
+    "fetchedAt": "2026-10-31T09:21:46.468641+07:00"
+  },
+  {
+    "id": "41176",
+    "symbol": "ZTS",
+    "name": "Zoetis Inc",
+    "shortName": "Zoetis Inc",
+    "link": "https://www.investing.com/equities/zoetis-inc",
+    "price": 79.72,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 116.41,
+    "fairValueUpside": 46.02,
+    "peRatio": 12.98,
+    "evEbitda": 10.1,
+    "marketCap": 32900000000,
+    "marketCapFormatted": "32.9 พันล้าน",
+    "epsGrowth5y": 0.11,
+    "changeOneDayPercent": 1.17,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "ดี",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ถือหุ้นไว้",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
+    "fetchedAt": "2026-10-31T09:21:46.468641+07:00"
   },
   {
     "id": "8248",
@@ -447,7 +447,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-10-31T08:16:17.842632+07:00"
+    "fetchedAt": "2026-10-31T09:21:46.468641+07:00"
   },
   {
     "id": "6497",
@@ -477,37 +477,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-10-31T08:16:17.842632+07:00"
-  },
-  {
-    "id": "6516",
-    "symbol": "CMCSA",
-    "name": "Comcast Corp",
-    "shortName": "Comcast",
-    "link": "https://www.investing.com/equities/comcast-corp-new",
-    "price": 23.22,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 33.6,
-    "fairValueUpside": 44.71,
-    "peRatio": 7.33,
-    "evEbitda": 4.55,
-    "marketCap": 82670000000,
-    "marketCapFormatted": "82.67 พันล้าน",
-    "epsGrowth5y": 0.35,
-    "changeOneDayPercent": 4.27,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดี",
-    "analystRatings": "ถือหุ้นไว้",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-10-31T08:16:17.842632+07:00"
+    "fetchedAt": "2026-10-31T09:21:46.468641+07:00"
   },
   {
     "id": "956170",
@@ -537,7 +507,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-10-31T08:16:17.842632+07:00"
+    "fetchedAt": "2026-10-31T09:21:46.468641+07:00"
   },
   {
     "id": "20529",
@@ -567,7 +537,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-10-31T08:16:17.842632+07:00"
+    "fetchedAt": "2026-10-31T09:21:46.468641+07:00"
   },
   {
     "id": "13969",
@@ -597,7 +567,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-10-31T08:16:17.842632+07:00"
+    "fetchedAt": "2026-10-31T09:21:46.468641+07:00"
+  },
+  {
+    "id": "39152",
+    "symbol": "LKQ",
+    "name": "LKQ Corporation",
+    "shortName": "LKQ",
+    "link": "https://www.investing.com/equities/lkq",
+    "price": 18.56,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 26.34,
+    "fairValueUpside": 41.92,
+    "peRatio": 18.14,
+    "evEbitda": 6.58,
+    "marketCap": 4690000000,
+    "marketCapFormatted": "4.69 พันล้าน",
+    "epsGrowth5y": 0.03,
+    "changeOneDayPercent": 2.54,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "แย่",
+    "financialProfitabilityHealth": "ดี",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
+    "fetchedAt": "2026-10-31T09:21:46.468641+07:00"
   },
   {
     "id": "8201",
@@ -627,7 +627,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-10-31T08:16:17.842632+07:00"
+    "fetchedAt": "2026-10-31T09:21:46.468641+07:00"
   },
   {
     "id": "8105",
@@ -657,67 +657,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-10-31T08:16:17.842632+07:00"
-  },
-  {
-    "id": "8063",
-    "symbol": "TAP",
-    "name": "Molson Coors Beverage Company Class B",
-    "shortName": "Molson Coors B",
-    "link": "https://www.investing.com/equities/molson-coors",
-    "price": 40.12,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 56.06,
-    "fairValueUpside": 39.74,
-    "peRatio": -3.33,
-    "evEbitda": 5.97,
-    "marketCap": 7440000000,
-    "marketCapFormatted": "7.44 พันล้าน",
-    "epsGrowth5y": 1.64,
-    "changeOneDayPercent": 2.32,
-    "financialHealth": "มูลค่าตามจริง",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "แย่",
-    "financialProfitabilityHealth": "มูลค่าตามจริง",
-    "analystRatings": "ถือหุ้นไว้",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-10-31T08:16:17.842632+07:00"
-  },
-  {
-    "id": "32381",
-    "symbol": "DECK",
-    "name": "Deckers Outdoor Corporation",
-    "shortName": "Deckers Outdoor",
-    "link": "https://www.investing.com/equities/deckers-outdoor-corp",
-    "price": 82.0,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 113.62,
-    "fairValueUpside": 38.56,
-    "peRatio": 10.9,
-    "evEbitda": 7.47,
-    "marketCap": 11180000000,
-    "marketCapFormatted": "11.18 พันล้าน",
-    "epsGrowth5y": 0.26,
-    "changeOneDayPercent": -0.92,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดีเยี่ยม",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ถือหุ้นไว้",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-10-31T08:16:17.842632+07:00"
+    "fetchedAt": "2026-10-31T09:21:46.468641+07:00"
   },
   {
     "id": "39159",
@@ -747,7 +687,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-10-31T08:16:17.842632+07:00"
+    "fetchedAt": "2026-10-31T09:21:46.468641+07:00"
+  },
+  {
+    "id": "32381",
+    "symbol": "DECK",
+    "name": "Deckers Outdoor Corporation",
+    "shortName": "Deckers Outdoor",
+    "link": "https://www.investing.com/equities/deckers-outdoor-corp",
+    "price": 81.99,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 113.62,
+    "fairValueUpside": 38.56,
+    "peRatio": 10.9,
+    "evEbitda": 7.47,
+    "marketCap": 11180000000,
+    "marketCapFormatted": "11.18 พันล้าน",
+    "epsGrowth5y": 0.26,
+    "changeOneDayPercent": -0.93,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดีเยี่ยม",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ถือหุ้นไว้",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
+    "fetchedAt": "2026-10-31T09:21:46.468641+07:00"
   },
   {
     "id": "8310",
@@ -755,7 +725,7 @@
     "name": "U.S. Bancorp",
     "shortName": "U.S. Bancorp",
     "link": "https://www.investing.com/equities/us-bancorp",
-    "price": 59.44,
+    "price": 59.45,
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 82.11,
@@ -765,7 +735,7 @@
     "marketCap": 92790000000,
     "marketCapFormatted": "92.79 พันล้าน",
     "epsGrowth5y": 0.07,
-    "changeOneDayPercent": -1.98,
+    "changeOneDayPercent": -1.96,
     "financialHealth": "ดี",
     "financialCashFlowHealth": "ดี",
     "financialGrowthHealth": "ดี",
@@ -777,7 +747,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-10-31T08:16:17.842632+07:00"
+    "fetchedAt": "2026-10-31T09:21:46.468641+07:00"
   },
   {
     "id": "1115848",
@@ -807,7 +777,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-10-31T08:16:17.842632+07:00"
+    "fetchedAt": "2026-10-31T09:21:46.468641+07:00"
   },
   {
     "id": "13072",
@@ -815,7 +785,7 @@
     "name": "Booking Holdings Inc",
     "shortName": "Booking",
     "link": "https://www.investing.com/equities/priceline.com-inc",
-    "price": 148.12,
+    "price": 148.13,
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 204.35,
@@ -825,7 +795,7 @@
     "marketCap": 111550000000,
     "marketCapFormatted": "111.55 พันล้าน",
     "epsGrowth5y": 2.03,
-    "changeOneDayPercent": -1.54,
+    "changeOneDayPercent": -1.53,
     "financialHealth": "ดีมาก",
     "financialCashFlowHealth": "ดีมาก",
     "financialGrowthHealth": "ดีมาก",
@@ -837,7 +807,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-10-31T08:16:17.842632+07:00"
+    "fetchedAt": "2026-10-31T09:21:46.468641+07:00"
   },
   {
     "id": "32361",
@@ -867,36 +837,66 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-10-31T08:16:17.842632+07:00"
+    "fetchedAt": "2026-10-31T09:21:46.468641+07:00"
   },
   {
-    "id": "39135",
-    "symbol": "IT",
-    "name": "Gartner Inc",
-    "shortName": "Gartner",
-    "link": "https://www.investing.com/equities/gartner",
-    "price": 228.79,
+    "id": "20380",
+    "symbol": "RJF",
+    "name": "Raymond James Financial Inc",
+    "shortName": "Raymond James Financial",
+    "link": "https://www.investing.com/equities/raymond-james-financial-inc",
+    "price": 157.22,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 313.9,
-    "fairValueUpside": 37.2,
-    "peRatio": 20.89,
-    "evEbitda": 11.84,
-    "marketCap": 14420000000,
-    "marketCapFormatted": "14.42 พันล้าน",
-    "epsGrowth5y": 0.38,
-    "changeOneDayPercent": 1.66,
-    "financialHealth": "ดีมาก",
+    "fairValue": 215.4,
+    "fairValueUpside": 37.01,
+    "peRatio": 13.1,
+    "evEbitda": 0.0,
+    "marketCap": 30220000000,
+    "marketCapFormatted": "30.22 พันล้าน",
+    "epsGrowth5y": 0.2,
+    "changeOneDayPercent": -2.52,
+    "financialHealth": "ดี",
     "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ถือหุ้นไว้",
+    "financialGrowthHealth": "ดี",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-10-31T08:16:17.842632+07:00"
+    "fetchedAt": "2026-10-31T09:21:46.468641+07:00"
+  },
+  {
+    "id": "6363",
+    "symbol": "ADSK",
+    "name": "Autodesk Inc",
+    "shortName": "Autodesk",
+    "link": "https://www.investing.com/equities/autodesk-inc",
+    "price": 249.61,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 340.55,
+    "fairValueUpside": 36.43,
+    "peRatio": 32.32,
+    "evEbitda": 22.77,
+    "marketCap": 52160000000,
+    "marketCapFormatted": "52.16 พันล้าน",
+    "epsGrowth5y": 0.22,
+    "changeOneDayPercent": 3.26,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
+    "fetchedAt": "2026-10-31T09:21:46.468641+07:00"
   }
 ]
