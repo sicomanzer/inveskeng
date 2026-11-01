@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T23:43:02.033068+07:00"
+    "fetchedAt": "2026-11-01T23:52:42.147228+07:00"
   },
   {
     "id": "1169889",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T23:43:02.033068+07:00"
+    "fetchedAt": "2026-11-01T23:52:42.147228+07:00"
   },
   {
     "id": "261",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T23:43:02.033068+07:00"
+    "fetchedAt": "2026-11-01T23:52:42.147228+07:00"
   },
   {
     "id": "1114321",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T23:43:02.033068+07:00"
+    "fetchedAt": "2026-11-01T23:52:42.147228+07:00"
   },
   {
     "id": "41268",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T23:43:02.033068+07:00"
+    "fetchedAt": "2026-11-01T23:52:42.147228+07:00"
   },
   {
     "id": "13994",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T23:43:02.033068+07:00"
+    "fetchedAt": "2026-11-01T23:52:42.147228+07:00"
   },
   {
     "id": "13852",
@@ -207,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T23:43:02.033068+07:00"
+    "fetchedAt": "2026-11-01T23:52:42.147228+07:00"
   },
   {
     "id": "13848",
@@ -237,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T23:43:02.033068+07:00"
+    "fetchedAt": "2026-11-01T23:52:42.147228+07:00"
   },
   {
     "id": "13067",
@@ -267,37 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T23:43:02.033068+07:00"
-  },
-  {
-    "id": "7997",
-    "symbol": "WMT",
-    "name": "Walmart Inc",
-    "shortName": "Walmart",
-    "link": "https://www.investing.com/equities/wal-mart-stores",
-    "price": 123.51,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 91.78,
-    "fairValueUpside": -25.69,
-    "peRatio": 44.76,
-    "evEbitda": 23.17,
-    "marketCap": 979900000000,
-    "marketCapFormatted": "979.9 พันล้าน",
-    "epsGrowth5y": 0.16,
-    "changeOneDayPercent": 1.86,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "ดี",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T23:43:02.033068+07:00"
+    "fetchedAt": "2026-11-01T23:52:42.147228+07:00"
   },
   {
     "id": "8260",
@@ -327,37 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T23:43:02.033068+07:00"
-  },
-  {
-    "id": "7881",
-    "symbol": "WAT",
-    "name": "Waters Corporation",
-    "shortName": "Waters",
-    "link": "https://www.investing.com/equities/waters-corp",
-    "price": 462.72,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 349.87,
-    "fairValueUpside": -24.39,
-    "peRatio": 208.02,
-    "evEbitda": 34.1,
-    "marketCap": 45460000000,
-    "marketCapFormatted": "45.46 พันล้าน",
-    "epsGrowth5y": -0.02,
-    "changeOneDayPercent": -3.61,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T23:43:02.033068+07:00"
+    "fetchedAt": "2026-11-01T23:52:42.147228+07:00"
   },
   {
     "id": "238",
@@ -387,37 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T23:43:02.033068+07:00"
-  },
-  {
-    "id": "20164",
-    "symbol": "CRL",
-    "name": "Charles River Laboratories International, Inc",
-    "shortName": "Charles River Laboratories",
-    "link": "https://www.investing.com/equities/charles-river-laboratories-intl",
-    "price": 359.41,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 273.93,
-    "fairValueUpside": -23.78,
-    "peRatio": -73.3,
-    "evEbitda": 22.58,
-    "marketCap": 17160000000,
-    "marketCapFormatted": "17.16 พันล้าน",
-    "epsGrowth5y": -1.34,
-    "changeOneDayPercent": -4.44,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "แย่",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T23:43:02.033068+07:00"
+    "fetchedAt": "2026-11-01T23:52:42.147228+07:00"
   },
   {
     "id": "13866",
@@ -447,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T23:43:02.033068+07:00"
+    "fetchedAt": "2026-11-01T23:52:42.147228+07:00"
   },
   {
     "id": "8158",
@@ -477,7 +387,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T23:43:02.033068+07:00"
+    "fetchedAt": "2026-11-01T23:52:42.147228+07:00"
+  },
+  {
+    "id": "24321",
+    "symbol": "TRGP",
+    "name": "Targa Resources Inc",
+    "shortName": "Targa Resources",
+    "link": "https://www.investing.com/equities/targa-resources-inc",
+    "price": 314.99,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 252.94,
+    "fairValueUpside": -19.7,
+    "peRatio": 29.97,
+    "evEbitda": 15.36,
+    "marketCap": 67540000000,
+    "marketCapFormatted": "67.54 พันล้าน",
+    "epsGrowth5y": 3.66,
+    "changeOneDayPercent": 0.84,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
+    "fetchedAt": "2026-11-01T23:52:42.147228+07:00"
   },
   {
     "id": "8136",
@@ -507,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T23:43:02.033068+07:00"
+    "fetchedAt": "2026-11-01T23:52:42.147228+07:00"
   },
   {
     "id": "958233",
@@ -537,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T23:43:02.033068+07:00"
+    "fetchedAt": "2026-11-01T23:52:42.147228+07:00"
   },
   {
     "id": "1206256",
@@ -567,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T23:43:02.033068+07:00"
+    "fetchedAt": "2026-11-01T23:52:42.147228+07:00"
   },
   {
     "id": "19695",
@@ -597,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T23:43:02.033068+07:00"
+    "fetchedAt": "2026-11-01T23:52:42.147228+07:00"
   },
   {
     "id": "1161057",
@@ -627,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T23:43:02.033068+07:00"
+    "fetchedAt": "2026-11-01T23:52:42.147228+07:00"
   },
   {
     "id": "20486",
@@ -657,7 +597,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T23:43:02.033068+07:00"
+    "fetchedAt": "2026-11-01T23:52:42.147228+07:00"
   },
   {
     "id": "29737",
@@ -687,7 +627,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T23:43:02.033068+07:00"
+    "fetchedAt": "2026-11-01T23:52:42.147228+07:00"
   },
   {
     "id": "8252",
@@ -717,7 +657,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T23:43:02.033068+07:00"
+    "fetchedAt": "2026-11-01T23:52:42.147228+07:00"
   },
   {
     "id": "7943",
@@ -747,7 +687,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T23:43:02.033068+07:00"
+    "fetchedAt": "2026-11-01T23:52:42.147228+07:00"
   },
   {
     "id": "7906",
@@ -777,7 +717,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T23:43:02.033068+07:00"
+    "fetchedAt": "2026-11-01T23:52:42.147228+07:00"
   },
   {
     "id": "8193",
@@ -807,7 +747,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T23:43:02.033068+07:00"
+    "fetchedAt": "2026-11-01T23:52:42.147228+07:00"
   },
   {
     "id": "29723",
@@ -837,7 +777,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T23:43:02.033068+07:00"
+    "fetchedAt": "2026-11-01T23:52:42.147228+07:00"
   },
   {
     "id": "7956",
@@ -867,7 +807,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T23:43:02.033068+07:00"
+    "fetchedAt": "2026-11-01T23:52:42.147228+07:00"
   },
   {
     "id": "6440",
@@ -897,6 +837,66 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T23:43:02.033068+07:00"
+    "fetchedAt": "2026-11-01T23:52:42.147228+07:00"
+  },
+  {
+    "id": "39166",
+    "symbol": "EXR",
+    "name": "Extra Space Storage Inc",
+    "shortName": "Extra Space Storage",
+    "link": "https://www.investing.com/equities/extra-space-storage",
+    "price": 151.32,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 127.13,
+    "fairValueUpside": -15.99,
+    "peRatio": 30.85,
+    "evEbitda": 18.86,
+    "marketCap": 33030000000,
+    "marketCapFormatted": "33.03 พันล้าน",
+    "epsGrowth5y": 0.03,
+    "changeOneDayPercent": 0.95,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "ดี",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
+    "fetchedAt": "2026-11-01T23:52:42.147228+07:00"
+  },
+  {
+    "id": "8297",
+    "symbol": "ED",
+    "name": "Consolidated Edison Inc",
+    "shortName": "Consolidated Edison",
+    "link": "https://www.investing.com/equities/cocnsol-edison",
+    "price": 116.64,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 98.21,
+    "fairValueUpside": -15.8,
+    "peRatio": 19.24,
+    "evEbitda": 11.13,
+    "marketCap": 43140000000,
+    "marketCapFormatted": "43.14 พันล้าน",
+    "epsGrowth5y": 0.14,
+    "changeOneDayPercent": 1.0,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "ดี",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ถือหุ้นไว้",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
+    "fetchedAt": "2026-11-01T23:52:42.147228+07:00"
   }
 ]

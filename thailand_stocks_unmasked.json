@@ -27,7 +27,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T23:36:30.704347+07:00"
+    "fetchedAt": "2026-11-01T23:46:16.714550+07:00"
   },
   {
     "id": "1177382",
@@ -57,7 +57,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T23:36:30.704347+07:00"
+    "fetchedAt": "2026-11-01T23:46:16.714550+07:00"
   },
   {
     "id": "102443",
@@ -87,7 +87,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T23:36:30.704347+07:00"
+    "fetchedAt": "2026-11-01T23:46:16.714550+07:00"
   },
   {
     "id": "1052357",
@@ -117,7 +117,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T23:36:30.704347+07:00"
+    "fetchedAt": "2026-11-01T23:46:16.714550+07:00"
   },
   {
     "id": "1173246",
@@ -147,7 +147,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T23:36:30.704347+07:00"
+    "fetchedAt": "2026-11-01T23:46:16.714550+07:00"
   },
   {
     "id": "102547",
@@ -177,7 +177,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T23:36:30.704347+07:00"
+    "fetchedAt": "2026-11-01T23:46:16.714550+07:00"
   },
   {
     "id": "102551",
@@ -207,7 +207,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T23:36:30.704347+07:00"
+    "fetchedAt": "2026-11-01T23:46:16.714550+07:00"
   },
   {
     "id": "1056157",
@@ -237,7 +237,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T23:36:30.704347+07:00"
+    "fetchedAt": "2026-11-01T23:46:16.714550+07:00"
   },
   {
     "id": "1153457",
@@ -267,7 +267,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T23:36:30.704347+07:00"
+    "fetchedAt": "2026-11-01T23:46:16.714550+07:00"
+  },
+  {
+    "id": "102518",
+    "symbol": "GFPT",
+    "name": "GFPT PCL",
+    "shortName": "GFPT",
+    "link": "https://www.investing.com/equities/gfpt",
+    "price": 9.8,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 14.7,
+    "fairValueUpside": 50.05,
+    "peRatio": 5.4,
+    "evEbitda": 2.21,
+    "marketCap": 12290000000,
+    "marketCapFormatted": "12.29 พันล้าน",
+    "epsGrowth5y": 0.65,
+    "changeOneDayPercent": 0.0,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-30T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
+    "fetchedAt": "2026-11-01T23:46:16.714550+07:00"
   },
   {
     "id": "102554",
@@ -297,7 +327,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T23:36:30.704347+07:00"
+    "fetchedAt": "2026-11-01T23:46:16.714550+07:00"
   },
   {
     "id": "102799",
@@ -327,7 +357,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T23:36:30.704347+07:00"
+    "fetchedAt": "2026-11-01T23:46:16.714550+07:00"
   },
   {
     "id": "102513",
@@ -357,7 +387,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T23:36:30.704347+07:00"
+    "fetchedAt": "2026-11-01T23:46:16.714550+07:00"
   },
   {
     "id": "1115209",
@@ -387,7 +417,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T23:36:30.704347+07:00"
+    "fetchedAt": "2026-11-01T23:46:16.714550+07:00"
   },
   {
     "id": "102726",
@@ -417,7 +447,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T23:36:30.704347+07:00"
+    "fetchedAt": "2026-11-01T23:46:16.714550+07:00"
   },
   {
     "id": "102617",
@@ -447,7 +477,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T23:36:30.704347+07:00"
+    "fetchedAt": "2026-11-01T23:46:16.714550+07:00"
   },
   {
     "id": "1198524",
@@ -477,7 +507,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T23:36:30.704347+07:00"
+    "fetchedAt": "2026-11-01T23:46:16.714550+07:00"
   },
   {
     "id": "102743",
@@ -507,7 +537,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T23:36:30.704347+07:00"
+    "fetchedAt": "2026-11-01T23:46:16.714550+07:00"
   },
   {
     "id": "102457",
@@ -537,7 +567,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T23:36:30.704347+07:00"
+    "fetchedAt": "2026-11-01T23:46:16.714550+07:00"
   },
   {
     "id": "102498",
@@ -567,7 +597,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T23:36:30.704347+07:00"
+    "fetchedAt": "2026-11-01T23:46:16.714550+07:00"
   },
   {
     "id": "102425",
@@ -597,7 +627,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T23:36:30.704347+07:00"
+    "fetchedAt": "2026-11-01T23:46:16.714550+07:00"
   },
   {
     "id": "1196441",
@@ -627,37 +657,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T23:36:30.704347+07:00"
-  },
-  {
-    "id": "102472",
-    "symbol": "CKP",
-    "name": "CK Power PCL",
-    "shortName": "CK Power",
-    "link": "https://www.investing.com/equities/ck-power",
-    "price": 2.3,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 3.26,
-    "fairValueUpside": 41.56,
-    "peRatio": 7.86,
-    "evEbitda": 4.85,
-    "marketCap": 18700000000,
-    "marketCapFormatted": "18.7 พันล้าน",
-    "epsGrowth5y": 0.51,
-    "changeOneDayPercent": -0.86,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดี",
-    "financialProfitabilityHealth": "ดี",
-    "analystRatings": "ซื้อ",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T23:36:30.704347+07:00"
+    "fetchedAt": "2026-11-01T23:46:16.714550+07:00"
   },
   {
     "id": "102605",
@@ -687,7 +687,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T23:36:30.704347+07:00"
+    "fetchedAt": "2026-11-01T23:46:16.714550+07:00"
+  },
+  {
+    "id": "102584",
+    "symbol": "LOXLEY",
+    "name": "Loxley PCL",
+    "shortName": "Loxley PCL",
+    "link": "https://www.investing.com/equities/loxley-publ",
+    "price": 1.71,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 2.408,
+    "fairValueUpside": 40.82,
+    "peRatio": 5.42,
+    "evEbitda": 0.62,
+    "marketCap": 3870000000,
+    "marketCapFormatted": "3.87 พันล้าน",
+    "epsGrowth5y": 13.17,
+    "changeOneDayPercent": -1.16,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดี",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-30T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
+    "fetchedAt": "2026-11-01T23:46:16.714550+07:00"
   },
   {
     "id": "102412",
@@ -717,7 +747,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T23:36:30.704347+07:00"
+    "fetchedAt": "2026-11-01T23:46:16.714550+07:00"
   },
   {
     "id": "102753",
@@ -747,7 +777,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T23:36:30.704347+07:00"
+    "fetchedAt": "2026-11-01T23:46:16.714550+07:00"
   },
   {
     "id": "1210919",
@@ -777,7 +807,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T23:36:30.704347+07:00"
+    "fetchedAt": "2026-11-01T23:46:16.714550+07:00"
   },
   {
     "id": "102467",
@@ -807,7 +837,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T23:36:30.704347+07:00"
+    "fetchedAt": "2026-11-01T23:46:16.714550+07:00"
   },
   {
     "id": "102398",
@@ -837,7 +867,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T23:36:30.704347+07:00"
+    "fetchedAt": "2026-11-01T23:46:16.714550+07:00"
   },
   {
     "id": "102616",
@@ -867,36 +897,6 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T23:36:30.704347+07:00"
-  },
-  {
-    "id": "1202516",
-    "symbol": "MGC",
-    "name": "Millennium Group Corporation Asia PCL",
-    "shortName": "Millennium Group",
-    "link": "https://www.investing.com/equities/millennium-corporation-asia",
-    "price": 6.05,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 8.31,
-    "fairValueUpside": 37.43,
-    "peRatio": 4.34,
-    "evEbitda": 7.09,
-    "marketCap": 6740000000,
-    "marketCapFormatted": "6.74 พันล้าน",
-    "epsGrowth5y": 1.83,
-    "changeOneDayPercent": -1.63,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T23:36:30.704347+07:00"
+    "fetchedAt": "2026-11-01T23:46:16.714550+07:00"
   }
 ]
