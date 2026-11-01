@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T09:07:05.241572+07:00"
+    "fetchedAt": "2026-11-01T09:17:55.110136+07:00"
   },
   {
     "id": "102451",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T09:07:05.241572+07:00"
+    "fetchedAt": "2026-11-01T09:17:55.110136+07:00"
   },
   {
     "id": "102569",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T09:07:05.241572+07:00"
+    "fetchedAt": "2026-11-01T09:17:55.110136+07:00"
   },
   {
     "id": "1130942",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T09:07:05.241572+07:00"
+    "fetchedAt": "2026-11-01T09:17:55.110136+07:00"
   },
   {
     "id": "1242508",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T09:07:05.241572+07:00"
+    "fetchedAt": "2026-11-01T09:17:55.110136+07:00"
   },
   {
     "id": "102751",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T09:07:05.241572+07:00"
+    "fetchedAt": "2026-11-01T09:17:55.110136+07:00"
   },
   {
     "id": "102869",
@@ -207,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T09:07:05.241572+07:00"
+    "fetchedAt": "2026-11-01T09:17:55.110136+07:00"
   },
   {
     "id": "986147",
@@ -237,57 +237,27 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T09:07:05.241572+07:00"
+    "fetchedAt": "2026-11-01T09:17:55.110136+07:00"
   },
   {
-    "id": "989494",
-    "symbol": "ITEL",
-    "name": "Interlink Telecom PCL",
-    "shortName": "Interlink Telecom",
-    "link": "https://www.investing.com/equities/interlink-telecom-pcl",
-    "price": 1.51,
+    "id": "1162301",
+    "symbol": "INSET",
+    "name": "Infraset PCL",
+    "shortName": "Infraset PCL",
+    "link": "https://www.investing.com/equities/infraset-pcl",
+    "price": 4.3,
     "currency": "THB",
     "currencySymbol": "฿",
-    "fairValue": 1.274999976158142,
-    "fairValueUpside": -15.559999644756317,
-    "peRatio": -14.020000457763672,
-    "evEbitda": 21.219457626342773,
-    "marketCap": 3150000000,
-    "marketCapFormatted": "3.15B",
-    "epsGrowth5y": -0.2955392897129059,
-    "changeOneDayPercent": -5.03,
+    "fairValue": 3.648699998855591,
+    "fairValueUpside": -15.150000154972076,
+    "peRatio": 33.90999984741211,
+    "evEbitda": 20.277999877929688,
+    "marketCap": 3450000000,
+    "marketCapFormatted": "3.45B",
+    "epsGrowth5y": -0.14099133014678955,
+    "changeOneDayPercent": 0.94,
     "financialHealth": "FAIR",
-    "financialCashFlowHealth": "FAIR",
-    "financialGrowthHealth": "WEAK",
-    "financialProfitabilityHealth": "FAIR",
-    "analystRatings": "BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-30T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T09:07:05.241572+07:00"
-  },
-  {
-    "id": "102714",
-    "symbol": "SIRI",
-    "name": "Sansiri PCL",
-    "shortName": "Sansiri",
-    "link": "https://www.investing.com/equities/sansiri",
-    "price": 1.4,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 1.1907000541687012,
-    "fairValueUpside": -14.949999749660492,
-    "peRatio": 6.059999942779541,
-    "evEbitda": 19.856884002685547,
-    "marketCap": 24610000000,
-    "marketCapFormatted": "24.61B",
-    "epsGrowth5y": 0.2871914207935333,
-    "changeOneDayPercent": -0.71,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "FAIR",
+    "financialCashFlowHealth": "WEAK",
     "financialGrowthHealth": "FAIR",
     "financialProfitabilityHealth": "GOOD",
     "analystRatings": "STRONG_BUY",
@@ -297,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T09:07:05.241572+07:00"
+    "fetchedAt": "2026-11-01T09:17:55.110136+07:00"
   },
   {
     "id": "102757",
@@ -327,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T09:07:05.241572+07:00"
+    "fetchedAt": "2026-11-01T09:17:55.110136+07:00"
   },
   {
     "id": "986137",
@@ -357,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T09:07:05.241572+07:00"
+    "fetchedAt": "2026-11-01T09:17:55.110136+07:00"
   },
   {
     "id": "1008691",
@@ -387,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T09:07:05.241572+07:00"
+    "fetchedAt": "2026-11-01T09:17:55.110136+07:00"
   },
   {
     "id": "102561",
@@ -417,37 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T09:07:05.241572+07:00"
-  },
-  {
-    "id": "102497",
-    "symbol": "EASTW",
-    "name": "Eastern Water Resources Development and Management PCL",
-    "shortName": "Eastern Water",
-    "link": "https://www.investing.com/equities/eastern-water",
-    "price": 4.16,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 3.62280011177063,
-    "fairValueUpside": -12.90999948978424,
-    "peRatio": 1.0299999713897705,
-    "evEbitda": 13.22780704498291,
-    "marketCap": 6920000000,
-    "marketCapFormatted": "6.92B",
-    "epsGrowth5y": 0.4642012417316437,
-    "changeOneDayPercent": -5.88,
-    "financialHealth": "FAIR",
-    "financialCashFlowHealth": "FAIR",
-    "financialGrowthHealth": "FAIR",
-    "financialProfitabilityHealth": "WEAK",
-    "analystRatings": "-",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-30T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T09:07:05.241572+07:00"
+    "fetchedAt": "2026-11-01T09:17:55.110136+07:00"
   },
   {
     "id": "102683",
@@ -477,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T09:07:05.241572+07:00"
+    "fetchedAt": "2026-11-01T09:17:55.110136+07:00"
   },
   {
     "id": "102442",
@@ -507,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T09:07:05.241572+07:00"
+    "fetchedAt": "2026-11-01T09:17:55.110136+07:00"
   },
   {
     "id": "102560",
@@ -537,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T09:07:05.241572+07:00"
+    "fetchedAt": "2026-11-01T09:17:55.110136+07:00"
   },
   {
     "id": "102540",
@@ -567,6 +507,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-01T09:07:05.241572+07:00"
+    "fetchedAt": "2026-11-01T09:17:55.110136+07:00"
   }
 ]
