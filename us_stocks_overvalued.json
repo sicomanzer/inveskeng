@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T17:08:01.287940+07:00"
+    "fetchedAt": "2026-11-01T17:39:27.152547+07:00"
   },
   {
     "id": "1169889",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T17:08:01.287940+07:00"
+    "fetchedAt": "2026-11-01T17:39:27.152547+07:00"
   },
   {
     "id": "261",
@@ -87,7 +87,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T17:08:01.287940+07:00"
+    "fetchedAt": "2026-11-01T17:39:27.152547+07:00"
+  },
+  {
+    "id": "1114321",
+    "symbol": "MRNA",
+    "name": "Moderna Inc",
+    "shortName": "Moderna",
+    "link": "https://www.investing.com/equities/moderna",
+    "price": 221.72,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 145.16,
+    "fairValueUpside": -34.53,
+    "peRatio": -27.42,
+    "evEbitda": -33.83,
+    "marketCap": 88520000000,
+    "marketCapFormatted": "88.52 พันล้าน",
+    "epsGrowth5y": 2.01,
+    "changeOneDayPercent": -0.47,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "แย่",
+    "financialProfitabilityHealth": "มูลค่าตามจริง",
+    "analystRatings": "ถือหุ้นไว้",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
+    "fetchedAt": "2026-11-01T17:39:27.152547+07:00"
   },
   {
     "id": "41268",
@@ -117,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T17:08:01.287940+07:00"
+    "fetchedAt": "2026-11-01T17:39:27.152547+07:00"
   },
   {
     "id": "13994",
@@ -147,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T17:08:01.287940+07:00"
+    "fetchedAt": "2026-11-01T17:39:27.152547+07:00"
   },
   {
     "id": "13852",
@@ -177,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T17:08:01.287940+07:00"
+    "fetchedAt": "2026-11-01T17:39:27.152547+07:00"
   },
   {
     "id": "13848",
@@ -207,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T17:08:01.287940+07:00"
+    "fetchedAt": "2026-11-01T17:39:27.152547+07:00"
   },
   {
     "id": "13067",
@@ -237,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T17:08:01.287940+07:00"
+    "fetchedAt": "2026-11-01T17:39:27.152547+07:00"
   },
   {
     "id": "7997",
@@ -267,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T17:08:01.287940+07:00"
+    "fetchedAt": "2026-11-01T17:39:27.152547+07:00"
   },
   {
     "id": "8260",
@@ -297,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T17:08:01.287940+07:00"
+    "fetchedAt": "2026-11-01T17:39:27.152547+07:00"
   },
   {
     "id": "7881",
@@ -327,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T17:08:01.287940+07:00"
+    "fetchedAt": "2026-11-01T17:39:27.152547+07:00"
   },
   {
     "id": "238",
@@ -357,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T17:08:01.287940+07:00"
+    "fetchedAt": "2026-11-01T17:39:27.152547+07:00"
   },
   {
     "id": "20164",
@@ -387,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T17:08:01.287940+07:00"
+    "fetchedAt": "2026-11-01T17:39:27.152547+07:00"
   },
   {
     "id": "13866",
@@ -417,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T17:08:01.287940+07:00"
+    "fetchedAt": "2026-11-01T17:39:27.152547+07:00"
   },
   {
     "id": "8158",
@@ -447,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T17:08:01.287940+07:00"
+    "fetchedAt": "2026-11-01T17:39:27.152547+07:00"
   },
   {
     "id": "24321",
@@ -477,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T17:08:01.287940+07:00"
+    "fetchedAt": "2026-11-01T17:39:27.152547+07:00"
   },
   {
     "id": "8136",
@@ -507,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T17:08:01.287940+07:00"
+    "fetchedAt": "2026-11-01T17:39:27.152547+07:00"
   },
   {
     "id": "958233",
@@ -537,67 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T17:08:01.287940+07:00"
-  },
-  {
-    "id": "1206256",
-    "symbol": "ARM",
-    "name": "Arm Holdings ADR",
-    "shortName": "Arm ADR",
-    "link": "https://www.investing.com/equities/arm",
-    "price": 205.97,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 166.95,
-    "fairValueUpside": -18.94,
-    "peRatio": 206.78,
-    "evEbitda": 208.0,
-    "marketCap": 219990000000,
-    "marketCapFormatted": "219.99 พันล้าน",
-    "epsGrowth5y": 1.13,
-    "changeOneDayPercent": -9.97,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T17:08:01.287940+07:00"
-  },
-  {
-    "id": "1161057",
-    "symbol": "HWM",
-    "name": "Howmet Aerospace&#160;Inc",
-    "shortName": "Howmet",
-    "link": "https://www.investing.com/equities/howmet-aerospace-inc",
-    "price": 199.22,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 163.65,
-    "fairValueUpside": -17.86,
-    "peRatio": 39.24,
-    "evEbitda": 28.0,
-    "marketCap": 79220000000,
-    "marketCapFormatted": "79.22 พันล้าน",
-    "epsGrowth5y": 0.56,
-    "changeOneDayPercent": -3.26,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดีเยี่ยม",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T17:08:01.287940+07:00"
+    "fetchedAt": "2026-11-01T17:39:27.152547+07:00"
   },
   {
     "id": "20486",
@@ -627,7 +597,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T17:08:01.287940+07:00"
+    "fetchedAt": "2026-11-01T17:39:27.152547+07:00"
   },
   {
     "id": "16678",
@@ -657,7 +627,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T17:08:01.287940+07:00"
+    "fetchedAt": "2026-11-01T17:39:27.152547+07:00"
   },
   {
     "id": "8252",
@@ -687,7 +657,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T17:08:01.287940+07:00"
+    "fetchedAt": "2026-11-01T17:39:27.152547+07:00"
   },
   {
     "id": "7943",
@@ -717,14 +687,14 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T17:08:01.287940+07:00"
+    "fetchedAt": "2026-11-01T17:39:27.152547+07:00"
   },
   {
-    "id": "7906",
-    "symbol": "CSX",
-    "name": "CSX Corporation",
-    "shortName": "CSX",
-    "link": "https://www.investing.com/equities/csx-corp",
+    "id": "8193",
+    "symbol": "GE",
+    "name": "GE Aerospace",
+    "shortName": "GE Aerospace",
+    "link": "https://www.investing.com/equities/general-electric",
     "price": 51.99,
     "currency": "USD",
     "currencySymbol": "$",
@@ -732,10 +702,10 @@
     "fairValueUpside": -16.47,
     "peRatio": 27.07,
     "evEbitda": 15.2,
-    "marketCap": 95770000000,
+    "marketCap": 311870000000,
     "marketCapFormatted": "95.77 พันล้าน",
     "epsGrowth5y": 0.06,
-    "changeOneDayPercent": -0.48,
+    "changeOneDayPercent": -3.59,
     "financialHealth": "ดี",
     "financialCashFlowHealth": "มูลค่าตามจริง",
     "financialGrowthHealth": "มูลค่าตามจริง",
@@ -747,29 +717,29 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T17:08:01.287940+07:00"
+    "fetchedAt": "2026-11-01T17:39:27.152547+07:00"
   },
   {
-    "id": "29723",
-    "symbol": "WAB",
-    "name": "Westinghouse Air Brake Technologies Corp",
-    "shortName": "Westinghouse Air Brake",
-    "link": "https://www.investing.com/equities/westinghouse-air-brake-tech",
-    "price": 279.6,
+    "id": "7906",
+    "symbol": "CSX",
+    "name": "CSX Corporation",
+    "shortName": "CSX",
+    "link": "https://www.investing.com/equities/csx-corp",
+    "price": 301.8,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 233.61,
-    "fairValueUpside": -16.45,
-    "peRatio": 34.9,
-    "evEbitda": 18.81,
-    "marketCap": 46920000000,
-    "marketCapFormatted": "46.92 พันล้าน",
-    "epsGrowth5y": 0.27,
-    "changeOneDayPercent": -2.09,
+    "fairValue": 252.1,
+    "fairValueUpside": -16.47,
+    "peRatio": 34.34,
+    "evEbitda": 23.08,
+    "marketCap": 95770000000,
+    "marketCapFormatted": "311.87 พันล้าน",
+    "epsGrowth5y": -1.27,
+    "changeOneDayPercent": -0.48,
     "financialHealth": "ดี",
     "financialCashFlowHealth": "มูลค่าตามจริง",
     "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
     "analystRatings": "ซื้อทันที",
     "flagCode": "US",
     "flagName": "United States",
@@ -777,7 +747,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T17:08:01.287940+07:00"
+    "fetchedAt": "2026-11-01T17:39:27.152547+07:00"
+  },
+  {
+    "id": "7956",
+    "symbol": "SO",
+    "name": "Southern Company",
+    "shortName": "Southern",
+    "link": "https://www.investing.com/equities/southern-co",
+    "price": 93.71,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 78.51,
+    "fairValueUpside": -16.22,
+    "peRatio": 22.65,
+    "evEbitda": 12.89,
+    "marketCap": 107800000000,
+    "marketCapFormatted": "107.8 พันล้าน",
+    "epsGrowth5y": 0.08,
+    "changeOneDayPercent": 0.77,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดี",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ถือหุ้นไว้",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
+    "fetchedAt": "2026-11-01T17:39:27.152547+07:00"
   },
   {
     "id": "6440",
@@ -807,7 +807,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T17:08:01.287940+07:00"
+    "fetchedAt": "2026-11-01T17:39:27.152547+07:00"
   },
   {
     "id": "39166",
@@ -837,7 +837,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T17:08:01.287940+07:00"
+    "fetchedAt": "2026-11-01T17:39:27.152547+07:00"
   },
   {
     "id": "8104",
@@ -867,7 +867,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T17:08:01.287940+07:00"
+    "fetchedAt": "2026-11-01T17:39:27.152547+07:00"
   },
   {
     "id": "8297",
@@ -897,6 +897,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-01T17:08:01.287940+07:00"
+    "fetchedAt": "2026-11-01T17:39:27.152547+07:00"
   }
 ]
