@@ -27,7 +27,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T02:11:46.101984+07:00"
+    "fetchedAt": "2026-11-02T04:09:40.408967+07:00"
   },
   {
     "id": "15722",
@@ -57,7 +57,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T02:11:46.101984+07:00"
+    "fetchedAt": "2026-11-02T04:09:40.408967+07:00"
   },
   {
     "id": "6373",
@@ -87,7 +87,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T02:11:46.101984+07:00"
+    "fetchedAt": "2026-11-02T04:09:40.408967+07:00"
   },
   {
     "id": "6370",
@@ -117,7 +117,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T02:11:46.101984+07:00"
+    "fetchedAt": "2026-11-02T04:09:40.408967+07:00"
   },
   {
     "id": "8042",
@@ -147,7 +147,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T02:11:46.101984+07:00"
+    "fetchedAt": "2026-11-02T04:09:40.408967+07:00"
   },
   {
     "id": "17195",
@@ -177,7 +177,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T02:11:46.101984+07:00"
+    "fetchedAt": "2026-11-02T04:09:40.408967+07:00"
   },
   {
     "id": "32341",
@@ -207,7 +207,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T02:11:46.101984+07:00"
+    "fetchedAt": "2026-11-02T04:09:40.408967+07:00"
   },
   {
     "id": "1220843",
@@ -237,37 +237,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T02:11:46.101984+07:00"
-  },
-  {
-    "id": "6448",
-    "symbol": "INTU",
-    "name": "Intuit Inc",
-    "shortName": "Intuit",
-    "link": "https://www.investing.com/equities/intuit",
-    "price": 341.09,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 534.54,
-    "fairValueUpside": 56.72,
-    "peRatio": 20.74,
-    "evEbitda": 13.49,
-    "marketCap": 91150000000,
-    "marketCapFormatted": "91.15 พันล้าน",
-    "epsGrowth5y": 0.18,
-    "changeOneDayPercent": 2.99,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T02:11:46.101984+07:00"
+    "fetchedAt": "2026-11-02T04:09:40.408967+07:00"
   },
   {
     "id": "7889",
@@ -278,8 +248,8 @@
     "price": 298.23,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 460.08,
-    "fairValueUpside": 54.27,
+    "fairValue": 460.11,
+    "fairValueUpside": 54.28,
     "peRatio": 12.32,
     "evEbitda": 6.64,
     "marketCap": 78800000000,
@@ -297,7 +267,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T02:11:46.101984+07:00"
+    "fetchedAt": "2026-11-02T04:09:40.408967+07:00"
   },
   {
     "id": "32331",
@@ -327,7 +297,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T02:11:46.101984+07:00"
+    "fetchedAt": "2026-11-02T04:09:40.408967+07:00"
   },
   {
     "id": "8294",
@@ -357,7 +327,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T02:11:46.101984+07:00"
+    "fetchedAt": "2026-11-02T04:09:40.408967+07:00"
   },
   {
     "id": "41176",
@@ -387,7 +357,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T02:11:46.101984+07:00"
+    "fetchedAt": "2026-11-02T04:09:40.408967+07:00"
   },
   {
     "id": "6497",
@@ -417,7 +387,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T02:11:46.101984+07:00"
+    "fetchedAt": "2026-11-02T04:09:40.408967+07:00"
   },
   {
     "id": "6516",
@@ -447,7 +417,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T02:11:46.101984+07:00"
+    "fetchedAt": "2026-11-02T04:09:40.408967+07:00"
   },
   {
     "id": "41239",
@@ -477,7 +447,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T02:11:46.101984+07:00"
+    "fetchedAt": "2026-11-02T04:09:40.408967+07:00"
   },
   {
     "id": "32381",
@@ -489,7 +459,7 @@
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 118.34,
-    "fairValueUpside": 44.33,
+    "fairValueUpside": 44.34,
     "peRatio": 10.9,
     "evEbitda": 7.4,
     "marketCap": 10940000000,
@@ -507,7 +477,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T02:11:46.101984+07:00"
+    "fetchedAt": "2026-11-02T04:09:40.408967+07:00"
   },
   {
     "id": "956170",
@@ -537,7 +507,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T02:11:46.101984+07:00"
+    "fetchedAt": "2026-11-02T04:09:40.408967+07:00"
+  },
+  {
+    "id": "32391",
+    "symbol": "REGN",
+    "name": "Regeneron Pharmaceuticals Inc",
+    "shortName": "Regeneron Pharmaceuticals",
+    "link": "https://www.investing.com/equities/regeneron-phar.",
+    "price": 927.89,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 1335.27,
+    "fairValueUpside": 43.9,
+    "peRatio": 22.72,
+    "evEbitda": 11.79,
+    "marketCap": 93110000000,
+    "marketCapFormatted": "93.11 พันล้าน",
+    "epsGrowth5y": 0.06,
+    "changeOneDayPercent": 13.33,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
+    "fetchedAt": "2026-11-02T04:09:40.408967+07:00"
   },
   {
     "id": "20529",
@@ -548,8 +548,8 @@
     "price": 711.23,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 1019.24,
-    "fairValueUpside": 43.31,
+    "fairValue": 1019.36,
+    "fairValueUpside": 43.32,
     "peRatio": 20.61,
     "evEbitda": 16.39,
     "marketCap": 15360000000,
@@ -567,7 +567,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T02:11:46.101984+07:00"
+    "fetchedAt": "2026-11-02T04:09:40.408967+07:00"
   },
   {
     "id": "39152",
@@ -597,7 +597,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T02:11:46.101984+07:00"
+    "fetchedAt": "2026-11-02T04:09:40.408967+07:00"
   },
   {
     "id": "19694",
@@ -627,7 +627,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T02:11:46.101984+07:00"
+    "fetchedAt": "2026-11-02T04:09:40.408967+07:00"
   },
   {
     "id": "8201",
@@ -657,7 +657,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T02:11:46.101984+07:00"
+    "fetchedAt": "2026-11-02T04:09:40.408967+07:00"
   },
   {
     "id": "8063",
@@ -687,7 +687,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T02:11:46.101984+07:00"
+    "fetchedAt": "2026-11-02T04:09:40.408967+07:00"
   },
   {
     "id": "39159",
@@ -717,7 +717,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T02:11:46.101984+07:00"
+    "fetchedAt": "2026-11-02T04:09:40.408967+07:00"
   },
   {
     "id": "13072",
@@ -728,8 +728,8 @@
     "price": 148.13,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 204.35,
-    "fairValueUpside": 37.95,
+    "fairValue": 204.36,
+    "fairValueUpside": 37.96,
     "peRatio": 16.36,
     "evEbitda": 11.02,
     "marketCap": 111300000000,
@@ -747,7 +747,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T02:11:46.101984+07:00"
+    "fetchedAt": "2026-11-02T04:09:40.408967+07:00"
   },
   {
     "id": "13969",
@@ -777,7 +777,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T02:11:46.101984+07:00"
+    "fetchedAt": "2026-11-02T04:09:40.408967+07:00"
   },
   {
     "id": "39135",
@@ -807,7 +807,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T02:11:46.101984+07:00"
+    "fetchedAt": "2026-11-02T04:09:40.408967+07:00"
   },
   {
     "id": "6392",
@@ -819,7 +819,7 @@
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 102.33,
-    "fairValueUpside": 37.05,
+    "fairValueUpside": 37.07,
     "peRatio": 17.9,
     "evEbitda": 8.79,
     "marketCap": 7580000000,
@@ -837,7 +837,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T02:11:46.101984+07:00"
+    "fetchedAt": "2026-11-02T04:09:40.408967+07:00"
   },
   {
     "id": "1115848",
@@ -867,7 +867,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T02:11:46.101984+07:00"
+    "fetchedAt": "2026-11-02T04:09:40.408967+07:00"
   },
   {
     "id": "15368",
@@ -897,6 +897,6 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-10-30T19:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T02:11:46.101984+07:00"
+    "fetchedAt": "2026-11-02T04:09:40.408967+07:00"
   }
 ]
