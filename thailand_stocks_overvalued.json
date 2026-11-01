@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T01:27:16.237329+07:00"
+    "fetchedAt": "2026-11-02T01:37:39.272083+07:00"
   },
   {
     "id": "102567",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T01:27:16.237329+07:00"
+    "fetchedAt": "2026-11-02T01:37:39.272083+07:00"
   },
   {
     "id": "1242508",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T01:27:16.237329+07:00"
+    "fetchedAt": "2026-11-02T01:37:39.272083+07:00"
   },
   {
     "id": "102451",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T01:27:16.237329+07:00"
+    "fetchedAt": "2026-11-02T01:37:39.272083+07:00"
   },
   {
     "id": "102569",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T01:27:16.237329+07:00"
+    "fetchedAt": "2026-11-02T01:37:39.272083+07:00"
   },
   {
     "id": "1130942",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T01:27:16.237329+07:00"
+    "fetchedAt": "2026-11-02T01:37:39.272083+07:00"
   },
   {
     "id": "102751",
@@ -207,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T01:27:16.237329+07:00"
+    "fetchedAt": "2026-11-02T01:37:39.272083+07:00"
   },
   {
     "id": "102869",
@@ -237,7 +237,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T01:27:16.237329+07:00"
+    "fetchedAt": "2026-11-02T01:37:39.272083+07:00"
+  },
+  {
+    "id": "986147",
+    "symbol": "BEM",
+    "name": "Bangkok Expressway and Metro PCL",
+    "shortName": "BEM",
+    "link": "https://www.investing.com/equities/bangkok-expressway-and-metro",
+    "price": 6.2,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 5.170199871063232,
+    "fairValueUpside": -16.609999537467957,
+    "peRatio": 23.959999084472656,
+    "evEbitda": 22.949678421020508,
+    "marketCap": 92860000000,
+    "marketCapFormatted": "92.86B",
+    "epsGrowth5y": 0.2634294033050537,
+    "changeOneDayPercent": -0.8,
+    "financialHealth": "FAIR",
+    "financialCashFlowHealth": "WEAK",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "GREAT",
+    "analystRatings": "STRONG_BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-30T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
+    "fetchedAt": "2026-11-02T01:37:39.272083+07:00"
   },
   {
     "id": "989494",
@@ -267,7 +297,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T01:27:16.237329+07:00"
+    "fetchedAt": "2026-11-02T01:37:39.272083+07:00"
+  },
+  {
+    "id": "986137",
+    "symbol": "ALT",
+    "name": "ALT Telecom PCL",
+    "shortName": "ALT Telecom",
+    "link": "https://www.investing.com/equities/alt-telecom-pcl",
+    "price": 1.52,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 1.2847000360488892,
+    "fairValueUpside": -15.479999780654907,
+    "peRatio": 87.86000061035156,
+    "evEbitda": 12.552435874938965,
+    "marketCap": 1690000000,
+    "marketCapFormatted": "1.69B",
+    "epsGrowth5y": -1.7917653322219849,
+    "changeOneDayPercent": -3.8,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "FAIR",
+    "financialGrowthHealth": "GOOD",
+    "financialProfitabilityHealth": "FAIR",
+    "analystRatings": "-",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-30T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
+    "fetchedAt": "2026-11-02T01:37:39.272083+07:00"
   },
   {
     "id": "1162301",
@@ -297,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T01:27:16.237329+07:00"
+    "fetchedAt": "2026-11-02T01:37:39.272083+07:00"
   },
   {
     "id": "102714",
@@ -327,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T01:27:16.237329+07:00"
+    "fetchedAt": "2026-11-02T01:37:39.272083+07:00"
   },
   {
     "id": "102757",
@@ -357,67 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T01:27:16.237329+07:00"
-  },
-  {
-    "id": "1008691",
-    "symbol": "WHAUP",
-    "name": "Wha Utilities and Power PCL",
-    "shortName": "Wha Utilities",
-    "link": "https://www.investing.com/equities/wha-utilities-and-power-pcl",
-    "price": 6.8,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 5.827099800109863,
-    "fairValueUpside": -14.309999346733093,
-    "peRatio": 17.5,
-    "evEbitda": 14.439263343811035,
-    "marketCap": 26010000000,
-    "marketCapFormatted": "26.01B",
-    "epsGrowth5y": 0.2955760657787323,
-    "changeOneDayPercent": -0.73,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "FAIR",
-    "financialGrowthHealth": "GREAT",
-    "financialProfitabilityHealth": "GOOD",
-    "analystRatings": "STRONG_BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-30T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T01:27:16.237329+07:00"
-  },
-  {
-    "id": "102497",
-    "symbol": "EASTW",
-    "name": "Eastern Water Resources Development and Management PCL",
-    "shortName": "Eastern Water",
-    "link": "https://www.investing.com/equities/eastern-water",
-    "price": 4.16,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 3.62280011177063,
-    "fairValueUpside": -12.90999948978424,
-    "peRatio": 1.0299999713897705,
-    "evEbitda": 12.54293441772461,
-    "marketCap": 6920000000,
-    "marketCapFormatted": "6.92B",
-    "epsGrowth5y": 0.4642012417316437,
-    "changeOneDayPercent": -5.88,
-    "financialHealth": "FAIR",
-    "financialCashFlowHealth": "WEAK",
-    "financialGrowthHealth": "FAIR",
-    "financialProfitabilityHealth": "WEAK",
-    "analystRatings": "-",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-30T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T01:27:16.237329+07:00"
+    "fetchedAt": "2026-11-02T01:37:39.272083+07:00"
   },
   {
     "id": "102561",
@@ -447,7 +447,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T01:27:16.237329+07:00"
+    "fetchedAt": "2026-11-02T01:37:39.272083+07:00"
+  },
+  {
+    "id": "102497",
+    "symbol": "EASTW",
+    "name": "Eastern Water Resources Development and Management PCL",
+    "shortName": "Eastern Water",
+    "link": "https://www.investing.com/equities/eastern-water",
+    "price": 4.16,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 3.62280011177063,
+    "fairValueUpside": -12.90999948978424,
+    "peRatio": 1.0299999713897705,
+    "evEbitda": 12.54293441772461,
+    "marketCap": 6920000000,
+    "marketCapFormatted": "6.92B",
+    "epsGrowth5y": 0.4642012417316437,
+    "changeOneDayPercent": -5.88,
+    "financialHealth": "FAIR",
+    "financialCashFlowHealth": "WEAK",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "WEAK",
+    "analystRatings": "-",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-30T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
+    "fetchedAt": "2026-11-02T01:37:39.272083+07:00"
   },
   {
     "id": "102683",
@@ -477,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T01:27:16.237329+07:00"
+    "fetchedAt": "2026-11-02T01:37:39.272083+07:00"
   },
   {
     "id": "102442",
@@ -507,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T01:27:16.237329+07:00"
+    "fetchedAt": "2026-11-02T01:37:39.272083+07:00"
   },
   {
     "id": "102560",
@@ -537,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T01:27:16.237329+07:00"
+    "fetchedAt": "2026-11-02T01:37:39.272083+07:00"
   },
   {
     "id": "102540",
@@ -567,6 +597,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T01:27:16.237329+07:00"
+    "fetchedAt": "2026-11-02T01:37:39.272083+07:00"
   }
 ]
