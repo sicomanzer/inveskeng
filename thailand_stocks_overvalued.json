@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T03:34:49.135714+07:00"
+    "fetchedAt": "2026-11-02T03:45:47.077709+07:00"
   },
   {
     "id": "102567",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T03:34:49.135714+07:00"
+    "fetchedAt": "2026-11-02T03:45:47.077709+07:00"
   },
   {
     "id": "1242508",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T03:34:49.135714+07:00"
+    "fetchedAt": "2026-11-02T03:45:47.077709+07:00"
   },
   {
     "id": "102451",
@@ -117,7 +117,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T03:34:49.135714+07:00"
+    "fetchedAt": "2026-11-02T03:45:47.077709+07:00"
+  },
+  {
+    "id": "102569",
+    "symbol": "KTB",
+    "name": "Krung Thai Bank PCL",
+    "shortName": "Krung Thai Bank",
+    "link": "https://www.investing.com/equities/krung-thai-ban",
+    "price": 43.75,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 34.99570083618164,
+    "fairValueUpside": -20.010000467300415,
+    "peRatio": 12.75,
+    "evEbitda": null,
+    "marketCap": 611450000000,
+    "marketCapFormatted": "611.45B",
+    "epsGrowth5y": 0.23846369981765747,
+    "changeOneDayPercent": -0.57,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "GOOD",
+    "financialGrowthHealth": "GOOD",
+    "financialProfitabilityHealth": "GOOD",
+    "analystRatings": "BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-30T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
+    "fetchedAt": "2026-11-02T03:45:47.077709+07:00"
   },
   {
     "id": "1130942",
@@ -147,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T03:34:49.135714+07:00"
+    "fetchedAt": "2026-11-02T03:45:47.077709+07:00"
   },
   {
     "id": "102751",
@@ -177,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T03:34:49.135714+07:00"
+    "fetchedAt": "2026-11-02T03:45:47.077709+07:00"
   },
   {
     "id": "102869",
@@ -207,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T03:34:49.135714+07:00"
+    "fetchedAt": "2026-11-02T03:45:47.077709+07:00"
   },
   {
     "id": "986147",
@@ -218,7 +248,7 @@
     "price": 6.2,
     "currency": "THB",
     "currencySymbol": "฿",
-    "fairValue": 5.170599937438965,
+    "fairValue": 5.1707000732421875,
     "fairValueUpside": -16.599999368190765,
     "peRatio": 23.959999084472656,
     "evEbitda": 22.949678421020508,
@@ -237,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T03:34:49.135714+07:00"
+    "fetchedAt": "2026-11-02T03:45:47.077709+07:00"
   },
   {
     "id": "989494",
@@ -267,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T03:34:49.135714+07:00"
+    "fetchedAt": "2026-11-02T03:45:47.077709+07:00"
   },
   {
     "id": "986137",
@@ -297,7 +327,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T03:34:49.135714+07:00"
+    "fetchedAt": "2026-11-02T03:45:47.077709+07:00"
+  },
+  {
+    "id": "1162301",
+    "symbol": "INSET",
+    "name": "Infraset PCL",
+    "shortName": "Infraset PCL",
+    "link": "https://www.investing.com/equities/infraset-pcl",
+    "price": 4.3,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 3.648699998855591,
+    "fairValueUpside": -15.150000154972076,
+    "peRatio": 33.90999984741211,
+    "evEbitda": 21.036876678466797,
+    "marketCap": 3450000000,
+    "marketCapFormatted": "3.45B",
+    "epsGrowth5y": -0.14099133014678955,
+    "changeOneDayPercent": 0.94,
+    "financialHealth": "FAIR",
+    "financialCashFlowHealth": "WEAK",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "GOOD",
+    "analystRatings": "STRONG_BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-30T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
+    "fetchedAt": "2026-11-02T03:45:47.077709+07:00"
   },
   {
     "id": "102714",
@@ -327,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T03:34:49.135714+07:00"
+    "fetchedAt": "2026-11-02T03:45:47.077709+07:00"
   },
   {
     "id": "102757",
@@ -357,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T03:34:49.135714+07:00"
+    "fetchedAt": "2026-11-02T03:45:47.077709+07:00"
   },
   {
     "id": "1008691",
@@ -387,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T03:34:49.135714+07:00"
+    "fetchedAt": "2026-11-02T03:45:47.077709+07:00"
   },
   {
     "id": "102497",
@@ -417,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T03:34:49.135714+07:00"
+    "fetchedAt": "2026-11-02T03:45:47.077709+07:00"
   },
   {
     "id": "102561",
@@ -447,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T03:34:49.135714+07:00"
+    "fetchedAt": "2026-11-02T03:45:47.077709+07:00"
   },
   {
     "id": "102683",
@@ -477,37 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T03:34:49.135714+07:00"
-  },
-  {
-    "id": "102442",
-    "symbol": "BJC",
-    "name": "Berli Jucker PCL",
-    "shortName": "Berli Jucker",
-    "link": "https://www.investing.com/equities/berli-jucker",
-    "price": 19.7,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 17.22599983215332,
-    "fairValueUpside": -12.559999525547028,
-    "peRatio": 13.479999542236328,
-    "evEbitda": 12.679821968078613,
-    "marketCap": 78950000000,
-    "marketCapFormatted": "78.95B",
-    "epsGrowth5y": 0.030917756259441376,
-    "changeOneDayPercent": -1.5,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "FAIR",
-    "financialGrowthHealth": "FAIR",
-    "financialProfitabilityHealth": "FAIR",
-    "analystRatings": "BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-30T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T03:34:49.135714+07:00"
+    "fetchedAt": "2026-11-02T03:45:47.077709+07:00"
   },
   {
     "id": "102560",
@@ -537,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T03:34:49.135714+07:00"
+    "fetchedAt": "2026-11-02T03:45:47.077709+07:00"
   },
   {
     "id": "102540",
@@ -567,6 +597,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T10:49:59.000Z",
     "sourceUpdatedTime": "2026-10-30T10:49:59.000Z",
-    "fetchedAt": "2026-11-02T03:34:49.135714+07:00"
+    "fetchedAt": "2026-11-02T03:45:47.077709+07:00"
   }
 ]
