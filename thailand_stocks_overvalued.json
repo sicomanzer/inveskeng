@@ -25,9 +25,9 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-02T07:48:09.000Z",
-    "sourceUpdatedTime": "2026-11-02T07:48:09.000Z",
-    "fetchedAt": "2026-11-02T15:03:24.335551+07:00"
+    "lastUpdateTime": "2026-11-02T07:58:14.000Z",
+    "sourceUpdatedTime": "2026-11-02T07:58:14.000Z",
+    "fetchedAt": "2026-11-02T15:13:23.533303+07:00"
   },
   {
     "id": "1199621",
@@ -55,9 +55,9 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-02T07:48:09.000Z",
-    "sourceUpdatedTime": "2026-11-02T07:48:09.000Z",
-    "fetchedAt": "2026-11-02T15:03:24.335551+07:00"
+    "lastUpdateTime": "2026-11-02T07:58:14.000Z",
+    "sourceUpdatedTime": "2026-11-02T07:58:14.000Z",
+    "fetchedAt": "2026-11-02T15:13:23.533303+07:00"
   },
   {
     "id": "102451",
@@ -85,9 +85,9 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-02T07:48:09.000Z",
-    "sourceUpdatedTime": "2026-11-02T07:48:09.000Z",
-    "fetchedAt": "2026-11-02T15:03:24.335551+07:00"
+    "lastUpdateTime": "2026-11-02T07:58:14.000Z",
+    "sourceUpdatedTime": "2026-11-02T07:58:14.000Z",
+    "fetchedAt": "2026-11-02T15:13:23.533303+07:00"
   },
   {
     "id": "102567",
@@ -115,9 +115,9 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-02T07:48:09.000Z",
-    "sourceUpdatedTime": "2026-11-02T07:48:09.000Z",
-    "fetchedAt": "2026-11-02T15:03:24.335551+07:00"
+    "lastUpdateTime": "2026-11-02T07:58:14.000Z",
+    "sourceUpdatedTime": "2026-11-02T07:58:14.000Z",
+    "fetchedAt": "2026-11-02T15:13:23.533303+07:00"
   },
   {
     "id": "1242508",
@@ -145,9 +145,9 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-02T07:48:09.000Z",
-    "sourceUpdatedTime": "2026-11-02T07:48:09.000Z",
-    "fetchedAt": "2026-11-02T15:03:24.335551+07:00"
+    "lastUpdateTime": "2026-11-02T07:58:14.000Z",
+    "sourceUpdatedTime": "2026-11-02T07:58:14.000Z",
+    "fetchedAt": "2026-11-02T15:13:23.533303+07:00"
   },
   {
     "id": "1130942",
@@ -175,9 +175,9 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-02T07:48:09.000Z",
-    "sourceUpdatedTime": "2026-11-02T07:48:09.000Z",
-    "fetchedAt": "2026-11-02T15:03:24.335551+07:00"
+    "lastUpdateTime": "2026-11-02T07:58:14.000Z",
+    "sourceUpdatedTime": "2026-11-02T07:58:14.000Z",
+    "fetchedAt": "2026-11-02T15:13:23.533303+07:00"
   },
   {
     "id": "102497",
@@ -185,7 +185,7 @@
     "name": "Eastern Water Resources Development and Management PCL",
     "shortName": "Eastern Water",
     "link": "https://www.investing.com/equities/eastern-water",
-    "price": 4.18,
+    "price": 4.16,
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 3.372299909591675,
@@ -195,7 +195,7 @@
     "marketCap": 6990000000,
     "marketCapFormatted": "6.99B",
     "epsGrowth5y": 0.4642012417316437,
-    "changeOneDayPercent": 0.48,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "FAIR",
     "financialCashFlowHealth": "WEAK",
     "financialGrowthHealth": "FAIR",
@@ -205,9 +205,9 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-02T07:48:09.000Z",
-    "sourceUpdatedTime": "2026-11-02T07:48:09.000Z",
-    "fetchedAt": "2026-11-02T15:03:24.335551+07:00"
+    "lastUpdateTime": "2026-11-02T07:58:14.000Z",
+    "sourceUpdatedTime": "2026-11-02T07:58:14.000Z",
+    "fetchedAt": "2026-11-02T15:13:23.533303+07:00"
   },
   {
     "id": "102569",
@@ -215,7 +215,7 @@
     "name": "Krung Thai Bank PCL",
     "shortName": "Krung Thai Bank",
     "link": "https://www.investing.com/equities/krung-thai-ban",
-    "price": 43.5,
+    "price": 43.25,
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 34.99570083618164,
@@ -225,7 +225,7 @@
     "marketCap": 607960000000,
     "marketCapFormatted": "607.96B",
     "epsGrowth5y": 0.23846369981765747,
-    "changeOneDayPercent": -0.57,
+    "changeOneDayPercent": -1.14,
     "financialHealth": "GOOD",
     "financialCashFlowHealth": "GOOD",
     "financialGrowthHealth": "GOOD",
@@ -235,9 +235,9 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-02T07:48:09.000Z",
-    "sourceUpdatedTime": "2026-11-02T07:48:09.000Z",
-    "fetchedAt": "2026-11-02T15:03:24.335551+07:00"
+    "lastUpdateTime": "2026-11-02T07:58:14.000Z",
+    "sourceUpdatedTime": "2026-11-02T07:58:14.000Z",
+    "fetchedAt": "2026-11-02T15:13:23.533303+07:00"
   },
   {
     "id": "1162301",
@@ -245,7 +245,7 @@
     "name": "Infraset PCL",
     "shortName": "Infraset PCL",
     "link": "https://www.investing.com/equities/infraset-pcl",
-    "price": 4.38,
+    "price": 4.36,
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 3.648900032043457,
@@ -255,7 +255,7 @@
     "marketCap": 3450000000,
     "marketCapFormatted": "3.45B",
     "epsGrowth5y": -0.14099133014678955,
-    "changeOneDayPercent": 1.86,
+    "changeOneDayPercent": 1.4,
     "financialHealth": "FAIR",
     "financialCashFlowHealth": "WEAK",
     "financialGrowthHealth": "FAIR",
@@ -265,9 +265,9 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-02T07:48:09.000Z",
-    "sourceUpdatedTime": "2026-11-02T07:48:09.000Z",
-    "fetchedAt": "2026-11-02T15:03:24.335551+07:00"
+    "lastUpdateTime": "2026-11-02T07:58:14.000Z",
+    "sourceUpdatedTime": "2026-11-02T07:58:14.000Z",
+    "fetchedAt": "2026-11-02T15:13:23.533303+07:00"
   },
   {
     "id": "102869",
@@ -295,9 +295,9 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-02T07:48:09.000Z",
-    "sourceUpdatedTime": "2026-11-02T07:48:09.000Z",
-    "fetchedAt": "2026-11-02T15:03:24.335551+07:00"
+    "lastUpdateTime": "2026-11-02T07:58:14.000Z",
+    "sourceUpdatedTime": "2026-11-02T07:58:14.000Z",
+    "fetchedAt": "2026-11-02T15:13:23.533303+07:00"
   },
   {
     "id": "986147",
@@ -305,7 +305,7 @@
     "name": "Bangkok Expressway and Metro PCL",
     "shortName": "BEM",
     "link": "https://www.investing.com/equities/bangkok-expressway-and-metro",
-    "price": 6.15,
+    "price": 6.2,
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 5.1707000732421875,
@@ -315,7 +315,7 @@
     "marketCap": 92860000000,
     "marketCapFormatted": "92.86B",
     "epsGrowth5y": 0.2634294033050537,
-    "changeOneDayPercent": -0.81,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "FAIR",
     "financialCashFlowHealth": "WEAK",
     "financialGrowthHealth": "FAIR",
@@ -325,9 +325,9 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-02T07:48:09.000Z",
-    "sourceUpdatedTime": "2026-11-02T07:48:09.000Z",
-    "fetchedAt": "2026-11-02T15:03:24.335551+07:00"
+    "lastUpdateTime": "2026-11-02T07:58:14.000Z",
+    "sourceUpdatedTime": "2026-11-02T07:58:14.000Z",
+    "fetchedAt": "2026-11-02T15:13:23.533303+07:00"
   },
   {
     "id": "986137",
@@ -355,9 +355,9 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-02T07:48:09.000Z",
-    "sourceUpdatedTime": "2026-11-02T07:48:09.000Z",
-    "fetchedAt": "2026-11-02T15:03:24.335551+07:00"
+    "lastUpdateTime": "2026-11-02T07:58:14.000Z",
+    "sourceUpdatedTime": "2026-11-02T07:58:14.000Z",
+    "fetchedAt": "2026-11-02T15:13:23.533303+07:00"
   },
   {
     "id": "102714",
@@ -385,9 +385,39 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-02T07:48:09.000Z",
-    "sourceUpdatedTime": "2026-11-02T07:48:09.000Z",
-    "fetchedAt": "2026-11-02T15:03:24.335551+07:00"
+    "lastUpdateTime": "2026-11-02T07:58:14.000Z",
+    "sourceUpdatedTime": "2026-11-02T07:58:14.000Z",
+    "fetchedAt": "2026-11-02T15:13:23.533303+07:00"
+  },
+  {
+    "id": "102561",
+    "symbol": "KCE",
+    "name": "KCE Electronics PCL",
+    "shortName": "KCE Electronics",
+    "link": "https://www.investing.com/equities/kce-elec",
+    "price": 71.25,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 59.8828010559082,
+    "fairValueUpside": -15.360000729560852,
+    "peRatio": 90.4800033569336,
+    "evEbitda": 43.92044448852539,
+    "marketCap": 83630000000,
+    "marketCapFormatted": "83.63B",
+    "epsGrowth5y": 0.038457516580820084,
+    "changeOneDayPercent": 3.64,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "GREAT",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "GREAT",
+    "analystRatings": "BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-02T07:58:14.000Z",
+    "sourceUpdatedTime": "2026-11-02T07:58:14.000Z",
+    "fetchedAt": "2026-11-02T15:13:23.533303+07:00"
   },
   {
     "id": "989494",
@@ -415,9 +445,9 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-02T07:48:09.000Z",
-    "sourceUpdatedTime": "2026-11-02T07:48:09.000Z",
-    "fetchedAt": "2026-11-02T15:03:24.335551+07:00"
+    "lastUpdateTime": "2026-11-02T07:58:14.000Z",
+    "sourceUpdatedTime": "2026-11-02T07:58:14.000Z",
+    "fetchedAt": "2026-11-02T15:13:23.533303+07:00"
   },
   {
     "id": "102757",
@@ -425,7 +455,7 @@
     "name": "STP&I PCL",
     "shortName": "STP&I",
     "link": "https://www.investing.com/equities/stp---i",
-    "price": 5.55,
+    "price": 5.6,
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 4.766600131988525,
@@ -435,7 +465,7 @@
     "marketCap": 10150000000,
     "marketCapFormatted": "10.15B",
     "epsGrowth5y": 2.9889392852783203,
-    "changeOneDayPercent": -0.89,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "GOOD",
     "financialCashFlowHealth": "GOOD",
     "financialGrowthHealth": "GOOD",
@@ -445,9 +475,9 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-02T07:48:09.000Z",
-    "sourceUpdatedTime": "2026-11-02T07:48:09.000Z",
-    "fetchedAt": "2026-11-02T15:03:24.335551+07:00"
+    "lastUpdateTime": "2026-11-02T07:58:14.000Z",
+    "sourceUpdatedTime": "2026-11-02T07:58:14.000Z",
+    "fetchedAt": "2026-11-02T15:13:23.533303+07:00"
   },
   {
     "id": "102442",
@@ -455,7 +485,7 @@
     "name": "Berli Jucker PCL",
     "shortName": "Berli Jucker",
     "link": "https://www.investing.com/equities/berli-jucker",
-    "price": 20.1,
+    "price": 20.0,
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 17.231000900268555,
@@ -465,7 +495,7 @@
     "marketCap": 80560000000,
     "marketCapFormatted": "80.56B",
     "epsGrowth5y": 0.030917756259441376,
-    "changeOneDayPercent": 2.03,
+    "changeOneDayPercent": 1.52,
     "financialHealth": "GOOD",
     "financialCashFlowHealth": "FAIR",
     "financialGrowthHealth": "FAIR",
@@ -475,9 +505,9 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-02T07:48:09.000Z",
-    "sourceUpdatedTime": "2026-11-02T07:48:09.000Z",
-    "fetchedAt": "2026-11-02T15:03:24.335551+07:00"
+    "lastUpdateTime": "2026-11-02T07:58:14.000Z",
+    "sourceUpdatedTime": "2026-11-02T07:58:14.000Z",
+    "fetchedAt": "2026-11-02T15:13:23.533303+07:00"
   },
   {
     "id": "102683",
@@ -485,7 +515,7 @@
     "name": "RATCH Group Public Company Limited",
     "shortName": "Ratch Group",
     "link": "https://www.investing.com/equities/ratchaburi",
-    "price": 36.5,
+    "price": 36.75,
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 32.10649871826172,
@@ -495,7 +525,7 @@
     "marketCap": 79930000000,
     "marketCapFormatted": "79.93B",
     "epsGrowth5y": -0.053401317447423935,
-    "changeOneDayPercent": -2.67,
+    "changeOneDayPercent": -2.0,
     "financialHealth": "FAIR",
     "financialCashFlowHealth": "GOOD",
     "financialGrowthHealth": "FAIR",
@@ -505,9 +535,9 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-02T07:48:09.000Z",
-    "sourceUpdatedTime": "2026-11-02T07:48:09.000Z",
-    "fetchedAt": "2026-11-02T15:03:24.335551+07:00"
+    "lastUpdateTime": "2026-11-02T07:58:14.000Z",
+    "sourceUpdatedTime": "2026-11-02T07:58:14.000Z",
+    "fetchedAt": "2026-11-02T15:13:23.533303+07:00"
   },
   {
     "id": "1008691",
@@ -535,8 +565,8 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-02T07:48:09.000Z",
-    "sourceUpdatedTime": "2026-11-02T07:48:09.000Z",
-    "fetchedAt": "2026-11-02T15:03:24.335551+07:00"
+    "lastUpdateTime": "2026-11-02T07:58:14.000Z",
+    "sourceUpdatedTime": "2026-11-02T07:58:14.000Z",
+    "fetchedAt": "2026-11-02T15:13:23.533303+07:00"
   }
 ]
