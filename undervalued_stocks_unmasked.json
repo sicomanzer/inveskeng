@@ -25,9 +25,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T04:30:58.364308+07:00"
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T14:35:15.595495+07:00"
   },
   {
     "id": "15722",
@@ -55,9 +55,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T04:30:58.364308+07:00"
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T14:35:15.595495+07:00"
   },
   {
     "id": "6373",
@@ -85,9 +85,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T04:30:58.364308+07:00"
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T14:35:15.595495+07:00"
   },
   {
     "id": "6370",
@@ -115,9 +115,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T04:30:58.364308+07:00"
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T14:35:15.595495+07:00"
   },
   {
     "id": "8042",
@@ -128,8 +128,8 @@
     "price": 38.55,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 61.88,
-    "fairValueUpside": 60.52,
+    "fairValue": 61.89,
+    "fairValueUpside": 60.55,
     "peRatio": 5.9,
     "evEbitda": 11.46,
     "marketCap": 19880000000,
@@ -145,9 +145,39 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T04:30:58.364308+07:00"
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T14:35:15.595495+07:00"
+  },
+  {
+    "id": "17195",
+    "symbol": "SMCI",
+    "name": "Super Micro Computer Inc",
+    "shortName": "Super Micro Computer",
+    "link": "https://www.investing.com/equities/super-micro-compu",
+    "price": 32.95,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 52.48,
+    "fairValueUpside": 59.27,
+    "peRatio": 9.87,
+    "evEbitda": 9.77,
+    "marketCap": 21650000000,
+    "marketCapFormatted": "21.65 พันล้าน",
+    "epsGrowth5y": 0.84,
+    "changeOneDayPercent": -4.3,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ถือหุ้นไว้",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T14:35:15.595495+07:00"
   },
   {
     "id": "32341",
@@ -158,8 +188,8 @@
     "price": 140.51,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 222.32,
-    "fairValueUpside": 58.22,
+    "fairValue": 222.34,
+    "fairValueUpside": 58.24,
     "peRatio": 18.69,
     "evEbitda": 8.78,
     "marketCap": 7250000000,
@@ -175,9 +205,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T04:30:58.364308+07:00"
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T14:35:15.595495+07:00"
   },
   {
     "id": "1220843",
@@ -205,9 +235,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T04:30:58.364308+07:00"
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T14:35:15.595495+07:00"
   },
   {
     "id": "6448",
@@ -235,9 +265,39 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T04:30:58.364308+07:00"
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T14:35:15.595495+07:00"
+  },
+  {
+    "id": "7889",
+    "symbol": "CI",
+    "name": "Cigna Corp",
+    "shortName": "Cigna",
+    "link": "https://www.investing.com/equities/cigna-corp",
+    "price": 298.23,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 460.11,
+    "fairValueUpside": 54.28,
+    "peRatio": 12.32,
+    "evEbitda": 6.64,
+    "marketCap": 78800000000,
+    "marketCapFormatted": "78.8 พันล้าน",
+    "epsGrowth5y": 0.11,
+    "changeOneDayPercent": -0.06,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "ดี",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T14:35:15.595495+07:00"
   },
   {
     "id": "32331",
@@ -248,8 +308,8 @@
     "price": 43.93,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 64.97,
-    "fairValueUpside": 47.91,
+    "fairValue": 64.98,
+    "fairValueUpside": 47.92,
     "peRatio": 19.9,
     "evEbitda": 3.94,
     "marketCap": 9120000000,
@@ -265,9 +325,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T04:30:58.364308+07:00"
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T14:35:15.595495+07:00"
   },
   {
     "id": "8294",
@@ -278,8 +338,8 @@
     "price": 229.17,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 335.75,
-    "fairValueUpside": 46.51,
+    "fairValue": 335.8,
+    "fairValueUpside": 46.53,
     "peRatio": 21.18,
     "evEbitda": 16.15,
     "marketCap": 188610000000,
@@ -295,9 +355,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T04:30:58.364308+07:00"
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T14:35:15.595495+07:00"
   },
   {
     "id": "41176",
@@ -308,8 +368,8 @@
     "price": 79.72,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 115.54,
-    "fairValueUpside": 44.93,
+    "fairValue": 115.56,
+    "fairValueUpside": 44.95,
     "peRatio": 12.98,
     "evEbitda": 9.97,
     "marketCap": 32940000000,
@@ -325,39 +385,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T04:30:58.364308+07:00"
-  },
-  {
-    "id": "6497",
-    "symbol": "NVDA",
-    "name": "NVIDIA Corporation",
-    "shortName": "NVIDIA",
-    "link": "https://www.investing.com/equities/nvidia-corp",
-    "price": 204.64,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 296.22,
-    "fairValueUpside": 44.75,
-    "peRatio": 25.63,
-    "evEbitda": 24.18,
-    "marketCap": 4940000000000,
-    "marketCapFormatted": "4.94 ล้านล้าน",
-    "epsGrowth5y": 1.57,
-    "changeOneDayPercent": -4.22,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดีเยี่ยม",
-    "financialGrowthHealth": "ดีเยี่ยม",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T04:30:58.364308+07:00"
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T14:35:15.595495+07:00"
   },
   {
     "id": "6516",
@@ -385,9 +415,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T04:30:58.364308+07:00"
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T14:35:15.595495+07:00"
   },
   {
     "id": "41239",
@@ -398,8 +428,8 @@
     "price": 105.12,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 151.92,
-    "fairValueUpside": 44.52,
+    "fairValue": 151.94,
+    "fairValueUpside": 44.54,
     "peRatio": 75.0,
     "evEbitda": 32.81,
     "marketCap": 109110000000,
@@ -415,9 +445,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T04:30:58.364308+07:00"
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T14:35:15.595495+07:00"
   },
   {
     "id": "32381",
@@ -445,9 +475,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T04:30:58.364308+07:00"
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T14:35:15.595495+07:00"
   },
   {
     "id": "956170",
@@ -458,8 +488,8 @@
     "price": 57.01,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 82.05,
-    "fairValueUpside": 43.92,
+    "fairValue": 82.06,
+    "fairValueUpside": 43.94,
     "peRatio": 10.88,
     "evEbitda": 7.14,
     "marketCap": 47360000000,
@@ -475,9 +505,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T04:30:58.364308+07:00"
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T14:35:15.595495+07:00"
   },
   {
     "id": "32391",
@@ -505,9 +535,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T04:30:58.364308+07:00"
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T14:35:15.595495+07:00"
   },
   {
     "id": "20529",
@@ -535,39 +565,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T04:30:58.364308+07:00"
-  },
-  {
-    "id": "39152",
-    "symbol": "LKQ",
-    "name": "LKQ Corporation",
-    "shortName": "LKQ",
-    "link": "https://www.investing.com/equities/lkq",
-    "price": 18.56,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 26.56,
-    "fairValueUpside": 43.12,
-    "peRatio": 18.14,
-    "evEbitda": 7.11,
-    "marketCap": 4680000000,
-    "marketCapFormatted": "4.68 พันล้าน",
-    "epsGrowth5y": -0.04,
-    "changeOneDayPercent": 2.54,
-    "financialHealth": "มูลค่าตามจริง",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "แย่",
-    "financialProfitabilityHealth": "มูลค่าตามจริง",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T04:30:58.364308+07:00"
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T14:35:15.595495+07:00"
   },
   {
     "id": "19694",
@@ -595,9 +595,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T04:30:58.364308+07:00"
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T14:35:15.595495+07:00"
   },
   {
     "id": "8201",
@@ -625,9 +625,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T04:30:58.364308+07:00"
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T14:35:15.595495+07:00"
   },
   {
     "id": "8063",
@@ -638,8 +638,8 @@
     "price": 40.12,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 56.04,
-    "fairValueUpside": 39.67,
+    "fairValue": 56.05,
+    "fairValueUpside": 39.7,
     "peRatio": -3.33,
     "evEbitda": 5.88,
     "marketCap": 7490000000,
@@ -655,9 +655,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T04:30:58.364308+07:00"
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T14:35:15.595495+07:00"
   },
   {
     "id": "39159",
@@ -668,8 +668,8 @@
     "price": 178.82,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 247.81,
-    "fairValueUpside": 38.58,
+    "fairValue": 247.84,
+    "fairValueUpside": 38.6,
     "peRatio": 18.63,
     "evEbitda": 12.71,
     "marketCap": 20190000000,
@@ -685,9 +685,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T04:30:58.364308+07:00"
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T14:35:15.595495+07:00"
   },
   {
     "id": "13072",
@@ -715,9 +715,39 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T04:30:58.364308+07:00"
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T14:35:15.595495+07:00"
+  },
+  {
+    "id": "13969",
+    "symbol": "AVGO",
+    "name": "Broadcom Inc",
+    "shortName": "Broadcom",
+    "link": "https://www.investing.com/equities/avago-technologies",
+    "price": 326.08,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 447.44,
+    "fairValueUpside": 37.22,
+    "peRatio": 41.15,
+    "evEbitda": 30.46,
+    "marketCap": 1560000000000,
+    "marketCapFormatted": "1.56 ล้านล้าน",
+    "epsGrowth5y": 0.68,
+    "changeOneDayPercent": -5.48,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "ดีเยี่ยม",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T14:35:15.595495+07:00"
   },
   {
     "id": "39135",
@@ -728,8 +758,8 @@
     "price": 228.79,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 313.91,
-    "fairValueUpside": 37.21,
+    "fairValue": 313.95,
+    "fairValueUpside": 37.22,
     "peRatio": 20.89,
     "evEbitda": 11.77,
     "marketCap": 14450000000,
@@ -745,9 +775,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T04:30:58.364308+07:00"
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T14:35:15.595495+07:00"
   },
   {
     "id": "6392",
@@ -775,39 +805,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T04:30:58.364308+07:00"
-  },
-  {
-    "id": "1115848",
-    "symbol": "UBER",
-    "name": "Uber Technologies Inc",
-    "shortName": "Uber",
-    "link": "https://www.investing.com/equities/uber-technologies-inc",
-    "price": 65.25,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 89.11,
-    "fairValueUpside": 36.56,
-    "peRatio": 14.19,
-    "evEbitda": 16.93,
-    "marketCap": 133280000000,
-    "marketCapFormatted": "133.28 พันล้าน",
-    "epsGrowth5y": 0.44,
-    "changeOneDayPercent": -0.75,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดีเยี่ยม",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T04:30:58.364308+07:00"
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T14:35:15.595495+07:00"
   },
   {
     "id": "15368",
@@ -835,9 +835,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T04:30:58.364308+07:00"
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T14:35:15.595495+07:00"
   },
   {
     "id": "39277",
@@ -865,9 +865,9 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T04:30:58.364308+07:00"
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T14:35:15.595495+07:00"
   },
   {
     "id": "13850",
@@ -878,8 +878,8 @@
     "price": 21.28,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 28.85,
-    "fairValueUpside": 35.59,
+    "fairValue": 28.86,
+    "fairValueUpside": 35.6,
     "peRatio": 34.6,
     "evEbitda": 10.42,
     "marketCap": 11710000000,
@@ -895,8 +895,8 @@
     "flagName": "United States",
     "market": "US",
     "valuationType": "undervalued",
-    "lastUpdateTime": "2026-10-30T19:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T19:59:59.000Z",
-    "fetchedAt": "2026-11-02T04:30:58.364308+07:00"
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T14:35:15.595495+07:00"
   }
 ]

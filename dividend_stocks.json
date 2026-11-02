@@ -1,7 +1,7 @@
 {
- "asOf": "2026-11-02T14:07:27.234564+07:00",
- "sourceAsOf": "2026-11-02T04:46:18.907545+07:00",
- "partial": true,
+ "asOf": "2026-11-02T14:38:32.515287+07:00",
+ "sourceAsOf": "2026-11-02T14:38:28.808662+07:00",
+ "partial": false,
  "criteria": {
   "market": "TH",
   "divYieldMin": 5,
@@ -10,7 +10,7 @@
   "sort": "marketcap_adj_latest desc",
   "primaryOnly": true
  },
- "totalMatches": 191,
+ "totalMatches": 193,
  "sourceUrl": "https://th.investing.com/stock-screener?ssid=v2%24eyJrZXlzIjpbImNvbm5lY3RpdmUiLCJsaW1pdCIsInByZWZpbHRlcnMubWFya2V0IiwicHJlZmlsdGVycy5wcmltYXJ5T25seSIsInNvcnQuZGlyZWN0aW9uIiwic29ydC5tZXRyaWMiLCJmaWx0ZXJzLjAuZ3QuaW5jbHVzaXZlIiwiZmlsdGVycy4wLmd0LnNjYWxlIiwiZmlsdGVycy4wLmd0LnZhbHVlIiwiZmlsdGVycy4wLm1ldHJpYyIsImZpbHRlcnMuMS5ndC5pbmNsdXNpdmUiLCJmaWx0ZXJzLjEuZ3Quc2NhbGUiLCJmaWx0ZXJzLjEuZ3QudmFsdWUiLCJmaWx0ZXJzLjEubWV0cmljIl0sInZhbHVlcyI6WyJBTEwiLDMwLCJUSCIsdHJ1ZSwiREVTQyIsIm1hcmtldGNhcF9hZGpfbGF0ZXN0Iix0cnVlLDEsMC4wNSwiZGl2X3lpZWxkIix0cnVlLDEsMC4wNSwiZGl2X3lpZWxkX2F2Z181eSJdfQ%3D%3D",
  "items": [
   {
@@ -20,12 +20,16 @@
    "path": "/equities/ptt",
    "sector": "Energy",
    "industry": "Oil & Gas",
-   "sourcePrice": 42,
-   "sourceChangePercent": -0.59,
-   "marketCap": 1190000000000,
-   "peRatio": 9.67,
+   "sourcePrice": 41.25,
+   "sourceChangePercent": -1.79,
+   "marketCap": 1180000000000,
+   "peRatio": 9.56,
    "pegRatio": 0.13,
    "currency": "THB",
+   "price": 41.25,
+   "changePercent": -1.79,
+   "divYield": 6.79,
+   "avgYield5y": 5.8,
    "dpsLastYear": 2.8,
    "dpsPrevFY": 2.3,
    "divPayments": [
@@ -101,11 +105,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 41.25,
-   "changePercent": -1.79,
-   "divYield": 6.79,
-   "avgYield5y": 5.8
+   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00"
   },
   {
    "symbol": "PTTEP",
@@ -114,12 +114,16 @@
    "path": "/equities/ptt-exp---prod",
    "sector": "Energy",
    "industry": "Oil & Gas",
-   "sourcePrice": 165,
-   "sourceChangePercent": 0.92,
-   "marketCap": 655050000000,
-   "peRatio": 9.07,
+   "sourcePrice": 159.5,
+   "sourceChangePercent": -3.33,
+   "marketCap": 635200000000,
+   "peRatio": 8.56,
    "pegRatio": 0.44,
    "currency": "THB",
+   "price": 159.5,
+   "changePercent": -3.33,
+   "divYield": 5.74,
+   "avgYield5y": 6.14,
    "dpsLastYear": 9.15,
    "dpsPrevFY": 8.75,
    "divPayments": [
@@ -195,11 +199,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 159.0,
-   "changePercent": -3.64,
-   "divYield": 5.75,
-   "avgYield5y": 6.14
+   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00"
   },
   {
    "symbol": "KTB",
@@ -208,12 +208,16 @@
    "path": "/equities/krung-thai-ban",
    "sector": "Financials",
    "industry": "Banking Services",
-   "sourcePrice": 43.75,
-   "sourceChangePercent": -0.57,
-   "marketCap": 611450000000,
-   "peRatio": 12.75,
+   "sourcePrice": 43.25,
+   "sourceChangePercent": -1.14,
+   "marketCap": 604460000000,
+   "peRatio": 12.68,
    "pegRatio": -12.81,
    "currency": "THB",
+   "price": 43.25,
+   "changePercent": -1.14,
+   "divYield": 7.28,
+   "avgYield5y": 3.86,
    "dpsLastYear": 3.15,
    "dpsPrevFY": 2.67,
    "divPayments": [
@@ -269,11 +273,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 43.25,
-   "changePercent": -1.14,
-   "divYield": 7.28,
-   "avgYield5y": 3.86
+   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00"
   },
   {
    "symbol": "SCB",
@@ -282,12 +282,16 @@
    "path": "/equities/scb-x-pcl",
    "sector": "Financials",
    "industry": "Banking Services",
-   "sourcePrice": 152.5,
-   "sourceChangePercent": -0.65,
+   "sourcePrice": 151,
+   "sourceChangePercent": -0.98,
    "marketCap": 513480000000,
    "peRatio": 11.37,
    "pegRatio": -0.86,
    "currency": "THB",
+   "price": 151.0,
+   "changePercent": -0.98,
+   "divYield": 7.47,
+   "avgYield5y": 6.14,
    "dpsLastYear": 11.28,
    "dpsPrevFY": 11.28,
    "divPayments": [
@@ -341,11 +345,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 151.0,
-   "changePercent": -0.98,
-   "divYield": 7.47,
-   "avgYield5y": 6.14
+   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00"
   },
   {
    "symbol": "BBL",
@@ -354,12 +354,16 @@
    "path": "/equities/bangkok-bank",
    "sector": "Financials",
    "industry": "Banking Services",
-   "sourcePrice": 185,
-   "sourceChangePercent": -1.33,
-   "marketCap": 353140000000,
-   "peRatio": 9.36,
+   "sourcePrice": 184,
+   "sourceChangePercent": -0.54,
+   "marketCap": 351230000000,
+   "peRatio": 9.31,
    "pegRatio": -0.42,
    "currency": "THB",
+   "price": 183.5,
+   "changePercent": -0.81,
+   "divYield": 5.45,
+   "avgYield5y": 3.69,
    "dpsLastYear": 10.0,
    "dpsPrevFY": 10.0,
    "divPayments": [
@@ -431,11 +435,89 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 184.0,
-   "changePercent": -0.54,
-   "divYield": 5.43,
-   "avgYield5y": 3.69
+   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00"
+  },
+  {
+   "symbol": "TISCO",
+   "name": "ทิสโก้ไฟแนนเชียลกรุ๊ป",
+   "pairId": 102835,
+   "path": "/equities/tisco-financ",
+   "sector": "Financials",
+   "industry": "Banking Services",
+   "sourcePrice": 124.5,
+   "sourceChangePercent": 0.0,
+   "marketCap": 99680000000,
+   "peRatio": 14.52,
+   "pegRatio": 6.17,
+   "currency": "THB",
+   "price": 124.5,
+   "changePercent": 0.0,
+   "divYield": 6.22,
+   "avgYield5y": 7.68,
+   "dpsLastYear": 7.75,
+   "dpsPrevFY": 7.75,
+   "divPayments": [
+    {
+     "date": "2020-04-27",
+     "amount": 7.75
+    },
+    {
+     "date": "2021-04-28",
+     "amount": 6.3
+    },
+    {
+     "date": "2022-04-29",
+     "amount": 7.15
+    },
+    {
+     "date": "2023-04-21",
+     "amount": 7.75
+    },
+    {
+     "date": "2023-09-06",
+     "amount": 2.0
+    },
+    {
+     "date": "2024-04-24",
+     "amount": 5.75
+    },
+    {
+     "date": "2024-09-10",
+     "amount": 2.0
+    },
+    {
+     "date": "2025-04-25",
+     "amount": 5.75
+    },
+    {
+     "date": "2025-09-10",
+     "amount": 2.0
+    },
+    {
+     "date": "2026-04-29",
+     "amount": 5.75
+    },
+    {
+     "date": "2026-09-07",
+     "amount": 2.0
+    }
+   ],
+   "dpsByYear": {
+    "2026": 7.75,
+    "2025": 7.75,
+    "2024": 7.75,
+    "2023": 9.75,
+    "2022": 7.15,
+    "2021": 6.3
+   },
+   "yieldYearsUsed": [
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+   ],
+   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00"
   },
   {
    "symbol": "KKP",
@@ -444,12 +526,16 @@
    "path": "/equities/kiatnakin-bank",
    "sector": "Financials",
    "industry": "Banking Services",
-   "sourcePrice": 116.5,
-   "sourceChangePercent": -2.1,
-   "marketCap": 100250000000,
-   "peRatio": 12.1,
+   "sourcePrice": 114.5,
+   "sourceChangePercent": -1.72,
+   "marketCap": 98530000000,
+   "peRatio": 11.57,
    "pegRatio": 0.26,
    "currency": "THB",
+   "price": 114.5,
+   "changePercent": -1.72,
+   "divYield": 6.51,
+   "avgYield5y": 5.56,
    "dpsLastYear": 7.45,
    "dpsPrevFY": 5.7,
    "divPayments": [
@@ -521,93 +607,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 114.5,
-   "changePercent": -1.72,
-   "divYield": 6.51,
-   "avgYield5y": 5.56
-  },
-  {
-   "symbol": "TISCO",
-   "name": "ทิสโก้ไฟแนนเชียลกรุ๊ป",
-   "pairId": 102835,
-   "path": "/equities/tisco-financ",
-   "sector": "Financials",
-   "industry": "Banking Services",
-   "sourcePrice": 124.5,
-   "sourceChangePercent": -0.4,
-   "marketCap": 99680000000,
-   "peRatio": 14.52,
-   "pegRatio": 6.17,
-   "currency": "THB",
-   "dpsLastYear": 7.75,
-   "dpsPrevFY": 7.75,
-   "divPayments": [
-    {
-     "date": "2020-04-27",
-     "amount": 7.75
-    },
-    {
-     "date": "2021-04-28",
-     "amount": 6.3
-    },
-    {
-     "date": "2022-04-29",
-     "amount": 7.15
-    },
-    {
-     "date": "2023-04-21",
-     "amount": 7.75
-    },
-    {
-     "date": "2023-09-06",
-     "amount": 2.0
-    },
-    {
-     "date": "2024-04-24",
-     "amount": 5.75
-    },
-    {
-     "date": "2024-09-10",
-     "amount": 2.0
-    },
-    {
-     "date": "2025-04-25",
-     "amount": 5.75
-    },
-    {
-     "date": "2025-09-10",
-     "amount": 2.0
-    },
-    {
-     "date": "2026-04-29",
-     "amount": 5.75
-    },
-    {
-     "date": "2026-09-07",
-     "amount": 2.0
-    }
-   ],
-   "dpsByYear": {
-    "2026": 7.75,
-    "2025": 7.75,
-    "2024": 7.75,
-    "2023": 9.75,
-    "2022": 7.15,
-    "2021": 6.3
-   },
-   "yieldYearsUsed": [
-    "2021",
-    "2022",
-    "2023",
-    "2024",
-    "2025"
-   ],
-   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 124.5,
-   "changePercent": 0.0,
-   "divYield": 6.22,
-   "avgYield5y": 7.68
+   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00"
   },
   {
    "symbol": "BCP",
@@ -616,12 +616,16 @@
    "path": "/equities/bangchak",
    "sector": "Energy",
    "industry": "Oil & Gas",
-   "sourcePrice": 46.75,
-   "sourceChangePercent": 0.0,
-   "marketCap": 68390000000,
-   "peRatio": 3.03,
+   "sourcePrice": 46.25,
+   "sourceChangePercent": -1.07,
+   "marketCap": 68030000000,
+   "peRatio": 3.06,
    "pegRatio": 0.0,
    "currency": "THB",
+   "price": 46.25,
+   "changePercent": -1.07,
+   "divYield": 8.76,
+   "avgYield5y": 4.74,
    "dpsLastYear": 4.05,
    "dpsPrevFY": 1.05,
    "divPayments": [
@@ -689,11 +693,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 46.25,
-   "changePercent": -1.07,
-   "divYield": 8.76,
-   "avgYield5y": 4.74
+   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00"
   },
   {
    "symbol": "TU",
@@ -702,12 +702,16 @@
    "path": "/equities/thai-union-group-pcl",
    "sector": "Consumer Non-Cyclicals",
    "industry": "Food & Tobacco",
-   "sourcePrice": 12.699999809265137,
-   "sourceChangePercent": -2.31,
-   "marketCap": 58260000000,
-   "peRatio": 10.43,
+   "sourcePrice": 12.800000190734863,
+   "sourceChangePercent": 0.79,
+   "marketCap": 60050000000,
+   "peRatio": 10.51,
    "pegRatio": 1.55,
    "currency": "THB",
+   "price": 12.9,
+   "changePercent": 1.57,
+   "divYield": 5.81,
+   "avgYield5y": 4.86,
    "dpsLastYear": 0.75,
    "dpsPrevFY": 0.7,
    "divPayments": [
@@ -783,11 +787,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 12.9,
-   "changePercent": 1.57,
-   "divYield": 5.81,
-   "avgYield5y": 4.86
+   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00"
   },
   {
    "symbol": "TFG",
@@ -797,11 +797,15 @@
    "sector": "Consumer Non-Cyclicals",
    "industry": "Food & Tobacco",
    "sourcePrice": 9.699999809265137,
-   "sourceChangePercent": 2.11,
+   "sourceChangePercent": 0.0,
    "marketCap": 57590000000,
    "peRatio": 9.13,
    "pegRatio": -1.14,
    "currency": "THB",
+   "price": 9.7,
+   "changePercent": 0.0,
+   "divYield": 7.32,
+   "avgYield5y": 5.96,
    "dpsLastYear": 0.71,
    "dpsPrevFY": 0.71,
    "divPayments": [
@@ -893,11 +897,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 9.75,
-   "changePercent": 0.52,
-   "divYield": 7.28,
-   "avgYield5y": 5.96
+   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00"
   },
   {
    "symbol": "CPNREITu",
@@ -907,21 +907,21 @@
    "sector": "Real Estate",
    "industry": "Residential & Commercial REITs",
    "sourcePrice": 12.899999618530273,
-   "sourceChangePercent": -0.77,
+   "sourceChangePercent": 0.0,
    "marketCap": 46710000000,
    "peRatio": 14.22,
    "pegRatio": 0.71,
    "currency": "THB",
+   "price": 12.9,
+   "changePercent": 0.0,
+   "divYield": null,
+   "avgYield5y": null,
    "dpsLastYear": null,
    "dpsPrevFY": null,
    "divPayments": [],
    "dpsByYear": {},
    "yieldYearsUsed": [],
-   "dividendsAsOf": null,
-   "price": 12.9,
-   "changePercent": -0.77,
-   "divYield": null,
-   "avgYield5y": null
+   "dividendsAsOf": null
   },
   {
    "symbol": "SCCC",
@@ -930,12 +930,16 @@
    "path": "/equities/siam-city",
    "sector": "Basic Materials",
    "industry": "Construction Materials",
-   "sourcePrice": 151,
-   "sourceChangePercent": 0.0,
-   "marketCap": 45000000000,
-   "peRatio": 10.87,
+   "sourcePrice": 150.5,
+   "sourceChangePercent": -0.33,
+   "marketCap": 44850000000,
+   "peRatio": 10.83,
    "pegRatio": -0.49,
    "currency": "THB",
+   "price": 150.5,
+   "changePercent": -0.33,
+   "divYield": 7.31,
+   "avgYield5y": 6.54,
    "dpsLastYear": 11.0,
    "dpsPrevFY": 11.0,
    "divPayments": [
@@ -995,11 +999,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 150.5,
-   "changePercent": -0.33,
-   "divYield": 7.31,
-   "avgYield5y": 6.54
+   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00"
   },
   {
    "symbol": "LH",
@@ -1008,12 +1008,16 @@
    "path": "/equities/land---house",
    "sector": "Real Estate",
    "industry": "Real Estate Operations",
-   "sourcePrice": 3.5199999809265137,
-   "sourceChangePercent": -1.12,
-   "marketCap": 42060000000,
-   "peRatio": 15.91,
+   "sourcePrice": 3.5399999618530273,
+   "sourceChangePercent": 0.57,
+   "marketCap": 42300000000,
+   "peRatio": 16.0,
    "pegRatio": -0.3,
    "currency": "THB",
+   "price": 3.54,
+   "changePercent": 0.57,
+   "divYield": 5.65,
+   "avgYield5y": 6.98,
    "dpsLastYear": 0.2,
    "dpsPrevFY": 0.25,
    "divPayments": [
@@ -1089,11 +1093,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 3.54,
-   "changePercent": 0.57,
-   "divYield": 5.65,
-   "avgYield5y": 6.98
+   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00"
   },
   {
    "symbol": "BKIH",
@@ -1102,12 +1102,16 @@
    "path": "/equities/bki-holdings-pcl",
    "sector": "Financials",
    "industry": "Insurance",
-   "sourcePrice": 394,
-   "sourceChangePercent": -1.25,
+   "sourcePrice": 397,
+   "sourceChangePercent": 0.76,
    "marketCap": 40990000000,
    "peRatio": null,
    "pegRatio": 0.23,
    "currency": "THB",
+   "price": 396.0,
+   "changePercent": 0.51,
+   "divYield": 5.93,
+   "avgYield5y": 4.76,
    "dpsLastYear": 23.5,
    "dpsPrevFY": 22.75,
    "divPayments": [
@@ -1153,11 +1157,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 396.0,
-   "changePercent": 0.51,
-   "divYield": 5.93,
-   "avgYield5y": 4.76
+   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00"
   },
   {
    "symbol": "TTW",
@@ -1166,12 +1166,16 @@
    "path": "/equities/ttw",
    "sector": "Utilities",
    "industry": "Water & Related Utilities",
-   "sourcePrice": 10,
-   "sourceChangePercent": -0.99,
+   "sourcePrice": 10.100000381469727,
+   "sourceChangePercent": 1.0,
    "marketCap": 39900000000,
-   "peRatio": 12.74,
+   "peRatio": 12.87,
    "pegRatio": null,
    "currency": "THB",
+   "price": 10.1,
+   "changePercent": 1.0,
+   "divYield": 5.94,
+   "avgYield5y": 6.34,
    "dpsLastYear": 0.6,
    "dpsPrevFY": 0.6,
    "divPayments": [
@@ -1247,11 +1251,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 10.1,
-   "changePercent": 1.0,
-   "divYield": 5.94,
-   "avgYield5y": 6.34
+   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00"
   },
   {
    "symbol": "SPALI",
@@ -1260,12 +1260,16 @@
    "path": "/equities/supalai-pub",
    "sector": "Real Estate",
    "industry": "Real Estate Operations",
-   "sourcePrice": 15.699999809265137,
-   "sourceChangePercent": -1.26,
-   "marketCap": 29830000000,
-   "peRatio": 6.51,
+   "sourcePrice": 15.800000190734863,
+   "sourceChangePercent": 0.64,
+   "marketCap": 30020000000,
+   "peRatio": 6.55,
    "pegRatio": -0.46,
    "currency": "THB",
+   "price": 15.8,
+   "changePercent": 0.64,
+   "divYield": 7.91,
+   "avgYield5y": 6.76,
    "dpsLastYear": 1.25,
    "dpsPrevFY": 1.25,
    "divPayments": [
@@ -1341,11 +1345,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 15.8,
-   "changePercent": 0.64,
-   "divYield": 7.91,
-   "avgYield5y": 6.76
+   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00"
   },
   {
    "symbol": "TASCO",
@@ -1355,11 +1355,15 @@
    "sector": "Basic Materials",
    "industry": "Construction Materials",
    "sourcePrice": 16.799999237060547,
-   "sourceChangePercent": -0.59,
-   "marketCap": 26520000000,
+   "sourceChangePercent": 0.0,
+   "marketCap": 26360000000,
    "peRatio": 22.68,
    "pegRatio": -0.5,
    "currency": "THB",
+   "price": 16.7,
+   "changePercent": -0.6,
+   "divYield": 5.99,
+   "avgYield5y": 8.07,
    "dpsLastYear": 1.0,
    "dpsPrevFY": 1.0,
    "divPayments": [
@@ -1431,11 +1435,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 16.8,
-   "changePercent": 0.0,
-   "divYield": 5.95,
-   "avgYield5y": 8.07
+   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00"
   },
   {
    "symbol": "STGT",
@@ -1445,11 +1445,15 @@
    "sector": "Healthcare",
    "industry": "Healthcare Equipment & Supplies",
    "sourcePrice": 9.399999618530273,
-   "sourceChangePercent": -1.05,
+   "sourceChangePercent": 0.0,
    "marketCap": 25950000000,
    "peRatio": 91.7,
    "pegRatio": -1.18,
    "currency": "THB",
+   "price": 9.4,
+   "changePercent": 0.0,
+   "divYield": 7.98,
+   "avgYield5y": 9.12,
    "dpsLastYear": 0.75,
    "dpsPrevFY": 0.5,
    "divPayments": [
@@ -1517,11 +1521,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 9.35,
-   "changePercent": -0.53,
-   "divYield": 8.02,
-   "avgYield5y": 9.12
+   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00"
   },
   {
    "symbol": "TVO",
@@ -1530,12 +1530,16 @@
    "path": "/equities/thai-vegetable",
    "sector": "Consumer Non-Cyclicals",
    "industry": "Food & Tobacco",
-   "sourcePrice": 28,
-   "sourceChangePercent": 0.0,
-   "marketCap": 24910000000,
-   "peRatio": 9.6,
+   "sourcePrice": 28.75,
+   "sourceChangePercent": 2.68,
+   "marketCap": 25570000000,
+   "peRatio": 9.86,
    "pegRatio": 1.39,
    "currency": "THB",
+   "price": 28.75,
+   "changePercent": 2.68,
+   "divYield": 7.2,
+   "avgYield5y": 5.82,
    "dpsLastYear": 2.07,
    "dpsPrevFY": 1.97,
    "divPayments": [
@@ -1607,11 +1611,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 28.75,
-   "changePercent": 2.68,
-   "divYield": 7.2,
-   "avgYield5y": 5.82
+   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00"
   },
   {
    "symbol": "SIRI",
@@ -1620,12 +1620,16 @@
    "path": "/equities/sansiri",
    "sector": "Real Estate",
    "industry": "Real Estate Operations",
-   "sourcePrice": 1.399999976158142,
-   "sourceChangePercent": -0.71,
-   "marketCap": 24610000000,
-   "peRatio": 6.06,
+   "sourcePrice": 1.409999966621399,
+   "sourceChangePercent": 0.71,
+   "marketCap": 24960000000,
+   "peRatio": 6.15,
    "pegRatio": -1.15,
    "currency": "THB",
+   "price": 1.41,
+   "changePercent": 0.71,
+   "divYield": 9.22,
+   "avgYield5y": 7.99,
    "dpsLastYear": 0.13,
    "dpsPrevFY": 0.13,
    "divPayments": [
@@ -1693,11 +1697,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 1.42,
-   "changePercent": 1.43,
-   "divYield": 9.15,
-   "avgYield5y": 7.99
+   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00"
   },
   {
    "symbol": "AP",
@@ -1706,12 +1706,16 @@
    "path": "/equities/ap-thailand",
    "sector": "Real Estate",
    "industry": "Real Estate Operations",
-   "sourcePrice": 7.75,
-   "sourceChangePercent": -0.64,
-   "marketCap": 24380000000,
-   "peRatio": 5.52,
+   "sourcePrice": 7.800000190734863,
+   "sourceChangePercent": 0.65,
+   "marketCap": 24540000000,
+   "peRatio": 5.56,
    "pegRatio": -1.28,
    "currency": "THB",
+   "price": 7.8,
+   "changePercent": 0.65,
+   "divYield": 6.67,
+   "avgYield5y": 6.08,
    "dpsLastYear": 0.52,
    "dpsPrevFY": 0.52,
    "divPayments": [
@@ -1759,11 +1763,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 7.75,
-   "changePercent": 0.0,
-   "divYield": 6.71,
-   "avgYield5y": 6.08
+   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00"
   },
   {
    "symbol": "BAM",
@@ -1773,11 +1773,15 @@
    "sector": "Financials",
    "industry": "Investment Banking & Investment Services",
    "sourcePrice": 6.25,
-   "sourceChangePercent": -0.79,
+   "sourceChangePercent": 0.0,
    "marketCap": 20200000000,
    "peRatio": 27.75,
    "pegRatio": -0.4,
    "currency": "THB",
+   "price": 6.25,
+   "changePercent": 0.0,
+   "divYield": 8.0,
+   "avgYield5y": 4.64,
    "dpsLastYear": 0.5,
    "dpsPrevFY": 0.5,
    "divPayments": [
@@ -1825,11 +1829,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 6.25,
-   "changePercent": 0.0,
-   "divYield": 8.0,
-   "avgYield5y": 4.64
+   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00"
   },
   {
    "symbol": "PRM",
@@ -1838,12 +1838,16 @@
    "path": "/equities/prima-marine",
    "sector": "Energy",
    "industry": "Oil & Gas Related Equipment and Services",
-   "sourcePrice": 8.75,
-   "sourceChangePercent": 1.74,
-   "marketCap": 19430000000,
-   "peRatio": 9.02,
+   "sourcePrice": 8.699999809265137,
+   "sourceChangePercent": -0.57,
+   "marketCap": 19310000000,
+   "peRatio": 8.97,
    "pegRatio": 1.3,
    "currency": "THB",
+   "price": 8.7,
+   "changePercent": -0.57,
+   "divYield": 5.17,
+   "avgYield5y": 5.51,
    "dpsLastYear": 0.45,
    "dpsPrevFY": 0.5,
    "divPayments": [
@@ -1919,11 +1923,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 8.7,
-   "changePercent": -0.57,
-   "divYield": 5.17,
-   "avgYield5y": 5.51
+   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00"
   },
   {
    "symbol": "IMPACTu",
@@ -1933,21 +1933,21 @@
    "sector": "Real Estate",
    "industry": "Residential & Commercial REITs",
    "sourcePrice": 12.5,
-   "sourceChangePercent": -3.1,
+   "sourceChangePercent": 0.0,
    "marketCap": 18530000000,
    "peRatio": 15.0,
    "pegRatio": 1.05,
    "currency": "THB",
+   "price": 12.5,
+   "changePercent": 0.0,
+   "divYield": null,
+   "avgYield5y": null,
    "dpsLastYear": null,
    "dpsPrevFY": null,
    "divPayments": [],
    "dpsByYear": {},
    "yieldYearsUsed": [],
-   "dividendsAsOf": null,
-   "price": 12.5,
-   "changePercent": -3.1,
-   "divYield": null,
-   "avgYield5y": null
+   "dividendsAsOf": null
   },
   {
    "symbol": "STANLY",
@@ -1956,12 +1956,16 @@
    "path": "/equities/thai-stanley-e",
    "sector": "Consumer Cyclicals",
    "industry": "Automobiles & Auto Parts",
-   "sourcePrice": 239,
-   "sourceChangePercent": -0.42,
-   "marketCap": 18310000000,
-   "peRatio": 9.8,
+   "sourcePrice": 241,
+   "sourceChangePercent": 0.84,
+   "marketCap": 18470000000,
+   "peRatio": 9.84,
    "pegRatio": 1.32,
    "currency": "THB",
+   "price": 240.0,
+   "changePercent": 0.42,
+   "divYield": 10.42,
+   "avgYield5y": 7.65,
    "dpsLastYear": 25.0,
    "dpsPrevFY": 20.0,
    "divPayments": [
@@ -2013,11 +2017,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 241.0,
-   "changePercent": 0.84,
-   "divYield": 10.37,
-   "avgYield5y": 7.65
+   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00"
   },
   {
    "symbol": "ICHI",
@@ -2027,11 +2027,15 @@
    "sector": "Consumer Non-Cyclicals",
    "industry": "Beverages",
    "sourcePrice": 14,
-   "sourceChangePercent": 0.72,
+   "sourceChangePercent": 0.0,
    "marketCap": 18200000000,
    "peRatio": 14.27,
    "pegRatio": 2.87,
    "currency": "THB",
+   "price": 14.0,
+   "changePercent": 0.0,
+   "divYield": 7.14,
+   "avgYield5y": 6.35,
    "dpsLastYear": 1.0,
    "dpsPrevFY": 1.1,
    "divPayments": [
@@ -2095,11 +2099,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 14.0,
-   "changePercent": 0.0,
-   "divYield": 7.14,
-   "avgYield5y": 6.35
+   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00"
   },
   {
    "symbol": "AYUD",
@@ -2108,12 +2108,16 @@
    "path": "/equities/sri-ayudhya",
    "sector": "Financials",
    "industry": "Insurance",
-   "sourcePrice": 42,
-   "sourceChangePercent": -0.59,
-   "marketCap": 16350000000,
-   "peRatio": 5.58,
+   "sourcePrice": 42.25,
+   "sourceChangePercent": 0.6,
+   "marketCap": 16450000000,
+   "peRatio": 5.61,
    "pegRatio": 0.5,
    "currency": "THB",
+   "price": 42.25,
+   "changePercent": 0.6,
+   "divYield": 6.08,
+   "avgYield5y": 7.28,
    "dpsLastYear": 2.57,
    "dpsPrevFY": 2.32,
    "divPayments": [
@@ -2189,11 +2193,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 42.25,
-   "changePercent": 0.6,
-   "divYield": 6.08,
-   "avgYield5y": 7.28
+   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00"
   },
   {
    "symbol": "TIPH",
@@ -2202,12 +2202,16 @@
    "path": "/equities/dhipaya-holdings-pcl",
    "sector": "Financials",
    "industry": "Insurance",
-   "sourcePrice": 24.100000381469727,
-   "sourceChangePercent": -1.63,
+   "sourcePrice": 24,
+   "sourceChangePercent": -0.41,
    "marketCap": 14320000000,
    "peRatio": 13.98,
    "pegRatio": -0.76,
    "currency": "THB",
+   "price": 24.0,
+   "changePercent": -0.41,
+   "divYield": 6.25,
+   "avgYield5y": 5.79,
    "dpsLastYear": 1.5,
    "dpsPrevFY": 1.5,
    "divPayments": [
@@ -2265,11 +2269,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 24.0,
-   "changePercent": -0.41,
-   "divYield": 6.25,
-   "avgYield5y": 5.79
+   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00"
   },
   {
    "symbol": "QH",
@@ -2279,11 +2279,15 @@
    "sector": "Real Estate",
    "industry": "Real Estate Operations",
    "sourcePrice": 1.350000023841858,
-   "sourceChangePercent": -2.17,
+   "sourceChangePercent": 0.0,
    "marketCap": 14320000000,
-   "peRatio": 7.55,
+   "peRatio": 7.61,
    "pegRatio": 0.96,
    "currency": "THB",
+   "price": 1.36,
+   "changePercent": 0.74,
+   "divYield": 6.62,
+   "avgYield5y": 6.28,
    "dpsLastYear": 0.09,
    "dpsPrevFY": 0.09,
    "divPayments": [
@@ -2359,11 +2363,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00",
-   "price": 1.35,
-   "changePercent": -0.0,
-   "divYield": 6.67,
-   "avgYield5y": 6.28
+   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00"
   },
   {
    "symbol": "DMT",
@@ -2378,6 +2378,10 @@
    "peRatio": 13.61,
    "pegRatio": 0.66,
    "currency": "THB",
+   "price": 11.9,
+   "changePercent": -0.83,
+   "divYield": 7.45,
+   "avgYield5y": 7.0,
    "dpsLastYear": 0.886,
    "dpsPrevFY": 0.883,
    "divPayments": [
@@ -2477,11 +2481,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-10-30T12:33:28.081762+00:00",
-   "price": 12.0,
-   "changePercent": 0.0,
-   "divYield": 7.38,
-   "avgYield5y": 7.0
+   "dividendsAsOf": "2026-10-30T12:33:28.081762+00:00"
   }
  ]
 }
