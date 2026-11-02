@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T20:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
-    "fetchedAt": "2026-11-02T15:29:01.996755+07:00"
+    "fetchedAt": "2026-11-02T15:50:35.770195+07:00"
   },
   {
     "id": "1169889",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T20:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
-    "fetchedAt": "2026-11-02T15:29:01.996755+07:00"
+    "fetchedAt": "2026-11-02T15:50:35.770195+07:00"
   },
   {
     "id": "261",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T20:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
-    "fetchedAt": "2026-11-02T15:29:01.996755+07:00"
+    "fetchedAt": "2026-11-02T15:50:35.770195+07:00"
   },
   {
     "id": "1114321",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T20:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
-    "fetchedAt": "2026-11-02T15:29:01.996755+07:00"
+    "fetchedAt": "2026-11-02T15:50:35.770195+07:00"
   },
   {
     "id": "41268",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T20:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
-    "fetchedAt": "2026-11-02T15:29:01.996755+07:00"
+    "fetchedAt": "2026-11-02T15:50:35.770195+07:00"
   },
   {
     "id": "13994",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T20:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
-    "fetchedAt": "2026-11-02T15:29:01.996755+07:00"
+    "fetchedAt": "2026-11-02T15:50:35.770195+07:00"
   },
   {
     "id": "13852",
@@ -207,37 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T20:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
-    "fetchedAt": "2026-11-02T15:29:01.996755+07:00"
-  },
-  {
-    "id": "13848",
-    "symbol": "WELL",
-    "name": "Welltower Inc",
-    "shortName": "Welltower",
-    "link": "https://www.investing.com/equities/health-care-reit",
-    "price": 234.6,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 171.63,
-    "fairValueUpside": -26.84,
-    "peRatio": 102.0,
-    "evEbitda": 51.49,
-    "marketCap": 172100000000,
-    "marketCapFormatted": "172.1 พันล้าน",
-    "epsGrowth5y": 0.46,
-    "changeOneDayPercent": 0.61,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "แย่",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
-    "fetchedAt": "2026-11-02T15:29:01.996755+07:00"
+    "fetchedAt": "2026-11-02T15:50:35.770195+07:00"
   },
   {
     "id": "13067",
@@ -267,7 +237,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T20:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
-    "fetchedAt": "2026-11-02T15:29:01.996755+07:00"
+    "fetchedAt": "2026-11-02T15:50:35.770195+07:00"
+  },
+  {
+    "id": "7997",
+    "symbol": "WMT",
+    "name": "Walmart Inc",
+    "shortName": "Walmart",
+    "link": "https://www.investing.com/equities/wal-mart-stores",
+    "price": 123.51,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 91.79,
+    "fairValueUpside": -25.68,
+    "peRatio": 44.76,
+    "evEbitda": 23.82,
+    "marketCap": 979900000000,
+    "marketCapFormatted": "979.9 พันล้าน",
+    "epsGrowth5y": 0.16,
+    "changeOneDayPercent": 1.86,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดี",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T15:50:35.770195+07:00"
   },
   {
     "id": "8260",
@@ -297,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T20:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
-    "fetchedAt": "2026-11-02T15:29:01.996755+07:00"
+    "fetchedAt": "2026-11-02T15:50:35.770195+07:00"
   },
   {
     "id": "20164",
@@ -327,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T20:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
-    "fetchedAt": "2026-11-02T15:29:01.996755+07:00"
+    "fetchedAt": "2026-11-02T15:50:35.770195+07:00"
   },
   {
     "id": "13866",
@@ -357,7 +357,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T20:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
-    "fetchedAt": "2026-11-02T15:29:01.996755+07:00"
+    "fetchedAt": "2026-11-02T15:50:35.770195+07:00"
+  },
+  {
+    "id": "8036",
+    "symbol": "AMT",
+    "name": "American Tower Corp",
+    "shortName": "American Tower",
+    "link": "https://www.investing.com/equities/amer-tower-corp",
+    "price": 187.78,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 144.56,
+    "fairValueUpside": -23.02,
+    "peRatio": 26.47,
+    "evEbitda": 19.33,
+    "marketCap": 87090000000,
+    "marketCapFormatted": "87.09 พันล้าน",
+    "epsGrowth5y": 0.23,
+    "changeOneDayPercent": 1.02,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T15:50:35.770195+07:00"
   },
   {
     "id": "20486",
@@ -387,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T20:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
-    "fetchedAt": "2026-11-02T15:29:01.996755+07:00"
+    "fetchedAt": "2026-11-02T15:50:35.770195+07:00"
   },
   {
     "id": "7881",
@@ -417,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T20:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
-    "fetchedAt": "2026-11-02T15:29:01.996755+07:00"
+    "fetchedAt": "2026-11-02T15:50:35.770195+07:00"
   },
   {
     "id": "8158",
@@ -447,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T20:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
-    "fetchedAt": "2026-11-02T15:29:01.996755+07:00"
+    "fetchedAt": "2026-11-02T15:50:35.770195+07:00"
   },
   {
     "id": "238",
@@ -477,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T20:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
-    "fetchedAt": "2026-11-02T15:29:01.996755+07:00"
+    "fetchedAt": "2026-11-02T15:50:35.770195+07:00"
   },
   {
     "id": "8136",
@@ -507,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T20:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
-    "fetchedAt": "2026-11-02T15:29:01.996755+07:00"
+    "fetchedAt": "2026-11-02T15:50:35.770195+07:00"
   },
   {
     "id": "1206256",
@@ -537,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T20:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
-    "fetchedAt": "2026-11-02T15:29:01.996755+07:00"
+    "fetchedAt": "2026-11-02T15:50:35.770195+07:00"
   },
   {
     "id": "6365",
@@ -567,7 +597,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T20:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
-    "fetchedAt": "2026-11-02T15:29:01.996755+07:00"
+    "fetchedAt": "2026-11-02T15:50:35.770195+07:00"
   },
   {
     "id": "19695",
@@ -597,7 +627,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T20:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
-    "fetchedAt": "2026-11-02T15:29:01.996755+07:00"
+    "fetchedAt": "2026-11-02T15:50:35.770195+07:00"
   },
   {
     "id": "958233",
@@ -627,7 +657,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T20:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
-    "fetchedAt": "2026-11-02T15:29:01.996755+07:00"
+    "fetchedAt": "2026-11-02T15:50:35.770195+07:00"
+  },
+  {
+    "id": "44408",
+    "symbol": "HLT",
+    "name": "Hilton Worldwide Holdings Inc",
+    "shortName": "Hilton Worldwide",
+    "link": "https://www.investing.com/equities/hilton-worldwide",
+    "price": 356.92,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 292.11,
+    "fairValueUpside": -18.16,
+    "peRatio": 48.24,
+    "evEbitda": 28.71,
+    "marketCap": 79420000000,
+    "marketCapFormatted": "79.42 พันล้าน",
+    "epsGrowth5y": 1.97,
+    "changeOneDayPercent": 0.0,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
+    "fetchedAt": "2026-11-02T15:50:35.770195+07:00"
   },
   {
     "id": "40041",
@@ -657,7 +717,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T20:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
-    "fetchedAt": "2026-11-02T15:29:01.996755+07:00"
+    "fetchedAt": "2026-11-02T15:50:35.770195+07:00"
   },
   {
     "id": "29737",
@@ -687,7 +747,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T20:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
-    "fetchedAt": "2026-11-02T15:29:01.996755+07:00"
+    "fetchedAt": "2026-11-02T15:50:35.770195+07:00"
   },
   {
     "id": "8203",
@@ -717,7 +777,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T20:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
-    "fetchedAt": "2026-11-02T15:29:01.996755+07:00"
+    "fetchedAt": "2026-11-02T15:50:35.770195+07:00"
   },
   {
     "id": "24282",
@@ -747,37 +807,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T20:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
-    "fetchedAt": "2026-11-02T15:29:01.996755+07:00"
+    "fetchedAt": "2026-11-02T15:50:35.770195+07:00"
   },
   {
-    "id": "7943",
-    "symbol": "PNW",
-    "name": "Pinnacle West Capital Corp",
-    "shortName": "Pinnacle West",
-    "link": "https://www.investing.com/equities/pinnacle-west",
-    "price": 106.28,
+    "id": "8252",
+    "symbol": "NSC",
+    "name": "Norfolk Southern Corporation",
+    "shortName": "Norfolk Southern",
+    "link": "https://www.investing.com/equities/norfolk-southern",
+    "price": 342.64,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 88.74,
-    "fairValueUpside": -16.51,
-    "peRatio": 20.55,
-    "evEbitda": 13.69,
-    "marketCap": 12880000000,
-    "marketCapFormatted": "12.88 พันล้าน",
-    "epsGrowth5y": 0.02,
-    "changeOneDayPercent": -0.34,
+    "fairValue": 285.99,
+    "fairValueUpside": -16.53,
+    "peRatio": 28.67,
+    "evEbitda": 15.25,
+    "marketCap": 76960000000,
+    "marketCapFormatted": "76.96 พันล้าน",
+    "epsGrowth5y": 0.12,
+    "changeOneDayPercent": 0.13,
     "financialHealth": "ดี",
-    "financialCashFlowHealth": "แย่",
-    "financialGrowthHealth": "ดี",
-    "financialProfitabilityHealth": "ดี",
-    "analystRatings": "ซื้อ",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ถือหุ้นไว้",
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T20:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
-    "fetchedAt": "2026-11-02T15:29:01.996755+07:00"
+    "fetchedAt": "2026-11-02T15:50:35.770195+07:00"
   },
   {
     "id": "7906",
@@ -807,7 +867,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T20:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
-    "fetchedAt": "2026-11-02T15:29:01.996755+07:00"
+    "fetchedAt": "2026-11-02T15:50:35.770195+07:00"
   },
   {
     "id": "29723",
@@ -837,66 +897,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-10-30T20:59:59.000Z",
     "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
-    "fetchedAt": "2026-11-02T15:29:01.996755+07:00"
-  },
-  {
-    "id": "8147",
-    "symbol": "TMO",
-    "name": "Thermo Fisher Scientific Inc",
-    "shortName": "Thermo Fisher Scientific",
-    "link": "https://www.investing.com/equities/thermo-fisher-sc",
-    "price": 697.0,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 583.42,
-    "fairValueUpside": -16.3,
-    "peRatio": 36.58,
-    "evEbitda": 24.21,
-    "marketCap": 258250000000,
-    "marketCapFormatted": "258.25 พันล้าน",
-    "epsGrowth5y": -0.01,
-    "changeOneDayPercent": -1.72,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
-    "fetchedAt": "2026-11-02T15:29:01.996755+07:00"
-  },
-  {
-    "id": "7956",
-    "symbol": "SO",
-    "name": "Southern Company",
-    "shortName": "Southern",
-    "link": "https://www.investing.com/equities/southern-co",
-    "price": 93.71,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 78.51,
-    "fairValueUpside": -16.22,
-    "peRatio": 22.65,
-    "evEbitda": 12.95,
-    "marketCap": 107800000000,
-    "marketCapFormatted": "107.8 พันล้าน",
-    "epsGrowth5y": 0.08,
-    "changeOneDayPercent": 0.77,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "ดี",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ถือหุ้นไว้",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-10-30T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-10-30T20:59:59.000Z",
-    "fetchedAt": "2026-11-02T15:29:01.996755+07:00"
+    "fetchedAt": "2026-11-02T15:50:35.770195+07:00"
   }
 ]
