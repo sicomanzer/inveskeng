@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T20:24:53.382692+07:00"
+    "fetchedAt": "2026-11-03T20:34:54.272636+07:00"
   },
   {
     "id": "1169889",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T20:24:53.382692+07:00"
+    "fetchedAt": "2026-11-03T20:34:54.272636+07:00"
   },
   {
     "id": "261",
@@ -87,7 +87,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T20:24:53.382692+07:00"
+    "fetchedAt": "2026-11-03T20:34:54.272636+07:00"
+  },
+  {
+    "id": "1114321",
+    "symbol": "MRNA",
+    "name": "Moderna Inc",
+    "shortName": "Moderna",
+    "link": "https://www.investing.com/equities/moderna",
+    "price": 220.83,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 145.21,
+    "fairValueUpside": -34.24,
+    "peRatio": -27.75,
+    "evEbitda": -37.77,
+    "marketCap": 88160000000,
+    "marketCapFormatted": "88.16 พันล้าน",
+    "epsGrowth5y": 2.01,
+    "changeOneDayPercent": -0.4,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "แย่",
+    "financialProfitabilityHealth": "มูลค่าตามจริง",
+    "analystRatings": "ถือหุ้นไว้",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-02T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
+    "fetchedAt": "2026-11-03T20:34:54.272636+07:00"
   },
   {
     "id": "13994",
@@ -117,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T20:24:53.382692+07:00"
+    "fetchedAt": "2026-11-03T20:34:54.272636+07:00"
   },
   {
     "id": "13852",
@@ -147,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T20:24:53.382692+07:00"
+    "fetchedAt": "2026-11-03T20:34:54.272636+07:00"
   },
   {
     "id": "41268",
@@ -177,7 +207,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T20:24:53.382692+07:00"
+    "fetchedAt": "2026-11-03T20:34:54.272636+07:00"
+  },
+  {
+    "id": "13848",
+    "symbol": "WELL",
+    "name": "Welltower Inc",
+    "shortName": "Welltower",
+    "link": "https://www.investing.com/equities/health-care-reit",
+    "price": 239.0,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 171.64,
+    "fairValueUpside": -28.19,
+    "peRatio": 102.7,
+    "evEbitda": 51.49,
+    "marketCap": 175330000000,
+    "marketCapFormatted": "175.33 พันล้าน",
+    "epsGrowth5y": 0.46,
+    "changeOneDayPercent": 1.88,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "แย่",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-02T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
+    "fetchedAt": "2026-11-03T20:34:54.272636+07:00"
   },
   {
     "id": "7997",
@@ -207,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T20:24:53.382692+07:00"
+    "fetchedAt": "2026-11-03T20:34:54.272636+07:00"
   },
   {
     "id": "13866",
@@ -237,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T20:24:53.382692+07:00"
+    "fetchedAt": "2026-11-03T20:34:54.272636+07:00"
   },
   {
     "id": "8260",
@@ -267,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T20:24:53.382692+07:00"
+    "fetchedAt": "2026-11-03T20:34:54.272636+07:00"
   },
   {
     "id": "8036",
@@ -297,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T20:24:53.382692+07:00"
+    "fetchedAt": "2026-11-03T20:34:54.272636+07:00"
   },
   {
     "id": "13067",
@@ -327,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T20:24:53.382692+07:00"
+    "fetchedAt": "2026-11-03T20:34:54.272636+07:00"
   },
   {
     "id": "8158",
@@ -357,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T20:24:53.382692+07:00"
+    "fetchedAt": "2026-11-03T20:34:54.272636+07:00"
   },
   {
     "id": "238",
@@ -387,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T20:24:53.382692+07:00"
+    "fetchedAt": "2026-11-03T20:34:54.272636+07:00"
   },
   {
     "id": "8193",
@@ -417,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T20:24:53.382692+07:00"
+    "fetchedAt": "2026-11-03T20:34:54.272636+07:00"
   },
   {
     "id": "44408",
@@ -447,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T20:24:53.382692+07:00"
+    "fetchedAt": "2026-11-03T20:34:54.272636+07:00"
   },
   {
     "id": "7881",
@@ -477,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T20:24:53.382692+07:00"
+    "fetchedAt": "2026-11-03T20:34:54.272636+07:00"
   },
   {
     "id": "20164",
@@ -507,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T20:24:53.382692+07:00"
+    "fetchedAt": "2026-11-03T20:34:54.272636+07:00"
   },
   {
     "id": "29723",
@@ -537,7 +597,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T20:24:53.382692+07:00"
+    "fetchedAt": "2026-11-03T20:34:54.272636+07:00"
   },
   {
     "id": "19695",
@@ -567,7 +627,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T20:24:53.382692+07:00"
+    "fetchedAt": "2026-11-03T20:34:54.272636+07:00"
   },
   {
     "id": "6365",
@@ -597,7 +657,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T20:24:53.382692+07:00"
+    "fetchedAt": "2026-11-03T20:34:54.272636+07:00"
   },
   {
     "id": "29737",
@@ -627,7 +687,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T20:24:53.382692+07:00"
+    "fetchedAt": "2026-11-03T20:34:54.272636+07:00"
   },
   {
     "id": "239",
@@ -657,7 +717,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T20:24:53.382692+07:00"
+    "fetchedAt": "2026-11-03T20:34:54.272636+07:00"
   },
   {
     "id": "255",
@@ -687,7 +747,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T20:24:53.382692+07:00"
+    "fetchedAt": "2026-11-03T20:34:54.272636+07:00"
   },
   {
     "id": "8252",
@@ -717,7 +777,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T20:24:53.382692+07:00"
+    "fetchedAt": "2026-11-03T20:34:54.272636+07:00"
   },
   {
     "id": "8297",
@@ -747,7 +807,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T20:24:53.382692+07:00"
+    "fetchedAt": "2026-11-03T20:34:54.272636+07:00"
   },
   {
     "id": "39166",
@@ -777,7 +837,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T20:24:53.382692+07:00"
+    "fetchedAt": "2026-11-03T20:34:54.272636+07:00"
   },
   {
     "id": "7956",
@@ -807,7 +867,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T20:24:53.382692+07:00"
+    "fetchedAt": "2026-11-03T20:34:54.272636+07:00"
   },
   {
     "id": "8104",
@@ -837,66 +897,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T20:24:53.382692+07:00"
-  },
-  {
-    "id": "7943",
-    "symbol": "PNW",
-    "name": "Pinnacle West Capital Corp",
-    "shortName": "Pinnacle West",
-    "link": "https://www.investing.com/equities/pinnacle-west",
-    "price": 105.95,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 88.74,
-    "fairValueUpside": -16.24,
-    "peRatio": 20.43,
-    "evEbitda": 13.69,
-    "marketCap": 12840000000,
-    "marketCapFormatted": "12.84 พันล้าน",
-    "epsGrowth5y": 0.02,
-    "changeOneDayPercent": -0.31,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "แย่",
-    "financialGrowthHealth": "ดี",
-    "financialProfitabilityHealth": "ดี",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-02T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T20:24:53.382692+07:00"
-  },
-  {
-    "id": "8064",
-    "symbol": "HD",
-    "name": "Home Depot Inc",
-    "shortName": "Home Depot",
-    "link": "https://www.investing.com/equities/home-depot",
-    "price": 341.15,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 285.88,
-    "fairValueUpside": -16.2,
-    "peRatio": 23.78,
-    "evEbitda": 15.8,
-    "marketCap": 340360000000,
-    "marketCapFormatted": "340.36 พันล้าน",
-    "epsGrowth5y": 0.03,
-    "changeOneDayPercent": 3.63,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-02T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T20:24:53.382692+07:00"
+    "fetchedAt": "2026-11-03T20:34:54.272636+07:00"
   }
 ]
