@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T06:57:12.495611+07:00"
+    "fetchedAt": "2026-11-03T07:07:20.187598+07:00"
   },
   {
     "id": "1169889",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T06:57:12.495611+07:00"
+    "fetchedAt": "2026-11-03T07:07:20.187598+07:00"
   },
   {
     "id": "261",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T06:57:12.495611+07:00"
+    "fetchedAt": "2026-11-03T07:07:20.187598+07:00"
   },
   {
     "id": "1114321",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T06:57:12.495611+07:00"
+    "fetchedAt": "2026-11-03T07:07:20.187598+07:00"
   },
   {
     "id": "13994",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T06:57:12.495611+07:00"
+    "fetchedAt": "2026-11-03T07:07:20.187598+07:00"
   },
   {
     "id": "13852",
@@ -177,7 +177,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T06:57:12.495611+07:00"
+    "fetchedAt": "2026-11-03T07:07:20.187598+07:00"
+  },
+  {
+    "id": "41268",
+    "symbol": "PANW",
+    "name": "Palo Alto Networks Inc",
+    "shortName": "Palo Alto Networks",
+    "link": "https://www.investing.com/equities/palo-alto-netwrk",
+    "price": 351.72,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 241.1,
+    "fairValueUpside": -31.45,
+    "peRatio": 885.77,
+    "evEbitda": 188.61,
+    "marketCap": 299560000000,
+    "marketCapFormatted": "299.56 พันล้าน",
+    "epsGrowth5y": 4.12,
+    "changeOneDayPercent": -3.87,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "มูลค่าตามจริง",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-02T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
+    "fetchedAt": "2026-11-03T07:07:20.187598+07:00"
   },
   {
     "id": "13848",
@@ -207,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T06:57:12.495611+07:00"
+    "fetchedAt": "2026-11-03T07:07:20.187598+07:00"
   },
   {
     "id": "7997",
@@ -237,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T06:57:12.495611+07:00"
+    "fetchedAt": "2026-11-03T07:07:20.187598+07:00"
   },
   {
     "id": "13866",
@@ -267,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T06:57:12.495611+07:00"
+    "fetchedAt": "2026-11-03T07:07:20.187598+07:00"
   },
   {
     "id": "8260",
@@ -297,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T06:57:12.495611+07:00"
+    "fetchedAt": "2026-11-03T07:07:20.187598+07:00"
   },
   {
     "id": "13067",
@@ -327,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T06:57:12.495611+07:00"
+    "fetchedAt": "2026-11-03T07:07:20.187598+07:00"
   },
   {
     "id": "8036",
@@ -357,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T06:57:12.495611+07:00"
+    "fetchedAt": "2026-11-03T07:07:20.187598+07:00"
   },
   {
     "id": "8158",
@@ -387,7 +417,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T06:57:12.495611+07:00"
+    "fetchedAt": "2026-11-03T07:07:20.187598+07:00"
+  },
+  {
+    "id": "8136",
+    "symbol": "MAR",
+    "name": "Marriott International Inc",
+    "shortName": "Marriott International",
+    "link": "https://www.investing.com/equities/marriott-intl",
+    "price": 416.3,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 322.24,
+    "fairValueUpside": -22.59,
+    "peRatio": 43.14,
+    "evEbitda": 25.23,
+    "marketCap": 104120000000,
+    "marketCapFormatted": "104.12 พันล้าน",
+    "epsGrowth5y": 1.19,
+    "changeOneDayPercent": 4.26,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-02T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
+    "fetchedAt": "2026-11-03T07:07:20.187598+07:00"
   },
   {
     "id": "238",
@@ -417,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T06:57:12.495611+07:00"
+    "fetchedAt": "2026-11-03T07:07:20.187598+07:00"
   },
   {
     "id": "8193",
@@ -447,37 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T06:57:12.495611+07:00"
-  },
-  {
-    "id": "44408",
-    "symbol": "HLT",
-    "name": "Hilton Worldwide Holdings Inc",
-    "shortName": "Hilton Worldwide",
-    "link": "https://www.investing.com/equities/hilton-worldwide",
-    "price": 364.71,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 292.11,
-    "fairValueUpside": -19.91,
-    "peRatio": 49.3,
-    "evEbitda": 28.71,
-    "marketCap": 79420000000,
-    "marketCapFormatted": "79.42 พันล้าน",
-    "epsGrowth5y": 1.97,
-    "changeOneDayPercent": 2.18,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-02T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T06:57:12.495611+07:00"
+    "fetchedAt": "2026-11-03T07:07:20.187598+07:00"
   },
   {
     "id": "7881",
@@ -507,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T06:57:12.495611+07:00"
+    "fetchedAt": "2026-11-03T07:07:20.187598+07:00"
   },
   {
     "id": "20164",
@@ -537,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T06:57:12.495611+07:00"
+    "fetchedAt": "2026-11-03T07:07:20.187598+07:00"
   },
   {
     "id": "7986",
@@ -567,7 +597,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T06:57:12.495611+07:00"
+    "fetchedAt": "2026-11-03T07:07:20.187598+07:00"
   },
   {
     "id": "29723",
@@ -597,7 +627,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T06:57:12.495611+07:00"
+    "fetchedAt": "2026-11-03T07:07:20.187598+07:00"
   },
   {
     "id": "19695",
@@ -627,7 +657,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T06:57:12.495611+07:00"
+    "fetchedAt": "2026-11-03T07:07:20.187598+07:00"
   },
   {
     "id": "6365",
@@ -657,7 +687,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T06:57:12.495611+07:00"
+    "fetchedAt": "2026-11-03T07:07:20.187598+07:00"
   },
   {
     "id": "39166",
@@ -687,7 +717,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T06:57:12.495611+07:00"
+    "fetchedAt": "2026-11-03T07:07:20.187598+07:00"
   },
   {
     "id": "29737",
@@ -717,7 +747,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T06:57:12.495611+07:00"
+    "fetchedAt": "2026-11-03T07:07:20.187598+07:00"
   },
   {
     "id": "255",
@@ -747,7 +777,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T06:57:12.495611+07:00"
+    "fetchedAt": "2026-11-03T07:07:20.187598+07:00"
   },
   {
     "id": "8297",
@@ -777,7 +807,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T06:57:12.495611+07:00"
+    "fetchedAt": "2026-11-03T07:07:20.187598+07:00"
   },
   {
     "id": "8252",
@@ -807,7 +837,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T06:57:12.495611+07:00"
+    "fetchedAt": "2026-11-03T07:07:20.187598+07:00"
   },
   {
     "id": "7956",
@@ -837,7 +867,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T06:57:12.495611+07:00"
+    "fetchedAt": "2026-11-03T07:07:20.187598+07:00"
   },
   {
     "id": "8104",
@@ -867,36 +897,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T06:57:12.495611+07:00"
-  },
-  {
-    "id": "7943",
-    "symbol": "PNW",
-    "name": "Pinnacle West Capital Corp",
-    "shortName": "Pinnacle West",
-    "link": "https://www.investing.com/equities/pinnacle-west",
-    "price": 105.95,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 88.74,
-    "fairValueUpside": -16.25,
-    "peRatio": 20.43,
-    "evEbitda": 13.69,
-    "marketCap": 12880000000,
-    "marketCapFormatted": "12.88 พันล้าน",
-    "epsGrowth5y": 0.02,
-    "changeOneDayPercent": -0.31,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "แย่",
-    "financialGrowthHealth": "ดี",
-    "financialProfitabilityHealth": "ดี",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-02T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T06:57:12.495611+07:00"
+    "fetchedAt": "2026-11-03T07:07:20.187598+07:00"
   }
 ]
