@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-03T10:49:59.000Z",
-    "fetchedAt": "2026-11-04T01:38:28.754851+07:00"
+    "fetchedAt": "2026-11-04T01:48:50.438992+07:00"
   },
   {
     "id": "102751",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-03T10:49:59.000Z",
-    "fetchedAt": "2026-11-04T01:38:28.754851+07:00"
+    "fetchedAt": "2026-11-04T01:48:50.438992+07:00"
   },
   {
     "id": "102567",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-03T10:49:59.000Z",
-    "fetchedAt": "2026-11-04T01:38:28.754851+07:00"
+    "fetchedAt": "2026-11-04T01:48:50.438992+07:00"
   },
   {
     "id": "1242508",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-03T10:49:59.000Z",
-    "fetchedAt": "2026-11-04T01:38:28.754851+07:00"
+    "fetchedAt": "2026-11-04T01:48:50.438992+07:00"
   },
   {
     "id": "102569",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-03T10:49:59.000Z",
-    "fetchedAt": "2026-11-04T01:38:28.754851+07:00"
+    "fetchedAt": "2026-11-04T01:48:50.438992+07:00"
   },
   {
     "id": "102451",
@@ -177,7 +177,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-03T10:49:59.000Z",
-    "fetchedAt": "2026-11-04T01:38:28.754851+07:00"
+    "fetchedAt": "2026-11-04T01:48:50.438992+07:00"
+  },
+  {
+    "id": "986147",
+    "symbol": "BEM",
+    "name": "Bangkok Expressway and Metro PCL",
+    "shortName": "BEM",
+    "link": "https://www.investing.com/equities/bangkok-expressway-and-metro",
+    "price": 6.25,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 5.171999931335449,
+    "fairValueUpside": -17.249999940395355,
+    "peRatio": 23.959999084472656,
+    "evEbitda": 22.949678421020508,
+    "marketCap": 93610000000,
+    "marketCapFormatted": "93.61B",
+    "epsGrowth5y": 0.2634294033050537,
+    "changeOneDayPercent": 0.81,
+    "financialHealth": "FAIR",
+    "financialCashFlowHealth": "WEAK",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "GREAT",
+    "analystRatings": "STRONG_BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-03T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-03T10:49:59.000Z",
+    "fetchedAt": "2026-11-04T01:48:50.438992+07:00"
   },
   {
     "id": "1130942",
@@ -207,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-03T10:49:59.000Z",
-    "fetchedAt": "2026-11-04T01:38:28.754851+07:00"
+    "fetchedAt": "2026-11-04T01:48:50.438992+07:00"
   },
   {
     "id": "102869",
@@ -237,37 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-03T10:49:59.000Z",
-    "fetchedAt": "2026-11-04T01:38:28.754851+07:00"
-  },
-  {
-    "id": "102714",
-    "symbol": "SIRI",
-    "name": "Sansiri PCL",
-    "shortName": "Sansiri",
-    "link": "https://www.investing.com/equities/sansiri",
-    "price": 1.41,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 1.1907999515533447,
-    "fairValueUpside": -15.549999475479126,
-    "peRatio": 6.110000133514404,
-    "evEbitda": 19.711841583251953,
-    "marketCap": 24790000000,
-    "marketCapFormatted": "24.79B",
-    "epsGrowth5y": 0.2871914207935333,
-    "changeOneDayPercent": 0.0,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "FAIR",
-    "financialGrowthHealth": "FAIR",
-    "financialProfitabilityHealth": "GOOD",
-    "analystRatings": "STRONG_BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-03T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-11-03T10:49:59.000Z",
-    "fetchedAt": "2026-11-04T01:38:28.754851+07:00"
+    "fetchedAt": "2026-11-04T01:48:50.438992+07:00"
   },
   {
     "id": "1162301",
@@ -297,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-03T10:49:59.000Z",
-    "fetchedAt": "2026-11-04T01:38:28.754851+07:00"
+    "fetchedAt": "2026-11-04T01:48:50.438992+07:00"
   },
   {
     "id": "986137",
@@ -327,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-03T10:49:59.000Z",
-    "fetchedAt": "2026-11-04T01:38:28.754851+07:00"
+    "fetchedAt": "2026-11-04T01:48:50.438992+07:00"
   },
   {
     "id": "989494",
@@ -357,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-03T10:49:59.000Z",
-    "fetchedAt": "2026-11-04T01:38:28.754851+07:00"
+    "fetchedAt": "2026-11-04T01:48:50.438992+07:00"
   },
   {
     "id": "102442",
@@ -387,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-03T10:49:59.000Z",
-    "fetchedAt": "2026-11-04T01:38:28.754851+07:00"
+    "fetchedAt": "2026-11-04T01:48:50.438992+07:00"
   },
   {
     "id": "102683",
@@ -417,6 +417,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-03T10:49:59.000Z",
-    "fetchedAt": "2026-11-04T01:38:28.754851+07:00"
+    "fetchedAt": "2026-11-04T01:48:50.438992+07:00"
   }
 ]
