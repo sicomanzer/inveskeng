@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-03T21:34:19.506877+07:00",
- "sourceAsOf": "2026-11-03T21:34:16.138549+07:00",
+ "asOf": "2026-11-03T22:14:05.906543+07:00",
+ "sourceAsOf": "2026-11-03T22:14:02.264557+07:00",
  "partial": false,
  "criteria": {
   "market": "TH",
@@ -116,7 +116,7 @@
    "industry": "Oil & Gas",
    "sourcePrice": 153,
    "sourceChangePercent": -3.16,
-   "marketCap": 629190000000,
+   "marketCap": 629620000000,
    "peRatio": 8.2,
    "pegRatio": 0.44,
    "currency": "THB",
@@ -446,7 +446,7 @@
    "industry": "Banking Services",
    "sourcePrice": 113,
    "sourceChangePercent": -0.44,
-   "marketCap": 100010000000,
+   "marketCap": 100080000000,
    "peRatio": 11.79,
    "pegRatio": 0.26,
    "currency": "THB",
@@ -618,7 +618,7 @@
    "industry": "Electrical Utilities & IPPs",
    "sourcePrice": 129.5,
    "sourceChangePercent": -0.38,
-   "marketCap": 66330000000,
+   "marketCap": 66400000000,
    "peRatio": 124.96,
    "pegRatio": -1.41,
    "currency": "THB",
@@ -712,7 +712,7 @@
    "industry": "Oil & Gas",
    "sourcePrice": 46.25,
    "sourceChangePercent": -0.54,
-   "marketCap": 66240000000,
+   "marketCap": 66290000000,
    "peRatio": 2.98,
    "pegRatio": 0.0,
    "currency": "THB",
@@ -798,7 +798,7 @@
    "industry": "Food & Tobacco",
    "sourcePrice": 13.100000381469727,
    "sourceChangePercent": 2.34,
-   "marketCap": 58290000000,
+   "marketCap": 58360000000,
    "peRatio": 10.75,
    "pegRatio": 1.55,
    "currency": "THB",
@@ -994,7 +994,7 @@
    "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00"
   },
   {
-   "symbol": "CPNREIT",
+   "symbol": "CPNREITu",
    "name": "CPN รีเทล โกรท",
    "pairId": 1130942,
    "path": "/equities/cpn-retail-growth-leasehold-reit",
@@ -1008,128 +1008,14 @@
    "currency": "THB",
    "price": 13.0,
    "changePercent": 0.0,
-   "divYield": 8.57,
-   "avgYield5y": 6.65,
-   "dpsLastYear": 1.1144,
-   "dpsPrevFY": 1.1044,
-   "divPayments": [
-    {
-     "date": "2020-03-04",
-     "amount": 0.3997
-    },
-    {
-     "date": "2020-05-25",
-     "amount": 0.2665
-    },
-    {
-     "date": "2020-11-23",
-     "amount": 0.2068
-    },
-    {
-     "date": "2021-05-24",
-     "amount": 0.1975
-    },
-    {
-     "date": "2021-08-24",
-     "amount": 0.1009
-    },
-    {
-     "date": "2021-11-17",
-     "amount": 0.0827
-    },
-    {
-     "date": "2022-03-01",
-     "amount": 0.2128
-    },
-    {
-     "date": "2022-05-18",
-     "amount": 0.2332
-    },
-    {
-     "date": "2022-08-17",
-     "amount": 0.2757
-    },
-    {
-     "date": "2022-11-16",
-     "amount": 0.2954
-    },
-    {
-     "date": "2023-02-28",
-     "amount": 0.0598
-    },
-    {
-     "date": "2023-05-23",
-     "amount": 0.317
-    },
-    {
-     "date": "2023-08-23",
-     "amount": 0.2855
-    },
-    {
-     "date": "2023-11-21",
-     "amount": 0.253
-    },
-    {
-     "date": "2024-02-28",
-     "amount": 0.253
-    },
-    {
-     "date": "2024-04-30",
-     "amount": 0.3618
-    },
-    {
-     "date": "2024-08-26",
-     "amount": 0.1682
-    },
-    {
-     "date": "2024-11-26",
-     "amount": 0.266
-    },
-    {
-     "date": "2025-02-27",
-     "amount": 0.266
-    },
-    {
-     "date": "2025-05-19",
-     "amount": 0.266
-    },
-    {
-     "date": "2025-08-26",
-     "amount": 0.27
-    },
-    {
-     "date": "2025-11-25",
-     "amount": 0.275
-    },
-    {
-     "date": "2026-03-11",
-     "amount": 0.2794
-    },
-    {
-     "date": "2026-05-26",
-     "amount": 0.28
-    },
-    {
-     "date": "2026-08-21",
-     "amount": 0.28
-    }
-   ],
-   "dpsByYear": {
-    "2026": 0.8394,
-    "2025": 1.077,
-    "2024": 1.049027,
-    "2023": 0.915329,
-    "2022": 1.017033,
-    "2021": 0.381117
-   },
-   "yieldYearsUsed": [
-    "2021",
-    "2022",
-    "2023",
-    "2024",
-    "2025"
-   ],
-   "dividendsAsOf": "2026-10-28T04:00:25.071416+00:00"
+   "divYield": null,
+   "avgYield5y": null,
+   "dpsLastYear": null,
+   "dpsPrevFY": null,
+   "divPayments": [],
+   "dpsByYear": {},
+   "yieldYearsUsed": [],
+   "dividendsAsOf": null
   },
   {
    "symbol": "SCCC",
@@ -1376,7 +1262,7 @@
    "industry": "Water & Related Utilities",
    "sourcePrice": 10.100000381469727,
    "sourceChangePercent": 1.0,
-   "marketCap": 39430000000,
+   "marketCap": 39470000000,
    "peRatio": 12.87,
    "pegRatio": null,
    "currency": "THB",
@@ -1666,7 +1552,7 @@
    "industry": "Construction Materials",
    "sourcePrice": 16.5,
    "sourceChangePercent": -2.94,
-   "marketCap": 26330000000,
+   "marketCap": 26340000000,
    "peRatio": 22.28,
    "pegRatio": -0.5,
    "currency": "THB",
