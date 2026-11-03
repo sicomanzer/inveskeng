@@ -27,7 +27,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:05:08.491856+07:00"
+    "fetchedAt": "2026-11-03T09:14:41.253642+07:00"
   },
   {
     "id": "32383",
@@ -57,7 +57,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:05:08.491856+07:00"
+    "fetchedAt": "2026-11-03T09:14:41.253642+07:00"
   },
   {
     "id": "15722",
@@ -87,7 +87,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:05:08.491856+07:00"
+    "fetchedAt": "2026-11-03T09:14:41.253642+07:00"
   },
   {
     "id": "6373",
@@ -117,7 +117,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:05:08.491856+07:00"
+    "fetchedAt": "2026-11-03T09:14:41.253642+07:00"
+  },
+  {
+    "id": "8042",
+    "symbol": "FIS",
+    "name": "Fidelity National Information Services Inc",
+    "shortName": "Fidelity National Information Services",
+    "link": "https://www.investing.com/equities/fidelity-natl-in",
+    "price": 40.15,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 63.65,
+    "fairValueUpside": 58.54,
+    "peRatio": 6.15,
+    "evEbitda": 11.46,
+    "marketCap": 20710000000,
+    "marketCapFormatted": "20.71 พันล้าน",
+    "epsGrowth5y": 2.13,
+    "changeOneDayPercent": 4.15,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "ดี",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-11-02T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
+    "fetchedAt": "2026-11-03T09:14:41.253642+07:00"
   },
   {
     "id": "7889",
@@ -147,7 +177,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:05:08.491856+07:00"
+    "fetchedAt": "2026-11-03T09:14:41.253642+07:00"
   },
   {
     "id": "6370",
@@ -177,7 +207,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:05:08.491856+07:00"
+    "fetchedAt": "2026-11-03T09:14:41.253642+07:00"
   },
   {
     "id": "32341",
@@ -207,37 +237,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:05:08.491856+07:00"
-  },
-  {
-    "id": "8042",
-    "symbol": "FIS",
-    "name": "Fidelity National Information Services Inc",
-    "shortName": "Fidelity National Information Services",
-    "link": "https://www.investing.com/equities/fidelity-natl-in",
-    "price": 40.15,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 61.89,
-    "fairValueUpside": 54.15,
-    "peRatio": 6.15,
-    "evEbitda": 11.46,
-    "marketCap": 20710000000,
-    "marketCapFormatted": "20.71 พันล้าน",
-    "epsGrowth5y": 2.13,
-    "changeOneDayPercent": 4.15,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "ดี",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-11-02T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:05:08.491856+07:00"
+    "fetchedAt": "2026-11-03T09:14:41.253642+07:00"
   },
   {
     "id": "1220843",
@@ -267,7 +267,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:05:08.491856+07:00"
+    "fetchedAt": "2026-11-03T09:14:41.253642+07:00"
   },
   {
     "id": "6448",
@@ -297,7 +297,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:05:08.491856+07:00"
+    "fetchedAt": "2026-11-03T09:14:41.253642+07:00"
   },
   {
     "id": "8294",
@@ -327,7 +327,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:05:08.491856+07:00"
+    "fetchedAt": "2026-11-03T09:14:41.253642+07:00"
   },
   {
     "id": "32331",
@@ -357,7 +357,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:05:08.491856+07:00"
+    "fetchedAt": "2026-11-03T09:14:41.253642+07:00"
   },
   {
     "id": "6497",
@@ -387,7 +387,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:05:08.491856+07:00"
+    "fetchedAt": "2026-11-03T09:14:41.253642+07:00"
   },
   {
     "id": "41239",
@@ -417,7 +417,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:05:08.491856+07:00"
+    "fetchedAt": "2026-11-03T09:14:41.253642+07:00"
   },
   {
     "id": "8201",
@@ -447,7 +447,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:05:08.491856+07:00"
+    "fetchedAt": "2026-11-03T09:14:41.253642+07:00"
   },
   {
     "id": "6516",
@@ -477,7 +477,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:05:08.491856+07:00"
+    "fetchedAt": "2026-11-03T09:14:41.253642+07:00"
   },
   {
     "id": "20529",
@@ -507,7 +507,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:05:08.491856+07:00"
+    "fetchedAt": "2026-11-03T09:14:41.253642+07:00"
   },
   {
     "id": "956170",
@@ -537,7 +537,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:05:08.491856+07:00"
+    "fetchedAt": "2026-11-03T09:14:41.253642+07:00"
   },
   {
     "id": "32381",
@@ -567,7 +567,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:05:08.491856+07:00"
+    "fetchedAt": "2026-11-03T09:14:41.253642+07:00"
   },
   {
     "id": "41176",
@@ -597,7 +597,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:05:08.491856+07:00"
+    "fetchedAt": "2026-11-03T09:14:41.253642+07:00"
   },
   {
     "id": "32391",
@@ -627,7 +627,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:05:08.491856+07:00"
+    "fetchedAt": "2026-11-03T09:14:41.253642+07:00"
   },
   {
     "id": "13969",
@@ -657,7 +657,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:05:08.491856+07:00"
+    "fetchedAt": "2026-11-03T09:14:41.253642+07:00"
   },
   {
     "id": "19694",
@@ -687,7 +687,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:05:08.491856+07:00"
+    "fetchedAt": "2026-11-03T09:14:41.253642+07:00"
   },
   {
     "id": "39159",
@@ -698,8 +698,8 @@
     "price": 184.22,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 247.84,
-    "fairValueUpside": 34.54,
+    "fairValue": 247.87,
+    "fairValueUpside": 34.55,
     "peRatio": 19.07,
     "evEbitda": 12.71,
     "marketCap": 20800000000,
@@ -717,7 +717,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:05:08.491856+07:00"
+    "fetchedAt": "2026-11-03T09:14:41.253642+07:00"
   },
   {
     "id": "948325",
@@ -747,7 +747,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:05:08.491856+07:00"
+    "fetchedAt": "2026-11-03T09:14:41.253642+07:00"
   },
   {
     "id": "13850",
@@ -777,7 +777,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:05:08.491856+07:00"
+    "fetchedAt": "2026-11-03T09:14:41.253642+07:00"
+  },
+  {
+    "id": "8359",
+    "symbol": "UNH",
+    "name": "Unitedhealth Group",
+    "shortName": "UnitedHealth",
+    "link": "https://www.investing.com/equities/united-health-group",
+    "price": 400.44,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 538.13,
+    "fairValueUpside": 34.38,
+    "peRatio": 22.96,
+    "evEbitda": 12.36,
+    "marketCap": 359430000000,
+    "marketCapFormatted": "359.43 พันล้าน",
+    "epsGrowth5y": 0.02,
+    "changeOneDayPercent": -1.6,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-11-02T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
+    "fetchedAt": "2026-11-03T09:14:41.253642+07:00"
   },
   {
     "id": "32361",
@@ -807,7 +837,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:05:08.491856+07:00"
+    "fetchedAt": "2026-11-03T09:14:41.253642+07:00"
   },
   {
     "id": "1115848",
@@ -837,37 +867,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:05:08.491856+07:00"
-  },
-  {
-    "id": "39135",
-    "symbol": "IT",
-    "name": "Gartner Inc",
-    "shortName": "Gartner",
-    "link": "https://www.investing.com/equities/gartner",
-    "price": 235.26,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 313.95,
-    "fairValueUpside": 33.45,
-    "peRatio": 21.52,
-    "evEbitda": 11.77,
-    "marketCap": 14860000000,
-    "marketCapFormatted": "14.86 พันล้าน",
-    "epsGrowth5y": 0.38,
-    "changeOneDayPercent": 2.83,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ถือหุ้นไว้",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-11-02T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:05:08.491856+07:00"
+    "fetchedAt": "2026-11-03T09:14:41.253642+07:00"
   },
   {
     "id": "39152",
@@ -897,6 +897,6 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:05:08.491856+07:00"
+    "fetchedAt": "2026-11-03T09:14:41.253642+07:00"
   }
 ]
