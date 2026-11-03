@@ -2,7 +2,7 @@
   {
     "id": "1169889",
     "symbol": "Aaaa",
-    "name": "Aaaaaaaaaaaaaaaaaaa",
+    "name": "Aaaaaaaaaaaaa",
     "shortName": "Aaaaaaaaaaaa",
     "link": "#",
     "price": 54.49,
@@ -27,13 +27,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T06:39:37.228523+07:00"
+    "fetchedAt": "2026-11-04T06:49:56.802497+07:00"
   },
   {
     "id": "1131557",
-    "symbol": "A Aa",
-    "name": "A Aaaaaaaaa A Aaa",
-    "shortName": "A Aaaaaaaaa ",
+    "symbol": "Aaaa",
+    "name": "Aaaaaaaa",
+    "shortName": "Aaaaaaaa",
     "link": "#",
     "price": 244.68,
     "currency": "USD",
@@ -57,13 +57,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T06:39:37.228523+07:00"
+    "fetchedAt": "2026-11-04T06:49:56.802497+07:00"
   },
   {
     "id": "1114321",
     "symbol": "Aaaa",
-    "name": "Aaaaa Aaa",
-    "shortName": "Aaaaa Aaa",
+    "name": "Aaaaaaaaa Aaaaaaaaa",
+    "shortName": "Aaaaaaaaa Aa",
     "link": "#",
     "price": 228.44,
     "currency": "USD",
@@ -87,13 +87,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T06:39:37.228523+07:00"
+    "fetchedAt": "2026-11-04T06:49:56.802497+07:00"
   },
   {
     "id": "261",
-    "symbol": "Aa A",
-    "name": "Aa Aaaaa Aa Aaaa",
-    "shortName": "Aa Aaaaa Aa ",
+    "symbol": "Aaaa",
+    "name": "Aaaaaaaaa",
+    "shortName": "Aaaaaaaaa",
     "link": "#",
     "price": 665.83,
     "currency": "USD",
@@ -117,43 +117,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T06:39:37.228523+07:00"
-  },
-  {
-    "id": "13994",
-    "symbol": "Aa A",
-    "name": "Aa Aa Aaa",
-    "shortName": "Aa Aa Aaa",
-    "link": "#",
-    "price": 398.2,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 266.58,
-    "fairValueUpside": -33.05,
-    "peRatio": 436.82,
-    "evEbitda": 157.75,
-    "marketCap": 1600000000000,
-    "marketCapFormatted": "1.6 ล้านล้าน",
-    "epsGrowth5y": 0.87,
-    "changeOneDayPercent": -1.39,
-    "financialHealth": "มูลค่าตามจริง",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "แย่",
-    "financialProfitabilityHealth": "มูลค่าตามจริง",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-03T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T06:39:37.228523+07:00"
+    "fetchedAt": "2026-11-04T06:49:56.802497+07:00"
   },
   {
     "id": "13852",
-    "symbol": "Aaaa",
-    "name": "Aaaaaaa",
-    "shortName": "Aaaaaaa",
+    "symbol": "Aa  ",
+    "name": "Aa  Aaaaaaaaaaaaaa",
+    "shortName": "Aa  Aaaaaaaa",
     "link": "#",
     "price": 116.69,
     "currency": "USD",
@@ -177,43 +147,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T06:39:37.228523+07:00"
-  },
-  {
-    "id": "41268",
-    "symbol": "Aa A",
-    "name": "Aa Aaaaaaaaaaa",
-    "shortName": "Aa Aaaaaaaaa",
-    "link": "#",
-    "price": 350.16,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 246.52,
-    "fairValueUpside": -29.6,
-    "peRatio": 873.68,
-    "evEbitda": 188.61,
-    "marketCap": 287980000000,
-    "marketCapFormatted": "287.98 พันล้าน",
-    "epsGrowth5y": 4.12,
-    "changeOneDayPercent": -0.44,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "มูลค่าตามจริง",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-03T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T06:39:37.228523+07:00"
+    "fetchedAt": "2026-11-04T06:49:56.802497+07:00"
   },
   {
     "id": "13848",
-    "symbol": "A Aa",
-    "name": "A Aaaaaaaaaa Aaa",
-    "shortName": "A Aaaaaaaaaa",
+    "symbol": "Aaa ",
+    "name": "Aaa Aaaaaaaa",
+    "shortName": "Aaa Aaaaaaaa",
     "link": "#",
     "price": 241.17,
     "currency": "USD",
@@ -237,13 +177,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T06:39:37.228523+07:00"
+    "fetchedAt": "2026-11-04T06:49:56.802497+07:00"
   },
   {
     "id": "13067",
-    "symbol": "Aaaa",
-    "name": "Aaaaaaaa  Aaaaaaa",
-    "shortName": "Aaaaaaaa  Aa",
+    "symbol": "Aaa ",
+    "name": "Aaa Aaaaaa A",
+    "shortName": "Aaa Aaaaaa A",
     "link": "#",
     "price": 1014.36,
     "currency": "USD",
@@ -267,13 +207,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T06:39:37.228523+07:00"
+    "fetchedAt": "2026-11-04T06:49:56.802497+07:00"
   },
   {
     "id": "7997",
     "symbol": "Aaaa",
-    "name": "Aaaaaaaaaaaaa",
-    "shortName": "Aaaaaaaaaaaa",
+    "name": "Aaaaaaa",
+    "shortName": "Aaaaaaa",
     "link": "#",
     "price": 124.86,
     "currency": "USD",
@@ -297,13 +237,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T06:39:37.228523+07:00"
+    "fetchedAt": "2026-11-04T06:49:56.802497+07:00"
   },
   {
     "id": "13866",
     "symbol": "Aaa ",
-    "name": "Aaa  Aaaaa",
-    "shortName": "Aaa  Aaaaa",
+    "name": "Aaa Aa Aaaaaaaaaaaa",
+    "shortName": "Aaa Aa Aaaaa",
     "link": "#",
     "price": 87.04,
     "currency": "USD",
@@ -327,13 +267,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T06:39:37.228523+07:00"
+    "fetchedAt": "2026-11-04T06:49:56.802497+07:00"
   },
   {
     "id": "8260",
-    "symbol": "Aaaa",
-    "name": "Aaaaa Aaaa Aaa",
-    "shortName": "Aaaaa Aaaa A",
+    "symbol": "Aa A",
+    "name": "Aa Aa Aaaaaaa Aaa",
+    "shortName": "Aa Aa Aaaaaa",
     "link": "#",
     "price": 62.04,
     "currency": "USD",
@@ -357,13 +297,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T06:39:37.228523+07:00"
+    "fetchedAt": "2026-11-04T06:49:56.802497+07:00"
   },
   {
     "id": "8036",
-    "symbol": "Aaa ",
-    "name": "Aaa Aaaa A Aaaa",
-    "shortName": "Aaa Aaaa A A",
+    "symbol": "Aaaa",
+    "name": "Aaaaaaaaaaa Aa Aaa",
+    "shortName": "Aaaaaaaaaaa ",
     "link": "#",
     "price": 187.29,
     "currency": "USD",
@@ -387,13 +327,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T06:39:37.228523+07:00"
+    "fetchedAt": "2026-11-04T06:49:56.802497+07:00"
   },
   {
     "id": "19695",
-    "symbol": "A Aa",
-    "name": "A Aaa Aa Aaaaa",
-    "shortName": "A Aaa Aa Aaa",
+    "symbol": "Aaaa",
+    "name": "Aaaaaaaaa Aaa",
+    "shortName": "Aaaaaaaaa Aa",
     "link": "#",
     "price": 657.0,
     "currency": "USD",
@@ -417,13 +357,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T06:39:37.228523+07:00"
+    "fetchedAt": "2026-11-04T06:49:56.802497+07:00"
   },
   {
     "id": "20164",
     "symbol": "Aaaa",
-    "name": "Aaaaaa",
-    "shortName": "Aaaaaa",
+    "name": "Aaaa Aaaaaaa",
+    "shortName": "Aaaa Aaaaaaa",
     "link": "#",
     "price": 351.87,
     "currency": "USD",
@@ -447,13 +387,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T06:39:37.228523+07:00"
+    "fetchedAt": "2026-11-04T06:49:56.802497+07:00"
   },
   {
     "id": "20486",
-    "symbol": "Aaaa",
-    "name": "Aaaaa Aa Aaaaaa Aaa",
-    "shortName": "Aaaaa Aa Aaa",
+    "symbol": "Aa A",
+    "name": "Aa Aaa Aaaaaaaaa",
+    "shortName": "Aa Aaa Aaaaa",
     "link": "#",
     "price": 180.25,
     "currency": "USD",
@@ -477,13 +417,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T06:39:37.228523+07:00"
+    "fetchedAt": "2026-11-04T06:49:56.802497+07:00"
   },
   {
     "id": "8158",
     "symbol": "Aaaa",
-    "name": "Aaaaaaaa",
-    "shortName": "Aaaaaaaa",
+    "name": "Aaaaaa A  Aa Aa Aaaa",
+    "shortName": "Aaaaaa A  Aa",
     "link": "#",
     "price": 333.39,
     "currency": "USD",
@@ -507,13 +447,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T06:39:37.228523+07:00"
+    "fetchedAt": "2026-11-04T06:49:56.802497+07:00"
   },
   {
     "id": "8193",
-    "symbol": "Aaa ",
-    "name": "Aaa  Aaaaa Aaaaaa",
-    "shortName": "Aaa  Aaaaa A",
+    "symbol": "Aaaa",
+    "name": "Aaaaaaaaaaaaaaaaaa A",
+    "shortName": "Aaaaaaaaaaaa",
     "link": "#",
     "price": 320.67,
     "currency": "USD",
@@ -537,13 +477,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T06:39:37.228523+07:00"
+    "fetchedAt": "2026-11-04T06:49:56.802497+07:00"
   },
   {
     "id": "7881",
-    "symbol": "Aaaa",
-    "name": "Aaaaa",
-    "shortName": "Aaaaa",
+    "symbol": "Aa A",
+    "name": "Aa Aaaaaaaaaaaaaa",
+    "shortName": "Aa Aaaaaaaaa",
     "link": "#",
     "price": 459.9,
     "currency": "USD",
@@ -567,13 +507,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T06:39:37.228523+07:00"
+    "fetchedAt": "2026-11-04T06:49:56.802497+07:00"
   },
   {
     "id": "238",
     "symbol": "Aaa ",
-    "name": "Aaa Aa Aaaa",
-    "shortName": "Aaa Aa Aaaa",
+    "name": "Aaa Aaa",
+    "shortName": "Aaa Aaa",
     "link": "#",
     "price": 173.31,
     "currency": "USD",
@@ -597,13 +537,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T06:39:37.228523+07:00"
+    "fetchedAt": "2026-11-04T06:49:56.802497+07:00"
   },
   {
     "id": "29723",
-    "symbol": "Aa A",
-    "name": "Aa Aaa A",
-    "shortName": "Aa Aaa A",
+    "symbol": "Aaaa",
+    "name": "Aaaaaaaaaaaaaaaaaa",
+    "shortName": "Aaaaaaaaaaaa",
     "link": "#",
     "price": 291.78,
     "currency": "USD",
@@ -627,13 +567,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T06:39:37.228523+07:00"
+    "fetchedAt": "2026-11-04T06:49:56.802497+07:00"
   },
   {
     "id": "44408",
-    "symbol": "A A ",
-    "name": "A A  Aaaaaaaa",
-    "shortName": "A A  Aaaaaaa",
+    "symbol": "A Aa",
+    "name": "A Aaaaaaaaaaaaa",
+    "shortName": "A Aaaaaaaaaa",
     "link": "#",
     "price": 363.83,
     "currency": "USD",
@@ -657,13 +597,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T06:39:37.228523+07:00"
+    "fetchedAt": "2026-11-04T06:49:56.802497+07:00"
   },
   {
     "id": "8279",
     "symbol": "Aaaa",
-    "name": "Aaaaaaaa A",
-    "shortName": "Aaaaaaaa A",
+    "name": "Aaaaaa",
+    "shortName": "Aaaaaa",
     "link": "#",
     "price": 163.48,
     "currency": "USD",
@@ -687,13 +627,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T06:39:37.228523+07:00"
+    "fetchedAt": "2026-11-04T06:49:56.802497+07:00"
   },
   {
     "id": "7943",
     "symbol": "Aaaa",
-    "name": "Aaaaaaaaaa",
-    "shortName": "Aaaaaaaaaa",
+    "name": "Aaaaaaaaa Aaaaaaaa",
+    "shortName": "Aaaaaaaaa Aa",
     "link": "#",
     "price": 107.74,
     "currency": "USD",
@@ -717,13 +657,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T06:39:37.228523+07:00"
+    "fetchedAt": "2026-11-04T06:49:56.802497+07:00"
   },
   {
     "id": "13867",
     "symbol": "Aaaa",
-    "name": "Aaaaaaa  A",
-    "shortName": "Aaaaaaa  A",
+    "name": "Aaaaaaaaaaaa",
+    "shortName": "Aaaaaaaaaaaa",
     "link": "#",
     "price": 115.4,
     "currency": "USD",
@@ -747,13 +687,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T06:39:37.228523+07:00"
+    "fetchedAt": "2026-11-04T06:49:56.802497+07:00"
   },
   {
     "id": "1206256",
-    "symbol": "Aaaa",
-    "name": "Aaaaaaaaaaa Aa",
-    "shortName": "Aaaaaaaaaaa ",
+    "symbol": "Aa A",
+    "name": "Aa Aa",
+    "shortName": "Aa Aa",
     "link": "#",
     "price": 202.49,
     "currency": "USD",
@@ -777,13 +717,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T06:39:37.228523+07:00"
+    "fetchedAt": "2026-11-04T06:49:56.802497+07:00"
   },
   {
     "id": "39166",
     "symbol": "Aaaa",
-    "name": "Aaaa Aa",
-    "shortName": "Aaaa Aa",
+    "name": "Aaaaa Aaaaaaaaaaa",
+    "shortName": "Aaaaa Aaaaaa",
     "link": "#",
     "price": 156.23,
     "currency": "USD",
@@ -807,13 +747,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T06:39:37.228523+07:00"
+    "fetchedAt": "2026-11-04T06:49:56.802497+07:00"
   },
   {
     "id": "7976",
-    "symbol": "Aa A",
-    "name": "Aa Aaaaaa",
-    "shortName": "Aa Aaaaaa",
+    "symbol": "A Aa",
+    "name": "A Aaaaa Aaa",
+    "shortName": "A Aaaaa Aaa",
     "link": "#",
     "price": 944.99,
     "currency": "USD",
@@ -837,13 +777,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T06:39:37.228523+07:00"
+    "fetchedAt": "2026-11-04T06:49:56.802497+07:00"
   },
   {
     "id": "6365",
     "symbol": "Aaaa",
-    "name": "Aaaa Aaa",
-    "shortName": "Aaaa Aaa",
+    "name": "Aaaaaaaaaaaaaaaa",
+    "shortName": "Aaaaaaaaaaaa",
     "link": "#",
     "price": 167.47,
     "currency": "USD",
@@ -867,13 +807,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T06:39:37.228523+07:00"
+    "fetchedAt": "2026-11-04T06:49:56.802497+07:00"
   },
   {
     "id": "29737",
-    "symbol": "Aa  ",
-    "name": "Aa  A Aa Aaaaa",
-    "shortName": "Aa  A Aa Aaa",
+    "symbol": "Aaaa",
+    "name": "Aaaaaaaaaaaaaaaaa",
+    "shortName": "Aaaaaaaaaaaa",
     "link": "#",
     "price": 85.45,
     "currency": "USD",
@@ -897,6 +837,66 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T06:39:37.228523+07:00"
+    "fetchedAt": "2026-11-04T06:49:56.802497+07:00"
+  },
+  {
+    "id": "8268",
+    "symbol": "Aaaa",
+    "name": "Aaaaaaaaaaaaaa A",
+    "shortName": "Aaaaaaaaaaaa",
+    "link": "#",
+    "price": 312.49,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 261.17,
+    "fairValueUpside": -16.42,
+    "peRatio": 40.37,
+    "evEbitda": 26.17,
+    "marketCap": 275980000000,
+    "marketCapFormatted": "275.98 พันล้าน",
+    "epsGrowth5y": 0.01,
+    "changeOneDayPercent": 3.47,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-03T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
+    "fetchedAt": "2026-11-04T06:49:56.802497+07:00"
+  },
+  {
+    "id": "8356",
+    "symbol": "Aaaa",
+    "name": "Aaaaaa A",
+    "shortName": "Aaaaaa A",
+    "link": "#",
+    "price": 446.38,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 373.81,
+    "fairValueUpside": -16.26,
+    "peRatio": 41.94,
+    "evEbitda": 24.65,
+    "marketCap": 48880000000,
+    "marketCapFormatted": "48.88 พันล้าน",
+    "epsGrowth5y": 0.04,
+    "changeOneDayPercent": 1.41,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "ดี",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-03T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
+    "fetchedAt": "2026-11-04T06:49:56.802497+07:00"
   }
 ]
