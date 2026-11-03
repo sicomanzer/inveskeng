@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-02T10:49:59.000Z",
-    "fetchedAt": "2026-11-03T08:51:37.485176+07:00"
+    "fetchedAt": "2026-11-03T09:02:05.798355+07:00"
   },
   {
     "id": "102451",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-02T10:49:59.000Z",
-    "fetchedAt": "2026-11-03T08:51:37.485176+07:00"
+    "fetchedAt": "2026-11-03T09:02:05.798355+07:00"
   },
   {
     "id": "102751",
@@ -72,8 +72,8 @@
     "fairValueUpside": -21.1899995803833,
     "peRatio": 87.5199966430664,
     "evEbitda": 11.459172248840332,
-    "marketCap": 32610000000,
-    "marketCapFormatted": "32.61B",
+    "marketCap": 32600000000,
+    "marketCapFormatted": "32.60B",
     "epsGrowth5y": 0.1262972354888916,
     "changeOneDayPercent": 1.38,
     "financialHealth": "FAIR",
@@ -87,37 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-02T10:49:59.000Z",
-    "fetchedAt": "2026-11-03T08:51:37.485176+07:00"
-  },
-  {
-    "id": "1130942",
-    "symbol": "CPNREITu",
-    "name": "Cpn Retail Growth Leasehold REIT Unit",
-    "shortName": "Cpn Retail Growth Leasehold REIT Unt",
-    "link": "https://www.investing.com/equities/cpn-retail-growth-leasehold-reit",
-    "price": 13.0,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 10.329899787902832,
-    "fairValueUpside": -20.54000049829483,
-    "peRatio": 14.220000267028809,
-    "evEbitda": null,
-    "marketCap": 47070000000,
-    "marketCapFormatted": "47.07B",
-    "epsGrowth5y": 5.588566780090332,
-    "changeOneDayPercent": 0.78,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "FAIR",
-    "financialGrowthHealth": "GOOD",
-    "financialProfitabilityHealth": "GREAT",
-    "analystRatings": "BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-02T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-11-02T10:49:59.000Z",
-    "fetchedAt": "2026-11-03T08:51:37.485176+07:00"
+    "fetchedAt": "2026-11-03T09:02:05.798355+07:00"
   },
   {
     "id": "102567",
@@ -147,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-02T10:49:59.000Z",
-    "fetchedAt": "2026-11-03T08:51:37.485176+07:00"
+    "fetchedAt": "2026-11-03T09:02:05.798355+07:00"
   },
   {
     "id": "1242508",
@@ -177,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-02T10:49:59.000Z",
-    "fetchedAt": "2026-11-03T08:51:37.485176+07:00"
+    "fetchedAt": "2026-11-03T09:02:05.798355+07:00"
   },
   {
     "id": "102569",
@@ -207,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-02T10:49:59.000Z",
-    "fetchedAt": "2026-11-03T08:51:37.485176+07:00"
+    "fetchedAt": "2026-11-03T09:02:05.798355+07:00"
   },
   {
     "id": "102497",
@@ -237,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-02T10:49:59.000Z",
-    "fetchedAt": "2026-11-03T08:51:37.485176+07:00"
+    "fetchedAt": "2026-11-03T09:02:05.798355+07:00"
   },
   {
     "id": "102869",
@@ -267,37 +237,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-02T10:49:59.000Z",
-    "fetchedAt": "2026-11-03T08:51:37.485176+07:00"
+    "fetchedAt": "2026-11-03T09:02:05.798355+07:00"
   },
   {
-    "id": "1162301",
-    "symbol": "INSET",
-    "name": "Infraset PCL",
-    "shortName": "Infraset PCL",
-    "link": "https://www.investing.com/equities/infraset-pcl",
-    "price": 4.38,
+    "id": "1130942",
+    "symbol": "CPNREITu",
+    "name": "Cpn Retail Growth Leasehold REIT Unit",
+    "shortName": "Cpn Retail Growth Leasehold REIT Unt",
+    "link": "https://www.investing.com/equities/cpn-retail-growth-leasehold-reit",
+    "price": 13.0,
     "currency": "THB",
     "currencySymbol": "฿",
-    "fairValue": 3.6494998931884766,
-    "fairValueUpside": -16.680000722408295,
-    "peRatio": 33.90999984741211,
-    "evEbitda": 21.036876678466797,
-    "marketCap": 3520000000,
-    "marketCapFormatted": "3.52B",
-    "epsGrowth5y": -0.14099133014678955,
-    "changeOneDayPercent": 1.86,
-    "financialHealth": "FAIR",
-    "financialCashFlowHealth": "WEAK",
-    "financialGrowthHealth": "FAIR",
-    "financialProfitabilityHealth": "GOOD",
-    "analystRatings": "STRONG_BUY",
+    "fairValue": 10.818099975585938,
+    "fairValueUpside": -16.779999434947968,
+    "peRatio": 14.220000267028809,
+    "evEbitda": null,
+    "marketCap": 47070000000,
+    "marketCapFormatted": "47.07B",
+    "epsGrowth5y": 5.588566780090332,
+    "changeOneDayPercent": 0.78,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "FAIR",
+    "financialGrowthHealth": "GOOD",
+    "financialProfitabilityHealth": "GREAT",
+    "analystRatings": "BUY",
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-02T10:49:59.000Z",
-    "fetchedAt": "2026-11-03T08:51:37.485176+07:00"
+    "fetchedAt": "2026-11-03T09:02:05.798355+07:00"
   },
   {
     "id": "986147",
@@ -327,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-02T10:49:59.000Z",
-    "fetchedAt": "2026-11-03T08:51:37.485176+07:00"
+    "fetchedAt": "2026-11-03T09:02:05.798355+07:00"
   },
   {
     "id": "102561",
@@ -357,7 +327,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-02T10:49:59.000Z",
-    "fetchedAt": "2026-11-03T08:51:37.485176+07:00"
+    "fetchedAt": "2026-11-03T09:02:05.798355+07:00"
+  },
+  {
+    "id": "986137",
+    "symbol": "ALT",
+    "name": "ALT Telecom PCL",
+    "shortName": "ALT Telecom",
+    "link": "https://www.investing.com/equities/alt-telecom-pcl",
+    "price": 1.53,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 1.2848000526428223,
+    "fairValueUpside": -16.030000150203705,
+    "peRatio": 88.44000244140625,
+    "evEbitda": 12.552435874938965,
+    "marketCap": 1700000000,
+    "marketCapFormatted": "1.70B",
+    "epsGrowth5y": -1.7917653322219849,
+    "changeOneDayPercent": 0.66,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "FAIR",
+    "financialGrowthHealth": "GOOD",
+    "financialProfitabilityHealth": "FAIR",
+    "analystRatings": "-",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-02T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-02T10:49:59.000Z",
+    "fetchedAt": "2026-11-03T09:02:05.798355+07:00"
   },
   {
     "id": "102714",
@@ -387,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-02T10:49:59.000Z",
-    "fetchedAt": "2026-11-03T08:51:37.485176+07:00"
+    "fetchedAt": "2026-11-03T09:02:05.798355+07:00"
   },
   {
     "id": "102757",
@@ -417,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-02T10:49:59.000Z",
-    "fetchedAt": "2026-11-03T08:51:37.485176+07:00"
+    "fetchedAt": "2026-11-03T09:02:05.798355+07:00"
   },
   {
     "id": "102442",
@@ -447,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-02T10:49:59.000Z",
-    "fetchedAt": "2026-11-03T08:51:37.485176+07:00"
+    "fetchedAt": "2026-11-03T09:02:05.798355+07:00"
   },
   {
     "id": "102683",
@@ -477,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-02T10:49:59.000Z",
-    "fetchedAt": "2026-11-03T08:51:37.485176+07:00"
+    "fetchedAt": "2026-11-03T09:02:05.798355+07:00"
   },
   {
     "id": "989494",
@@ -507,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-02T10:49:59.000Z",
-    "fetchedAt": "2026-11-03T08:51:37.485176+07:00"
+    "fetchedAt": "2026-11-03T09:02:05.798355+07:00"
   },
   {
     "id": "1008691",
@@ -537,6 +537,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-02T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-02T10:49:59.000Z",
-    "fetchedAt": "2026-11-03T08:51:37.485176+07:00"
+    "fetchedAt": "2026-11-03T09:02:05.798355+07:00"
   }
 ]
