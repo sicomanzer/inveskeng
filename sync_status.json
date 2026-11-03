@@ -1,25 +1,25 @@
 {
-  "lastSync": "2026-11-03T23:55:09.762827+07:00",
+  "lastSync": "2026-11-04T01:44:39.229464+07:00",
   "dataFreshness": {
     "SET_undervalued": "2026-11-03T10:49:59.000Z",
     "SET_overvalued": "2026-11-03T10:49:59.000Z",
-    "US_undervalued": "2026-11-03T16:51:06.000Z",
-    "US_overvalued": "2026-11-03T16:43:47.000Z"
+    "US_undervalued": "2026-11-03T18:41:24.000Z",
+    "US_overvalued": "2026-11-03T18:44:31.000Z"
   },
   "results": {
-    "SET_undervalued": null,
-    "SET_overvalued": 13,
+    "SET_undervalued": 30,
+    "SET_overvalued": 14,
     "US_undervalued": 30,
-    "US_overvalued": null
+    "US_overvalued": 30
   },
   "lastRun": {
     "results": {
-      "SET_undervalued": null,
-      "SET_overvalued": 13,
+      "SET_undervalued": 30,
+      "SET_overvalued": 14,
       "US_undervalued": 30,
-      "US_overvalued": null
+      "US_overvalued": 30
     },
-    "status": "partial"
+    "status": "success"
   },
-  "status": "partial"
+  "status": "success"
 }
