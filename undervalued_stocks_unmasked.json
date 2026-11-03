@@ -27,7 +27,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:44:57.629935+07:00"
+    "fetchedAt": "2026-11-03T09:55:09.362074+07:00"
   },
   {
     "id": "32383",
@@ -57,7 +57,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:44:57.629935+07:00"
+    "fetchedAt": "2026-11-03T09:55:09.362074+07:00"
   },
   {
     "id": "15722",
@@ -87,7 +87,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:44:57.629935+07:00"
+    "fetchedAt": "2026-11-03T09:55:09.362074+07:00"
   },
   {
     "id": "6373",
@@ -117,7 +117,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:44:57.629935+07:00"
+    "fetchedAt": "2026-11-03T09:55:09.362074+07:00"
   },
   {
     "id": "8042",
@@ -147,7 +147,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:44:57.629935+07:00"
+    "fetchedAt": "2026-11-03T09:55:09.362074+07:00"
   },
   {
     "id": "7889",
@@ -177,7 +177,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:44:57.629935+07:00"
+    "fetchedAt": "2026-11-03T09:55:09.362074+07:00"
   },
   {
     "id": "6370",
@@ -207,7 +207,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:44:57.629935+07:00"
+    "fetchedAt": "2026-11-03T09:55:09.362074+07:00"
   },
   {
     "id": "32341",
@@ -237,7 +237,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:44:57.629935+07:00"
+    "fetchedAt": "2026-11-03T09:55:09.362074+07:00"
   },
   {
     "id": "1220843",
@@ -267,7 +267,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:44:57.629935+07:00"
+    "fetchedAt": "2026-11-03T09:55:09.362074+07:00"
   },
   {
     "id": "6448",
@@ -297,37 +297,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:44:57.629935+07:00"
-  },
-  {
-    "id": "8294",
-    "symbol": "CRM",
-    "name": "Salesforce Inc",
-    "shortName": "Salesforce Inc",
-    "link": "https://www.investing.com/equities/salesforce-com",
-    "price": 226.18,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 335.84,
-    "fairValueUpside": 48.5,
-    "peRatio": 21.03,
-    "evEbitda": 16.15,
-    "marketCap": 186150000000,
-    "marketCapFormatted": "186.15 พันล้าน",
-    "epsGrowth5y": 2.21,
-    "changeOneDayPercent": -1.3,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-11-02T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:44:57.629935+07:00"
+    "fetchedAt": "2026-11-03T09:55:09.362074+07:00"
   },
   {
     "id": "32331",
@@ -357,7 +327,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:44:57.629935+07:00"
+    "fetchedAt": "2026-11-03T09:55:09.362074+07:00"
   },
   {
     "id": "6497",
@@ -387,7 +357,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:44:57.629935+07:00"
+    "fetchedAt": "2026-11-03T09:55:09.362074+07:00"
   },
   {
     "id": "41239",
@@ -417,7 +387,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:44:57.629935+07:00"
+    "fetchedAt": "2026-11-03T09:55:09.362074+07:00"
   },
   {
     "id": "8201",
@@ -447,7 +417,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:44:57.629935+07:00"
+    "fetchedAt": "2026-11-03T09:55:09.362074+07:00"
   },
   {
     "id": "6516",
@@ -477,7 +447,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:44:57.629935+07:00"
+    "fetchedAt": "2026-11-03T09:55:09.362074+07:00"
   },
   {
     "id": "20529",
@@ -507,7 +477,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:44:57.629935+07:00"
+    "fetchedAt": "2026-11-03T09:55:09.362074+07:00"
   },
   {
     "id": "956170",
@@ -537,7 +507,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:44:57.629935+07:00"
+    "fetchedAt": "2026-11-03T09:55:09.362074+07:00"
   },
   {
     "id": "32381",
@@ -567,7 +537,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:44:57.629935+07:00"
+    "fetchedAt": "2026-11-03T09:55:09.362074+07:00"
   },
   {
     "id": "41176",
@@ -597,7 +567,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:44:57.629935+07:00"
+    "fetchedAt": "2026-11-03T09:55:09.362074+07:00"
   },
   {
     "id": "32391",
@@ -627,7 +597,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:44:57.629935+07:00"
+    "fetchedAt": "2026-11-03T09:55:09.362074+07:00"
+  },
+  {
+    "id": "13969",
+    "symbol": "AVGO",
+    "name": "Broadcom Inc",
+    "shortName": "Broadcom",
+    "link": "https://www.investing.com/equities/avago-technologies",
+    "price": 322.23,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 447.51,
+    "fairValueUpside": 38.88,
+    "peRatio": 41.54,
+    "evEbitda": 30.46,
+    "marketCap": 1540000000000,
+    "marketCapFormatted": "1.54 ล้านล้าน",
+    "epsGrowth5y": 0.68,
+    "changeOneDayPercent": -1.18,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "ดีเยี่ยม",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-11-02T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
+    "fetchedAt": "2026-11-03T09:55:09.362074+07:00"
   },
   {
     "id": "19694",
@@ -657,37 +657,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:44:57.629935+07:00"
-  },
-  {
-    "id": "8105",
-    "symbol": "KEY",
-    "name": "KeyCorp",
-    "shortName": "KeyCorp",
-    "link": "https://www.investing.com/equities/keycorp-new",
-    "price": 21.49,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 29.56,
-    "fairValueUpside": 37.57,
-    "peRatio": 11.81,
-    "evEbitda": 0.0,
-    "marketCap": 22740000000,
-    "marketCapFormatted": "22.74 พันล้าน",
-    "epsGrowth5y": 130.3,
-    "changeOneDayPercent": 1.75,
-    "financialHealth": "มูลค่าตามจริง",
-    "financialCashFlowHealth": "แย่",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "มูลค่าตามจริง",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-11-02T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:44:57.629935+07:00"
+    "fetchedAt": "2026-11-03T09:55:09.362074+07:00"
   },
   {
     "id": "39159",
@@ -717,7 +687,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:44:57.629935+07:00"
+    "fetchedAt": "2026-11-03T09:55:09.362074+07:00"
   },
   {
     "id": "948325",
@@ -747,7 +717,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:44:57.629935+07:00"
+    "fetchedAt": "2026-11-03T09:55:09.362074+07:00"
   },
   {
     "id": "13850",
@@ -777,7 +747,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:44:57.629935+07:00"
+    "fetchedAt": "2026-11-03T09:55:09.362074+07:00"
   },
   {
     "id": "8359",
@@ -807,7 +777,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:44:57.629935+07:00"
+    "fetchedAt": "2026-11-03T09:55:09.362074+07:00"
   },
   {
     "id": "32361",
@@ -819,7 +789,7 @@
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 265.29,
-    "fairValueUpside": 33.88,
+    "fairValueUpside": 33.89,
     "peRatio": 41.05,
     "evEbitda": 30.29,
     "marketCap": 47750000000,
@@ -837,7 +807,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:44:57.629935+07:00"
+    "fetchedAt": "2026-11-03T09:55:09.362074+07:00"
   },
   {
     "id": "1115848",
@@ -867,7 +837,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:44:57.629935+07:00"
+    "fetchedAt": "2026-11-03T09:55:09.362074+07:00"
   },
   {
     "id": "39135",
@@ -897,6 +867,36 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-02T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
-    "fetchedAt": "2026-11-03T09:44:57.629935+07:00"
+    "fetchedAt": "2026-11-03T09:55:09.362074+07:00"
+  },
+  {
+    "id": "39152",
+    "symbol": "LKQ",
+    "name": "LKQ Corporation",
+    "shortName": "LKQ",
+    "link": "https://www.investing.com/equities/lkq",
+    "price": 19.93,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 26.57,
+    "fairValueUpside": 33.32,
+    "peRatio": 19.4,
+    "evEbitda": 7.11,
+    "marketCap": 5030000000,
+    "marketCapFormatted": "5.03 พันล้าน",
+    "epsGrowth5y": -0.04,
+    "changeOneDayPercent": 7.38,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "แย่",
+    "financialProfitabilityHealth": "มูลค่าตามจริง",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-11-02T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-02T20:59:59.000Z",
+    "fetchedAt": "2026-11-03T09:55:09.362074+07:00"
   }
 ]
