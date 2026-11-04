@@ -27,7 +27,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T17:37:55.534516+07:00"
+    "fetchedAt": "2026-11-04T17:47:59.339558+07:00"
   },
   {
     "id": "15722",
@@ -57,7 +57,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T17:37:55.534516+07:00"
+    "fetchedAt": "2026-11-04T17:47:59.339558+07:00"
   },
   {
     "id": "6373",
@@ -87,7 +87,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T17:37:55.534516+07:00"
+    "fetchedAt": "2026-11-04T17:47:59.339558+07:00"
   },
   {
     "id": "32341",
@@ -117,7 +117,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T17:37:55.534516+07:00"
+    "fetchedAt": "2026-11-04T17:47:59.339558+07:00"
   },
   {
     "id": "1220843",
@@ -147,7 +147,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T17:37:55.534516+07:00"
+    "fetchedAt": "2026-11-04T17:47:59.339558+07:00"
   },
   {
     "id": "32331",
@@ -177,7 +177,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T17:37:55.534516+07:00"
+    "fetchedAt": "2026-11-04T17:47:59.339558+07:00"
   },
   {
     "id": "6448",
@@ -207,7 +207,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T17:37:55.534516+07:00"
+    "fetchedAt": "2026-11-04T17:47:59.339558+07:00"
+  },
+  {
+    "id": "7889",
+    "symbol": "CI",
+    "name": "Cigna Corp",
+    "shortName": "Cigna",
+    "link": "https://www.investing.com/equities/cigna-corp",
+    "price": 295.44,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 457.33,
+    "fairValueUpside": 54.8,
+    "peRatio": 12.21,
+    "evEbitda": 6.64,
+    "marketCap": 78070000000,
+    "marketCapFormatted": "78.07 พันล้าน",
+    "epsGrowth5y": 0.11,
+    "changeOneDayPercent": 0.08,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "ดี",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-11-03T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
+    "fetchedAt": "2026-11-04T17:47:59.339558+07:00"
   },
   {
     "id": "17195",
@@ -237,7 +267,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T17:37:55.534516+07:00"
+    "fetchedAt": "2026-11-04T17:47:59.339558+07:00"
   },
   {
     "id": "8294",
@@ -267,7 +297,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T17:37:55.534516+07:00"
+    "fetchedAt": "2026-11-04T17:47:59.339558+07:00"
   },
   {
     "id": "8042",
@@ -297,7 +327,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T17:37:55.534516+07:00"
+    "fetchedAt": "2026-11-04T17:47:59.339558+07:00"
   },
   {
     "id": "39135",
@@ -327,7 +357,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T17:37:55.534516+07:00"
+    "fetchedAt": "2026-11-04T17:47:59.339558+07:00"
   },
   {
     "id": "6516",
@@ -357,7 +387,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T17:37:55.534516+07:00"
+    "fetchedAt": "2026-11-04T17:47:59.339558+07:00"
   },
   {
     "id": "6497",
@@ -387,7 +417,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T17:37:55.534516+07:00"
+    "fetchedAt": "2026-11-04T17:47:59.339558+07:00"
   },
   {
     "id": "41176",
@@ -417,7 +447,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T17:37:55.534516+07:00"
+    "fetchedAt": "2026-11-04T17:47:59.339558+07:00"
   },
   {
     "id": "956170",
@@ -447,37 +477,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T17:37:55.534516+07:00"
-  },
-  {
-    "id": "32381",
-    "symbol": "DECK",
-    "name": "Deckers Outdoor Corporation",
-    "shortName": "Deckers Outdoor",
-    "link": "https://www.investing.com/equities/deckers-outdoor-corp",
-    "price": 84.09,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 118.37,
-    "fairValueUpside": 40.77,
-    "peRatio": 11.05,
-    "evEbitda": 7.4,
-    "marketCap": 11220000000,
-    "marketCapFormatted": "11.22 พันล้าน",
-    "epsGrowth5y": 0.26,
-    "changeOneDayPercent": -1.07,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดีเยี่ยม",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ถือหุ้นไว้",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-11-03T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T17:37:55.534516+07:00"
+    "fetchedAt": "2026-11-04T17:47:59.339558+07:00"
   },
   {
     "id": "20529",
@@ -507,7 +507,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T17:37:55.534516+07:00"
+    "fetchedAt": "2026-11-04T17:47:59.339558+07:00"
   },
   {
     "id": "39277",
@@ -537,7 +537,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T17:37:55.534516+07:00"
+    "fetchedAt": "2026-11-04T17:47:59.339558+07:00"
   },
   {
     "id": "41239",
@@ -567,7 +567,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T17:37:55.534516+07:00"
+    "fetchedAt": "2026-11-04T17:47:59.339558+07:00"
   },
   {
     "id": "19694",
@@ -597,7 +597,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T17:37:55.534516+07:00"
+    "fetchedAt": "2026-11-04T17:47:59.339558+07:00"
+  },
+  {
+    "id": "961621",
+    "symbol": "MTCH",
+    "name": "Match Group Inc",
+    "shortName": "Match Group",
+    "link": "https://www.investing.com/equities/match-group-inc",
+    "price": 38.5,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 53.31,
+    "fairValueUpside": 38.47,
+    "peRatio": 13.62,
+    "evEbitda": 10.47,
+    "marketCap": 8840000000,
+    "marketCapFormatted": "8.84 พันล้าน",
+    "epsGrowth5y": 0.43,
+    "changeOneDayPercent": -8.49,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "ดี",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-11-03T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
+    "fetchedAt": "2026-11-04T17:47:59.339558+07:00"
   },
   {
     "id": "6454",
@@ -627,7 +657,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T17:37:55.534516+07:00"
+    "fetchedAt": "2026-11-04T17:47:59.339558+07:00"
+  },
+  {
+    "id": "948325",
+    "symbol": "GDDY",
+    "name": "Godaddy Inc",
+    "shortName": "Godaddy Inc",
+    "link": "https://www.investing.com/equities/godaddy-inc",
+    "price": 113.45,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 156.87,
+    "fairValueUpside": 38.27,
+    "peRatio": 15.67,
+    "evEbitda": 11.84,
+    "marketCap": 13760000000,
+    "marketCapFormatted": "13.76 พันล้าน",
+    "epsGrowth5y": 1.06,
+    "changeOneDayPercent": -2.71,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-11-03T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
+    "fetchedAt": "2026-11-04T17:47:59.339558+07:00"
   },
   {
     "id": "39152",
@@ -657,37 +717,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T17:37:55.534516+07:00"
-  },
-  {
-    "id": "13969",
-    "symbol": "AVGO",
-    "name": "Broadcom Inc",
-    "shortName": "Broadcom",
-    "link": "https://www.investing.com/equities/avago-technologies",
-    "price": 332.13,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 455.83,
-    "fairValueUpside": 37.24,
-    "peRatio": 42.35,
-    "evEbitda": 30.46,
-    "marketCap": 1590000000000,
-    "marketCapFormatted": "1.59 ล้านล้าน",
-    "epsGrowth5y": 0.68,
-    "changeOneDayPercent": 3.07,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดีเยี่ยม",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-11-03T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T17:37:55.534516+07:00"
+    "fetchedAt": "2026-11-04T17:47:59.339558+07:00"
   },
   {
     "id": "8310",
@@ -717,37 +747,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T17:37:55.534516+07:00"
-  },
-  {
-    "id": "13850",
-    "symbol": "HRL",
-    "name": "Hormel Foods Corporation",
-    "shortName": "Hormel Foods",
-    "link": "https://www.investing.com/equities/hormel-foods-corp",
-    "price": 21.26,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 28.86,
-    "fairValueUpside": 35.76,
-    "peRatio": 34.24,
-    "evEbitda": 10.42,
-    "marketCap": 11700000000,
-    "marketCapFormatted": "11.7 พันล้าน",
-    "epsGrowth5y": -0.11,
-    "changeOneDayPercent": -0.98,
-    "financialHealth": "มูลค่าตามจริง",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "แย่",
-    "financialProfitabilityHealth": "ดี",
-    "analystRatings": "ถือหุ้นไว้",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-11-03T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T17:37:55.534516+07:00"
+    "fetchedAt": "2026-11-04T17:47:59.339558+07:00"
   },
   {
     "id": "32361",
@@ -777,7 +777,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T17:37:55.534516+07:00"
+    "fetchedAt": "2026-11-04T17:47:59.339558+07:00"
   },
   {
     "id": "6363",
@@ -807,7 +807,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T17:37:55.534516+07:00"
+    "fetchedAt": "2026-11-04T17:47:59.339558+07:00"
   },
   {
     "id": "6370",
@@ -837,7 +837,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T17:37:55.534516+07:00"
+    "fetchedAt": "2026-11-04T17:47:59.339558+07:00"
   },
   {
     "id": "15368",
@@ -867,7 +867,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T17:37:55.534516+07:00"
+    "fetchedAt": "2026-11-04T17:47:59.339558+07:00"
   },
   {
     "id": "8063",
@@ -897,6 +897,6 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T17:37:55.534516+07:00"
+    "fetchedAt": "2026-11-04T17:47:59.339558+07:00"
   }
 ]
