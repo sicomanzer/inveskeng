@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-04T13:37:56.701715+07:00",
- "sourceAsOf": "2026-11-04T13:37:54.046960+07:00",
+ "asOf": "2026-11-04T14:08:11.070153+07:00",
+ "sourceAsOf": "2026-11-04T14:08:08.317175+07:00",
  "partial": false,
  "criteria": {
   "market": "TH",
@@ -10,7 +10,7 @@
   "sort": "marketcap_adj_latest desc",
   "primaryOnly": true
  },
- "totalMatches": 197,
+ "totalMatches": 196,
  "sourceUrl": "https://th.investing.com/stock-screener?ssid=v2%24eyJrZXlzIjpbImNvbm5lY3RpdmUiLCJsaW1pdCIsInByZWZpbHRlcnMubWFya2V0IiwicHJlZmlsdGVycy5wcmltYXJ5T25seSIsInNvcnQuZGlyZWN0aW9uIiwic29ydC5tZXRyaWMiLCJmaWx0ZXJzLjAuZ3QuaW5jbHVzaXZlIiwiZmlsdGVycy4wLmd0LnNjYWxlIiwiZmlsdGVycy4wLmd0LnZhbHVlIiwiZmlsdGVycy4wLm1ldHJpYyIsImZpbHRlcnMuMS5ndC5pbmNsdXNpdmUiLCJmaWx0ZXJzLjEuZ3Quc2NhbGUiLCJmaWx0ZXJzLjEuZ3QudmFsdWUiLCJmaWx0ZXJzLjEubWV0cmljIl0sInZhbHVlcyI6WyJBTEwiLDMwLCJUSCIsdHJ1ZSwiREVTQyIsIm1hcmtldGNhcF9hZGpfbGF0ZXN0Iix0cnVlLDEsMC4wNSwiZGl2X3lpZWxkIix0cnVlLDEsMC4wNSwiZGl2X3lpZWxkX2F2Z181eSJdfQ%3D%3D",
  "items": [
   {
@@ -108,90 +108,16 @@
    "dividendsAsOf": "2026-11-04T05:58:49.311517+00:00"
   },
   {
-   "symbol": "KTB",
-   "name": "ธนาคารกรุงไทย",
-   "pairId": 102569,
-   "path": "/equities/krung-thai-ban",
-   "sector": "Financials",
-   "industry": "Banking Services",
-   "sourcePrice": 42.75,
-   "sourceChangePercent": -0.58,
-   "marketCap": 600970000000,
-   "peRatio": 12.54,
-   "pegRatio": -12.81,
-   "currency": "THB",
-   "price": 42.75,
-   "changePercent": -0.58,
-   "divYield": 7.37,
-   "avgYield5y": 3.86,
-   "dpsLastYear": 3.15,
-   "dpsPrevFY": 2.67,
-   "divPayments": [
-    {
-     "date": "2020-04-08",
-     "amount": 0.753
-    },
-    {
-     "date": "2021-04-21",
-     "amount": 0.275
-    },
-    {
-     "date": "2022-04-20",
-     "amount": 0.418
-    },
-    {
-     "date": "2023-04-18",
-     "amount": 0.682
-    },
-    {
-     "date": "2024-04-17",
-     "amount": 0.868
-    },
-    {
-     "date": "2025-04-16",
-     "amount": 1.545
-    },
-    {
-     "date": "2025-11-11",
-     "amount": 0.43
-    },
-    {
-     "date": "2026-04-10",
-     "amount": 2.24
-    },
-    {
-     "date": "2026-09-22",
-     "amount": 0.48
-    }
-   ],
-   "dpsByYear": {
-    "2026": 2.72,
-    "2025": 1.975,
-    "2024": 0.868,
-    "2023": 0.682,
-    "2022": 0.418,
-    "2021": 0.275
-   },
-   "yieldYearsUsed": [
-    "2021",
-    "2022",
-    "2023",
-    "2024",
-    "2025"
-   ],
-   "dividendsAsOf": "2026-11-04T05:58:49.311517+00:00"
-  },
-  {
    "symbol": "PTTEP",
    "name": "ปตท. สำรวจและผลิตปิโตรเลียม",
    "pairId": 102673,
    "path": "/equities/ptt-exp---prod",
    "sector": "Energy",
    "industry": "Oil & Gas",
-   "sourcePrice": 151.5,
-   "sourceChangePercent": -0.98,
+   "sourcePrice": 151,
+   "sourceChangePercent": -1.31,
    "marketCap": 599470000000,
-   "peRatio": 8.09,
+   "peRatio": 8.1,
    "pegRatio": 0.44,
    "currency": "THB",
    "price": 151.0,
@@ -265,6 +191,80 @@
     "2023": 9.25,
     "2022": 7.25,
     "2021": 4.75
+   },
+   "yieldYearsUsed": [
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+   ],
+   "dividendsAsOf": "2026-11-04T05:58:49.311517+00:00"
+  },
+  {
+   "symbol": "KTB",
+   "name": "ธนาคารกรุงไทย",
+   "pairId": 102569,
+   "path": "/equities/krung-thai-ban",
+   "sector": "Financials",
+   "industry": "Banking Services",
+   "sourcePrice": 42.75,
+   "sourceChangePercent": -0.58,
+   "marketCap": 597480000000,
+   "peRatio": 12.46,
+   "pegRatio": -12.81,
+   "currency": "THB",
+   "price": 42.75,
+   "changePercent": -0.58,
+   "divYield": 7.37,
+   "avgYield5y": 3.86,
+   "dpsLastYear": 3.15,
+   "dpsPrevFY": 2.67,
+   "divPayments": [
+    {
+     "date": "2020-04-08",
+     "amount": 0.753
+    },
+    {
+     "date": "2021-04-21",
+     "amount": 0.275
+    },
+    {
+     "date": "2022-04-20",
+     "amount": 0.418
+    },
+    {
+     "date": "2023-04-18",
+     "amount": 0.682
+    },
+    {
+     "date": "2024-04-17",
+     "amount": 0.868
+    },
+    {
+     "date": "2025-04-16",
+     "amount": 1.545
+    },
+    {
+     "date": "2025-11-11",
+     "amount": 0.43
+    },
+    {
+     "date": "2026-04-10",
+     "amount": 2.24
+    },
+    {
+     "date": "2026-09-22",
+     "amount": 0.48
+    }
+   ],
+   "dpsByYear": {
+    "2026": 2.72,
+    "2025": 1.975,
+    "2024": 0.868,
+    "2023": 0.682,
+    "2022": 0.418,
+    "2021": 0.275
    },
    "yieldYearsUsed": [
     "2021",
@@ -446,8 +446,8 @@
    "industry": "Banking Services",
    "sourcePrice": 124.5,
    "sourceChangePercent": 0.4,
-   "marketCap": 100080000000,
-   "peRatio": 14.57,
+   "marketCap": 99680000000,
+   "peRatio": 14.52,
    "pegRatio": 6.17,
    "currency": "THB",
    "price": 124.5,
@@ -529,7 +529,7 @@
    "sourcePrice": 114,
    "sourceChangePercent": 0.88,
    "marketCap": 98100000000,
-   "peRatio": 11.51,
+   "peRatio": 11.57,
    "pegRatio": 0.26,
    "currency": "THB",
    "price": 114.0,
@@ -619,7 +619,7 @@
    "sourcePrice": 130,
    "sourceChangePercent": 0.39,
    "marketCap": 68440000000,
-   "peRatio": 128.4,
+   "peRatio": 128.89,
    "pegRatio": -1.41,
    "currency": "THB",
    "price": 130.0,
@@ -710,10 +710,10 @@
    "path": "/equities/bangchak",
    "sector": "Energy",
    "industry": "Oil & Gas",
-   "sourcePrice": 44.75,
-   "sourceChangePercent": -3.24,
-   "marketCap": 65470000000,
-   "peRatio": 2.95,
+   "sourcePrice": 45,
+   "sourceChangePercent": -2.7,
+   "marketCap": 65830000000,
+   "peRatio": 2.96,
    "pegRatio": 0.0,
    "currency": "THB",
    "price": 45.0,
@@ -799,7 +799,7 @@
    "sourcePrice": 13.199999809265137,
    "sourceChangePercent": 0.76,
    "marketCap": 61440000000,
-   "peRatio": 10.92,
+   "peRatio": 10.84,
    "pegRatio": 1.55,
    "currency": "THB",
    "price": 13.2,
@@ -892,8 +892,8 @@
    "industry": "Food & Tobacco",
    "sourcePrice": 9.550000190734863,
    "sourceChangePercent": 1.6,
-   "marketCap": 56990000000,
-   "peRatio": 9.03,
+   "marketCap": 56700000000,
+   "peRatio": 8.98,
    "pegRatio": -1.14,
    "currency": "THB",
    "price": 9.55,
@@ -1102,10 +1102,10 @@
    "path": "/equities/land---house",
    "sector": "Real Estate",
    "industry": "Real Estate Operations",
-   "sourcePrice": 3.5,
-   "sourceChangePercent": 0.0,
+   "sourcePrice": 3.4800000190734863,
+   "sourceChangePercent": -0.57,
    "marketCap": 41590000000,
-   "peRatio": 15.82,
+   "peRatio": 15.73,
    "pegRatio": -0.3,
    "currency": "THB",
    "price": 3.48,
@@ -1260,8 +1260,8 @@
    "path": "/equities/ttw",
    "sector": "Utilities",
    "industry": "Water & Related Utilities",
-   "sourcePrice": 10.100000381469727,
-   "sourceChangePercent": 0.0,
+   "sourcePrice": 10,
+   "sourceChangePercent": -0.99,
    "marketCap": 39900000000,
    "peRatio": 12.74,
    "pegRatio": null,
@@ -1904,7 +1904,7 @@
    "industry": "Real Estate Operations",
    "sourcePrice": 7.800000190734863,
    "sourceChangePercent": 0.65,
-   "marketCap": 24380000000,
+   "marketCap": 24540000000,
    "peRatio": 5.56,
    "pegRatio": -1.28,
    "currency": "THB",
