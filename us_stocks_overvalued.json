@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T13:47:37.982813+07:00"
+    "fetchedAt": "2026-11-04T13:57:37.529102+07:00"
   },
   {
     "id": "1131557",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T13:47:37.982813+07:00"
+    "fetchedAt": "2026-11-04T13:57:37.529102+07:00"
   },
   {
     "id": "1114321",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T13:47:37.982813+07:00"
+    "fetchedAt": "2026-11-04T13:57:37.529102+07:00"
   },
   {
     "id": "261",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T13:47:37.982813+07:00"
+    "fetchedAt": "2026-11-04T13:57:37.529102+07:00"
   },
   {
     "id": "13994",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T13:47:37.982813+07:00"
+    "fetchedAt": "2026-11-04T13:57:37.529102+07:00"
   },
   {
     "id": "13852",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T13:47:37.982813+07:00"
+    "fetchedAt": "2026-11-04T13:57:37.529102+07:00"
   },
   {
     "id": "41268",
@@ -207,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T13:47:37.982813+07:00"
+    "fetchedAt": "2026-11-04T13:57:37.529102+07:00"
   },
   {
     "id": "13848",
@@ -237,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T13:47:37.982813+07:00"
+    "fetchedAt": "2026-11-04T13:57:37.529102+07:00"
   },
   {
     "id": "13067",
@@ -267,37 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T13:47:37.982813+07:00"
-  },
-  {
-    "id": "7997",
-    "symbol": "WMT",
-    "name": "Walmart Inc",
-    "shortName": "Walmart",
-    "link": "https://www.investing.com/equities/wal-mart-stores",
-    "price": 124.86,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 92.77,
-    "fairValueUpside": -25.7,
-    "peRatio": 45.25,
-    "evEbitda": 23.82,
-    "marketCap": 990610000000,
-    "marketCapFormatted": "990.61 พันล้าน",
-    "epsGrowth5y": 0.16,
-    "changeOneDayPercent": -2.22,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "ดี",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-03T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T13:47:37.982813+07:00"
+    "fetchedAt": "2026-11-04T13:57:37.529102+07:00"
   },
   {
     "id": "13866",
@@ -327,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T13:47:37.982813+07:00"
+    "fetchedAt": "2026-11-04T13:57:37.529102+07:00"
   },
   {
     "id": "8260",
@@ -357,7 +327,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T13:47:37.982813+07:00"
+    "fetchedAt": "2026-11-04T13:57:37.529102+07:00"
+  },
+  {
+    "id": "8036",
+    "symbol": "AMT",
+    "name": "American Tower Corp",
+    "shortName": "American Tower",
+    "link": "https://www.investing.com/equities/amer-tower-corp",
+    "price": 187.29,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 141.73,
+    "fairValueUpside": -24.33,
+    "peRatio": 26.26,
+    "evEbitda": 19.33,
+    "marketCap": 86860000000,
+    "marketCapFormatted": "86.86 พันล้าน",
+    "epsGrowth5y": 0.23,
+    "changeOneDayPercent": -0.54,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-03T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
+    "fetchedAt": "2026-11-04T13:57:37.529102+07:00"
   },
   {
     "id": "19695",
@@ -387,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T13:47:37.982813+07:00"
+    "fetchedAt": "2026-11-04T13:57:37.529102+07:00"
   },
   {
     "id": "20164",
@@ -417,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T13:47:37.982813+07:00"
+    "fetchedAt": "2026-11-04T13:57:37.529102+07:00"
   },
   {
     "id": "20486",
@@ -447,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T13:47:37.982813+07:00"
+    "fetchedAt": "2026-11-04T13:57:37.529102+07:00"
   },
   {
     "id": "7881",
@@ -477,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T13:47:37.982813+07:00"
+    "fetchedAt": "2026-11-04T13:57:37.529102+07:00"
   },
   {
     "id": "8158",
@@ -507,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T13:47:37.982813+07:00"
+    "fetchedAt": "2026-11-04T13:57:37.529102+07:00"
   },
   {
     "id": "8193",
@@ -518,7 +518,7 @@
     "price": 320.67,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 252.16,
+    "fairValue": 252.19,
     "fairValueUpside": -21.36,
     "peRatio": 36.57,
     "evEbitda": 24.52,
@@ -537,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T13:47:37.982813+07:00"
+    "fetchedAt": "2026-11-04T13:57:37.529102+07:00"
   },
   {
     "id": "238",
@@ -567,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T13:47:37.982813+07:00"
+    "fetchedAt": "2026-11-04T13:57:37.529102+07:00"
   },
   {
     "id": "29723",
@@ -597,7 +597,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T13:47:37.982813+07:00"
+    "fetchedAt": "2026-11-04T13:57:37.529102+07:00"
   },
   {
     "id": "44408",
@@ -627,7 +627,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T13:47:37.982813+07:00"
+    "fetchedAt": "2026-11-04T13:57:37.529102+07:00"
   },
   {
     "id": "8136",
@@ -657,7 +657,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T13:47:37.982813+07:00"
+    "fetchedAt": "2026-11-04T13:57:37.529102+07:00"
   },
   {
     "id": "8279",
@@ -668,8 +668,8 @@
     "price": 163.48,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 133.86,
-    "fairValueUpside": -18.12,
+    "fairValue": 134.56,
+    "fairValueUpside": -17.69,
     "peRatio": 79.92,
     "evEbitda": 22.65,
     "marketCap": 18240000000,
@@ -687,7 +687,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T13:47:37.982813+07:00"
+    "fetchedAt": "2026-11-04T13:57:37.529102+07:00"
   },
   {
     "id": "7943",
@@ -717,37 +717,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T13:47:37.982813+07:00"
-  },
-  {
-    "id": "1206256",
-    "symbol": "ARM",
-    "name": "Arm Holdings ADR",
-    "shortName": "Arm ADR",
-    "link": "https://www.investing.com/equities/arm",
-    "price": 202.49,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 167.02,
-    "fairValueUpside": -17.52,
-    "peRatio": 205.1,
-    "evEbitda": 203.62,
-    "marketCap": 216360000000,
-    "marketCapFormatted": "216.36 พันล้าน",
-    "epsGrowth5y": 1.13,
-    "changeOneDayPercent": 2.9,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-03T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T13:47:37.982813+07:00"
+    "fetchedAt": "2026-11-04T13:57:37.529102+07:00"
   },
   {
     "id": "39166",
@@ -777,7 +747,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T13:47:37.982813+07:00"
+    "fetchedAt": "2026-11-04T13:57:37.529102+07:00"
   },
   {
     "id": "7976",
@@ -807,7 +777,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T13:47:37.982813+07:00"
+    "fetchedAt": "2026-11-04T13:57:37.529102+07:00"
   },
   {
     "id": "6365",
@@ -837,7 +807,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T13:47:37.982813+07:00"
+    "fetchedAt": "2026-11-04T13:57:37.529102+07:00"
   },
   {
     "id": "29737",
@@ -867,7 +837,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T13:47:37.982813+07:00"
+    "fetchedAt": "2026-11-04T13:57:37.529102+07:00"
   },
   {
     "id": "8268",
@@ -897,6 +867,36 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-03T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
-    "fetchedAt": "2026-11-04T13:47:37.982813+07:00"
+    "fetchedAt": "2026-11-04T13:57:37.529102+07:00"
+  },
+  {
+    "id": "8356",
+    "symbol": "ROK",
+    "name": "Rockwell Automation Inc",
+    "shortName": "Rockwell Automation",
+    "link": "https://www.investing.com/equities/rockwell-automat",
+    "price": 446.38,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 373.86,
+    "fairValueUpside": -16.25,
+    "peRatio": 41.94,
+    "evEbitda": 24.65,
+    "marketCap": 49570000000,
+    "marketCapFormatted": "49.57 พันล้าน",
+    "epsGrowth5y": 0.04,
+    "changeOneDayPercent": 1.41,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "ดี",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-03T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-03T20:59:59.000Z",
+    "fetchedAt": "2026-11-04T13:57:37.529102+07:00"
   }
 ]
