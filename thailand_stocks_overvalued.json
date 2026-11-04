@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T12:51:34.655295+07:00"
+    "fetchedAt": "2026-11-04T13:01:27.752681+07:00"
   },
   {
     "id": "1199621",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T12:51:34.655295+07:00"
+    "fetchedAt": "2026-11-04T13:01:27.752681+07:00"
   },
   {
     "id": "102567",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T12:51:34.655295+07:00"
+    "fetchedAt": "2026-11-04T13:01:27.752681+07:00"
   },
   {
     "id": "1242508",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T12:51:34.655295+07:00"
+    "fetchedAt": "2026-11-04T13:01:27.752681+07:00"
   },
   {
     "id": "1130942",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T12:51:34.655295+07:00"
+    "fetchedAt": "2026-11-04T13:01:27.752681+07:00"
   },
   {
     "id": "102497",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T12:51:34.655295+07:00"
+    "fetchedAt": "2026-11-04T13:01:27.752681+07:00"
   },
   {
     "id": "102569",
@@ -207,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T12:51:34.655295+07:00"
+    "fetchedAt": "2026-11-04T13:01:27.752681+07:00"
   },
   {
     "id": "102751",
@@ -237,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T12:51:34.655295+07:00"
+    "fetchedAt": "2026-11-04T13:01:27.752681+07:00"
   },
   {
     "id": "102869",
@@ -267,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T12:51:34.655295+07:00"
+    "fetchedAt": "2026-11-04T13:01:27.752681+07:00"
   },
   {
     "id": "986137",
@@ -297,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T12:51:34.655295+07:00"
+    "fetchedAt": "2026-11-04T13:01:27.752681+07:00"
   },
   {
     "id": "102714",
@@ -327,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T12:51:34.655295+07:00"
+    "fetchedAt": "2026-11-04T13:01:27.752681+07:00"
   },
   {
     "id": "986147",
@@ -357,7 +357,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T12:51:34.655295+07:00"
+    "fetchedAt": "2026-11-04T13:01:27.752681+07:00"
+  },
+  {
+    "id": "1162301",
+    "symbol": "INSET",
+    "name": "Infraset PCL",
+    "shortName": "Infraset PCL",
+    "link": "https://www.investing.com/equities/infraset-pcl",
+    "price": 4.3,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 3.650099992752075,
+    "fairValueUpside": -15.109999477863312,
+    "peRatio": 33.90999984741211,
+    "evEbitda": 21.036876678466797,
+    "marketCap": 3450000000,
+    "marketCapFormatted": "3.45B",
+    "epsGrowth5y": -0.14099133014678955,
+    "changeOneDayPercent": 0.0,
+    "financialHealth": "FAIR",
+    "financialCashFlowHealth": "WEAK",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "GOOD",
+    "analystRatings": "STRONG_BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-04T05:29:59.000Z",
+    "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
+    "fetchedAt": "2026-11-04T13:01:27.752681+07:00"
   },
   {
     "id": "989494",
@@ -387,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T12:51:34.655295+07:00"
+    "fetchedAt": "2026-11-04T13:01:27.752681+07:00"
   },
   {
     "id": "102442",
@@ -417,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T12:51:34.655295+07:00"
+    "fetchedAt": "2026-11-04T13:01:27.752681+07:00"
   },
   {
     "id": "102683",
@@ -447,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T12:51:34.655295+07:00"
+    "fetchedAt": "2026-11-04T13:01:27.752681+07:00"
   },
   {
     "id": "102561",
@@ -477,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T12:51:34.655295+07:00"
+    "fetchedAt": "2026-11-04T13:01:27.752681+07:00"
   },
   {
     "id": "1008691",
@@ -507,6 +537,36 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T12:51:34.655295+07:00"
+    "fetchedAt": "2026-11-04T13:01:27.752681+07:00"
+  },
+  {
+    "id": "102560",
+    "symbol": "KBANK",
+    "name": "Kasikornbank PCL",
+    "shortName": "Kasikornbank",
+    "link": "https://www.investing.com/equities/kasikornbank",
+    "price": 244.0,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 218.73599243164062,
+    "fairValueUpside": -10.350000113248825,
+    "peRatio": 11.4399995803833,
+    "evEbitda": null,
+    "marketCap": 573650000000,
+    "marketCapFormatted": "573.65B",
+    "epsGrowth5y": 0.08181243389844894,
+    "changeOneDayPercent": 0.41,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "GOOD",
+    "financialGrowthHealth": "GOOD",
+    "financialProfitabilityHealth": "GOOD",
+    "analystRatings": "BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-04T05:29:59.000Z",
+    "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
+    "fetchedAt": "2026-11-04T13:01:27.752681+07:00"
   }
 ]
