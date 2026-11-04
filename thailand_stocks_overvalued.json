@@ -12,8 +12,8 @@
     "fairValueUpside": -27.900001406669617,
     "peRatio": 37.56999969482422,
     "evEbitda": 19.0531063079834,
-    "marketCap": 54460000000,
-    "marketCapFormatted": "54.46B",
+    "marketCap": 84650000000,
+    "marketCapFormatted": "84.65B",
     "epsGrowth5y": 0.7992117404937744,
     "changeOneDayPercent": 5.19,
     "financialHealth": "FAIR",
@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
+    "fetchedAt": "2026-11-05T05:50:11.640850+07:00"
   },
   {
     "id": "102567",
@@ -42,8 +42,8 @@
     "fairValueUpside": -22.859999537467957,
     "peRatio": 11.789999961853027,
     "evEbitda": null,
-    "marketCap": 100090000000,
-    "marketCapFormatted": "100.09B",
+    "marketCap": 98530000000,
+    "marketCapFormatted": "98.53B",
     "epsGrowth5y": 0.11438467353582382,
     "changeOneDayPercent": 1.33,
     "financialHealth": "GOOD",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
+    "fetchedAt": "2026-11-05T05:50:11.640850+07:00"
   },
   {
     "id": "1199621",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
+    "fetchedAt": "2026-11-05T05:50:11.640850+07:00"
   },
   {
     "id": "1242508",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
+    "fetchedAt": "2026-11-05T05:50:11.640850+07:00"
   },
   {
     "id": "1130942",
@@ -147,7 +147,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
+    "fetchedAt": "2026-11-05T05:50:11.640850+07:00"
+  },
+  {
+    "id": "102497",
+    "symbol": "EASTW",
+    "name": "Eastern Water Resources Development and Management PCL",
+    "shortName": "Eastern Water",
+    "link": "https://www.investing.com/equities/eastern-water",
+    "price": 4.24,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 3.374300003051758,
+    "fairValueUpside": -20.419999957084656,
+    "peRatio": 1.0299999713897705,
+    "evEbitda": 12.54293441772461,
+    "marketCap": 7050000000,
+    "marketCapFormatted": "7.05B",
+    "epsGrowth5y": 0.4642012417316437,
+    "changeOneDayPercent": 3.41,
+    "financialHealth": "FAIR",
+    "financialCashFlowHealth": "WEAK",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "WEAK",
+    "analystRatings": "-",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-04T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
+    "fetchedAt": "2026-11-05T05:50:11.640850+07:00"
   },
   {
     "id": "102569",
@@ -162,8 +192,8 @@
     "fairValueUpside": -19.089999794960022,
     "peRatio": 12.609999656677246,
     "evEbitda": null,
-    "marketCap": 617480000000,
-    "marketCapFormatted": "617.48B",
+    "marketCap": 604460000000,
+    "marketCapFormatted": "604.46B",
     "epsGrowth5y": 0.23846369981765747,
     "changeOneDayPercent": 0.58,
     "financialHealth": "GOOD",
@@ -177,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
+    "fetchedAt": "2026-11-05T05:50:11.640850+07:00"
   },
   {
     "id": "102869",
@@ -207,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
+    "fetchedAt": "2026-11-05T05:50:11.640850+07:00"
   },
   {
     "id": "1162301",
@@ -237,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
+    "fetchedAt": "2026-11-05T05:50:11.640850+07:00"
   },
   {
     "id": "986137",
@@ -267,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
+    "fetchedAt": "2026-11-05T05:50:11.640850+07:00"
   },
   {
     "id": "102751",
@@ -297,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
+    "fetchedAt": "2026-11-05T05:50:11.640850+07:00"
   },
   {
     "id": "986147",
@@ -327,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
+    "fetchedAt": "2026-11-05T05:50:11.640850+07:00"
   },
   {
     "id": "102714",
@@ -357,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
+    "fetchedAt": "2026-11-05T05:50:11.640850+07:00"
   },
   {
     "id": "989494",
@@ -387,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
+    "fetchedAt": "2026-11-05T05:50:11.640850+07:00"
   },
   {
     "id": "1008691",
@@ -417,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
+    "fetchedAt": "2026-11-05T05:50:11.640850+07:00"
   },
   {
     "id": "102561",
@@ -447,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
+    "fetchedAt": "2026-11-05T05:50:11.640850+07:00"
   },
   {
     "id": "102757",
@@ -477,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
+    "fetchedAt": "2026-11-05T05:50:11.640850+07:00"
   },
   {
     "id": "102683",
@@ -507,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
+    "fetchedAt": "2026-11-05T05:50:11.640850+07:00"
   },
   {
     "id": "102442",
@@ -537,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
+    "fetchedAt": "2026-11-05T05:50:11.640850+07:00"
   },
   {
     "id": "102530",
@@ -567,6 +597,36 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
+    "fetchedAt": "2026-11-05T05:50:11.640850+07:00"
+  },
+  {
+    "id": "102560",
+    "symbol": "KBANK",
+    "name": "Kasikornbank PCL",
+    "shortName": "Kasikornbank",
+    "link": "https://www.investing.com/equities/kasikornbank",
+    "price": 244.0,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 218.73599243164062,
+    "fairValueUpside": -10.350000113248825,
+    "peRatio": 11.4399995803833,
+    "evEbitda": null,
+    "marketCap": 573650000000,
+    "marketCapFormatted": "573.65B",
+    "epsGrowth5y": 0.08181243389844894,
+    "changeOneDayPercent": 0.41,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "GOOD",
+    "financialGrowthHealth": "GOOD",
+    "financialProfitabilityHealth": "GOOD",
+    "analystRatings": "BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-04T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
+    "fetchedAt": "2026-11-05T05:50:11.640850+07:00"
   }
 ]
