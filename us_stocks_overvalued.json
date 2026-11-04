@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T06:36:24.283445+07:00"
+    "fetchedAt": "2026-11-05T06:46:13.858270+07:00"
   },
   {
     "id": "1169889",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T06:36:24.283445+07:00"
+    "fetchedAt": "2026-11-05T06:46:13.858270+07:00"
   },
   {
     "id": "1131557",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T06:36:24.283445+07:00"
+    "fetchedAt": "2026-11-05T06:46:13.858270+07:00"
   },
   {
     "id": "261",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T06:36:24.283445+07:00"
+    "fetchedAt": "2026-11-05T06:46:13.858270+07:00"
   },
   {
     "id": "13852",
@@ -147,37 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T06:36:24.283445+07:00"
-  },
-  {
-    "id": "13994",
-    "symbol": "TSLA",
-    "name": "Tesla Inc",
-    "shortName": "Tesla",
-    "link": "https://www.investing.com/equities/tesla-motors",
-    "price": 247.99,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 171.65,
-    "fairValueUpside": -30.78,
-    "peRatio": 106.68,
-    "evEbitda": 51.49,
-    "marketCap": 1580000000000,
-    "marketCapFormatted": "176.92 พันล้าน",
-    "epsGrowth5y": 0.46,
-    "changeOneDayPercent": -3.34,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "แย่",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-04T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T06:36:24.283445+07:00"
+    "fetchedAt": "2026-11-05T06:46:13.858270+07:00"
   },
   {
     "id": "13848",
@@ -207,7 +177,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T06:36:24.283445+07:00"
+    "fetchedAt": "2026-11-05T06:46:13.858270+07:00"
+  },
+  {
+    "id": "13994",
+    "symbol": "TSLA",
+    "name": "Tesla Inc",
+    "shortName": "Tesla",
+    "link": "https://www.investing.com/equities/tesla-motors",
+    "price": 247.99,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 171.65,
+    "fairValueUpside": -30.78,
+    "peRatio": 106.68,
+    "evEbitda": 51.49,
+    "marketCap": 1580000000000,
+    "marketCapFormatted": "176.92 พันล้าน",
+    "epsGrowth5y": 0.46,
+    "changeOneDayPercent": -3.34,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "แย่",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-04T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
+    "fetchedAt": "2026-11-05T06:46:13.858270+07:00"
   },
   {
     "id": "16678",
@@ -237,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T06:36:24.283445+07:00"
+    "fetchedAt": "2026-11-05T06:46:13.858270+07:00"
   },
   {
     "id": "41268",
@@ -267,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T06:36:24.283445+07:00"
+    "fetchedAt": "2026-11-05T06:46:13.858270+07:00"
   },
   {
     "id": "13067",
@@ -297,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T06:36:24.283445+07:00"
+    "fetchedAt": "2026-11-05T06:46:13.858270+07:00"
   },
   {
     "id": "7997",
@@ -327,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T06:36:24.283445+07:00"
+    "fetchedAt": "2026-11-05T06:46:13.858270+07:00"
   },
   {
     "id": "13866",
@@ -357,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T06:36:24.283445+07:00"
+    "fetchedAt": "2026-11-05T06:46:13.858270+07:00"
   },
   {
     "id": "8260",
@@ -387,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T06:36:24.283445+07:00"
+    "fetchedAt": "2026-11-05T06:46:13.858270+07:00"
   },
   {
     "id": "8036",
@@ -417,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T06:36:24.283445+07:00"
+    "fetchedAt": "2026-11-05T06:46:13.858270+07:00"
   },
   {
     "id": "8158",
@@ -447,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T06:36:24.283445+07:00"
+    "fetchedAt": "2026-11-05T06:46:13.858270+07:00"
   },
   {
     "id": "20486",
@@ -477,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T06:36:24.283445+07:00"
+    "fetchedAt": "2026-11-05T06:46:13.858270+07:00"
   },
   {
     "id": "8193",
@@ -507,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T06:36:24.283445+07:00"
+    "fetchedAt": "2026-11-05T06:46:13.858270+07:00"
   },
   {
     "id": "7881",
@@ -537,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T06:36:24.283445+07:00"
+    "fetchedAt": "2026-11-05T06:46:13.858270+07:00"
   },
   {
     "id": "238",
@@ -567,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T06:36:24.283445+07:00"
+    "fetchedAt": "2026-11-05T06:46:13.858270+07:00"
   },
   {
     "id": "44408",
@@ -597,7 +597,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T06:36:24.283445+07:00"
+    "fetchedAt": "2026-11-05T06:46:13.858270+07:00"
   },
   {
     "id": "7986",
@@ -627,7 +627,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T06:36:24.283445+07:00"
+    "fetchedAt": "2026-11-05T06:46:13.858270+07:00"
   },
   {
     "id": "29723",
@@ -657,7 +657,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T06:36:24.283445+07:00"
+    "fetchedAt": "2026-11-05T06:46:13.858270+07:00"
   },
   {
     "id": "6365",
@@ -687,7 +687,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T06:36:24.283445+07:00"
+    "fetchedAt": "2026-11-05T06:46:13.858270+07:00"
   },
   {
     "id": "8136",
@@ -717,7 +717,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T06:36:24.283445+07:00"
+    "fetchedAt": "2026-11-05T06:46:13.858270+07:00"
   },
   {
     "id": "10549",
@@ -747,7 +747,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T06:36:24.283445+07:00"
+    "fetchedAt": "2026-11-05T06:46:13.858270+07:00"
   },
   {
     "id": "39166",
@@ -777,7 +777,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T06:36:24.283445+07:00"
+    "fetchedAt": "2026-11-05T06:46:13.858270+07:00"
   },
   {
     "id": "239",
@@ -807,7 +807,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T06:36:24.283445+07:00"
+    "fetchedAt": "2026-11-05T06:46:13.858270+07:00"
   },
   {
     "id": "6500",
@@ -837,7 +837,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T06:36:24.283445+07:00"
+    "fetchedAt": "2026-11-05T06:46:13.858270+07:00"
   },
   {
     "id": "8021",
@@ -867,36 +867,36 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T06:36:24.283445+07:00"
+    "fetchedAt": "2026-11-05T06:46:13.858270+07:00"
   },
   {
-    "id": "8297",
-    "symbol": "ED",
-    "name": "Consolidated Edison Inc",
-    "shortName": "Consolidated Edison",
-    "link": "https://www.investing.com/equities/cocnsol-edison",
-    "price": 120.3,
+    "id": "13061",
+    "symbol": "UAL",
+    "name": "United Airlines Holdings Inc",
+    "shortName": "United Airlines Holdings",
+    "link": "https://www.investing.com/equities/united-continenta",
+    "price": 115.76,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 98.06,
-    "fairValueUpside": -18.49,
-    "peRatio": 19.8,
-    "evEbitda": 11.18,
-    "marketCap": 43200000000,
-    "marketCapFormatted": "43.2 พันล้าน",
-    "epsGrowth5y": 0.14,
-    "changeOneDayPercent": 2.99,
+    "fairValue": 94.38,
+    "fairValueUpside": -18.47,
+    "peRatio": 10.58,
+    "evEbitda": 7.39,
+    "marketCap": 34830000000,
+    "marketCapFormatted": "34.83 พันล้าน",
+    "epsGrowth5y": 0.92,
+    "changeOneDayPercent": 7.98,
     "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "ดี",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ถือหุ้นไว้",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "มูลค่าตามจริง",
+    "analystRatings": "ซื้อทันที",
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T06:36:24.283445+07:00"
+    "fetchedAt": "2026-11-05T06:46:13.858270+07:00"
   }
 ]
