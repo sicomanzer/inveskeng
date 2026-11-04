@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-05T05:36:43.358386+07:00",
- "sourceAsOf": "2026-11-05T05:36:39.273233+07:00",
+ "asOf": "2026-11-05T06:07:02.082233+07:00",
+ "sourceAsOf": "2026-11-05T06:06:57.173184+07:00",
  "partial": false,
  "criteria": {
   "market": "TH",
@@ -108,6 +108,80 @@
    "dividendsAsOf": "2026-11-04T05:58:49.311517+00:00"
   },
   {
+   "symbol": "KTB",
+   "name": "ธนาคารกรุงไทย",
+   "pairId": 102569,
+   "path": "/equities/krung-thai-ban",
+   "sector": "Financials",
+   "industry": "Banking Services",
+   "sourcePrice": 43.25,
+   "sourceChangePercent": 0.58,
+   "marketCap": 604460000000,
+   "peRatio": 12.61,
+   "pegRatio": -12.81,
+   "currency": "THB",
+   "price": 43.25,
+   "changePercent": 0.58,
+   "divYield": 7.28,
+   "avgYield5y": 3.86,
+   "dpsLastYear": 3.15,
+   "dpsPrevFY": 2.67,
+   "divPayments": [
+    {
+     "date": "2020-04-08",
+     "amount": 0.753
+    },
+    {
+     "date": "2021-04-21",
+     "amount": 0.275
+    },
+    {
+     "date": "2022-04-20",
+     "amount": 0.418
+    },
+    {
+     "date": "2023-04-18",
+     "amount": 0.682
+    },
+    {
+     "date": "2024-04-17",
+     "amount": 0.868
+    },
+    {
+     "date": "2025-04-16",
+     "amount": 1.545
+    },
+    {
+     "date": "2025-11-11",
+     "amount": 0.43
+    },
+    {
+     "date": "2026-04-10",
+     "amount": 2.24
+    },
+    {
+     "date": "2026-09-22",
+     "amount": 0.48
+    }
+   ],
+   "dpsByYear": {
+    "2026": 2.72,
+    "2025": 1.975,
+    "2024": 0.868,
+    "2023": 0.682,
+    "2022": 0.418,
+    "2021": 0.275
+   },
+   "yieldYearsUsed": [
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+   ],
+   "dividendsAsOf": "2026-11-04T05:58:49.311517+00:00"
+  },
+  {
    "symbol": "PTTEP",
    "name": "ปตท. สำรวจและผลิตปิโตรเลียม",
    "pairId": 102673,
@@ -116,7 +190,7 @@
    "industry": "Oil & Gas",
    "sourcePrice": 150,
    "sourceChangePercent": -1.96,
-   "marketCap": 623640000000,
+   "marketCap": 595500000000,
    "peRatio": 8.07,
    "pegRatio": 0.44,
    "currency": "THB",
@@ -191,80 +265,6 @@
     "2023": 9.25,
     "2022": 7.25,
     "2021": 4.75
-   },
-   "yieldYearsUsed": [
-    "2021",
-    "2022",
-    "2023",
-    "2024",
-    "2025"
-   ],
-   "dividendsAsOf": "2026-11-04T05:58:49.311517+00:00"
-  },
-  {
-   "symbol": "KTB",
-   "name": "ธนาคารกรุงไทย",
-   "pairId": 102569,
-   "path": "/equities/krung-thai-ban",
-   "sector": "Financials",
-   "industry": "Banking Services",
-   "sourcePrice": 43.25,
-   "sourceChangePercent": 0.58,
-   "marketCap": 617480000000,
-   "peRatio": 12.61,
-   "pegRatio": -12.81,
-   "currency": "THB",
-   "price": 43.25,
-   "changePercent": 0.58,
-   "divYield": 7.28,
-   "avgYield5y": 3.86,
-   "dpsLastYear": 3.15,
-   "dpsPrevFY": 2.67,
-   "divPayments": [
-    {
-     "date": "2020-04-08",
-     "amount": 0.753
-    },
-    {
-     "date": "2021-04-21",
-     "amount": 0.275
-    },
-    {
-     "date": "2022-04-20",
-     "amount": 0.418
-    },
-    {
-     "date": "2023-04-18",
-     "amount": 0.682
-    },
-    {
-     "date": "2024-04-17",
-     "amount": 0.868
-    },
-    {
-     "date": "2025-04-16",
-     "amount": 1.545
-    },
-    {
-     "date": "2025-11-11",
-     "amount": 0.43
-    },
-    {
-     "date": "2026-04-10",
-     "amount": 2.24
-    },
-    {
-     "date": "2026-09-22",
-     "amount": 0.48
-    }
-   ],
-   "dpsByYear": {
-    "2026": 2.72,
-    "2025": 1.975,
-    "2024": 0.868,
-    "2023": 0.682,
-    "2022": 0.418,
-    "2021": 0.275
    },
    "yieldYearsUsed": [
     "2021",
@@ -438,96 +438,6 @@
    "dividendsAsOf": "2026-11-04T05:58:49.311517+00:00"
   },
   {
-   "symbol": "KKP",
-   "name": "ธนาคารเกียรตินาคิน",
-   "pairId": 102567,
-   "path": "/equities/kiatnakin-bank",
-   "sector": "Financials",
-   "industry": "Banking Services",
-   "sourcePrice": 114.5,
-   "sourceChangePercent": 1.33,
-   "marketCap": 100090000000,
-   "peRatio": 11.79,
-   "pegRatio": 0.26,
-   "currency": "THB",
-   "price": 114.5,
-   "changePercent": 1.33,
-   "divYield": 6.51,
-   "avgYield5y": 5.56,
-   "dpsLastYear": 7.45,
-   "dpsPrevFY": 5.7,
-   "divPayments": [
-    {
-     "date": "2020-04-10",
-     "amount": 2.75
-    },
-    {
-     "date": "2021-04-29",
-     "amount": 2.25
-    },
-    {
-     "date": "2021-09-08",
-     "amount": 0.75
-    },
-    {
-     "date": "2022-04-28",
-     "amount": 2.2
-    },
-    {
-     "date": "2022-09-07",
-     "amount": 1.75
-    },
-    {
-     "date": "2023-04-27",
-     "amount": 1.5
-    },
-    {
-     "date": "2023-09-06",
-     "amount": 1.25
-    },
-    {
-     "date": "2024-04-26",
-     "amount": 1.75
-    },
-    {
-     "date": "2024-09-04",
-     "amount": 1.25
-    },
-    {
-     "date": "2025-05-02",
-     "amount": 2.75
-    },
-    {
-     "date": "2025-09-10",
-     "amount": 1.5
-    },
-    {
-     "date": "2026-04-29",
-     "amount": 4.2
-    },
-    {
-     "date": "2026-09-09",
-     "amount": 3.25
-    }
-   ],
-   "dpsByYear": {
-    "2026": 7.45,
-    "2025": 4.25,
-    "2024": 3.0,
-    "2023": 2.75,
-    "2022": 3.95,
-    "2021": 3.0
-   },
-   "yieldYearsUsed": [
-    "2021",
-    "2022",
-    "2023",
-    "2024",
-    "2025"
-   ],
-   "dividendsAsOf": "2026-11-04T05:58:49.311517+00:00"
-  },
-  {
    "symbol": "TISCO",
    "name": "ทิสโก้ไฟแนนเชียลกรุ๊ป",
    "pairId": 102835,
@@ -610,6 +520,96 @@
    "dividendsAsOf": "2026-11-04T05:58:49.311517+00:00"
   },
   {
+   "symbol": "KKP",
+   "name": "ธนาคารเกียรตินาคิน",
+   "pairId": 102567,
+   "path": "/equities/kiatnakin-bank",
+   "sector": "Financials",
+   "industry": "Banking Services",
+   "sourcePrice": 114.5,
+   "sourceChangePercent": 1.33,
+   "marketCap": 98530000000,
+   "peRatio": 11.79,
+   "pegRatio": 0.26,
+   "currency": "THB",
+   "price": 114.5,
+   "changePercent": 1.33,
+   "divYield": 6.51,
+   "avgYield5y": 5.56,
+   "dpsLastYear": 7.45,
+   "dpsPrevFY": 5.7,
+   "divPayments": [
+    {
+     "date": "2020-04-10",
+     "amount": 2.75
+    },
+    {
+     "date": "2021-04-29",
+     "amount": 2.25
+    },
+    {
+     "date": "2021-09-08",
+     "amount": 0.75
+    },
+    {
+     "date": "2022-04-28",
+     "amount": 2.2
+    },
+    {
+     "date": "2022-09-07",
+     "amount": 1.75
+    },
+    {
+     "date": "2023-04-27",
+     "amount": 1.5
+    },
+    {
+     "date": "2023-09-06",
+     "amount": 1.25
+    },
+    {
+     "date": "2024-04-26",
+     "amount": 1.75
+    },
+    {
+     "date": "2024-09-04",
+     "amount": 1.25
+    },
+    {
+     "date": "2025-05-02",
+     "amount": 2.75
+    },
+    {
+     "date": "2025-09-10",
+     "amount": 1.5
+    },
+    {
+     "date": "2026-04-29",
+     "amount": 4.2
+    },
+    {
+     "date": "2026-09-09",
+     "amount": 3.25
+    }
+   ],
+   "dpsByYear": {
+    "2026": 7.45,
+    "2025": 4.25,
+    "2024": 3.0,
+    "2023": 2.75,
+    "2022": 3.95,
+    "2021": 3.0
+   },
+   "yieldYearsUsed": [
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+   ],
+   "dividendsAsOf": "2026-11-04T05:58:49.311517+00:00"
+  },
+  {
    "symbol": "EGCO",
    "name": "ผลิตไฟฟ้า",
    "pairId": 102499,
@@ -618,7 +618,7 @@
    "industry": "Electrical Utilities & IPPs",
    "sourcePrice": 134.5,
    "sourceChangePercent": 3.86,
-   "marketCap": 66400000000,
+   "marketCap": 70810000000,
    "peRatio": 124.96,
    "pegRatio": -1.41,
    "currency": "THB",
@@ -712,7 +712,7 @@
    "industry": "Oil & Gas",
    "sourcePrice": 45.25,
    "sourceChangePercent": -2.16,
-   "marketCap": 65190000000,
+   "marketCap": 66200000000,
    "peRatio": 2.91,
    "pegRatio": 0.0,
    "currency": "THB",
@@ -1262,7 +1262,7 @@
    "industry": "Water & Related Utilities",
    "sourcePrice": 10.100000381469727,
    "sourceChangePercent": 0.0,
-   "marketCap": 39480000000,
+   "marketCap": 40300000000,
    "peRatio": 12.87,
    "pegRatio": null,
    "currency": "THB",
@@ -1552,7 +1552,7 @@
    "industry": "Construction Materials",
    "sourcePrice": 16.799999237060547,
    "sourceChangePercent": 1.82,
-   "marketCap": 26340000000,
+   "marketCap": 26520000000,
    "peRatio": 22.68,
    "pegRatio": -0.5,
    "currency": "THB",
