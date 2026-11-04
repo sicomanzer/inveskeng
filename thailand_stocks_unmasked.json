@@ -27,7 +27,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T13:51:12.800409+07:00"
+    "fetchedAt": "2026-11-04T14:11:18.047701+07:00"
   },
   {
     "id": "102443",
@@ -57,7 +57,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T13:51:12.800409+07:00"
+    "fetchedAt": "2026-11-04T14:11:18.047701+07:00"
   },
   {
     "id": "102554",
@@ -87,7 +87,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T13:51:12.800409+07:00"
+    "fetchedAt": "2026-11-04T14:11:18.047701+07:00"
   },
   {
     "id": "102547",
@@ -117,7 +117,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T13:51:12.800409+07:00"
+    "fetchedAt": "2026-11-04T14:11:18.047701+07:00"
   },
   {
     "id": "1056157",
@@ -147,7 +147,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T13:51:12.800409+07:00"
+    "fetchedAt": "2026-11-04T14:11:18.047701+07:00"
   },
   {
     "id": "102863",
@@ -177,7 +177,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T13:51:12.800409+07:00"
+    "fetchedAt": "2026-11-04T14:11:18.047701+07:00"
   },
   {
     "id": "102513",
@@ -207,7 +207,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T13:51:12.800409+07:00"
+    "fetchedAt": "2026-11-04T14:11:18.047701+07:00"
   },
   {
     "id": "1173246",
@@ -237,7 +237,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T13:51:12.800409+07:00"
+    "fetchedAt": "2026-11-04T14:11:18.047701+07:00"
   },
   {
     "id": "102617",
@@ -267,7 +267,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T13:51:12.800409+07:00"
+    "fetchedAt": "2026-11-04T14:11:18.047701+07:00"
   },
   {
     "id": "102551",
@@ -297,7 +297,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T13:51:12.800409+07:00"
+    "fetchedAt": "2026-11-04T14:11:18.047701+07:00"
   },
   {
     "id": "1115209",
@@ -327,7 +327,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T13:51:12.800409+07:00"
+    "fetchedAt": "2026-11-04T14:11:18.047701+07:00"
   },
   {
     "id": "1052357",
@@ -357,7 +357,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T13:51:12.800409+07:00"
+    "fetchedAt": "2026-11-04T14:11:18.047701+07:00"
+  },
+  {
+    "id": "102425",
+    "symbol": "BCP",
+    "name": "Bangchak Corporation PCL",
+    "shortName": "Bangchak Corp",
+    "link": "https://www.investing.com/equities/bangchak",
+    "price": 45.0,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 66.41,
+    "fairValueUpside": 47.59,
+    "peRatio": 2.96,
+    "evEbitda": 3.18,
+    "marketCap": 65830000000,
+    "marketCapFormatted": "65.83 พันล้าน",
+    "epsGrowth5y": 1.87,
+    "changeOneDayPercent": -2.7,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดี",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-11-04T05:29:59.000Z",
+    "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
+    "fetchedAt": "2026-11-04T14:11:18.047701+07:00"
   },
   {
     "id": "102726",
@@ -387,7 +417,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T13:51:12.800409+07:00"
+    "fetchedAt": "2026-11-04T14:11:18.047701+07:00"
   },
   {
     "id": "102518",
@@ -417,7 +447,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T13:51:12.800409+07:00"
+    "fetchedAt": "2026-11-04T14:11:18.047701+07:00"
   },
   {
     "id": "1153457",
@@ -447,7 +477,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T13:51:12.800409+07:00"
+    "fetchedAt": "2026-11-04T14:11:18.047701+07:00"
   },
   {
     "id": "102457",
@@ -477,7 +507,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T13:51:12.800409+07:00"
+    "fetchedAt": "2026-11-04T14:11:18.047701+07:00"
   },
   {
     "id": "102584",
@@ -507,7 +537,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T13:51:12.800409+07:00"
+    "fetchedAt": "2026-11-04T14:11:18.047701+07:00"
   },
   {
     "id": "1198524",
@@ -537,7 +567,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T13:51:12.800409+07:00"
+    "fetchedAt": "2026-11-04T14:11:18.047701+07:00"
   },
   {
     "id": "102472",
@@ -567,7 +597,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T13:51:12.800409+07:00"
+    "fetchedAt": "2026-11-04T14:11:18.047701+07:00"
   },
   {
     "id": "102743",
@@ -597,7 +627,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T13:51:12.800409+07:00"
+    "fetchedAt": "2026-11-04T14:11:18.047701+07:00"
   },
   {
     "id": "102799",
@@ -627,7 +657,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T13:51:12.800409+07:00"
+    "fetchedAt": "2026-11-04T14:11:18.047701+07:00"
   },
   {
     "id": "102398",
@@ -657,7 +687,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T13:51:12.800409+07:00"
+    "fetchedAt": "2026-11-04T14:11:18.047701+07:00"
   },
   {
     "id": "1196441",
@@ -687,7 +717,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T13:51:12.800409+07:00"
+    "fetchedAt": "2026-11-04T14:11:18.047701+07:00"
   },
   {
     "id": "986206",
@@ -717,7 +747,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T13:51:12.800409+07:00"
+    "fetchedAt": "2026-11-04T14:11:18.047701+07:00"
   },
   {
     "id": "943699",
@@ -747,7 +777,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T13:51:12.800409+07:00"
+    "fetchedAt": "2026-11-04T14:11:18.047701+07:00"
   },
   {
     "id": "102498",
@@ -777,7 +807,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T13:51:12.800409+07:00"
+    "fetchedAt": "2026-11-04T14:11:18.047701+07:00"
   },
   {
     "id": "102753",
@@ -807,37 +837,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T13:51:12.800409+07:00"
-  },
-  {
-    "id": "950591",
-    "symbol": "SKY",
-    "name": "SKY ICT",
-    "shortName": "SKY ICT",
-    "link": "https://www.investing.com/equities/ccn-tech-pcl",
-    "price": 15.5,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 21.53,
-    "fairValueUpside": 38.89,
-    "peRatio": 13.72,
-    "evEbitda": 9.08,
-    "marketCap": 11120000000,
-    "marketCapFormatted": "11.12 พันล้าน",
-    "epsGrowth5y": 0.78,
-    "changeOneDayPercent": -1.9,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "ดีเยี่ยม",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-11-04T05:29:59.000Z",
-    "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T13:51:12.800409+07:00"
+    "fetchedAt": "2026-11-04T14:11:18.047701+07:00"
   },
   {
     "id": "102616",
@@ -867,7 +867,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T13:51:12.800409+07:00"
+    "fetchedAt": "2026-11-04T14:11:18.047701+07:00"
   },
   {
     "id": "102393",
@@ -897,6 +897,6 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-04T05:29:59.000Z",
-    "fetchedAt": "2026-11-04T13:51:12.800409+07:00"
+    "fetchedAt": "2026-11-04T14:11:18.047701+07:00"
   }
 ]
