@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:30:12.164892+07:00"
+    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
   },
   {
     "id": "102567",
@@ -57,7 +57,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:30:12.164892+07:00"
+    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
+  },
+  {
+    "id": "1199621",
+    "symbol": "SGC",
+    "name": "SG Capital PCL",
+    "shortName": "SG Capital PCL",
+    "link": "https://www.investing.com/equities/sg-capital-pcl",
+    "price": 1.97,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 1.5362999439239502,
+    "fairValueUpside": -22.020000219345093,
+    "peRatio": 0.0,
+    "evEbitda": null,
+    "marketCap": 12290000000,
+    "marketCapFormatted": "12.29B",
+    "epsGrowth5y": -0.7784796357154846,
+    "changeOneDayPercent": 2.6,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "GOOD",
+    "financialGrowthHealth": "EXCELLENT",
+    "financialProfitabilityHealth": "GOOD",
+    "analystRatings": "-",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-04T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
+    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
   },
   {
     "id": "1242508",
@@ -87,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:30:12.164892+07:00"
+    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
   },
   {
     "id": "1130942",
@@ -117,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:30:12.164892+07:00"
+    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
   },
   {
     "id": "102569",
@@ -147,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:30:12.164892+07:00"
+    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
   },
   {
     "id": "102869",
@@ -177,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:30:12.164892+07:00"
+    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
   },
   {
     "id": "1162301",
@@ -207,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:30:12.164892+07:00"
+    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
   },
   {
     "id": "986137",
@@ -237,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:30:12.164892+07:00"
+    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
   },
   {
     "id": "102751",
@@ -267,7 +297,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:30:12.164892+07:00"
+    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
+  },
+  {
+    "id": "986147",
+    "symbol": "BEM",
+    "name": "Bangkok Expressway and Metro PCL",
+    "shortName": "BEM",
+    "link": "https://www.investing.com/equities/bangkok-expressway-and-metro",
+    "price": 6.2,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 5.174699783325195,
+    "fairValueUpside": -16.539999842643738,
+    "peRatio": 23.579999923706055,
+    "evEbitda": 22.949678421020508,
+    "marketCap": 92860000000,
+    "marketCapFormatted": "92.86B",
+    "epsGrowth5y": 0.2634294033050537,
+    "changeOneDayPercent": -0.8,
+    "financialHealth": "FAIR",
+    "financialCashFlowHealth": "WEAK",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "GREAT",
+    "analystRatings": "STRONG_BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-04T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
+    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
   },
   {
     "id": "102714",
@@ -297,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:30:12.164892+07:00"
+    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
   },
   {
     "id": "989494",
@@ -327,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:30:12.164892+07:00"
+    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
   },
   {
     "id": "1008691",
@@ -357,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:30:12.164892+07:00"
+    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
   },
   {
     "id": "102561",
@@ -387,7 +447,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:30:12.164892+07:00"
+    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
+  },
+  {
+    "id": "102757",
+    "symbol": "STPI",
+    "name": "STP&I PCL",
+    "shortName": "STP&I",
+    "link": "https://www.investing.com/equities/stp---i",
+    "price": 5.4,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 4.676799774169922,
+    "fairValueUpside": -13.39000016450882,
+    "peRatio": -931.030029296875,
+    "evEbitda": 31.411836624145508,
+    "marketCap": 9790000000,
+    "marketCapFormatted": "9.79B",
+    "epsGrowth5y": 2.9889392852783203,
+    "changeOneDayPercent": 2.86,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "GOOD",
+    "financialGrowthHealth": "GOOD",
+    "financialProfitabilityHealth": "WEAK",
+    "analystRatings": "-",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-04T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
+    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
   },
   {
     "id": "102683",
@@ -417,29 +507,29 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:30:12.164892+07:00"
+    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
   },
   {
-    "id": "102560",
-    "symbol": "KBANK",
-    "name": "Kasikornbank PCL",
-    "shortName": "Kasikornbank",
-    "link": "https://www.investing.com/equities/kasikornbank",
-    "price": 244.0,
+    "id": "102442",
+    "symbol": "BJC",
+    "name": "Berli Jucker PCL",
+    "shortName": "Berli Jucker",
+    "link": "https://www.investing.com/equities/berli-jucker",
+    "price": 20.1,
     "currency": "THB",
     "currencySymbol": "฿",
-    "fairValue": 218.73599243164062,
-    "fairValueUpside": -10.350000113248825,
-    "peRatio": 11.4399995803833,
-    "evEbitda": null,
-    "marketCap": 573650000000,
-    "marketCapFormatted": "573.65B",
-    "epsGrowth5y": 0.08181243389844894,
-    "changeOneDayPercent": 0.41,
+    "fairValue": 17.697999954223633,
+    "fairValueUpside": -11.949999630451202,
+    "peRatio": 13.760000228881836,
+    "evEbitda": 12.679821968078613,
+    "marketCap": 80560000000,
+    "marketCapFormatted": "80.56B",
+    "epsGrowth5y": 0.030917756259441376,
+    "changeOneDayPercent": 2.03,
     "financialHealth": "GOOD",
-    "financialCashFlowHealth": "GOOD",
-    "financialGrowthHealth": "GOOD",
-    "financialProfitabilityHealth": "GOOD",
+    "financialCashFlowHealth": "FAIR",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "FAIR",
     "analystRatings": "BUY",
     "flagCode": "TH",
     "flagName": "Thailand",
@@ -447,6 +537,36 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T05:30:12.164892+07:00"
+    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
+  },
+  {
+    "id": "102530",
+    "symbol": "GUNKUL",
+    "name": "Gunkul Engineering PCL",
+    "shortName": "Gunkul Engineering",
+    "link": "https://www.investing.com/equities/gunkul-enginee",
+    "price": 4.82,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 4.29640007019043,
+    "fairValueUpside": -10.859999805688858,
+    "peRatio": 21.3700008392334,
+    "evEbitda": 19.23172378540039,
+    "marketCap": 42810000000,
+    "marketCapFormatted": "42.81B",
+    "epsGrowth5y": -0.02645876631140709,
+    "changeOneDayPercent": 7.11,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "GOOD",
+    "financialGrowthHealth": "GREAT",
+    "financialProfitabilityHealth": "GREAT",
+    "analystRatings": "STRONG_BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-04T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-04T10:49:59.000Z",
+    "fetchedAt": "2026-11-05T05:39:57.737658+07:00"
   }
 ]
