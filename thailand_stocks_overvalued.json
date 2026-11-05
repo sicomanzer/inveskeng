@@ -1,5 +1,35 @@
 [
   {
+    "id": "1242607",
+    "symbol": "UNIX_n",
+    "name": "Unique Plastic Industry PCL DRC",
+    "shortName": "Unique Plastic Industry PCL DRC",
+    "link": "https://www.investing.com/equities/unique-plastic-industry-pcl-drc",
+    "price": 2.08,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 1.5597000122070312,
+    "fairValueUpside": -25.009998679161072,
+    "peRatio": 0.0,
+    "evEbitda": null,
+    "marketCap": 1390000000,
+    "marketCapFormatted": "1.39B",
+    "epsGrowth5y": -0.058489151298999786,
+    "changeOneDayPercent": -0.95,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "FAIR",
+    "financialGrowthHealth": "-",
+    "financialProfitabilityHealth": "GREAT",
+    "analystRatings": "-",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-05T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
+    "fetchedAt": "2026-11-05T22:48:23.200411+07:00"
+  },
+  {
     "id": "102451",
     "symbol": "CCET",
     "name": "Cal-Comp Electronics Thailand PCL",
@@ -27,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T22:37:51.704184+07:00"
+    "fetchedAt": "2026-11-05T22:48:23.200411+07:00"
   },
   {
     "id": "102567",
@@ -42,8 +72,8 @@
     "fairValueUpside": -22.519999742507935,
     "peRatio": 11.699999809265137,
     "evEbitda": null,
-    "marketCap": 99410000000,
-    "marketCapFormatted": "99.41B",
+    "marketCap": 99540000000,
+    "marketCapFormatted": "99.54B",
     "epsGrowth5y": 0.11438467353582382,
     "changeOneDayPercent": -0.44,
     "financialHealth": "GOOD",
@@ -57,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T22:37:51.704184+07:00"
+    "fetchedAt": "2026-11-05T22:48:23.200411+07:00"
   },
   {
     "id": "1199621",
@@ -87,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T22:37:51.704184+07:00"
+    "fetchedAt": "2026-11-05T22:48:23.200411+07:00"
   },
   {
     "id": "1242508",
@@ -117,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T22:37:51.704184+07:00"
+    "fetchedAt": "2026-11-05T22:48:23.200411+07:00"
   },
   {
     "id": "989494",
@@ -147,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T22:37:51.704184+07:00"
+    "fetchedAt": "2026-11-05T22:48:23.200411+07:00"
   },
   {
     "id": "102869",
@@ -177,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T22:37:51.704184+07:00"
+    "fetchedAt": "2026-11-05T22:48:23.200411+07:00"
   },
   {
     "id": "1162301",
@@ -207,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T22:37:51.704184+07:00"
+    "fetchedAt": "2026-11-05T22:48:23.200411+07:00"
   },
   {
     "id": "102569",
@@ -237,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T22:37:51.704184+07:00"
+    "fetchedAt": "2026-11-05T22:48:23.200411+07:00"
   },
   {
     "id": "1008691",
@@ -267,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T22:37:51.704184+07:00"
+    "fetchedAt": "2026-11-05T22:48:23.200411+07:00"
   },
   {
     "id": "1130942",
@@ -297,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T22:37:51.704184+07:00"
+    "fetchedAt": "2026-11-05T22:48:23.200411+07:00"
   },
   {
     "id": "102757",
@@ -327,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T22:37:51.704184+07:00"
+    "fetchedAt": "2026-11-05T22:48:23.200411+07:00"
   },
   {
     "id": "102714",
@@ -357,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T22:37:51.704184+07:00"
+    "fetchedAt": "2026-11-05T22:48:23.200411+07:00"
   },
   {
     "id": "986147",
@@ -387,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T22:37:51.704184+07:00"
+    "fetchedAt": "2026-11-05T22:48:23.200411+07:00"
   },
   {
     "id": "986137",
@@ -417,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T22:37:51.704184+07:00"
+    "fetchedAt": "2026-11-05T22:48:23.200411+07:00"
   },
   {
     "id": "1025098",
@@ -447,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T22:37:51.704184+07:00"
+    "fetchedAt": "2026-11-05T22:48:23.200411+07:00"
   },
   {
     "id": "102683",
@@ -477,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T22:37:51.704184+07:00"
+    "fetchedAt": "2026-11-05T22:48:23.200411+07:00"
   },
   {
     "id": "102442",
@@ -507,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T22:37:51.704184+07:00"
+    "fetchedAt": "2026-11-05T22:48:23.200411+07:00"
   },
   {
     "id": "102561",
@@ -537,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T22:37:51.704184+07:00"
+    "fetchedAt": "2026-11-05T22:48:23.200411+07:00"
   },
   {
     "id": "102560",
@@ -567,7 +597,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T22:37:51.704184+07:00"
+    "fetchedAt": "2026-11-05T22:48:23.200411+07:00"
   },
   {
     "id": "102751",
@@ -597,6 +627,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-05T22:37:51.704184+07:00"
+    "fetchedAt": "2026-11-05T22:48:23.200411+07:00"
   }
 ]
