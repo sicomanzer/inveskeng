@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T18:06:00.539117+07:00"
+    "fetchedAt": "2026-11-05T18:36:05.479046+07:00"
   },
   {
     "id": "1169889",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T18:06:00.539117+07:00"
+    "fetchedAt": "2026-11-05T18:36:05.479046+07:00"
   },
   {
     "id": "1131557",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T18:06:00.539117+07:00"
+    "fetchedAt": "2026-11-05T18:36:05.479046+07:00"
   },
   {
     "id": "261",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T18:06:00.539117+07:00"
+    "fetchedAt": "2026-11-05T18:36:05.479046+07:00"
   },
   {
     "id": "13852",
@@ -147,14 +147,14 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T18:06:00.539117+07:00"
+    "fetchedAt": "2026-11-05T18:36:05.479046+07:00"
   },
   {
-    "id": "13848",
-    "symbol": "WELL",
-    "name": "Welltower Inc",
-    "shortName": "Welltower",
-    "link": "https://www.investing.com/equities/health-care-reit",
+    "id": "13994",
+    "symbol": "TSLA",
+    "name": "Tesla Inc",
+    "shortName": "Tesla",
+    "link": "https://www.investing.com/equities/tesla-motors",
     "price": 385.19,
     "currency": "USD",
     "currencySymbol": "$",
@@ -162,10 +162,10 @@
     "fairValueUpside": -30.78,
     "peRatio": 423.77,
     "evEbitda": 157.75,
-    "marketCap": 181930000000,
+    "marketCap": 1520000000000,
     "marketCapFormatted": "1.52 ล้านล้าน",
     "epsGrowth5y": 0.87,
-    "changeOneDayPercent": 2.83,
+    "changeOneDayPercent": -3.34,
     "financialHealth": "มูลค่าตามจริง",
     "financialCashFlowHealth": "ดีมาก",
     "financialGrowthHealth": "แย่",
@@ -177,37 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T18:06:00.539117+07:00"
-  },
-  {
-    "id": "13994",
-    "symbol": "TSLA",
-    "name": "Tesla Inc",
-    "shortName": "Tesla",
-    "link": "https://www.investing.com/equities/tesla-motors",
-    "price": 247.99,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 171.65,
-    "fairValueUpside": -30.78,
-    "peRatio": 106.68,
-    "evEbitda": 51.49,
-    "marketCap": 1520000000000,
-    "marketCapFormatted": "181.93 พันล้าน",
-    "epsGrowth5y": 0.46,
-    "changeOneDayPercent": -3.34,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "แย่",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-04T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T18:06:00.539117+07:00"
+    "fetchedAt": "2026-11-05T18:36:05.479046+07:00"
   },
   {
     "id": "16678",
@@ -237,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T18:06:00.539117+07:00"
+    "fetchedAt": "2026-11-05T18:36:05.479046+07:00"
   },
   {
     "id": "41268",
@@ -267,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T18:06:00.539117+07:00"
+    "fetchedAt": "2026-11-05T18:36:05.479046+07:00"
   },
   {
     "id": "13067",
@@ -297,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T18:06:00.539117+07:00"
+    "fetchedAt": "2026-11-05T18:36:05.479046+07:00"
   },
   {
     "id": "7997",
@@ -327,37 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T18:06:00.539117+07:00"
-  },
-  {
-    "id": "8260",
-    "symbol": "VMRK",
-    "name": "Vivmark Residential",
-    "shortName": "Vivmark",
-    "link": "https://www.investing.com/equities/eq-resident",
-    "price": 63.72,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 47.82,
-    "fairValueUpside": -24.96,
-    "peRatio": 25.69,
-    "evEbitda": 31.21,
-    "marketCap": 49310000000,
-    "marketCapFormatted": "49.31 พันล้าน",
-    "epsGrowth5y": 0.0,
-    "changeOneDayPercent": 2.71,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-04T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T18:06:00.539117+07:00"
+    "fetchedAt": "2026-11-05T18:36:05.479046+07:00"
   },
   {
     "id": "8158",
@@ -387,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T18:06:00.539117+07:00"
+    "fetchedAt": "2026-11-05T18:36:05.479046+07:00"
   },
   {
     "id": "20486",
@@ -417,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T18:06:00.539117+07:00"
+    "fetchedAt": "2026-11-05T18:36:05.479046+07:00"
   },
   {
     "id": "7881",
@@ -447,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T18:06:00.539117+07:00"
+    "fetchedAt": "2026-11-05T18:36:05.479046+07:00"
   },
   {
     "id": "8036",
@@ -477,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T18:06:00.539117+07:00"
+    "fetchedAt": "2026-11-05T18:36:05.479046+07:00"
   },
   {
     "id": "8193",
@@ -507,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T18:06:00.539117+07:00"
+    "fetchedAt": "2026-11-05T18:36:05.479046+07:00"
   },
   {
     "id": "29723",
@@ -537,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T18:06:00.539117+07:00"
+    "fetchedAt": "2026-11-05T18:36:05.479046+07:00"
   },
   {
     "id": "6365",
@@ -567,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T18:06:00.539117+07:00"
+    "fetchedAt": "2026-11-05T18:36:05.479046+07:00"
   },
   {
     "id": "10549",
@@ -597,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T18:06:00.539117+07:00"
+    "fetchedAt": "2026-11-05T18:36:05.479046+07:00"
   },
   {
     "id": "39166",
@@ -627,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T18:06:00.539117+07:00"
+    "fetchedAt": "2026-11-05T18:36:05.479046+07:00"
   },
   {
     "id": "6500",
@@ -657,7 +597,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T18:06:00.539117+07:00"
+    "fetchedAt": "2026-11-05T18:36:05.479046+07:00"
   },
   {
     "id": "8021",
@@ -687,7 +627,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T18:06:00.539117+07:00"
+    "fetchedAt": "2026-11-05T18:36:05.479046+07:00"
   },
   {
     "id": "8136",
@@ -717,7 +657,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T18:06:00.539117+07:00"
+    "fetchedAt": "2026-11-05T18:36:05.479046+07:00"
   },
   {
     "id": "239",
@@ -747,7 +687,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T18:06:00.539117+07:00"
+    "fetchedAt": "2026-11-05T18:36:05.479046+07:00"
   },
   {
     "id": "8297",
@@ -777,7 +717,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T18:06:00.539117+07:00"
+    "fetchedAt": "2026-11-05T18:36:05.479046+07:00"
   },
   {
     "id": "13061",
@@ -807,37 +747,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T18:06:00.539117+07:00"
-  },
-  {
-    "id": "8016",
-    "symbol": "CMS",
-    "name": "CMS Energy Corporation",
-    "shortName": "CMS Energy",
-    "link": "https://www.investing.com/equities/cms-energy-corp",
-    "price": 70.98,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 57.92,
-    "fairValueUpside": -18.4,
-    "peRatio": 25.46,
-    "evEbitda": 13.63,
-    "marketCap": 22260000000,
-    "marketCapFormatted": "22.26 พันล้าน",
-    "epsGrowth5y": 0.05,
-    "changeOneDayPercent": 1.4,
-    "financialHealth": "มูลค่าตามจริง",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "มูลค่าตามจริง",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-04T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T18:06:00.539117+07:00"
+    "fetchedAt": "2026-11-05T18:36:05.479046+07:00"
   },
   {
     "id": "7974",
@@ -867,27 +777,27 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T18:06:00.539117+07:00"
+    "fetchedAt": "2026-11-05T18:36:05.479046+07:00"
   },
   {
-    "id": "7943",
-    "symbol": "PNW",
-    "name": "Pinnacle West Capital Corp",
-    "shortName": "Pinnacle West",
-    "link": "https://www.investing.com/equities/pinnacle-west",
-    "price": 105.57,
+    "id": "13091",
+    "symbol": "NEE",
+    "name": "Nextera Energy Inc",
+    "shortName": "NextEra Energy",
+    "link": "https://www.investing.com/equities/nextera-energy-inc",
+    "price": 88.45,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 86.57,
-    "fairValueUpside": -18.0,
-    "peRatio": 19.95,
-    "evEbitda": 13.69,
-    "marketCap": 12800000000,
-    "marketCapFormatted": "12.8 พันล้าน",
-    "epsGrowth5y": 0.02,
-    "changeOneDayPercent": -2.01,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "แย่",
+    "fairValue": 72.6,
+    "fairValueUpside": -17.91,
+    "peRatio": 15.97,
+    "evEbitda": 20.61,
+    "marketCap": 185510000000,
+    "marketCapFormatted": "185.51 พันล้าน",
+    "epsGrowth5y": 0.43,
+    "changeOneDayPercent": 4.89,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
     "financialGrowthHealth": "ดี",
     "financialProfitabilityHealth": "ดี",
     "analystRatings": "ซื้อ",
@@ -897,6 +807,96 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T18:06:00.539117+07:00"
+    "fetchedAt": "2026-11-05T18:36:05.479046+07:00"
+  },
+  {
+    "id": "255",
+    "symbol": "F",
+    "name": "Ford Motor Company",
+    "shortName": "Ford Motor",
+    "link": "https://www.investing.com/equities/ford-motor-co",
+    "price": 12.67,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 10.42,
+    "fairValueUpside": -17.74,
+    "peRatio": -6.44,
+    "evEbitda": 23.81,
+    "marketCap": 50590000000,
+    "marketCapFormatted": "50.59 พันล้าน",
+    "epsGrowth5y": 0.58,
+    "changeOneDayPercent": 2.92,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "แย่",
+    "financialGrowthHealth": "แย่",
+    "financialProfitabilityHealth": "แย่",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-04T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
+    "fetchedAt": "2026-11-05T18:36:05.479046+07:00"
+  },
+  {
+    "id": "8339",
+    "symbol": "ECL",
+    "name": "Ecolab Inc",
+    "shortName": "Ecolab",
+    "link": "https://www.investing.com/equities/ecolab-inc",
+    "price": 315.01,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 259.93,
+    "fairValueUpside": -17.49,
+    "peRatio": 42.72,
+    "evEbitda": 22.93,
+    "marketCap": 88350000000,
+    "marketCapFormatted": "88.35 พันล้าน",
+    "epsGrowth5y": 0.18,
+    "changeOneDayPercent": 3.39,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-04T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
+    "fetchedAt": "2026-11-05T18:36:05.479046+07:00"
+  },
+  {
+    "id": "7923",
+    "symbol": "PLD",
+    "name": "Prologis Inc",
+    "shortName": "Prologis",
+    "link": "https://www.investing.com/equities/prologis",
+    "price": 131.36,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 108.54,
+    "fairValueUpside": -17.37,
+    "peRatio": 28.8,
+    "evEbitda": 21.7,
+    "marketCap": 127360000000,
+    "marketCapFormatted": "127.36 พันล้าน",
+    "epsGrowth5y": 0.25,
+    "changeOneDayPercent": 1.77,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-04T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
+    "fetchedAt": "2026-11-05T18:36:05.479046+07:00"
   }
 ]
