@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T17:46:10.790073+07:00"
+    "fetchedAt": "2026-11-05T17:55:58.253497+07:00"
   },
   {
     "id": "1169889",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T17:46:10.790073+07:00"
+    "fetchedAt": "2026-11-05T17:55:58.253497+07:00"
   },
   {
     "id": "1131557",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T17:46:10.790073+07:00"
+    "fetchedAt": "2026-11-05T17:55:58.253497+07:00"
   },
   {
     "id": "261",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T17:46:10.790073+07:00"
+    "fetchedAt": "2026-11-05T17:55:58.253497+07:00"
   },
   {
     "id": "13852",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T17:46:10.790073+07:00"
+    "fetchedAt": "2026-11-05T17:55:58.253497+07:00"
   },
   {
     "id": "13848",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T17:46:10.790073+07:00"
+    "fetchedAt": "2026-11-05T17:55:58.253497+07:00"
   },
   {
     "id": "13994",
@@ -207,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T17:46:10.790073+07:00"
+    "fetchedAt": "2026-11-05T17:55:58.253497+07:00"
   },
   {
     "id": "16678",
@@ -237,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T17:46:10.790073+07:00"
+    "fetchedAt": "2026-11-05T17:55:58.253497+07:00"
   },
   {
     "id": "41268",
@@ -267,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T17:46:10.790073+07:00"
+    "fetchedAt": "2026-11-05T17:55:58.253497+07:00"
   },
   {
     "id": "13067",
@@ -297,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T17:46:10.790073+07:00"
+    "fetchedAt": "2026-11-05T17:55:58.253497+07:00"
   },
   {
     "id": "7997",
@@ -327,7 +327,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T17:46:10.790073+07:00"
+    "fetchedAt": "2026-11-05T17:55:58.253497+07:00"
+  },
+  {
+    "id": "8260",
+    "symbol": "VMRK",
+    "name": "Vivmark Residential",
+    "shortName": "Vivmark",
+    "link": "https://www.investing.com/equities/eq-resident",
+    "price": 63.72,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 47.82,
+    "fairValueUpside": -24.96,
+    "peRatio": 25.69,
+    "evEbitda": 31.21,
+    "marketCap": 49310000000,
+    "marketCapFormatted": "49.31 พันล้าน",
+    "epsGrowth5y": 0.0,
+    "changeOneDayPercent": 2.71,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-04T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
+    "fetchedAt": "2026-11-05T17:55:58.253497+07:00"
   },
   {
     "id": "8158",
@@ -357,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T17:46:10.790073+07:00"
+    "fetchedAt": "2026-11-05T17:55:58.253497+07:00"
   },
   {
     "id": "20486",
@@ -387,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T17:46:10.790073+07:00"
+    "fetchedAt": "2026-11-05T17:55:58.253497+07:00"
   },
   {
     "id": "7881",
@@ -417,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T17:46:10.790073+07:00"
+    "fetchedAt": "2026-11-05T17:55:58.253497+07:00"
   },
   {
     "id": "8036",
@@ -447,37 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T17:46:10.790073+07:00"
-  },
-  {
-    "id": "8193",
-    "symbol": "GE",
-    "name": "GE Aerospace",
-    "shortName": "GE Aerospace",
-    "link": "https://www.investing.com/equities/general-electric",
-    "price": 329.45,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 259.81,
-    "fairValueUpside": -21.14,
-    "peRatio": 37.56,
-    "evEbitda": 24.52,
-    "marketCap": 340440000000,
-    "marketCapFormatted": "340.44 พันล้าน",
-    "epsGrowth5y": -1.27,
-    "changeOneDayPercent": 2.74,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-04T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T17:46:10.790073+07:00"
+    "fetchedAt": "2026-11-05T17:55:58.253497+07:00"
   },
   {
     "id": "29723",
@@ -507,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T17:46:10.790073+07:00"
+    "fetchedAt": "2026-11-05T17:55:58.253497+07:00"
   },
   {
     "id": "6365",
@@ -537,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T17:46:10.790073+07:00"
+    "fetchedAt": "2026-11-05T17:55:58.253497+07:00"
   },
   {
     "id": "10549",
@@ -567,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T17:46:10.790073+07:00"
+    "fetchedAt": "2026-11-05T17:55:58.253497+07:00"
   },
   {
     "id": "39166",
@@ -597,7 +597,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T17:46:10.790073+07:00"
+    "fetchedAt": "2026-11-05T17:55:58.253497+07:00"
   },
   {
     "id": "6500",
@@ -627,7 +627,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T17:46:10.790073+07:00"
+    "fetchedAt": "2026-11-05T17:55:58.253497+07:00"
   },
   {
     "id": "8021",
@@ -657,7 +657,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T17:46:10.790073+07:00"
+    "fetchedAt": "2026-11-05T17:55:58.253497+07:00"
   },
   {
     "id": "8136",
@@ -687,37 +687,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T17:46:10.790073+07:00"
-  },
-  {
-    "id": "13061",
-    "symbol": "UAL",
-    "name": "United Airlines Holdings Inc",
-    "shortName": "United Airlines Holdings",
-    "link": "https://www.investing.com/equities/united-continenta",
-    "price": 115.76,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 94.4,
-    "fairValueUpside": -18.46,
-    "peRatio": 10.58,
-    "evEbitda": 7.39,
-    "marketCap": 37610000000,
-    "marketCapFormatted": "37.61 พันล้าน",
-    "epsGrowth5y": 0.92,
-    "changeOneDayPercent": 7.98,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "มูลค่าตามจริง",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-04T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T17:46:10.790073+07:00"
+    "fetchedAt": "2026-11-05T17:55:58.253497+07:00"
   },
   {
     "id": "8016",
@@ -747,7 +717,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T17:46:10.790073+07:00"
+    "fetchedAt": "2026-11-05T17:55:58.253497+07:00"
   },
   {
     "id": "7974",
@@ -777,7 +747,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T17:46:10.790073+07:00"
+    "fetchedAt": "2026-11-05T17:55:58.253497+07:00"
   },
   {
     "id": "7943",
@@ -807,7 +777,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T17:46:10.790073+07:00"
+    "fetchedAt": "2026-11-05T17:55:58.253497+07:00"
   },
   {
     "id": "13091",
@@ -837,7 +807,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T17:46:10.790073+07:00"
+    "fetchedAt": "2026-11-05T17:55:58.253497+07:00"
   },
   {
     "id": "255",
@@ -867,28 +837,58 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T17:46:10.790073+07:00"
+    "fetchedAt": "2026-11-05T17:55:58.253497+07:00"
   },
   {
-    "id": "8339",
-    "symbol": "ECL",
-    "name": "Ecolab Inc",
-    "shortName": "Ecolab",
-    "link": "https://www.investing.com/equities/ecolab-inc",
-    "price": 315.01,
+    "id": "7923",
+    "symbol": "PLD",
+    "name": "Prologis Inc",
+    "shortName": "Prologis",
+    "link": "https://www.investing.com/equities/prologis",
+    "price": 131.36,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 259.93,
-    "fairValueUpside": -17.49,
-    "peRatio": 42.72,
-    "evEbitda": 22.93,
-    "marketCap": 88350000000,
-    "marketCapFormatted": "88.35 พันล้าน",
-    "epsGrowth5y": 0.18,
-    "changeOneDayPercent": 3.39,
+    "fairValue": 108.54,
+    "fairValueUpside": -17.37,
+    "peRatio": 28.8,
+    "evEbitda": 21.7,
+    "marketCap": 127360000000,
+    "marketCapFormatted": "127.36 พันล้าน",
+    "epsGrowth5y": 0.25,
+    "changeOneDayPercent": 1.77,
     "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
+    "financialCashFlowHealth": "ดีมาก",
     "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-04T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
+    "fetchedAt": "2026-11-05T17:55:58.253497+07:00"
+  },
+  {
+    "id": "8064",
+    "symbol": "HD",
+    "name": "Home Depot Inc",
+    "shortName": "Home Depot",
+    "link": "https://www.investing.com/equities/home-depot",
+    "price": 355.44,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 293.86,
+    "fairValueUpside": -17.32,
+    "peRatio": 24.76,
+    "evEbitda": 15.8,
+    "marketCap": 354620000000,
+    "marketCapFormatted": "354.62 พันล้าน",
+    "epsGrowth5y": 0.03,
+    "changeOneDayPercent": 6.53,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "มูลค่าตามจริง",
     "financialProfitabilityHealth": "ดีเยี่ยม",
     "analystRatings": "ซื้อ",
     "flagCode": "US",
@@ -897,6 +897,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T17:46:10.790073+07:00"
+    "fetchedAt": "2026-11-05T17:55:58.253497+07:00"
   }
 ]
