@@ -10,7 +10,7 @@
     "currencySymbol": "฿",
     "fairValue": 0.31,
     "fairValueUpside": 62.01,
-    "peRatio": 2.59,
+    "peRatio": 2.46,
     "evEbitda": 3.32,
     "marketCap": 1210000000,
     "marketCapFormatted": "1.21 พันล้าน",
@@ -27,7 +27,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:08:45.577082+07:00"
+    "fetchedAt": "2026-11-05T17:29:34.408548+07:00"
   },
   {
     "id": "102547",
@@ -57,7 +57,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:08:45.577082+07:00"
+    "fetchedAt": "2026-11-05T17:29:34.408548+07:00"
   },
   {
     "id": "1177382",
@@ -87,7 +87,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:08:45.577082+07:00"
+    "fetchedAt": "2026-11-05T17:29:34.408548+07:00"
   },
   {
     "id": "1056157",
@@ -100,7 +100,7 @@
     "currencySymbol": "฿",
     "fairValue": 6.49,
     "fairValueUpside": 55.15,
-    "peRatio": 10.76,
+    "peRatio": 10.7,
     "evEbitda": 6.3,
     "marketCap": 3500000000,
     "marketCapFormatted": "3.5 พันล้าน",
@@ -117,7 +117,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:08:45.577082+07:00"
+    "fetchedAt": "2026-11-05T17:29:34.408548+07:00"
   },
   {
     "id": "102425",
@@ -130,7 +130,7 @@
     "currencySymbol": "฿",
     "fairValue": 67.38,
     "fairValueUpside": 54.89,
-    "peRatio": 2.85,
+    "peRatio": 2.86,
     "evEbitda": 3.18,
     "marketCap": 63640000000,
     "marketCapFormatted": "63.64 พันล้าน",
@@ -147,7 +147,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:08:45.577082+07:00"
+    "fetchedAt": "2026-11-05T17:29:34.408548+07:00"
   },
   {
     "id": "102863",
@@ -160,7 +160,7 @@
     "currencySymbol": "฿",
     "fairValue": 1.42,
     "fairValueUpside": 52.89,
-    "peRatio": -22.72,
+    "peRatio": -22.96,
     "evEbitda": -2.97,
     "marketCap": 19620000000,
     "marketCapFormatted": "19.62 พันล้าน",
@@ -177,7 +177,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:08:45.577082+07:00"
+    "fetchedAt": "2026-11-05T17:29:34.408548+07:00"
   },
   {
     "id": "102518",
@@ -207,7 +207,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:08:45.577082+07:00"
+    "fetchedAt": "2026-11-05T17:29:34.408548+07:00"
   },
   {
     "id": "102554",
@@ -220,7 +220,7 @@
     "currencySymbol": "฿",
     "fairValue": 16.23,
     "fairValueUpside": 48.9,
-    "peRatio": 17.1,
+    "peRatio": 16.94,
     "evEbitda": 11.25,
     "marketCap": 15910000000,
     "marketCapFormatted": "15.91 พันล้าน",
@@ -237,7 +237,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:08:45.577082+07:00"
+    "fetchedAt": "2026-11-05T17:29:34.408548+07:00"
   },
   {
     "id": "1115209",
@@ -267,7 +267,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:08:45.577082+07:00"
+    "fetchedAt": "2026-11-05T17:29:34.408548+07:00"
   },
   {
     "id": "102551",
@@ -280,7 +280,7 @@
     "currencySymbol": "฿",
     "fairValue": 0.98,
     "fairValueUpside": 47.83,
-    "peRatio": -2.71,
+    "peRatio": -2.67,
     "evEbitda": -3.35,
     "marketCap": 5470000000,
     "marketCapFormatted": "5.47 พันล้าน",
@@ -297,7 +297,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:08:45.577082+07:00"
+    "fetchedAt": "2026-11-05T17:29:34.408548+07:00"
   },
   {
     "id": "102617",
@@ -310,7 +310,7 @@
     "currencySymbol": "฿",
     "fairValue": 29.92,
     "fairValueUpside": 46.67,
-    "peRatio": 16.87,
+    "peRatio": 16.95,
     "evEbitda": 15.1,
     "marketCap": 18430000000,
     "marketCapFormatted": "18.43 พันล้าน",
@@ -327,7 +327,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:08:45.577082+07:00"
+    "fetchedAt": "2026-11-05T17:29:34.408548+07:00"
   },
   {
     "id": "102726",
@@ -357,7 +357,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:08:45.577082+07:00"
+    "fetchedAt": "2026-11-05T17:29:34.408548+07:00"
   },
   {
     "id": "1052357",
@@ -370,7 +370,7 @@
     "currencySymbol": "฿",
     "fairValue": 22.5,
     "fairValueUpside": 45.16,
-    "peRatio": 9.32,
+    "peRatio": 9.38,
     "evEbitda": 4.45,
     "marketCap": 30050000000,
     "marketCapFormatted": "30.05 พันล้าน",
@@ -387,7 +387,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:08:45.577082+07:00"
+    "fetchedAt": "2026-11-05T17:29:34.408548+07:00"
   },
   {
     "id": "102799",
@@ -417,7 +417,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:08:45.577082+07:00"
+    "fetchedAt": "2026-11-05T17:29:34.408548+07:00"
   },
   {
     "id": "1173246",
@@ -447,7 +447,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:08:45.577082+07:00"
+    "fetchedAt": "2026-11-05T17:29:34.408548+07:00"
   },
   {
     "id": "102498",
@@ -460,7 +460,7 @@
     "currencySymbol": "฿",
     "fairValue": 1.43,
     "fairValueUpside": 43.25,
-    "peRatio": 10.49,
+    "peRatio": 10.59,
     "evEbitda": 4.83,
     "marketCap": 1470000000,
     "marketCapFormatted": "1.47 พันล้าน",
@@ -477,7 +477,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:08:45.577082+07:00"
+    "fetchedAt": "2026-11-05T17:29:34.408548+07:00"
   },
   {
     "id": "1153457",
@@ -507,7 +507,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:08:45.577082+07:00"
+    "fetchedAt": "2026-11-05T17:29:34.408548+07:00"
   },
   {
     "id": "1196441",
@@ -537,7 +537,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:08:45.577082+07:00"
+    "fetchedAt": "2026-11-05T17:29:34.408548+07:00"
   },
   {
     "id": "102472",
@@ -550,7 +550,7 @@
     "currencySymbol": "฿",
     "fairValue": 3.28,
     "fairValueUpside": 41.42,
-    "peRatio": 7.99,
+    "peRatio": 7.93,
     "evEbitda": 4.74,
     "marketCap": 18860000000,
     "marketCapFormatted": "18.86 พันล้าน",
@@ -567,7 +567,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:08:45.577082+07:00"
+    "fetchedAt": "2026-11-05T17:29:34.408548+07:00"
   },
   {
     "id": "102673",
@@ -580,7 +580,7 @@
     "currencySymbol": "฿",
     "fairValue": 200.5,
     "fairValueUpside": 41.2,
-    "peRatio": 7.66,
+    "peRatio": 7.69,
     "evEbitda": 2.92,
     "marketCap": 563740000000,
     "marketCapFormatted": "563.74 พันล้าน",
@@ -597,7 +597,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:08:45.577082+07:00"
+    "fetchedAt": "2026-11-05T17:29:34.408548+07:00"
   },
   {
     "id": "102393",
@@ -610,7 +610,7 @@
     "currencySymbol": "฿",
     "fairValue": 3.38,
     "fairValueUpside": 40.77,
-    "peRatio": -4.87,
+    "peRatio": -4.79,
     "evEbitda": 26.73,
     "marketCap": 1430000000,
     "marketCapFormatted": "1.43 พันล้าน",
@@ -627,7 +627,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:08:45.577082+07:00"
+    "fetchedAt": "2026-11-05T17:29:34.408548+07:00"
   },
   {
     "id": "986206",
@@ -640,7 +640,7 @@
     "currencySymbol": "฿",
     "fairValue": 9.0,
     "fairValueUpside": 40.64,
-    "peRatio": 10.86,
+    "peRatio": 10.94,
     "evEbitda": 7.26,
     "marketCap": 3840000000,
     "marketCapFormatted": "3.84 พันล้าน",
@@ -657,7 +657,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:08:45.577082+07:00"
+    "fetchedAt": "2026-11-05T17:29:34.408548+07:00"
   },
   {
     "id": "102743",
@@ -670,7 +670,7 @@
     "currencySymbol": "฿",
     "fairValue": 33.52,
     "fairValueUpside": 39.66,
-    "peRatio": 8.26,
+    "peRatio": 8.33,
     "evEbitda": 8.71,
     "marketCap": 8400000000,
     "marketCapFormatted": "8.4 พันล้าน",
@@ -687,37 +687,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:08:45.577082+07:00"
-  },
-  {
-    "id": "102584",
-    "symbol": "LOXLEY",
-    "name": "Loxley PCL",
-    "shortName": "Loxley PCL",
-    "link": "https://www.investing.com/equities/loxley-publ",
-    "price": 1.8,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 2.504,
-    "fairValueUpside": 39.11,
-    "peRatio": 5.64,
-    "evEbitda": 0.24,
-    "marketCap": 4080000000,
-    "marketCapFormatted": "4.08 พันล้าน",
-    "epsGrowth5y": 13.17,
-    "changeOneDayPercent": 2.27,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดี",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-11-05T09:38:38.000Z",
-    "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:08:45.577082+07:00"
+    "fetchedAt": "2026-11-05T17:29:34.408548+07:00"
   },
   {
     "id": "1198524",
@@ -747,7 +717,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:08:45.577082+07:00"
+    "fetchedAt": "2026-11-05T17:29:34.408548+07:00"
   },
   {
     "id": "102457",
@@ -760,7 +730,7 @@
     "currencySymbol": "฿",
     "fairValue": 24.63,
     "fairValueUpside": 38.35,
-    "peRatio": 8.98,
+    "peRatio": 9.03,
     "evEbitda": 3.28,
     "marketCap": 29910000000,
     "marketCapFormatted": "29.91 พันล้าน",
@@ -777,7 +747,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:08:45.577082+07:00"
+    "fetchedAt": "2026-11-05T17:29:34.408548+07:00"
   },
   {
     "id": "102513",
@@ -790,7 +760,7 @@
     "currencySymbol": "฿",
     "fairValue": 19.34,
     "fairValueUpside": 38.17,
-    "peRatio": 12.45,
+    "peRatio": 12.54,
     "evEbitda": 7.73,
     "marketCap": 13100000000,
     "marketCapFormatted": "13.1 พันล้าน",
@@ -807,7 +777,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:08:45.577082+07:00"
+    "fetchedAt": "2026-11-05T17:29:34.408548+07:00"
   },
   {
     "id": "943699",
@@ -820,7 +790,7 @@
     "currencySymbol": "฿",
     "fairValue": 8.22,
     "fairValueUpside": 38.08,
-    "peRatio": 11.43,
+    "peRatio": 11.33,
     "evEbitda": 7.69,
     "marketCap": 16660000000,
     "marketCapFormatted": "16.66 พันล้าน",
@@ -837,7 +807,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:08:45.577082+07:00"
+    "fetchedAt": "2026-11-05T17:29:34.408548+07:00"
   },
   {
     "id": "102674",
@@ -850,7 +820,7 @@
     "currencySymbol": "฿",
     "fairValue": 56.56,
     "fairValueUpside": 37.94,
-    "peRatio": 46.53,
+    "peRatio": 47.1,
     "evEbitda": 5.5,
     "marketCap": 184860000000,
     "marketCapFormatted": "184.86 พันล้าน",
@@ -867,7 +837,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:08:45.577082+07:00"
+    "fetchedAt": "2026-11-05T17:29:34.408548+07:00"
   },
   {
     "id": "102398",
@@ -897,6 +867,36 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:08:45.577082+07:00"
+    "fetchedAt": "2026-11-05T17:29:34.408548+07:00"
+  },
+  {
+    "id": "102790",
+    "symbol": "TOP",
+    "name": "Thai Oil PCL",
+    "shortName": "Thai Oil",
+    "link": "https://www.investing.com/equities/thai-oil",
+    "price": 56.0,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 76.07,
+    "fairValueUpside": 35.83,
+    "peRatio": 3.86,
+    "evEbitda": 3.34,
+    "marketCap": 125090000000,
+    "marketCapFormatted": "125.09 พันล้าน",
+    "epsGrowth5y": 0.97,
+    "changeOneDayPercent": -7.44,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-11-05T09:38:38.000Z",
+    "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
+    "fetchedAt": "2026-11-05T17:29:34.408548+07:00"
   }
 ]
