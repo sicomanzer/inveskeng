@@ -27,7 +27,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T15:12:18.714934+07:00"
+    "fetchedAt": "2026-11-05T15:32:04.803328+07:00"
   },
   {
     "id": "39135",
@@ -57,7 +57,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T15:12:18.714934+07:00"
+    "fetchedAt": "2026-11-05T15:32:04.803328+07:00"
   },
   {
     "id": "32341",
@@ -87,7 +87,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T15:12:18.714934+07:00"
+    "fetchedAt": "2026-11-05T15:32:04.803328+07:00"
   },
   {
     "id": "6373",
@@ -117,7 +117,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T15:12:18.714934+07:00"
+    "fetchedAt": "2026-11-05T15:32:04.803328+07:00"
   },
   {
     "id": "15722",
@@ -147,7 +147,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T15:12:18.714934+07:00"
+    "fetchedAt": "2026-11-05T15:32:04.803328+07:00"
   },
   {
     "id": "1220843",
@@ -177,7 +177,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T15:12:18.714934+07:00"
+    "fetchedAt": "2026-11-05T15:32:04.803328+07:00"
   },
   {
     "id": "8201",
@@ -207,7 +207,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T15:12:18.714934+07:00"
+    "fetchedAt": "2026-11-05T15:32:04.803328+07:00"
   },
   {
     "id": "6448",
@@ -237,7 +237,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T15:12:18.714934+07:00"
+    "fetchedAt": "2026-11-05T15:32:04.803328+07:00"
   },
   {
     "id": "8294",
@@ -267,7 +267,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T15:12:18.714934+07:00"
+    "fetchedAt": "2026-11-05T15:32:04.803328+07:00"
   },
   {
     "id": "6497",
@@ -297,7 +297,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T15:12:18.714934+07:00"
+    "fetchedAt": "2026-11-05T15:32:04.803328+07:00"
   },
   {
     "id": "956170",
@@ -327,7 +327,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T15:12:18.714934+07:00"
+    "fetchedAt": "2026-11-05T15:32:04.803328+07:00"
   },
   {
     "id": "39337",
@@ -357,7 +357,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T15:12:18.714934+07:00"
+    "fetchedAt": "2026-11-05T15:32:04.803328+07:00"
+  },
+  {
+    "id": "20529",
+    "symbol": "FICO",
+    "name": "Fair Isaac Corporation",
+    "shortName": "Fair Isaac",
+    "link": "https://www.investing.com/equities/fair-isaac-and-comp-inc",
+    "price": 701.03,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 1019.84,
+    "fairValueUpside": 45.48,
+    "peRatio": 20.56,
+    "evEbitda": 16.39,
+    "marketCap": 15140000000,
+    "marketCapFormatted": "15.14 พันล้าน",
+    "epsGrowth5y": 0.27,
+    "changeOneDayPercent": -3.22,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-11-04T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
+    "fetchedAt": "2026-11-05T15:32:04.803328+07:00"
   },
   {
     "id": "7889",
@@ -387,7 +417,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T15:12:18.714934+07:00"
+    "fetchedAt": "2026-11-05T15:32:04.803328+07:00"
   },
   {
     "id": "32331",
@@ -417,7 +447,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T15:12:18.714934+07:00"
+    "fetchedAt": "2026-11-05T15:32:04.803328+07:00"
   },
   {
     "id": "6370",
@@ -447,7 +477,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T15:12:18.714934+07:00"
+    "fetchedAt": "2026-11-05T15:32:04.803328+07:00"
   },
   {
     "id": "15828",
@@ -477,7 +507,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T15:12:18.714934+07:00"
+    "fetchedAt": "2026-11-05T15:32:04.803328+07:00"
+  },
+  {
+    "id": "13072",
+    "symbol": "BKNG",
+    "name": "Booking Holdings Inc",
+    "shortName": "Booking",
+    "link": "https://www.investing.com/equities/priceline.com-inc",
+    "price": 170.97,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 239.62,
+    "fairValueUpside": 40.16,
+    "peRatio": 18.82,
+    "evEbitda": 11.02,
+    "marketCap": 127150000000,
+    "marketCapFormatted": "127.15 พันล้าน",
+    "epsGrowth5y": 2.09,
+    "changeOneDayPercent": 9.83,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-11-04T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
+    "fetchedAt": "2026-11-05T15:32:04.803328+07:00"
   },
   {
     "id": "41239",
@@ -507,7 +567,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T15:12:18.714934+07:00"
+    "fetchedAt": "2026-11-05T15:32:04.803328+07:00"
   },
   {
     "id": "8105",
@@ -537,7 +597,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T15:12:18.714934+07:00"
+    "fetchedAt": "2026-11-05T15:32:04.803328+07:00"
   },
   {
     "id": "13969",
@@ -567,7 +627,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T15:12:18.714934+07:00"
+    "fetchedAt": "2026-11-05T15:32:04.803328+07:00"
   },
   {
     "id": "6516",
@@ -597,7 +657,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T15:12:18.714934+07:00"
+    "fetchedAt": "2026-11-05T15:32:04.803328+07:00"
   },
   {
     "id": "39277",
@@ -627,7 +687,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T15:12:18.714934+07:00"
+    "fetchedAt": "2026-11-05T15:32:04.803328+07:00"
   },
   {
     "id": "19694",
@@ -657,7 +717,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T15:12:18.714934+07:00"
+    "fetchedAt": "2026-11-05T15:32:04.803328+07:00"
   },
   {
     "id": "41176",
@@ -687,67 +747,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T15:12:18.714934+07:00"
-  },
-  {
-    "id": "6454",
-    "symbol": "CTSH",
-    "name": "Cognizant Technology Solutions Corp",
-    "shortName": "Cognizant Tech Solutions",
-    "link": "https://www.investing.com/equities/cognizant-technology-solutio",
-    "price": 65.78,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 88.27,
-    "fairValueUpside": 34.18,
-    "peRatio": 12.01,
-    "evEbitda": 7.23,
-    "marketCap": 29410000000,
-    "marketCapFormatted": "29.41 พันล้าน",
-    "epsGrowth5y": 0.11,
-    "changeOneDayPercent": 3.05,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-11-04T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T15:12:18.714934+07:00"
-  },
-  {
-    "id": "39184",
-    "symbol": "CE",
-    "name": "Celanese Corporation",
-    "shortName": "Celanese",
-    "link": "https://www.investing.com/equities/celanese",
-    "price": 49.75,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 66.7,
-    "fairValueUpside": 34.07,
-    "peRatio": 20.04,
-    "evEbitda": 9.32,
-    "marketCap": 5460000000,
-    "marketCapFormatted": "5.46 พันล้าน",
-    "epsGrowth5y": -0.39,
-    "changeOneDayPercent": -1.21,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดี",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-11-04T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T15:12:18.714934+07:00"
+    "fetchedAt": "2026-11-05T15:32:04.803328+07:00"
   },
   {
     "id": "39152",
@@ -777,7 +777,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T15:12:18.714934+07:00"
+    "fetchedAt": "2026-11-05T15:32:04.803328+07:00"
+  },
+  {
+    "id": "32361",
+    "symbol": "WDAY",
+    "name": "Workday Inc",
+    "shortName": "Workday",
+    "link": "https://www.investing.com/equities/workday-inc",
+    "price": 201.84,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 268.52,
+    "fairValueUpside": 33.04,
+    "peRatio": 41.95,
+    "evEbitda": 30.29,
+    "marketCap": 48640000000,
+    "marketCapFormatted": "48.64 พันล้าน",
+    "epsGrowth5y": 0.68,
+    "changeOneDayPercent": 1.97,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดี",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-11-04T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
+    "fetchedAt": "2026-11-05T15:32:04.803328+07:00"
   },
   {
     "id": "32381",
@@ -807,37 +837,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T15:12:18.714934+07:00"
-  },
-  {
-    "id": "948325",
-    "symbol": "GDDY",
-    "name": "Godaddy Inc",
-    "shortName": "Godaddy Inc",
-    "link": "https://www.investing.com/equities/godaddy-inc",
-    "price": 118.32,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 156.89,
-    "fairValueUpside": 32.6,
-    "peRatio": 16.34,
-    "evEbitda": 11.84,
-    "marketCap": 14350000000,
-    "marketCapFormatted": "14.35 พันล้าน",
-    "epsGrowth5y": 1.06,
-    "changeOneDayPercent": 4.29,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-11-04T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T15:12:18.714934+07:00"
+    "fetchedAt": "2026-11-05T15:32:04.803328+07:00"
   },
   {
     "id": "40062",
@@ -867,7 +867,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T15:12:18.714934+07:00"
+    "fetchedAt": "2026-11-05T15:32:04.803328+07:00"
   },
   {
     "id": "7954",
@@ -897,6 +897,6 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-04T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-04T20:59:59.000Z",
-    "fetchedAt": "2026-11-05T15:12:18.714934+07:00"
+    "fetchedAt": "2026-11-05T15:32:04.803328+07:00"
   }
 ]
