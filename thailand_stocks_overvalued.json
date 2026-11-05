@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:29:49.355274+07:00"
+    "fetchedAt": "2026-11-05T17:40:04.769888+07:00"
   },
   {
     "id": "102567",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:29:49.355274+07:00"
+    "fetchedAt": "2026-11-05T17:40:04.769888+07:00"
   },
   {
     "id": "1199621",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:29:49.355274+07:00"
+    "fetchedAt": "2026-11-05T17:40:04.769888+07:00"
   },
   {
     "id": "1242508",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:29:49.355274+07:00"
+    "fetchedAt": "2026-11-05T17:40:04.769888+07:00"
   },
   {
     "id": "989494",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:29:49.355274+07:00"
+    "fetchedAt": "2026-11-05T17:40:04.769888+07:00"
   },
   {
     "id": "102497",
@@ -177,7 +177,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:29:49.355274+07:00"
+    "fetchedAt": "2026-11-05T17:40:04.769888+07:00"
+  },
+  {
+    "id": "102869",
+    "symbol": "WHA",
+    "name": "WHA Corporation PCL",
+    "shortName": "WHA Corp",
+    "link": "https://www.investing.com/equities/wha-corporatio",
+    "price": 4.98,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 3.968899965286255,
+    "fairValueUpside": -20.29999941587448,
+    "peRatio": 17.530000686645508,
+    "evEbitda": 17.562198638916016,
+    "marketCap": 74440000000,
+    "marketCapFormatted": "74.44B",
+    "epsGrowth5y": 0.1681673377752304,
+    "changeOneDayPercent": 1.63,
+    "financialHealth": "FAIR",
+    "financialCashFlowHealth": "FAIR",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "GREAT",
+    "analystRatings": "BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-05T09:38:38.000Z",
+    "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
+    "fetchedAt": "2026-11-05T17:40:04.769888+07:00"
   },
   {
     "id": "1162301",
@@ -207,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:29:49.355274+07:00"
+    "fetchedAt": "2026-11-05T17:40:04.769888+07:00"
   },
   {
     "id": "102569",
@@ -237,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:29:49.355274+07:00"
+    "fetchedAt": "2026-11-05T17:40:04.769888+07:00"
   },
   {
     "id": "1008691",
@@ -267,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:29:49.355274+07:00"
+    "fetchedAt": "2026-11-05T17:40:04.769888+07:00"
   },
   {
     "id": "1130942",
@@ -297,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:29:49.355274+07:00"
+    "fetchedAt": "2026-11-05T17:40:04.769888+07:00"
   },
   {
     "id": "102757",
@@ -327,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:29:49.355274+07:00"
+    "fetchedAt": "2026-11-05T17:40:04.769888+07:00"
   },
   {
     "id": "102714",
@@ -357,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:29:49.355274+07:00"
+    "fetchedAt": "2026-11-05T17:40:04.769888+07:00"
   },
   {
     "id": "986147",
@@ -387,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:29:49.355274+07:00"
+    "fetchedAt": "2026-11-05T17:40:04.769888+07:00"
   },
   {
     "id": "986137",
@@ -417,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:29:49.355274+07:00"
+    "fetchedAt": "2026-11-05T17:40:04.769888+07:00"
   },
   {
     "id": "1025098",
@@ -447,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:29:49.355274+07:00"
+    "fetchedAt": "2026-11-05T17:40:04.769888+07:00"
   },
   {
     "id": "102683",
@@ -477,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:29:49.355274+07:00"
+    "fetchedAt": "2026-11-05T17:40:04.769888+07:00"
   },
   {
     "id": "102442",
@@ -507,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:29:49.355274+07:00"
+    "fetchedAt": "2026-11-05T17:40:04.769888+07:00"
   },
   {
     "id": "102561",
@@ -537,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:29:49.355274+07:00"
+    "fetchedAt": "2026-11-05T17:40:04.769888+07:00"
   },
   {
     "id": "102560",
@@ -567,7 +597,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:29:49.355274+07:00"
+    "fetchedAt": "2026-11-05T17:40:04.769888+07:00"
   },
   {
     "id": "102751",
@@ -597,6 +627,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:29:49.355274+07:00"
+    "fetchedAt": "2026-11-05T17:40:04.769888+07:00"
   }
 ]
