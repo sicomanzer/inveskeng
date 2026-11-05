@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:59:49.538512+07:00"
+    "fetchedAt": "2026-11-05T18:09:50.315404+07:00"
   },
   {
     "id": "102567",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:59:49.538512+07:00"
+    "fetchedAt": "2026-11-05T18:09:50.315404+07:00"
   },
   {
     "id": "1199621",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:59:49.538512+07:00"
+    "fetchedAt": "2026-11-05T18:09:50.315404+07:00"
   },
   {
     "id": "1242508",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:59:49.538512+07:00"
+    "fetchedAt": "2026-11-05T18:09:50.315404+07:00"
   },
   {
     "id": "989494",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:59:49.538512+07:00"
+    "fetchedAt": "2026-11-05T18:09:50.315404+07:00"
   },
   {
     "id": "102497",
@@ -177,7 +177,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:59:49.538512+07:00"
+    "fetchedAt": "2026-11-05T18:09:50.315404+07:00"
+  },
+  {
+    "id": "102869",
+    "symbol": "WHA",
+    "name": "WHA Corporation PCL",
+    "shortName": "WHA Corp",
+    "link": "https://www.investing.com/equities/wha-corporatio",
+    "price": 4.98,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 3.968899965286255,
+    "fairValueUpside": -20.29999941587448,
+    "peRatio": 17.530000686645508,
+    "evEbitda": 17.562198638916016,
+    "marketCap": 74440000000,
+    "marketCapFormatted": "74.44B",
+    "epsGrowth5y": 0.1681673377752304,
+    "changeOneDayPercent": 1.63,
+    "financialHealth": "FAIR",
+    "financialCashFlowHealth": "FAIR",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "GREAT",
+    "analystRatings": "BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-05T09:38:38.000Z",
+    "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
+    "fetchedAt": "2026-11-05T18:09:50.315404+07:00"
   },
   {
     "id": "1162301",
@@ -207,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:59:49.538512+07:00"
+    "fetchedAt": "2026-11-05T18:09:50.315404+07:00"
   },
   {
     "id": "102569",
@@ -237,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:59:49.538512+07:00"
+    "fetchedAt": "2026-11-05T18:09:50.315404+07:00"
   },
   {
     "id": "1008691",
@@ -267,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:59:49.538512+07:00"
+    "fetchedAt": "2026-11-05T18:09:50.315404+07:00"
   },
   {
     "id": "1130942",
@@ -297,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:59:49.538512+07:00"
+    "fetchedAt": "2026-11-05T18:09:50.315404+07:00"
   },
   {
     "id": "102757",
@@ -327,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:59:49.538512+07:00"
+    "fetchedAt": "2026-11-05T18:09:50.315404+07:00"
   },
   {
     "id": "102714",
@@ -357,7 +387,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:59:49.538512+07:00"
+    "fetchedAt": "2026-11-05T18:09:50.315404+07:00"
+  },
+  {
+    "id": "986147",
+    "symbol": "BEM",
+    "name": "Bangkok Expressway and Metro PCL",
+    "shortName": "BEM",
+    "link": "https://www.investing.com/equities/bangkok-expressway-and-metro",
+    "price": 6.25,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 5.174699783325195,
+    "fairValueUpside": -17.20000058412552,
+    "peRatio": 23.770000457763672,
+    "evEbitda": 22.949678421020508,
+    "marketCap": 93610000000,
+    "marketCapFormatted": "93.61B",
+    "epsGrowth5y": 0.2634294033050537,
+    "changeOneDayPercent": 0.81,
+    "financialHealth": "FAIR",
+    "financialCashFlowHealth": "WEAK",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "GREAT",
+    "analystRatings": "STRONG_BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-05T09:38:38.000Z",
+    "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
+    "fetchedAt": "2026-11-05T18:09:50.315404+07:00"
   },
   {
     "id": "986137",
@@ -387,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:59:49.538512+07:00"
+    "fetchedAt": "2026-11-05T18:09:50.315404+07:00"
   },
   {
     "id": "1025098",
@@ -417,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:59:49.538512+07:00"
+    "fetchedAt": "2026-11-05T18:09:50.315404+07:00"
   },
   {
     "id": "102683",
@@ -447,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:59:49.538512+07:00"
+    "fetchedAt": "2026-11-05T18:09:50.315404+07:00"
   },
   {
     "id": "102442",
@@ -477,7 +537,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:59:49.538512+07:00"
+    "fetchedAt": "2026-11-05T18:09:50.315404+07:00"
+  },
+  {
+    "id": "102561",
+    "symbol": "KCE",
+    "name": "KCE Electronics PCL",
+    "shortName": "KCE Electronics",
+    "link": "https://www.investing.com/equities/kce-elec",
+    "price": 66.25,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 57.80350112915039,
+    "fairValueUpside": -12.749999761581421,
+    "peRatio": 84.12999725341797,
+    "evEbitda": 43.92044448852539,
+    "marketCap": 78310000000,
+    "marketCapFormatted": "78.31B",
+    "epsGrowth5y": 0.038457516580820084,
+    "changeOneDayPercent": -5.69,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "GREAT",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "GREAT",
+    "analystRatings": "BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-05T09:38:38.000Z",
+    "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
+    "fetchedAt": "2026-11-05T18:09:50.315404+07:00"
   },
   {
     "id": "102560",
@@ -507,7 +597,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:59:49.538512+07:00"
+    "fetchedAt": "2026-11-05T18:09:50.315404+07:00"
   },
   {
     "id": "102751",
@@ -537,6 +627,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T09:38:38.000Z",
     "sourceUpdatedTime": "2026-11-05T09:38:38.000Z",
-    "fetchedAt": "2026-11-05T17:59:49.538512+07:00"
+    "fetchedAt": "2026-11-05T18:09:50.315404+07:00"
   }
 ]
