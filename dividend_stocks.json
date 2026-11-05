@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-05T18:27:02.888559+07:00",
- "sourceAsOf": "2026-11-05T18:26:59.241802+07:00",
+ "asOf": "2026-11-05T18:57:44.038888+07:00",
+ "sourceAsOf": "2026-11-05T18:57:38.064663+07:00",
  "partial": false,
  "criteria": {
   "market": "TH",
@@ -116,7 +116,7 @@
    "industry": "Banking Services",
    "sourcePrice": 43.25,
    "sourceChangePercent": 0.0,
-   "marketCap": 604460000000,
+   "marketCap": 613020000000,
    "peRatio": 12.61,
    "pegRatio": -12.81,
    "currency": "THB",
@@ -190,7 +190,7 @@
    "industry": "Oil & Gas",
    "sourcePrice": 142,
    "sourceChangePercent": -5.33,
-   "marketCap": 563740000000,
+   "marketCap": 586390000000,
    "peRatio": 7.69,
    "pegRatio": 0.44,
    "currency": "THB",
@@ -528,8 +528,8 @@
    "industry": "Banking Services",
    "sourcePrice": 114,
    "sourceChangePercent": -0.44,
-   "marketCap": 98100000000,
-   "peRatio": 11.57,
+   "marketCap": 99360000000,
+   "peRatio": 11.7,
    "pegRatio": 0.26,
    "currency": "THB",
    "price": 114.0,
@@ -618,8 +618,8 @@
    "industry": "Oil & Gas",
    "sourcePrice": 43.5,
    "sourceChangePercent": -3.87,
-   "marketCap": 63640000000,
-   "peRatio": 2.86,
+   "marketCap": 62520000000,
+   "peRatio": 2.81,
    "pegRatio": 0.0,
    "currency": "THB",
    "price": 43.5,
@@ -704,7 +704,7 @@
    "industry": "Food & Tobacco",
    "sourcePrice": 13.199999809265137,
    "sourceChangePercent": 0.0,
-   "marketCap": 61440000000,
+   "marketCap": 57940000000,
    "peRatio": 10.74,
    "pegRatio": 1.55,
    "currency": "THB",
@@ -1282,7 +1282,7 @@
    "industry": "Water & Related Utilities",
    "sourcePrice": 10,
    "sourceChangePercent": -0.99,
-   "marketCap": 39900000000,
+   "marketCap": 39490000000,
    "peRatio": 12.74,
    "pegRatio": null,
    "currency": "THB",
@@ -1572,7 +1572,7 @@
    "industry": "Construction Materials",
    "sourcePrice": 17.100000381469727,
    "sourceChangePercent": 1.79,
-   "marketCap": 26990000000,
+   "marketCap": 26150000000,
    "peRatio": 23.09,
    "pegRatio": -0.5,
    "currency": "THB",
@@ -2048,7 +2048,7 @@
    "dividendsAsOf": "2026-11-04T05:58:49.311517+00:00"
   },
   {
-   "symbol": "IMPACT",
+   "symbol": "IMPACTu",
    "name": "อิมแพ็คโกรท",
    "pairId": 986272,
    "path": "/equities/impact-growth-real-estate-invest",
@@ -2062,120 +2062,14 @@
    "currency": "THB",
    "price": 13.0,
    "changePercent": 2.36,
-   "divYield": 5.46,
-   "avgYield5y": 4.24,
-   "dpsLastYear": 0.71,
-   "dpsPrevFY": 0.69,
-   "divPayments": [
-    {
-     "date": "2020-02-26",
-     "amount": 0.3
-    },
-    {
-     "date": "2020-06-02",
-     "amount": 0.05
-    },
-    {
-     "date": "2020-11-25",
-     "amount": 0.12
-    },
-    {
-     "date": "2021-02-24",
-     "amount": 0.2
-    },
-    {
-     "date": "2022-02-23",
-     "amount": 0.05
-    },
-    {
-     "date": "2022-05-31",
-     "amount": 0.05
-    },
-    {
-     "date": "2022-08-24",
-     "amount": 0.1
-    },
-    {
-     "date": "2022-11-23",
-     "amount": 0.15
-    },
-    {
-     "date": "2023-02-22",
-     "amount": 0.21
-    },
-    {
-     "date": "2023-05-31",
-     "amount": 0.14
-    },
-    {
-     "date": "2023-08-23",
-     "amount": 0.14
-    },
-    {
-     "date": "2023-11-22",
-     "amount": 0.1
-    },
-    {
-     "date": "2024-02-21",
-     "amount": 0.2
-    },
-    {
-     "date": "2024-06-06",
-     "amount": 0.1
-    },
-    {
-     "date": "2024-08-27",
-     "amount": 0.22
-    },
-    {
-     "date": "2024-11-27",
-     "amount": 0.11
-    },
-    {
-     "date": "2025-02-26",
-     "amount": 0.17
-    },
-    {
-     "date": "2025-06-05",
-     "amount": 0.17
-    },
-    {
-     "date": "2025-08-27",
-     "amount": 0.22
-    },
-    {
-     "date": "2025-11-27",
-     "amount": 0.13
-    },
-    {
-     "date": "2026-02-26",
-     "amount": 0.24
-    },
-    {
-     "date": "2026-06-04",
-     "amount": 0.1
-    },
-    {
-     "date": "2026-08-27",
-     "amount": 0.24
-    }
-   ],
-   "dpsByYear": {
-    "2026": 0.58,
-    "2025": 0.69,
-    "2024": 0.63,
-    "2023": 0.59,
-    "2022": 0.35,
-    "2021": 0.2
-   },
-   "yieldYearsUsed": [
-    "2021",
-    "2022",
-    "2023",
-    "2024",
-    "2025"
-   ],
-   "dividendsAsOf": "2026-11-05T09:45:25.644903+00:00"
+   "divYield": null,
+   "avgYield5y": null,
+   "dpsLastYear": null,
+   "dpsPrevFY": null,
+   "divPayments": [],
+   "dpsByYear": {},
+   "yieldYearsUsed": [],
+   "dividendsAsOf": null
   },
   {
    "symbol": "PRM",
