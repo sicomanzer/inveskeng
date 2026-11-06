@@ -27,7 +27,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-07T04:18:09.580693+07:00"
+    "fetchedAt": "2026-11-07T04:38:28.433330+07:00"
   },
   {
     "id": "17195",
@@ -57,7 +57,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-07T04:18:09.580693+07:00"
+    "fetchedAt": "2026-11-07T04:38:28.433330+07:00"
   },
   {
     "id": "8042",
@@ -69,7 +69,7 @@
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 48.26,
-    "fairValueUpside": 68.04,
+    "fairValueUpside": 67.98,
     "peRatio": 4.26,
     "evEbitda": 11.46,
     "marketCap": 14750000000,
@@ -87,7 +87,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-07T04:18:09.580693+07:00"
+    "fetchedAt": "2026-11-07T04:38:28.433330+07:00"
   },
   {
     "id": "6373",
@@ -117,7 +117,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-07T04:18:09.580693+07:00"
+    "fetchedAt": "2026-11-07T04:38:28.433330+07:00"
   },
   {
     "id": "39135",
@@ -129,7 +129,7 @@
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 317.07,
-    "fairValueUpside": 66.93,
+    "fairValueUpside": 66.79,
     "peRatio": 13.47,
     "evEbitda": 11.77,
     "marketCap": 12010000000,
@@ -147,7 +147,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-07T04:18:09.580693+07:00"
+    "fetchedAt": "2026-11-07T04:38:28.433330+07:00"
   },
   {
     "id": "1220843",
@@ -159,7 +159,7 @@
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 35.13,
-    "fairValueUpside": 65.39,
+    "fairValueUpside": 65.32,
     "peRatio": 37.53,
     "evEbitda": 8.55,
     "marketCap": 5230000000,
@@ -177,7 +177,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-07T04:18:09.580693+07:00"
+    "fetchedAt": "2026-11-07T04:38:28.433330+07:00"
   },
   {
     "id": "6448",
@@ -207,7 +207,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-07T04:18:09.580693+07:00"
+    "fetchedAt": "2026-11-07T04:38:28.433330+07:00"
   },
   {
     "id": "8294",
@@ -219,7 +219,7 @@
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 335.99,
-    "fairValueUpside": 57.23,
+    "fairValueUpside": 57.26,
     "peRatio": 19.8,
     "evEbitda": 16.15,
     "marketCap": 175850000000,
@@ -237,7 +237,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-07T04:18:09.580693+07:00"
+    "fetchedAt": "2026-11-07T04:38:28.433330+07:00"
   },
   {
     "id": "7889",
@@ -249,7 +249,7 @@
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 453.01,
-    "fairValueUpside": 54.31,
+    "fairValueUpside": 54.3,
     "peRatio": 13.02,
     "evEbitda": 6.64,
     "marketCap": 77200000000,
@@ -267,37 +267,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-07T04:18:09.580693+07:00"
-  },
-  {
-    "id": "956170",
-    "symbol": "PYPL",
-    "name": "PayPal Holdings Inc",
-    "shortName": "PayPal",
-    "link": "https://www.investing.com/equities/paypal-holdings-inc",
-    "price": 59.24,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 90.6,
-    "fairValueUpside": 52.94,
-    "peRatio": 11.27,
-    "evEbitda": 7.14,
-    "marketCap": 49270000000,
-    "marketCapFormatted": "49.27 พันล้าน",
-    "epsGrowth5y": 0.14,
-    "changeOneDayPercent": 0.47,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ถือหุ้นไว้",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-11-06T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-07T04:18:09.580693+07:00"
+    "fetchedAt": "2026-11-07T04:38:28.433330+07:00"
   },
   {
     "id": "32331",
@@ -309,7 +279,7 @@
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 60.32,
-    "fairValueUpside": 52.9,
+    "fairValueUpside": 52.94,
     "peRatio": 7.33,
     "evEbitda": 3.94,
     "marketCap": 7980000000,
@@ -327,7 +297,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-07T04:18:09.580693+07:00"
+    "fetchedAt": "2026-11-07T04:38:28.433330+07:00"
   },
   {
     "id": "15722",
@@ -357,7 +327,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-07T04:18:09.580693+07:00"
+    "fetchedAt": "2026-11-07T04:38:28.433330+07:00"
   },
   {
     "id": "15828",
@@ -387,7 +357,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-07T04:18:09.580693+07:00"
+    "fetchedAt": "2026-11-07T04:38:28.433330+07:00"
   },
   {
     "id": "6516",
@@ -417,7 +387,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-07T04:18:09.580693+07:00"
+    "fetchedAt": "2026-11-07T04:38:28.433330+07:00"
+  },
+  {
+    "id": "41239",
+    "symbol": "NOW",
+    "name": "ServiceNow Inc",
+    "shortName": "ServiceNow Inc",
+    "link": "https://www.investing.com/equities/servicenow-inc",
+    "price": 101.97,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 152.02,
+    "fairValueUpside": 49.08,
+    "peRatio": 73.39,
+    "evEbitda": 32.81,
+    "marketCap": 105430000000,
+    "marketCapFormatted": "105.43 พันล้าน",
+    "epsGrowth5y": 1.21,
+    "changeOneDayPercent": -0.38,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดี",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-11-06T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
+    "fetchedAt": "2026-11-07T04:38:28.433330+07:00"
   },
   {
     "id": "41176",
@@ -429,7 +429,7 @@
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 118.04,
-    "fairValueUpside": 48.61,
+    "fairValueUpside": 48.67,
     "peRatio": 13.45,
     "evEbitda": 9.97,
     "marketCap": 32790000000,
@@ -447,7 +447,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-07T04:18:09.580693+07:00"
+    "fetchedAt": "2026-11-07T04:38:28.433330+07:00"
   },
   {
     "id": "8201",
@@ -477,7 +477,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-07T04:18:09.580693+07:00"
+    "fetchedAt": "2026-11-07T04:38:28.433330+07:00"
   },
   {
     "id": "16942",
@@ -507,7 +507,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-07T04:18:09.580693+07:00"
+    "fetchedAt": "2026-11-07T04:38:28.433330+07:00"
   },
   {
     "id": "8063",
@@ -519,7 +519,7 @@
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 58.61,
-    "fairValueUpside": 45.36,
+    "fairValueUpside": 45.33,
     "peRatio": 8.61,
     "evEbitda": 5.88,
     "marketCap": 7440000000,
@@ -537,7 +537,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-07T04:18:09.580693+07:00"
+    "fetchedAt": "2026-11-07T04:38:28.433330+07:00"
   },
   {
     "id": "39152",
@@ -567,37 +567,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-07T04:18:09.580693+07:00"
-  },
-  {
-    "id": "8251",
-    "symbol": "PCG",
-    "name": "PG&E Corp",
-    "shortName": "PG E",
-    "link": "https://www.investing.com/equities/pacific-gas-electric",
-    "price": 12.97,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 18.58,
-    "fairValueUpside": 43.13,
-    "peRatio": 9.66,
-    "evEbitda": 8.94,
-    "marketCap": 28590000000,
-    "marketCapFormatted": "28.59 พันล้าน",
-    "epsGrowth5y": 1.99,
-    "changeOneDayPercent": -1.97,
-    "financialHealth": "มูลค่าตามจริง",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "มูลค่าตามจริง",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-11-06T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-07T04:18:09.580693+07:00"
+    "fetchedAt": "2026-11-07T04:38:28.433330+07:00"
   },
   {
     "id": "6370",
@@ -627,7 +597,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-07T04:18:09.580693+07:00"
+    "fetchedAt": "2026-11-07T04:38:28.433330+07:00"
   },
   {
     "id": "6497",
@@ -657,7 +627,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-07T04:18:09.580693+07:00"
+    "fetchedAt": "2026-11-07T04:38:28.433330+07:00"
   },
   {
     "id": "8940",
@@ -687,7 +657,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-07T04:18:09.580693+07:00"
+    "fetchedAt": "2026-11-07T04:38:28.433330+07:00"
+  },
+  {
+    "id": "39184",
+    "symbol": "CE",
+    "name": "Celanese Corporation",
+    "shortName": "Celanese",
+    "link": "https://www.investing.com/equities/celanese",
+    "price": 46.49,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 65.07,
+    "fairValueUpside": 39.97,
+    "peRatio": 18.87,
+    "evEbitda": 9.32,
+    "marketCap": 5090000000,
+    "marketCapFormatted": "5.09 พันล้าน",
+    "epsGrowth5y": -0.39,
+    "changeOneDayPercent": -2.82,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดี",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-11-06T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
+    "fetchedAt": "2026-11-07T04:38:28.433330+07:00"
   },
   {
     "id": "101887",
@@ -699,7 +699,7 @@
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 332.09,
-    "fairValueUpside": 39.97,
+    "fairValueUpside": 39.93,
     "peRatio": 23.04,
     "evEbitda": 16.98,
     "marketCap": 10310000000,
@@ -717,7 +717,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-07T04:18:09.580693+07:00"
+    "fetchedAt": "2026-11-07T04:38:28.433330+07:00"
   },
   {
     "id": "32361",
@@ -747,7 +747,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-07T04:18:09.580693+07:00"
+    "fetchedAt": "2026-11-07T04:38:28.433330+07:00"
+  },
+  {
+    "id": "20529",
+    "symbol": "FICO",
+    "name": "Fair Isaac Corporation",
+    "shortName": "Fair Isaac",
+    "link": "https://www.investing.com/equities/fair-isaac-and-comp-inc",
+    "price": 704.55,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 980.9,
+    "fairValueUpside": 39.22,
+    "peRatio": 18.93,
+    "evEbitda": 16.39,
+    "marketCap": 15060000000,
+    "marketCapFormatted": "15.06 พันล้าน",
+    "epsGrowth5y": 0.25,
+    "changeOneDayPercent": -0.4,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-11-06T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
+    "fetchedAt": "2026-11-07T04:38:28.433330+07:00"
   },
   {
     "id": "948325",
@@ -759,7 +789,7 @@
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 158.88,
-    "fairValueUpside": 38.93,
+    "fairValueUpside": 38.9,
     "peRatio": 15.84,
     "evEbitda": 11.84,
     "marketCap": 13840000000,
@@ -777,7 +807,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-07T04:18:09.580693+07:00"
+    "fetchedAt": "2026-11-07T04:38:28.433330+07:00"
   },
   {
     "id": "6454",
@@ -807,7 +837,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-07T04:18:09.580693+07:00"
+    "fetchedAt": "2026-11-07T04:38:28.433330+07:00"
   },
   {
     "id": "8359",
@@ -819,7 +849,7 @@
     "currency": "USD",
     "currencySymbol": "$",
     "fairValue": 541.06,
-    "fairValueUpside": 37.29,
+    "fairValueUpside": 37.27,
     "peRatio": 22.55,
     "evEbitda": 12.36,
     "marketCap": 352930000000,
@@ -837,7 +867,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-07T04:18:09.580693+07:00"
+    "fetchedAt": "2026-11-07T04:38:28.433330+07:00"
   },
   {
     "id": "13969",
@@ -867,36 +897,6 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-07T04:18:09.580693+07:00"
-  },
-  {
-    "id": "8248",
-    "symbol": "BSX",
-    "name": "Boston Scientific Corp",
-    "shortName": "Boston Scientific",
-    "link": "https://www.investing.com/equities/boston-scien-cp",
-    "price": 42.75,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 58.51,
-    "fairValueUpside": 36.87,
-    "peRatio": 18.14,
-    "evEbitda": 12.85,
-    "marketCap": 61950000000,
-    "marketCapFormatted": "61.95 พันล้าน",
-    "epsGrowth5y": 1.02,
-    "changeOneDayPercent": -4.23,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-11-06T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-07T04:18:09.580693+07:00"
+    "fetchedAt": "2026-11-07T04:38:28.433330+07:00"
   }
 ]
