@@ -27,7 +27,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T20:21:13.542344+07:00"
+    "fetchedAt": "2026-11-06T20:41:21.206646+07:00"
   },
   {
     "id": "32383",
@@ -57,7 +57,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T20:21:13.542344+07:00"
+    "fetchedAt": "2026-11-06T20:41:21.206646+07:00"
   },
   {
     "id": "8042",
@@ -87,7 +87,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T20:21:13.542344+07:00"
+    "fetchedAt": "2026-11-06T20:41:21.206646+07:00"
   },
   {
     "id": "1220843",
@@ -117,7 +117,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T20:21:13.542344+07:00"
+    "fetchedAt": "2026-11-06T20:41:21.206646+07:00"
   },
   {
     "id": "6373",
@@ -147,37 +147,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T20:21:13.542344+07:00"
-  },
-  {
-    "id": "8201",
-    "symbol": "CVS",
-    "name": "CVS Health Corp",
-    "shortName": "CVS Health Corp",
-    "link": "https://www.investing.com/equities/cvs-corp",
-    "price": 81.33,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 130.86,
-    "fairValueUpside": 60.9,
-    "peRatio": 21.06,
-    "evEbitda": 8.68,
-    "marketCap": 104060000000,
-    "marketCapFormatted": "104.06 พันล้าน",
-    "epsGrowth5y": 1.1,
-    "changeOneDayPercent": 1.71,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T20:21:13.542344+07:00"
+    "fetchedAt": "2026-11-06T20:41:21.206646+07:00"
   },
   {
     "id": "39135",
@@ -207,7 +177,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T20:21:13.542344+07:00"
+    "fetchedAt": "2026-11-06T20:41:21.206646+07:00"
   },
   {
     "id": "6448",
@@ -237,7 +207,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T20:21:13.542344+07:00"
+    "fetchedAt": "2026-11-06T20:41:21.206646+07:00"
   },
   {
     "id": "956170",
@@ -267,7 +237,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T20:21:13.542344+07:00"
+    "fetchedAt": "2026-11-06T20:41:21.206646+07:00"
   },
   {
     "id": "15722",
@@ -297,7 +267,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T20:21:13.542344+07:00"
+    "fetchedAt": "2026-11-06T20:41:21.206646+07:00"
+  },
+  {
+    "id": "8201",
+    "symbol": "CVS",
+    "name": "CVS Health Corp",
+    "shortName": "CVS Health Corp",
+    "link": "https://www.investing.com/equities/cvs-corp",
+    "price": 81.33,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 124.13,
+    "fairValueUpside": 52.62,
+    "peRatio": 21.06,
+    "evEbitda": 8.68,
+    "marketCap": 104060000000,
+    "marketCapFormatted": "104.06 พันล้าน",
+    "epsGrowth5y": 1.1,
+    "changeOneDayPercent": 1.71,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
+    "fetchedAt": "2026-11-06T20:41:21.206646+07:00"
   },
   {
     "id": "8294",
@@ -327,7 +327,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T20:21:13.542344+07:00"
+    "fetchedAt": "2026-11-06T20:41:21.206646+07:00"
   },
   {
     "id": "7889",
@@ -357,7 +357,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T20:21:13.542344+07:00"
+    "fetchedAt": "2026-11-06T20:41:21.206646+07:00"
   },
   {
     "id": "41239",
@@ -387,7 +387,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T20:21:13.542344+07:00"
+    "fetchedAt": "2026-11-06T20:41:21.206646+07:00"
   },
   {
     "id": "32331",
@@ -417,7 +417,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T20:21:13.542344+07:00"
+    "fetchedAt": "2026-11-06T20:41:21.206646+07:00"
   },
   {
     "id": "6520",
@@ -447,7 +447,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T20:21:13.542344+07:00"
+    "fetchedAt": "2026-11-06T20:41:21.206646+07:00"
   },
   {
     "id": "6497",
@@ -477,7 +477,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T20:21:13.542344+07:00"
+    "fetchedAt": "2026-11-06T20:41:21.206646+07:00"
   },
   {
     "id": "41176",
@@ -507,7 +507,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T20:21:13.542344+07:00"
+    "fetchedAt": "2026-11-06T20:41:21.206646+07:00"
   },
   {
     "id": "15828",
@@ -537,67 +537,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T20:21:13.542344+07:00"
-  },
-  {
-    "id": "8940",
-    "symbol": "STX",
-    "name": "Seagate Technology PLC",
-    "shortName": "Seagate",
-    "link": "https://www.investing.com/equities/seagate-technology",
-    "price": 466.53,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 668.71,
-    "fairValueUpside": 43.34,
-    "peRatio": 24.81,
-    "evEbitda": 25.46,
-    "marketCap": 107100000000,
-    "marketCapFormatted": "107.1 พันล้าน",
-    "epsGrowth5y": 0.76,
-    "changeOneDayPercent": -16.25,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดีเยี่ยม",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T20:21:13.542344+07:00"
-  },
-  {
-    "id": "6370",
-    "symbol": "FISV",
-    "name": "Fiserv Inc",
-    "shortName": "Fiserv",
-    "link": "https://www.investing.com/equities/fiserv-inc",
-    "price": 62.74,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 89.17,
-    "fairValueUpside": 42.13,
-    "peRatio": -8.46,
-    "evEbitda": 6.84,
-    "marketCap": 33380000000,
-    "marketCapFormatted": "33.38 พันล้าน",
-    "epsGrowth5y": 0.24,
-    "changeOneDayPercent": 1.11,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดี",
-    "analystRatings": "ถือหุ้นไว้",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T20:21:13.542344+07:00"
+    "fetchedAt": "2026-11-06T20:41:21.206646+07:00"
   },
   {
     "id": "6516",
@@ -627,7 +567,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T20:21:13.542344+07:00"
+    "fetchedAt": "2026-11-06T20:41:21.206646+07:00"
+  },
+  {
+    "id": "39152",
+    "symbol": "LKQ",
+    "name": "LKQ Corporation",
+    "shortName": "LKQ",
+    "link": "https://www.investing.com/equities/lkq",
+    "price": 20.54,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 28.78,
+    "fairValueUpside": 40.11,
+    "peRatio": 19.94,
+    "evEbitda": 7.11,
+    "marketCap": 5190000000,
+    "marketCapFormatted": "5.19 พันล้าน",
+    "epsGrowth5y": -0.04,
+    "changeOneDayPercent": -1.91,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "แย่",
+    "financialProfitabilityHealth": "มูลค่าตามจริง",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
+    "fetchedAt": "2026-11-06T20:41:21.206646+07:00"
   },
   {
     "id": "8063",
@@ -657,7 +627,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T20:21:13.542344+07:00"
+    "fetchedAt": "2026-11-06T20:41:21.206646+07:00"
   },
   {
     "id": "6392",
@@ -687,7 +657,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T20:21:13.542344+07:00"
+    "fetchedAt": "2026-11-06T20:41:21.206646+07:00"
   },
   {
     "id": "20529",
@@ -717,7 +687,67 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T20:21:13.542344+07:00"
+    "fetchedAt": "2026-11-06T20:41:21.206646+07:00"
+  },
+  {
+    "id": "8940",
+    "symbol": "STX",
+    "name": "Seagate Technology PLC",
+    "shortName": "Seagate",
+    "link": "https://www.investing.com/equities/seagate-technology",
+    "price": 466.53,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 645.91,
+    "fairValueUpside": 38.45,
+    "peRatio": 24.81,
+    "evEbitda": 25.46,
+    "marketCap": 107100000000,
+    "marketCapFormatted": "107.1 พันล้าน",
+    "epsGrowth5y": 0.76,
+    "changeOneDayPercent": -16.25,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "ดีเยี่ยม",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
+    "fetchedAt": "2026-11-06T20:41:21.206646+07:00"
+  },
+  {
+    "id": "13969",
+    "symbol": "AVGO",
+    "name": "Broadcom Inc",
+    "shortName": "Broadcom",
+    "link": "https://www.investing.com/equities/avago-technologies",
+    "price": 291.53,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 402.93,
+    "fairValueUpside": 38.21,
+    "peRatio": 37.72,
+    "evEbitda": 30.46,
+    "marketCap": 1390000000000,
+    "marketCapFormatted": "1.39 ล้านล้าน",
+    "epsGrowth5y": 0.68,
+    "changeOneDayPercent": -10.43,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "ดีเยี่ยม",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
+    "fetchedAt": "2026-11-06T20:41:21.206646+07:00"
   },
   {
     "id": "32524",
@@ -747,7 +777,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T20:21:13.542344+07:00"
+    "fetchedAt": "2026-11-06T20:41:21.206646+07:00"
   },
   {
     "id": "8310",
@@ -777,37 +807,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T20:21:13.542344+07:00"
-  },
-  {
-    "id": "8359",
-    "symbol": "UNH",
-    "name": "Unitedhealth Group",
-    "shortName": "UnitedHealth",
-    "link": "https://www.investing.com/equities/united-health-group",
-    "price": 395.72,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 541.02,
-    "fairValueUpside": 36.72,
-    "peRatio": 22.6,
-    "evEbitda": 12.36,
-    "marketCap": 354570000000,
-    "marketCapFormatted": "354.57 พันล้าน",
-    "epsGrowth5y": 0.02,
-    "changeOneDayPercent": -3.34,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T20:21:13.542344+07:00"
+    "fetchedAt": "2026-11-06T20:41:21.206646+07:00"
   },
   {
     "id": "39277",
@@ -837,7 +837,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T20:21:13.542344+07:00"
+    "fetchedAt": "2026-11-06T20:41:21.206646+07:00"
   },
   {
     "id": "39184",
@@ -867,7 +867,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T20:21:13.542344+07:00"
+    "fetchedAt": "2026-11-06T20:41:21.206646+07:00"
   },
   {
     "id": "1011774",
@@ -897,6 +897,6 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T20:21:13.542344+07:00"
+    "fetchedAt": "2026-11-06T20:41:21.206646+07:00"
   }
 ]

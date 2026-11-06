@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
+    "fetchedAt": "2026-11-06T20:38:17.829994+07:00"
   },
   {
     "id": "986137",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
+    "fetchedAt": "2026-11-06T20:38:17.829994+07:00"
   },
   {
     "id": "102451",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
+    "fetchedAt": "2026-11-06T20:38:17.829994+07:00"
   },
   {
     "id": "102567",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
+    "fetchedAt": "2026-11-06T20:38:17.829994+07:00"
   },
   {
     "id": "1199621",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
+    "fetchedAt": "2026-11-06T20:38:17.829994+07:00"
   },
   {
     "id": "1242508",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
+    "fetchedAt": "2026-11-06T20:38:17.829994+07:00"
   },
   {
     "id": "989494",
@@ -207,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
+    "fetchedAt": "2026-11-06T20:38:17.829994+07:00"
   },
   {
     "id": "102869",
@@ -237,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
+    "fetchedAt": "2026-11-06T20:38:17.829994+07:00"
   },
   {
     "id": "1130942",
@@ -267,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
+    "fetchedAt": "2026-11-06T20:38:17.829994+07:00"
   },
   {
     "id": "102757",
@@ -297,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
+    "fetchedAt": "2026-11-06T20:38:17.829994+07:00"
   },
   {
     "id": "102569",
@@ -327,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
+    "fetchedAt": "2026-11-06T20:38:17.829994+07:00"
   },
   {
     "id": "986147",
@@ -357,7 +357,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
+    "fetchedAt": "2026-11-06T20:38:17.829994+07:00"
+  },
+  {
+    "id": "102714",
+    "symbol": "SIRI",
+    "name": "Sansiri PCL",
+    "shortName": "Sansiri",
+    "link": "https://www.investing.com/equities/sansiri",
+    "price": 1.41,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 1.1908999681472778,
+    "fairValueUpside": -15.539999306201935,
+    "peRatio": 6.110000133514404,
+    "evEbitda": 19.711841583251953,
+    "marketCap": 24790000000,
+    "marketCapFormatted": "24.79B",
+    "epsGrowth5y": 0.2871914207935333,
+    "changeOneDayPercent": -2.08,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "FAIR",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "GOOD",
+    "analystRatings": "STRONG_BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-06T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
+    "fetchedAt": "2026-11-06T20:38:17.829994+07:00"
   },
   {
     "id": "1008691",
@@ -387,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
+    "fetchedAt": "2026-11-06T20:38:17.829994+07:00"
   },
   {
     "id": "1025098",
@@ -417,37 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
-  },
-  {
-    "id": "103855",
-    "symbol": "KGENm",
-    "name": "King Gen PCL",
-    "shortName": "King Gen PCL",
-    "link": "https://www.investing.com/equities/nation-broadca",
-    "price": 1.82,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 1.5867999792099,
-    "fairValueUpside": -12.809999287128448,
-    "peRatio": -107.05999755859375,
-    "evEbitda": -180.5172576904297,
-    "marketCap": 3760000000,
-    "marketCapFormatted": "3.76B",
-    "epsGrowth5y": -3.227961301803589,
-    "changeOneDayPercent": 13.75,
-    "financialHealth": "FAIR",
-    "financialCashFlowHealth": "WEAK",
-    "financialGrowthHealth": "GOOD",
-    "financialProfitabilityHealth": "WEAK",
-    "analystRatings": "-",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-06T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
+    "fetchedAt": "2026-11-06T20:38:17.829994+07:00"
   },
   {
     "id": "102751",
@@ -477,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
+    "fetchedAt": "2026-11-06T20:38:17.829994+07:00"
   },
   {
     "id": "102442",
@@ -507,36 +507,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
-  },
-  {
-    "id": "102683",
-    "symbol": "RATCH",
-    "name": "RATCH Group Public Company Limited",
-    "shortName": "Ratch Group",
-    "link": "https://www.investing.com/equities/ratchaburi",
-    "price": 36.25,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 32.10649871826172,
-    "fairValueUpside": -11.429999768733978,
-    "peRatio": 14.149999618530273,
-    "evEbitda": 32.61182403564453,
-    "marketCap": 78840000000,
-    "marketCapFormatted": "78.84B",
-    "epsGrowth5y": -0.053401317447423935,
-    "changeOneDayPercent": -2.03,
-    "financialHealth": "FAIR",
-    "financialCashFlowHealth": "GOOD",
-    "financialGrowthHealth": "FAIR",
-    "financialProfitabilityHealth": "FAIR",
-    "analystRatings": "BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-06T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
+    "fetchedAt": "2026-11-06T20:38:17.829994+07:00"
   }
 ]
