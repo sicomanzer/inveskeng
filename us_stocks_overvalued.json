@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T07:53:58.697033+07:00"
+    "fetchedAt": "2026-11-06T08:03:58.753001+07:00"
   },
   {
     "id": "261",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T07:53:58.697033+07:00"
+    "fetchedAt": "2026-11-06T08:03:58.753001+07:00"
   },
   {
     "id": "1131557",
@@ -87,37 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T07:53:58.697033+07:00"
-  },
-  {
-    "id": "269",
-    "symbol": "KMB",
-    "name": "Kimberly-Clark Corp",
-    "shortName": "Kimberly-Clark",
-    "link": "https://www.investing.com/equities/kimberly-clark",
-    "price": 110.46,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 76.08,
-    "fairValueUpside": -31.12,
-    "peRatio": 21.85,
-    "evEbitda": 11.95,
-    "marketCap": 66760000000,
-    "marketCapFormatted": "66.76 พันล้าน",
-    "epsGrowth5y": -0.03,
-    "changeOneDayPercent": 1.54,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T07:53:58.697033+07:00"
+    "fetchedAt": "2026-11-06T08:03:58.753001+07:00"
   },
   {
     "id": "1169889",
@@ -147,7 +117,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T07:53:58.697033+07:00"
+    "fetchedAt": "2026-11-06T08:03:58.753001+07:00"
+  },
+  {
+    "id": "7997",
+    "symbol": "WMT",
+    "name": "Walmart Inc",
+    "shortName": "Walmart",
+    "link": "https://www.investing.com/equities/wal-mart-stores",
+    "price": 127.72,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 92.79,
+    "fairValueUpside": -27.35,
+    "peRatio": 46.52,
+    "evEbitda": 23.82,
+    "marketCap": 1020000000000,
+    "marketCapFormatted": "1.02 ล้านล้าน",
+    "epsGrowth5y": 0.16,
+    "changeOneDayPercent": -1.12,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดี",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
+    "fetchedAt": "2026-11-06T08:03:58.753001+07:00"
   },
   {
     "id": "8260",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T07:53:58.697033+07:00"
+    "fetchedAt": "2026-11-06T08:03:58.753001+07:00"
   },
   {
     "id": "13848",
@@ -207,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T07:53:58.697033+07:00"
+    "fetchedAt": "2026-11-06T08:03:58.753001+07:00"
   },
   {
     "id": "13852",
@@ -237,7 +237,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T07:53:58.697033+07:00"
+    "fetchedAt": "2026-11-06T08:03:58.753001+07:00"
+  },
+  {
+    "id": "13067",
+    "symbol": "EQIX",
+    "name": "Equinix Inc",
+    "shortName": "Equinix",
+    "link": "https://www.investing.com/equities/equinix,-inc.",
+    "price": 997.35,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 751.11,
+    "fairValueUpside": -24.69,
+    "peRatio": 59.91,
+    "evEbitda": 25.96,
+    "marketCap": 104340000000,
+    "marketCapFormatted": "104.34 พันล้าน",
+    "epsGrowth5y": 0.31,
+    "changeOneDayPercent": -5.38,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
+    "fetchedAt": "2026-11-06T08:03:58.753001+07:00"
   },
   {
     "id": "8036",
@@ -267,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T07:53:58.697033+07:00"
+    "fetchedAt": "2026-11-06T08:03:58.753001+07:00"
   },
   {
     "id": "41268",
@@ -297,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T07:53:58.697033+07:00"
+    "fetchedAt": "2026-11-06T08:03:58.753001+07:00"
   },
   {
     "id": "20299",
@@ -327,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T07:53:58.697033+07:00"
+    "fetchedAt": "2026-11-06T08:03:58.753001+07:00"
   },
   {
     "id": "8158",
@@ -357,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T07:53:58.697033+07:00"
+    "fetchedAt": "2026-11-06T08:03:58.753001+07:00"
   },
   {
     "id": "13994",
@@ -387,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T07:53:58.697033+07:00"
+    "fetchedAt": "2026-11-06T08:03:58.753001+07:00"
   },
   {
     "id": "7881",
@@ -417,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T07:53:58.697033+07:00"
+    "fetchedAt": "2026-11-06T08:03:58.753001+07:00"
   },
   {
     "id": "10549",
@@ -447,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T07:53:58.697033+07:00"
+    "fetchedAt": "2026-11-06T08:03:58.753001+07:00"
   },
   {
     "id": "39166",
@@ -477,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T07:53:58.697033+07:00"
+    "fetchedAt": "2026-11-06T08:03:58.753001+07:00"
   },
   {
     "id": "6500",
@@ -507,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T07:53:58.697033+07:00"
+    "fetchedAt": "2026-11-06T08:03:58.753001+07:00"
   },
   {
     "id": "29737",
@@ -537,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T07:53:58.697033+07:00"
+    "fetchedAt": "2026-11-06T08:03:58.753001+07:00"
   },
   {
     "id": "6365",
@@ -567,7 +597,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T07:53:58.697033+07:00"
+    "fetchedAt": "2026-11-06T08:03:58.753001+07:00"
   },
   {
     "id": "8016",
@@ -597,7 +627,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T07:53:58.697033+07:00"
+    "fetchedAt": "2026-11-06T08:03:58.753001+07:00"
   },
   {
     "id": "8136",
@@ -627,7 +657,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T07:53:58.697033+07:00"
+    "fetchedAt": "2026-11-06T08:03:58.753001+07:00"
+  },
+  {
+    "id": "8193",
+    "symbol": "GE",
+    "name": "GE Aerospace",
+    "shortName": "GE Aerospace",
+    "link": "https://www.investing.com/equities/general-electric",
+    "price": 314.73,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 259.81,
+    "fairValueUpside": -17.45,
+    "peRatio": 36.06,
+    "evEbitda": 24.52,
+    "marketCap": 340440000000,
+    "marketCapFormatted": "340.44 พันล้าน",
+    "epsGrowth5y": -1.27,
+    "changeOneDayPercent": -4.47,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
+    "fetchedAt": "2026-11-06T08:03:58.753001+07:00"
   },
   {
     "id": "8104",
@@ -657,7 +717,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T07:53:58.697033+07:00"
+    "fetchedAt": "2026-11-06T08:03:58.753001+07:00"
   },
   {
     "id": "255",
@@ -687,7 +747,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T07:53:58.697033+07:00"
+    "fetchedAt": "2026-11-06T08:03:58.753001+07:00"
   },
   {
     "id": "7943",
@@ -717,7 +777,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T07:53:58.697033+07:00"
+    "fetchedAt": "2026-11-06T08:03:58.753001+07:00"
   },
   {
     "id": "239",
@@ -747,7 +807,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T07:53:58.697033+07:00"
+    "fetchedAt": "2026-11-06T08:03:58.753001+07:00"
   },
   {
     "id": "13867",
@@ -777,7 +837,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T07:53:58.697033+07:00"
+    "fetchedAt": "2026-11-06T08:03:58.753001+07:00"
   },
   {
     "id": "29723",
@@ -807,37 +867,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T07:53:58.697033+07:00"
-  },
-  {
-    "id": "7923",
-    "symbol": "PLD",
-    "name": "Prologis Inc",
-    "shortName": "Prologis",
-    "link": "https://www.investing.com/equities/prologis",
-    "price": 128.55,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 108.54,
-    "fairValueUpside": -15.56,
-    "peRatio": 28.51,
-    "evEbitda": 21.7,
-    "marketCap": 127400000000,
-    "marketCapFormatted": "127.4 พันล้าน",
-    "epsGrowth5y": 0.25,
-    "changeOneDayPercent": -2.14,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T07:53:58.697033+07:00"
+    "fetchedAt": "2026-11-06T08:03:58.753001+07:00"
   },
   {
     "id": "20210",
@@ -867,36 +897,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T07:53:58.697033+07:00"
-  },
-  {
-    "id": "39173",
-    "symbol": "AWK",
-    "name": "American Water Works",
-    "shortName": "American Water Works",
-    "link": "https://www.investing.com/equities/american-water-works-inc",
-    "price": 152.42,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 128.82,
-    "fairValueUpside": -15.48,
-    "peRatio": 26.15,
-    "evEbitda": 15.18,
-    "marketCap": 29790000000,
-    "marketCapFormatted": "29.79 พันล้าน",
-    "epsGrowth5y": 0.12,
-    "changeOneDayPercent": 1.86,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "ดี",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ถือหุ้นไว้",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T07:53:58.697033+07:00"
+    "fetchedAt": "2026-11-06T08:03:58.753001+07:00"
   }
 ]
