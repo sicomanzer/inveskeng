@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-06T09:14:09.327706+07:00",
- "sourceAsOf": "2026-11-06T09:14:05.059933+07:00",
+ "asOf": "2026-11-06T09:54:13.547029+07:00",
+ "sourceAsOf": "2026-11-06T09:54:09.666500+07:00",
  "partial": false,
  "criteria": {
   "market": "TH",
@@ -10,7 +10,7 @@
   "sort": "marketcap_adj_latest desc",
   "primaryOnly": true
  },
- "totalMatches": 192,
+ "totalMatches": 193,
  "sourceUrl": "https://th.investing.com/stock-screener?ssid=v2%24eyJrZXlzIjpbImNvbm5lY3RpdmUiLCJsaW1pdCIsInByZWZpbHRlcnMubWFya2V0IiwicHJlZmlsdGVycy5wcmltYXJ5T25seSIsInNvcnQuZGlyZWN0aW9uIiwic29ydC5tZXRyaWMiLCJmaWx0ZXJzLjAuZ3QuaW5jbHVzaXZlIiwiZmlsdGVycy4wLmd0LnNjYWxlIiwiZmlsdGVycy4wLmd0LnZhbHVlIiwiZmlsdGVycy4wLm1ldHJpYyIsImZpbHRlcnMuMS5ndC5pbmNsdXNpdmUiLCJmaWx0ZXJzLjEuZ3Quc2NhbGUiLCJmaWx0ZXJzLjEuZ3QudmFsdWUiLCJmaWx0ZXJzLjEubWV0cmljIl0sInZhbHVlcyI6WyJBTEwiLDMwLCJUSCIsdHJ1ZSwiREVTQyIsIm1hcmtldGNhcF9hZGpfbGF0ZXN0Iix0cnVlLDEsMC4wNSwiZGl2X3lpZWxkIix0cnVlLDEsMC4wNSwiZGl2X3lpZWxkX2F2Z181eSJdfQ%3D%3D",
  "items": [
   {
@@ -900,7 +900,7 @@
    "dividendsAsOf": "2026-11-04T05:58:49.311517+00:00"
   },
   {
-   "symbol": "CPNREITu",
+   "symbol": "CPNREIT",
    "name": "CPN รีเทล โกรท",
    "pairId": 1130942,
    "path": "/equities/cpn-retail-growth-leasehold-reit",
@@ -914,14 +914,128 @@
    "currency": "THB",
    "price": 13.2,
    "changePercent": 1.54,
-   "divYield": null,
-   "avgYield5y": null,
-   "dpsLastYear": null,
-   "dpsPrevFY": null,
-   "divPayments": [],
-   "dpsByYear": {},
-   "yieldYearsUsed": [],
-   "dividendsAsOf": null
+   "divYield": 8.44,
+   "avgYield5y": 6.65,
+   "dpsLastYear": 1.1144,
+   "dpsPrevFY": 1.1044,
+   "divPayments": [
+    {
+     "date": "2020-03-04",
+     "amount": 0.3997
+    },
+    {
+     "date": "2020-05-25",
+     "amount": 0.2665
+    },
+    {
+     "date": "2020-11-23",
+     "amount": 0.2068
+    },
+    {
+     "date": "2021-05-24",
+     "amount": 0.1975
+    },
+    {
+     "date": "2021-08-24",
+     "amount": 0.1009
+    },
+    {
+     "date": "2021-11-17",
+     "amount": 0.0827
+    },
+    {
+     "date": "2022-03-01",
+     "amount": 0.2128
+    },
+    {
+     "date": "2022-05-18",
+     "amount": 0.2332
+    },
+    {
+     "date": "2022-08-17",
+     "amount": 0.2757
+    },
+    {
+     "date": "2022-11-16",
+     "amount": 0.2954
+    },
+    {
+     "date": "2023-02-28",
+     "amount": 0.0598
+    },
+    {
+     "date": "2023-05-23",
+     "amount": 0.317
+    },
+    {
+     "date": "2023-08-23",
+     "amount": 0.2855
+    },
+    {
+     "date": "2023-11-21",
+     "amount": 0.253
+    },
+    {
+     "date": "2024-02-28",
+     "amount": 0.253
+    },
+    {
+     "date": "2024-04-30",
+     "amount": 0.3618
+    },
+    {
+     "date": "2024-08-26",
+     "amount": 0.1682
+    },
+    {
+     "date": "2024-11-26",
+     "amount": 0.266
+    },
+    {
+     "date": "2025-02-27",
+     "amount": 0.266
+    },
+    {
+     "date": "2025-05-19",
+     "amount": 0.266
+    },
+    {
+     "date": "2025-08-26",
+     "amount": 0.27
+    },
+    {
+     "date": "2025-11-25",
+     "amount": 0.275
+    },
+    {
+     "date": "2026-03-11",
+     "amount": 0.2794
+    },
+    {
+     "date": "2026-05-26",
+     "amount": 0.28
+    },
+    {
+     "date": "2026-08-21",
+     "amount": 0.28
+    }
+   ],
+   "dpsByYear": {
+    "2026": 0.8394,
+    "2025": 1.077,
+    "2024": 1.049027,
+    "2023": 0.915329,
+    "2022": 1.017033,
+    "2021": 0.381117
+   },
+   "yieldYearsUsed": [
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+   ],
+   "dividendsAsOf": "2026-11-05T09:45:25.644903+00:00"
   },
   {
    "symbol": "SCCC",
@@ -1630,6 +1744,30 @@
    "dividendsAsOf": "2026-11-04T05:58:49.311517+00:00"
   },
   {
+   "symbol": "TVO_n",
+   "name": "น้ำมันพืชไทย",
+   "pairId": 1140499,
+   "path": "/equities/thai-vegetable-oil-pcl",
+   "sector": "Consumer Non-Cyclicals",
+   "industry": "Food & Tobacco",
+   "sourcePrice": 28.5,
+   "sourceChangePercent": -1.72,
+   "marketCap": 25350000000,
+   "peRatio": 10.12,
+   "pegRatio": null,
+   "currency": "THB",
+   "price": 28.5,
+   "changePercent": -1.72,
+   "divYield": null,
+   "avgYield5y": null,
+   "dpsLastYear": null,
+   "dpsPrevFY": null,
+   "divPayments": [],
+   "dpsByYear": {},
+   "yieldYearsUsed": [],
+   "dividendsAsOf": null
+  },
+  {
    "symbol": "SIRI",
    "name": "แสนสิริ",
    "pairId": 102714,
@@ -1934,7 +2072,7 @@
    "dividendsAsOf": "2026-11-04T05:58:49.311517+00:00"
   },
   {
-   "symbol": "IMPACTu",
+   "symbol": "IMPACT",
    "name": "อิมแพ็คโกรท",
    "pairId": 986272,
    "path": "/equities/impact-growth-real-estate-invest",
@@ -1948,14 +2086,120 @@
    "currency": "THB",
    "price": 13.0,
    "changePercent": 2.36,
-   "divYield": null,
-   "avgYield5y": null,
-   "dpsLastYear": null,
-   "dpsPrevFY": null,
-   "divPayments": [],
-   "dpsByYear": {},
-   "yieldYearsUsed": [],
-   "dividendsAsOf": null
+   "divYield": 5.46,
+   "avgYield5y": 4.24,
+   "dpsLastYear": 0.71,
+   "dpsPrevFY": 0.69,
+   "divPayments": [
+    {
+     "date": "2020-02-26",
+     "amount": 0.3
+    },
+    {
+     "date": "2020-06-02",
+     "amount": 0.05
+    },
+    {
+     "date": "2020-11-25",
+     "amount": 0.12
+    },
+    {
+     "date": "2021-02-24",
+     "amount": 0.2
+    },
+    {
+     "date": "2022-02-23",
+     "amount": 0.05
+    },
+    {
+     "date": "2022-05-31",
+     "amount": 0.05
+    },
+    {
+     "date": "2022-08-24",
+     "amount": 0.1
+    },
+    {
+     "date": "2022-11-23",
+     "amount": 0.15
+    },
+    {
+     "date": "2023-02-22",
+     "amount": 0.21
+    },
+    {
+     "date": "2023-05-31",
+     "amount": 0.14
+    },
+    {
+     "date": "2023-08-23",
+     "amount": 0.14
+    },
+    {
+     "date": "2023-11-22",
+     "amount": 0.1
+    },
+    {
+     "date": "2024-02-21",
+     "amount": 0.2
+    },
+    {
+     "date": "2024-06-06",
+     "amount": 0.1
+    },
+    {
+     "date": "2024-08-27",
+     "amount": 0.22
+    },
+    {
+     "date": "2024-11-27",
+     "amount": 0.11
+    },
+    {
+     "date": "2025-02-26",
+     "amount": 0.17
+    },
+    {
+     "date": "2025-06-05",
+     "amount": 0.17
+    },
+    {
+     "date": "2025-08-27",
+     "amount": 0.22
+    },
+    {
+     "date": "2025-11-27",
+     "amount": 0.13
+    },
+    {
+     "date": "2026-02-26",
+     "amount": 0.24
+    },
+    {
+     "date": "2026-06-04",
+     "amount": 0.1
+    },
+    {
+     "date": "2026-08-27",
+     "amount": 0.24
+    }
+   ],
+   "dpsByYear": {
+    "2026": 0.58,
+    "2025": 0.69,
+    "2024": 0.63,
+    "2023": 0.59,
+    "2022": 0.35,
+    "2021": 0.2
+   },
+   "yieldYearsUsed": [
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+   ],
+   "dividendsAsOf": "2026-11-05T09:45:25.644903+00:00"
   },
   {
    "symbol": "PRM",
@@ -2372,100 +2616,6 @@
     "2025"
    ],
    "dividendsAsOf": "2026-11-05T07:15:11.238001+00:00"
-  },
-  {
-   "symbol": "QH",
-   "name": "ควอลิตี้เฮ้าส์",
-   "pairId": 102679,
-   "path": "/equities/quality-houses",
-   "sector": "Real Estate",
-   "industry": "Real Estate Operations",
-   "sourcePrice": 1.3600000143051147,
-   "sourceChangePercent": 0.0,
-   "marketCap": 14420000000,
-   "peRatio": 7.61,
-   "pegRatio": 0.96,
-   "currency": "THB",
-   "price": 1.36,
-   "changePercent": -0.0,
-   "divYield": 6.62,
-   "avgYield5y": 6.28,
-   "dpsLastYear": 0.09,
-   "dpsPrevFY": 0.09,
-   "divPayments": [
-    {
-     "date": "2020-04-28",
-     "amount": 0.13
-    },
-    {
-     "date": "2020-08-24",
-     "amount": 0.04
-    },
-    {
-     "date": "2021-04-28",
-     "amount": 0.08
-    },
-    {
-     "date": "2021-08-23",
-     "amount": 0.03
-    },
-    {
-     "date": "2022-04-28",
-     "amount": 0.07
-    },
-    {
-     "date": "2022-08-24",
-     "amount": 0.04
-    },
-    {
-     "date": "2023-04-27",
-     "amount": 0.1
-    },
-    {
-     "date": "2023-08-23",
-     "amount": 0.05
-    },
-    {
-     "date": "2024-04-25",
-     "amount": 0.1
-    },
-    {
-     "date": "2024-08-21",
-     "amount": 0.03
-    },
-    {
-     "date": "2025-04-28",
-     "amount": 0.08
-    },
-    {
-     "date": "2025-08-29",
-     "amount": 0.02
-    },
-    {
-     "date": "2026-04-27",
-     "amount": 0.07
-    },
-    {
-     "date": "2026-08-26",
-     "amount": 0.02
-    }
-   ],
-   "dpsByYear": {
-    "2026": 0.09,
-    "2025": 0.1,
-    "2024": 0.13,
-    "2023": 0.15,
-    "2022": 0.11,
-    "2021": 0.11
-   },
-   "yieldYearsUsed": [
-    "2021",
-    "2022",
-    "2023",
-    "2024",
-    "2025"
-   ],
-   "dividendsAsOf": "2026-11-04T05:58:49.311517+00:00"
   }
  ]
 }
