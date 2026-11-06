@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T17:23:03.285109+07:00"
+    "fetchedAt": "2026-11-06T17:32:24.375427+07:00"
   },
   {
     "id": "261",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T17:23:03.285109+07:00"
+    "fetchedAt": "2026-11-06T17:32:24.375427+07:00"
   },
   {
     "id": "1131557",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T17:23:03.285109+07:00"
+    "fetchedAt": "2026-11-06T17:32:24.375427+07:00"
   },
   {
     "id": "269",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T17:23:03.285109+07:00"
+    "fetchedAt": "2026-11-06T17:32:24.375427+07:00"
   },
   {
     "id": "1169889",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T17:23:03.285109+07:00"
+    "fetchedAt": "2026-11-06T17:32:24.375427+07:00"
   },
   {
     "id": "7997",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T17:23:03.285109+07:00"
+    "fetchedAt": "2026-11-06T17:32:24.375427+07:00"
   },
   {
     "id": "8260",
@@ -207,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T17:23:03.285109+07:00"
+    "fetchedAt": "2026-11-06T17:32:24.375427+07:00"
   },
   {
     "id": "13848",
@@ -237,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T17:23:03.285109+07:00"
+    "fetchedAt": "2026-11-06T17:32:24.375427+07:00"
   },
   {
     "id": "13852",
@@ -267,37 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T17:23:03.285109+07:00"
-  },
-  {
-    "id": "13067",
-    "symbol": "EQIX",
-    "name": "Equinix Inc",
-    "shortName": "Equinix",
-    "link": "https://www.investing.com/equities/equinix,-inc.",
-    "price": 997.35,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 751.14,
-    "fairValueUpside": -24.69,
-    "peRatio": 59.91,
-    "evEbitda": 25.96,
-    "marketCap": 98720000000,
-    "marketCapFormatted": "98.72 พันล้าน",
-    "epsGrowth5y": 0.31,
-    "changeOneDayPercent": -5.38,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T17:23:03.285109+07:00"
+    "fetchedAt": "2026-11-06T17:32:24.375427+07:00"
   },
   {
     "id": "8036",
@@ -327,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T17:23:03.285109+07:00"
+    "fetchedAt": "2026-11-06T17:32:24.375427+07:00"
   },
   {
     "id": "41268",
@@ -357,7 +327,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T17:23:03.285109+07:00"
+    "fetchedAt": "2026-11-06T17:32:24.375427+07:00"
+  },
+  {
+    "id": "20299",
+    "symbol": "MLM",
+    "name": "Martin Marietta Materials Inc",
+    "shortName": "Martin Marietta Materials",
+    "link": "https://www.investing.com/equities/martin-marietta-materials-inc",
+    "price": 527.83,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 414.25,
+    "fairValueUpside": -21.52,
+    "peRatio": 34.08,
+    "evEbitda": 20.99,
+    "marketCap": 37540000000,
+    "marketCapFormatted": "37.54 พันล้าน",
+    "epsGrowth5y": 0.16,
+    "changeOneDayPercent": -5.16,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
+    "fetchedAt": "2026-11-06T17:32:24.375427+07:00"
   },
   {
     "id": "8158",
@@ -387,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T17:23:03.285109+07:00"
+    "fetchedAt": "2026-11-06T17:32:24.375427+07:00"
   },
   {
     "id": "13994",
@@ -417,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T17:23:03.285109+07:00"
+    "fetchedAt": "2026-11-06T17:32:24.375427+07:00"
   },
   {
     "id": "7943",
@@ -447,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T17:23:03.285109+07:00"
+    "fetchedAt": "2026-11-06T17:32:24.375427+07:00"
   },
   {
     "id": "8136",
@@ -477,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T17:23:03.285109+07:00"
+    "fetchedAt": "2026-11-06T17:32:24.375427+07:00"
   },
   {
     "id": "39166",
@@ -507,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T17:23:03.285109+07:00"
+    "fetchedAt": "2026-11-06T17:32:24.375427+07:00"
   },
   {
     "id": "7881",
@@ -537,7 +537,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T17:23:03.285109+07:00"
+    "fetchedAt": "2026-11-06T17:32:24.375427+07:00"
+  },
+  {
+    "id": "6500",
+    "symbol": "SBUX",
+    "name": "Starbucks Corporation",
+    "shortName": "Starbucks",
+    "link": "https://www.investing.com/equities/starbucks-corp",
+    "price": 106.16,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 86.35,
+    "fairValueUpside": -18.66,
+    "peRatio": 48.43,
+    "evEbitda": 23.49,
+    "marketCap": 120990000000,
+    "marketCapFormatted": "120.99 พันล้าน",
+    "epsGrowth5y": 0.36,
+    "changeOneDayPercent": -3.23,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
+    "fetchedAt": "2026-11-06T17:32:24.375427+07:00"
   },
   {
     "id": "29737",
@@ -567,7 +597,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T17:23:03.285109+07:00"
+    "fetchedAt": "2026-11-06T17:32:24.375427+07:00"
   },
   {
     "id": "6365",
@@ -597,7 +627,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T17:23:03.285109+07:00"
+    "fetchedAt": "2026-11-06T17:32:24.375427+07:00"
   },
   {
     "id": "8016",
@@ -627,7 +657,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T17:23:03.285109+07:00"
+    "fetchedAt": "2026-11-06T17:32:24.375427+07:00"
+  },
+  {
+    "id": "8193",
+    "symbol": "GE",
+    "name": "GE Aerospace",
+    "shortName": "GE Aerospace",
+    "link": "https://www.investing.com/equities/general-electric",
+    "price": 314.73,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 259.84,
+    "fairValueUpside": -17.44,
+    "peRatio": 36.06,
+    "evEbitda": 24.52,
+    "marketCap": 325230000000,
+    "marketCapFormatted": "325.23 พันล้าน",
+    "epsGrowth5y": -1.27,
+    "changeOneDayPercent": -4.47,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
+    "fetchedAt": "2026-11-06T17:32:24.375427+07:00"
   },
   {
     "id": "8263",
@@ -657,67 +717,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T17:23:03.285109+07:00"
-  },
-  {
-    "id": "13061",
-    "symbol": "UAL",
-    "name": "United Airlines Holdings Inc",
-    "shortName": "United Airlines Holdings",
-    "link": "https://www.investing.com/equities/united-continenta",
-    "price": 110.49,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 91.5,
-    "fairValueUpside": -17.18,
-    "peRatio": 10.09,
-    "evEbitda": 7.39,
-    "marketCap": 35900000000,
-    "marketCapFormatted": "35.9 พันล้าน",
-    "epsGrowth5y": 0.92,
-    "changeOneDayPercent": -4.55,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "มูลค่าตามจริง",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T17:23:03.285109+07:00"
-  },
-  {
-    "id": "255",
-    "symbol": "F",
-    "name": "Ford Motor Company",
-    "shortName": "Ford Motor",
-    "link": "https://www.investing.com/equities/ford-motor-co",
-    "price": 12.53,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 10.41,
-    "fairValueUpside": -16.91,
-    "peRatio": -6.32,
-    "evEbitda": 23.81,
-    "marketCap": 50040000000,
-    "marketCapFormatted": "50.04 พันล้าน",
-    "epsGrowth5y": 0.58,
-    "changeOneDayPercent": -1.1,
-    "financialHealth": "มูลค่าตามจริง",
-    "financialCashFlowHealth": "แย่",
-    "financialGrowthHealth": "แย่",
-    "financialProfitabilityHealth": "แย่",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T17:23:03.285109+07:00"
+    "fetchedAt": "2026-11-06T17:32:24.375427+07:00"
   },
   {
     "id": "7976",
@@ -747,7 +747,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T17:23:03.285109+07:00"
+    "fetchedAt": "2026-11-06T17:32:24.375427+07:00"
   },
   {
     "id": "13867",
@@ -777,7 +777,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T17:23:03.285109+07:00"
+    "fetchedAt": "2026-11-06T17:32:24.375427+07:00"
+  },
+  {
+    "id": "29723",
+    "symbol": "WAB",
+    "name": "Westinghouse Air Brake Technologies Corp",
+    "shortName": "Westinghouse Air Brake",
+    "link": "https://www.investing.com/equities/westinghouse-air-brake-tech",
+    "price": 278.48,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 233.78,
+    "fairValueUpside": -16.05,
+    "peRatio": 34.71,
+    "evEbitda": 19.25,
+    "marketCap": 46730000000,
+    "marketCapFormatted": "46.73 พันล้าน",
+    "epsGrowth5y": 0.27,
+    "changeOneDayPercent": -5.59,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
+    "fetchedAt": "2026-11-06T17:32:24.375427+07:00"
   },
   {
     "id": "239",
@@ -807,7 +837,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T17:23:03.285109+07:00"
+    "fetchedAt": "2026-11-06T17:32:24.375427+07:00"
+  },
+  {
+    "id": "8288",
+    "symbol": "AEE",
+    "name": "Ameren Corp",
+    "shortName": "Ameren",
+    "link": "https://www.investing.com/equities/ameren-corp",
+    "price": 112.81,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 95.16,
+    "fairValueUpside": -15.64,
+    "peRatio": 19.85,
+    "evEbitda": 13.43,
+    "marketCap": 31230000000,
+    "marketCapFormatted": "31.23 พันล้าน",
+    "epsGrowth5y": 0.09,
+    "changeOneDayPercent": -0.24,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
+    "fetchedAt": "2026-11-06T17:32:24.375427+07:00"
   },
   {
     "id": "7923",
@@ -837,66 +897,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T17:23:03.285109+07:00"
-  },
-  {
-    "id": "238",
-    "symbol": "BA",
-    "name": "Boeing Co",
-    "shortName": "Boeing",
-    "link": "https://www.investing.com/equities/boeing-co",
-    "price": 172.5,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 146.1,
-    "fairValueUpside": -15.3,
-    "peRatio": 18.47,
-    "evEbitda": 81.39,
-    "marketCap": 136700000000,
-    "marketCapFormatted": "136.7 พันล้าน",
-    "epsGrowth5y": -0.12,
-    "changeOneDayPercent": -2.54,
-    "financialHealth": "มูลค่าตามจริง",
-    "financialCashFlowHealth": "แย่",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "มูลค่าตามจริง",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T17:23:03.285109+07:00"
-  },
-  {
-    "id": "8104",
-    "symbol": "DUK",
-    "name": "Duke Energy Corporation",
-    "shortName": "Duke Energy",
-    "link": "https://www.investing.com/equities/duke-energy",
-    "price": 130.08,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 110.22,
-    "fairValueUpside": -15.26,
-    "peRatio": 19.59,
-    "evEbitda": 11.67,
-    "marketCap": 101420000000,
-    "marketCapFormatted": "101.42 พันล้าน",
-    "epsGrowth5y": 0.28,
-    "changeOneDayPercent": 0.38,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "ดี",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T17:23:03.285109+07:00"
+    "fetchedAt": "2026-11-06T17:32:24.375427+07:00"
   }
 ]
