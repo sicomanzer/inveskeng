@@ -27,7 +27,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T09:20:35.468893+07:00"
+    "fetchedAt": "2026-11-06T09:40:36.308305+07:00"
   },
   {
     "id": "32383",
@@ -57,7 +57,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T09:20:35.468893+07:00"
+    "fetchedAt": "2026-11-06T09:40:36.308305+07:00"
   },
   {
     "id": "8042",
@@ -87,7 +87,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T09:20:35.468893+07:00"
+    "fetchedAt": "2026-11-06T09:40:36.308305+07:00"
   },
   {
     "id": "1220843",
@@ -117,7 +117,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T09:20:35.468893+07:00"
+    "fetchedAt": "2026-11-06T09:40:36.308305+07:00"
   },
   {
     "id": "6497",
@@ -147,7 +147,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T09:20:35.468893+07:00"
+    "fetchedAt": "2026-11-06T09:40:36.308305+07:00"
   },
   {
     "id": "6373",
@@ -177,7 +177,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T09:20:35.468893+07:00"
+    "fetchedAt": "2026-11-06T09:40:36.308305+07:00"
   },
   {
     "id": "8201",
@@ -207,7 +207,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T09:20:35.468893+07:00"
+    "fetchedAt": "2026-11-06T09:40:36.308305+07:00"
   },
   {
     "id": "39135",
@@ -237,7 +237,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T09:20:35.468893+07:00"
+    "fetchedAt": "2026-11-06T09:40:36.308305+07:00"
+  },
+  {
+    "id": "6448",
+    "symbol": "INTU",
+    "name": "Intuit Inc",
+    "shortName": "Intuit",
+    "link": "https://www.investing.com/equities/intuit",
+    "price": 354.84,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 556.21,
+    "fairValueUpside": 56.75,
+    "peRatio": 21.31,
+    "evEbitda": 13.49,
+    "marketCap": 94810000000,
+    "marketCapFormatted": "94.81 พันล้าน",
+    "epsGrowth5y": 0.18,
+    "changeOneDayPercent": -0.5,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
+    "fetchedAt": "2026-11-06T09:40:36.308305+07:00"
   },
   {
     "id": "956170",
@@ -267,7 +297,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T09:20:35.468893+07:00"
+    "fetchedAt": "2026-11-06T09:40:36.308305+07:00"
   },
   {
     "id": "13969",
@@ -297,7 +327,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T09:20:35.468893+07:00"
+    "fetchedAt": "2026-11-06T09:40:36.308305+07:00"
   },
   {
     "id": "32331",
@@ -327,7 +357,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T09:20:35.468893+07:00"
+    "fetchedAt": "2026-11-06T09:40:36.308305+07:00"
   },
   {
     "id": "15722",
@@ -357,7 +387,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T09:20:35.468893+07:00"
+    "fetchedAt": "2026-11-06T09:40:36.308305+07:00"
   },
   {
     "id": "7889",
@@ -387,7 +417,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T09:20:35.468893+07:00"
+    "fetchedAt": "2026-11-06T09:40:36.308305+07:00"
   },
   {
     "id": "959998",
@@ -405,7 +435,7 @@
     "marketCap": 58620000000,
     "marketCapFormatted": "58.62 พันล้าน",
     "epsGrowth5y": 1.41,
-    "changeOneDayPercent": -11.88,
+    "changeOneDayPercent": -11.84,
     "financialHealth": "ดี",
     "financialCashFlowHealth": "แย่",
     "financialGrowthHealth": "ดีมาก",
@@ -417,7 +447,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T09:20:35.468893+07:00"
+    "fetchedAt": "2026-11-06T09:40:36.308305+07:00"
   },
   {
     "id": "8294",
@@ -447,7 +477,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T09:20:35.468893+07:00"
+    "fetchedAt": "2026-11-06T09:40:36.308305+07:00"
   },
   {
     "id": "41239",
@@ -477,7 +507,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T09:20:35.468893+07:00"
+    "fetchedAt": "2026-11-06T09:40:36.308305+07:00"
   },
   {
     "id": "41176",
@@ -507,7 +537,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T09:20:35.468893+07:00"
+    "fetchedAt": "2026-11-06T09:40:36.308305+07:00"
   },
   {
     "id": "6520",
@@ -537,7 +567,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T09:20:35.468893+07:00"
+    "fetchedAt": "2026-11-06T09:40:36.308305+07:00"
   },
   {
     "id": "15828",
@@ -555,7 +585,7 @@
     "marketCap": 12890000000,
     "marketCapFormatted": "12.89 พันล้าน",
     "epsGrowth5y": 0.2,
-    "changeOneDayPercent": -1.64,
+    "changeOneDayPercent": -1.63,
     "financialHealth": "มูลค่าตามจริง",
     "financialCashFlowHealth": "ดีมาก",
     "financialGrowthHealth": "ดี",
@@ -567,7 +597,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T09:20:35.468893+07:00"
+    "fetchedAt": "2026-11-06T09:40:36.308305+07:00"
+  },
+  {
+    "id": "8940",
+    "symbol": "STX",
+    "name": "Seagate Technology PLC",
+    "shortName": "Seagate",
+    "link": "https://www.investing.com/equities/seagate-technology",
+    "price": 466.53,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 668.71,
+    "fairValueUpside": 43.34,
+    "peRatio": 24.81,
+    "evEbitda": 25.46,
+    "marketCap": 107100000000,
+    "marketCapFormatted": "107.1 พันล้าน",
+    "epsGrowth5y": 0.76,
+    "changeOneDayPercent": -16.25,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "ดีเยี่ยม",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
+    "fetchedAt": "2026-11-06T09:40:36.308305+07:00"
   },
   {
     "id": "39277",
@@ -597,7 +657,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T09:20:35.468893+07:00"
+    "fetchedAt": "2026-11-06T09:40:36.308305+07:00"
   },
   {
     "id": "6370",
@@ -627,7 +687,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T09:20:35.468893+07:00"
+    "fetchedAt": "2026-11-06T09:40:36.308305+07:00"
+  },
+  {
+    "id": "8105",
+    "symbol": "KEY",
+    "name": "KeyCorp",
+    "shortName": "KeyCorp",
+    "link": "https://www.investing.com/equities/keycorp-new",
+    "price": 20.96,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 29.72,
+    "fairValueUpside": 41.79,
+    "peRatio": 11.52,
+    "evEbitda": 0.0,
+    "marketCap": 22130000000,
+    "marketCapFormatted": "22.13 พันล้าน",
+    "epsGrowth5y": 129.54,
+    "changeOneDayPercent": -2.74,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "แย่",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "มูลค่าตามจริง",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
+    "fetchedAt": "2026-11-06T09:40:36.308305+07:00"
   },
   {
     "id": "6516",
@@ -657,7 +747,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T09:20:35.468893+07:00"
+    "fetchedAt": "2026-11-06T09:40:36.308305+07:00"
+  },
+  {
+    "id": "39184",
+    "symbol": "CE",
+    "name": "Celanese Corporation",
+    "shortName": "Celanese",
+    "link": "https://www.investing.com/equities/celanese",
+    "price": 47.84,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 66.7,
+    "fairValueUpside": 39.43,
+    "peRatio": 19.24,
+    "evEbitda": 9.32,
+    "marketCap": 5250000000,
+    "marketCapFormatted": "5.25 พันล้าน",
+    "epsGrowth5y": -0.39,
+    "changeOneDayPercent": -3.84,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดี",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
+    "fetchedAt": "2026-11-06T09:40:36.308305+07:00"
   },
   {
     "id": "101887",
@@ -687,7 +807,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T09:20:35.468893+07:00"
+    "fetchedAt": "2026-11-06T09:40:36.308305+07:00"
+  },
+  {
+    "id": "19694",
+    "symbol": "TMUS",
+    "name": "T-Mobile US Inc",
+    "shortName": "T-Mobile US",
+    "link": "https://www.investing.com/equities/metropcs-communications",
+    "price": 160.59,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 221.64,
+    "fairValueUpside": 38.02,
+    "peRatio": 15.42,
+    "evEbitda": 7.89,
+    "marketCap": 170110000000,
+    "marketCapFormatted": "170.11 พันล้าน",
+    "epsGrowth5y": 0.6,
+    "changeOneDayPercent": 0.89,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
+    "fetchedAt": "2026-11-06T09:40:36.308305+07:00"
   },
   {
     "id": "8310",
@@ -717,7 +867,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T09:20:35.468893+07:00"
+    "fetchedAt": "2026-11-06T09:40:36.308305+07:00"
   },
   {
     "id": "20529",
@@ -747,156 +897,6 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T09:20:35.468893+07:00"
-  },
-  {
-    "id": "8359",
-    "symbol": "UNH",
-    "name": "Unitedhealth Group",
-    "shortName": "UnitedHealth",
-    "link": "https://www.investing.com/equities/united-health-group",
-    "price": 395.72,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 541.02,
-    "fairValueUpside": 36.72,
-    "peRatio": 22.6,
-    "evEbitda": 12.36,
-    "marketCap": 354570000000,
-    "marketCapFormatted": "354.57 พันล้าน",
-    "epsGrowth5y": 0.02,
-    "changeOneDayPercent": -3.34,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T09:20:35.468893+07:00"
-  },
-  {
-    "id": "32524",
-    "symbol": "ALB",
-    "name": "Albemarle Corp",
-    "shortName": "Albemarle",
-    "link": "https://www.investing.com/equities/albemarle",
-    "price": 98.37,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 133.65,
-    "fairValueUpside": 35.86,
-    "peRatio": 199.24,
-    "evEbitda": 8.43,
-    "marketCap": 11610000000,
-    "marketCapFormatted": "11.61 พันล้าน",
-    "epsGrowth5y": 2.35,
-    "changeOneDayPercent": 3.58,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T09:20:35.468893+07:00"
-  },
-  {
-    "id": "16942",
-    "symbol": "PODD",
-    "name": "Insulet Corporation",
-    "shortName": "Insulet",
-    "link": "https://www.investing.com/equities/insulet-corp",
-    "price": 156.12,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 211.72,
-    "fairValueUpside": 35.61,
-    "peRatio": 29.16,
-    "evEbitda": 17.66,
-    "marketCap": 10830000000,
-    "marketCapFormatted": "10.83 พันล้าน",
-    "epsGrowth5y": 22.48,
-    "changeOneDayPercent": -5.39,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "ดีเยี่ยม",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T09:20:35.468893+07:00"
-  },
-  {
-    "id": "32341",
-    "symbol": "EPAM",
-    "name": "EPAM Systems Inc",
-    "shortName": "EPAM Systems",
-    "link": "https://www.investing.com/equities/epam-systems-inc",
-    "price": 165.7,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 223.75,
-    "fairValueUpside": 35.03,
-    "peRatio": 22.13,
-    "evEbitda": 8.78,
-    "marketCap": 8550000000,
-    "marketCapFormatted": "8.55 พันล้าน",
-    "epsGrowth5y": 0.05,
-    "changeOneDayPercent": 20.63,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T09:20:35.468893+07:00"
-  },
-  {
-    "id": "32381",
-    "symbol": "DECK",
-    "name": "Deckers Outdoor Corporation",
-    "shortName": "Deckers Outdoor",
-    "link": "https://www.investing.com/equities/deckers-outdoor-corp",
-    "price": 87.74,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 118.4,
-    "fairValueUpside": 34.95,
-    "peRatio": 11.5,
-    "evEbitda": 7.4,
-    "marketCap": 11710000000,
-    "marketCapFormatted": "11.71 พันล้าน",
-    "epsGrowth5y": 0.26,
-    "changeOneDayPercent": -1.54,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "ดีเยี่ยม",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ถือหุ้นไว้",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T09:20:35.468893+07:00"
+    "fetchedAt": "2026-11-06T09:40:36.308305+07:00"
   }
 ]
