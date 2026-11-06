@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T07:57:37.757747+07:00"
+    "fetchedAt": "2026-11-06T08:07:37.417791+07:00"
   },
   {
     "id": "102451",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T07:57:37.757747+07:00"
+    "fetchedAt": "2026-11-06T08:07:37.417791+07:00"
   },
   {
     "id": "102567",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T07:57:37.757747+07:00"
+    "fetchedAt": "2026-11-06T08:07:37.417791+07:00"
   },
   {
     "id": "1199621",
@@ -117,37 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T07:57:37.757747+07:00"
-  },
-  {
-    "id": "1242508",
-    "symbol": "UNIX",
-    "name": "Unique Plastic Industry PCL",
-    "shortName": "Unique Plastic Industry PCL",
-    "link": "https://www.investing.com/equities/unique-plastic-industry-pcl",
-    "price": 2.08,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 1.6441999673843384,
-    "fairValueUpside": -20.94999998807907,
-    "peRatio": 0.0,
-    "evEbitda": 5.96942138671875,
-    "marketCap": 1370000000,
-    "marketCapFormatted": "1.37B",
-    "epsGrowth5y": -0.058489151298999786,
-    "changeOneDayPercent": -0.95,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "FAIR",
-    "financialGrowthHealth": "-",
-    "financialProfitabilityHealth": "GREAT",
-    "analystRatings": "-",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-05T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T07:57:37.757747+07:00"
+    "fetchedAt": "2026-11-06T08:07:37.417791+07:00"
   },
   {
     "id": "989494",
@@ -177,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T07:57:37.757747+07:00"
+    "fetchedAt": "2026-11-06T08:07:37.417791+07:00"
   },
   {
     "id": "102497",
@@ -207,7 +177,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T07:57:37.757747+07:00"
+    "fetchedAt": "2026-11-06T08:07:37.417791+07:00"
+  },
+  {
+    "id": "102869",
+    "symbol": "WHA",
+    "name": "WHA Corporation PCL",
+    "shortName": "WHA Corp",
+    "link": "https://www.investing.com/equities/wha-corporatio",
+    "price": 4.98,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 3.9691998958587646,
+    "fairValueUpside": -20.29999941587448,
+    "peRatio": 17.530000686645508,
+    "evEbitda": 17.562198638916016,
+    "marketCap": 74440000000,
+    "marketCapFormatted": "74.44B",
+    "epsGrowth5y": 0.1681673377752304,
+    "changeOneDayPercent": 1.63,
+    "financialHealth": "FAIR",
+    "financialCashFlowHealth": "FAIR",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "GREAT",
+    "analystRatings": "BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-05T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
+    "fetchedAt": "2026-11-06T08:07:37.417791+07:00"
   },
   {
     "id": "102569",
@@ -237,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T07:57:37.757747+07:00"
+    "fetchedAt": "2026-11-06T08:07:37.417791+07:00"
   },
   {
     "id": "1008691",
@@ -267,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T07:57:37.757747+07:00"
+    "fetchedAt": "2026-11-06T08:07:37.417791+07:00"
   },
   {
     "id": "1130942",
@@ -297,7 +297,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T07:57:37.757747+07:00"
+    "fetchedAt": "2026-11-06T08:07:37.417791+07:00"
+  },
+  {
+    "id": "102757",
+    "symbol": "STPI",
+    "name": "STP&I PCL",
+    "shortName": "STP&I",
+    "link": "https://www.investing.com/equities/stp---i",
+    "price": 5.7,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 4.6774001121521,
+    "fairValueUpside": -17.93999969959259,
+    "peRatio": -982.760009765625,
+    "evEbitda": 31.411836624145508,
+    "marketCap": 10330000000,
+    "marketCapFormatted": "10.33B",
+    "epsGrowth5y": 2.9889392852783203,
+    "changeOneDayPercent": 5.56,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "GOOD",
+    "financialGrowthHealth": "GOOD",
+    "financialProfitabilityHealth": "WEAK",
+    "analystRatings": "-",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-05T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
+    "fetchedAt": "2026-11-06T08:07:37.417791+07:00"
   },
   {
     "id": "102714",
@@ -327,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T07:57:37.757747+07:00"
+    "fetchedAt": "2026-11-06T08:07:37.417791+07:00"
   },
   {
     "id": "986147",
@@ -357,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T07:57:37.757747+07:00"
+    "fetchedAt": "2026-11-06T08:07:37.417791+07:00"
   },
   {
     "id": "986137",
@@ -387,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T07:57:37.757747+07:00"
+    "fetchedAt": "2026-11-06T08:07:37.417791+07:00"
   },
   {
     "id": "1025098",
@@ -417,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T07:57:37.757747+07:00"
+    "fetchedAt": "2026-11-06T08:07:37.417791+07:00"
   },
   {
     "id": "102683",
@@ -447,37 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T07:57:37.757747+07:00"
-  },
-  {
-    "id": "102442",
-    "symbol": "BJC",
-    "name": "Berli Jucker PCL",
-    "shortName": "Berli Jucker",
-    "link": "https://www.investing.com/equities/berli-jucker",
-    "price": 20.2,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 17.606300354003906,
-    "fairValueUpside": -12.839999794960022,
-    "peRatio": 13.819999694824219,
-    "evEbitda": 12.679821968078613,
-    "marketCap": 80960000000,
-    "marketCapFormatted": "80.96B",
-    "epsGrowth5y": 0.030917756259441376,
-    "changeOneDayPercent": 0.5,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "FAIR",
-    "financialGrowthHealth": "FAIR",
-    "financialProfitabilityHealth": "FAIR",
-    "analystRatings": "BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-05T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T07:57:37.757747+07:00"
+    "fetchedAt": "2026-11-06T08:07:37.417791+07:00"
   },
   {
     "id": "102561",
@@ -507,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T07:57:37.757747+07:00"
+    "fetchedAt": "2026-11-06T08:07:37.417791+07:00"
   },
   {
     "id": "1162301",
@@ -537,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T07:57:37.757747+07:00"
+    "fetchedAt": "2026-11-06T08:07:37.417791+07:00"
   },
   {
     "id": "102560",
@@ -567,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T07:57:37.757747+07:00"
+    "fetchedAt": "2026-11-06T08:07:37.417791+07:00"
   },
   {
     "id": "102751",
@@ -597,6 +597,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-05T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T07:57:37.757747+07:00"
+    "fetchedAt": "2026-11-06T08:07:37.417791+07:00"
   }
 ]
