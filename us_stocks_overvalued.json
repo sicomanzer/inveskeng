@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T15:52:32.572418+07:00"
+    "fetchedAt": "2026-11-06T16:02:19.904409+07:00"
   },
   {
     "id": "261",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T15:52:32.572418+07:00"
+    "fetchedAt": "2026-11-06T16:02:19.904409+07:00"
   },
   {
     "id": "1131557",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T15:52:32.572418+07:00"
+    "fetchedAt": "2026-11-06T16:02:19.904409+07:00"
   },
   {
     "id": "269",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T15:52:32.572418+07:00"
+    "fetchedAt": "2026-11-06T16:02:19.904409+07:00"
   },
   {
     "id": "1169889",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T15:52:32.572418+07:00"
+    "fetchedAt": "2026-11-06T16:02:19.904409+07:00"
   },
   {
     "id": "7997",
@@ -158,8 +158,8 @@
     "price": 127.72,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 92.79,
-    "fairValueUpside": -27.35,
+    "fairValue": 92.8,
+    "fairValueUpside": -27.34,
     "peRatio": 46.52,
     "evEbitda": 23.82,
     "marketCap": 1010000000000,
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T15:52:32.572418+07:00"
+    "fetchedAt": "2026-11-06T16:02:19.904409+07:00"
   },
   {
     "id": "8260",
@@ -207,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T15:52:32.572418+07:00"
+    "fetchedAt": "2026-11-06T16:02:19.904409+07:00"
   },
   {
     "id": "13848",
@@ -237,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T15:52:32.572418+07:00"
+    "fetchedAt": "2026-11-06T16:02:19.904409+07:00"
   },
   {
     "id": "13852",
@@ -267,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T15:52:32.572418+07:00"
+    "fetchedAt": "2026-11-06T16:02:19.904409+07:00"
   },
   {
     "id": "13067",
@@ -297,7 +297,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T15:52:32.572418+07:00"
+    "fetchedAt": "2026-11-06T16:02:19.904409+07:00"
+  },
+  {
+    "id": "8036",
+    "symbol": "AMT",
+    "name": "American Tower Corp",
+    "shortName": "American Tower",
+    "link": "https://www.investing.com/equities/amer-tower-corp",
+    "price": 193.99,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 150.38,
+    "fairValueUpside": -22.48,
+    "peRatio": 27.22,
+    "evEbitda": 19.33,
+    "marketCap": 89970000000,
+    "marketCapFormatted": "89.97 พันล้าน",
+    "epsGrowth5y": 0.23,
+    "changeOneDayPercent": -0.45,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
+    "fetchedAt": "2026-11-06T16:02:19.904409+07:00"
   },
   {
     "id": "41268",
@@ -327,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T15:52:32.572418+07:00"
+    "fetchedAt": "2026-11-06T16:02:19.904409+07:00"
   },
   {
     "id": "20299",
@@ -357,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T15:52:32.572418+07:00"
+    "fetchedAt": "2026-11-06T16:02:19.904409+07:00"
   },
   {
     "id": "8158",
@@ -387,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T15:52:32.572418+07:00"
+    "fetchedAt": "2026-11-06T16:02:19.904409+07:00"
   },
   {
     "id": "13994",
@@ -417,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T15:52:32.572418+07:00"
+    "fetchedAt": "2026-11-06T16:02:19.904409+07:00"
   },
   {
     "id": "7943",
@@ -447,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T15:52:32.572418+07:00"
+    "fetchedAt": "2026-11-06T16:02:19.904409+07:00"
   },
   {
     "id": "8136",
@@ -477,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T15:52:32.572418+07:00"
+    "fetchedAt": "2026-11-06T16:02:19.904409+07:00"
   },
   {
     "id": "39166",
@@ -507,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T15:52:32.572418+07:00"
+    "fetchedAt": "2026-11-06T16:02:19.904409+07:00"
   },
   {
     "id": "7881",
@@ -537,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T15:52:32.572418+07:00"
+    "fetchedAt": "2026-11-06T16:02:19.904409+07:00"
   },
   {
     "id": "6500",
@@ -567,7 +597,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T15:52:32.572418+07:00"
+    "fetchedAt": "2026-11-06T16:02:19.904409+07:00"
   },
   {
     "id": "29737",
@@ -597,7 +627,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T15:52:32.572418+07:00"
+    "fetchedAt": "2026-11-06T16:02:19.904409+07:00"
   },
   {
     "id": "6365",
@@ -627,7 +657,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T15:52:32.572418+07:00"
+    "fetchedAt": "2026-11-06T16:02:19.904409+07:00"
   },
   {
     "id": "8016",
@@ -657,7 +687,67 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T15:52:32.572418+07:00"
+    "fetchedAt": "2026-11-06T16:02:19.904409+07:00"
+  },
+  {
+    "id": "8193",
+    "symbol": "GE",
+    "name": "GE Aerospace",
+    "shortName": "GE Aerospace",
+    "link": "https://www.investing.com/equities/general-electric",
+    "price": 314.73,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 259.84,
+    "fairValueUpside": -17.44,
+    "peRatio": 36.06,
+    "evEbitda": 24.52,
+    "marketCap": 325230000000,
+    "marketCapFormatted": "325.23 พันล้าน",
+    "epsGrowth5y": -1.27,
+    "changeOneDayPercent": -4.47,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
+    "fetchedAt": "2026-11-06T16:02:19.904409+07:00"
+  },
+  {
+    "id": "13061",
+    "symbol": "UAL",
+    "name": "United Airlines Holdings Inc",
+    "shortName": "United Airlines Holdings",
+    "link": "https://www.investing.com/equities/united-continenta",
+    "price": 110.49,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 91.5,
+    "fairValueUpside": -17.18,
+    "peRatio": 10.09,
+    "evEbitda": 7.39,
+    "marketCap": 35900000000,
+    "marketCapFormatted": "35.9 พันล้าน",
+    "epsGrowth5y": 0.92,
+    "changeOneDayPercent": -4.55,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "มูลค่าตามจริง",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
+    "fetchedAt": "2026-11-06T16:02:19.904409+07:00"
   },
   {
     "id": "255",
@@ -687,7 +777,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T15:52:32.572418+07:00"
+    "fetchedAt": "2026-11-06T16:02:19.904409+07:00"
   },
   {
     "id": "8104",
@@ -717,7 +807,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T15:52:32.572418+07:00"
+    "fetchedAt": "2026-11-06T16:02:19.904409+07:00"
   },
   {
     "id": "13867",
@@ -747,7 +837,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T15:52:32.572418+07:00"
+    "fetchedAt": "2026-11-06T16:02:19.904409+07:00"
   },
   {
     "id": "29723",
@@ -777,7 +867,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T15:52:32.572418+07:00"
+    "fetchedAt": "2026-11-06T16:02:19.904409+07:00"
   },
   {
     "id": "239",
@@ -807,96 +897,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-05T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T15:52:32.572418+07:00"
-  },
-  {
-    "id": "20210",
-    "symbol": "MTD",
-    "name": "Mettler-Toledo International Inc",
-    "shortName": "Mettler-Toledo",
-    "link": "https://www.investing.com/equities/mettler-toledo-international-inc",
-    "price": 1679.08,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 1418.02,
-    "fairValueUpside": -15.55,
-    "peRatio": 37.75,
-    "evEbitda": 27.94,
-    "marketCap": 33640000000,
-    "marketCapFormatted": "33.64 พันล้าน",
-    "epsGrowth5y": 0.11,
-    "changeOneDayPercent": -2.56,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ถือหุ้นไว้",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T15:52:32.572418+07:00"
-  },
-  {
-    "id": "39173",
-    "symbol": "AWK",
-    "name": "American Water Works",
-    "shortName": "American Water Works",
-    "link": "https://www.investing.com/equities/american-water-works-inc",
-    "price": 152.42,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 128.82,
-    "fairValueUpside": -15.48,
-    "peRatio": 26.15,
-    "evEbitda": 15.18,
-    "marketCap": 30350000000,
-    "marketCapFormatted": "30.35 พันล้าน",
-    "epsGrowth5y": 0.12,
-    "changeOneDayPercent": 1.86,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "ดี",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ถือหุ้นไว้",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T15:52:32.572418+07:00"
-  },
-  {
-    "id": "238",
-    "symbol": "BA",
-    "name": "Boeing Co",
-    "shortName": "Boeing",
-    "link": "https://www.investing.com/equities/boeing-co",
-    "price": 172.5,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 146.1,
-    "fairValueUpside": -15.3,
-    "peRatio": 18.47,
-    "evEbitda": 81.39,
-    "marketCap": 136700000000,
-    "marketCapFormatted": "136.7 พันล้าน",
-    "epsGrowth5y": -0.12,
-    "changeOneDayPercent": -2.54,
-    "financialHealth": "มูลค่าตามจริง",
-    "financialCashFlowHealth": "แย่",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "มูลค่าตามจริง",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-05T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-05T20:59:59.000Z",
-    "fetchedAt": "2026-11-06T15:52:32.572418+07:00"
+    "fetchedAt": "2026-11-06T16:02:19.904409+07:00"
   }
 ]
