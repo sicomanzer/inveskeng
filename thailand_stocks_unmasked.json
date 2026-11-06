@@ -27,7 +27,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T03:44:35.185201+07:00"
+    "fetchedAt": "2026-11-07T03:54:30.479380+07:00"
   },
   {
     "id": "102443",
@@ -57,7 +57,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T03:44:35.185201+07:00"
+    "fetchedAt": "2026-11-07T03:54:30.479380+07:00"
   },
   {
     "id": "1177382",
@@ -87,7 +87,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T03:44:35.185201+07:00"
+    "fetchedAt": "2026-11-07T03:54:30.479380+07:00"
   },
   {
     "id": "1056157",
@@ -117,7 +117,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T03:44:35.185201+07:00"
+    "fetchedAt": "2026-11-07T03:54:30.479380+07:00"
   },
   {
     "id": "102547",
@@ -147,7 +147,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T03:44:35.185201+07:00"
+    "fetchedAt": "2026-11-07T03:54:30.479380+07:00"
   },
   {
     "id": "102518",
@@ -177,7 +177,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T03:44:35.185201+07:00"
+    "fetchedAt": "2026-11-07T03:54:30.479380+07:00"
+  },
+  {
+    "id": "102554",
+    "symbol": "JMT",
+    "name": "JMT Network Services PCL",
+    "shortName": "JMT Network Services",
+    "link": "https://www.investing.com/equities/jmt-network",
+    "price": 10.5,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 16.02,
+    "fairValueUpside": 52.57,
+    "peRatio": 16.32,
+    "evEbitda": 11.25,
+    "marketCap": 15330000000,
+    "marketCapFormatted": "15.33 พันล้าน",
+    "epsGrowth5y": -0.06,
+    "changeOneDayPercent": -3.67,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "มูลค่าตามจริง",
+    "analystRatings": "ซื้อ",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-11-06T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
+    "fetchedAt": "2026-11-07T03:54:30.479380+07:00"
   },
   {
     "id": "102551",
@@ -207,7 +237,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T03:44:35.185201+07:00"
+    "fetchedAt": "2026-11-07T03:54:30.479380+07:00"
   },
   {
     "id": "102393",
@@ -237,7 +267,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T03:44:35.185201+07:00"
+    "fetchedAt": "2026-11-07T03:54:30.479380+07:00"
   },
   {
     "id": "1115209",
@@ -267,7 +297,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T03:44:35.185201+07:00"
+    "fetchedAt": "2026-11-07T03:54:30.479380+07:00"
   },
   {
     "id": "102513",
@@ -297,7 +327,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T03:44:35.185201+07:00"
+    "fetchedAt": "2026-11-07T03:54:30.479380+07:00"
   },
   {
     "id": "1173246",
@@ -327,7 +357,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T03:44:35.185201+07:00"
+    "fetchedAt": "2026-11-07T03:54:30.479380+07:00"
   },
   {
     "id": "102829",
@@ -357,7 +387,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T03:44:35.185201+07:00"
+    "fetchedAt": "2026-11-07T03:54:30.479380+07:00"
   },
   {
     "id": "102799",
@@ -387,7 +417,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T03:44:35.185201+07:00"
+    "fetchedAt": "2026-11-07T03:54:30.479380+07:00"
   },
   {
     "id": "943699",
@@ -417,7 +447,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T03:44:35.185201+07:00"
+    "fetchedAt": "2026-11-07T03:54:30.479380+07:00"
   },
   {
     "id": "1052357",
@@ -447,7 +477,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T03:44:35.185201+07:00"
+    "fetchedAt": "2026-11-07T03:54:30.479380+07:00"
   },
   {
     "id": "102743",
@@ -477,7 +507,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T03:44:35.185201+07:00"
+    "fetchedAt": "2026-11-07T03:54:30.479380+07:00"
   },
   {
     "id": "102584",
@@ -507,7 +537,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T03:44:35.185201+07:00"
+    "fetchedAt": "2026-11-07T03:54:30.479380+07:00"
   },
   {
     "id": "102617",
@@ -537,7 +567,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T03:44:35.185201+07:00"
+    "fetchedAt": "2026-11-07T03:54:30.479380+07:00"
   },
   {
     "id": "102472",
@@ -567,7 +597,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T03:44:35.185201+07:00"
+    "fetchedAt": "2026-11-07T03:54:30.479380+07:00"
   },
   {
     "id": "1153457",
@@ -597,7 +627,37 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T03:44:35.185201+07:00"
+    "fetchedAt": "2026-11-07T03:54:30.479380+07:00"
+  },
+  {
+    "id": "1196441",
+    "symbol": "KLINIQ",
+    "name": "Klinique Medical Clinic PCL",
+    "shortName": "Klinique Medical Clinic PCL",
+    "link": "https://www.investing.com/equities/klinique-medical-clinic-pcl",
+    "price": 32.0,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 45.79,
+    "fairValueUpside": 43.09,
+    "peRatio": null,
+    "evEbitda": 10.06,
+    "marketCap": 7040000000,
+    "marketCapFormatted": "7.04 พันล้าน",
+    "epsGrowth5y": 0.15,
+    "changeOneDayPercent": -0.78,
+    "financialHealth": "ดีมาก",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "undervalued",
+    "lastUpdateTime": "2026-11-06T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
+    "fetchedAt": "2026-11-07T03:54:30.479380+07:00"
   },
   {
     "id": "1198524",
@@ -627,7 +687,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T03:44:35.185201+07:00"
+    "fetchedAt": "2026-11-07T03:54:30.479380+07:00"
   },
   {
     "id": "102398",
@@ -657,7 +717,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T03:44:35.185201+07:00"
+    "fetchedAt": "2026-11-07T03:54:30.479380+07:00"
   },
   {
     "id": "986206",
@@ -687,7 +747,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T03:44:35.185201+07:00"
+    "fetchedAt": "2026-11-07T03:54:30.479380+07:00"
   },
   {
     "id": "102673",
@@ -717,67 +777,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T03:44:35.185201+07:00"
-  },
-  {
-    "id": "102457",
-    "symbol": "CK",
-    "name": "CH Karnchang PCL",
-    "shortName": "CH Karnchang",
-    "link": "https://www.investing.com/equities/ch-karnchang",
-    "price": 17.7,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 24.63,
-    "fairValueUpside": 39.14,
-    "peRatio": 8.98,
-    "evEbitda": 3.28,
-    "marketCap": 29740000000,
-    "marketCapFormatted": "29.74 พันล้าน",
-    "epsGrowth5y": 0.35,
-    "changeOneDayPercent": -0.56,
-    "financialHealth": "ดีมาก",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "ดีเยี่ยม",
-    "financialProfitabilityHealth": "ดี",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-11-06T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T03:44:35.185201+07:00"
-  },
-  {
-    "id": "102498",
-    "symbol": "AKR",
-    "name": "Ekarat Engineering PCL",
-    "shortName": "Ekarat Engineering",
-    "link": "https://www.investing.com/equities/ekarat-engine",
-    "price": 1.03,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 1.43,
-    "fairValueUpside": 39.1,
-    "peRatio": 10.91,
-    "evEbitda": 4.83,
-    "marketCap": 1520000000,
-    "marketCapFormatted": "1.52 พันล้าน",
-    "epsGrowth5y": 0.19,
-    "changeOneDayPercent": 3.0,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "-",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "undervalued",
-    "lastUpdateTime": "2026-11-06T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T03:44:35.185201+07:00"
+    "fetchedAt": "2026-11-07T03:54:30.479380+07:00"
   },
   {
     "id": "1210919",
@@ -807,7 +807,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T03:44:35.185201+07:00"
+    "fetchedAt": "2026-11-07T03:54:30.479380+07:00"
   },
   {
     "id": "102616",
@@ -837,7 +837,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T03:44:35.185201+07:00"
+    "fetchedAt": "2026-11-07T03:54:30.479380+07:00"
   },
   {
     "id": "102726",
@@ -867,7 +867,7 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T03:44:35.185201+07:00"
+    "fetchedAt": "2026-11-07T03:54:30.479380+07:00"
   },
   {
     "id": "1187007",
@@ -897,6 +897,6 @@
     "valuationType": "undervalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T03:44:35.185201+07:00"
+    "fetchedAt": "2026-11-07T03:54:30.479380+07:00"
   }
 ]
