@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:17:54.808893+07:00"
+    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
   },
   {
     "id": "986137",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:17:54.808893+07:00"
+    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
   },
   {
     "id": "102451",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:17:54.808893+07:00"
+    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
   },
   {
     "id": "102567",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:17:54.808893+07:00"
+    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
   },
   {
     "id": "1199621",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:17:54.808893+07:00"
+    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
   },
   {
     "id": "1242508",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:17:54.808893+07:00"
+    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
   },
   {
     "id": "989494",
@@ -207,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:17:54.808893+07:00"
+    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
   },
   {
     "id": "102869",
@@ -237,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:17:54.808893+07:00"
+    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
   },
   {
     "id": "1130942",
@@ -267,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:17:54.808893+07:00"
+    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
   },
   {
     "id": "102757",
@@ -297,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:17:54.808893+07:00"
+    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
   },
   {
     "id": "102569",
@@ -327,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:17:54.808893+07:00"
+    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
   },
   {
     "id": "986147",
@@ -357,37 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:17:54.808893+07:00"
-  },
-  {
-    "id": "102714",
-    "symbol": "SIRI",
-    "name": "Sansiri PCL",
-    "shortName": "Sansiri",
-    "link": "https://www.investing.com/equities/sansiri",
-    "price": 1.41,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 1.1908999681472778,
-    "fairValueUpside": -15.539999306201935,
-    "peRatio": 6.110000133514404,
-    "evEbitda": 19.711841583251953,
-    "marketCap": 24790000000,
-    "marketCapFormatted": "24.79B",
-    "epsGrowth5y": 0.2871914207935333,
-    "changeOneDayPercent": -2.08,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "FAIR",
-    "financialGrowthHealth": "FAIR",
-    "financialProfitabilityHealth": "GOOD",
-    "analystRatings": "STRONG_BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-06T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:17:54.808893+07:00"
+    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
   },
   {
     "id": "1008691",
@@ -417,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:17:54.808893+07:00"
+    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
   },
   {
     "id": "1025098",
@@ -447,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:17:54.808893+07:00"
+    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
   },
   {
     "id": "103855",
@@ -477,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:17:54.808893+07:00"
+    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
   },
   {
     "id": "102751",
@@ -507,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:17:54.808893+07:00"
+    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
   },
   {
     "id": "102442",
@@ -537,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:17:54.808893+07:00"
+    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
   },
   {
     "id": "102683",
@@ -567,6 +537,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-06T20:17:54.808893+07:00"
+    "fetchedAt": "2026-11-06T20:28:17.445455+07:00"
   }
 ]
