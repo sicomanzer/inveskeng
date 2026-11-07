@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T22:46:49.487295+07:00"
+    "fetchedAt": "2026-11-07T22:58:01.785026+07:00"
   },
   {
     "id": "986137",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T22:46:49.487295+07:00"
+    "fetchedAt": "2026-11-07T22:58:01.785026+07:00"
   },
   {
     "id": "102451",
@@ -87,7 +87,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T22:46:49.487295+07:00"
+    "fetchedAt": "2026-11-07T22:58:01.785026+07:00"
+  },
+  {
+    "id": "102567",
+    "symbol": "KKP",
+    "name": "Kiatnakin Phatra Bank Public Company Limited",
+    "shortName": "Kiatnakin",
+    "link": "https://www.investing.com/equities/kiatnakin-bank",
+    "price": 112.5,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 88.32679748535156,
+    "fairValueUpside": -21.490000188350677,
+    "peRatio": 11.550000190734863,
+    "evEbitda": null,
+    "marketCap": 96810000000,
+    "marketCapFormatted": "96.81B",
+    "epsGrowth5y": 0.11438467353582382,
+    "changeOneDayPercent": -1.32,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "FAIR",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "GOOD",
+    "analystRatings": "BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-06T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
+    "fetchedAt": "2026-11-07T22:58:01.785026+07:00"
   },
   {
     "id": "1199621",
@@ -117,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T22:46:49.487295+07:00"
+    "fetchedAt": "2026-11-07T22:58:01.785026+07:00"
   },
   {
     "id": "1242508",
@@ -147,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T22:46:49.487295+07:00"
+    "fetchedAt": "2026-11-07T22:58:01.785026+07:00"
   },
   {
     "id": "989494",
@@ -177,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T22:46:49.487295+07:00"
+    "fetchedAt": "2026-11-07T22:58:01.785026+07:00"
   },
   {
     "id": "102869",
@@ -207,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T22:46:49.487295+07:00"
+    "fetchedAt": "2026-11-07T22:58:01.785026+07:00"
   },
   {
     "id": "102497",
@@ -237,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T22:46:49.487295+07:00"
+    "fetchedAt": "2026-11-07T22:58:01.785026+07:00"
   },
   {
     "id": "102757",
@@ -267,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T22:46:49.487295+07:00"
+    "fetchedAt": "2026-11-07T22:58:01.785026+07:00"
   },
   {
     "id": "1130942",
@@ -297,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T22:46:49.487295+07:00"
+    "fetchedAt": "2026-11-07T22:58:01.785026+07:00"
   },
   {
     "id": "986147",
@@ -327,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T22:46:49.487295+07:00"
+    "fetchedAt": "2026-11-07T22:58:01.785026+07:00"
   },
   {
     "id": "102714",
@@ -357,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T22:46:49.487295+07:00"
+    "fetchedAt": "2026-11-07T22:58:01.785026+07:00"
   },
   {
     "id": "1008691",
@@ -387,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T22:46:49.487295+07:00"
+    "fetchedAt": "2026-11-07T22:58:01.785026+07:00"
   },
   {
     "id": "102560",
@@ -417,7 +447,67 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T22:46:49.487295+07:00"
+    "fetchedAt": "2026-11-07T22:58:01.785026+07:00"
+  },
+  {
+    "id": "1025098",
+    "symbol": "BGRIM",
+    "name": "BGrimm Power PCL",
+    "shortName": "BGrimm Power",
+    "link": "https://www.investing.com/equities/bgrimm-power",
+    "price": 22.4,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 19.40559959411621,
+    "fairValueUpside": -13.369999825954437,
+    "peRatio": 39.65999984741211,
+    "evEbitda": 12.15985107421875,
+    "marketCap": 58390000000,
+    "marketCapFormatted": "58.39B",
+    "epsGrowth5y": 0.04513346776366234,
+    "changeOneDayPercent": -0.88,
+    "financialHealth": "FAIR",
+    "financialCashFlowHealth": "FAIR",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "FAIR",
+    "analystRatings": "BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-06T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
+    "fetchedAt": "2026-11-07T22:58:01.785026+07:00"
+  },
+  {
+    "id": "103855",
+    "symbol": "KGENm",
+    "name": "King Gen PCL",
+    "shortName": "King Gen PCL",
+    "link": "https://www.investing.com/equities/nation-broadca",
+    "price": 1.82,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 1.586899995803833,
+    "fairValueUpside": -12.809999287128448,
+    "peRatio": -107.05999755859375,
+    "evEbitda": -180.5172576904297,
+    "marketCap": 3760000000,
+    "marketCapFormatted": "3.76B",
+    "epsGrowth5y": -3.227961301803589,
+    "changeOneDayPercent": 13.75,
+    "financialHealth": "FAIR",
+    "financialCashFlowHealth": "WEAK",
+    "financialGrowthHealth": "GOOD",
+    "financialProfitabilityHealth": "WEAK",
+    "analystRatings": "-",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-06T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
+    "fetchedAt": "2026-11-07T22:58:01.785026+07:00"
   },
   {
     "id": "102751",
@@ -447,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T22:46:49.487295+07:00"
+    "fetchedAt": "2026-11-07T22:58:01.785026+07:00"
   },
   {
     "id": "102683",
@@ -477,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T22:46:49.487295+07:00"
+    "fetchedAt": "2026-11-07T22:58:01.785026+07:00"
   },
   {
     "id": "102442",
@@ -507,7 +597,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T22:46:49.487295+07:00"
+    "fetchedAt": "2026-11-07T22:58:01.785026+07:00"
   },
   {
     "id": "102672",
@@ -537,7 +627,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T22:46:49.487295+07:00"
+    "fetchedAt": "2026-11-07T22:58:01.785026+07:00"
   },
   {
     "id": "102561",
@@ -567,6 +657,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-07T22:46:49.487295+07:00"
+    "fetchedAt": "2026-11-07T22:58:01.785026+07:00"
   }
 ]
