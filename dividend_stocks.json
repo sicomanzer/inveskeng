@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-07T04:32:44.851414+07:00",
- "sourceAsOf": "2026-11-07T04:32:42.823090+07:00",
+ "asOf": "2026-11-07T10:55:26.112513+07:00",
+ "sourceAsOf": "2026-11-07T10:55:23.010745+07:00",
  "partial": false,
  "criteria": {
   "market": "TH",
@@ -116,7 +116,7 @@
    "industry": "Banking Services",
    "sourcePrice": 42,
    "sourceChangePercent": -2.89,
-   "marketCap": 600890000000,
+   "marketCap": 586990000000,
    "peRatio": 12.24,
    "pegRatio": -12.81,
    "currency": "THB",
@@ -190,7 +190,7 @@
    "industry": "Oil & Gas",
    "sourcePrice": 142.5,
    "sourceChangePercent": 0.35,
-   "marketCap": 584780000000,
+   "marketCap": 565720000000,
    "peRatio": 7.68,
    "pegRatio": 0.44,
    "currency": "THB",
@@ -528,7 +528,7 @@
    "industry": "Banking Services",
    "sourcePrice": 112.5,
    "sourceChangePercent": -1.32,
-   "marketCap": 97800000000,
+   "marketCap": 96810000000,
    "peRatio": 11.55,
    "pegRatio": 0.26,
    "currency": "THB",
@@ -618,7 +618,7 @@
    "industry": "Oil & Gas",
    "sourcePrice": 43.25,
    "sourceChangePercent": -0.57,
-   "marketCap": 62350000000,
+   "marketCap": 63270000000,
    "peRatio": 2.03,
    "pegRatio": 0.0,
    "currency": "THB",
@@ -1168,7 +1168,7 @@
    "industry": "Water & Related Utilities",
    "sourcePrice": 10,
    "sourceChangePercent": 0.0,
-   "marketCap": 39380000000,
+   "marketCap": 39900000000,
    "peRatio": 12.74,
    "pegRatio": null,
    "currency": "THB",
@@ -1548,7 +1548,7 @@
    "industry": "Construction Materials",
    "sourcePrice": 16.700000762939453,
    "sourceChangePercent": -2.34,
-   "marketCap": 26080000000,
+   "marketCap": 26360000000,
    "peRatio": 22.55,
    "pegRatio": -0.5,
    "currency": "THB",
@@ -1720,7 +1720,7 @@
    "dividendsAsOf": "2026-11-04T05:58:49.311517+00:00"
   },
   {
-   "symbol": "TVO-R",
+   "symbol": "TVO_n",
    "name": "น้ำมันพืชไทย",
    "pairId": 1140499,
    "path": "/equities/thai-vegetable-oil-pcl",
@@ -1732,82 +1732,16 @@
    "peRatio": 10.12,
    "pegRatio": null,
    "currency": "THB",
-   "price": 28.77,
-   "changePercent": -0.08,
-   "divYield": 7.19,
-   "avgYield5y": 5.58,
-   "dpsLastYear": 2.07,
-   "dpsPrevFY": 1.97,
-   "divPayments": [
-    {
-     "date": "2020-03-13",
-     "amount": 0.6818
-    },
-    {
-     "date": "2021-03-12",
-     "amount": 0.7273
-    },
-    {
-     "date": "2021-08-27",
-     "amount": 1.1818
-    },
-    {
-     "date": "2022-03-11",
-     "amount": 0.8182
-    },
-    {
-     "date": "2022-08-26",
-     "amount": 0.2
-    },
-    {
-     "date": "2023-03-24",
-     "amount": 0.85
-    },
-    {
-     "date": "2023-08-25",
-     "amount": 0.16
-    },
-    {
-     "date": "2024-03-13",
-     "amount": 0.65
-    },
-    {
-     "date": "2024-08-23",
-     "amount": 0.8
-    },
-    {
-     "date": "2025-03-14",
-     "amount": 0.93
-    },
-    {
-     "date": "2025-08-22",
-     "amount": 0.8
-    },
-    {
-     "date": "2026-03-13",
-     "amount": 1.17
-    },
-    {
-     "date": "2026-08-27",
-     "amount": 0.9
-    }
-   ],
-   "dpsByYear": {
-    "2026": 2.07,
-    "2025": 1.73,
-    "2024": 1.45,
-    "2023": 1.01,
-    "2022": 1.018182,
-    "2021": 1.909091
-   },
-   "yieldYearsUsed": [
-    "2021",
-    "2022",
-    "2023",
-    "2024",
-    "2025"
-   ],
-   "dividendsAsOf": "2026-11-06T21:01:06.241514+00:00"
+   "price": 28.75,
+   "changePercent": 0.88,
+   "divYield": null,
+   "avgYield5y": null,
+   "dpsLastYear": null,
+   "dpsPrevFY": null,
+   "divPayments": [],
+   "dpsByYear": {},
+   "yieldYearsUsed": [],
+   "dividendsAsOf": null
   },
   {
    "symbol": "STGT",
@@ -2114,136 +2048,6 @@
    "dividendsAsOf": "2026-11-04T05:58:49.311517+00:00"
   },
   {
-   "symbol": "IMPACT",
-   "name": "อิมแพ็คโกรท",
-   "pairId": 986272,
-   "path": "/equities/impact-growth-real-estate-invest",
-   "sector": "Real Estate",
-   "industry": "Residential & Commercial REITs",
-   "sourcePrice": 12.800000190734863,
-   "sourceChangePercent": -1.54,
-   "marketCap": 18980000000,
-   "peRatio": 15.36,
-   "pegRatio": 1.05,
-   "currency": "THB",
-   "price": 12.8,
-   "changePercent": -1.54,
-   "divYield": 5.55,
-   "avgYield5y": 4.24,
-   "dpsLastYear": 0.71,
-   "dpsPrevFY": 0.69,
-   "divPayments": [
-    {
-     "date": "2020-02-26",
-     "amount": 0.3
-    },
-    {
-     "date": "2020-06-02",
-     "amount": 0.05
-    },
-    {
-     "date": "2020-11-25",
-     "amount": 0.12
-    },
-    {
-     "date": "2021-02-24",
-     "amount": 0.2
-    },
-    {
-     "date": "2022-02-23",
-     "amount": 0.05
-    },
-    {
-     "date": "2022-05-31",
-     "amount": 0.05
-    },
-    {
-     "date": "2022-08-24",
-     "amount": 0.1
-    },
-    {
-     "date": "2022-11-23",
-     "amount": 0.15
-    },
-    {
-     "date": "2023-02-22",
-     "amount": 0.21
-    },
-    {
-     "date": "2023-05-31",
-     "amount": 0.14
-    },
-    {
-     "date": "2023-08-23",
-     "amount": 0.14
-    },
-    {
-     "date": "2023-11-22",
-     "amount": 0.1
-    },
-    {
-     "date": "2024-02-21",
-     "amount": 0.2
-    },
-    {
-     "date": "2024-06-06",
-     "amount": 0.1
-    },
-    {
-     "date": "2024-08-27",
-     "amount": 0.22
-    },
-    {
-     "date": "2024-11-27",
-     "amount": 0.11
-    },
-    {
-     "date": "2025-02-26",
-     "amount": 0.17
-    },
-    {
-     "date": "2025-06-05",
-     "amount": 0.17
-    },
-    {
-     "date": "2025-08-27",
-     "amount": 0.22
-    },
-    {
-     "date": "2025-11-27",
-     "amount": 0.13
-    },
-    {
-     "date": "2026-02-26",
-     "amount": 0.24
-    },
-    {
-     "date": "2026-06-04",
-     "amount": 0.1
-    },
-    {
-     "date": "2026-08-27",
-     "amount": 0.24
-    }
-   ],
-   "dpsByYear": {
-    "2026": 0.58,
-    "2025": 0.69,
-    "2024": 0.63,
-    "2023": 0.59,
-    "2022": 0.35,
-    "2021": 0.2
-   },
-   "yieldYearsUsed": [
-    "2021",
-    "2022",
-    "2023",
-    "2024",
-    "2025"
-   ],
-   "dividendsAsOf": "2026-11-05T09:45:25.644903+00:00"
-  },
-  {
    "symbol": "PRM",
    "name": "พริมา มารีน",
    "pairId": 1050056,
@@ -2336,6 +2140,30 @@
     "2025"
    ],
    "dividendsAsOf": "2026-11-04T05:58:49.311517+00:00"
+  },
+  {
+   "symbol": "IMPACTu",
+   "name": "อิมแพ็คโกรท",
+   "pairId": 986272,
+   "path": "/equities/impact-growth-real-estate-invest",
+   "sector": "Real Estate",
+   "industry": "Residential & Commercial REITs",
+   "sourcePrice": 12.800000190734863,
+   "sourceChangePercent": -1.54,
+   "marketCap": 18980000000,
+   "peRatio": 15.36,
+   "pegRatio": 1.05,
+   "currency": "THB",
+   "price": 12.8,
+   "changePercent": -1.54,
+   "divYield": null,
+   "avgYield5y": null,
+   "dpsLastYear": null,
+   "dpsPrevFY": null,
+   "divPayments": [],
+   "dpsByYear": {},
+   "yieldYearsUsed": [],
+   "dividendsAsOf": null
   },
   {
    "symbol": "ICHI",
