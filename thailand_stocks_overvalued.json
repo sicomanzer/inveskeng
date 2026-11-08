@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-08T12:27:04.651143+07:00"
+    "fetchedAt": "2026-11-08T12:36:55.719394+07:00"
   },
   {
     "id": "102451",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-08T12:27:04.651143+07:00"
+    "fetchedAt": "2026-11-08T12:36:55.719394+07:00"
   },
   {
     "id": "102567",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-08T12:27:04.651143+07:00"
+    "fetchedAt": "2026-11-08T12:36:55.719394+07:00"
   },
   {
     "id": "1199621",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-08T12:27:04.651143+07:00"
+    "fetchedAt": "2026-11-08T12:36:55.719394+07:00"
   },
   {
     "id": "1242508",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-08T12:27:04.651143+07:00"
+    "fetchedAt": "2026-11-08T12:36:55.719394+07:00"
   },
   {
     "id": "989494",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-08T12:27:04.651143+07:00"
+    "fetchedAt": "2026-11-08T12:36:55.719394+07:00"
   },
   {
     "id": "986137",
@@ -207,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-08T12:27:04.651143+07:00"
+    "fetchedAt": "2026-11-08T12:36:55.719394+07:00"
   },
   {
     "id": "102869",
@@ -237,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-08T12:27:04.651143+07:00"
+    "fetchedAt": "2026-11-08T12:36:55.719394+07:00"
   },
   {
     "id": "102497",
@@ -267,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-08T12:27:04.651143+07:00"
+    "fetchedAt": "2026-11-08T12:36:55.719394+07:00"
   },
   {
     "id": "102757",
@@ -297,7 +297,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-08T12:27:04.651143+07:00"
+    "fetchedAt": "2026-11-08T12:36:55.719394+07:00"
+  },
+  {
+    "id": "986147",
+    "symbol": "BEM",
+    "name": "Bangkok Expressway and Metro PCL",
+    "shortName": "BEM",
+    "link": "https://www.investing.com/equities/bangkok-expressway-and-metro",
+    "price": 6.15,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 5.054500102996826,
+    "fairValueUpside": -17.810000479221344,
+    "peRatio": 23.389999389648438,
+    "evEbitda": 22.949678421020508,
+    "marketCap": 92110000000,
+    "marketCapFormatted": "92.11B",
+    "epsGrowth5y": 0.2634294033050537,
+    "changeOneDayPercent": -1.6,
+    "financialHealth": "FAIR",
+    "financialCashFlowHealth": "WEAK",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "GREAT",
+    "analystRatings": "STRONG_BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-06T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
+    "fetchedAt": "2026-11-08T12:36:55.719394+07:00"
   },
   {
     "id": "1130942",
@@ -327,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-08T12:27:04.651143+07:00"
+    "fetchedAt": "2026-11-08T12:36:55.719394+07:00"
   },
   {
     "id": "102714",
@@ -357,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-08T12:27:04.651143+07:00"
+    "fetchedAt": "2026-11-08T12:36:55.719394+07:00"
   },
   {
     "id": "1008691",
@@ -387,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-08T12:27:04.651143+07:00"
+    "fetchedAt": "2026-11-08T12:36:55.719394+07:00"
   },
   {
     "id": "102561",
@@ -417,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-08T12:27:04.651143+07:00"
+    "fetchedAt": "2026-11-08T12:36:55.719394+07:00"
   },
   {
     "id": "102560",
@@ -447,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-08T12:27:04.651143+07:00"
+    "fetchedAt": "2026-11-08T12:36:55.719394+07:00"
   },
   {
     "id": "1025098",
@@ -477,37 +507,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-08T12:27:04.651143+07:00"
+    "fetchedAt": "2026-11-08T12:36:55.719394+07:00"
   },
   {
-    "id": "102751",
-    "symbol": "STA",
-    "name": "Sri Trang Agro Industry PCL",
-    "shortName": "Sri Trang Agro",
-    "link": "https://www.investing.com/equities/sri-trang-agro",
-    "price": 19.7,
+    "id": "103855",
+    "symbol": "KGENm",
+    "name": "King Gen PCL",
+    "shortName": "King Gen PCL",
+    "link": "https://www.investing.com/equities/nation-broadca",
+    "price": 1.82,
     "currency": "THB",
     "currencySymbol": "฿",
-    "fairValue": 17.217199325561523,
-    "fairValueUpside": -12.600000202655792,
-    "peRatio": 81.16999816894531,
-    "evEbitda": 11.459172248840332,
-    "marketCap": 30260000000,
-    "marketCapFormatted": "30.26B",
-    "epsGrowth5y": 0.1262972354888916,
-    "changeOneDayPercent": 1.03,
+    "fairValue": 1.586899995803833,
+    "fairValueUpside": -12.809999287128448,
+    "peRatio": -107.05999755859375,
+    "evEbitda": -180.5172576904297,
+    "marketCap": 3760000000,
+    "marketCapFormatted": "3.76B",
+    "epsGrowth5y": -3.227961301803589,
+    "changeOneDayPercent": 13.75,
     "financialHealth": "FAIR",
-    "financialCashFlowHealth": "GOOD",
-    "financialGrowthHealth": "WEAK",
-    "financialProfitabilityHealth": "FAIR",
-    "analystRatings": "STRONG_BUY",
+    "financialCashFlowHealth": "WEAK",
+    "financialGrowthHealth": "GOOD",
+    "financialProfitabilityHealth": "WEAK",
+    "analystRatings": "-",
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-08T12:27:04.651143+07:00"
+    "fetchedAt": "2026-11-08T12:36:55.719394+07:00"
   },
   {
     "id": "102683",
@@ -537,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-08T12:27:04.651143+07:00"
+    "fetchedAt": "2026-11-08T12:36:55.719394+07:00"
   },
   {
     "id": "102442",
@@ -567,7 +597,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-08T12:27:04.651143+07:00"
+    "fetchedAt": "2026-11-08T12:36:55.719394+07:00"
   },
   {
     "id": "102672",
@@ -597,6 +627,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-08T12:27:04.651143+07:00"
+    "fetchedAt": "2026-11-08T12:36:55.719394+07:00"
   }
 ]
