@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T01:52:15.720079+07:00"
+    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
   },
   {
     "id": "1169889",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T01:52:15.720079+07:00"
+    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
   },
   {
     "id": "1114321",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T01:52:15.720079+07:00"
+    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
   },
   {
     "id": "261",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T01:52:15.720079+07:00"
+    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
   },
   {
     "id": "13994",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T01:52:15.720079+07:00"
+    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
   },
   {
     "id": "13852",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T01:52:15.720079+07:00"
+    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
   },
   {
     "id": "41268",
@@ -207,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T01:52:15.720079+07:00"
+    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
   },
   {
     "id": "13848",
@@ -237,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T01:52:15.720079+07:00"
+    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
   },
   {
     "id": "7997",
@@ -267,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T01:52:15.720079+07:00"
+    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
   },
   {
     "id": "40041",
@@ -297,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T01:52:15.720079+07:00"
+    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
   },
   {
     "id": "13067",
@@ -327,37 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T01:52:15.720079+07:00"
-  },
-  {
-    "id": "255",
-    "symbol": "F",
-    "name": "Ford Motor Company",
-    "shortName": "Ford Motor",
-    "link": "https://www.investing.com/equities/ford-motor-co",
-    "price": 12.44,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 9.51,
-    "fairValueUpside": -23.54,
-    "peRatio": -6.36,
-    "evEbitda": 23.9,
-    "marketCap": 49680000000,
-    "marketCapFormatted": "49.68 พันล้าน",
-    "epsGrowth5y": 0.58,
-    "changeOneDayPercent": -0.72,
-    "financialHealth": "มูลค่าตามจริง",
-    "financialCashFlowHealth": "แย่",
-    "financialGrowthHealth": "แย่",
-    "financialProfitabilityHealth": "แย่",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-06T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T01:52:15.720079+07:00"
+    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
   },
   {
     "id": "20164",
@@ -387,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T01:52:15.720079+07:00"
+    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
   },
   {
     "id": "8036",
@@ -417,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T01:52:15.720079+07:00"
+    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
   },
   {
     "id": "8136",
@@ -447,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T01:52:15.720079+07:00"
+    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
   },
   {
     "id": "8260",
@@ -477,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T01:52:15.720079+07:00"
+    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
   },
   {
     "id": "7881",
@@ -507,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T01:52:15.720079+07:00"
+    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
   },
   {
     "id": "8193",
@@ -537,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T01:52:15.720079+07:00"
+    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
   },
   {
     "id": "20486",
@@ -567,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T01:52:15.720079+07:00"
+    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
   },
   {
     "id": "29723",
@@ -597,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T01:52:15.720079+07:00"
+    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
   },
   {
     "id": "6365",
@@ -627,7 +597,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T01:52:15.720079+07:00"
+    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
   },
   {
     "id": "7976",
@@ -657,7 +627,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T01:52:15.720079+07:00"
+    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
   },
   {
     "id": "8104",
@@ -687,7 +657,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T01:52:15.720079+07:00"
+    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
   },
   {
     "id": "20299",
@@ -717,7 +687,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T01:52:15.720079+07:00"
+    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
   },
   {
     "id": "7943",
@@ -747,7 +717,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T01:52:15.720079+07:00"
+    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
   },
   {
     "id": "8016",
@@ -777,7 +747,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T01:52:15.720079+07:00"
+    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
   },
   {
     "id": "39166",
@@ -807,7 +777,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T01:52:15.720079+07:00"
+    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
   },
   {
     "id": "10549",
@@ -837,7 +807,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T01:52:15.720079+07:00"
+    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
   },
   {
     "id": "269",
@@ -867,7 +837,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T01:52:15.720079+07:00"
+    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
   },
   {
     "id": "24282",
@@ -897,6 +867,36 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T01:52:15.720079+07:00"
+    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
+  },
+  {
+    "id": "238",
+    "symbol": "BA",
+    "name": "Boeing Co",
+    "shortName": "Boeing",
+    "link": "https://www.investing.com/equities/boeing-co",
+    "price": 173.4,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 146.15,
+    "fairValueUpside": -15.71,
+    "peRatio": 18.64,
+    "evEbitda": 82.12,
+    "marketCap": 137410000000,
+    "marketCapFormatted": "137.41 พันล้าน",
+    "epsGrowth5y": -0.12,
+    "changeOneDayPercent": 0.52,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "แย่",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "มูลค่าตามจริง",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-06T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
+    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
   }
 ]
