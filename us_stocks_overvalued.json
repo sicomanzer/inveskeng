@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
+    "fetchedAt": "2026-11-09T02:12:27.510178+07:00"
   },
   {
     "id": "1169889",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
+    "fetchedAt": "2026-11-09T02:12:27.510178+07:00"
   },
   {
     "id": "1114321",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
+    "fetchedAt": "2026-11-09T02:12:27.510178+07:00"
   },
   {
     "id": "261",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
+    "fetchedAt": "2026-11-09T02:12:27.510178+07:00"
   },
   {
     "id": "13994",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
+    "fetchedAt": "2026-11-09T02:12:27.510178+07:00"
   },
   {
     "id": "13852",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
+    "fetchedAt": "2026-11-09T02:12:27.510178+07:00"
   },
   {
     "id": "41268",
@@ -207,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
+    "fetchedAt": "2026-11-09T02:12:27.510178+07:00"
   },
   {
     "id": "13848",
@@ -237,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
+    "fetchedAt": "2026-11-09T02:12:27.510178+07:00"
   },
   {
     "id": "7997",
@@ -267,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
+    "fetchedAt": "2026-11-09T02:12:27.510178+07:00"
   },
   {
     "id": "40041",
@@ -297,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
+    "fetchedAt": "2026-11-09T02:12:27.510178+07:00"
   },
   {
     "id": "13067",
@@ -327,7 +327,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
+    "fetchedAt": "2026-11-09T02:12:27.510178+07:00"
+  },
+  {
+    "id": "255",
+    "symbol": "F",
+    "name": "Ford Motor Company",
+    "shortName": "Ford Motor",
+    "link": "https://www.investing.com/equities/ford-motor-co",
+    "price": 12.44,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 9.51,
+    "fairValueUpside": -23.54,
+    "peRatio": -6.36,
+    "evEbitda": 23.9,
+    "marketCap": 49680000000,
+    "marketCapFormatted": "49.68 พันล้าน",
+    "epsGrowth5y": 0.58,
+    "changeOneDayPercent": -0.72,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "แย่",
+    "financialGrowthHealth": "แย่",
+    "financialProfitabilityHealth": "แย่",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-06T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
+    "fetchedAt": "2026-11-09T02:12:27.510178+07:00"
   },
   {
     "id": "20164",
@@ -357,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
+    "fetchedAt": "2026-11-09T02:12:27.510178+07:00"
   },
   {
     "id": "8036",
@@ -387,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
+    "fetchedAt": "2026-11-09T02:12:27.510178+07:00"
   },
   {
     "id": "8136",
@@ -417,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
+    "fetchedAt": "2026-11-09T02:12:27.510178+07:00"
   },
   {
     "id": "8260",
@@ -447,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
+    "fetchedAt": "2026-11-09T02:12:27.510178+07:00"
   },
   {
     "id": "7881",
@@ -477,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
+    "fetchedAt": "2026-11-09T02:12:27.510178+07:00"
   },
   {
     "id": "8193",
@@ -507,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
+    "fetchedAt": "2026-11-09T02:12:27.510178+07:00"
   },
   {
     "id": "20486",
@@ -537,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
+    "fetchedAt": "2026-11-09T02:12:27.510178+07:00"
   },
   {
     "id": "29723",
@@ -567,7 +597,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
+    "fetchedAt": "2026-11-09T02:12:27.510178+07:00"
   },
   {
     "id": "6365",
@@ -597,7 +627,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
+    "fetchedAt": "2026-11-09T02:12:27.510178+07:00"
   },
   {
     "id": "7976",
@@ -627,7 +657,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
+    "fetchedAt": "2026-11-09T02:12:27.510178+07:00"
   },
   {
     "id": "8104",
@@ -657,7 +687,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
+    "fetchedAt": "2026-11-09T02:12:27.510178+07:00"
   },
   {
     "id": "20299",
@@ -687,7 +717,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
+    "fetchedAt": "2026-11-09T02:12:27.510178+07:00"
   },
   {
     "id": "7943",
@@ -717,7 +747,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
+    "fetchedAt": "2026-11-09T02:12:27.510178+07:00"
   },
   {
     "id": "8016",
@@ -747,44 +777,14 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
+    "fetchedAt": "2026-11-09T02:12:27.510178+07:00"
   },
   {
-    "id": "39166",
-    "symbol": "EXR",
-    "name": "Extra Space Storage Inc",
-    "shortName": "Extra Space Storage",
-    "link": "https://www.investing.com/equities/extra-space-storage",
-    "price": 159.19,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 132.33,
-    "fairValueUpside": -16.87,
-    "peRatio": 32.34,
-    "evEbitda": 20.24,
-    "marketCap": 34720000000,
-    "marketCapFormatted": "34.72 พันล้าน",
-    "epsGrowth5y": 0.04,
-    "changeOneDayPercent": -0.58,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "ดี",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-06T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
-  },
-  {
-    "id": "10549",
-    "symbol": "LOW",
-    "name": "Lowe’s Companies Inc",
-    "shortName": "Lowe’s",
-    "link": "https://www.investing.com/equities/lowes-companies",
+    "id": "269",
+    "symbol": "KMB",
+    "name": "Kimberly-Clark Corp",
+    "shortName": "Kimberly-Clark",
+    "link": "https://www.investing.com/equities/kimberly-clark",
     "price": 108.43,
     "currency": "USD",
     "currencySymbol": "$",
@@ -792,10 +792,10 @@
     "fairValueUpside": -16.34,
     "peRatio": 20.65,
     "evEbitda": 19.74,
-    "marketCap": 125980000000,
+    "marketCap": 66540000000,
     "marketCapFormatted": "66.54 พันล้าน",
     "epsGrowth5y": -0.02,
-    "changeOneDayPercent": -1.18,
+    "changeOneDayPercent": -1.84,
     "financialHealth": "มูลค่าตามจริง",
     "financialCashFlowHealth": "ดี",
     "financialGrowthHealth": "มูลค่าตามจริง",
@@ -807,37 +807,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
-  },
-  {
-    "id": "269",
-    "symbol": "KMB",
-    "name": "Kimberly-Clark Corp",
-    "shortName": "Kimberly-Clark",
-    "link": "https://www.investing.com/equities/kimberly-clark",
-    "price": 224.55,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 187.85,
-    "fairValueUpside": -16.34,
-    "peRatio": 19.01,
-    "evEbitda": 12.95,
-    "marketCap": 66540000000,
-    "marketCapFormatted": "125.98 พันล้าน",
-    "epsGrowth5y": 0.1,
-    "changeOneDayPercent": -1.84,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-06T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
+    "fetchedAt": "2026-11-09T02:12:27.510178+07:00"
   },
   {
     "id": "24282",
@@ -867,7 +837,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
+    "fetchedAt": "2026-11-09T02:12:27.510178+07:00"
   },
   {
     "id": "238",
@@ -897,6 +867,36 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:03:27.035255+07:00"
+    "fetchedAt": "2026-11-09T02:12:27.510178+07:00"
+  },
+  {
+    "id": "8147",
+    "symbol": "TMO",
+    "name": "Thermo Fisher Scientific Inc",
+    "shortName": "Thermo Fisher Scientific",
+    "link": "https://www.investing.com/equities/thermo-fisher-sc",
+    "price": 694.76,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 589.23,
+    "fairValueUpside": -15.19,
+    "peRatio": 36.5,
+    "evEbitda": 24.14,
+    "marketCap": 257420000000,
+    "marketCapFormatted": "257.42 พันล้าน",
+    "epsGrowth5y": -0.01,
+    "changeOneDayPercent": 2.63,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-06T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
+    "fetchedAt": "2026-11-09T02:12:27.510178+07:00"
   }
 ]
