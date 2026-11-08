@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T00:35:29.993335+07:00"
+    "fetchedAt": "2026-11-09T00:45:39.942664+07:00"
   },
   {
     "id": "1242607",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T00:35:29.993335+07:00"
+    "fetchedAt": "2026-11-09T00:45:39.942664+07:00"
   },
   {
     "id": "102451",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T00:35:29.993335+07:00"
+    "fetchedAt": "2026-11-09T00:45:39.942664+07:00"
   },
   {
     "id": "102567",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T00:35:29.993335+07:00"
+    "fetchedAt": "2026-11-09T00:45:39.942664+07:00"
   },
   {
     "id": "1199621",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T00:35:29.993335+07:00"
+    "fetchedAt": "2026-11-09T00:45:39.942664+07:00"
   },
   {
     "id": "989494",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T00:35:29.993335+07:00"
+    "fetchedAt": "2026-11-09T00:45:39.942664+07:00"
   },
   {
     "id": "986137",
@@ -207,58 +207,28 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T00:35:29.993335+07:00"
+    "fetchedAt": "2026-11-09T00:45:39.942664+07:00"
   },
   {
-    "id": "102869",
-    "symbol": "WHA",
-    "name": "WHA Corporation PCL",
-    "shortName": "WHA Corp",
-    "link": "https://www.investing.com/equities/wha-corporatio",
-    "price": 4.88,
+    "id": "102757",
+    "symbol": "STPI",
+    "name": "STP&I PCL",
+    "shortName": "STP&I",
+    "link": "https://www.investing.com/equities/stp---i",
+    "price": 5.7,
     "currency": "THB",
     "currencySymbol": "฿",
-    "fairValue": 3.9697000980377197,
-    "fairValueUpside": -18.649999797344208,
-    "peRatio": 17.18000030517578,
-    "evEbitda": 17.668228149414062,
-    "marketCap": 72940000000,
-    "marketCapFormatted": "72.94B",
-    "epsGrowth5y": 0.1681673377752304,
-    "changeOneDayPercent": -2.01,
-    "financialHealth": "FAIR",
-    "financialCashFlowHealth": "FAIR",
-    "financialGrowthHealth": "FAIR",
-    "financialProfitabilityHealth": "GREAT",
-    "analystRatings": "BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-06T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T00:35:29.993335+07:00"
-  },
-  {
-    "id": "102497",
-    "symbol": "EASTW",
-    "name": "Eastern Water Resources Development and Management PCL",
-    "shortName": "Eastern Water",
-    "link": "https://www.investing.com/equities/eastern-water",
-    "price": 4.12,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 3.378200054168701,
-    "fairValueUpside": -18.000000715255737,
-    "peRatio": 1.0199999809265137,
-    "evEbitda": 12.503798484802246,
-    "marketCap": 6850000000,
-    "marketCapFormatted": "6.85B",
-    "epsGrowth5y": 0.4642012417316437,
-    "changeOneDayPercent": -2.83,
-    "financialHealth": "FAIR",
-    "financialCashFlowHealth": "WEAK",
-    "financialGrowthHealth": "FAIR",
+    "fairValue": 4.679299831390381,
+    "fairValueUpside": -17.910000681877136,
+    "peRatio": -982.760009765625,
+    "evEbitda": 31.931734085083008,
+    "marketCap": 10330000000,
+    "marketCapFormatted": "10.33B",
+    "epsGrowth5y": 2.9889392852783203,
+    "changeOneDayPercent": 0.0,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "GOOD",
+    "financialGrowthHealth": "GOOD",
     "financialProfitabilityHealth": "WEAK",
     "analystRatings": "-",
     "flagCode": "TH",
@@ -267,37 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T00:35:29.993335+07:00"
-  },
-  {
-    "id": "986147",
-    "symbol": "BEM",
-    "name": "Bangkok Expressway and Metro PCL",
-    "shortName": "BEM",
-    "link": "https://www.investing.com/equities/bangkok-expressway-and-metro",
-    "price": 6.15,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 5.054500102996826,
-    "fairValueUpside": -17.810000479221344,
-    "peRatio": 23.389999389648438,
-    "evEbitda": 22.86678695678711,
-    "marketCap": 92110000000,
-    "marketCapFormatted": "92.11B",
-    "epsGrowth5y": 0.2634294033050537,
-    "changeOneDayPercent": -1.6,
-    "financialHealth": "FAIR",
-    "financialCashFlowHealth": "WEAK",
-    "financialGrowthHealth": "FAIR",
-    "financialProfitabilityHealth": "GREAT",
-    "analystRatings": "STRONG_BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-06T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T00:35:29.993335+07:00"
+    "fetchedAt": "2026-11-09T00:45:39.942664+07:00"
   },
   {
     "id": "1130942",
@@ -327,7 +267,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T00:35:29.993335+07:00"
+    "fetchedAt": "2026-11-09T00:45:39.942664+07:00"
+  },
+  {
+    "id": "102714",
+    "symbol": "SIRI",
+    "name": "Sansiri PCL",
+    "shortName": "Sansiri",
+    "link": "https://www.investing.com/equities/sansiri",
+    "price": 1.41,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 1.1956000328063965,
+    "fairValueUpside": -15.209999680519104,
+    "peRatio": 6.110000133514404,
+    "evEbitda": 19.74810218811035,
+    "marketCap": 24790000000,
+    "marketCapFormatted": "24.79B",
+    "epsGrowth5y": 0.2871914207935333,
+    "changeOneDayPercent": -2.08,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "FAIR",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "GOOD",
+    "analystRatings": "STRONG_BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-06T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
+    "fetchedAt": "2026-11-09T00:45:39.942664+07:00"
   },
   {
     "id": "1008691",
@@ -357,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T00:35:29.993335+07:00"
+    "fetchedAt": "2026-11-09T00:45:39.942664+07:00"
   },
   {
     "id": "102561",
@@ -387,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T00:35:29.993335+07:00"
+    "fetchedAt": "2026-11-09T00:45:39.942664+07:00"
   },
   {
     "id": "102560",
@@ -417,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T00:35:29.993335+07:00"
+    "fetchedAt": "2026-11-09T00:45:39.942664+07:00"
   },
   {
     "id": "1025098",
@@ -447,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T00:35:29.993335+07:00"
+    "fetchedAt": "2026-11-09T00:45:39.942664+07:00"
   },
   {
     "id": "102751",
@@ -477,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T00:35:29.993335+07:00"
+    "fetchedAt": "2026-11-09T00:45:39.942664+07:00"
   },
   {
     "id": "102683",
@@ -507,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T00:35:29.993335+07:00"
+    "fetchedAt": "2026-11-09T00:45:39.942664+07:00"
   },
   {
     "id": "102442",
@@ -537,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T00:35:29.993335+07:00"
+    "fetchedAt": "2026-11-09T00:45:39.942664+07:00"
   },
   {
     "id": "986220",
@@ -567,36 +537,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T00:35:29.993335+07:00"
-  },
-  {
-    "id": "102672",
-    "symbol": "PTT",
-    "name": "PTT PCL",
-    "shortName": "PTT PCL",
-    "link": "https://www.investing.com/equities/ptt",
-    "price": 38.25,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 34.23680114746094,
-    "fairValueUpside": -10.490000247955322,
-    "peRatio": 8.8100004196167,
-    "evEbitda": 5.243678569793701,
-    "marketCap": 1080000000000,
-    "marketCapFormatted": "1080.00B",
-    "epsGrowth5y": 0.2143501192331314,
-    "changeOneDayPercent": -1.92,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "GOOD",
-    "financialGrowthHealth": "FAIR",
-    "financialProfitabilityHealth": "GOOD",
-    "analystRatings": "STRONG_BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-06T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T00:35:29.993335+07:00"
+    "fetchedAt": "2026-11-09T00:45:39.942664+07:00"
   }
 ]
