@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-09T02:42:30.802687+07:00",
- "sourceAsOf": "2026-11-09T02:42:28.447080+07:00",
+ "asOf": "2026-11-09T03:13:05.490487+07:00",
+ "sourceAsOf": "2026-11-09T03:13:03.169542+07:00",
  "partial": false,
  "criteria": {
   "market": "TH",
@@ -1630,6 +1630,30 @@
    "dividendsAsOf": "2026-11-04T05:58:49.311517+00:00"
   },
   {
+   "symbol": "TVO_n",
+   "name": "น้ำมันพืชไทย",
+   "pairId": 1140499,
+   "path": "/equities/thai-vegetable-oil-pcl",
+   "sector": "Consumer Non-Cyclicals",
+   "industry": "Food & Tobacco",
+   "sourcePrice": 28.75,
+   "sourceChangePercent": 0.88,
+   "marketCap": 25570000000,
+   "peRatio": 10.12,
+   "pegRatio": 1.42,
+   "currency": "THB",
+   "price": 28.75,
+   "changePercent": 0.88,
+   "divYield": null,
+   "avgYield5y": null,
+   "dpsLastYear": null,
+   "dpsPrevFY": null,
+   "divPayments": [],
+   "dpsByYear": {},
+   "yieldYearsUsed": [],
+   "dividendsAsOf": null
+  },
+  {
    "symbol": "TVO",
    "name": "น้ำมันพืชไทย",
    "pairId": 102809,
@@ -1718,30 +1742,6 @@
     "2025"
    ],
    "dividendsAsOf": "2026-11-04T05:58:49.311517+00:00"
-  },
-  {
-   "symbol": "TVO_n",
-   "name": "น้ำมันพืชไทย",
-   "pairId": 1140499,
-   "path": "/equities/thai-vegetable-oil-pcl",
-   "sector": "Consumer Non-Cyclicals",
-   "industry": "Food & Tobacco",
-   "sourcePrice": 28.75,
-   "sourceChangePercent": 0.88,
-   "marketCap": 25570000000,
-   "peRatio": 10.12,
-   "pegRatio": 1.42,
-   "currency": "THB",
-   "price": 28.75,
-   "changePercent": 0.88,
-   "divYield": null,
-   "avgYield5y": null,
-   "dpsLastYear": null,
-   "dpsPrevFY": null,
-   "divPayments": [],
-   "dpsByYear": {},
-   "yieldYearsUsed": [],
-   "dividendsAsOf": null
   },
   {
    "symbol": "STGT",
