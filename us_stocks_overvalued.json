@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-08T15:25:23.498044+07:00"
+    "fetchedAt": "2026-11-08T16:29:10.455375+07:00"
   },
   {
     "id": "1169889",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-08T15:25:23.498044+07:00"
+    "fetchedAt": "2026-11-08T16:29:10.455375+07:00"
   },
   {
     "id": "261",
@@ -68,7 +68,7 @@
     "price": 671.65,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 425.26,
+    "fairValue": 425.31,
     "fairValueUpside": -36.68,
     "peRatio": 37.47,
     "evEbitda": 27.89,
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-08T15:25:23.498044+07:00"
+    "fetchedAt": "2026-11-08T16:29:10.455375+07:00"
   },
   {
     "id": "1114321",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-08T15:25:23.498044+07:00"
+    "fetchedAt": "2026-11-08T16:29:10.455375+07:00"
   },
   {
     "id": "13994",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-08T15:25:23.498044+07:00"
+    "fetchedAt": "2026-11-08T16:29:10.455375+07:00"
   },
   {
     "id": "13852",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-08T15:25:23.498044+07:00"
+    "fetchedAt": "2026-11-08T16:29:10.455375+07:00"
   },
   {
     "id": "41268",
@@ -207,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-08T15:25:23.498044+07:00"
+    "fetchedAt": "2026-11-08T16:29:10.455375+07:00"
   },
   {
     "id": "13848",
@@ -237,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-08T15:25:23.498044+07:00"
+    "fetchedAt": "2026-11-08T16:29:10.455375+07:00"
   },
   {
     "id": "7997",
@@ -248,8 +248,8 @@
     "price": 125.52,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 92.81,
-    "fairValueUpside": -26.06,
+    "fairValue": 92.82,
+    "fairValueUpside": -26.05,
     "peRatio": 45.48,
     "evEbitda": 23.82,
     "marketCap": 995840000000,
@@ -267,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-08T15:25:23.498044+07:00"
+    "fetchedAt": "2026-11-08T16:29:10.455375+07:00"
   },
   {
     "id": "40041",
@@ -297,37 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-08T15:25:23.498044+07:00"
-  },
-  {
-    "id": "8260",
-    "symbol": "VMRK",
-    "name": "Vivmark Residential",
-    "shortName": "Vivmark",
-    "link": "https://www.investing.com/equities/eq-resident",
-    "price": 65.51,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 48.68,
-    "fairValueUpside": -25.69,
-    "peRatio": 25.69,
-    "evEbitda": 31.21,
-    "marketCap": 50660000000,
-    "marketCapFormatted": "50.66 พันล้าน",
-    "epsGrowth5y": 0.0,
-    "changeOneDayPercent": 0.4,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดีมาก",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-06T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-08T15:25:23.498044+07:00"
+    "fetchedAt": "2026-11-08T16:29:10.455375+07:00"
   },
   {
     "id": "13067",
@@ -357,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-08T15:25:23.498044+07:00"
+    "fetchedAt": "2026-11-08T16:29:10.455375+07:00"
   },
   {
     "id": "255",
@@ -387,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-08T15:25:23.498044+07:00"
+    "fetchedAt": "2026-11-08T16:29:10.455375+07:00"
   },
   {
     "id": "20164",
@@ -417,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-08T15:25:23.498044+07:00"
+    "fetchedAt": "2026-11-08T16:29:10.455375+07:00"
   },
   {
     "id": "8036",
@@ -447,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-08T15:25:23.498044+07:00"
+    "fetchedAt": "2026-11-08T16:29:10.455375+07:00"
   },
   {
     "id": "8136",
@@ -477,7 +447,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-08T15:25:23.498044+07:00"
+    "fetchedAt": "2026-11-08T16:29:10.455375+07:00"
+  },
+  {
+    "id": "8260",
+    "symbol": "VMRK",
+    "name": "Vivmark Residential",
+    "shortName": "Vivmark",
+    "link": "https://www.investing.com/equities/eq-resident",
+    "price": 65.51,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 52.49,
+    "fairValueUpside": -19.87,
+    "peRatio": 25.69,
+    "evEbitda": 31.21,
+    "marketCap": 50660000000,
+    "marketCapFormatted": "50.66 พันล้าน",
+    "epsGrowth5y": 0.0,
+    "changeOneDayPercent": 0.4,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดีมาก",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-06T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
+    "fetchedAt": "2026-11-08T16:29:10.455375+07:00"
   },
   {
     "id": "7881",
@@ -507,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-08T15:25:23.498044+07:00"
+    "fetchedAt": "2026-11-08T16:29:10.455375+07:00"
   },
   {
     "id": "8193",
@@ -537,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-08T15:25:23.498044+07:00"
+    "fetchedAt": "2026-11-08T16:29:10.455375+07:00"
   },
   {
     "id": "8158",
@@ -567,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-08T15:25:23.498044+07:00"
+    "fetchedAt": "2026-11-08T16:29:10.455375+07:00"
   },
   {
     "id": "20486",
@@ -597,7 +597,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-08T15:25:23.498044+07:00"
+    "fetchedAt": "2026-11-08T16:29:10.455375+07:00"
   },
   {
     "id": "29723",
@@ -627,7 +627,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-08T15:25:23.498044+07:00"
+    "fetchedAt": "2026-11-08T16:29:10.455375+07:00"
   },
   {
     "id": "6365",
@@ -657,7 +657,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-08T15:25:23.498044+07:00"
+    "fetchedAt": "2026-11-08T16:29:10.455375+07:00"
   },
   {
     "id": "7976",
@@ -687,7 +687,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-08T15:25:23.498044+07:00"
+    "fetchedAt": "2026-11-08T16:29:10.455375+07:00"
   },
   {
     "id": "8104",
@@ -717,7 +717,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-08T15:25:23.498044+07:00"
+    "fetchedAt": "2026-11-08T16:29:10.455375+07:00"
   },
   {
     "id": "20299",
@@ -747,7 +747,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-08T15:25:23.498044+07:00"
+    "fetchedAt": "2026-11-08T16:29:10.455375+07:00"
   },
   {
     "id": "7943",
@@ -777,7 +777,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-08T15:25:23.498044+07:00"
+    "fetchedAt": "2026-11-08T16:29:10.455375+07:00"
   },
   {
     "id": "8016",
@@ -807,7 +807,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-08T15:25:23.498044+07:00"
+    "fetchedAt": "2026-11-08T16:29:10.455375+07:00"
   },
   {
     "id": "39166",
@@ -837,7 +837,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-08T15:25:23.498044+07:00"
+    "fetchedAt": "2026-11-08T16:29:10.455375+07:00"
   },
   {
     "id": "269",
@@ -867,7 +867,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-08T15:25:23.498044+07:00"
+    "fetchedAt": "2026-11-08T16:29:10.455375+07:00"
   },
   {
     "id": "24282",
@@ -897,6 +897,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-08T15:25:23.498044+07:00"
+    "fetchedAt": "2026-11-08T16:29:10.455375+07:00"
   }
 ]
