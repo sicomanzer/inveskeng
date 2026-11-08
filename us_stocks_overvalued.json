@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:52:17.412239+07:00"
+    "fetchedAt": "2026-11-09T03:02:26.239257+07:00"
   },
   {
     "id": "1169889",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:52:17.412239+07:00"
+    "fetchedAt": "2026-11-09T03:02:26.239257+07:00"
   },
   {
     "id": "1114321",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:52:17.412239+07:00"
+    "fetchedAt": "2026-11-09T03:02:26.239257+07:00"
   },
   {
     "id": "261",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:52:17.412239+07:00"
+    "fetchedAt": "2026-11-09T03:02:26.239257+07:00"
   },
   {
     "id": "13994",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:52:17.412239+07:00"
+    "fetchedAt": "2026-11-09T03:02:26.239257+07:00"
   },
   {
     "id": "13852",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:52:17.412239+07:00"
+    "fetchedAt": "2026-11-09T03:02:26.239257+07:00"
   },
   {
     "id": "41268",
@@ -207,7 +207,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:52:17.412239+07:00"
+    "fetchedAt": "2026-11-09T03:02:26.239257+07:00"
+  },
+  {
+    "id": "13848",
+    "symbol": "WELL",
+    "name": "Welltower Inc",
+    "shortName": "Welltower",
+    "link": "https://www.investing.com/equities/health-care-reit",
+    "price": 245.01,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 179.26,
+    "fairValueUpside": -26.84,
+    "peRatio": 105.76,
+    "evEbitda": 53.56,
+    "marketCap": 179740000000,
+    "marketCapFormatted": "179.74 พันล้าน",
+    "epsGrowth5y": 0.46,
+    "changeOneDayPercent": -0.17,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "มูลค่าตามจริง",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-06T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
+    "fetchedAt": "2026-11-09T03:02:26.239257+07:00"
   },
   {
     "id": "7997",
@@ -237,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:52:17.412239+07:00"
+    "fetchedAt": "2026-11-09T03:02:26.239257+07:00"
   },
   {
     "id": "40041",
@@ -267,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:52:17.412239+07:00"
+    "fetchedAt": "2026-11-09T03:02:26.239257+07:00"
   },
   {
     "id": "13067",
@@ -297,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:52:17.412239+07:00"
+    "fetchedAt": "2026-11-09T03:02:26.239257+07:00"
   },
   {
     "id": "20486",
@@ -327,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:52:17.412239+07:00"
+    "fetchedAt": "2026-11-09T03:02:26.239257+07:00"
   },
   {
     "id": "255",
@@ -357,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:52:17.412239+07:00"
+    "fetchedAt": "2026-11-09T03:02:26.239257+07:00"
   },
   {
     "id": "20164",
@@ -387,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:52:17.412239+07:00"
+    "fetchedAt": "2026-11-09T03:02:26.239257+07:00"
   },
   {
     "id": "8036",
@@ -417,7 +447,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:52:17.412239+07:00"
+    "fetchedAt": "2026-11-09T03:02:26.239257+07:00"
+  },
+  {
+    "id": "8136",
+    "symbol": "MAR",
+    "name": "Marriott International Inc",
+    "shortName": "Marriott International",
+    "link": "https://www.investing.com/equities/marriott-intl",
+    "price": 416.47,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 332.46,
+    "fairValueUpside": -20.17,
+    "peRatio": 41.66,
+    "evEbitda": 25.2,
+    "marketCap": 107240000000,
+    "marketCapFormatted": "107.24 พันล้าน",
+    "epsGrowth5y": 1.11,
+    "changeOneDayPercent": -0.19,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "มูลค่าตามจริง",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-06T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
+    "fetchedAt": "2026-11-09T03:02:26.239257+07:00"
   },
   {
     "id": "8260",
@@ -447,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:52:17.412239+07:00"
+    "fetchedAt": "2026-11-09T03:02:26.239257+07:00"
   },
   {
     "id": "7881",
@@ -477,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:52:17.412239+07:00"
+    "fetchedAt": "2026-11-09T03:02:26.239257+07:00"
   },
   {
     "id": "8193",
@@ -507,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:52:17.412239+07:00"
+    "fetchedAt": "2026-11-09T03:02:26.239257+07:00"
   },
   {
     "id": "29723",
@@ -537,7 +597,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:52:17.412239+07:00"
+    "fetchedAt": "2026-11-09T03:02:26.239257+07:00"
   },
   {
     "id": "7976",
@@ -567,7 +627,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:52:17.412239+07:00"
+    "fetchedAt": "2026-11-09T03:02:26.239257+07:00"
   },
   {
     "id": "8104",
@@ -597,7 +657,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:52:17.412239+07:00"
+    "fetchedAt": "2026-11-09T03:02:26.239257+07:00"
   },
   {
     "id": "20299",
@@ -627,7 +687,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:52:17.412239+07:00"
+    "fetchedAt": "2026-11-09T03:02:26.239257+07:00"
   },
   {
     "id": "7943",
@@ -657,7 +717,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:52:17.412239+07:00"
+    "fetchedAt": "2026-11-09T03:02:26.239257+07:00"
   },
   {
     "id": "8016",
@@ -687,7 +747,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:52:17.412239+07:00"
+    "fetchedAt": "2026-11-09T03:02:26.239257+07:00"
   },
   {
     "id": "39166",
@@ -717,37 +777,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:52:17.412239+07:00"
-  },
-  {
-    "id": "10549",
-    "symbol": "LOW",
-    "name": "Lowe’s Companies Inc",
-    "shortName": "Lowe’s",
-    "link": "https://www.investing.com/equities/lowes-companies",
-    "price": 108.43,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 90.71,
-    "fairValueUpside": -16.34,
-    "peRatio": 20.65,
-    "evEbitda": 19.74,
-    "marketCap": 125980000000,
-    "marketCapFormatted": "66.54 พันล้าน",
-    "epsGrowth5y": -0.02,
-    "changeOneDayPercent": -1.18,
-    "financialHealth": "มูลค่าตามจริง",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-06T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:52:17.412239+07:00"
+    "fetchedAt": "2026-11-09T03:02:26.239257+07:00"
   },
   {
     "id": "269",
@@ -777,7 +807,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:52:17.412239+07:00"
+    "fetchedAt": "2026-11-09T03:02:26.239257+07:00"
+  },
+  {
+    "id": "10549",
+    "symbol": "LOW",
+    "name": "Lowe’s Companies Inc",
+    "shortName": "Lowe’s",
+    "link": "https://www.investing.com/equities/lowes-companies",
+    "price": 108.43,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 90.71,
+    "fairValueUpside": -16.34,
+    "peRatio": 20.65,
+    "evEbitda": 19.74,
+    "marketCap": 125980000000,
+    "marketCapFormatted": "66.54 พันล้าน",
+    "epsGrowth5y": -0.02,
+    "changeOneDayPercent": -1.18,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "มูลค่าตามจริง",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อ",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-06T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
+    "fetchedAt": "2026-11-09T03:02:26.239257+07:00"
   },
   {
     "id": "24282",
@@ -788,8 +848,8 @@
     "price": 399.81,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 334.84,
-    "fairValueUpside": -16.25,
+    "fairValue": 334.88,
+    "fairValueUpside": -16.24,
     "peRatio": 44.79,
     "evEbitda": 28.82,
     "marketCap": 27850000000,
@@ -807,7 +867,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:52:17.412239+07:00"
+    "fetchedAt": "2026-11-09T03:02:26.239257+07:00"
   },
   {
     "id": "238",
@@ -837,66 +897,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:52:17.412239+07:00"
-  },
-  {
-    "id": "20210",
-    "symbol": "MTD",
-    "name": "Mettler-Toledo International Inc",
-    "shortName": "Mettler-Toledo",
-    "link": "https://www.investing.com/equities/mettler-toledo-international-inc",
-    "price": 1722.15,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 1455.7,
-    "fairValueUpside": -15.47,
-    "peRatio": 39.11,
-    "evEbitda": 28.97,
-    "marketCap": 34250000000,
-    "marketCapFormatted": "34.25 พันล้าน",
-    "epsGrowth5y": 0.1,
-    "changeOneDayPercent": 2.57,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ถือหุ้นไว้",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-06T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:52:17.412239+07:00"
-  },
-  {
-    "id": "8147",
-    "symbol": "TMO",
-    "name": "Thermo Fisher Scientific Inc",
-    "shortName": "Thermo Fisher Scientific",
-    "link": "https://www.investing.com/equities/thermo-fisher-sc",
-    "price": 694.76,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 589.23,
-    "fairValueUpside": -15.19,
-    "peRatio": 36.5,
-    "evEbitda": 24.14,
-    "marketCap": 257420000000,
-    "marketCapFormatted": "257.42 พันล้าน",
-    "epsGrowth5y": -0.01,
-    "changeOneDayPercent": 2.63,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ซื้อทันที",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-06T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-06T20:59:59.000Z",
-    "fetchedAt": "2026-11-09T02:52:17.412239+07:00"
+    "fetchedAt": "2026-11-09T03:02:26.239257+07:00"
   }
 ]
