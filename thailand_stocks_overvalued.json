@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:32:33.177206+07:00"
+    "fetchedAt": "2026-11-10T01:42:33.541955+07:00"
   },
   {
     "id": "1242607",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:32:33.177206+07:00"
+    "fetchedAt": "2026-11-10T01:42:33.541955+07:00"
   },
   {
     "id": "1199621",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:32:33.177206+07:00"
+    "fetchedAt": "2026-11-10T01:42:33.541955+07:00"
   },
   {
     "id": "102567",
@@ -117,7 +117,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:32:33.177206+07:00"
+    "fetchedAt": "2026-11-10T01:42:33.541955+07:00"
+  },
+  {
+    "id": "102451",
+    "symbol": "CCET",
+    "name": "Cal-Comp Electronics Thailand PCL",
+    "shortName": "Cal-Comp Electronics",
+    "link": "https://www.investing.com/equities/cal-comp-elec",
+    "price": 7.4,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 5.844600200653076,
+    "fairValueUpside": -21.01999968290329,
+    "peRatio": 34.31999969482422,
+    "evEbitda": 18.043624877929688,
+    "marketCap": 54060000000,
+    "marketCapFormatted": "54.06B",
+    "epsGrowth5y": 0.7992117404937744,
+    "changeOneDayPercent": -0.67,
+    "financialHealth": "FAIR",
+    "financialCashFlowHealth": "WEAK",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "GOOD",
+    "analystRatings": "BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-09T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
+    "fetchedAt": "2026-11-10T01:42:33.541955+07:00"
   },
   {
     "id": "989494",
@@ -147,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:32:33.177206+07:00"
+    "fetchedAt": "2026-11-10T01:42:33.541955+07:00"
   },
   {
     "id": "986137",
@@ -177,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:32:33.177206+07:00"
+    "fetchedAt": "2026-11-10T01:42:33.541955+07:00"
   },
   {
     "id": "102751",
@@ -207,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:32:33.177206+07:00"
+    "fetchedAt": "2026-11-10T01:42:33.541955+07:00"
   },
   {
     "id": "102869",
@@ -237,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:32:33.177206+07:00"
+    "fetchedAt": "2026-11-10T01:42:33.541955+07:00"
   },
   {
     "id": "986147",
@@ -267,37 +297,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:32:33.177206+07:00"
+    "fetchedAt": "2026-11-10T01:42:33.541955+07:00"
   },
   {
-    "id": "1130942",
-    "symbol": "CPNREITu",
-    "name": "Cpn Retail Growth Leasehold REIT Unit",
-    "shortName": "Cpn Retail Growth Leasehold REIT Unt",
-    "link": "https://www.investing.com/equities/cpn-retail-growth-leasehold-reit",
-    "price": 12.8,
+    "id": "102714",
+    "symbol": "SIRI",
+    "name": "Sansiri PCL",
+    "shortName": "Sansiri",
+    "link": "https://www.investing.com/equities/sansiri",
+    "price": 1.42,
     "currency": "THB",
     "currencySymbol": "฿",
-    "fairValue": 10.897000312805176,
-    "fairValueUpside": -14.869999885559082,
-    "peRatio": 14.220000267028809,
-    "evEbitda": null,
-    "marketCap": 46350000000,
-    "marketCapFormatted": "46.35B",
-    "epsGrowth5y": 5.588566780090332,
-    "changeOneDayPercent": -3.03,
+    "fairValue": 1.1956000328063965,
+    "fairValueUpside": -15.800000727176666,
+    "peRatio": 6.150000095367432,
+    "evEbitda": 19.74810218811035,
+    "marketCap": 24960000000,
+    "marketCapFormatted": "24.96B",
+    "epsGrowth5y": 0.2871914207935333,
+    "changeOneDayPercent": 0.71,
     "financialHealth": "GOOD",
     "financialCashFlowHealth": "FAIR",
-    "financialGrowthHealth": "GOOD",
-    "financialProfitabilityHealth": "GREAT",
-    "analystRatings": "BUY",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "GOOD",
+    "analystRatings": "STRONG_BUY",
     "flagCode": "TH",
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:32:33.177206+07:00"
+    "fetchedAt": "2026-11-10T01:42:33.541955+07:00"
   },
   {
     "id": "1008691",
@@ -327,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:32:33.177206+07:00"
+    "fetchedAt": "2026-11-10T01:42:33.541955+07:00"
   },
   {
     "id": "102683",
@@ -357,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:32:33.177206+07:00"
+    "fetchedAt": "2026-11-10T01:42:33.541955+07:00"
   },
   {
     "id": "102560",
@@ -387,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:32:33.177206+07:00"
+    "fetchedAt": "2026-11-10T01:42:33.541955+07:00"
   },
   {
     "id": "102442",
@@ -417,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:32:33.177206+07:00"
+    "fetchedAt": "2026-11-10T01:42:33.541955+07:00"
   },
   {
     "id": "1025098",
@@ -447,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:32:33.177206+07:00"
+    "fetchedAt": "2026-11-10T01:42:33.541955+07:00"
   },
   {
     "id": "102561",
@@ -477,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:32:33.177206+07:00"
+    "fetchedAt": "2026-11-10T01:42:33.541955+07:00"
   },
   {
     "id": "102672",
@@ -507,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:32:33.177206+07:00"
+    "fetchedAt": "2026-11-10T01:42:33.541955+07:00"
   },
   {
     "id": "1162301",
@@ -537,36 +567,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:32:33.177206+07:00"
-  },
-  {
-    "id": "102757",
-    "symbol": "STPI",
-    "name": "STP&I PCL",
-    "shortName": "STP&I",
-    "link": "https://www.investing.com/equities/stp---i",
-    "price": 5.25,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 4.679900169372559,
-    "fairValueUpside": -10.859999805688858,
-    "peRatio": -905.1699829101562,
-    "evEbitda": 31.931734085083008,
-    "marketCap": 9510000000,
-    "marketCapFormatted": "9.51B",
-    "epsGrowth5y": 2.9889392852783203,
-    "changeOneDayPercent": -7.89,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "GOOD",
-    "financialGrowthHealth": "GOOD",
-    "financialProfitabilityHealth": "WEAK",
-    "analystRatings": "-",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-09T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:32:33.177206+07:00"
+    "fetchedAt": "2026-11-10T01:42:33.541955+07:00"
   }
 ]
