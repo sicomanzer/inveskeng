@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T03:36:06.400083+07:00"
+    "fetchedAt": "2026-11-09T09:27:19.613545+07:00"
   },
   {
     "id": "1242607",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T03:36:06.400083+07:00"
+    "fetchedAt": "2026-11-09T09:27:19.613545+07:00"
   },
   {
     "id": "102451",
@@ -68,8 +68,8 @@
     "price": 7.45,
     "currency": "THB",
     "currencySymbol": "฿",
-    "fairValue": 5.843800067901611,
-    "fairValueUpside": -21.559999883174896,
+    "fairValue": 5.844600200653076,
+    "fairValueUpside": -21.549999713897705,
     "peRatio": 34.54999923706055,
     "evEbitda": 18.043624877929688,
     "marketCap": 77850000000,
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T03:36:06.400083+07:00"
+    "fetchedAt": "2026-11-09T09:27:19.613545+07:00"
   },
   {
     "id": "102567",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T03:36:06.400083+07:00"
+    "fetchedAt": "2026-11-09T09:27:19.613545+07:00"
   },
   {
     "id": "1199621",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T03:36:06.400083+07:00"
+    "fetchedAt": "2026-11-09T09:27:19.613545+07:00"
   },
   {
     "id": "989494",
@@ -158,8 +158,8 @@
     "price": 1.53,
     "currency": "THB",
     "currencySymbol": "฿",
-    "fairValue": 1.229099988937378,
-    "fairValueUpside": -19.670000672340393,
+    "fairValue": 1.229200005531311,
+    "fairValueUpside": -19.660000503063202,
     "peRatio": -14.210000038146973,
     "evEbitda": 20.116004943847656,
     "marketCap": 3190000000,
@@ -177,7 +177,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T03:36:06.400083+07:00"
+    "fetchedAt": "2026-11-09T09:27:19.613545+07:00"
+  },
+  {
+    "id": "102751",
+    "symbol": "STA",
+    "name": "Sri Trang Agro Industry PCL",
+    "shortName": "Sri Trang Agro",
+    "link": "https://www.investing.com/equities/sri-trang-agro",
+    "price": 19.7,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 15.876799583435059,
+    "fairValueUpside": -19.41000074148178,
+    "peRatio": 80.68000030517578,
+    "evEbitda": 10.926301956176758,
+    "marketCap": 30140000000,
+    "marketCapFormatted": "30.14B",
+    "epsGrowth5y": 0.1262972354888916,
+    "changeOneDayPercent": 1.03,
+    "financialHealth": "FAIR",
+    "financialCashFlowHealth": "GOOD",
+    "financialGrowthHealth": "WEAK",
+    "financialProfitabilityHealth": "FAIR",
+    "analystRatings": "STRONG_BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-06T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
+    "fetchedAt": "2026-11-09T09:27:19.613545+07:00"
   },
   {
     "id": "986137",
@@ -207,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T03:36:06.400083+07:00"
+    "fetchedAt": "2026-11-09T09:27:19.613545+07:00"
   },
   {
     "id": "102869",
@@ -218,7 +248,7 @@
     "price": 4.88,
     "currency": "THB",
     "currencySymbol": "฿",
-    "fairValue": 3.9697000980377197,
+    "fairValue": 3.9700000286102295,
     "fairValueUpside": -18.649999797344208,
     "peRatio": 17.18000030517578,
     "evEbitda": 17.668228149414062,
@@ -237,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T03:36:06.400083+07:00"
+    "fetchedAt": "2026-11-09T09:27:19.613545+07:00"
   },
   {
     "id": "102497",
@@ -267,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T03:36:06.400083+07:00"
+    "fetchedAt": "2026-11-09T09:27:19.613545+07:00"
   },
   {
     "id": "102757",
@@ -297,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T03:36:06.400083+07:00"
+    "fetchedAt": "2026-11-09T09:27:19.613545+07:00"
   },
   {
     "id": "986147",
@@ -308,8 +338,8 @@
     "price": 6.15,
     "currency": "THB",
     "currencySymbol": "฿",
-    "fairValue": 5.054500102996826,
-    "fairValueUpside": -17.810000479221344,
+    "fairValue": 5.0559000968933105,
+    "fairValueUpside": -17.79000014066696,
     "peRatio": 23.389999389648438,
     "evEbitda": 22.86678695678711,
     "marketCap": 92110000000,
@@ -327,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T03:36:06.400083+07:00"
+    "fetchedAt": "2026-11-09T09:27:19.613545+07:00"
   },
   {
     "id": "1130942",
@@ -357,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T03:36:06.400083+07:00"
+    "fetchedAt": "2026-11-09T09:27:19.613545+07:00"
   },
   {
     "id": "102714",
@@ -369,7 +399,7 @@
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 1.1956000328063965,
-    "fairValueUpside": -15.209999680519104,
+    "fairValueUpside": -15.199999511241913,
     "peRatio": 6.110000133514404,
     "evEbitda": 19.74810218811035,
     "marketCap": 24790000000,
@@ -387,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T03:36:06.400083+07:00"
+    "fetchedAt": "2026-11-09T09:27:19.613545+07:00"
   },
   {
     "id": "1008691",
@@ -417,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T03:36:06.400083+07:00"
+    "fetchedAt": "2026-11-09T09:27:19.613545+07:00"
   },
   {
     "id": "102561",
@@ -447,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T03:36:06.400083+07:00"
+    "fetchedAt": "2026-11-09T09:27:19.613545+07:00"
   },
   {
     "id": "102560",
@@ -477,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T03:36:06.400083+07:00"
+    "fetchedAt": "2026-11-09T09:27:19.613545+07:00"
   },
   {
     "id": "1025098",
@@ -488,7 +518,7 @@
     "price": 22.4,
     "currency": "THB",
     "currencySymbol": "฿",
-    "fairValue": 19.406700134277344,
+    "fairValue": 19.407699584960938,
     "fairValueUpside": -13.359999656677246,
     "peRatio": 39.65999984741211,
     "evEbitda": 12.893945693969727,
@@ -507,37 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T03:36:06.400083+07:00"
-  },
-  {
-    "id": "102751",
-    "symbol": "STA",
-    "name": "Sri Trang Agro Industry PCL",
-    "shortName": "Sri Trang Agro",
-    "link": "https://www.investing.com/equities/sri-trang-agro",
-    "price": 19.7,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 17.217199325561523,
-    "fairValueUpside": -12.600000202655792,
-    "peRatio": 81.16999816894531,
-    "evEbitda": 10.926301956176758,
-    "marketCap": 30260000000,
-    "marketCapFormatted": "30.26B",
-    "epsGrowth5y": 0.1262972354888916,
-    "changeOneDayPercent": 1.03,
-    "financialHealth": "FAIR",
-    "financialCashFlowHealth": "GOOD",
-    "financialGrowthHealth": "WEAK",
-    "financialProfitabilityHealth": "FAIR",
-    "analystRatings": "STRONG_BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-06T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T03:36:06.400083+07:00"
+    "fetchedAt": "2026-11-09T09:27:19.613545+07:00"
   },
   {
     "id": "102683",
@@ -548,8 +548,8 @@
     "price": 36.25,
     "currency": "THB",
     "currencySymbol": "฿",
-    "fairValue": 32.10649871826172,
-    "fairValueUpside": -11.429999768733978,
+    "fairValue": 31.525800704956055,
+    "fairValueUpside": -13.030000030994415,
     "peRatio": 14.149999618530273,
     "evEbitda": 31.750699996948242,
     "marketCap": 78840000000,
@@ -567,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T03:36:06.400083+07:00"
+    "fetchedAt": "2026-11-09T09:27:19.613545+07:00"
   },
   {
     "id": "102442",
@@ -578,8 +578,8 @@
     "price": 20.0,
     "currency": "THB",
     "currencySymbol": "฿",
-    "fairValue": 17.718299865722656,
-    "fairValueUpside": -11.410000175237656,
+    "fairValue": 17.723400115966797,
+    "fairValueUpside": -11.379999667406082,
     "peRatio": 13.6899995803833,
     "evEbitda": 12.739255905151367,
     "marketCap": 80160000000,
@@ -597,7 +597,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T03:36:06.400083+07:00"
+    "fetchedAt": "2026-11-09T09:27:19.613545+07:00"
   },
   {
     "id": "986220",
@@ -627,6 +627,66 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-06T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T03:36:06.400083+07:00"
+    "fetchedAt": "2026-11-09T09:27:19.613545+07:00"
+  },
+  {
+    "id": "1162301",
+    "symbol": "INSET",
+    "name": "Infraset PCL",
+    "shortName": "Infraset PCL",
+    "link": "https://www.investing.com/equities/infraset-pcl",
+    "price": 4.46,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 3.9853999614715576,
+    "fairValueUpside": -10.639999806880951,
+    "peRatio": 33.90999984741211,
+    "evEbitda": 21.795753479003906,
+    "marketCap": 3580000000,
+    "marketCapFormatted": "3.58B",
+    "epsGrowth5y": -0.14099133014678955,
+    "changeOneDayPercent": -4.29,
+    "financialHealth": "FAIR",
+    "financialCashFlowHealth": "WEAK",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "GOOD",
+    "analystRatings": "STRONG_BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-06T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
+    "fetchedAt": "2026-11-09T09:27:19.613545+07:00"
+  },
+  {
+    "id": "102672",
+    "symbol": "PTT",
+    "name": "PTT PCL",
+    "shortName": "PTT PCL",
+    "link": "https://www.investing.com/equities/ptt",
+    "price": 38.25,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 34.23680114746094,
+    "fairValueUpside": -10.490000247955322,
+    "peRatio": 8.8100004196167,
+    "evEbitda": 5.243678569793701,
+    "marketCap": 1080000000000,
+    "marketCapFormatted": "1080.00B",
+    "epsGrowth5y": 0.2143501192331314,
+    "changeOneDayPercent": -1.92,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "GOOD",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "GOOD",
+    "analystRatings": "STRONG_BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-06T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-06T10:49:59.000Z",
+    "fetchedAt": "2026-11-09T09:27:19.613545+07:00"
   }
 ]
