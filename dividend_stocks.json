@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-09T20:46:27.761727+07:00",
- "sourceAsOf": "2026-11-09T20:46:25.305906+07:00",
+ "asOf": "2026-11-09T21:26:09.319668+07:00",
+ "sourceAsOf": "2026-11-09T21:26:07.435436+07:00",
  "partial": false,
  "criteria": {
   "market": "TH",
@@ -116,7 +116,7 @@
    "industry": "Banking Services",
    "sourcePrice": 42,
    "sourceChangePercent": 0.0,
-   "marketCap": 602430000000,
+   "marketCap": 602280000000,
    "peRatio": 12.24,
    "pegRatio": -12.3,
    "currency": "THB",
@@ -704,7 +704,7 @@
    "industry": "Food & Tobacco",
    "sourcePrice": 13,
    "sourceChangePercent": 0.0,
-   "marketCap": 57920000000,
+   "marketCap": 57910000000,
    "peRatio": 10.58,
    "pegRatio": 2.33,
    "currency": "THB",
@@ -1224,8 +1224,8 @@
    "currency": "THB",
    "price": 397.0,
    "changePercent": -0.25,
-   "divYield": null,
-   "avgYield5y": null,
+   "divYield": 5.92,
+   "avgYield5y": 4.76,
    "dpsLastYear": 23.5,
    "dpsPrevFY": 22.75,
    "divPayments": [
@@ -1267,7 +1267,10 @@
     "2025": 17.0,
     "2024": 11.25
    },
-   "yieldYearsUsed": [],
+   "yieldYearsUsed": [
+    "2024",
+    "2025"
+   ],
    "dividendsAsOf": "2026-11-04T05:58:49.311517+00:00"
   },
   {
