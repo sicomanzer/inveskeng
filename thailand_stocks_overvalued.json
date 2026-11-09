@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:52:33.673437+07:00"
+    "fetchedAt": "2026-11-10T02:02:48.600558+07:00"
   },
   {
     "id": "1242607",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:52:33.673437+07:00"
+    "fetchedAt": "2026-11-10T02:02:48.600558+07:00"
   },
   {
     "id": "1199621",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:52:33.673437+07:00"
+    "fetchedAt": "2026-11-10T02:02:48.600558+07:00"
   },
   {
     "id": "102567",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:52:33.673437+07:00"
+    "fetchedAt": "2026-11-10T02:02:48.600558+07:00"
   },
   {
     "id": "102451",
@@ -147,37 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:52:33.673437+07:00"
-  },
-  {
-    "id": "989494",
-    "symbol": "ITEL",
-    "name": "Interlink Telecom PCL",
-    "shortName": "Interlink Telecom",
-    "link": "https://www.investing.com/equities/interlink-telecom-pcl",
-    "price": 1.53,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 1.229200005531311,
-    "fairValueUpside": -19.660000503063202,
-    "peRatio": -14.210000038146973,
-    "evEbitda": 20.116004943847656,
-    "marketCap": 3190000000,
-    "marketCapFormatted": "3.19B",
-    "epsGrowth5y": -0.2955392897129059,
-    "changeOneDayPercent": 0.0,
-    "financialHealth": "FAIR",
-    "financialCashFlowHealth": "FAIR",
-    "financialGrowthHealth": "WEAK",
-    "financialProfitabilityHealth": "FAIR",
-    "analystRatings": "BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-09T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:52:33.673437+07:00"
+    "fetchedAt": "2026-11-10T02:02:48.600558+07:00"
   },
   {
     "id": "986137",
@@ -207,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:52:33.673437+07:00"
+    "fetchedAt": "2026-11-10T02:02:48.600558+07:00"
   },
   {
     "id": "102751",
@@ -237,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:52:33.673437+07:00"
+    "fetchedAt": "2026-11-10T02:02:48.600558+07:00"
   },
   {
     "id": "102869",
@@ -267,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:52:33.673437+07:00"
+    "fetchedAt": "2026-11-10T02:02:48.600558+07:00"
   },
   {
     "id": "986147",
@@ -297,7 +267,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:52:33.673437+07:00"
+    "fetchedAt": "2026-11-10T02:02:48.600558+07:00"
+  },
+  {
+    "id": "102714",
+    "symbol": "SIRI",
+    "name": "Sansiri PCL",
+    "shortName": "Sansiri",
+    "link": "https://www.investing.com/equities/sansiri",
+    "price": 1.42,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 1.1956000328063965,
+    "fairValueUpside": -15.800000727176666,
+    "peRatio": 6.150000095367432,
+    "evEbitda": 19.74810218811035,
+    "marketCap": 24960000000,
+    "marketCapFormatted": "24.96B",
+    "epsGrowth5y": 0.2871914207935333,
+    "changeOneDayPercent": 0.71,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "FAIR",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "GOOD",
+    "analystRatings": "STRONG_BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-09T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
+    "fetchedAt": "2026-11-10T02:02:48.600558+07:00"
   },
   {
     "id": "1130942",
@@ -327,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:52:33.673437+07:00"
+    "fetchedAt": "2026-11-10T02:02:48.600558+07:00"
   },
   {
     "id": "1008691",
@@ -357,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:52:33.673437+07:00"
+    "fetchedAt": "2026-11-10T02:02:48.600558+07:00"
   },
   {
     "id": "102683",
@@ -387,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:52:33.673437+07:00"
+    "fetchedAt": "2026-11-10T02:02:48.600558+07:00"
   },
   {
     "id": "102560",
@@ -417,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:52:33.673437+07:00"
+    "fetchedAt": "2026-11-10T02:02:48.600558+07:00"
   },
   {
     "id": "102442",
@@ -447,37 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:52:33.673437+07:00"
-  },
-  {
-    "id": "1025098",
-    "symbol": "BGRIM",
-    "name": "BGrimm Power PCL",
-    "shortName": "BGrimm Power",
-    "link": "https://www.investing.com/equities/bgrimm-power",
-    "price": 22.0,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 19.407699584960938,
-    "fairValueUpside": -11.779999732971191,
-    "peRatio": 38.95000076293945,
-    "evEbitda": 12.893945693969727,
-    "marketCap": 57350000000,
-    "marketCapFormatted": "57.35B",
-    "epsGrowth5y": 0.04513346776366234,
-    "changeOneDayPercent": -1.79,
-    "financialHealth": "FAIR",
-    "financialCashFlowHealth": "FAIR",
-    "financialGrowthHealth": "FAIR",
-    "financialProfitabilityHealth": "FAIR",
-    "analystRatings": "BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-09T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:52:33.673437+07:00"
+    "fetchedAt": "2026-11-10T02:02:48.600558+07:00"
   },
   {
     "id": "102561",
@@ -507,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:52:33.673437+07:00"
+    "fetchedAt": "2026-11-10T02:02:48.600558+07:00"
   },
   {
     "id": "102672",
@@ -537,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:52:33.673437+07:00"
+    "fetchedAt": "2026-11-10T02:02:48.600558+07:00"
   },
   {
     "id": "1162301",
@@ -567,7 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:52:33.673437+07:00"
+    "fetchedAt": "2026-11-10T02:02:48.600558+07:00"
   },
   {
     "id": "102757",
@@ -597,6 +567,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-10T01:52:33.673437+07:00"
+    "fetchedAt": "2026-11-10T02:02:48.600558+07:00"
   }
 ]
