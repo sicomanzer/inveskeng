@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T21:39:02.141333+07:00"
+    "fetchedAt": "2026-11-09T21:49:06.165784+07:00"
   },
   {
     "id": "1242607",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T21:39:02.141333+07:00"
+    "fetchedAt": "2026-11-09T21:49:06.165784+07:00"
   },
   {
     "id": "1199621",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T21:39:02.141333+07:00"
+    "fetchedAt": "2026-11-09T21:49:06.165784+07:00"
   },
   {
     "id": "102567",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T21:39:02.141333+07:00"
+    "fetchedAt": "2026-11-09T21:49:06.165784+07:00"
   },
   {
     "id": "102451",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T21:39:02.141333+07:00"
+    "fetchedAt": "2026-11-09T21:49:06.165784+07:00"
   },
   {
     "id": "989494",
@@ -177,7 +177,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T21:39:02.141333+07:00"
+    "fetchedAt": "2026-11-09T21:49:06.165784+07:00"
+  },
+  {
+    "id": "986137",
+    "symbol": "ALT",
+    "name": "ALT Telecom PCL",
+    "shortName": "ALT Telecom",
+    "link": "https://www.investing.com/equities/alt-telecom-pcl",
+    "price": 1.64,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 1.3336999416351318,
+    "fairValueUpside": -18.67000013589859,
+    "peRatio": 94.80000305175781,
+    "evEbitda": 13.350203514099121,
+    "marketCap": 1830000000,
+    "marketCapFormatted": "1.83B",
+    "epsGrowth5y": -1.7917653322219849,
+    "changeOneDayPercent": -0.61,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "FAIR",
+    "financialGrowthHealth": "GOOD",
+    "financialProfitabilityHealth": "FAIR",
+    "analystRatings": "-",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-09T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
+    "fetchedAt": "2026-11-09T21:49:06.165784+07:00"
   },
   {
     "id": "102751",
@@ -207,37 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T21:39:02.141333+07:00"
-  },
-  {
-    "id": "102869",
-    "symbol": "WHA",
-    "name": "WHA Corporation PCL",
-    "shortName": "WHA Corp",
-    "link": "https://www.investing.com/equities/wha-corporatio",
-    "price": 4.84,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 3.9700000286102295,
-    "fairValueUpside": -17.980000376701355,
-    "peRatio": 17.040000915527344,
-    "evEbitda": 17.668228149414062,
-    "marketCap": 72340000000,
-    "marketCapFormatted": "72.34B",
-    "epsGrowth5y": 0.1681673377752304,
-    "changeOneDayPercent": -0.82,
-    "financialHealth": "FAIR",
-    "financialCashFlowHealth": "FAIR",
-    "financialGrowthHealth": "FAIR",
-    "financialProfitabilityHealth": "GREAT",
-    "analystRatings": "BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-09T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T21:39:02.141333+07:00"
+    "fetchedAt": "2026-11-09T21:49:06.165784+07:00"
   },
   {
     "id": "986147",
@@ -267,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T21:39:02.141333+07:00"
+    "fetchedAt": "2026-11-09T21:49:06.165784+07:00"
   },
   {
     "id": "102714",
@@ -297,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T21:39:02.141333+07:00"
+    "fetchedAt": "2026-11-09T21:49:06.165784+07:00"
   },
   {
     "id": "1130942",
@@ -327,37 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T21:39:02.141333+07:00"
-  },
-  {
-    "id": "1008691",
-    "symbol": "WHAUP",
-    "name": "Wha Utilities and Power PCL",
-    "shortName": "Wha Utilities",
-    "link": "https://www.investing.com/equities/wha-utilities-and-power-pcl",
-    "price": 6.85,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 5.862299919128418,
-    "fairValueUpside": -14.419999718666077,
-    "peRatio": 17.6299991607666,
-    "evEbitda": 14.639966011047363,
-    "marketCap": 26200000000,
-    "marketCapFormatted": "26.20B",
-    "epsGrowth5y": 0.2955760657787323,
-    "changeOneDayPercent": -0.72,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "FAIR",
-    "financialGrowthHealth": "GREAT",
-    "financialProfitabilityHealth": "GOOD",
-    "analystRatings": "STRONG_BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-09T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T21:39:02.141333+07:00"
+    "fetchedAt": "2026-11-09T21:49:06.165784+07:00"
   },
   {
     "id": "102683",
@@ -387,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T21:39:02.141333+07:00"
+    "fetchedAt": "2026-11-09T21:49:06.165784+07:00"
   },
   {
     "id": "102560",
@@ -417,37 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T21:39:02.141333+07:00"
-  },
-  {
-    "id": "102442",
-    "symbol": "BJC",
-    "name": "Berli Jucker PCL",
-    "shortName": "Berli Jucker",
-    "link": "https://www.investing.com/equities/berli-jucker",
-    "price": 20.1,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 17.723400115966797,
-    "fairValueUpside": -11.819999665021896,
-    "peRatio": 13.760000228881836,
-    "evEbitda": 12.739255905151367,
-    "marketCap": 80560000000,
-    "marketCapFormatted": "80.56B",
-    "epsGrowth5y": 0.030917756259441376,
-    "changeOneDayPercent": 0.5,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "FAIR",
-    "financialGrowthHealth": "FAIR",
-    "financialProfitabilityHealth": "FAIR",
-    "analystRatings": "BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-09T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T21:39:02.141333+07:00"
+    "fetchedAt": "2026-11-09T21:49:06.165784+07:00"
   },
   {
     "id": "1025098",
@@ -477,7 +417,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T21:39:02.141333+07:00"
+    "fetchedAt": "2026-11-09T21:49:06.165784+07:00"
   },
   {
     "id": "102561",
@@ -507,7 +447,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T21:39:02.141333+07:00"
+    "fetchedAt": "2026-11-09T21:49:06.165784+07:00"
   },
   {
     "id": "102672",
@@ -537,37 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T21:39:02.141333+07:00"
-  },
-  {
-    "id": "1162301",
-    "symbol": "INSET",
-    "name": "Infraset PCL",
-    "shortName": "Infraset PCL",
-    "link": "https://www.investing.com/equities/infraset-pcl",
-    "price": 4.48,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 3.9853999614715576,
-    "fairValueUpside": -11.03999987244606,
-    "peRatio": 33.90999984741211,
-    "evEbitda": 21.795753479003906,
-    "marketCap": 3580000000,
-    "marketCapFormatted": "3.58B",
-    "epsGrowth5y": -0.14099133014678955,
-    "changeOneDayPercent": 0.45,
-    "financialHealth": "FAIR",
-    "financialCashFlowHealth": "WEAK",
-    "financialGrowthHealth": "FAIR",
-    "financialProfitabilityHealth": "GOOD",
-    "analystRatings": "STRONG_BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-09T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T21:39:02.141333+07:00"
+    "fetchedAt": "2026-11-09T21:49:06.165784+07:00"
   },
   {
     "id": "102757",
@@ -597,6 +507,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-09T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-09T10:49:59.000Z",
-    "fetchedAt": "2026-11-09T21:39:02.141333+07:00"
+    "fetchedAt": "2026-11-09T21:49:06.165784+07:00"
   }
 ]
