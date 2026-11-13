@@ -1,9 +1,9 @@
 [
   {
     "id": "102451",
-    "symbol": "Aaaa",
-    "name": "Aaaa A",
-    "shortName": "Aaaa A",
+    "symbol": "Aa A",
+    "name": "Aa Aa Aaaa A Aaaaa",
+    "shortName": "Aa Aa Aaaa A",
     "link": "#",
     "price": 8.25,
     "currency": "THB",
@@ -27,12 +27,12 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-13T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-13T10:49:59.000Z",
-    "fetchedAt": "2026-11-14T03:35:21.831166+07:00"
+    "fetchedAt": "2026-11-14T03:46:36.763249+07:00"
   },
   {
     "id": "102567",
     "symbol": "Aaaa",
-    "name": "Aaaaaaaaaaaaaa",
+    "name": "Aaaaaaaaaaaaaaaa A",
     "shortName": "Aaaaaaaaaaaa",
     "link": "#",
     "price": 116.0,
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-13T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-13T10:49:59.000Z",
-    "fetchedAt": "2026-11-14T03:35:21.831166+07:00"
+    "fetchedAt": "2026-11-14T03:46:36.763249+07:00"
   },
   {
     "id": "989494",
@@ -87,13 +87,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-13T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-13T10:49:59.000Z",
-    "fetchedAt": "2026-11-14T03:35:21.831166+07:00"
+    "fetchedAt": "2026-11-14T03:46:36.763249+07:00"
   },
   {
     "id": "986147",
     "symbol": "Aaaa",
-    "name": "Aaaaaaaaa Aaaa",
-    "shortName": "Aaaaaaaaa Aa",
+    "name": "Aaaaaaaaa A",
+    "shortName": "Aaaaaaaaa A",
     "link": "#",
     "price": 6.3,
     "currency": "THB",
@@ -117,13 +117,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-13T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-13T10:49:59.000Z",
-    "fetchedAt": "2026-11-14T03:35:21.831166+07:00"
+    "fetchedAt": "2026-11-14T03:46:36.763249+07:00"
   },
   {
     "id": "102869",
     "symbol": "Aaaa",
-    "name": "Aaaa Aaaaa",
-    "shortName": "Aaaa Aaaaa",
+    "name": "Aaaaa Aa",
+    "shortName": "Aaaaa Aa",
     "link": "#",
     "price": 4.96,
     "currency": "THB",
@@ -147,43 +147,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-13T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-13T10:49:59.000Z",
-    "fetchedAt": "2026-11-14T03:35:21.831166+07:00"
-  },
-  {
-    "id": "102560",
-    "symbol": "Aaaa",
-    "name": "Aaaa Aaaaaaaaaaa",
-    "shortName": "Aaaa Aaaaaaa",
-    "link": "#",
-    "price": 254.0,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 208.73489379882812,
-    "fairValueUpside": -17.820000648498535,
-    "peRatio": 11.90999984741211,
-    "evEbitda": null,
-    "marketCap": 597160000000,
-    "marketCapFormatted": "597.16B",
-    "epsGrowth5y": 0.08181243389844894,
-    "changeOneDayPercent": 3.25,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "GOOD",
-    "financialGrowthHealth": "GOOD",
-    "financialProfitabilityHealth": "GOOD",
-    "analystRatings": "BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-13T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-11-13T10:49:59.000Z",
-    "fetchedAt": "2026-11-14T03:35:21.831166+07:00"
+    "fetchedAt": "2026-11-14T03:46:36.763249+07:00"
   },
   {
     "id": "1130942",
-    "symbol": "Aaaa",
-    "name": "Aaaaaaa Aaaaaaa",
-    "shortName": "Aaaaaaa Aaaa",
+    "symbol": "Aaa ",
+    "name": "Aaa Aaa",
+    "shortName": "Aaa Aaa",
     "link": "#",
     "price": 13.1,
     "currency": "THB",
@@ -207,13 +177,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-13T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-13T10:49:59.000Z",
-    "fetchedAt": "2026-11-14T03:35:21.831166+07:00"
+    "fetchedAt": "2026-11-14T03:46:36.763249+07:00"
   },
   {
     "id": "1008691",
     "symbol": "Aaaa",
-    "name": "Aaaaaaaaaaa",
-    "shortName": "Aaaaaaaaaaa",
+    "name": "Aaaaaaaaa",
+    "shortName": "Aaaaaaaaa",
     "link": "#",
     "price": 7.2,
     "currency": "THB",
@@ -237,13 +207,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-13T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-13T10:49:59.000Z",
-    "fetchedAt": "2026-11-14T03:35:21.831166+07:00"
+    "fetchedAt": "2026-11-14T03:46:36.763249+07:00"
   },
   {
     "id": "102714",
     "symbol": "Aaaa",
-    "name": "Aaaaaaaaaaaaaaaaaaa",
-    "shortName": "Aaaaaaaaaaaa",
+    "name": "Aaaaa  Aaa",
+    "shortName": "Aaaaa  Aaa",
     "link": "#",
     "price": 1.42,
     "currency": "THB",
@@ -267,13 +237,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-13T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-13T10:49:59.000Z",
-    "fetchedAt": "2026-11-14T03:35:21.831166+07:00"
+    "fetchedAt": "2026-11-14T03:46:36.763249+07:00"
   },
   {
     "id": "102751",
-    "symbol": "Aaaa",
-    "name": "Aaaaaaa Aa Aaaaaaaaa",
-    "shortName": "Aaaaaaa Aa A",
+    "symbol": "Aa A",
+    "name": "Aa Aaaaaaa Aa Aaaaa",
+    "shortName": "Aa Aaaaaaa A",
     "link": "#",
     "price": 19.2,
     "currency": "THB",
@@ -297,13 +267,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-13T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-13T10:49:59.000Z",
-    "fetchedAt": "2026-11-14T03:35:21.831166+07:00"
+    "fetchedAt": "2026-11-14T03:46:36.763249+07:00"
   },
   {
     "id": "1242508",
     "symbol": "Aaaa",
-    "name": "Aaaaaaaaaa Aaaaaaaa",
-    "shortName": "Aaaaaaaaaa A",
+    "name": "Aaaaaaaaaaaa",
+    "shortName": "Aaaaaaaaaaaa",
     "link": "#",
     "price": 2.04,
     "currency": "THB",
@@ -327,13 +297,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-13T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-13T10:49:59.000Z",
-    "fetchedAt": "2026-11-14T03:35:21.831166+07:00"
+    "fetchedAt": "2026-11-14T03:46:36.763249+07:00"
   },
   {
     "id": "102561",
     "symbol": "Aaaa",
-    "name": "Aaaaaaa Aaa",
-    "shortName": "Aaaaaaa Aaa",
+    "name": "Aaaaaaaa",
+    "shortName": "Aaaaaaaa",
     "link": "#",
     "price": 59.0,
     "currency": "THB",
@@ -357,13 +327,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-13T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-13T10:49:59.000Z",
-    "fetchedAt": "2026-11-14T03:35:21.831166+07:00"
+    "fetchedAt": "2026-11-14T03:46:36.763249+07:00"
   },
   {
     "id": "986220",
     "symbol": "Aaaa",
-    "name": "Aaaaaaa",
-    "shortName": "Aaaaaaa",
+    "name": "Aaaaaaaa A",
+    "shortName": "Aaaaaaaa A",
     "link": "#",
     "price": 13.4,
     "currency": "THB",
@@ -387,13 +357,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-13T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-13T10:49:59.000Z",
-    "fetchedAt": "2026-11-14T03:35:21.831166+07:00"
+    "fetchedAt": "2026-11-14T03:46:36.763249+07:00"
   },
   {
     "id": "102683",
     "symbol": "Aaaa",
-    "name": "Aaaaaaaaa",
-    "shortName": "Aaaaaaaaa",
+    "name": "Aaaaaaa",
+    "shortName": "Aaaaaaa",
     "link": "#",
     "price": 36.5,
     "currency": "THB",
@@ -417,13 +387,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-13T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-13T10:49:59.000Z",
-    "fetchedAt": "2026-11-14T03:35:21.831166+07:00"
+    "fetchedAt": "2026-11-14T03:46:36.763249+07:00"
   },
   {
     "id": "102757",
     "symbol": "Aaaa",
-    "name": "Aaaaaaaaaa A",
-    "shortName": "Aaaaaaaaaa A",
+    "name": "Aaaaaa Aaaaa",
+    "shortName": "Aaaaaa Aaaaa",
     "link": "#",
     "price": 5.35,
     "currency": "THB",
@@ -447,13 +417,13 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-13T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-13T10:49:59.000Z",
-    "fetchedAt": "2026-11-14T03:35:21.831166+07:00"
+    "fetchedAt": "2026-11-14T03:46:36.763249+07:00"
   },
   {
     "id": "1242607",
-    "symbol": "Aa A",
-    "name": "Aa A A  Aaaaa A Aaa",
-    "shortName": "Aa A A  Aaaa",
+    "symbol": "Aaaa",
+    "name": "Aaaaaaa Aaaaaaaaaaaa",
+    "shortName": "Aaaaaaa Aaaa",
     "link": "#",
     "price": 2.04,
     "currency": "THB",
@@ -477,6 +447,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-13T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-13T10:49:59.000Z",
-    "fetchedAt": "2026-11-14T03:35:21.831166+07:00"
+    "fetchedAt": "2026-11-14T03:46:36.763249+07:00"
   }
 ]
