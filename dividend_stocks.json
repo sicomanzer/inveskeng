@@ -1,7 +1,7 @@
 {
- "asOf": "2026-11-18T12:30:49.077035+07:00",
+ "asOf": "2026-11-18T14:29:51.442503+07:00",
  "sourceAsOf": "2026-11-18T12:30:45.265481+07:00",
- "partial": false,
+ "partial": true,
  "criteria": {
   "market": "TH",
   "divYieldMin": 5,
@@ -26,10 +26,6 @@
    "peRatio": 7.42,
    "pegRatio": 0.08,
    "currency": "THB",
-   "price": 37.7,
-   "changePercent": 1.34,
-   "divYield": 7.43,
-   "avgYield5y": 5.8,
    "dpsLastYear": 2.8,
    "dpsPrevFY": 2.3,
    "divPayments": [
@@ -105,7 +101,11 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-11T06:19:57.487830+00:00"
+   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "price": 37.6,
+   "changePercent": 1.08,
+   "divYield": 7.45,
+   "avgYield5y": 5.8
   },
   {
    "symbol": "KTB",
@@ -120,10 +120,6 @@
    "peRatio": 12.48,
    "pegRatio": -13.95,
    "currency": "THB",
-   "price": 42.8,
-   "changePercent": 0.0,
-   "divYield": 6.36,
-   "avgYield5y": 3.86,
    "dpsLastYear": 2.72,
    "dpsPrevFY": 2.67,
    "divPayments": [
@@ -179,7 +175,11 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-11T06:19:57.487830+00:00"
+   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "price": 43.0,
+   "changePercent": 0.47,
+   "divYield": 6.33,
+   "avgYield5y": 3.86
   },
   {
    "symbol": "PTTEP",
@@ -194,10 +194,6 @@
    "peRatio": 7.68,
    "pegRatio": 0.38,
    "currency": "THB",
-   "price": 144.5,
-   "changePercent": 1.4,
-   "divYield": 6.33,
-   "avgYield5y": 6.14,
    "dpsLastYear": 9.15,
    "dpsPrevFY": 8.75,
    "divPayments": [
@@ -273,7 +269,11 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-11T06:19:57.487830+00:00"
+   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "price": 144.0,
+   "changePercent": 1.05,
+   "divYield": 6.35,
+   "avgYield5y": 6.14
   },
   {
    "symbol": "SCB",
@@ -288,10 +288,6 @@
    "peRatio": 12.35,
    "pegRatio": -0.87,
    "currency": "THB",
-   "price": 154.0,
-   "changePercent": 0.0,
-   "divYield": 7.32,
-   "avgYield5y": 6.14,
    "dpsLastYear": 11.28,
    "dpsPrevFY": 11.28,
    "divPayments": [
@@ -345,7 +341,11 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-11T06:19:57.487830+00:00"
+   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "price": 154.5,
+   "changePercent": 0.32,
+   "divYield": 7.3,
+   "avgYield5y": 6.14
   },
   {
    "symbol": "BBL",
@@ -360,10 +360,6 @@
    "peRatio": 9.23,
    "pegRatio": -0.42,
    "currency": "THB",
-   "price": 182.5,
-   "changePercent": -0.54,
-   "divYield": 5.48,
-   "avgYield5y": 3.69,
    "dpsLastYear": 10.0,
    "dpsPrevFY": 10.0,
    "divPayments": [
@@ -435,7 +431,11 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-11T06:19:57.487830+00:00"
+   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "price": 182.5,
+   "changePercent": -0.54,
+   "divYield": 5.48,
+   "avgYield5y": 3.69
   },
   {
    "symbol": "TISCO",
@@ -450,10 +450,6 @@
    "peRatio": 14.65,
    "pegRatio": 6.32,
    "currency": "THB",
-   "price": 127.0,
-   "changePercent": 0.0,
-   "divYield": 6.1,
-   "avgYield5y": 7.68,
    "dpsLastYear": 7.75,
    "dpsPrevFY": 7.75,
    "divPayments": [
@@ -517,7 +513,11 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-11T06:19:57.487830+00:00"
+   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "price": 127.0,
+   "changePercent": 0.0,
+   "divYield": 6.1,
+   "avgYield5y": 7.68
   },
   {
    "symbol": "KKP",
@@ -532,10 +532,6 @@
    "peRatio": 11.77,
    "pegRatio": 0.26,
    "currency": "THB",
-   "price": 116.0,
-   "changePercent": 0.0,
-   "divYield": 6.42,
-   "avgYield5y": 5.56,
    "dpsLastYear": 7.45,
    "dpsPrevFY": 5.7,
    "divPayments": [
@@ -607,7 +603,11 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-11T06:19:57.487830+00:00"
+   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "price": 116.0,
+   "changePercent": 0.0,
+   "divYield": 6.42,
+   "avgYield5y": 5.56
   },
   {
    "symbol": "BCP",
@@ -622,10 +622,6 @@
    "peRatio": 2.1,
    "pegRatio": 0.0,
    "currency": "THB",
-   "price": 44.0,
-   "changePercent": -0.23,
-   "divYield": 9.2,
-   "avgYield5y": 4.74,
    "dpsLastYear": 4.05,
    "dpsPrevFY": 1.05,
    "divPayments": [
@@ -693,7 +689,11 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-11T06:19:57.487830+00:00"
+   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "price": 43.9,
+   "changePercent": -0.45,
+   "divYield": 9.23,
+   "avgYield5y": 4.74
   },
   {
    "symbol": "TU",
@@ -708,10 +708,6 @@
    "peRatio": 10.58,
    "pegRatio": 2.4,
    "currency": "THB",
-   "price": 13.0,
-   "changePercent": -0.76,
-   "divYield": 5.77,
-   "avgYield5y": 4.86,
    "dpsLastYear": 0.75,
    "dpsPrevFY": 0.7,
    "divPayments": [
@@ -787,7 +783,11 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-11T06:19:57.487830+00:00"
+   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "price": 13.0,
+   "changePercent": -0.76,
+   "divYield": 5.77,
+   "avgYield5y": 4.86
   },
   {
    "symbol": "TFG",
@@ -802,10 +802,6 @@
    "peRatio": 8.48,
    "pegRatio": -0.88,
    "currency": "THB",
-   "price": 9.34,
-   "changePercent": -0.64,
-   "divYield": 7.6,
-   "avgYield5y": 5.96,
    "dpsLastYear": 0.71,
    "dpsPrevFY": 0.71,
    "divPayments": [
@@ -897,7 +893,11 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-11T06:19:57.487830+00:00"
+   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "price": 9.36,
+   "changePercent": -0.43,
+   "divYield": 7.59,
+   "avgYield5y": 5.96
   },
   {
    "symbol": "CPNREITu",
@@ -912,16 +912,16 @@
    "peRatio": 13.8,
    "pegRatio": 0.72,
    "currency": "THB",
-   "price": 13.2,
-   "changePercent": -0.38,
-   "divYield": null,
-   "avgYield5y": null,
    "dpsLastYear": null,
    "dpsPrevFY": null,
    "divPayments": [],
    "dpsByYear": {},
    "yieldYearsUsed": [],
-   "dividendsAsOf": null
+   "dividendsAsOf": null,
+   "price": 13.2,
+   "changePercent": -0.38,
+   "divYield": null,
+   "avgYield5y": null
   },
   {
    "symbol": "SCCC",
@@ -936,10 +936,6 @@
    "peRatio": 10.88,
    "pegRatio": -0.47,
    "currency": "THB",
-   "price": 152.5,
-   "changePercent": 0.0,
-   "divYield": 7.21,
-   "avgYield5y": 6.54,
    "dpsLastYear": 11.0,
    "dpsPrevFY": 11.0,
    "divPayments": [
@@ -999,7 +995,11 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-11T06:19:57.487830+00:00"
+   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "price": 152.5,
+   "changePercent": 0.0,
+   "divYield": 7.21,
+   "avgYield5y": 6.54
   },
   {
    "symbol": "LH",
@@ -1014,10 +1014,6 @@
    "peRatio": 16.09,
    "pegRatio": -0.29,
    "currency": "THB",
-   "price": 3.6,
-   "changePercent": 0.0,
-   "divYield": 5.56,
-   "avgYield5y": 6.98,
    "dpsLastYear": 0.2,
    "dpsPrevFY": 0.25,
    "divPayments": [
@@ -1093,7 +1089,11 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-11T06:19:57.487830+00:00"
+   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "price": 3.6,
+   "changePercent": 0.0,
+   "divYield": 5.56,
+   "avgYield5y": 6.98
   },
   {
    "symbol": "BKIH",
@@ -1108,10 +1108,6 @@
    "peRatio": null,
    "pegRatio": 0.23,
    "currency": "THB",
-   "price": 399.0,
-   "changePercent": -0.25,
-   "divYield": 5.89,
-   "avgYield5y": 4.76,
    "dpsLastYear": 23.5,
    "dpsPrevFY": 22.75,
    "divPayments": [
@@ -1157,7 +1153,11 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-11T06:19:57.487830+00:00"
+   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "price": 400.0,
+   "changePercent": 0.0,
+   "divYield": 5.88,
+   "avgYield5y": 4.76
   },
   {
    "symbol": "TTW",
@@ -1172,10 +1172,6 @@
    "peRatio": 13.39,
    "pegRatio": -1.92,
    "currency": "THB",
-   "price": 9.96,
-   "changePercent": -0.2,
-   "divYield": 6.02,
-   "avgYield5y": 6.34,
    "dpsLastYear": 0.6,
    "dpsPrevFY": 0.6,
    "divPayments": [
@@ -1251,7 +1247,11 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-11T06:19:57.487830+00:00"
+   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "price": 9.96,
+   "changePercent": -0.2,
+   "divYield": 6.02,
+   "avgYield5y": 6.34
   },
   {
    "symbol": "RCL",
@@ -1266,10 +1266,6 @@
    "peRatio": 3.72,
    "pegRatio": -0.38,
    "currency": "THB",
-   "price": 39.1,
-   "changePercent": 1.03,
-   "divYield": 6.39,
-   "avgYield5y": 11.56,
    "dpsLastYear": 2.5,
    "dpsPrevFY": 2.5,
    "divPayments": [
@@ -1353,7 +1349,11 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-11T06:19:57.487830+00:00"
+   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "price": 38.9,
+   "changePercent": 0.52,
+   "divYield": 6.43,
+   "avgYield5y": 11.56
   },
   {
    "symbol": "SPALI",
@@ -1368,10 +1368,6 @@
    "peRatio": 6.85,
    "pegRatio": -0.51,
    "currency": "THB",
-   "price": 15.3,
-   "changePercent": -0.65,
-   "divYield": 8.17,
-   "avgYield5y": 6.76,
    "dpsLastYear": 1.25,
    "dpsPrevFY": 1.25,
    "divPayments": [
@@ -1447,7 +1443,11 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-11T06:19:57.487830+00:00"
+   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "price": 15.25,
+   "changePercent": -0.97,
+   "divYield": 8.2,
+   "avgYield5y": 6.76
   },
   {
    "symbol": "STA",
@@ -1462,10 +1462,6 @@
    "peRatio": 16.54,
    "pegRatio": 0.01,
    "currency": "THB",
-   "price": 18.5,
-   "changePercent": 0.0,
-   "divYield": 5.41,
-   "avgYield5y": 8.94,
    "dpsLastYear": 1.0,
    "dpsPrevFY": 0.5,
    "divPayments": [
@@ -1537,7 +1533,11 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-13T10:51:47.839013+00:00"
+   "dividendsAsOf": "2026-11-13T10:51:47.839013+00:00",
+   "price": 18.5,
+   "changePercent": 0.0,
+   "divYield": 5.41,
+   "avgYield5y": 8.94
   },
   {
    "symbol": "AP",
@@ -1552,10 +1552,6 @@
    "peRatio": 5.73,
    "pegRatio": 1.64,
    "currency": "THB",
-   "price": 8.16,
-   "changePercent": -0.24,
-   "divYield": 6.37,
-   "avgYield5y": 6.08,
    "dpsLastYear": 0.52,
    "dpsPrevFY": 0.52,
    "divPayments": [
@@ -1603,7 +1599,11 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-11T06:19:57.487830+00:00"
+   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "price": 8.16,
+   "changePercent": -0.24,
+   "divYield": 6.37,
+   "avgYield5y": 6.08
   },
   {
    "symbol": "TVO",
@@ -1618,10 +1618,6 @@
    "peRatio": 9.6,
    "pegRatio": 1.42,
    "currency": "THB",
-   "price": 28.0,
-   "changePercent": 0.0,
-   "divYield": 7.39,
-   "avgYield5y": 5.82,
    "dpsLastYear": 2.07,
    "dpsPrevFY": 1.97,
    "divPayments": [
@@ -1693,7 +1689,11 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-11T06:19:57.487830+00:00"
+   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "price": 28.1,
+   "changePercent": 0.36,
+   "divYield": 7.37,
+   "avgYield5y": 5.82
   },
   {
    "symbol": "TVO_n",
@@ -1708,16 +1708,16 @@
    "peRatio": 10.12,
    "pegRatio": 1.42,
    "currency": "THB",
-   "price": 28.0,
-   "changePercent": 0.0,
-   "divYield": null,
-   "avgYield5y": null,
    "dpsLastYear": null,
    "dpsPrevFY": null,
    "divPayments": [],
    "dpsByYear": {},
    "yieldYearsUsed": [],
-   "dividendsAsOf": null
+   "dividendsAsOf": null,
+   "price": 28.0,
+   "changePercent": 0.0,
+   "divYield": null,
+   "avgYield5y": null
   },
   {
    "symbol": "STGT",
@@ -1732,10 +1732,6 @@
    "peRatio": 76.69,
    "pegRatio": -1.73,
    "currency": "THB",
-   "price": 9.06,
-   "changePercent": 0.44,
-   "divYield": 8.28,
-   "avgYield5y": 9.12,
    "dpsLastYear": 0.75,
    "dpsPrevFY": 0.5,
    "divPayments": [
@@ -1803,7 +1799,11 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-11T06:19:57.487830+00:00"
+   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "price": 9.06,
+   "changePercent": 0.44,
+   "divYield": 8.28,
+   "avgYield5y": 9.12
   },
   {
    "symbol": "SIRI",
@@ -1818,10 +1818,6 @@
    "peRatio": 5.72,
    "pegRatio": -1.17,
    "currency": "THB",
-   "price": 1.42,
-   "changePercent": 0.0,
-   "divYield": 9.15,
-   "avgYield5y": 7.99,
    "dpsLastYear": 0.13,
    "dpsPrevFY": 0.13,
    "divPayments": [
@@ -1889,7 +1885,11 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-11T06:19:57.487830+00:00"
+   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "price": 1.42,
+   "changePercent": 0.0,
+   "divYield": 9.15,
+   "avgYield5y": 7.99
   },
   {
    "symbol": "BAM",
@@ -1904,10 +1904,6 @@
    "peRatio": 27.96,
    "pegRatio": -0.41,
    "currency": "THB",
-   "price": 6.3,
-   "changePercent": -0.0,
-   "divYield": 7.94,
-   "avgYield5y": 4.64,
    "dpsLastYear": 0.5,
    "dpsPrevFY": 0.5,
    "divPayments": [
@@ -1955,7 +1951,11 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-11T06:19:57.487830+00:00"
+   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "price": 6.32,
+   "changePercent": 0.32,
+   "divYield": 7.91,
+   "avgYield5y": 4.64
   },
   {
    "symbol": "PRM",
@@ -1970,10 +1970,6 @@
    "peRatio": 8.84,
    "pegRatio": 4.24,
    "currency": "THB",
-   "price": 8.72,
-   "changePercent": 0.69,
-   "divYield": 5.16,
-   "avgYield5y": 5.51,
    "dpsLastYear": 0.45,
    "dpsPrevFY": 0.5,
    "divPayments": [
@@ -2049,7 +2045,11 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-11T06:19:57.487830+00:00"
+   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "price": 8.72,
+   "changePercent": 0.69,
+   "divYield": 5.16,
+   "avgYield5y": 5.51
   },
   {
    "symbol": "ICHI",
@@ -2064,10 +2064,6 @@
    "peRatio": 14.73,
    "pegRatio": 2.82,
    "currency": "THB",
-   "price": 14.6,
-   "changePercent": 2.1,
-   "divYield": 6.85,
-   "avgYield5y": 6.35,
    "dpsLastYear": 1.0,
    "dpsPrevFY": 1.1,
    "divPayments": [
@@ -2131,7 +2127,11 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-11T06:19:57.487830+00:00"
+   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "price": 14.65,
+   "changePercent": 2.45,
+   "divYield": 6.83,
+   "avgYield5y": 6.35
   },
   {
    "symbol": "IMPACT",
@@ -2146,10 +2146,6 @@
    "peRatio": 14.92,
    "pegRatio": 1.29,
    "currency": "THB",
-   "price": 12.3,
-   "changePercent": -0.4,
-   "divYield": 5.77,
-   "avgYield5y": 4.24,
    "dpsLastYear": 0.71,
    "dpsPrevFY": 0.69,
    "divPayments": [
@@ -2261,7 +2257,11 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-17T12:50:48.260638+00:00"
+   "dividendsAsOf": "2026-11-17T12:50:48.260638+00:00",
+   "price": 12.25,
+   "changePercent": -0.81,
+   "divYield": 5.8,
+   "avgYield5y": 4.24
   },
   {
    "symbol": "STANLY",
@@ -2276,10 +2276,6 @@
    "peRatio": 9.39,
    "pegRatio": 1.28,
    "currency": "THB",
-   "price": 229.0,
-   "changePercent": 0.88,
-   "divYield": 11.79,
-   "avgYield5y": 7.65,
    "dpsLastYear": 27.0,
    "dpsPrevFY": 20.0,
    "divPayments": [
@@ -2335,7 +2331,11 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-11T06:19:57.487830+00:00"
+   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "price": 228.0,
+   "changePercent": 0.44,
+   "divYield": 11.84,
+   "avgYield5y": 7.65
   },
   {
    "symbol": "AYUD",
@@ -2350,10 +2350,6 @@
    "peRatio": 5.75,
    "pegRatio": 0.5,
    "currency": "THB",
-   "price": 41.9,
-   "changePercent": 0.48,
-   "divYield": 6.13,
-   "avgYield5y": 7.28,
    "dpsLastYear": 2.57,
    "dpsPrevFY": 2.32,
    "divPayments": [
@@ -2429,7 +2425,11 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-11T06:19:57.487830+00:00"
+   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "price": 41.7,
+   "changePercent": -0.0,
+   "divYield": 6.16,
+   "avgYield5y": 7.28
   },
   {
    "symbol": "QH",
@@ -2444,10 +2444,6 @@
    "peRatio": 8.11,
    "pegRatio": 0.86,
    "currency": "THB",
-   "price": 1.35,
-   "changePercent": -0.0,
-   "divYield": 6.67,
-   "avgYield5y": 6.28,
    "dpsLastYear": 0.09,
    "dpsPrevFY": 0.09,
    "divPayments": [
@@ -2523,7 +2519,11 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-17T11:13:30.424565+00:00"
+   "dividendsAsOf": "2026-11-17T11:13:30.424565+00:00",
+   "price": 1.34,
+   "changePercent": -0.74,
+   "divYield": 6.72,
+   "avgYield5y": 6.28
   }
  ]
 }
