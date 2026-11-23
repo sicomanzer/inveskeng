@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-23T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-23T10:49:59.000Z",
-    "fetchedAt": "2026-11-24T06:12:00.313611+07:00"
+    "fetchedAt": "2026-11-24T06:23:14.602777+07:00"
   },
   {
     "id": "1165537",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-23T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-23T10:49:59.000Z",
-    "fetchedAt": "2026-11-24T06:12:00.313611+07:00"
+    "fetchedAt": "2026-11-24T06:23:14.602777+07:00"
   },
   {
     "id": "1209591",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-23T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-23T10:49:59.000Z",
-    "fetchedAt": "2026-11-24T06:12:00.313611+07:00"
+    "fetchedAt": "2026-11-24T06:23:14.602777+07:00"
   },
   {
     "id": "102567",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-23T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-23T10:49:59.000Z",
-    "fetchedAt": "2026-11-24T06:12:00.313611+07:00"
+    "fetchedAt": "2026-11-24T06:23:14.602777+07:00"
   },
   {
     "id": "102683",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-23T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-23T10:49:59.000Z",
-    "fetchedAt": "2026-11-24T06:12:00.313611+07:00"
+    "fetchedAt": "2026-11-24T06:23:14.602777+07:00"
   },
   {
     "id": "103855",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-23T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-23T10:49:59.000Z",
-    "fetchedAt": "2026-11-24T06:12:00.313611+07:00"
+    "fetchedAt": "2026-11-24T06:23:14.602777+07:00"
   },
   {
     "id": "1130942",
@@ -207,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-23T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-23T10:49:59.000Z",
-    "fetchedAt": "2026-11-24T06:12:00.313611+07:00"
+    "fetchedAt": "2026-11-24T06:23:14.602777+07:00"
   },
   {
     "id": "102561",
@@ -237,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-23T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-23T10:49:59.000Z",
-    "fetchedAt": "2026-11-24T06:12:00.313611+07:00"
+    "fetchedAt": "2026-11-24T06:23:14.602777+07:00"
   },
   {
     "id": "102560",
@@ -267,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-23T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-23T10:49:59.000Z",
-    "fetchedAt": "2026-11-24T06:12:00.313611+07:00"
+    "fetchedAt": "2026-11-24T06:23:14.602777+07:00"
   },
   {
     "id": "102869",
@@ -297,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-23T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-23T10:49:59.000Z",
-    "fetchedAt": "2026-11-24T06:12:00.313611+07:00"
+    "fetchedAt": "2026-11-24T06:23:14.602777+07:00"
   },
   {
     "id": "102714",
@@ -327,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-23T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-23T10:49:59.000Z",
-    "fetchedAt": "2026-11-24T06:12:00.313611+07:00"
+    "fetchedAt": "2026-11-24T06:23:14.602777+07:00"
   },
   {
     "id": "102442",
@@ -357,7 +357,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-23T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-23T10:49:59.000Z",
-    "fetchedAt": "2026-11-24T06:12:00.313611+07:00"
+    "fetchedAt": "2026-11-24T06:23:14.602777+07:00"
+  },
+  {
+    "id": "102751",
+    "symbol": "STA",
+    "name": "Sri Trang Agro Industry PCL",
+    "shortName": "Sri Trang Agro",
+    "link": "https://www.investing.com/equities/sri-trang-agro",
+    "price": 17.4,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 15.3503999710083,
+    "fairValueUpside": -11.779999732971191,
+    "peRatio": 15.550000190734863,
+    "evEbitda": 9.08460807800293,
+    "marketCap": 26730000000,
+    "marketCapFormatted": "26.73B",
+    "epsGrowth5y": 0.9898490309715271,
+    "changeOneDayPercent": -0.85,
+    "financialHealth": "FAIR",
+    "financialCashFlowHealth": "FAIR",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "FAIR",
+    "analystRatings": "STRONG_BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-23T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-23T10:49:59.000Z",
+    "fetchedAt": "2026-11-24T06:23:14.602777+07:00"
   },
   {
     "id": "1199621",
@@ -387,6 +417,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-23T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-23T10:49:59.000Z",
-    "fetchedAt": "2026-11-24T06:12:00.313611+07:00"
+    "fetchedAt": "2026-11-24T06:23:14.602777+07:00"
   }
 ]
