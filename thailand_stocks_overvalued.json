@@ -15,7 +15,7 @@
     "marketCap": 100650000000,
     "marketCapFormatted": "100.65B",
     "epsGrowth5y": 0.2806616425514221,
-    "changeOneDayPercent": 1.82,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "FAIR",
     "financialCashFlowHealth": "FAIR",
     "financialGrowthHealth": "FAIR",
@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-23T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-23T10:49:59.000Z",
-    "fetchedAt": "2026-11-24T09:51:23.019143+07:00"
+    "fetchedAt": "2026-11-24T10:02:10.852203+07:00"
   },
   {
     "id": "1165537",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-23T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-23T10:49:59.000Z",
-    "fetchedAt": "2026-11-24T09:51:23.019143+07:00"
+    "fetchedAt": "2026-11-24T10:02:10.852203+07:00"
   },
   {
     "id": "1209591",
@@ -75,7 +75,7 @@
     "marketCap": 9540000000,
     "marketCapFormatted": "9.54B",
     "epsGrowth5y": 0.3331032395362854,
-    "changeOneDayPercent": -0.69,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "GOOD",
     "financialCashFlowHealth": "GOOD",
     "financialGrowthHealth": "FAIR",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-23T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-23T10:49:59.000Z",
-    "fetchedAt": "2026-11-24T09:51:23.019143+07:00"
+    "fetchedAt": "2026-11-24T10:02:10.852203+07:00"
   },
   {
     "id": "102567",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-23T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-23T10:49:59.000Z",
-    "fetchedAt": "2026-11-24T09:51:23.019143+07:00"
+    "fetchedAt": "2026-11-24T10:02:10.852203+07:00"
   },
   {
     "id": "102683",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-23T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-23T10:49:59.000Z",
-    "fetchedAt": "2026-11-24T09:51:23.019143+07:00"
+    "fetchedAt": "2026-11-24T10:02:10.852203+07:00"
   },
   {
     "id": "103855",
@@ -165,7 +165,7 @@
     "marketCap": 5000000000,
     "marketCapFormatted": "5.00B",
     "epsGrowth5y": -3.2851991653442383,
-    "changeOneDayPercent": 1.98,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "GOOD",
     "financialCashFlowHealth": "FAIR",
     "financialGrowthHealth": "GREAT",
@@ -177,7 +177,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-23T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-23T10:49:59.000Z",
-    "fetchedAt": "2026-11-24T09:51:23.019143+07:00"
+    "fetchedAt": "2026-11-24T10:02:10.852203+07:00"
+  },
+  {
+    "id": "1130942",
+    "symbol": "CPNREITu",
+    "name": "Cpn Retail Growth Leasehold REIT Unit",
+    "shortName": "Cpn Retail Growth Leasehold REIT Unt",
+    "link": "https://www.investing.com/equities/cpn-retail-growth-leasehold-reit",
+    "price": 13.15,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 10.990699768066406,
+    "fairValueUpside": -16.419999301433563,
+    "peRatio": 13.800000190734863,
+    "evEbitda": null,
+    "marketCap": 47620000000,
+    "marketCapFormatted": "47.62B",
+    "epsGrowth5y": 5.6928486824035645,
+    "changeOneDayPercent": 0.0,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "GOOD",
+    "financialGrowthHealth": "GOOD",
+    "financialProfitabilityHealth": "GREAT",
+    "analystRatings": "BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-23T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-23T10:49:59.000Z",
+    "fetchedAt": "2026-11-24T10:02:10.852203+07:00"
   },
   {
     "id": "102561",
@@ -195,7 +225,7 @@
     "marketCap": 62650000000,
     "marketCapFormatted": "62.65B",
     "epsGrowth5y": -0.009749066084623337,
-    "changeOneDayPercent": 4.95,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "FAIR",
     "financialCashFlowHealth": "GREAT",
     "financialGrowthHealth": "FAIR",
@@ -207,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-23T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-23T10:49:59.000Z",
-    "fetchedAt": "2026-11-24T09:51:23.019143+07:00"
+    "fetchedAt": "2026-11-24T10:02:10.852203+07:00"
   },
   {
     "id": "102560",
@@ -225,7 +255,7 @@
     "marketCap": 590110000000,
     "marketCapFormatted": "590.11B",
     "epsGrowth5y": 0.0825149193406105,
-    "changeOneDayPercent": 0.8,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "GOOD",
     "financialCashFlowHealth": "FAIR",
     "financialGrowthHealth": "GOOD",
@@ -237,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-23T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-23T10:49:59.000Z",
-    "fetchedAt": "2026-11-24T09:51:23.019143+07:00"
+    "fetchedAt": "2026-11-24T10:02:10.852203+07:00"
   },
   {
     "id": "102869",
@@ -255,7 +285,7 @@
     "marketCap": 69650000000,
     "marketCapFormatted": "69.65B",
     "epsGrowth5y": 0.16825425624847412,
-    "changeOneDayPercent": -2.1,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "FAIR",
     "financialCashFlowHealth": "FAIR",
     "financialGrowthHealth": "WEAK",
@@ -267,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-23T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-23T10:49:59.000Z",
-    "fetchedAt": "2026-11-24T09:51:23.019143+07:00"
+    "fetchedAt": "2026-11-24T10:02:10.852203+07:00"
   },
   {
     "id": "102714",
@@ -285,7 +315,7 @@
     "marketCap": 24430000000,
     "marketCapFormatted": "24.43B",
     "epsGrowth5y": 0.3030032515525818,
-    "changeOneDayPercent": -0.71,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "GOOD",
     "financialCashFlowHealth": "FAIR",
     "financialGrowthHealth": "FAIR",
@@ -297,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-23T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-23T10:49:59.000Z",
-    "fetchedAt": "2026-11-24T09:51:23.019143+07:00"
+    "fetchedAt": "2026-11-24T10:02:10.852203+07:00"
   },
   {
     "id": "102442",
@@ -315,7 +345,7 @@
     "marketCap": 82160000000,
     "marketCapFormatted": "82.16B",
     "epsGrowth5y": 0.07646749168634415,
-    "changeOneDayPercent": 3.02,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "GOOD",
     "financialCashFlowHealth": "FAIR",
     "financialGrowthHealth": "GOOD",
@@ -327,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-23T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-23T10:49:59.000Z",
-    "fetchedAt": "2026-11-24T09:51:23.019143+07:00"
+    "fetchedAt": "2026-11-24T10:02:10.852203+07:00"
   },
   {
     "id": "102751",
@@ -345,7 +375,7 @@
     "marketCap": 26280000000,
     "marketCapFormatted": "26.28B",
     "epsGrowth5y": 0.9898490309715271,
-    "changeOneDayPercent": -0.85,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "FAIR",
     "financialCashFlowHealth": "FAIR",
     "financialGrowthHealth": "FAIR",
@@ -357,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-23T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-23T10:49:59.000Z",
-    "fetchedAt": "2026-11-24T09:51:23.019143+07:00"
+    "fetchedAt": "2026-11-24T10:02:10.852203+07:00"
   },
   {
     "id": "1199621",
@@ -375,7 +405,7 @@
     "marketCap": 9730000000,
     "marketCapFormatted": "9.73B",
     "epsGrowth5y": -0.6093659400939941,
-    "changeOneDayPercent": 3.31,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "GOOD",
     "financialCashFlowHealth": "GREAT",
     "financialGrowthHealth": "EXCELLENT",
@@ -387,6 +417,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-23T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-23T10:49:59.000Z",
-    "fetchedAt": "2026-11-24T09:51:23.019143+07:00"
+    "fetchedAt": "2026-11-24T10:02:10.852203+07:00"
   }
 ]
