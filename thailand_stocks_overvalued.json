@@ -25,9 +25,39 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-24T07:58:19.000Z",
-    "sourceUpdatedTime": "2026-11-24T07:58:19.000Z",
-    "fetchedAt": "2026-11-24T15:13:28.876755+07:00"
+    "lastUpdateTime": "2026-11-24T08:08:58.000Z",
+    "sourceUpdatedTime": "2026-11-24T08:08:58.000Z",
+    "fetchedAt": "2026-11-24T15:24:15.378472+07:00"
+  },
+  {
+    "id": "1165537",
+    "symbol": "PROSPECTu",
+    "name": "Prospect Logistics and Industrial Freehold and Leasehold Real Estate Investment",
+    "shortName": "Prospect",
+    "link": "https://www.investing.com/equities/prospect-logistics-and-industrial",
+    "price": 8.64,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 6.563199996948242,
+    "fairValueUpside": -24.04000014066696,
+    "peRatio": 15.050000190734863,
+    "evEbitda": null,
+    "marketCap": 8570000000,
+    "marketCapFormatted": "8.57B",
+    "epsGrowth5y": 0.0514681413769722,
+    "changeOneDayPercent": 1.17,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "WEAK",
+    "financialGrowthHealth": "GREAT",
+    "financialProfitabilityHealth": "GREAT",
+    "analystRatings": "NEUTRAL",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-24T08:08:58.000Z",
+    "sourceUpdatedTime": "2026-11-24T08:08:58.000Z",
+    "fetchedAt": "2026-11-24T15:24:15.378472+07:00"
   },
   {
     "id": "986147",
@@ -35,7 +65,7 @@
     "name": "Bangkok Expressway and Metro PCL",
     "shortName": "BEM",
     "link": "https://www.investing.com/equities/bangkok-expressway-and-metro",
-    "price": 6.58,
+    "price": 6.54,
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 5.1118998527526855,
@@ -45,7 +75,7 @@
     "marketCap": 98850000000,
     "marketCapFormatted": "98.85B",
     "epsGrowth5y": 0.2806616425514221,
-    "changeOneDayPercent": -2.08,
+    "changeOneDayPercent": -2.68,
     "financialHealth": "FAIR",
     "financialCashFlowHealth": "FAIR",
     "financialGrowthHealth": "FAIR",
@@ -55,9 +85,9 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-24T07:58:19.000Z",
-    "sourceUpdatedTime": "2026-11-24T07:58:19.000Z",
-    "fetchedAt": "2026-11-24T15:13:28.876755+07:00"
+    "lastUpdateTime": "2026-11-24T08:08:58.000Z",
+    "sourceUpdatedTime": "2026-11-24T08:08:58.000Z",
+    "fetchedAt": "2026-11-24T15:24:15.378472+07:00"
   },
   {
     "id": "1209591",
@@ -65,7 +95,7 @@
     "name": "SCG Decor PCL",
     "shortName": "SCG Decor PCL",
     "link": "https://www.investing.com/equities/scg-decor-pcl",
-    "price": 5.8,
+    "price": 5.78,
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 4.5192999839782715,
@@ -75,7 +105,7 @@
     "marketCap": 9540000000,
     "marketCapFormatted": "9.54B",
     "epsGrowth5y": 0.3331032395362854,
-    "changeOneDayPercent": 0.35,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "GOOD",
     "financialCashFlowHealth": "GOOD",
     "financialGrowthHealth": "FAIR",
@@ -85,9 +115,9 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-24T07:58:19.000Z",
-    "sourceUpdatedTime": "2026-11-24T07:58:19.000Z",
-    "fetchedAt": "2026-11-24T15:13:28.876755+07:00"
+    "lastUpdateTime": "2026-11-24T08:08:58.000Z",
+    "sourceUpdatedTime": "2026-11-24T08:08:58.000Z",
+    "fetchedAt": "2026-11-24T15:24:15.378472+07:00"
   },
   {
     "id": "102567",
@@ -115,9 +145,9 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-24T07:58:19.000Z",
-    "sourceUpdatedTime": "2026-11-24T07:58:19.000Z",
-    "fetchedAt": "2026-11-24T15:13:28.876755+07:00"
+    "lastUpdateTime": "2026-11-24T08:08:58.000Z",
+    "sourceUpdatedTime": "2026-11-24T08:08:58.000Z",
+    "fetchedAt": "2026-11-24T15:24:15.378472+07:00"
   },
   {
     "id": "102683",
@@ -129,11 +159,11 @@
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 28.79680061340332,
-    "fairValueUpside": -20.669999718666077,
-    "peRatio": 14.100000381469727,
+    "fairValueUpside": -20.890000462532043,
+    "peRatio": 14.0600004196167,
     "evEbitda": 32.4140625,
-    "marketCap": 79390000000,
-    "marketCapFormatted": "79.39B",
+    "marketCap": 79170000000,
+    "marketCapFormatted": "79.17B",
     "epsGrowth5y": -0.0839277133345604,
     "changeOneDayPercent": 0.55,
     "financialHealth": "GOOD",
@@ -145,9 +175,9 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-24T07:58:19.000Z",
-    "sourceUpdatedTime": "2026-11-24T07:58:19.000Z",
-    "fetchedAt": "2026-11-24T15:13:28.876755+07:00"
+    "lastUpdateTime": "2026-11-24T08:08:58.000Z",
+    "sourceUpdatedTime": "2026-11-24T08:08:58.000Z",
+    "fetchedAt": "2026-11-24T15:24:15.378472+07:00"
   },
   {
     "id": "102561",
@@ -155,17 +185,17 @@
     "name": "KCE Electronics PCL",
     "shortName": "KCE Electronics",
     "link": "https://www.investing.com/equities/kce-elec",
-    "price": 54.0,
+    "price": 54.25,
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 44.54840087890625,
-    "fairValueUpside": -17.12000072002411,
-    "peRatio": 58.150001525878906,
+    "fairValueUpside": -17.880000174045563,
+    "peRatio": 57.09000015258789,
     "evEbitda": 29.846559524536133,
     "marketCap": 63830000000,
     "marketCapFormatted": "63.83B",
     "epsGrowth5y": -0.009749066084623337,
-    "changeOneDayPercent": 1.89,
+    "changeOneDayPercent": 2.36,
     "financialHealth": "FAIR",
     "financialCashFlowHealth": "GREAT",
     "financialGrowthHealth": "FAIR",
@@ -175,9 +205,9 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-24T07:58:19.000Z",
-    "sourceUpdatedTime": "2026-11-24T07:58:19.000Z",
-    "fetchedAt": "2026-11-24T15:13:28.876755+07:00"
+    "lastUpdateTime": "2026-11-24T08:08:58.000Z",
+    "sourceUpdatedTime": "2026-11-24T08:08:58.000Z",
+    "fetchedAt": "2026-11-24T15:24:15.378472+07:00"
   },
   {
     "id": "103855",
@@ -205,9 +235,9 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-24T07:58:19.000Z",
-    "sourceUpdatedTime": "2026-11-24T07:58:19.000Z",
-    "fetchedAt": "2026-11-24T15:13:28.876755+07:00"
+    "lastUpdateTime": "2026-11-24T08:08:58.000Z",
+    "sourceUpdatedTime": "2026-11-24T08:08:58.000Z",
+    "fetchedAt": "2026-11-24T15:24:15.378472+07:00"
   },
   {
     "id": "1130942",
@@ -235,9 +265,9 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-24T07:58:19.000Z",
-    "sourceUpdatedTime": "2026-11-24T07:58:19.000Z",
-    "fetchedAt": "2026-11-24T15:13:28.876755+07:00"
+    "lastUpdateTime": "2026-11-24T08:08:58.000Z",
+    "sourceUpdatedTime": "2026-11-24T08:08:58.000Z",
+    "fetchedAt": "2026-11-24T15:24:15.378472+07:00"
   },
   {
     "id": "102560",
@@ -252,8 +282,8 @@
     "fairValueUpside": -15.73999971151352,
     "peRatio": 11.609999656677246,
     "evEbitda": null,
-    "marketCap": 587760000000,
-    "marketCapFormatted": "587.76B",
+    "marketCap": 590110000000,
+    "marketCapFormatted": "590.11B",
     "epsGrowth5y": 0.0825149193406105,
     "changeOneDayPercent": 0.0,
     "financialHealth": "GOOD",
@@ -265,9 +295,9 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-24T07:58:19.000Z",
-    "sourceUpdatedTime": "2026-11-24T07:58:19.000Z",
-    "fetchedAt": "2026-11-24T15:13:28.876755+07:00"
+    "lastUpdateTime": "2026-11-24T08:08:58.000Z",
+    "sourceUpdatedTime": "2026-11-24T08:08:58.000Z",
+    "fetchedAt": "2026-11-24T15:24:15.378472+07:00"
   },
   {
     "id": "102869",
@@ -275,7 +305,7 @@
     "name": "WHA Corporation PCL",
     "shortName": "WHA Corp",
     "link": "https://www.investing.com/equities/wha-corporatio",
-    "price": 4.62,
+    "price": 4.64,
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 4.004000186920166,
@@ -285,7 +315,7 @@
     "marketCap": 69350000000,
     "marketCapFormatted": "69.35B",
     "epsGrowth5y": 0.16825425624847412,
-    "changeOneDayPercent": -0.86,
+    "changeOneDayPercent": -0.43,
     "financialHealth": "FAIR",
     "financialCashFlowHealth": "FAIR",
     "financialGrowthHealth": "WEAK",
@@ -295,9 +325,9 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-24T07:58:19.000Z",
-    "sourceUpdatedTime": "2026-11-24T07:58:19.000Z",
-    "fetchedAt": "2026-11-24T15:13:28.876755+07:00"
+    "lastUpdateTime": "2026-11-24T08:08:58.000Z",
+    "sourceUpdatedTime": "2026-11-24T08:08:58.000Z",
+    "fetchedAt": "2026-11-24T15:24:15.378472+07:00"
   },
   {
     "id": "102714",
@@ -305,7 +335,7 @@
     "name": "Sansiri PCL",
     "shortName": "Sansiri",
     "link": "https://www.investing.com/equities/sansiri",
-    "price": 1.4,
+    "price": 1.39,
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 1.2059999704360962,
@@ -315,7 +345,7 @@
     "marketCap": 24430000000,
     "marketCapFormatted": "24.43B",
     "epsGrowth5y": 0.3030032515525818,
-    "changeOneDayPercent": 0.72,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "GOOD",
     "financialCashFlowHealth": "FAIR",
     "financialGrowthHealth": "FAIR",
@@ -325,9 +355,9 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-24T07:58:19.000Z",
-    "sourceUpdatedTime": "2026-11-24T07:58:19.000Z",
-    "fetchedAt": "2026-11-24T15:13:28.876755+07:00"
+    "lastUpdateTime": "2026-11-24T08:08:58.000Z",
+    "sourceUpdatedTime": "2026-11-24T08:08:58.000Z",
+    "fetchedAt": "2026-11-24T15:24:15.378472+07:00"
   },
   {
     "id": "102442",
@@ -355,9 +385,9 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-24T07:58:19.000Z",
-    "sourceUpdatedTime": "2026-11-24T07:58:19.000Z",
-    "fetchedAt": "2026-11-24T15:13:28.876755+07:00"
+    "lastUpdateTime": "2026-11-24T08:08:58.000Z",
+    "sourceUpdatedTime": "2026-11-24T08:08:58.000Z",
+    "fetchedAt": "2026-11-24T15:24:15.378472+07:00"
   },
   {
     "id": "102751",
@@ -365,7 +395,7 @@
     "name": "Sri Trang Agro Industry PCL",
     "shortName": "Sri Trang Agro",
     "link": "https://www.investing.com/equities/sri-trang-agro",
-    "price": 17.4,
+    "price": 17.35,
     "currency": "THB",
     "currencySymbol": "฿",
     "fairValue": 15.349200248718262,
@@ -375,7 +405,7 @@
     "marketCap": 26800000000,
     "marketCapFormatted": "26.80B",
     "epsGrowth5y": 0.9898490309715271,
-    "changeOneDayPercent": 0.0,
+    "changeOneDayPercent": -0.29,
     "financialHealth": "FAIR",
     "financialCashFlowHealth": "FAIR",
     "financialGrowthHealth": "FAIR",
@@ -385,8 +415,8 @@
     "flagName": "Thailand",
     "market": "SET",
     "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-24T07:58:19.000Z",
-    "sourceUpdatedTime": "2026-11-24T07:58:19.000Z",
-    "fetchedAt": "2026-11-24T15:13:28.876755+07:00"
+    "lastUpdateTime": "2026-11-24T08:08:58.000Z",
+    "sourceUpdatedTime": "2026-11-24T08:08:58.000Z",
+    "fetchedAt": "2026-11-24T15:24:15.378472+07:00"
   }
 ]
