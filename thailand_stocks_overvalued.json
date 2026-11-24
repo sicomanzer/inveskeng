@@ -12,8 +12,8 @@
     "fairValueUpside": -24.169999361038208,
     "peRatio": 27.84000015258789,
     "evEbitda": 15.155673027038574,
-    "marketCap": 53510000000,
-    "marketCapFormatted": "53.51B",
+    "marketCap": 53540000000,
+    "marketCapFormatted": "53.54B",
     "epsGrowth5y": 0.5412642359733582,
     "changeOneDayPercent": 0.64,
     "financialHealth": "FAIR",
@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T09:38:32.000Z",
     "sourceUpdatedTime": "2026-11-24T09:38:32.000Z",
-    "fetchedAt": "2026-11-24T18:41:17.253254+07:00"
+    "fetchedAt": "2026-11-24T18:52:04.155367+07:00"
   },
   {
     "id": "1165537",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T09:38:32.000Z",
     "sourceUpdatedTime": "2026-11-24T09:38:32.000Z",
-    "fetchedAt": "2026-11-24T18:41:17.253254+07:00"
+    "fetchedAt": "2026-11-24T18:52:04.155367+07:00"
   },
   {
     "id": "986147",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T09:38:32.000Z",
     "sourceUpdatedTime": "2026-11-24T09:38:32.000Z",
-    "fetchedAt": "2026-11-24T18:41:17.253254+07:00"
+    "fetchedAt": "2026-11-24T18:52:04.155367+07:00"
   },
   {
     "id": "1209591",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T09:38:32.000Z",
     "sourceUpdatedTime": "2026-11-24T09:38:32.000Z",
-    "fetchedAt": "2026-11-24T18:41:17.253254+07:00"
+    "fetchedAt": "2026-11-24T18:52:04.155367+07:00"
   },
   {
     "id": "102567",
@@ -132,8 +132,8 @@
     "fairValueUpside": -21.10999971628189,
     "peRatio": 11.670000076293945,
     "evEbitda": null,
-    "marketCap": 98990000000,
-    "marketCapFormatted": "98.99B",
+    "marketCap": 99030000000,
+    "marketCapFormatted": "99.03B",
     "epsGrowth5y": 0.11424321681261063,
     "changeOneDayPercent": 0.0,
     "financialHealth": "GOOD",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T09:38:32.000Z",
     "sourceUpdatedTime": "2026-11-24T09:38:32.000Z",
-    "fetchedAt": "2026-11-24T18:41:17.253254+07:00"
+    "fetchedAt": "2026-11-24T18:52:04.155367+07:00"
   },
   {
     "id": "102683",
@@ -177,7 +177,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T09:38:32.000Z",
     "sourceUpdatedTime": "2026-11-24T09:38:32.000Z",
-    "fetchedAt": "2026-11-24T18:41:17.253254+07:00"
+    "fetchedAt": "2026-11-24T18:52:04.155367+07:00"
+  },
+  {
+    "id": "102561",
+    "symbol": "KCE",
+    "name": "KCE Electronics PCL",
+    "shortName": "KCE Electronics",
+    "link": "https://www.investing.com/equities/kce-elec",
+    "price": 53.25,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 44.54840087890625,
+    "fairValueUpside": -16.339999437332153,
+    "peRatio": 56.29999923706055,
+    "evEbitda": 29.846559524536133,
+    "marketCap": 62950000000,
+    "marketCapFormatted": "62.95B",
+    "epsGrowth5y": -0.009749066084623337,
+    "changeOneDayPercent": 0.47,
+    "financialHealth": "FAIR",
+    "financialCashFlowHealth": "GREAT",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "GOOD",
+    "analystRatings": "BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-24T09:38:32.000Z",
+    "sourceUpdatedTime": "2026-11-24T09:38:32.000Z",
+    "fetchedAt": "2026-11-24T18:52:04.155367+07:00"
   },
   {
     "id": "1130942",
@@ -207,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T09:38:32.000Z",
     "sourceUpdatedTime": "2026-11-24T09:38:32.000Z",
-    "fetchedAt": "2026-11-24T18:41:17.253254+07:00"
+    "fetchedAt": "2026-11-24T18:52:04.155367+07:00"
   },
   {
     "id": "102560",
@@ -237,7 +267,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T09:38:32.000Z",
     "sourceUpdatedTime": "2026-11-24T09:38:32.000Z",
-    "fetchedAt": "2026-11-24T18:41:17.253254+07:00"
+    "fetchedAt": "2026-11-24T18:52:04.155367+07:00"
+  },
+  {
+    "id": "103855",
+    "symbol": "KGENm",
+    "name": "King Gen PCL",
+    "shortName": "King Gen PCL",
+    "link": "https://www.investing.com/equities/nation-broadca",
+    "price": 2.0,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 1.6950000524520874,
+    "fairValueUpside": -15.250000357627869,
+    "peRatio": 44.04999923706055,
+    "evEbitda": -154.83180236816406,
+    "marketCap": 4850000000,
+    "marketCapFormatted": "4.85B",
+    "epsGrowth5y": -3.2851991653442383,
+    "changeOneDayPercent": -2.91,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "FAIR",
+    "financialGrowthHealth": "GREAT",
+    "financialProfitabilityHealth": "FAIR",
+    "analystRatings": "-",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-24T09:38:32.000Z",
+    "sourceUpdatedTime": "2026-11-24T09:38:32.000Z",
+    "fetchedAt": "2026-11-24T18:52:04.155367+07:00"
   },
   {
     "id": "102714",
@@ -267,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T09:38:32.000Z",
     "sourceUpdatedTime": "2026-11-24T09:38:32.000Z",
-    "fetchedAt": "2026-11-24T18:41:17.253254+07:00"
+    "fetchedAt": "2026-11-24T18:52:04.155367+07:00"
   },
   {
     "id": "102442",
@@ -297,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T09:38:32.000Z",
     "sourceUpdatedTime": "2026-11-24T09:38:32.000Z",
-    "fetchedAt": "2026-11-24T18:41:17.253254+07:00"
+    "fetchedAt": "2026-11-24T18:52:04.155367+07:00"
   },
   {
     "id": "102869",
@@ -327,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T09:38:32.000Z",
     "sourceUpdatedTime": "2026-11-24T09:38:32.000Z",
-    "fetchedAt": "2026-11-24T18:41:17.253254+07:00"
+    "fetchedAt": "2026-11-24T18:52:04.155367+07:00"
   },
   {
     "id": "102751",
@@ -357,6 +417,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T09:38:32.000Z",
     "sourceUpdatedTime": "2026-11-24T09:38:32.000Z",
-    "fetchedAt": "2026-11-24T18:41:17.253254+07:00"
+    "fetchedAt": "2026-11-24T18:52:04.155367+07:00"
   }
 ]
