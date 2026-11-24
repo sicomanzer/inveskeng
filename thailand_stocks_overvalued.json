@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T09:38:32.000Z",
     "sourceUpdatedTime": "2026-11-24T09:38:32.000Z",
-    "fetchedAt": "2026-11-24T17:13:38.129074+07:00"
+    "fetchedAt": "2026-11-24T17:24:52.062835+07:00"
   },
   {
     "id": "1165537",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T09:38:32.000Z",
     "sourceUpdatedTime": "2026-11-24T09:38:32.000Z",
-    "fetchedAt": "2026-11-24T17:13:38.129074+07:00"
+    "fetchedAt": "2026-11-24T17:24:52.062835+07:00"
   },
   {
     "id": "986147",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T09:38:32.000Z",
     "sourceUpdatedTime": "2026-11-24T09:38:32.000Z",
-    "fetchedAt": "2026-11-24T17:13:38.129074+07:00"
+    "fetchedAt": "2026-11-24T17:24:52.062835+07:00"
   },
   {
     "id": "1209591",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T09:38:32.000Z",
     "sourceUpdatedTime": "2026-11-24T09:38:32.000Z",
-    "fetchedAt": "2026-11-24T17:13:38.129074+07:00"
+    "fetchedAt": "2026-11-24T17:24:52.062835+07:00"
   },
   {
     "id": "102567",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T09:38:32.000Z",
     "sourceUpdatedTime": "2026-11-24T09:38:32.000Z",
-    "fetchedAt": "2026-11-24T17:13:38.129074+07:00"
+    "fetchedAt": "2026-11-24T17:24:52.062835+07:00"
   },
   {
     "id": "102683",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T09:38:32.000Z",
     "sourceUpdatedTime": "2026-11-24T09:38:32.000Z",
-    "fetchedAt": "2026-11-24T17:13:38.129074+07:00"
+    "fetchedAt": "2026-11-24T17:24:52.062835+07:00"
   },
   {
     "id": "102561",
@@ -207,37 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T09:38:32.000Z",
     "sourceUpdatedTime": "2026-11-24T09:38:32.000Z",
-    "fetchedAt": "2026-11-24T17:13:38.129074+07:00"
-  },
-  {
-    "id": "1130942",
-    "symbol": "CPNREITu",
-    "name": "Cpn Retail Growth Leasehold REIT Unit",
-    "shortName": "Cpn Retail Growth Leasehold REIT Unt",
-    "link": "https://www.investing.com/equities/cpn-retail-growth-leasehold-reit",
-    "price": 13.05,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 10.991499900817871,
-    "fairValueUpside": -15.770000219345093,
-    "peRatio": 13.800000190734863,
-    "evEbitda": null,
-    "marketCap": 47620000000,
-    "marketCapFormatted": "47.62B",
-    "epsGrowth5y": 5.6928486824035645,
-    "changeOneDayPercent": -0.76,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "GOOD",
-    "financialGrowthHealth": "GOOD",
-    "financialProfitabilityHealth": "GREAT",
-    "analystRatings": "BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-24T09:38:32.000Z",
-    "sourceUpdatedTime": "2026-11-24T09:38:32.000Z",
-    "fetchedAt": "2026-11-24T17:13:38.129074+07:00"
+    "fetchedAt": "2026-11-24T17:24:52.062835+07:00"
   },
   {
     "id": "102560",
@@ -267,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T09:38:32.000Z",
     "sourceUpdatedTime": "2026-11-24T09:38:32.000Z",
-    "fetchedAt": "2026-11-24T17:13:38.129074+07:00"
+    "fetchedAt": "2026-11-24T17:24:52.062835+07:00"
   },
   {
     "id": "103855",
@@ -297,37 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T09:38:32.000Z",
     "sourceUpdatedTime": "2026-11-24T09:38:32.000Z",
-    "fetchedAt": "2026-11-24T17:13:38.129074+07:00"
-  },
-  {
-    "id": "102714",
-    "symbol": "SIRI",
-    "name": "Sansiri PCL",
-    "shortName": "Sansiri",
-    "link": "https://www.investing.com/equities/sansiri",
-    "price": 1.4,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 1.2059999704360962,
-    "fairValueUpside": -13.860000669956207,
-    "peRatio": 5.670000076293945,
-    "evEbitda": 19.07825469970703,
-    "marketCap": 24610000000,
-    "marketCapFormatted": "24.61B",
-    "epsGrowth5y": 0.3030032515525818,
-    "changeOneDayPercent": 0.72,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "FAIR",
-    "financialGrowthHealth": "FAIR",
-    "financialProfitabilityHealth": "GOOD",
-    "analystRatings": "STRONG_BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-24T09:38:32.000Z",
-    "sourceUpdatedTime": "2026-11-24T09:38:32.000Z",
-    "fetchedAt": "2026-11-24T17:13:38.129074+07:00"
+    "fetchedAt": "2026-11-24T17:24:52.062835+07:00"
   },
   {
     "id": "102442",
@@ -357,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T09:38:32.000Z",
     "sourceUpdatedTime": "2026-11-24T09:38:32.000Z",
-    "fetchedAt": "2026-11-24T17:13:38.129074+07:00"
+    "fetchedAt": "2026-11-24T17:24:52.062835+07:00"
   },
   {
     "id": "102869",
@@ -387,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T09:38:32.000Z",
     "sourceUpdatedTime": "2026-11-24T09:38:32.000Z",
-    "fetchedAt": "2026-11-24T17:13:38.129074+07:00"
+    "fetchedAt": "2026-11-24T17:24:52.062835+07:00"
   },
   {
     "id": "102751",
@@ -417,6 +357,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T09:38:32.000Z",
     "sourceUpdatedTime": "2026-11-24T09:38:32.000Z",
-    "fetchedAt": "2026-11-24T17:13:38.129074+07:00"
+    "fetchedAt": "2026-11-24T17:24:52.062835+07:00"
   }
 ]
