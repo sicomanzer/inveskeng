@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-24T10:49:59.000Z",
-    "fetchedAt": "2026-11-25T05:34:32.356398+07:00"
+    "fetchedAt": "2026-11-25T05:45:49.899478+07:00"
   },
   {
     "id": "1165537",
@@ -57,7 +57,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-24T10:49:59.000Z",
-    "fetchedAt": "2026-11-25T05:34:32.356398+07:00"
+    "fetchedAt": "2026-11-25T05:45:49.899478+07:00"
+  },
+  {
+    "id": "986147",
+    "symbol": "BEM",
+    "name": "Bangkok Expressway and Metro PCL",
+    "shortName": "BEM",
+    "link": "https://www.investing.com/equities/bangkok-expressway-and-metro",
+    "price": 6.68,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 5.1118998527526855,
+    "fairValueUpside": -23.46999943256378,
+    "peRatio": 26.43000030517578,
+    "evEbitda": 21.752586364746094,
+    "marketCap": 100050000000,
+    "marketCapFormatted": "100.05B",
+    "epsGrowth5y": 0.2806616425514221,
+    "changeOneDayPercent": -0.6,
+    "financialHealth": "FAIR",
+    "financialCashFlowHealth": "FAIR",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "GREAT",
+    "analystRatings": "STRONG_BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-24T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-24T10:49:59.000Z",
+    "fetchedAt": "2026-11-25T05:45:49.899478+07:00"
   },
   {
     "id": "1209591",
@@ -87,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-24T10:49:59.000Z",
-    "fetchedAt": "2026-11-25T05:34:32.356398+07:00"
+    "fetchedAt": "2026-11-25T05:45:49.899478+07:00"
   },
   {
     "id": "102567",
@@ -102,8 +132,8 @@
     "fairValueUpside": -21.10999971628189,
     "peRatio": 11.699999809265137,
     "evEbitda": null,
-    "marketCap": 99320000000,
-    "marketCapFormatted": "99.32B",
+    "marketCap": 97670000000,
+    "marketCapFormatted": "97.67B",
     "epsGrowth5y": 0.11424321681261063,
     "changeOneDayPercent": 0.0,
     "financialHealth": "GOOD",
@@ -117,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-24T10:49:59.000Z",
-    "fetchedAt": "2026-11-25T05:34:32.356398+07:00"
+    "fetchedAt": "2026-11-25T05:45:49.899478+07:00"
   },
   {
     "id": "102683",
@@ -147,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-24T10:49:59.000Z",
-    "fetchedAt": "2026-11-25T05:34:32.356398+07:00"
+    "fetchedAt": "2026-11-25T05:45:49.899478+07:00"
   },
   {
     "id": "102561",
@@ -177,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-24T10:49:59.000Z",
-    "fetchedAt": "2026-11-25T05:34:32.356398+07:00"
+    "fetchedAt": "2026-11-25T05:45:49.899478+07:00"
   },
   {
     "id": "1130942",
@@ -207,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-24T10:49:59.000Z",
-    "fetchedAt": "2026-11-25T05:34:32.356398+07:00"
+    "fetchedAt": "2026-11-25T05:45:49.899478+07:00"
   },
   {
     "id": "102560",
@@ -237,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-24T10:49:59.000Z",
-    "fetchedAt": "2026-11-25T05:34:32.356398+07:00"
+    "fetchedAt": "2026-11-25T05:45:49.899478+07:00"
   },
   {
     "id": "103855",
@@ -267,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-24T10:49:59.000Z",
-    "fetchedAt": "2026-11-25T05:34:32.356398+07:00"
+    "fetchedAt": "2026-11-25T05:45:49.899478+07:00"
   },
   {
     "id": "102714",
@@ -297,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-24T10:49:59.000Z",
-    "fetchedAt": "2026-11-25T05:34:32.356398+07:00"
+    "fetchedAt": "2026-11-25T05:45:49.899478+07:00"
   },
   {
     "id": "102442",
@@ -327,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-24T10:49:59.000Z",
-    "fetchedAt": "2026-11-25T05:34:32.356398+07:00"
+    "fetchedAt": "2026-11-25T05:45:49.899478+07:00"
   },
   {
     "id": "102869",
@@ -357,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-24T10:49:59.000Z",
-    "fetchedAt": "2026-11-25T05:34:32.356398+07:00"
+    "fetchedAt": "2026-11-25T05:45:49.899478+07:00"
   },
   {
     "id": "102751",
@@ -387,6 +417,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-24T10:49:59.000Z",
-    "fetchedAt": "2026-11-25T05:34:32.356398+07:00"
+    "fetchedAt": "2026-11-25T05:45:49.899478+07:00"
   }
 ]
