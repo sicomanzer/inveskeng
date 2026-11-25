@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-24T10:49:59.000Z",
-    "fetchedAt": "2026-11-25T09:49:36.456803+07:00"
+    "fetchedAt": "2026-11-25T10:00:24.134102+07:00"
   },
   {
     "id": "1165537",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-24T10:49:59.000Z",
-    "fetchedAt": "2026-11-25T09:49:36.456803+07:00"
+    "fetchedAt": "2026-11-25T10:00:24.134102+07:00"
   },
   {
     "id": "986147",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-24T10:49:59.000Z",
-    "fetchedAt": "2026-11-25T09:49:36.456803+07:00"
+    "fetchedAt": "2026-11-25T10:00:24.134102+07:00"
   },
   {
     "id": "1209591",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-24T10:49:59.000Z",
-    "fetchedAt": "2026-11-25T09:49:36.456803+07:00"
+    "fetchedAt": "2026-11-25T10:00:24.134102+07:00"
   },
   {
     "id": "102567",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-24T10:49:59.000Z",
-    "fetchedAt": "2026-11-25T09:49:36.456803+07:00"
+    "fetchedAt": "2026-11-25T10:00:24.134102+07:00"
   },
   {
     "id": "102683",
@@ -177,37 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-24T10:49:59.000Z",
-    "fetchedAt": "2026-11-25T09:49:36.456803+07:00"
-  },
-  {
-    "id": "102561",
-    "symbol": "KCE",
-    "name": "KCE Electronics PCL",
-    "shortName": "KCE Electronics",
-    "link": "https://www.investing.com/equities/kce-elec",
-    "price": 53.25,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 44.54840087890625,
-    "fairValueUpside": -16.339999437332153,
-    "peRatio": 56.29999923706055,
-    "evEbitda": 29.846559524536133,
-    "marketCap": 62950000000,
-    "marketCapFormatted": "62.95B",
-    "epsGrowth5y": -0.009749066084623337,
-    "changeOneDayPercent": 0.47,
-    "financialHealth": "FAIR",
-    "financialCashFlowHealth": "GREAT",
-    "financialGrowthHealth": "FAIR",
-    "financialProfitabilityHealth": "GOOD",
-    "analystRatings": "BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-24T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-11-24T10:49:59.000Z",
-    "fetchedAt": "2026-11-25T09:49:36.456803+07:00"
+    "fetchedAt": "2026-11-25T10:00:24.134102+07:00"
   },
   {
     "id": "1130942",
@@ -225,7 +195,7 @@
     "marketCap": 47260000000,
     "marketCapFormatted": "47.26B",
     "epsGrowth5y": 5.6928486824035645,
-    "changeOneDayPercent": -0.76,
+    "changeOneDayPercent": 0.0,
     "financialHealth": "GOOD",
     "financialCashFlowHealth": "GOOD",
     "financialGrowthHealth": "GOOD",
@@ -237,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-24T10:49:59.000Z",
-    "fetchedAt": "2026-11-25T09:49:36.456803+07:00"
+    "fetchedAt": "2026-11-25T10:00:24.134102+07:00"
   },
   {
     "id": "102560",
@@ -267,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-24T10:49:59.000Z",
-    "fetchedAt": "2026-11-25T09:49:36.456803+07:00"
+    "fetchedAt": "2026-11-25T10:00:24.134102+07:00"
   },
   {
     "id": "103855",
@@ -297,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-24T10:49:59.000Z",
-    "fetchedAt": "2026-11-25T09:49:36.456803+07:00"
+    "fetchedAt": "2026-11-25T10:00:24.134102+07:00"
   },
   {
     "id": "102714",
@@ -327,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-24T10:49:59.000Z",
-    "fetchedAt": "2026-11-25T09:49:36.456803+07:00"
+    "fetchedAt": "2026-11-25T10:00:24.134102+07:00"
   },
   {
     "id": "102442",
@@ -357,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-24T10:49:59.000Z",
-    "fetchedAt": "2026-11-25T09:49:36.456803+07:00"
+    "fetchedAt": "2026-11-25T10:00:24.134102+07:00"
   },
   {
     "id": "102869",
@@ -387,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-24T10:49:59.000Z",
-    "fetchedAt": "2026-11-25T09:49:36.456803+07:00"
+    "fetchedAt": "2026-11-25T10:00:24.134102+07:00"
   },
   {
     "id": "102751",
@@ -417,6 +387,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-24T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-24T10:49:59.000Z",
-    "fetchedAt": "2026-11-25T09:49:36.456803+07:00"
+    "fetchedAt": "2026-11-25T10:00:24.134102+07:00"
   }
 ]
