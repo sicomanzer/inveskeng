@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T05:29:54.000Z",
     "sourceUpdatedTime": "2026-11-25T05:29:54.000Z",
-    "fetchedAt": "2026-11-25T13:40:11.811671+07:00"
+    "fetchedAt": "2026-11-25T13:50:59.554360+07:00"
   },
   {
     "id": "986147",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T05:29:54.000Z",
     "sourceUpdatedTime": "2026-11-25T05:29:54.000Z",
-    "fetchedAt": "2026-11-25T13:40:11.811671+07:00"
+    "fetchedAt": "2026-11-25T13:50:59.554360+07:00"
   },
   {
     "id": "1209591",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T05:29:54.000Z",
     "sourceUpdatedTime": "2026-11-25T05:29:54.000Z",
-    "fetchedAt": "2026-11-25T13:40:11.811671+07:00"
+    "fetchedAt": "2026-11-25T13:50:59.554360+07:00"
   },
   {
     "id": "102451",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T05:29:54.000Z",
     "sourceUpdatedTime": "2026-11-25T05:29:54.000Z",
-    "fetchedAt": "2026-11-25T13:40:11.811671+07:00"
+    "fetchedAt": "2026-11-25T13:50:59.554360+07:00"
   },
   {
     "id": "102567",
@@ -147,37 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T05:29:54.000Z",
     "sourceUpdatedTime": "2026-11-25T05:29:54.000Z",
-    "fetchedAt": "2026-11-25T13:40:11.811671+07:00"
-  },
-  {
-    "id": "103855",
-    "symbol": "KGENm",
-    "name": "King Gen PCL",
-    "shortName": "King Gen PCL",
-    "link": "https://www.investing.com/equities/nation-broadca",
-    "price": 2.02,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 1.6950000524520874,
-    "fairValueUpside": -16.089999675750732,
-    "peRatio": 44.4900016784668,
-    "evEbitda": -154.83180236816406,
-    "marketCap": 4900000000,
-    "marketCapFormatted": "4.90B",
-    "epsGrowth5y": -3.2851991653442383,
-    "changeOneDayPercent": 1.0,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "FAIR",
-    "financialGrowthHealth": "GREAT",
-    "financialProfitabilityHealth": "FAIR",
-    "analystRatings": "-",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-25T05:29:54.000Z",
-    "sourceUpdatedTime": "2026-11-25T05:29:54.000Z",
-    "fetchedAt": "2026-11-25T13:40:11.811671+07:00"
+    "fetchedAt": "2026-11-25T13:50:59.554360+07:00"
   },
   {
     "id": "1130942",
@@ -207,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T05:29:54.000Z",
     "sourceUpdatedTime": "2026-11-25T05:29:54.000Z",
-    "fetchedAt": "2026-11-25T13:40:11.811671+07:00"
+    "fetchedAt": "2026-11-25T13:50:59.554360+07:00"
   },
   {
     "id": "102560",
@@ -237,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T05:29:54.000Z",
     "sourceUpdatedTime": "2026-11-25T05:29:54.000Z",
-    "fetchedAt": "2026-11-25T13:40:11.811671+07:00"
+    "fetchedAt": "2026-11-25T13:50:59.554360+07:00"
   },
   {
     "id": "102561",
@@ -267,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T05:29:54.000Z",
     "sourceUpdatedTime": "2026-11-25T05:29:54.000Z",
-    "fetchedAt": "2026-11-25T13:40:11.811671+07:00"
+    "fetchedAt": "2026-11-25T13:50:59.554360+07:00"
   },
   {
     "id": "102683",
@@ -297,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T05:29:54.000Z",
     "sourceUpdatedTime": "2026-11-25T05:29:54.000Z",
-    "fetchedAt": "2026-11-25T13:40:11.811671+07:00"
+    "fetchedAt": "2026-11-25T13:50:59.554360+07:00"
   },
   {
     "id": "102714",
@@ -327,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T05:29:54.000Z",
     "sourceUpdatedTime": "2026-11-25T05:29:54.000Z",
-    "fetchedAt": "2026-11-25T13:40:11.811671+07:00"
+    "fetchedAt": "2026-11-25T13:50:59.554360+07:00"
   },
   {
     "id": "102442",
@@ -357,6 +327,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T05:29:54.000Z",
     "sourceUpdatedTime": "2026-11-25T05:29:54.000Z",
-    "fetchedAt": "2026-11-25T13:40:11.811671+07:00"
+    "fetchedAt": "2026-11-25T13:50:59.554360+07:00"
   }
 ]
