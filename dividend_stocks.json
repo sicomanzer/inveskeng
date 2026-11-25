@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-25T13:59:17.398345+07:00",
+ "asOf": "2026-11-25T14:31:24.927018+07:00",
  "sourceAsOf": "2026-11-24T15:10:28.678990+07:00",
  "partial": true,
  "criteria": {
@@ -101,10 +101,10 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
-   "price": 37.2,
-   "changePercent": -0.27,
-   "divYield": 7.53,
+   "dividendsAsOf": "2026-11-25T07:31:17.857248+00:00",
+   "price": 37.1,
+   "changePercent": -0.54,
+   "divYield": 7.55,
    "avgYield5y": 5.8
   },
   {
@@ -175,7 +175,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "dividendsAsOf": "2026-11-25T07:31:17.857248+00:00",
    "price": 42.0,
    "changePercent": -1.18,
    "divYield": 6.48,
@@ -269,10 +269,10 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
-   "price": 141.0,
-   "changePercent": 0.71,
-   "divYield": 6.49,
+   "dividendsAsOf": "2026-11-25T07:31:17.857248+00:00",
+   "price": 140.5,
+   "changePercent": 0.36,
+   "divYield": 6.51,
    "avgYield5y": 6.14
   },
   {
@@ -341,10 +341,10 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
-   "price": 153.0,
-   "changePercent": -0.65,
-   "divYield": 7.37,
+   "dividendsAsOf": "2026-11-25T07:31:17.857248+00:00",
+   "price": 152.5,
+   "changePercent": -0.97,
+   "divYield": 7.4,
    "avgYield5y": 6.14
   },
   {
@@ -431,10 +431,10 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
-   "price": 179.5,
-   "changePercent": -0.55,
-   "divYield": 5.57,
+   "dividendsAsOf": "2026-11-25T07:31:17.857248+00:00",
+   "price": 179.0,
+   "changePercent": -0.83,
+   "divYield": 5.59,
    "avgYield5y": 3.69
   },
   {
@@ -513,10 +513,10 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
-   "price": 125.0,
-   "changePercent": -0.4,
-   "divYield": 6.2,
+   "dividendsAsOf": "2026-11-25T07:31:17.857248+00:00",
+   "price": 124.5,
+   "changePercent": -0.8,
+   "divYield": 6.22,
    "avgYield5y": 7.68
   },
   {
@@ -603,10 +603,10 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
-   "price": 110.5,
-   "changePercent": -2.64,
-   "divYield": 6.74,
+   "dividendsAsOf": "2026-11-25T07:31:17.857248+00:00",
+   "price": 111.0,
+   "changePercent": -2.2,
+   "divYield": 6.71,
    "avgYield5y": 5.56
   },
   {
@@ -689,10 +689,10 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
-   "price": 41.7,
-   "changePercent": -2.11,
-   "divYield": 9.71,
+   "dividendsAsOf": "2026-11-25T07:31:17.857248+00:00",
+   "price": 41.6,
+   "changePercent": -2.35,
+   "divYield": 9.74,
    "avgYield5y": 4.74
   },
   {
@@ -783,10 +783,10 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
-   "price": 13.05,
-   "changePercent": -0.76,
-   "divYield": 5.75,
+   "dividendsAsOf": "2026-11-25T07:31:17.857248+00:00",
+   "price": 13.0,
+   "changePercent": -1.14,
+   "divYield": 5.77,
    "avgYield5y": 4.86
   },
   {
@@ -802,7 +802,7 @@
    "peRatio": 8.19,
    "pegRatio": -0.94,
    "currency": "THB",
-   "dpsLastYear": 0.71,
+   "dpsLastYear": 0.81,
    "dpsPrevFY": 0.71,
    "divPayments": [
     {
@@ -876,10 +876,14 @@
     {
      "date": "2026-08-24",
      "amount": 0.225
+    },
+    {
+     "date": "2026-11-25",
+     "amount": 0.1
     }
    ],
    "dpsByYear": {
-    "2026": 0.61,
+    "2026": 0.71,
     "2025": 0.625,
     "2024": 0.085,
     "2023": 0.32,
@@ -893,10 +897,10 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "dividendsAsOf": "2026-11-25T07:31:17.857248+00:00",
    "price": 9.1,
    "changePercent": 0.22,
-   "divYield": 7.8,
+   "divYield": 8.9,
    "avgYield5y": 5.96
   },
   {
@@ -995,7 +999,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "dividendsAsOf": "2026-11-25T07:31:17.857248+00:00",
    "price": 151.5,
    "changePercent": 0.66,
    "divYield": 7.26,
@@ -1089,10 +1093,10 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
-   "price": 3.5,
-   "changePercent": -1.69,
-   "divYield": 5.71,
+   "dividendsAsOf": "2026-11-25T07:31:17.857248+00:00",
+   "price": 3.52,
+   "changePercent": -1.12,
+   "divYield": 5.68,
    "avgYield5y": 6.98
   },
   {
@@ -1153,7 +1157,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "dividendsAsOf": "2026-11-25T07:31:17.857248+00:00",
    "price": 400.0,
    "changePercent": 0.0,
    "divYield": 4.94,
@@ -1247,10 +1251,10 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
-   "price": 9.66,
-   "changePercent": -0.21,
-   "divYield": 6.21,
+   "dividendsAsOf": "2026-11-25T07:31:17.857248+00:00",
+   "price": 9.68,
+   "changePercent": -0.0,
+   "divYield": 6.2,
    "avgYield5y": 6.34
   },
   {
@@ -1266,7 +1270,7 @@
    "peRatio": 3.59,
    "pegRatio": -0.36,
    "currency": "THB",
-   "dpsLastYear": 2.0,
+   "dpsLastYear": 2.5,
    "dpsPrevFY": 2.5,
    "divPayments": [
     {
@@ -1332,10 +1336,14 @@
     {
      "date": "2026-08-21",
      "amount": 0.5
+    },
+    {
+     "date": "2026-11-19",
+     "amount": 0.5
     }
    ],
    "dpsByYear": {
-    "2026": 2.0,
+    "2026": 2.5,
     "2025": 2.5,
     "2024": 1.5,
     "2023": 3.25,
@@ -1349,10 +1357,10 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
-   "price": 36.5,
-   "changePercent": -1.88,
-   "divYield": 5.48,
+   "dividendsAsOf": "2026-11-25T07:31:17.857248+00:00",
+   "price": 36.3,
+   "changePercent": -2.42,
+   "divYield": 6.89,
    "avgYield5y": 11.56
   },
   {
@@ -1443,10 +1451,10 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
-   "price": 14.6,
-   "changePercent": -0.0,
-   "divYield": 8.56,
+   "dividendsAsOf": "2026-11-25T07:31:17.857248+00:00",
+   "price": 14.55,
+   "changePercent": -0.34,
+   "divYield": 8.59,
    "avgYield5y": 6.76
   },
   {
@@ -1534,9 +1542,9 @@
     "2025"
    ],
    "dividendsAsOf": "2026-11-20T11:15:39.363714+00:00",
-   "price": 16.75,
-   "changePercent": -3.18,
-   "divYield": 5.97,
+   "price": 16.6,
+   "changePercent": -4.05,
+   "divYield": 6.02,
    "avgYield5y": 8.94
   },
   {
@@ -1599,7 +1607,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "dividendsAsOf": "2026-11-25T07:31:17.857248+00:00",
    "price": 8.04,
    "changePercent": 0.0,
    "divYield": 6.47,
@@ -1689,7 +1697,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "dividendsAsOf": "2026-11-25T07:31:17.857248+00:00",
    "price": 27.9,
    "changePercent": 1.09,
    "divYield": 7.42,
@@ -1775,7 +1783,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "dividendsAsOf": "2026-11-25T07:31:17.857248+00:00",
    "price": 1.39,
    "changePercent": -0.71,
    "divYield": 9.35,
@@ -1885,10 +1893,10 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
-   "price": 8.92,
-   "changePercent": -0.0,
-   "divYield": 8.41,
+   "dividendsAsOf": "2026-11-25T07:31:17.857248+00:00",
+   "price": 8.86,
+   "changePercent": -0.67,
+   "divYield": 8.47,
    "avgYield5y": 9.12
   },
   {
@@ -1951,10 +1959,10 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
-   "price": 6.38,
-   "changePercent": 0.63,
-   "divYield": 7.84,
+   "dividendsAsOf": "2026-11-25T07:31:17.857248+00:00",
+   "price": 6.4,
+   "changePercent": 0.95,
+   "divYield": 7.81,
    "avgYield5y": 4.64
   },
   {
@@ -1970,7 +1978,7 @@
    "peRatio": 8.75,
    "pegRatio": 3.18,
    "currency": "THB",
-   "dpsLastYear": 0.45,
+   "dpsLastYear": 0.7,
    "dpsPrevFY": 0.5,
    "divPayments": [
     {
@@ -2028,10 +2036,14 @@
     {
      "date": "2026-08-27",
      "amount": 0.2
+    },
+    {
+     "date": "2026-11-25",
+     "amount": 0.25
     }
    ],
    "dpsByYear": {
-    "2026": 0.45,
+    "2026": 0.7,
     "2025": 0.49,
     "2024": 0.5,
     "2023": 0.35,
@@ -2045,10 +2057,10 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "dividendsAsOf": "2026-11-25T07:31:17.857248+00:00",
    "price": 8.36,
    "changePercent": -3.91,
-   "divYield": 5.38,
+   "divYield": 8.37,
    "avgYield5y": 5.51
   },
   {
@@ -2127,10 +2139,10 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
-   "price": 14.85,
-   "changePercent": 0.34,
-   "divYield": 6.73,
+   "dividendsAsOf": "2026-11-25T07:31:17.857248+00:00",
+   "price": 14.75,
+   "changePercent": -0.34,
+   "divYield": 6.78,
    "avgYield5y": 6.35
   },
   {
@@ -2225,10 +2237,10 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
-   "price": 227.0,
-   "changePercent": 0.44,
-   "divYield": 11.89,
+   "dividendsAsOf": "2026-11-25T07:31:17.857248+00:00",
+   "price": 228.0,
+   "changePercent": 0.88,
+   "divYield": 11.84,
    "avgYield5y": 7.65
   },
   {
@@ -2319,7 +2331,7 @@
     "2024",
     "2025"
    ],
-   "dividendsAsOf": "2026-11-18T07:29:43.988228+00:00",
+   "dividendsAsOf": "2026-11-25T07:31:17.857248+00:00",
    "price": 40.9,
    "changePercent": -0.24,
    "divYield": 6.28,
