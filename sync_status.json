@@ -1,5 +1,5 @@
 {
-  "lastSync": "2026-11-25T12:52:55.696848+07:00",
+  "lastSync": "2026-11-25T13:04:19.887347+07:00",
   "dataFreshness": {
     "SET_undervalued": "2026-11-24T07:36:20.000Z",
     "SET_overvalued": "2026-11-25T05:29:54.000Z",
@@ -8,14 +8,14 @@
   },
   "results": {
     "SET_undervalued": null,
-    "SET_overvalued": 11,
+    "SET_overvalued": 12,
     "US_undervalued": null,
     "US_overvalued": null
   },
   "lastRun": {
     "results": {
       "SET_undervalued": null,
-      "SET_overvalued": 11,
+      "SET_overvalued": 12,
       "US_undervalued": null,
       "US_overvalued": null
     },
