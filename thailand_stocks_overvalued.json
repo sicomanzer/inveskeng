@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-26T09:39:51.000Z",
     "sourceUpdatedTime": "2026-11-26T09:39:51.000Z",
-    "fetchedAt": "2026-11-26T19:45:55.950092+07:00"
+    "fetchedAt": "2026-11-26T19:56:44.828819+07:00"
   },
   {
     "id": "103855",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-26T09:39:51.000Z",
     "sourceUpdatedTime": "2026-11-26T09:39:51.000Z",
-    "fetchedAt": "2026-11-26T19:45:55.950092+07:00"
+    "fetchedAt": "2026-11-26T19:56:44.828819+07:00"
   },
   {
     "id": "986147",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-26T09:39:51.000Z",
     "sourceUpdatedTime": "2026-11-26T09:39:51.000Z",
-    "fetchedAt": "2026-11-26T19:45:55.950092+07:00"
+    "fetchedAt": "2026-11-26T19:56:44.828819+07:00"
   },
   {
     "id": "1209591",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-26T09:39:51.000Z",
     "sourceUpdatedTime": "2026-11-26T09:39:51.000Z",
-    "fetchedAt": "2026-11-26T19:45:55.950092+07:00"
+    "fetchedAt": "2026-11-26T19:56:44.828819+07:00"
   },
   {
     "id": "102451",
@@ -147,7 +147,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-26T09:39:51.000Z",
     "sourceUpdatedTime": "2026-11-26T09:39:51.000Z",
-    "fetchedAt": "2026-11-26T19:45:55.950092+07:00"
+    "fetchedAt": "2026-11-26T19:56:44.828819+07:00"
+  },
+  {
+    "id": "1130942",
+    "symbol": "CPNREITu",
+    "name": "Cpn Retail Growth Leasehold REIT Unit",
+    "shortName": "Cpn Retail Growth Leasehold REIT Unt",
+    "link": "https://www.investing.com/equities/cpn-retail-growth-leasehold-reit",
+    "price": 12.95,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 10.456999778747559,
+    "fairValueUpside": -19.249999523162842,
+    "peRatio": 11.520000457763672,
+    "evEbitda": null,
+    "marketCap": 46890000000,
+    "marketCapFormatted": "46.89B",
+    "epsGrowth5y": 5.6928486824035645,
+    "changeOneDayPercent": 0.0,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "GOOD",
+    "financialGrowthHealth": "GOOD",
+    "financialProfitabilityHealth": "GREAT",
+    "analystRatings": "BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-26T09:39:51.000Z",
+    "sourceUpdatedTime": "2026-11-26T09:39:51.000Z",
+    "fetchedAt": "2026-11-26T19:56:44.828819+07:00"
   },
   {
     "id": "102683",
@@ -177,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-26T09:39:51.000Z",
     "sourceUpdatedTime": "2026-11-26T09:39:51.000Z",
-    "fetchedAt": "2026-11-26T19:45:55.950092+07:00"
+    "fetchedAt": "2026-11-26T19:56:44.828819+07:00"
   },
   {
     "id": "102567",
@@ -207,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-26T09:39:51.000Z",
     "sourceUpdatedTime": "2026-11-26T09:39:51.000Z",
-    "fetchedAt": "2026-11-26T19:45:55.950092+07:00"
+    "fetchedAt": "2026-11-26T19:56:44.828819+07:00"
   },
   {
     "id": "102560",
@@ -237,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-26T09:39:51.000Z",
     "sourceUpdatedTime": "2026-11-26T09:39:51.000Z",
-    "fetchedAt": "2026-11-26T19:45:55.950092+07:00"
+    "fetchedAt": "2026-11-26T19:56:44.828819+07:00"
   },
   {
     "id": "102561",
@@ -267,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-26T09:39:51.000Z",
     "sourceUpdatedTime": "2026-11-26T09:39:51.000Z",
-    "fetchedAt": "2026-11-26T19:45:55.950092+07:00"
+    "fetchedAt": "2026-11-26T19:56:44.828819+07:00"
   },
   {
     "id": "102442",
@@ -297,7 +327,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-26T09:39:51.000Z",
     "sourceUpdatedTime": "2026-11-26T09:39:51.000Z",
-    "fetchedAt": "2026-11-26T19:45:55.950092+07:00"
+    "fetchedAt": "2026-11-26T19:56:44.828819+07:00"
+  },
+  {
+    "id": "102751",
+    "symbol": "STA",
+    "name": "Sri Trang Agro Industry PCL",
+    "shortName": "Sri Trang Agro",
+    "link": "https://www.investing.com/equities/sri-trang-agro",
+    "price": 16.6,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 14.550000190734863,
+    "fairValueUpside": -12.349999696016312,
+    "peRatio": 14.84000015258789,
+    "evEbitda": 9.08460807800293,
+    "marketCap": 25500000000,
+    "marketCapFormatted": "25.50B",
+    "epsGrowth5y": 0.9898490309715271,
+    "changeOneDayPercent": 0.61,
+    "financialHealth": "FAIR",
+    "financialCashFlowHealth": "FAIR",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "FAIR",
+    "analystRatings": "STRONG_BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-26T09:39:51.000Z",
+    "sourceUpdatedTime": "2026-11-26T09:39:51.000Z",
+    "fetchedAt": "2026-11-26T19:56:44.828819+07:00"
   },
   {
     "id": "102714",
@@ -327,6 +387,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-26T09:39:51.000Z",
     "sourceUpdatedTime": "2026-11-26T09:39:51.000Z",
-    "fetchedAt": "2026-11-26T19:45:55.950092+07:00"
+    "fetchedAt": "2026-11-26T19:56:44.828819+07:00"
   }
 ]
