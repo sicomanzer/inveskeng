@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T05:48:10.894622+07:00"
+    "fetchedAt": "2026-11-28T05:59:03.424930+07:00"
   },
   {
     "id": "986147",
@@ -38,8 +38,8 @@
     "price": 6.62,
     "currency": "THB",
     "currencySymbol": "฿",
-    "fairValue": 5.116099834442139,
-    "fairValueUpside": -22.72000014781952,
+    "fairValue": 5.116799831390381,
+    "fairValueUpside": -22.709999978542328,
     "peRatio": 26.200000762939453,
     "evEbitda": 21.752586364746094,
     "marketCap": 99150000000,
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T05:48:10.894622+07:00"
+    "fetchedAt": "2026-11-28T05:59:03.424930+07:00"
   },
   {
     "id": "102451",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T05:48:10.894622+07:00"
+    "fetchedAt": "2026-11-28T05:59:03.424930+07:00"
   },
   {
     "id": "1165537",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T05:48:10.894622+07:00"
+    "fetchedAt": "2026-11-28T05:59:03.424930+07:00"
   },
   {
     "id": "103855",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T05:48:10.894622+07:00"
+    "fetchedAt": "2026-11-28T05:59:03.424930+07:00"
   },
   {
     "id": "102561",
@@ -177,37 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T05:48:10.894622+07:00"
-  },
-  {
-    "id": "1130942",
-    "symbol": "CPNREITu",
-    "name": "Cpn Retail Growth Leasehold REIT Unit",
-    "shortName": "Cpn Retail Growth Leasehold REIT Unt",
-    "link": "https://www.investing.com/equities/cpn-retail-growth-leasehold-reit",
-    "price": 12.95,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 10.457799911499023,
-    "fairValueUpside": -19.23999935388565,
-    "peRatio": 11.520000457763672,
-    "evEbitda": null,
-    "marketCap": 46890000000,
-    "marketCapFormatted": "46.89B",
-    "epsGrowth5y": 5.6928486824035645,
-    "changeOneDayPercent": 0.0,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "GOOD",
-    "financialGrowthHealth": "GOOD",
-    "financialProfitabilityHealth": "GREAT",
-    "analystRatings": "BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-27T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T05:48:10.894622+07:00"
+    "fetchedAt": "2026-11-28T05:59:03.424930+07:00"
   },
   {
     "id": "102683",
@@ -237,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T05:48:10.894622+07:00"
+    "fetchedAt": "2026-11-28T05:59:03.424930+07:00"
   },
   {
     "id": "102751",
@@ -267,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T05:48:10.894622+07:00"
+    "fetchedAt": "2026-11-28T05:59:03.424930+07:00"
   },
   {
     "id": "102567",
@@ -282,8 +252,8 @@
     "fairValueUpside": -15.219999849796295,
     "peRatio": 10.699999809265137,
     "evEbitda": null,
-    "marketCap": 90750000000,
-    "marketCapFormatted": "90.75B",
+    "marketCap": 89930000000,
+    "marketCapFormatted": "89.93B",
     "epsGrowth5y": 0.11424321681261063,
     "changeOneDayPercent": -0.48,
     "financialHealth": "GOOD",
@@ -297,7 +267,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T05:48:10.894622+07:00"
+    "fetchedAt": "2026-11-28T05:59:03.424930+07:00"
+  },
+  {
+    "id": "102560",
+    "symbol": "KBANK",
+    "name": "Kasikornbank PCL",
+    "shortName": "Kasikornbank",
+    "link": "https://www.investing.com/equities/kasikornbank",
+    "price": 246.0,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 208.69869995117188,
+    "fairValueUpside": -15.160000324249268,
+    "peRatio": 11.380000114440918,
+    "evEbitda": null,
+    "marketCap": 578350000000,
+    "marketCapFormatted": "578.35B",
+    "epsGrowth5y": 0.0825149193406105,
+    "changeOneDayPercent": 1.23,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "FAIR",
+    "financialGrowthHealth": "GOOD",
+    "financialProfitabilityHealth": "GOOD",
+    "analystRatings": "BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-27T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
+    "fetchedAt": "2026-11-28T05:59:03.424930+07:00"
   },
   {
     "id": "102714",
@@ -327,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T05:48:10.894622+07:00"
+    "fetchedAt": "2026-11-28T05:59:03.424930+07:00"
   },
   {
     "id": "102869",
@@ -357,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T05:48:10.894622+07:00"
+    "fetchedAt": "2026-11-28T05:59:03.424930+07:00"
   },
   {
     "id": "1199621",
@@ -387,6 +387,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T05:48:10.894622+07:00"
+    "fetchedAt": "2026-11-28T05:59:03.424930+07:00"
   }
 ]
