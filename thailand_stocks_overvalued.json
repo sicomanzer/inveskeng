@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-26T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-26T10:49:59.000Z",
-    "fetchedAt": "2026-11-27T09:19:54.220149+07:00"
+    "fetchedAt": "2026-11-27T09:31:12.569109+07:00"
   },
   {
     "id": "986147",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-26T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-26T10:49:59.000Z",
-    "fetchedAt": "2026-11-27T09:19:54.220149+07:00"
+    "fetchedAt": "2026-11-27T09:31:12.569109+07:00"
   },
   {
     "id": "1165537",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-26T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-26T10:49:59.000Z",
-    "fetchedAt": "2026-11-27T09:19:54.220149+07:00"
+    "fetchedAt": "2026-11-27T09:31:12.569109+07:00"
   },
   {
     "id": "1209591",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-26T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-26T10:49:59.000Z",
-    "fetchedAt": "2026-11-27T09:19:54.220149+07:00"
+    "fetchedAt": "2026-11-27T09:31:12.569109+07:00"
   },
   {
     "id": "102451",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-26T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-26T10:49:59.000Z",
-    "fetchedAt": "2026-11-27T09:19:54.220149+07:00"
+    "fetchedAt": "2026-11-27T09:31:12.569109+07:00"
   },
   {
     "id": "1130942",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-26T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-26T10:49:59.000Z",
-    "fetchedAt": "2026-11-27T09:19:54.220149+07:00"
+    "fetchedAt": "2026-11-27T09:31:12.569109+07:00"
   },
   {
     "id": "102683",
@@ -207,7 +207,67 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-26T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-26T10:49:59.000Z",
-    "fetchedAt": "2026-11-27T09:19:54.220149+07:00"
+    "fetchedAt": "2026-11-27T09:31:12.569109+07:00"
+  },
+  {
+    "id": "102567",
+    "symbol": "KKP",
+    "name": "Kiatnakin Phatra Bank Public Company Limited",
+    "shortName": "Kiatnakin",
+    "link": "https://www.investing.com/equities/kiatnakin-bank",
+    "price": 105.0,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 88.59259796142578,
+    "fairValueUpside": -15.629999339580536,
+    "peRatio": 11.220000267028809,
+    "evEbitda": null,
+    "marketCap": 90360000000,
+    "marketCapFormatted": "90.36B",
+    "epsGrowth5y": 0.11424321681261063,
+    "changeOneDayPercent": -4.55,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "FAIR",
+    "financialGrowthHealth": "GOOD",
+    "financialProfitabilityHealth": "GREAT",
+    "analystRatings": "BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-26T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-26T10:49:59.000Z",
+    "fetchedAt": "2026-11-27T09:31:12.569109+07:00"
+  },
+  {
+    "id": "102560",
+    "symbol": "KBANK",
+    "name": "Kasikornbank PCL",
+    "shortName": "Kasikornbank",
+    "link": "https://www.investing.com/equities/kasikornbank",
+    "price": 243.0,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 208.69869995117188,
+    "fairValueUpside": -14.12000060081482,
+    "peRatio": 11.239999771118164,
+    "evEbitda": null,
+    "marketCap": 571300000000,
+    "marketCapFormatted": "571.30B",
+    "epsGrowth5y": 0.0825149193406105,
+    "changeOneDayPercent": -1.62,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "FAIR",
+    "financialGrowthHealth": "GOOD",
+    "financialProfitabilityHealth": "GOOD",
+    "analystRatings": "BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-26T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-26T10:49:59.000Z",
+    "fetchedAt": "2026-11-27T09:31:12.569109+07:00"
   },
   {
     "id": "102561",
@@ -237,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-26T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-26T10:49:59.000Z",
-    "fetchedAt": "2026-11-27T09:19:54.220149+07:00"
+    "fetchedAt": "2026-11-27T09:31:12.569109+07:00"
   },
   {
     "id": "102442",
@@ -267,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-26T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-26T10:49:59.000Z",
-    "fetchedAt": "2026-11-27T09:19:54.220149+07:00"
+    "fetchedAt": "2026-11-27T09:31:12.569109+07:00"
   },
   {
     "id": "102751",
@@ -297,6 +357,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-26T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-26T10:49:59.000Z",
-    "fetchedAt": "2026-11-27T09:19:54.220149+07:00"
+    "fetchedAt": "2026-11-27T09:31:12.569109+07:00"
   }
 ]
