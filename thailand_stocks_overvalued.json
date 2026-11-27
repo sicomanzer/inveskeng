@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T01:20:34.962468+07:00"
+    "fetchedAt": "2026-11-28T01:31:22.617884+07:00"
   },
   {
     "id": "986147",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T01:20:34.962468+07:00"
+    "fetchedAt": "2026-11-28T01:31:22.617884+07:00"
   },
   {
     "id": "102451",
@@ -87,37 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T01:20:34.962468+07:00"
-  },
-  {
-    "id": "1165537",
-    "symbol": "PROSPECTu",
-    "name": "Prospect Logistics and Industrial Freehold and Leasehold Real Estate Investment",
-    "shortName": "Prospect",
-    "link": "https://www.investing.com/equities/prospect-logistics-and-industrial",
-    "price": 8.48,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 6.644499778747559,
-    "fairValueUpside": -21.649999916553497,
-    "peRatio": 15.050000190734863,
-    "evEbitda": null,
-    "marketCap": 8510000000,
-    "marketCapFormatted": "8.51B",
-    "epsGrowth5y": 0.0514681413769722,
-    "changeOneDayPercent": 0.24,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "WEAK",
-    "financialGrowthHealth": "GREAT",
-    "financialProfitabilityHealth": "GREAT",
-    "analystRatings": "NEUTRAL",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-27T10:49:59.000Z",
-    "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T01:20:34.962468+07:00"
+    "fetchedAt": "2026-11-28T01:31:22.617884+07:00"
   },
   {
     "id": "103855",
@@ -147,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T01:20:34.962468+07:00"
+    "fetchedAt": "2026-11-28T01:31:22.617884+07:00"
   },
   {
     "id": "102561",
@@ -177,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T01:20:34.962468+07:00"
+    "fetchedAt": "2026-11-28T01:31:22.617884+07:00"
   },
   {
     "id": "1130942",
@@ -207,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T01:20:34.962468+07:00"
+    "fetchedAt": "2026-11-28T01:31:22.617884+07:00"
   },
   {
     "id": "102683",
@@ -237,7 +207,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T01:20:34.962468+07:00"
+    "fetchedAt": "2026-11-28T01:31:22.617884+07:00"
+  },
+  {
+    "id": "102751",
+    "symbol": "STA",
+    "name": "Sri Trang Agro Industry PCL",
+    "shortName": "Sri Trang Agro",
+    "link": "https://www.investing.com/equities/sri-trang-agro",
+    "price": 17.2,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 14.558600425720215,
+    "fairValueUpside": -15.360000729560852,
+    "peRatio": 15.369999885559082,
+    "evEbitda": 9.08460807800293,
+    "marketCap": 26420000000,
+    "marketCapFormatted": "26.42B",
+    "epsGrowth5y": 0.9898490309715271,
+    "changeOneDayPercent": 3.61,
+    "financialHealth": "FAIR",
+    "financialCashFlowHealth": "FAIR",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "FAIR",
+    "analystRatings": "STRONG_BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-27T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
+    "fetchedAt": "2026-11-28T01:31:22.617884+07:00"
   },
   {
     "id": "102567",
@@ -267,7 +267,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T01:20:34.962468+07:00"
+    "fetchedAt": "2026-11-28T01:31:22.617884+07:00"
+  },
+  {
+    "id": "102560",
+    "symbol": "KBANK",
+    "name": "Kasikornbank PCL",
+    "shortName": "Kasikornbank",
+    "link": "https://www.investing.com/equities/kasikornbank",
+    "price": 246.0,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 208.69869995117188,
+    "fairValueUpside": -15.160000324249268,
+    "peRatio": 11.380000114440918,
+    "evEbitda": null,
+    "marketCap": 578350000000,
+    "marketCapFormatted": "578.35B",
+    "epsGrowth5y": 0.0825149193406105,
+    "changeOneDayPercent": 1.23,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "FAIR",
+    "financialGrowthHealth": "GOOD",
+    "financialProfitabilityHealth": "GOOD",
+    "analystRatings": "BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-27T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
+    "fetchedAt": "2026-11-28T01:31:22.617884+07:00"
   },
   {
     "id": "102714",
@@ -297,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T01:20:34.962468+07:00"
+    "fetchedAt": "2026-11-28T01:31:22.617884+07:00"
   },
   {
     "id": "102869",
@@ -327,7 +357,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T01:20:34.962468+07:00"
+    "fetchedAt": "2026-11-28T01:31:22.617884+07:00"
   },
   {
     "id": "1199621",
@@ -357,6 +387,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T01:20:34.962468+07:00"
+    "fetchedAt": "2026-11-28T01:31:22.617884+07:00"
   }
 ]
