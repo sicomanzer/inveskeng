@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-27T05:29:59.000Z",
-    "fetchedAt": "2026-11-27T13:40:45.127635+07:00"
+    "fetchedAt": "2026-11-27T13:52:03.787314+07:00"
   },
   {
     "id": "986147",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-27T05:29:59.000Z",
-    "fetchedAt": "2026-11-27T13:40:45.127635+07:00"
+    "fetchedAt": "2026-11-27T13:52:03.787314+07:00"
   },
   {
     "id": "102451",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-27T05:29:59.000Z",
-    "fetchedAt": "2026-11-27T13:40:45.127635+07:00"
+    "fetchedAt": "2026-11-27T13:52:03.787314+07:00"
   },
   {
     "id": "1165537",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-27T05:29:59.000Z",
-    "fetchedAt": "2026-11-27T13:40:45.127635+07:00"
+    "fetchedAt": "2026-11-27T13:52:03.787314+07:00"
   },
   {
     "id": "103855",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-27T05:29:59.000Z",
-    "fetchedAt": "2026-11-27T13:40:45.127635+07:00"
+    "fetchedAt": "2026-11-27T13:52:03.787314+07:00"
   },
   {
     "id": "1130942",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-27T05:29:59.000Z",
-    "fetchedAt": "2026-11-27T13:40:45.127635+07:00"
+    "fetchedAt": "2026-11-27T13:52:03.787314+07:00"
   },
   {
     "id": "102683",
@@ -207,37 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-27T05:29:59.000Z",
-    "fetchedAt": "2026-11-27T13:40:45.127635+07:00"
-  },
-  {
-    "id": "102561",
-    "symbol": "KCE",
-    "name": "KCE Electronics PCL",
-    "shortName": "KCE Electronics",
-    "link": "https://www.investing.com/equities/kce-elec",
-    "price": 53.75,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 44.56840133666992,
-    "fairValueUpside": -17.080000042915344,
-    "peRatio": 56.81999969482422,
-    "evEbitda": 29.846559524536133,
-    "marketCap": 63540000000,
-    "marketCapFormatted": "63.54B",
-    "epsGrowth5y": -0.009749066084623337,
-    "changeOneDayPercent": 3.86,
-    "financialHealth": "FAIR",
-    "financialCashFlowHealth": "GREAT",
-    "financialGrowthHealth": "FAIR",
-    "financialProfitabilityHealth": "GOOD",
-    "analystRatings": "BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-27T05:29:59.000Z",
-    "sourceUpdatedTime": "2026-11-27T05:29:59.000Z",
-    "fetchedAt": "2026-11-27T13:40:45.127635+07:00"
+    "fetchedAt": "2026-11-27T13:52:03.787314+07:00"
   },
   {
     "id": "102751",
@@ -267,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-27T05:29:59.000Z",
-    "fetchedAt": "2026-11-27T13:40:45.127635+07:00"
+    "fetchedAt": "2026-11-27T13:52:03.787314+07:00"
   },
   {
     "id": "102560",
@@ -297,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-27T05:29:59.000Z",
-    "fetchedAt": "2026-11-27T13:40:45.127635+07:00"
+    "fetchedAt": "2026-11-27T13:52:03.787314+07:00"
   },
   {
     "id": "102567",
@@ -327,67 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-27T05:29:59.000Z",
-    "fetchedAt": "2026-11-27T13:40:45.127635+07:00"
-  },
-  {
-    "id": "102714",
-    "symbol": "SIRI",
-    "name": "Sansiri PCL",
-    "shortName": "Sansiri",
-    "link": "https://www.investing.com/equities/sansiri",
-    "price": 1.38,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 1.2060999870300293,
-    "fairValueUpside": -12.600000202655792,
-    "peRatio": 5.590000152587891,
-    "evEbitda": 19.07825469970703,
-    "marketCap": 24260000000,
-    "marketCapFormatted": "24.26B",
-    "epsGrowth5y": 0.3030032515525818,
-    "changeOneDayPercent": 0.73,
-    "financialHealth": "GOOD",
-    "financialCashFlowHealth": "FAIR",
-    "financialGrowthHealth": "FAIR",
-    "financialProfitabilityHealth": "GOOD",
-    "analystRatings": "STRONG_BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-27T05:29:59.000Z",
-    "sourceUpdatedTime": "2026-11-27T05:29:59.000Z",
-    "fetchedAt": "2026-11-27T13:40:45.127635+07:00"
-  },
-  {
-    "id": "102869",
-    "symbol": "WHA",
-    "name": "WHA Corporation PCL",
-    "shortName": "WHA Corp",
-    "link": "https://www.investing.com/equities/wha-corporatio",
-    "price": 4.24,
-    "currency": "THB",
-    "currencySymbol": "฿",
-    "fairValue": 3.7946999073028564,
-    "fairValueUpside": -10.499999672174454,
-    "peRatio": 14.510000228881836,
-    "evEbitda": 17.30242156982422,
-    "marketCap": 63370000000,
-    "marketCapFormatted": "63.37B",
-    "epsGrowth5y": 0.16825425624847412,
-    "changeOneDayPercent": 2.42,
-    "financialHealth": "FAIR",
-    "financialCashFlowHealth": "FAIR",
-    "financialGrowthHealth": "WEAK",
-    "financialProfitabilityHealth": "GREAT",
-    "analystRatings": "BUY",
-    "flagCode": "TH",
-    "flagName": "Thailand",
-    "market": "SET",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-27T05:29:59.000Z",
-    "sourceUpdatedTime": "2026-11-27T05:29:59.000Z",
-    "fetchedAt": "2026-11-27T13:40:45.127635+07:00"
+    "fetchedAt": "2026-11-27T13:52:03.787314+07:00"
   },
   {
     "id": "1199621",
@@ -417,6 +327,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T05:29:59.000Z",
     "sourceUpdatedTime": "2026-11-27T05:29:59.000Z",
-    "fetchedAt": "2026-11-27T13:40:45.127635+07:00"
+    "fetchedAt": "2026-11-27T13:52:03.787314+07:00"
   }
 ]
