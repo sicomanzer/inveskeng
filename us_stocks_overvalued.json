@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
-    "fetchedAt": "2026-11-27T11:18:42.127489+07:00"
+    "fetchedAt": "2026-11-27T11:39:13.706754+07:00"
   },
   {
     "id": "1131557",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
-    "fetchedAt": "2026-11-27T11:18:42.127489+07:00"
+    "fetchedAt": "2026-11-27T11:39:13.706754+07:00"
   },
   {
     "id": "261",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
-    "fetchedAt": "2026-11-27T11:18:42.127489+07:00"
+    "fetchedAt": "2026-11-27T11:39:13.706754+07:00"
   },
   {
     "id": "1169889",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
-    "fetchedAt": "2026-11-27T11:18:42.127489+07:00"
+    "fetchedAt": "2026-11-27T11:39:13.706754+07:00"
   },
   {
     "id": "41268",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
-    "fetchedAt": "2026-11-27T11:18:42.127489+07:00"
+    "fetchedAt": "2026-11-27T11:39:13.706754+07:00"
   },
   {
     "id": "13994",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
-    "fetchedAt": "2026-11-27T11:18:42.127489+07:00"
+    "fetchedAt": "2026-11-27T11:39:13.706754+07:00"
   },
   {
     "id": "13852",
@@ -207,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
-    "fetchedAt": "2026-11-27T11:18:42.127489+07:00"
+    "fetchedAt": "2026-11-27T11:39:13.706754+07:00"
   },
   {
     "id": "13848",
@@ -237,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
-    "fetchedAt": "2026-11-27T11:18:42.127489+07:00"
+    "fetchedAt": "2026-11-27T11:39:13.706754+07:00"
   },
   {
     "id": "7997",
@@ -267,7 +267,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
-    "fetchedAt": "2026-11-27T11:18:42.127489+07:00"
+    "fetchedAt": "2026-11-27T11:39:13.706754+07:00"
   },
   {
     "id": "8158",
@@ -297,7 +297,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
-    "fetchedAt": "2026-11-27T11:18:42.127489+07:00"
+    "fetchedAt": "2026-11-27T11:39:13.706754+07:00"
   },
   {
     "id": "20299",
@@ -327,7 +327,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
-    "fetchedAt": "2026-11-27T11:18:42.127489+07:00"
+    "fetchedAt": "2026-11-27T11:39:13.706754+07:00"
   },
   {
     "id": "255",
@@ -357,7 +357,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
-    "fetchedAt": "2026-11-27T11:18:42.127489+07:00"
+    "fetchedAt": "2026-11-27T11:39:13.706754+07:00"
+  },
+  {
+    "id": "20486",
+    "symbol": "DLR",
+    "name": "Digital Realty Trust Inc",
+    "shortName": "Digital Realty",
+    "link": "https://www.investing.com/equities/digital-realty-trust-inc",
+    "price": 166.43,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 130.87,
+    "fairValueUpside": -21.37,
+    "peRatio": 69.93,
+    "evEbitda": 23.92,
+    "marketCap": 64070000000,
+    "marketCapFormatted": "64.07 พันล้าน",
+    "epsGrowth5y": 0.8,
+    "changeOneDayPercent": 0.67,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "ดีมาก",
+    "financialGrowthHealth": "ดี",
+    "financialProfitabilityHealth": "มูลค่าตามจริง",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-25T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
+    "fetchedAt": "2026-11-27T11:39:13.706754+07:00"
   },
   {
     "id": "8193",
@@ -387,7 +417,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
-    "fetchedAt": "2026-11-27T11:18:42.127489+07:00"
+    "fetchedAt": "2026-11-27T11:39:13.706754+07:00"
+  },
+  {
+    "id": "238",
+    "symbol": "BA",
+    "name": "Boeing Co",
+    "shortName": "Boeing",
+    "link": "https://www.investing.com/equities/boeing-co",
+    "price": 164.53,
+    "currency": "USD",
+    "currencySymbol": "$",
+    "fairValue": 130.87,
+    "fairValueUpside": -20.46,
+    "peRatio": 17.71,
+    "evEbitda": 75.22,
+    "marketCap": 130380000000,
+    "marketCapFormatted": "130.38 พันล้าน",
+    "epsGrowth5y": -0.12,
+    "changeOneDayPercent": 0.57,
+    "financialHealth": "มูลค่าตามจริง",
+    "financialCashFlowHealth": "แย่",
+    "financialGrowthHealth": "ดีมาก",
+    "financialProfitabilityHealth": "มูลค่าตามจริง",
+    "analystRatings": "ซื้อทันที",
+    "flagCode": "US",
+    "flagName": "United States",
+    "market": "US",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-25T20:59:59.000Z",
+    "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
+    "fetchedAt": "2026-11-27T11:39:13.706754+07:00"
   },
   {
     "id": "13866",
@@ -417,7 +477,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
-    "fetchedAt": "2026-11-27T11:18:42.127489+07:00"
+    "fetchedAt": "2026-11-27T11:39:13.706754+07:00"
   },
   {
     "id": "20164",
@@ -447,7 +507,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
-    "fetchedAt": "2026-11-27T11:18:42.127489+07:00"
+    "fetchedAt": "2026-11-27T11:39:13.706754+07:00"
   },
   {
     "id": "13067",
@@ -477,37 +537,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
-    "fetchedAt": "2026-11-27T11:18:42.127489+07:00"
-  },
-  {
-    "id": "8136",
-    "symbol": "MAR",
-    "name": "Marriott International Inc",
-    "shortName": "Marriott International",
-    "link": "https://www.investing.com/equities/marriott-intl",
-    "price": 415.77,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 335.58,
-    "fairValueUpside": -19.29,
-    "peRatio": 41.64,
-    "evEbitda": 24.68,
-    "marketCap": 107060000000,
-    "marketCapFormatted": "107.06 พันล้าน",
-    "epsGrowth5y": 1.11,
-    "changeOneDayPercent": -0.11,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "ดี",
-    "financialGrowthHealth": "ดีมาก",
-    "financialProfitabilityHealth": "ดีเยี่ยม",
-    "analystRatings": "ซื้อ",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-25T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
-    "fetchedAt": "2026-11-27T11:18:42.127489+07:00"
+    "fetchedAt": "2026-11-27T11:39:13.706754+07:00"
   },
   {
     "id": "6500",
@@ -537,7 +567,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
-    "fetchedAt": "2026-11-27T11:18:42.127489+07:00"
+    "fetchedAt": "2026-11-27T11:39:13.706754+07:00"
   },
   {
     "id": "7881",
@@ -567,37 +597,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
-    "fetchedAt": "2026-11-27T11:18:42.127489+07:00"
+    "fetchedAt": "2026-11-27T11:39:13.706754+07:00"
   },
   {
-    "id": "8016",
-    "symbol": "CMS",
-    "name": "CMS Energy Corporation",
-    "shortName": "CMS Energy",
-    "link": "https://www.investing.com/equities/cms-energy-corp",
-    "price": 71.6,
+    "id": "8339",
+    "symbol": "ECL",
+    "name": "Ecolab Inc",
+    "shortName": "Ecolab",
+    "link": "https://www.investing.com/equities/ecolab-inc",
+    "price": 308.89,
     "currency": "USD",
     "currencySymbol": "$",
-    "fairValue": 58.26,
-    "fairValueUpside": -18.63,
-    "peRatio": 25.67,
-    "evEbitda": 13.63,
-    "marketCap": 22460000000,
-    "marketCapFormatted": "22.46 พันล้าน",
-    "epsGrowth5y": 0.05,
-    "changeOneDayPercent": 0.83,
-    "financialHealth": "มูลค่าตามจริง",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "มูลค่าตามจริง",
-    "financialProfitabilityHealth": "ดี",
-    "analystRatings": "ซื้อ",
+    "fairValue": 252.79,
+    "fairValueUpside": -18.16,
+    "peRatio": 42.11,
+    "evEbitda": 22.39,
+    "marketCap": 86630000000,
+    "marketCapFormatted": "86.63 พันล้าน",
+    "epsGrowth5y": 0.18,
+    "changeOneDayPercent": 0.57,
+    "financialHealth": "ดี",
+    "financialCashFlowHealth": "ดี",
+    "financialGrowthHealth": "ดี",
+    "financialProfitabilityHealth": "ดีเยี่ยม",
+    "analystRatings": "ซื้อทันที",
     "flagCode": "US",
     "flagName": "United States",
     "market": "US",
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
-    "fetchedAt": "2026-11-27T11:18:42.127489+07:00"
+    "fetchedAt": "2026-11-27T11:39:13.706754+07:00"
   },
   {
     "id": "39166",
@@ -627,7 +657,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
-    "fetchedAt": "2026-11-27T11:18:42.127489+07:00"
+    "fetchedAt": "2026-11-27T11:39:13.706754+07:00"
   },
   {
     "id": "239",
@@ -657,7 +687,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
-    "fetchedAt": "2026-11-27T11:18:42.127489+07:00"
+    "fetchedAt": "2026-11-27T11:39:13.706754+07:00"
   },
   {
     "id": "8104",
@@ -687,7 +717,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
-    "fetchedAt": "2026-11-27T11:18:42.127489+07:00"
+    "fetchedAt": "2026-11-27T11:39:13.706754+07:00"
   },
   {
     "id": "7976",
@@ -717,7 +747,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
-    "fetchedAt": "2026-11-27T11:18:42.127489+07:00"
+    "fetchedAt": "2026-11-27T11:39:13.706754+07:00"
   },
   {
     "id": "29723",
@@ -747,7 +777,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
-    "fetchedAt": "2026-11-27T11:18:42.127489+07:00"
+    "fetchedAt": "2026-11-27T11:39:13.706754+07:00"
   },
   {
     "id": "7916",
@@ -777,7 +807,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
-    "fetchedAt": "2026-11-27T11:18:42.127489+07:00"
+    "fetchedAt": "2026-11-27T11:39:13.706754+07:00"
   },
   {
     "id": "7943",
@@ -807,7 +837,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
-    "fetchedAt": "2026-11-27T11:18:42.127489+07:00"
+    "fetchedAt": "2026-11-27T11:39:13.706754+07:00"
   },
   {
     "id": "7906",
@@ -837,7 +867,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
-    "fetchedAt": "2026-11-27T11:18:42.127489+07:00"
+    "fetchedAt": "2026-11-27T11:39:13.706754+07:00"
   },
   {
     "id": "276",
@@ -867,36 +897,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-25T20:59:59.000Z",
     "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
-    "fetchedAt": "2026-11-27T11:18:42.127489+07:00"
-  },
-  {
-    "id": "7956",
-    "symbol": "SO",
-    "name": "Southern Company",
-    "shortName": "Southern",
-    "link": "https://www.investing.com/equities/southern-co",
-    "price": 95.0,
-    "currency": "USD",
-    "currencySymbol": "$",
-    "fairValue": 79.95,
-    "fairValueUpside": -15.84,
-    "peRatio": 21.6,
-    "evEbitda": 12.81,
-    "marketCap": 114400000000,
-    "marketCapFormatted": "114.4 พันล้าน",
-    "epsGrowth5y": 0.09,
-    "changeOneDayPercent": 0.95,
-    "financialHealth": "ดี",
-    "financialCashFlowHealth": "มูลค่าตามจริง",
-    "financialGrowthHealth": "ดี",
-    "financialProfitabilityHealth": "ดีมาก",
-    "analystRatings": "ถือหุ้นไว้",
-    "flagCode": "US",
-    "flagName": "United States",
-    "market": "US",
-    "valuationType": "overvalued",
-    "lastUpdateTime": "2026-11-25T20:59:59.000Z",
-    "sourceUpdatedTime": "2026-11-25T20:59:59.000Z",
-    "fetchedAt": "2026-11-27T11:18:42.127489+07:00"
+    "fetchedAt": "2026-11-27T11:39:13.706754+07:00"
   }
 ]
