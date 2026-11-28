@@ -27,7 +27,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T07:37:37.621258+07:00"
+    "fetchedAt": "2026-11-28T07:48:56.594063+07:00"
   },
   {
     "id": "986147",
@@ -57,7 +57,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T07:37:37.621258+07:00"
+    "fetchedAt": "2026-11-28T07:48:56.594063+07:00"
   },
   {
     "id": "102451",
@@ -87,7 +87,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T07:37:37.621258+07:00"
+    "fetchedAt": "2026-11-28T07:48:56.594063+07:00"
   },
   {
     "id": "1165537",
@@ -117,7 +117,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T07:37:37.621258+07:00"
+    "fetchedAt": "2026-11-28T07:48:56.594063+07:00"
   },
   {
     "id": "103855",
@@ -147,7 +147,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T07:37:37.621258+07:00"
+    "fetchedAt": "2026-11-28T07:48:56.594063+07:00"
   },
   {
     "id": "102561",
@@ -177,7 +177,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T07:37:37.621258+07:00"
+    "fetchedAt": "2026-11-28T07:48:56.594063+07:00"
   },
   {
     "id": "1130942",
@@ -207,7 +207,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T07:37:37.621258+07:00"
+    "fetchedAt": "2026-11-28T07:48:56.594063+07:00"
   },
   {
     "id": "102683",
@@ -237,7 +237,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T07:37:37.621258+07:00"
+    "fetchedAt": "2026-11-28T07:48:56.594063+07:00"
   },
   {
     "id": "102751",
@@ -267,7 +267,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T07:37:37.621258+07:00"
+    "fetchedAt": "2026-11-28T07:48:56.594063+07:00"
+  },
+  {
+    "id": "102567",
+    "symbol": "KKP",
+    "name": "Kiatnakin Phatra Bank Public Company Limited",
+    "shortName": "Kiatnakin",
+    "link": "https://www.investing.com/equities/kiatnakin-bank",
+    "price": 104.5,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 88.59259796142578,
+    "fairValueUpside": -15.219999849796295,
+    "peRatio": 10.699999809265137,
+    "evEbitda": null,
+    "marketCap": 89930000000,
+    "marketCapFormatted": "89.93B",
+    "epsGrowth5y": 0.11424321681261063,
+    "changeOneDayPercent": -0.48,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "FAIR",
+    "financialGrowthHealth": "GOOD",
+    "financialProfitabilityHealth": "GREAT",
+    "analystRatings": "BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-27T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
+    "fetchedAt": "2026-11-28T07:48:56.594063+07:00"
   },
   {
     "id": "102560",
@@ -297,7 +327,37 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T07:37:37.621258+07:00"
+    "fetchedAt": "2026-11-28T07:48:56.594063+07:00"
+  },
+  {
+    "id": "102714",
+    "symbol": "SIRI",
+    "name": "Sansiri PCL",
+    "shortName": "Sansiri",
+    "link": "https://www.investing.com/equities/sansiri",
+    "price": 1.39,
+    "currency": "THB",
+    "currencySymbol": "฿",
+    "fairValue": 1.2062000036239624,
+    "fairValueUpside": -13.230000436306,
+    "peRatio": 5.630000114440918,
+    "evEbitda": 19.07825469970703,
+    "marketCap": 24430000000,
+    "marketCapFormatted": "24.43B",
+    "epsGrowth5y": 0.3030032515525818,
+    "changeOneDayPercent": 1.46,
+    "financialHealth": "GOOD",
+    "financialCashFlowHealth": "FAIR",
+    "financialGrowthHealth": "FAIR",
+    "financialProfitabilityHealth": "GOOD",
+    "analystRatings": "STRONG_BUY",
+    "flagCode": "TH",
+    "flagName": "Thailand",
+    "market": "SET",
+    "valuationType": "overvalued",
+    "lastUpdateTime": "2026-11-27T10:49:59.000Z",
+    "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
+    "fetchedAt": "2026-11-28T07:48:56.594063+07:00"
   },
   {
     "id": "102869",
@@ -327,7 +387,7 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T07:37:37.621258+07:00"
+    "fetchedAt": "2026-11-28T07:48:56.594063+07:00"
   },
   {
     "id": "1199621",
@@ -357,6 +417,6 @@
     "valuationType": "overvalued",
     "lastUpdateTime": "2026-11-27T10:49:59.000Z",
     "sourceUpdatedTime": "2026-11-27T10:49:59.000Z",
-    "fetchedAt": "2026-11-28T07:37:37.621258+07:00"
+    "fetchedAt": "2026-11-28T07:48:56.594063+07:00"
   }
 ]
